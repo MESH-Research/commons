@@ -1,0 +1,6 @@
+# WP Core
+/public/wp-*
+/public/index.php
+/public/license.txt
+/public/readme.html
+/public/xmlrpc.php
