@@ -92,13 +92,13 @@ define('WPCACHEHOME', ABSPATH . 'wp-content/plugins/wp-super-cache/');
 /** Akismet **/
 define('WPCOM_API_KEY','{{ wordpress_akismet_key | default('') }}');
 
-/** MLA Authentication **/
-define('MLA_AUTHENTICATION_SECRET_TOKEN', '{{ wordpress_secret_token_1 | default('') }}');
-define('MLA_GROUPS_SECRET_TOKEN', '{{ wordpress_secret_token_2 | default('') }}');
+/** CBOX authentication **/
+define('CBOX_AUTH_SECRET_TOKEN', '{{ wordpress_secret_token_1 | default('') }}');
+define('CBOX_AUTH_GROUPS_SECRET_TOKEN', '{{ wordpress_secret_token_2 | default('') }}');
 
-/** MLA Debugging **/
-define('MLA_DEBUG', false);
-define('MLA_DEBUG_LOG', ABSPATH . '../log/mla_%t.log');
+/** CBOX authentication debugging **/
+define('CBOX_AUTH_DEBUG', false);
+define('CBOX_AUTH_DEBUG_LOG', ABSPATH . '../log/auth_%t.log');
 
 /** CHANGE: Enforce SSL login and admin. **/
 define('FORCE_SSL_ADMIN', false);
