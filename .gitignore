@@ -1,4 +1,5 @@
 # WP Core
+/wp-config.php
 /public/wp-*
 /public/index.php
 /public/license.txt
