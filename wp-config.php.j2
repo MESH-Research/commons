@@ -88,7 +88,7 @@ define('CBOX_AUTH_GROUPS_SECRET_TOKEN', '{{ wordpress_secret_token_2 | default('
 
 /** CBOX authentication debugging **/
 define('CBOX_AUTH_DEBUG', false);
-define('CBOX_AUTH_DEBUG_LOG', ABSPATH . '../log/auth_%t.log');
+define('CBOX_AUTH_DEBUG_LOG', ABSPATH . '{{ admin_home_directory }}/log/cbox_auth_%t.log');
 
 /** CHANGE: Enforce SSL login and admin. **/
 define('FORCE_SSL_ADMIN', false);
@@ -111,6 +111,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 /** CHANGE: Disable outgoing mail. Comment out to enable. **/
 function wp_mail(){}
+
 
 /* That's all, stop editing! Happy blogging. */
 
