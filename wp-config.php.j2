@@ -110,7 +110,7 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /** CHANGE: Redirect nonexistent blogs to network home. **/
-define('NOBLOGREDIRECT', 'http://commons.mla.org');
+define('NOBLOGREDIRECT', 'http://{{ wordpress_hostname }}');
 
 /** CHANGE: Disable outgoing mail. Comment out to enable. **/
 function wp_mail(){}
