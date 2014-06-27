@@ -730,7 +730,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-notifications.php:164
 msgid "%s replied to one of your updates"
-msgstr ""
+msgstr "%s replied to one of your announcements"
 
 #: bp-activity/bp-activity-notifications.php:165
 msgid ""
@@ -742,6 +742,13 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
+"%1$s replied to one of your announcements:\n"
+"\n"
+"\"%2$s\"\n"
+"\n"
+"To view your original announcement and all comments, log in and visit: %3$s\n"
+"\n"
+"---------------------\n"
 
 #: bp-activity/bp-activity-notifications.php:209
 msgid "%s replied to one of your comments"
@@ -5319,7 +5326,7 @@ msgstr ""
 #: bp-themes/bp-default/groups/single/activity.php:11
 #: bp-themes/bp-default/members/single/activity.php:21
 msgid "Updates"
-msgstr ""
+msgstr "Announcements"
 
 #: bp-templates/bp-legacy/buddypress/activity/index.php:84
 #: bp-templates/bp-legacy/buddypress/members/single/activity.php:28
