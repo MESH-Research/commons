@@ -2905,7 +2905,7 @@ msgstr "Contact Requested"
 #: bp-friends/bp-friends-template.php:352
 #: bp-friends/bp-friends-template.php:353
 msgid "Cancel Friendship"
-msgstr "Cancel contactship"
+msgstr "Cancel Contact"
 
 #: bp-friends/bp-friends-template.php:369
 #: bp-friends/bp-friends-template.php:370
