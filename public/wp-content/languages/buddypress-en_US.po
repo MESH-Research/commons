@@ -836,7 +836,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-template.php:1348
 msgid "Profile picture of the author of the site %s"
-msgstr ""
+msgstr "Profile picture of the author of the blog %s"
 
 #: bp-activity/bp-activity-template.php:1578
 msgid "View Discussion"
@@ -894,7 +894,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-activity.php:34
 msgid "New site created"
-msgstr ""
+msgstr "New blog created"
 
 #: bp-blogs/bp-blogs-activity.php:42
 msgid "New post published"
@@ -906,11 +906,11 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-activity.php:69
 msgid "%s created the site %s"
-msgstr ""
+msgstr "%s created the blog %s"
 
 #: bp-blogs/bp-blogs-activity.php:128 bp-blogs/bp-blogs-functions.php:452
 msgid "%1$s wrote a new post, %2$s, on the site %3$s"
-msgstr ""
+msgstr "%1$s wrote a new post, %2$s, on the blog %3$s"
 
 #: bp-blogs/bp-blogs-activity.php:130 bp-blogs/bp-blogs-functions.php:454
 msgid "%1$s wrote a new post, %2$s"
@@ -918,7 +918,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-activity.php:195
 msgid "%1$s commented on the post, %2$s, on the site %3$s"
-msgstr ""
+msgstr "%1$s commented on the post, %2$s, on the blog %3$s"
 
 #: bp-blogs/bp-blogs-activity.php:197
 msgid "%1$s commented on the post, %2$s"
@@ -947,24 +947,24 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-buddybar.php:70
 msgid "Create a Site!"
-msgstr ""
+msgstr "Create a Blog!"
 
 #: bp-blogs/bp-blogs-loader.php:25 bp-core/admin/bp-core-components.php:396
 msgid "Site Tracking"
-msgstr ""
+msgstr "Blog Directory"
 
 #: bp-blogs/bp-blogs-loader.php:68
 msgid "Search sites..."
-msgstr ""
+msgstr "Search blogs..."
 
 #: bp-blogs/bp-blogs-loader.php:129
 msgid "Sites <span>%d</span>"
-msgstr ""
+msgstr "Blogs <span>%d</span>"
 
 #: bp-blogs/bp-blogs-loader.php:191 bp-blogs/bp-blogs-screens.php:144
 #: bp-blogs/bp-blogs-screens.php:204 bp-blogs/bp-blogs-screens.php:206
 msgid "Sites"
-msgstr ""
+msgstr "Blogs"
 
 #: bp-blogs/bp-blogs-loader.php:208 bp-blogs/bp-blogs-screens.php:204
 #: bp-blogs/bp-blogs-template.php:1114 bp-blogs/bp-blogs-template.php:1182
@@ -972,7 +972,7 @@ msgstr ""
 #: bp-themes/bp-default/blogs/create.php:21
 #: bp-themes/bp-default/blogs/index.php:21
 msgid "Create a Site"
-msgstr ""
+msgstr "Create a Blog"
 
 #: bp-blogs/bp-blogs-template.php:218
 msgctxt "Blog pagination previous text"
@@ -987,12 +987,12 @@ msgstr ""
 #: bp-blogs/bp-blogs-template.php:439
 msgid "Viewing site %1$s to %2$s (of %3$s site)"
 msgid_plural "Viewing site %1$s to %2$s (of %3$s sites)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viewing blog %1$s to %2$s (of %3$s blog)"
+msgstr[1] "Viewing blog %1$s to %2$s (of %3$s blogs)"
 
 #: bp-blogs/bp-blogs-template.php:504
 msgid "Profile picture of site author %s"
-msgstr ""
+msgstr "Profile picture of blog author %s"
 
 #: bp-blogs/bp-blogs-template.php:648 bp-core/bp-core-classes.php:816
 #: bp-groups/bp-groups-template.php:3368 bp-groups/bp-groups-widgets.php:85
@@ -1017,7 +1017,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:918
 msgid "By filling out the form below, you can <strong>add a site to your account</strong>. There is no limit to the number of sites that you can have, so create to your heart's content, but blog responsibly!"
-msgstr ""
+msgstr "By filling out the form below, you can <strong>add a blog to your account</strong>. There is no limit to the number of blogs that you can have, so create to your heart's content, but blog responsibly!"
 
 #: bp-blogs/bp-blogs-template.php:920
 msgid "If you&#8217;re not going to use a great domain, leave it for a new user. Now have at it!"
@@ -1025,15 +1025,15 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:929
 msgid "Create Site"
-msgstr ""
+msgstr "Create Blog"
 
 #: bp-blogs/bp-blogs-template.php:951
 msgid "Site Name:"
-msgstr ""
+msgstr "Blog Name:"
 
 #: bp-blogs/bp-blogs-template.php:953
 msgid "Site Domain:"
-msgstr ""
+msgstr "Blog Domain:"
 
 #: bp-blogs/bp-blogs-template.php:967
 msgid "Your address will be "
@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:981
 msgid "Site Title:"
-msgstr ""
+msgstr "Blog Title:"
 
 #: bp-blogs/bp-blogs-template.php:992
 msgid "Privacy:"
@@ -1063,19 +1063,19 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:145
 #: bp-themes/bp-default/registration/register.php:229
 msgid "I would like my site to appear in search engines, and in public listings around this network."
-msgstr ""
+msgstr "I would like my blog to appear in search engines, and in public listings around this network."
 
 #: bp-blogs/bp-blogs-template.php:1100
 msgid "Congratulations! You have successfully registered a new site."
-msgstr ""
+msgstr "Congratulations! You have successfully registered a new blog."
 
 #: bp-blogs/bp-blogs-template.php:1102
-msgid "<a href=\"%1$s\">%2$s</a> is your new site.  <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
-msgstr ""
+msgid "<a href=\"%1$s\">%2$s</a> is your new site. <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
+msgstr "<a href=\"%1$s\">%2$s</a> is your new blog. <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
 
 #: bp-blogs/bp-blogs-template.php:1131
 msgid "%s's Sites"
-msgstr ""
+msgstr "%s's Blogs"
 
 #: bp-blogs/bp-blogs-template.php:1132
 msgid "%s's Recent Posts"
@@ -1095,13 +1095,13 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:1232 bp-blogs/bp-blogs-template.php:1233
 msgid "Visit Site"
-msgstr ""
+msgstr "Visit Blog"
 
 #: bp-blogs/bp-blogs-template.php:1288
 msgid "%s site"
 msgid_plural "%s sites"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s blog"
+msgstr[1] "%s blogs"
 
 #: bp-blogs/bp-blogs-widgets.php:34
 msgid "A list of recently published posts from across your network."
@@ -1296,11 +1296,11 @@ msgstr ""
 
 #: bp-core/admin/bp-core-components.php:397
 msgid "Record activity for new posts and comments from your site."
-msgstr ""
+msgstr "Record activity for new posts and comments from your blog."
 
 #: bp-core/admin/bp-core-components.php:404
 msgid "Record activity for new sites, posts, and comments across your network."
-msgstr ""
+msgstr "Record activity for new blogs, posts, and comments across your network."
 
 #: bp-core/admin/bp-core-functions.php:104
 msgid "Why have all my BuddyPress menus disappeared?"
@@ -1964,7 +1964,7 @@ msgstr ""
 
 #: bp-core/bp-core-buddybar.php:657
 msgid "Random Site"
-msgstr ""
+msgstr "Random Blog"
 
 #: bp-core/bp-core-caps.php:256 bp-core/bp-core-caps.php:268
 #: bp-core/bp-core-caps.php:282 bp-core/bp-core-caps.php:292
@@ -2075,7 +2075,7 @@ msgstr ""
 #: bp-core/bp-core-functions.php:449
 msgctxt "Page title for the Sites directory."
 msgid "Sites"
-msgstr ""
+msgstr "Blogs"
 
 #: bp-core/bp-core-functions.php:450
 msgctxt "Page title for the user account activation screen."
@@ -5406,22 +5406,22 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/blogs/blogs-loop.php:90
 #: bp-themes/bp-default/blogs/blogs-loop.php:90
 msgid "Sorry, there were no sites found."
-msgstr ""
+msgstr "Sorry, there were no blogs found."
 
 #: bp-templates/bp-legacy/buddypress/blogs/create.php:14
 #: bp-themes/bp-default/blogs/create.php:32
 msgid "Site registration is currently disabled"
-msgstr ""
+msgstr "Blog registration is currently disabled"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:16
 #: bp-themes/bp-default/blogs/index.php:33
 msgid "All Sites <span>%s</span>"
-msgstr ""
+msgstr "All Blogs <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:20
 #: bp-themes/bp-default/blogs/index.php:37
 msgid "My Sites <span>%s</span>"
-msgstr ""
+msgstr "My Blogs <span>%s</span>"
 
 #: bp-templates/bp-legacy/buddypress/blogs/index.php:38
 #: bp-templates/bp-legacy/buddypress/forums/index.php:44
@@ -6032,7 +6032,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:22
 msgid "Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time."
-msgstr ""
+msgstr "Registering for this blog is easy. Just fill in the fields below, and we'll get a new account set up for you in no time."
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:30
 #: bp-themes/bp-default/registration/register.php:35
@@ -6129,7 +6129,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:128
 #: bp-themes/bp-default/registration/register.php:212
 msgid "Yes, I'd like to create a new site"
-msgstr ""
+msgstr "Yes, I'd like to create a new blog"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:132
 #: bp-themes/bp-default/registration/register.php:216
@@ -6139,7 +6139,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:141
 #: bp-themes/bp-default/registration/register.php:225
 msgid "Site Title"
-msgstr ""
+msgstr "Blog Title"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:164
 #: bp-themes/bp-default/registration/register.php:248
@@ -6149,7 +6149,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:179
 #: bp-themes/bp-default/registration/register.php:265
 msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
-msgstr ""
+msgstr "You have successfully created your account! To begin using this blog you will need to activate your account via the email we have just sent to your address."
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:181
 #: bp-themes/bp-default/registration/register.php:267
@@ -6641,7 +6641,7 @@ msgstr ""
 #: bp-themes/bp-default/blogs/create.php:21
 #: bp-themes/bp-default/blogs/index.php:21
 msgid "Site Directory"
-msgstr ""
+msgstr "Blog Directory"
 
 #: bp-themes/bp-default/comments.php:12
 msgid "Password Protected"
@@ -6816,7 +6816,7 @@ msgstr ""
 
 #: bp-themes/bp-default/search.php:10
 msgid "Site"
-msgstr ""
+msgstr "Blog"
 
 #: bp-themes/bp-default/search.php:14
 msgid "Search Results"
