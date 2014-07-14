@@ -2220,7 +2220,7 @@ msgstr ""
 #: bp-themes/bp-default/registration/register.php:37
 #: bp-themes/bp-default/sidebar.php:44
 msgid "User name"
-msgstr "Username"
+msgstr ""
 
 #: bp-core/bp-core-widgets.php:85 bp-themes/bp-default/sidebar.php:47
 msgid "Password"
@@ -3099,7 +3099,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-admin.php:174
 msgid "Start typing a user name to add a new member."
-msgstr "Start typing a username to add a new member."
+msgstr ""
 
 #: bp-groups/bp-groups-admin.php:175
 msgid "If you leave this page, you will lose any unsaved changes you have made to the group."
@@ -4198,7 +4198,7 @@ msgstr ""
 
 #: bp-loader.php:166 bp-loader.php:173
 msgid "Cheatin&#8217; huh?"
-msgstr "Access denied. Please confirm that you are logged in and have sufficient privileges to access this page."
+msgstr "There was a problem with your request. Please try again."
 
 #: bp-loader.php:569
 msgid "BuddyPress Default"
@@ -4409,11 +4409,11 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:925
 msgid "You can reorder the list of your pending accounts by clicking on the User name, Email or Registered column headers."
-msgstr "You can reorder the list of your pending accounts by clicking on the Username, E-mail or Registered column headers."
+msgstr ""
 
 #: bp-members/bp-members-admin.php:926
 msgid "Using the search form, you can find pending accounts more easily. The User name and Email fields will be included in the search."
-msgstr "Using the search form, you can find pending accounts more easily. The Username and E-mail fields will be included in the search."
+msgstr ""
 
 #: bp-members/bp-members-admin.php:931
 #: bp-templates/bp-legacy/buddypress/members/single/notifications/notifications-loop.php:7
@@ -4435,7 +4435,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:936
 msgid "By clicking on a User name you will be able to activate a pending account from the confirmation screen."
-msgstr "By clicking on a username you will be able to activate a pending account from the confirmation screen."
+msgstr ""
 
 #: bp-members/bp-members-admin.php:937
 msgid "Bulk actions allow you to perform these 3 actions for the selected rows."
@@ -4624,31 +4624,31 @@ msgstr "Sorry, that e-mail address is already used!"
 
 #: bp-members/bp-members-functions.php:1372
 msgid "Please enter a user name"
-msgstr "Please enter a username"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1378
 msgid "That user name is not allowed"
-msgstr "That username is not allowed"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1383
 msgid "User names can contain only letters, numbers, ., -, and @"
-msgstr "Usernames can contain only letters, numbers, ., -, and @"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1388
 msgid "User name must be at least 4 characters"
-msgstr "Username must be at least 4 characters"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1393
 msgid "Sorry, user names may not contain the character \"_\"!"
-msgstr "Sorry, usernames may not contain the character \"_\"!"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1400
 msgid "Sorry, user names must have letters too!"
-msgstr "Sorry, usernames must have letters too!"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1412
 msgid "Sorry, that user name already exists!"
-msgstr "Sorry, that username already exists!"
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1531
 msgid "Invalid activation key."
@@ -4672,7 +4672,7 @@ msgstr ""
 
 #: bp-members/bp-members-functions.php:1587
 msgid "That user name is already activated."
-msgstr "That username is already activated."
+msgstr ""
 
 #: bp-members/bp-members-functions.php:1772
 msgid "If you have not received an email yet, <a href=\"%s\">click here to resend it</a>."
@@ -6154,7 +6154,7 @@ msgstr "You have successfully created your account! To begin using this site you
 #: bp-templates/bp-legacy/buddypress/members/register.php:181
 #: bp-themes/bp-default/registration/register.php:267
 msgid "You have successfully created your account! Please log in using the user name and password you have just created."
-msgstr "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:68
 #: bp-themes/bp-default/members/single/friends/requests.php:68
@@ -6176,7 +6176,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:5
 #: bp-themes/bp-default/members/single/messages/compose.php:5
 msgid "Send To (User name or Friend's Name)"
-msgstr "Send To (User name or Contact's Name)"
+msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:14
 #: bp-themes/bp-default/members/single/messages/compose.php:14
