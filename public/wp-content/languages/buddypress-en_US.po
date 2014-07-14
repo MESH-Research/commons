@@ -77,7 +77,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-actions.php:440
 msgid "%s | Site Wide Activity"
-msgstr ""
+msgstr "%s | Sitewide Activity"
 
 #: bp-activity/bp-activity-actions.php:443
 msgid "Activity feed for the entire site."
@@ -116,7 +116,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-actions.php:543
 msgid "Public group activity feed of which %s is a member of."
-msgstr ""
+msgstr "Public group activity feed of which %s is a member."
 
 #. translators: User mentions activity RSS title - "[Site Name] | [User Display
 #. Name] | Mentions"
@@ -890,7 +890,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-template.php:3360
 msgid "Site Wide Activity RSS Feed"
-msgstr ""
+msgstr "Sitewide Activity RSS Feed"
 
 #: bp-blogs/bp-blogs-activity.php:34
 msgid "New site created"
@@ -951,7 +951,7 @@ msgstr "Create a Blog!"
 
 #: bp-blogs/bp-blogs-loader.php:25 bp-core/admin/bp-core-components.php:396
 msgid "Site Tracking"
-msgstr "Blog Directory"
+msgstr "Blog"
 
 #: bp-blogs/bp-blogs-loader.php:68
 msgid "Search sites..."
@@ -1012,7 +1012,7 @@ msgid "Latest Post: %s"
 msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:915
-msgid "There was a problem, please correct the form below and try again."
+msgid "There was a problem; please correct the form below and try again."
 msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:918
@@ -2219,7 +2219,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:32
 #: bp-themes/bp-default/registration/register.php:37
 #: bp-themes/bp-default/sidebar.php:44
-msgid "Username"
+msgid "User name"
 msgstr ""
 
 #: bp-core/bp-core-widgets.php:85 bp-themes/bp-default/sidebar.php:47
@@ -3098,7 +3098,7 @@ msgid "If you click \"Delete\" under a specific group, or select a number of gro
 msgstr ""
 
 #: bp-groups/bp-groups-admin.php:174
-msgid "Start typing a username to add a new member."
+msgid "Start typing a user name to add a new member."
 msgstr ""
 
 #: bp-groups/bp-groups-admin.php:175
@@ -3445,7 +3445,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-functions.php:307
 msgid "As the only Admin, you cannot leave the group."
-msgstr ""
+msgstr "As the only admin, you cannot leave the group."
 
 #: bp-groups/bp-groups-functions.php:667
 msgid "%1$s posted an update in the group %2$s"
@@ -3718,7 +3718,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-screens.php:151
 msgid "It looks like you've already said that!"
-msgstr ""
+msgstr "This appears to be a duplicate post. Please modify the text and try again."
 
 #: bp-groups/bp-groups-screens.php:154
 msgid "There was an error when replying to that topic"
@@ -3813,11 +3813,11 @@ msgid "The member requested to join the group"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:508
-msgid "There was an error accepting the group invitation, please try again."
+msgid "There was an error accepting the group invitation; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:520
-msgid "There was an error sending your group membership request, please try again."
+msgid "There was an error sending your group membership request; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:522
@@ -3825,7 +3825,7 @@ msgid "Your membership request was sent to the group administrator successfully.
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:571
-msgid "There was an error updating group details, please try again."
+msgid "There was an error updating group details; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:573
@@ -3833,7 +3833,7 @@ msgid "Group details were successfully updated."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:615
-msgid "There was an error updating group settings, please try again."
+msgid "There was an error updating group settings; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:617
@@ -3846,7 +3846,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-screens.php:651 bp-members/bp-members-admin.php:506
 #: bp-xprofile/bp-xprofile-actions.php:41
-msgid "There was a problem deleting that avatar, please try again."
+msgid "There was a problem deleting that avatar; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:694
@@ -3858,7 +3858,7 @@ msgid "The new group avatar was uploaded successfully."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:732
-msgid "There was an error when promoting that user, please try again"
+msgid "There was an error when promoting that user; please try again"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:734
@@ -3866,7 +3866,7 @@ msgid "User promoted successfully"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:757
-msgid "There was an error when demoting that user, please try again"
+msgid "There was an error when demoting that user; please try again"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:759
@@ -3874,7 +3874,7 @@ msgid "User demoted successfully"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:775
-msgid "There was an error when banning that user, please try again"
+msgid "There was an error when banning that user; please try again"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:777
@@ -3882,7 +3882,7 @@ msgid "User banned successfully"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:793
-msgid "There was an error when unbanning that user, please try again"
+msgid "There was an error when unbanning that user; please try again"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:795
@@ -3890,7 +3890,7 @@ msgid "User ban removed successfully"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:811
-msgid "There was an error removing that user from the group, please try again"
+msgid "There was an error removing that user from the group; please try again"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:813
@@ -3898,7 +3898,7 @@ msgid "User removed successfully"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:850
-msgid "There was an error accepting the membership request, please try again."
+msgid "There was an error accepting the membership request; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:852
@@ -3906,7 +3906,7 @@ msgid "Group membership request accepted"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:861
-msgid "There was an error rejecting the membership request, please try again."
+msgid "There was an error rejecting the membership request; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:863
@@ -3914,7 +3914,7 @@ msgid "Group membership request rejected"
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:895
-msgid "There was an error deleting the group, please try again."
+msgid "There was an error deleting the group; please try again."
 msgstr ""
 
 #: bp-groups/bp-groups-screens.php:897
@@ -4198,7 +4198,7 @@ msgstr ""
 
 #: bp-loader.php:166 bp-loader.php:173
 msgid "Cheatin&#8217; huh?"
-msgstr ""
+msgstr "Access denied. Please confirm that you are logged in and have sufficient privileges to access this page."
 
 #: bp-loader.php:569
 msgid "BuddyPress Default"
@@ -4234,7 +4234,7 @@ msgstr ""
 #: bp-members/admin/bp-members-classes.php:132
 #: bp-members/admin/bp-members-classes.php:450
 msgid "# Times Emailed"
-msgstr ""
+msgstr "# Times E-mailed"
 
 #: bp-members/admin/bp-members-classes.php:143
 #: bp-members/admin/bp-members-classes.php:461
@@ -4246,7 +4246,7 @@ msgstr ""
 #: bp-members/admin/bp-members-classes.php:462
 msgctxt "Pending signup action"
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: bp-members/admin/bp-members-classes.php:164
 #: bp-members/admin/bp-members-classes.php:481
@@ -4341,7 +4341,7 @@ msgid "Please make sure you fill in all required fields in this profile field gr
 msgstr ""
 
 #: bp-members/bp-members-admin.php:536 bp-xprofile/bp-xprofile-screens.php:138
-msgid "There was a problem updating some of your profile information, please try again."
+msgid "There was a problem updating some of your profile information; please try again."
 msgstr ""
 
 #: bp-members/bp-members-admin.php:550
@@ -4408,12 +4408,12 @@ msgid "From the screen options, you can customize the displayed columns and the 
 msgstr ""
 
 #: bp-members/bp-members-admin.php:925
-msgid "You can reorder the list of your pending accounts by clicking on the Username, Email or Registered column headers."
-msgstr ""
+msgid "You can reorder the list of your pending accounts by clicking on the User name, Email or Registered column headers."
+msgstr "You can reorder the list of your pending accounts by clicking on the User name, E-mail or Registered column headers."
 
 #: bp-members/bp-members-admin.php:926
-msgid "Using the search form, you can find pending accounts more easily. The Username and Email fields will be included in the search."
-msgstr ""
+msgid "Using the search form, you can find pending accounts more easily. The User name and Email fields will be included in the search."
+msgstr "Using the search form, you can find pending accounts more easily. The User name and E-mail fields will be included in the search."
 
 #: bp-members/bp-members-admin.php:931
 #: bp-templates/bp-legacy/buddypress/members/single/notifications/notifications-loop.php:7
@@ -4427,14 +4427,14 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:934
 msgid "\"Email\" takes you to the confirmation screen before being able to send the activation link to the desired pending account. You can only send the activation email once per day."
-msgstr ""
+msgstr "\"E-mail\" takes you to the confirmation screen before being able to send the activation link to the desired pending account. You can only send the activation email once per day."
 
 #: bp-members/bp-members-admin.php:935
 msgid "\"Delete\" allows you to delete a pending account from your site. You will be asked to confirm this deletion."
 msgstr ""
 
 #: bp-members/bp-members-admin.php:936
-msgid "By clicking on a Username you will be able to activate a pending account from the confirmation screen."
+msgid "By clicking on a User name you will be able to activate a pending account from the confirmation screen."
 msgstr ""
 
 #: bp-members/bp-members-admin.php:937
@@ -4445,15 +4445,15 @@ msgstr ""
 msgctxt "signup resent"
 msgid "%s activation email successfully sent! "
 msgid_plural "%s activation emails successfully sent! "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s activation e-mail successfully sent! "
+msgstr[1] "%s activation e-mails successfully sent! "
 
 #: bp-members/bp-members-admin.php:1100
 msgctxt "signup notsent"
 msgid "%s activation email was not sent."
 msgid_plural "%s activation emails were not sent."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s activation e-mail was not sent."
+msgstr[1] "%s activation e-mails were not sent."
 
 #: bp-members/bp-members-admin.php:1123
 msgctxt "signup resent"
@@ -4485,7 +4485,7 @@ msgstr[1] ""
 
 #: bp-members/bp-members-admin.php:1191
 msgid "There was a problem sending the activation emails, please try again."
-msgstr ""
+msgstr "There was a problem sending the activation e-mails, please try again."
 
 #: bp-members/bp-members-admin.php:1198
 msgid "There was a problem activating accounts, please try again."
@@ -4525,7 +4525,7 @@ msgstr[1] ""
 
 #: bp-members/bp-members-admin.php:1367
 msgid "Resend Activation Emails"
-msgstr ""
+msgstr "Resend Activation E-mails"
 
 #: bp-members/bp-members-admin.php:1368
 msgid "You are about to resend an activation email to the following account:"
@@ -4611,43 +4611,43 @@ msgstr ""
 
 #: bp-members/bp-members-functions.php:1332
 msgid "Please check your email address."
-msgstr ""
+msgstr "Please check your e-mail address."
 
 #: bp-members/bp-members-functions.php:1335
 #: bp-members/bp-members-functions.php:1338
 msgid "Sorry, that email address is not allowed!"
-msgstr ""
+msgstr "Sorry, that e-mail address is not allowed!"
 
 #: bp-members/bp-members-functions.php:1341
 msgid "Sorry, that email address is already used!"
-msgstr ""
+msgstr "Sorry, that e-mail address is already used!"
 
 #: bp-members/bp-members-functions.php:1372
-msgid "Please enter a username"
+msgid "Please enter a user name"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1378
-msgid "That username is not allowed"
+msgid "That user name is not allowed"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1383
-msgid "Usernames can contain only letters, numbers, ., -, and @"
+msgid "User names can contain only letters, numbers, ., -, and @"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1388
-msgid "Username must be at least 4 characters"
+msgid "User name must be at least 4 characters"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1393
-msgid "Sorry, usernames may not contain the character \"_\"!"
+msgid "Sorry, user names may not contain the character \"_\"!"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1400
-msgid "Sorry, usernames must have letters too!"
+msgid "Sorry, user names must have letters too!"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1412
-msgid "Sorry, that username already exists!"
+msgid "Sorry, that user name already exists!"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1531
@@ -4671,16 +4671,16 @@ msgid "Could not create user"
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1587
-msgid "That username is already activated."
+msgid "That user name is already activated."
 msgstr ""
 
 #: bp-members/bp-members-functions.php:1772
 msgid "If you have not received an email yet, <a href=\"%s\">click here to resend it</a>."
-msgstr ""
+msgstr "If you have not received an e-mail yet, <a href=\"%s\">click here to resend it</a>."
 
 #: bp-members/bp-members-functions.php:1774
 msgid "<strong>ERROR</strong>: Your account has not been activated. Check your email for the activation link."
-msgstr ""
+msgstr "<strong>ERROR</strong>: Your account has not been activated. Check your e-mail for the activation link."
 
 #: bp-members/bp-members-functions.php:1805
 msgid "<strong>ERROR</strong>: Your account has already been activated."
@@ -4688,7 +4688,7 @@ msgstr ""
 
 #: bp-members/bp-members-functions.php:1807
 msgid "Activation email resent!  Please check your inbox or spam folder."
-msgstr ""
+msgstr "Activation e-mail resent!  Please check your inbox or spam folder."
 
 #: bp-members/bp-members-loader.php:76
 msgctxt "component directory title"
@@ -4722,7 +4722,7 @@ msgstr ""
 #: bp-members/bp-members-screens.php:522
 #: bp-themes/bp-default/registration/register.php:259
 msgid "Check Your Email To Activate Your Account!"
-msgstr ""
+msgstr "Check Your E-mail To Activate Your Account!"
 
 #: bp-members/bp-members-screens.php:530
 #: bp-themes/bp-default/registration/activate.php:11
@@ -4748,8 +4748,8 @@ msgstr[1] ""
 #: bp-members/bp-members-template.php:349
 msgid "Viewing member %1$s to %2$s (of %3$s member with friends)"
 msgid_plural "Viewing member %1$s to %2$s (of %3$s members with friends)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Viewing member %1$s to %2$s (of %3$s member with contacts)"
+msgstr[1] "Viewing member %1$s to %2$s (of %3$s members with contacts)"
 
 #: bp-members/bp-members-template.php:351
 msgid "Viewing member %1$s to %2$s (of %3$s member online)"
@@ -5119,19 +5119,19 @@ msgstr ""
 
 #: bp-settings/bp-settings-actions.php:159
 msgid "That email address is invalid. Check the formatting and try again."
-msgstr ""
+msgstr "That e-mail address is invalid. Check the formatting and try again."
 
 #: bp-settings/bp-settings-actions.php:162
 msgid "That email address is currently unavailable for use."
-msgstr ""
+msgstr "That e-mail address is currently unavailable for use."
 
 #: bp-settings/bp-settings-actions.php:165
 msgid "That email address is already taken."
-msgstr ""
+msgstr "That e-mail address is already taken."
 
 #: bp-settings/bp-settings-actions.php:168
 msgid "Email address cannot be empty."
-msgstr ""
+msgstr "e-mail address cannot be empty."
 
 #: bp-settings/bp-settings-actions.php:178
 msgid "Your current password is invalid."
@@ -5804,7 +5804,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:26
 #: bp-themes/bp-default/groups/single/admin.php:26
 msgid "Notify group members of these changes via email"
-msgstr ""
+msgstr "Notify group members of these changes via e-mail"
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:137
 #: bp-themes/bp-default/groups/single/admin.php:137
@@ -5873,7 +5873,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:324
 #: bp-themes/bp-default/groups/single/admin.php:352
-msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back; please be careful with this option."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:327
@@ -5923,7 +5923,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:134
 #: bp-themes/bp-default/groups/single/forum/topic.php:134
 msgid "You will auto join this group when you reply to this topic."
-msgstr ""
+msgstr "You will automatically join this group when you reply to this topic."
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:139
 #: bp-themes/bp-default/groups/single/forum/topic.php:139
@@ -5937,7 +5937,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum/topic.php:155
 #: bp-themes/bp-default/groups/single/forum/topic.php:155
-msgid "This topic is closed, replies are no longer accepted."
+msgid "This topic is closed; replies are no longer accepted."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/groups/single/forum.php:69
@@ -6001,11 +6001,11 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/activate.php:14
 #: bp-themes/bp-default/registration/activate.php:23
 msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
-msgstr ""
+msgstr "Your account was activated successfully! Your account details have been sent to you in a separate e-mail."
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:16
 #: bp-themes/bp-default/registration/activate.php:25
-msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
+msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the user name and password you provided when you signed up."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/activate.php:21
@@ -6079,7 +6079,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:36
 #: bp-themes/bp-default/registration/register.php:41
 msgid "Email Address"
-msgstr ""
+msgstr "E-mail Address"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:40
 #: bp-themes/bp-default/registration/register.php:45
@@ -6149,11 +6149,11 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:179
 #: bp-themes/bp-default/registration/register.php:265
 msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
-msgstr "You have successfully created your account! To begin using this blog you will need to activate your account via the email we have just sent to your address."
+msgstr "You have successfully created your account! To begin using this site you will need to activate your account via the e-mail we have just sent to your address."
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:181
 #: bp-themes/bp-default/registration/register.php:267
-msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgid "You have successfully created your account! Please log in using the user name and password you have just created."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/friends/requests.php:68
@@ -6175,8 +6175,8 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:5
 #: bp-themes/bp-default/members/single/messages/compose.php:5
-msgid "Send To (Username or Friend's Name)"
-msgstr "Send To (Username or Contact's Name)"
+msgid "Send To (User name or Friend's Name)"
+msgstr "Send To (User name or Contact's Name)"
 
 #: bp-templates/bp-legacy/buddypress/members/single/messages/compose.php:14
 #: bp-themes/bp-default/members/single/messages/compose.php:14
@@ -6297,7 +6297,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:7
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:7
 msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
-msgstr ""
+msgstr "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account e-mail we will use that, or you can upload an image from your computer."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:14
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:14
@@ -6322,7 +6322,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:55
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:55
 msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
-msgstr ""
+msgstr "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same e-mail address as you used to register with this site."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:10
 #: bp-themes/bp-default/members/single/profile/edit.php:10
@@ -6363,7 +6363,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:7
 #: bp-themes/bp-default/members/single/settings/general.php:57
 msgid "Current Password <span>(required to update email or change current password)</span>"
-msgstr ""
+msgstr "Current Password <span>(required to update e-mail or change current password)</span>"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:8
 #: bp-themes/bp-default/members/single/settings/general.php:58
@@ -6378,7 +6378,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:12
 #: bp-themes/bp-default/members/single/settings/general.php:62
 msgid "Account Email"
-msgstr ""
+msgstr "Account E-mail"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/general.php:15
 #: bp-themes/bp-default/members/single/settings/general.php:65
@@ -6398,7 +6398,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/settings/notifications.php:4
 #: bp-themes/bp-default/members/single/settings/notifications.php:54
 msgid "Send an email notice when:"
-msgstr ""
+msgstr "Send an e-mail notice when:"
 
 #: bp-templates/bp-legacy/buddypress/members/single/settings/profile.php:15
 #: bp-themes/bp-default/members/single/settings/profile.php:65
@@ -6455,7 +6455,7 @@ msgstr ""
 
 #: bp-templates/bp-legacy/buddypress-functions.php:707
 #: bp-themes/bp-default/_inc/ajax.php:291
-msgid "There was a problem posting your update, please try again."
+msgid "There was a problem posting your update; please try again."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress-functions.php:825
@@ -6628,11 +6628,11 @@ msgstr ""
 
 #: bp-themes/bp-default/attachment.php:40
 msgid "Full size is %s pixels"
-msgstr ""
+msgstr "Full-size is %s pixels"
 
 #: bp-themes/bp-default/attachment.php:43
 msgid "Link to full size image"
-msgstr ""
+msgstr "Link to full-size image"
 
 #: bp-themes/bp-default/attachment.php:62
 msgid "Sorry, no attachments matched your criteria."
@@ -6800,7 +6800,7 @@ msgstr ""
 
 #: bp-themes/bp-default/members/single/settings/notifications.php:49
 msgid "Email Notification"
-msgstr ""
+msgstr "E-mail Notification"
 
 #: bp-themes/bp-default/onecolumn-page.php:29 bp-themes/bp-default/page.php:18
 msgid "<p class=\"serif\">Read the rest of this page &rarr;</p>"
@@ -6811,7 +6811,7 @@ msgid "Edit this page."
 msgstr ""
 
 #: bp-themes/bp-default/registration/register.php:27
-msgid "Registering for this site is easy, just fill in the fields below and we'll get a new account set up for you in no time."
+msgid "Registering for this site is easy; just fill in the fields below and we'll get a new account set up for you in no time."
 msgstr ""
 
 #: bp-themes/bp-default/search.php:10
