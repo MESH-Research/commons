@@ -592,7 +592,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-functions.php:895
 msgid "%s posted an update"
-msgstr ""
+msgstr "%s posted an update"
 
 #: bp-activity/bp-activity-functions.php:909
 #: tests/testcases/activity/class.BP_Activity_Activity.php:216
@@ -726,7 +726,7 @@ msgstr ""
 #: bp-groups/bp-groups-notifications.php:295
 #: bp-messages/bp-messages-notifications.php:85
 msgid "To disable these notifications please log in and go to: %s"
-msgstr ""
+msgstr "To disable these notifications, please log in and go to %s"
 
 #: bp-activity/bp-activity-notifications.php:164
 msgid "%s replied to one of your updates"
@@ -3449,7 +3449,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-functions.php:667
 msgid "%1$s posted an update in the group %2$s"
-msgstr ""
+msgstr "%1$s posted an announcement in the group %2$s"
 
 #: bp-groups/bp-groups-loader.php:150
 msgctxt "component directory title"
@@ -3623,7 +3623,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-notifications.php:281
 msgid ""
-"One of your friends %1$s has invited you to the group: \"%2$s\".\n"
+"One of your friends %1$s has nvited you to the group: \"%2$s\".\n"
 "\n"
 "To view your group invites visit: %3$s\n"
 "\n"
@@ -3633,6 +3633,15 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
+"One of your contacts, %1$s, has invited you to the group \"%2$s\".\n"
+"\n"
+"To view your group invitations, visit: %3$s\n"
+"\n"
+"To view the group, visit %4$s\n"
+"\n"
+"To view %5$s's profile, visit %6$s\n"
+"\n"
+"---------------------\n"
 
 #: bp-groups/bp-groups-notifications.php:335
 msgid "%1$d new membership requests for the group \"%2$s\""
