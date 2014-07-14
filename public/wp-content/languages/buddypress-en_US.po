@@ -3623,7 +3623,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-notifications.php:281
 msgid ""
-"One of your friends %1$s has nvited you to the group: \"%2$s\".\n"
+"One of your friends %1$s has invited you to the group: \"%2$s\".\n"
 "\n"
 "To view your group invites visit: %3$s\n"
 "\n"
