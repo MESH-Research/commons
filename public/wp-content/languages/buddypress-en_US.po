@@ -1100,8 +1100,8 @@ msgstr ""
 #: bp-blogs/bp-blogs-template.php:1288
 msgid "%s site"
 msgid_plural "%s sites"
-msgstr[0] "%s blog"
-msgstr[1] "%s blogs"
+msgstr[0] ""
+msgstr[1] ""
 
 #: bp-blogs/bp-blogs-widgets.php:34
 msgid "A list of recently published posts from across your network."
@@ -4434,7 +4434,7 @@ msgid "\"Delete\" allows you to delete a pending account from your site. You wil
 msgstr ""
 
 #: bp-members/bp-members-admin.php:936
-msgid "By clicking on a User name you will be able to activate a pending account from the confirmation screen."
+msgid "By clicking on a user name you will be able to activate a pending account from the confirmation screen."
 msgstr ""
 
 #: bp-members/bp-members-admin.php:937
@@ -4547,7 +4547,7 @@ msgstr ""
 
 #: bp-members/bp-members-adminbar.php:38
 msgid "Edit My Profile"
-msgstr ""
+msgstr "Profile"
 
 #: bp-members/bp-members-adminbar.php:52
 msgid "Log in"
