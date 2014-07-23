@@ -5,3 +5,11 @@
 /public/license.txt
 /public/readme.html
 /public/xmlrpc.php
+
+# Don't ignore mu-plugins.
+# First, unignore wp-content.
+!/public/wp-content
+# But ignore everything in wp-content...
+/public/wp-content/*
+# ...except for mu-plugins.
+!/public/wp-content/mu-plugins

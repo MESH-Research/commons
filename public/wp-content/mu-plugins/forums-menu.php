@@ -1,22 +1,4 @@
 <?php
-
-/*
- * Remove misbehaving forums tab on profile pages.
- */
-
-function remove_forums_nav() {
-	bp_core_remove_nav_item('forums');
-}
-add_action( 'wp', 'remove_forums_nav', 3 );
-
-/**
- * Removes Forums from Howdy dropdown
- */
-function mlac_remove_forums_from_adminbar( $wp_admin_bar ) {
-	$wp_admin_bar->remove_menu( 'my-account-forums' );
-}
-add_action( 'admin_bar_menu', 'mlac_remove_forums_from_adminbar', 9999 );
-
 /* 
  * Removes forums from all sites except for MLA Commons. 
  * This is a temporary measure meant to solve the issue with 
