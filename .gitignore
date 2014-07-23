@@ -13,3 +13,5 @@
 /public/wp-content/*
 # ...except for mu-plugins.
 !/public/wp-content/mu-plugins
+# ...and our translations files
+!/public/wp-content/languages 
