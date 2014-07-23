@@ -2177,7 +2177,7 @@ msgstr ""
 
 #: bp-core/bp-core-template.php:392
 msgid "Blogs"
-msgstr ""
+msgstr "Sites"
 
 #: bp-core/bp-core-template.php:397
 #: bp-templates/bp-legacy/buddypress/activity/index.php:83
