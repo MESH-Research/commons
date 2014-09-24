@@ -686,7 +686,7 @@ msgstr ""
 #: bp-themes/bp-default/groups/single/admin.php:212
 #: bp-xprofile/bp-xprofile-loader.php:314
 msgid "Profile picture of %s"
-msgstr ""
+msgstr "Portfolio picture of %s"
 
 #: bp-activity/bp-activity-notifications.php:73
 msgid "%s mentioned you in an update"
@@ -823,7 +823,7 @@ msgstr[1] ""
 
 #: bp-activity/bp-activity-template.php:1208
 msgid "Profile picture"
-msgstr ""
+msgstr "Portfolio picture"
 
 #: bp-activity/bp-activity-template.php:1334
 msgid "Group logo"
@@ -992,7 +992,7 @@ msgstr[1] ""
 
 #: bp-blogs/bp-blogs-template.php:504
 msgid "Profile picture of site author %s"
-msgstr ""
+msgstr "Portfolio picture of site author %s"
 
 #: bp-blogs/bp-blogs-template.php:648 bp-core/bp-core-classes.php:816
 #: bp-groups/bp-groups-template.php:3368 bp-groups/bp-groups-widgets.php:85
@@ -1649,11 +1649,11 @@ msgstr ""
 #: bp-core/bp-core-admin.php:337
 #: bp-themes/bp-default/members/single/settings/profile.php:49
 msgid "Profile Settings"
-msgstr ""
+msgstr "Portfolio Settings"
 
 #: bp-core/bp-core-admin.php:342
 msgid "Profile Syncing"
-msgstr ""
+msgstr "Portfolio Syncing"
 
 #: bp-core/bp-core-admin.php:351
 msgid "Groups Settings"
@@ -2161,7 +2161,7 @@ msgstr ""
 #: bp-xprofile/bp-xprofile-loader.php:257
 #: bp-xprofile/bp-xprofile-loader.php:339
 msgid "Profile"
-msgstr ""
+msgstr "Portfolio"
 
 #: bp-core/bp-core-template.php:81
 msgid "Options"
@@ -4322,7 +4322,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:495
 msgid "Profile updated."
-msgstr ""
+msgstr "Portfolio updated."
 
 #: bp-members/bp-members-admin.php:512
 msgid "User could not be removed as spammer."
@@ -4547,7 +4547,7 @@ msgstr ""
 
 #: bp-members/bp-members-adminbar.php:38
 msgid "Edit My Profile"
-msgstr "Profile"
+msgstr "Edit My Portfolio"
 
 #: bp-members/bp-members-adminbar.php:52
 msgid "Log in"
@@ -6094,7 +6094,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:62
 #: bp-themes/bp-default/registration/register.php:67
 msgid "Profile Details"
-msgstr ""
+msgstr "Portfolio Details"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:79
 #: bp-templates/bp-legacy/buddypress/members/register.php:94
@@ -6878,11 +6878,11 @@ msgstr ""
 
 #: bp-xprofile/bp-xprofile-activity.php:312
 msgid "Profile Updates"
-msgstr ""
+msgstr "Portfolio Updates"
 
 #: bp-xprofile/bp-xprofile-admin.php:27 bp-xprofile/bp-xprofile-admin.php:71
 msgid "Profile Fields"
-msgstr ""
+msgstr "Portfolio Fields"
 
 #: bp-xprofile/bp-xprofile-admin.php:72 bp-xprofile/bp-xprofile-classes.php:454
 msgid "Add New Field Group"
@@ -7222,11 +7222,11 @@ msgstr ""
 
 #: bp-xprofile/bp-xprofile-template.php:644
 msgid "Profile not recently updated"
-msgstr ""
+msgstr "Portfolio not recently updated"
 
 #: bp-xprofile/bp-xprofile-template.php:654
 msgid "Profile updated %s"
-msgstr ""
+msgstr "Portfolio updated %s"
 
 #: bp-xprofile/bp-xprofile-template.php:804
 msgid "This field's visibility cannot be changed."
