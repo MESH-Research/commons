@@ -4281,7 +4281,7 @@ msgstr ""
 #: bp-xprofile/bp-xprofile-template.php:688
 #: bp-xprofile/bp-xprofile-template.php:689
 msgid "Edit Profile"
-msgstr ""
+msgstr "Edit Portfolio"
 
 #: bp-members/bp-members-admin.php:199 bp-members/bp-members-admin.php:200
 msgid "Manage Signups"
