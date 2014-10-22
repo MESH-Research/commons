@@ -1,4 +1,5 @@
 <?php
+
 // Function for debugging. Not necessary on production.
 if (!function_exists('_log')) {
 	/**
@@ -15,11 +16,17 @@ if (!function_exists('_log')) {
 		}
 	}
 }
+
 /* Don't write PHP Strict Standards error messages to debug.log.
  * Because apparently everything everywhere is a violation of a PHP
  * Strict Standard.
+ *
+ * When not debugging, skip E_NOTICE and lower.
  */
-if (WP_DEBUG) {
-	ini_set('error_reporting', E_ALL & ~E_STRICT);
+if (WP_DEBUG === true) {
+	error_reporting(E_ALL & ~E_STRICT);
+} else {
+	error_reporting(E_USER_ERROR);
 }
+
 ?>
