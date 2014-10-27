@@ -1149,7 +1149,7 @@ msgstr ""
 #: bp-core/admin/bp-core-components.php:364
 #: bp-xprofile/bp-xprofile-loader.php:41
 msgid "Extended Profiles"
-msgstr ""
+msgstr "Portfolios"
 
 #: bp-core/admin/bp-core-components.php:60
 #: bp-core/admin/bp-core-components.php:365
@@ -1376,7 +1376,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-functions.php:514
 msgid "<a href=\"http://codex.buddypress.org/getting-started/configure-buddypress-components/#users-profile-fields\">Managing Profile Fields</a>"
-msgstr ""
+msgstr "<a href=\"http://codex.buddypress.org/getting-started/configure-buddypress-components/#users-profile-fields\">Managing Portfolio Fields</a>"
 
 #: bp-core/admin/bp-core-functions.php:532
 msgid "By default, all BuddyPress components are enabled. You can selectively disable any of the components by using the form. Your BuddyPress installation will continue to function. However, the features of the disabled components will no longer be accessible to anyone using the site."
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-functions.php:544
 msgid "Your users will distinguish themselves through their profile page. Create relevant profile fields that will show on each users profile.</br></br>Note: Any fields in the first group will appear on the signup page."
-msgstr ""
+msgstr "Your users will distinguish themselves through their portfolios. Create relevant portfolio fields that will show on each user's portfolio.</br></br>Note: Any fields in the first group will appear on the signup page."
 
 #: bp-core/admin/bp-core-functions.php:704 bp-core/bp-core-admin.php:215
 #: bp-core/bp-core-admin.php:216 bp-core/bp-core-admin.php:236
@@ -1729,7 +1729,7 @@ msgstr ""
 
 #: bp-core/bp-core-admin.php:523
 msgid "BuddyPress&#8217;s powerful features help your users connect and collaborate. To help get your community started, we&#8217;ve activated two of the most commonly used tools in BP: <strong>Extended Profiles</strong> and <strong>Activity Streams</strong>. See these components in action at the %1$s and %2$s directories, and be sure to spend a few minutes <a href=\"%3$s\">configuring user profiles</a>. Want to explore more of BP&#8217;s features? Visit the <a href=\"%4$s\">Components panel</a>."
-msgstr ""
+msgstr "BuddyPress&#8217;s powerful features help your users connect and collaborate. To help get your community started, we&#8217;ve activated two of the most commonly used tools in BP: <strong>Portfolios</strong> and <strong>Activity Streams</strong>. See these components in action at the %1$s and %2$s directories, and be sure to spend a few minutes <a href=\"%3$s\">configuring user profiles</a>. Want to explore more of BP&#8217;s features? Visit the <a href=\"%4$s\">Components panel</a>."
 
 #: bp-core/bp-core-admin.php:524 bp-core/bp-core-template.php:386
 #: bp-core/bp-core-widgets.php:276 bp-groups/bp-groups-admin.php:781
@@ -1765,7 +1765,7 @@ msgstr ""
 
 #: bp-core/bp-core-admin.php:558
 msgid "Extended Profiles in Admin"
-msgstr ""
+msgstr "Portfolios in Admin"
 
 #: bp-core/bp-core-admin.php:559
 msgid "Site administrators can edit members&#8217; xProfile data at Dashboard > Users > Extended Profiles."
@@ -2345,7 +2345,7 @@ msgstr ""
 #: bp-themes/bp-default/members/single/profile/profile-wp.php:8
 #: bp-xprofile/bp-xprofile-loader.php:309
 msgid "My Profile"
-msgstr ""
+msgstr "My Portfolio"
 
 #: bp-core/deprecated/1.5.php:149 bp-members/admin/bp-members-classes.php:128
 #: bp-members/admin/bp-members-classes.php:446
@@ -2574,7 +2574,7 @@ msgstr ""
 
 #: bp-forums/deprecated/1.6.php:77 bp-forums/deprecated/1.6.php:219
 msgid "Member Profile Integration"
-msgstr ""
+msgstr "Member Portfolio Integration"
 
 #: bp-forums/deprecated/1.6.php:78 bp-forums/deprecated/1.6.php:220
 msgid "Activity Stream Integration"
@@ -4289,7 +4289,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:331 bp-members/bp-members-admin.php:754
 msgid "Extended Profile"
-msgstr ""
+msgstr "Portfolio"
 
 #: bp-members/bp-members-admin.php:352
 msgid "No users were found"
@@ -4309,7 +4309,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:394
 msgid "<a href=\"http://codex.buddypress.org/buddypress-site-administration/managing-user-profiles/\">Managing Profiles</a>"
-msgstr ""
+msgstr "<a href=\"http://codex.buddypress.org/buddypress-site-administration/managing-user-profiles/\">Managing Portfolios</a>"
 
 #: bp-members/bp-members-admin.php:399
 msgctxt "members user-admin edit screen"
@@ -4334,7 +4334,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:524
 msgid "An error occured while trying to update the profile."
-msgstr ""
+msgstr "An error occured while trying to update the portfolio."
 
 #: bp-members/bp-members-admin.php:530 bp-xprofile/bp-xprofile-screens.php:96
 msgid "Please make sure you fill in all required fields in this profile field group before saving."
@@ -4342,7 +4342,7 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:536 bp-xprofile/bp-xprofile-screens.php:138
 msgid "There was a problem updating some of your profile information; please try again."
-msgstr ""
+msgstr "There was a problem updating some of your portfolio information; please try again."
 
 #: bp-members/bp-members-admin.php:550
 msgid "&larr; Back to Users"
@@ -4380,11 +4380,11 @@ msgstr ""
 
 #: bp-members/bp-members-admin.php:663
 msgid "View Profile"
-msgstr ""
+msgstr "View Portfolio"
 
 #: bp-members/bp-members-admin.php:664
 msgid "Update Profile"
-msgstr ""
+msgstr "Update Portfolio"
 
 #: bp-members/bp-members-admin.php:684 bp-xprofile/bp-xprofile-admin.php:760
 msgid "%s has been marked as a spammer. All BuddyPress data associated with the user has been removed"
@@ -6874,7 +6874,7 @@ msgstr ""
 #: bp-xprofile/bp-xprofile-activity.php:105
 #: tests/testcases/xprofile/activity.php:356
 msgid "%s&#8217;s profile was updated"
-msgstr ""
+msgstr "%s&#8217;s portfolio was updated"
 
 #: bp-xprofile/bp-xprofile-activity.php:312
 msgid "Profile Updates"
@@ -7210,11 +7210,11 @@ msgstr ""
 
 #: bp-xprofile/bp-xprofile-settings.php:43
 msgid "Your profile settings have been saved."
-msgstr ""
+msgstr "Your portfolio settings have been saved."
 
 #: bp-xprofile/bp-xprofile-settings.php:47
 msgid "This member's profile settings have been saved."
-msgstr ""
+msgstr "This member's portfolio settings have been saved."
 
 #: bp-xprofile/bp-xprofile-template.php:636
 msgid "Avatar uploads are currently disabled. Why not use a <a href=\"http://gravatar.com\" target=\"_blank\">gravatar</a> instead?"
