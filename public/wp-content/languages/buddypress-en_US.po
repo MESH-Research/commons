@@ -836,7 +836,7 @@ msgstr ""
 
 #: bp-activity/bp-activity-template.php:1348
 msgid "Profile picture of the author of the site %s"
-msgstr ""
+msgstr "Portfolio picture of the author of the site %s"
 
 #: bp-activity/bp-activity-template.php:1578
 msgid "View Discussion"
@@ -1154,7 +1154,7 @@ msgstr "Portfolios"
 #: bp-core/admin/bp-core-components.php:60
 #: bp-core/admin/bp-core-components.php:365
 msgid "Customize your community with fully editable profile fields that allow your users to describe themselves."
-msgstr ""
+msgstr "Customize your community with fully editable portfolio fields that allow your users to describe themselves."
 
 #: bp-core/admin/bp-core-components.php:63
 #: bp-core/admin/bp-core-components.php:368
@@ -1312,7 +1312,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-functions.php:107
 msgid "Components, Pages, Settings, and Forums, have been moved to <a href=\"%s\">Settings &gt; BuddyPress</a>. Profile Fields has been moved into the <a href=\"%s\">Users</a> menu."
-msgstr ""
+msgstr "Components, Pages, Settings, and Forums, have been moved to <a href=\"%s\">Settings &gt; BuddyPress</a>. Portfolio Fields has been moved into the <a href=\"%s\">Users</a> menu."
 
 #: bp-core/admin/bp-core-functions.php:248
 msgid "<strong>BuddyPress is almost ready</strong>. You must <a href=\"%s\">update your permalink structure</a> to something other than the default for it to work."
@@ -6297,11 +6297,11 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:7
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:7
 msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
-msgstr "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account e-mail we will use that, or you can upload an image from your computer."
+msgstr "Your avatar will be used on your portfolio and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account e-mail, we will use that, or you can upload an image from your computer."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:14
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:14
-msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgid "Click below to select a JPG, GIF, or PNG from your computer and then click Upload Image to proceed."
 msgstr ""
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:23
@@ -6322,12 +6322,12 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:55
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:55
 msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
-msgstr "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same e-mail address as you used to register with this site."
+msgstr "Your avatar will be used on your portfolio and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same e-mail address as you used to register with this site."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:10
 #: bp-themes/bp-default/members/single/profile/edit.php:10
 msgid "Editing '%s' Profile Group"
-msgstr ""
+msgstr "Editing '%s' Portfolio Group"
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/edit.php:33
 #: bp-themes/bp-default/members/single/profile/edit.php:120
@@ -6850,7 +6850,7 @@ msgstr ""
 
 #: bp-xprofile/bp-xprofile-activity.php:26
 msgid "Member changed profile picture"
-msgstr ""
+msgstr "Member changed portfolio picture"
 
 #: bp-xprofile/bp-xprofile-activity.php:33
 msgid "New member registered"
@@ -6858,12 +6858,12 @@ msgstr ""
 
 #: bp-xprofile/bp-xprofile-activity.php:40
 msgid "Updated Profile"
-msgstr ""
+msgstr "Updated Portfolio"
 
 #: bp-xprofile/bp-xprofile-activity.php:59
 #: tests/testcases/xprofile/activity.php:285
 msgid "%s changed their profile picture"
-msgstr ""
+msgstr "%s changed their portfolio picture"
 
 #: bp-xprofile/bp-xprofile-activity.php:80
 #: tests/testcases/xprofile/activity.php:307
