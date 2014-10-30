@@ -6302,7 +6302,7 @@ msgstr "Your avatar will be used on your portfolio and throughout the site. If t
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:14
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:14
 msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
-msgstr "Click below to select a JPG, GIF, or PNG format photo from your computer and then click Upload Image to proceed."
+msgstr "Click below to select a JPG, GIF, or PNG from your computer and then click Upload Image to proceed."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:23
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:23
