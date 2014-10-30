@@ -6297,12 +6297,12 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:7
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:7
 msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
-msgstr "Your avatar will be used on your portfolio and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account e-mail, we will use that, or you can upload an image from your computer."
+msgstr "Your avatar will be used on your portfolio and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account e-mail we will use that, or you can upload an image from your computer."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:14
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:14
-msgid "Click below to select a JPG, GIF, or PNG from your computer and then click Upload Image to proceed."
-msgstr ""
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgstr "Click below to select a JPG, GIF, or PNG format photo from your computer and then click Upload Image to proceed."
 
 #: bp-templates/bp-legacy/buddypress/members/single/profile/change-avatar.php:23
 #: bp-themes/bp-default/members/single/profile/change-avatar.php:23
