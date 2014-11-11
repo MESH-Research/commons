@@ -2345,7 +2345,7 @@ msgstr ""
 #: bp-themes/bp-default/members/single/profile/profile-wp.php:8
 #: bp-xprofile/bp-xprofile-loader.php:309
 msgid "My Profile"
-msgstr "My Portfolio"
+msgstr "My Activity Stream"
 
 #: bp-core/deprecated/1.5.php:149 bp-members/admin/bp-members-classes.php:128
 #: bp-members/admin/bp-members-classes.php:446
