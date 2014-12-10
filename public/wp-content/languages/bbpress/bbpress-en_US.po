@@ -3118,11 +3118,13 @@ msgid ""
 "Create a discussion forum to allow members of this group to communicate in a "
 "structured, bulletin-board style fashion."
 msgstr ""
+"Create a discussion board to allow members of this group to communicate in a "
+"structured, bulletin-board style fashion."
 
 #: includes/extend/buddypress/groups.php:279
 #: includes/extend/buddypress/groups.php:479
 msgid "Yes. I want this group to have a forum."
-msgstr "Yes. I want this group to have a discussion area."
+msgstr "Yes. I want this group to have a discussion board."
 
 #: includes/extend/buddypress/groups.php:282
 msgid "Saying no will not delete existing forum content."
@@ -3136,7 +3138,7 @@ msgstr "Group Discussion:"
 msgid ""
 "Network administrators can reconfigure which forum belongs to this group."
 msgstr ""
-"Network administrators can reconfigure which forum belongs to this group."
+"Network administrators can reconfigure which discussion board belongs to this group."
 
 #: includes/extend/buddypress/groups.php:300
 msgid "Save Settings"
@@ -3168,7 +3170,7 @@ msgstr "Group Discussion"
 
 #: includes/extend/buddypress/groups.php:771
 msgid "This group does not currently have a forum."
-msgstr "This group does not currently have a discussion area."
+msgstr "This group does not currently have a discussion board."
 
 #: includes/extend/buddypress/loader.php:105
 msgid "Search Forums..."
