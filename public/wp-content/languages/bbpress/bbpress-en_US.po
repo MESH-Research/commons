@@ -125,7 +125,7 @@ msgstr ""
 #: includes/forums/template.php:48
 #: templates/default/bbpress/content-statistics.php:22
 msgid "Forums"
-msgstr ""
+msgstr "Discussions"
 
 #: includes/admin/admin.php:259 includes/admin/admin.php:260
 #: includes/admin/admin.php:268 includes/admin/admin.php:269
@@ -192,11 +192,11 @@ msgstr ""
 
 #: includes/admin/admin.php:765
 msgid "Forum Subscriptions"
-msgstr ""
+msgstr "Discussion Subscriptions"
 
 #: includes/admin/admin.php:769
 msgid "Subscribe to Forums"
-msgstr ""
+msgstr "Subscribe to Discussions"
 
 #: includes/admin/admin.php:770
 msgid "Now your users can subscribe to new topics in specific forums."
@@ -731,7 +731,7 @@ msgstr ""
 #: includes/extend/buddypress/groups.php:53 includes/forums/template.php:49
 #: templates/default/bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr ""
+msgstr "Discussion"
 
 #: includes/admin/forums.php:410 includes/admin/settings.php:222
 #: includes/admin/settings.php:243 includes/admin/topics.php:632
@@ -1445,11 +1445,11 @@ msgstr ""
 
 #: includes/admin/settings.php:391
 msgid "Enable Group Forums"
-msgstr ""
+msgstr "Enable Group Discussion"
 
 #: includes/admin/settings.php:399
 msgid "Group Forums Parent"
-msgstr ""
+msgstr "Group Discussion Parent"
 
 #: includes/admin/settings.php:412
 msgid "Use Akismet"
@@ -1473,11 +1473,11 @@ msgstr ""
 
 #: includes/admin/settings.php:533
 msgid "Automatically give registered visitors the %s forum role"
-msgstr ""
+msgstr "Automatically give registered visitors the %s discussion role"
 
 #: includes/admin/settings.php:549
 msgid "Forum features that can be toggled on and off"
-msgstr ""
+msgstr "Discussion features that can be toggled on and off"
 
 #: includes/admin/settings.php:565
 msgid "Allow users to mark topics as favorites"
@@ -1485,7 +1485,7 @@ msgstr ""
 
 #: includes/admin/settings.php:581
 msgid "Allow users to subscribe to forums and topics"
-msgstr ""
+msgstr "Allow users to subscribe to discussions and topics"
 
 #: includes/admin/settings.php:597
 msgid "Allow topics to have tags"
@@ -1493,7 +1493,7 @@ msgstr ""
 
 #: includes/admin/settings.php:613
 msgid "Allow forum wide search"
-msgstr ""
+msgstr "Allow discussion wide search"
 
 #: includes/admin/settings.php:652
 msgid "Enable threaded (nested) replies %s levels deep"
@@ -1509,7 +1509,7 @@ msgstr ""
 
 #: includes/admin/settings.php:698
 msgid "How your forum content is displayed within your existing theme."
-msgstr ""
+msgstr "How your discussion content is displayed within your existing theme."
 
 #: includes/admin/settings.php:722
 msgid "%1$s - %2$s"
@@ -1554,7 +1554,7 @@ msgstr ""
 
 #: includes/admin/settings.php:913
 msgid "Forum Index"
-msgstr ""
+msgstr "Discussion Index"
 
 #: includes/admin/settings.php:916
 msgid "Topics by Freshness"
@@ -1567,7 +1567,7 @@ msgstr ""
 #: includes/admin/settings.php:1043
 msgid ""
 "Custom slugs for single forums, topics, replies, tags, views, and search."
-msgstr ""
+msgstr "Custom slugs for single discussions, topics, replies, tags, views, and search."
 
 #: includes/admin/settings.php:1161
 msgid "Forum settings for BuddyPress"
@@ -2700,7 +2700,7 @@ msgstr ""
 
 #: includes/common/template.php:1446
 msgid "No forums available"
-msgstr ""
+msgstr "No discussions available"
 
 #: includes/common/template.php:1451
 msgid "None available"
@@ -2742,7 +2742,7 @@ msgstr ""
 
 #: includes/common/template.php:2539
 msgid "Forum Edit: %s"
-msgstr ""
+msgstr "Discussion Edit: %s"
 
 #: includes/common/template.php:2544
 msgid "Topic Edit: %s"
@@ -2758,7 +2758,7 @@ msgstr ""
 
 #: includes/common/template.php:2561
 msgid "Forum: %s"
-msgstr ""
+msgstr "Discussion: %s"
 
 #: includes/common/template.php:2566
 msgid "Topic: %s"
@@ -2873,15 +2873,15 @@ msgstr ""
 
 #: includes/common/widgets.php:384
 msgid "The bbPress forum search form."
-msgstr ""
+msgstr "The bbPress discussion search form."
 
 #: includes/common/widgets.php:387
 msgid "(bbPress) Forum Search Form"
-msgstr ""
+msgstr "(bbPress) Discussion Search Form"
 
 #: includes/common/widgets.php:483 includes/forums/template.php:58
 msgid "Search Forums"
-msgstr ""
+msgstr "Search Discussions"
 
 #: includes/common/widgets.php:512
 msgid "A list of forums with an option to set the parent."
@@ -3093,24 +3093,24 @@ msgstr ""
 
 #: includes/extend/buddypress/activity.php:195
 msgid "New forum topic"
-msgstr ""
+msgstr "New discussion topic"
 
 #: includes/extend/buddypress/activity.php:196
 msgid "New forum reply"
-msgstr ""
+msgstr "New discussion reply"
 
 #: includes/extend/buddypress/activity.php:420
 msgid "%1$s started the topic %2$s in the forum %3$s"
-msgstr ""
+msgstr "%1$s started the topic %2$s in the discussion %3$s"
 
 #: includes/extend/buddypress/activity.php:565
 msgid "%1$s replied to the topic %2$s in the forum %3$s"
-msgstr ""
+msgstr "%1$s replied to the topic %2$s in the discussion %3$s"
 
 #: includes/extend/buddypress/groups.php:271
 #: includes/extend/buddypress/groups.php:274
 msgid "Group Forum Settings"
-msgstr ""
+msgstr "Group Discussion Settings"
 
 #: includes/extend/buddypress/groups.php:275
 #: includes/extend/buddypress/groups.php:476
@@ -3122,20 +3122,21 @@ msgstr ""
 #: includes/extend/buddypress/groups.php:279
 #: includes/extend/buddypress/groups.php:479
 msgid "Yes. I want this group to have a forum."
-msgstr ""
+msgstr "Yes. I want this group to have a discussion area."
 
 #: includes/extend/buddypress/groups.php:282
 msgid "Saying no will not delete existing forum content."
-msgstr ""
+msgstr "Saying no will not delete existing discussion content."
 
 #: includes/extend/buddypress/groups.php:287
 msgid "Group Forum:"
-msgstr ""
+msgstr "Group Discussion:"
 
 #: includes/extend/buddypress/groups.php:295
 msgid ""
 "Network administrators can reconfigure which forum belongs to this group."
 msgstr ""
+"Network administrators can reconfigure which forum belongs to this group."
 
 #: includes/extend/buddypress/groups.php:300
 msgid "Save Settings"
@@ -3163,15 +3164,15 @@ msgstr ""
 
 #: includes/extend/buddypress/groups.php:474
 msgid "Group Forum"
-msgstr ""
+msgstr "Group Discussion"
 
 #: includes/extend/buddypress/groups.php:771
 msgid "This group does not currently have a forum."
-msgstr ""
+msgstr "This group does not currently have a discussion area."
 
 #: includes/extend/buddypress/loader.php:105
 msgid "Search Forums..."
-msgstr ""
+msgstr "Search Discussions..."
 
 #: includes/extend/buddypress/loader.php:293
 #: templates/default/bbpress/user-subscriptions.php:34
