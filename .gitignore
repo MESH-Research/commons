@@ -15,3 +15,6 @@
 !/public/wp-content/mu-plugins
 # ...and our translations files
 !/public/wp-content/languages 
+
+# Ignore ctags file
+tags
