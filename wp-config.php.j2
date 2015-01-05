@@ -86,6 +86,15 @@ define('CBOX_AUTH_GROUPS_SECRET_TOKEN', '{{ wordpress_secret_token_2 | default('
 define('CBOX_AUTH_DEBUG', false);
 define('CBOX_AUTH_DEBUG_LOG', '{{ admin_home_directory }}/log/cbox_auth_%t.log');
 
+/** SMTP settings **/
+define('GLOBAL_SMTP_FROM', '{{ wordpress_smtp_from | default('wordpress@localhost') }}');
+// Leaving GLOBAL_SMTP_FROM_NAME undefined means it will pick up the current blog name.
+define('GLOBAL_SMTP_HOST', '{{ wordpress_smtp_host | default('localhost') }}');
+define('GLOBAL_SMTP_USER', '{{ wordpress_smtp_user | default('') }}');
+define('GLOBAL_SMTP_PASSWORD', '{{ wordpress_smtp_password | default('') }}');
+define('GLOBAL_SMTP_PORT', {{ wordpress_smtp_port | default('465') }});
+define('GLOBAL_SMTP_SECURE;', '{{ wordpress_smtp_type | default('ssl') }}');
+
 /** CHANGE: Enforce SSL login and admin. **/
 define('FORCE_SSL_ADMIN', false);
 
