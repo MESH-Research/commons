@@ -4974,14 +4974,14 @@ msgstr ""
 #: bp-notifications/bp-notifications-loader.php:212
 #: bp-notifications/bp-notifications-template.php:733
 msgid "Read"
-msgstr ""
+msgstr "Mark as Read"
 
 #: bp-messages/bp-messages-template.php:537
 #: bp-notifications/bp-notifications-loader.php:140
 #: bp-notifications/bp-notifications-loader.php:189
 #: bp-notifications/bp-notifications-template.php:763
 msgid "Unread"
-msgstr ""
+msgstr "Mark as Unread"
 
 #: bp-messages/bp-messages-template.php:543
 msgid "Mark as Read"
