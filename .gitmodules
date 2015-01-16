@@ -10,3 +10,15 @@
 	path = public/wp-content/plugins/mla-admin-bar
 	url = git@github.com:mlaa/mla-admin-bar.git
 	branch = develop
+[submodule "public/wp-content/themes/cbox-mla-blog"]
+	path = public/wp-content/themes/cbox-mla-blog
+	url = git@github.com:mlaa/cbox-mla-blog.git
+	branch = develop
+[submodule "public/wp-content/plugins/cac-advanced-profiles"]
+	path = public/wp-content/plugins/cac-advanced-profiles
+	url = git@github.com:mlaa/cac-advanced-profiles.git
+	branch = develop
+[submodule "public/wp-content/plugins/buddypress-docs"]
+	path = public/wp-content/plugins/buddypress-docs
+	url = git@github.com:mlaa/buddypress-docs.git
+	branch = develop
