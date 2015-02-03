@@ -1071,7 +1071,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-template.php:1102
 msgid "<a href=\"%1$s\">%2$s</a> is your new site. <a href=\"%3$s\">Login</a> as \"%4$s\" using your existing password."
-msgstr ""
+msgstr "<a href=\"%1$s\">%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as \"%4$s\" using your existing password."
 
 #: bp-blogs/bp-blogs-template.php:1131
 msgid "%s's Sites"
@@ -3228,7 +3228,7 @@ msgstr ""
 
 #: bp-groups/bp-groups-admin.php:720
 msgid "Enter a comma-separated list of user logins."
-msgstr ""
+msgstr "Enter a comma-separated list of user log-ins."
 
 #: bp-groups/bp-groups-admin.php:779
 #: bp-templates/bp-legacy/buddypress/groups/single/admin.php:177
@@ -3582,6 +3582,11 @@ msgid ""
 "\n"
 "---------------------\n"
 msgstr ""
+"Your membership request for the group \"%1$s\" has been accepted.\n"
+"\n"
+"To view the group please log in and visit: %2$s\n"
+"\n"
+"---------------------\n"
 
 #: bp-groups/bp-groups-notifications.php:161
 msgid "Membership request for group \"%s\" rejected"
