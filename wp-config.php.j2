@@ -95,9 +95,6 @@ define('GLOBAL_SMTP_PASSWORD', '{{ wordpress_smtp_password | default('') }}');
 define('GLOBAL_SMTP_PORT', {{ wordpress_smtp_port | default('465') }});
 define('GLOBAL_SMTP_SECURE;', '{{ wordpress_smtp_type | default('ssl') }}');
 
-/** CHANGE: Enforce SSL login and admin. **/
-define('FORCE_SSL_ADMIN', false);
-
 /** CHANGE: Override CBOX plugin management. Enable only when needed. **/
 define('CBOX_OVERRIDE_PLUGINS', false);
 
@@ -115,7 +112,7 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /** CHANGE: Redirect nonexistent blogs to network home. **/
-define('NOBLOGREDIRECT', 'http://{{ wordpress_hostname }}');
+define('NOBLOGREDIRECT', 'https://{{ wordpress_hostname }}');
 
 /** CHANGE: Disable outgoing mail. Comment out to enable. **/
 function wp_mail(){}
