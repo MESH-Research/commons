@@ -87,12 +87,6 @@ define('CBOX_AUTH_DEBUG_LOG', '{{ admin_home_directory }}/log/cbox_auth_%t.log')
 
 /** SMTP settings **/
 define('GLOBAL_SMTP_FROM', '{{ wordpress_smtp_from }}');
-// Leaving GLOBAL_SMTP_FROM_NAME undefined means it will pick up the current blog name.
-define('GLOBAL_SMTP_HOST', '{{ wordpress_smtp_host }}');
-define('GLOBAL_SMTP_USER', '{{ wordpress_smtp_user }}');
-define('GLOBAL_SMTP_PASSWORD', '{{ wordpress_smtp_password }}');
-define('GLOBAL_SMTP_PORT', {{ wordpress_smtp_port }});
-define('GLOBAL_SMTP_SECURE;', '{{ wordpress_smtp_type }}');
 
 /** CHANGE: Override CBOX plugin management. Enable only when needed. **/
 define('CBOX_OVERRIDE_PLUGINS', false);
