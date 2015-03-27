@@ -1127,7 +1127,7 @@ msgstr ""
 
 #: bp-blogs/bp-blogs-widgets.php:134
 msgid "Link widget title to Blogs directory"
-msgstr ""
+msgstr "Link widget title to sites directory"
 
 #: bp-blogs/bp-blogs-widgets.php:135
 msgid "Max posts to show:"
@@ -1459,7 +1459,7 @@ msgstr ""
 
 #: bp-core/admin/bp-core-settings.php:101
 msgid "Allow activity stream commenting on blog and forum posts"
-msgstr ""
+msgstr "Allow activity stream commenting on site and forum posts"
 
 #: bp-core/admin/bp-core-settings.php:115
 msgid "Automatically check for new items while viewing the activity stream"
@@ -1677,7 +1677,7 @@ msgstr ""
 
 #: bp-core/bp-core-admin.php:381
 msgid "Blog &amp; Forum Comments"
-msgstr ""
+msgstr "Site &amp; Forum Comments"
 
 #: bp-core/bp-core-admin.php:385
 msgid "Activity auto-refresh"
@@ -4578,7 +4578,7 @@ msgstr ""
 
 #: bp-members/bp-members-buddybar.php:49
 msgid "Blog Authors"
-msgstr ""
+msgstr "Site Authors"
 
 #: bp-members/bp-members-buddybar.php:99
 msgid "Edit %s's Profile"
@@ -6129,7 +6129,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:126
 #: bp-themes/bp-default/registration/register.php:210
 msgid "Blog Details"
-msgstr ""
+msgstr "Site Details"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:128
 #: bp-themes/bp-default/registration/register.php:212
@@ -6139,7 +6139,7 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:132
 #: bp-themes/bp-default/registration/register.php:216
 msgid "Blog URL"
-msgstr ""
+msgstr "Site URL"
 
 #: bp-templates/bp-legacy/buddypress/members/register.php:141
 #: bp-themes/bp-default/registration/register.php:225
