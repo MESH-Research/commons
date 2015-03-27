@@ -7157,6 +7157,36 @@ msgid "Text Box"
 msgstr ""
 
 #: bp-xprofile/bp-xprofile-classes.php:2436
+#: bp-core/bp-core-template.php:385
+msgctxt "search form"
+msgid "Members"
+msgstr ""
+
+#: bp-core/bp-core-template.php:389
+msgctxt "search form"
+msgid "Groups"
+msgstr ""
+
+#: bp-core/bp-core-template.php:393
+msgctxt "search form"
+msgid "Blogs"
+msgstr "Sites"
+
+#: bp-core/bp-core-template.php:397
+msgctxt "search form"
+msgid "Forums"
+msgstr ""
+
+#: bp-core/bp-core-template.php:400
+msgctxt "search form"
+msgid "Posts"
+msgstr ""
+
+#: bp-core/bp-core-template.php:403
+msgctxt "search form"
+msgid "Search these:"
+msgstr ""
+
 msgctxt "xprofile field type"
 msgid "Number"
 msgstr ""
