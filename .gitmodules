@@ -22,3 +22,6 @@
 	path = public/wp-content/plugins/buddypress-docs
 	url = git@github.com:mlaa/buddypress-docs.git
 	branch = develop
+[submodule "public/wp-content/invite-anyone"]
+	path = public/wp-content/invite-anyone
+	url = /home/jreeve/app/public/wp-content/plugins/invite-anyone
