@@ -6715,7 +6715,7 @@ msgstr ""
 #: bp-core/bp-core-loader.php:233
 msgctxt "Main navigation"
 msgid "Profile"
-msgstr ""
+msgstr "Portfolio"
 
 #: bp-core/bp-core-loader.php:244
 msgctxt "Profile sub nav"
@@ -7412,7 +7412,7 @@ msgstr "My Contacts"
 #: bp-xprofile/bp-xprofile-loader.php:168
 msgctxt "Profile header menu"
 msgid "Profile"
-msgstr ""
+msgstr "Portfolio"
 
 #: bp-xprofile/bp-xprofile-loader.php:189
 msgctxt "Profile header sub menu"
