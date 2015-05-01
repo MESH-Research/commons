@@ -25,3 +25,6 @@
 [submodule "public/wp-content/invite-anyone"]
 	path = public/wp-content/invite-anyone
 	url = /home/jreeve/app/public/wp-content/plugins/invite-anyone
+[submodule "public/wp-content/plugins/humcore"]
+	path = public/wp-content/plugins/humcore
+	url = https://github.com/mlaa/humcore
