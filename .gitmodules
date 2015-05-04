@@ -22,10 +22,6 @@
 	path = public/wp-content/plugins/buddypress-docs
 	url = git@github.com:mlaa/buddypress-docs.git
 	branch = master
-[submodule "public/wp-content/invite-anyone"]
-	path = public/wp-content/invite-anyone
-	url = /home/jreeve/app/public/wp-content/plugins/invite-anyone
-	branch = master
 [submodule "public/wp-content/plugins/humcore"]
 	path = public/wp-content/plugins/humcore
 	url = https://github.com/mlaa/humcore
