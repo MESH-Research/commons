@@ -26,3 +26,6 @@
 	path = public/wp-content/plugins/humcore
 	url = https://github.com/mlaa/humcore
 	branch = master
+[submodule "public/wp-content/plugins/invite-anyone"]
+	path = public/wp-content/plugins/invite-anyone
+	url = https://github.com/mlaa/invite-anyone
