@@ -3,6 +3,11 @@ $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
 
 /**
+ * Custom applications settings
+ */
+require_once __DIR__ . '/customizations.php';
+
+/**
  * Use Dotenv to set required environment variables and load .env file in root
  */
 if (file_exists($root_dir . '/.env')) {
