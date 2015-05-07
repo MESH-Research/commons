@@ -1,5 +1,6 @@
 {
   "name": "mlaa/commons",
+  "version": "1.0.0",
   "type": "project",
   "license": "MIT",
   "config": {
@@ -16,13 +17,149 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/buddypress-docs",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/buddypress-docs.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/cac-advanced-profiles",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/cac-advanced-profiles.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/cbox-auth",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/cbox-auth.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/cbox-mla",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/cbox-mla.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/cbox-mla-blog",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/cbox-mla-blog.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/humcore",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/humcore.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/invite-anyone",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/invite-anyone.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/mla-admin-bar",
+        "version": "1.0.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/mla-admin-bar.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
     }
   ],
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "~1.0.9",
-    "johnpbloch/wordpress": "4.2.2"
+    "johnpbloch/wordpress": "4.2.2",
+    "mlaa/buddypress-docs": "1.0.0",
+    "mlaa/cac-advanced-profiles": "1.0.0",
+    "mlaa/cbox-auth": "1.0.0",
+    "mlaa/cbox-mla": "1.0.0",
+    "mlaa/cbox-mla-blog": "1.0.0",
+    "mlaa/humcore": "1.0.0",
+    "mlaa/invite-anyone": "1.0.0",
+    "mlaa/mla-admin-bar": "1.0.0"
   },
   "extra": {
     "installer-paths": {
