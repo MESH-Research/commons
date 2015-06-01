@@ -101,6 +101,54 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/commentpress-mla",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/commentpress-mla.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/commentpress-mla-digitalpedagogy",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/commentpress-mla.git",
+          "type": "git",
+          "reference": "digital-pedagogy"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/commentpress-mla-groups",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/commentpress-mla.git",
+          "type": "git",
+          "reference": "groups-discussion"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/humcore",
         "version": "1.0.0",
         "type": "wordpress-plugin",
@@ -145,6 +193,54 @@
           "composer/installers": "~1.0.12"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/profession",
+        "version": "1.0.0",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/profession-theme.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "cuny-academic-commons/cbox-theme",
+        "version": "1.0.10",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/cbox-theme.git",
+          "type": "git",
+          "reference": "1.0.10"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "cuny-academic-commons/external-group-blogs",
+        "version": "1.6.0",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/external-group-blogs.git",
+          "type": "git",
+          "reference": "1.6.0"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
     }
   ],
   "require": {
@@ -157,9 +253,87 @@
     "mlaa/cbox-auth": "1.0.0",
     "mlaa/cbox-mla": "1.0.0",
     "mlaa/cbox-mla-blog": "1.0.0",
+    "mlaa/commentpress-mla": "1.0.0",
+    "mlaa/commentpress-mla-digitalpedagogy": "1.0.0",
+    "mlaa/commentpress-mla-groups": "1.0.0",
     "mlaa/humcore": "1.0.0",
     "mlaa/invite-anyone": "1.0.0",
-    "mlaa/mla-admin-bar": "1.0.0"
+    "mlaa/mla-admin-bar": "1.0.0",
+    "mlaa/profession": "1.0.0",
+    "cuny-academic-commons/cbox-theme": "1.0.10",
+    "cuny-academic-commons/external-group-blogs": "1.6.0",
+    "wpackagist-plugin/akismet": "3.1.1",
+    "wpackagist-plugin/anthologize": "0.7.5",
+    "wpackagist-plugin/bbpress": "2.5.7",
+    "wpackagist-plugin/bebop": "1.3.2",
+    "wpackagist-plugin/bp-edit-group-slug": "1.2",
+    "wpackagist-plugin/bp-groupblog": "1.8.11",
+    "wpackagist-plugin/bp-group-documents": "1.9.3.1",
+    "wpackagist-plugin/bp-lotsa-feeds": "1.0",
+    "wpackagist-plugin/bp-mpo-activity-filter": "1.2",
+    "wpackagist-plugin/bp-system-report": "0.1",
+    "wpackagist-plugin/buddypress": "2.2.3.1",
+    "wpackagist-plugin/buddypress-group-email-subscription": "3.5.1",
+    "wpackagist-plugin/cac-featured-content": "1.0.5",
+    "wpackagist-plugin/commentpress-core": "3.7",
+    "wpackagist-plugin/commons-in-a-box": "1.0.10",
+    "wpackagist-plugin/cookie-message": "1.2",
+    "wpackagist-plugin/creative-commons-configurator-1": "1.8.7",
+    "wpackagist-plugin/custom-profile-filters-for-buddypress": "0.4",
+    "wpackagist-plugin/disable-password-reset-extended": "1.0",
+    "wpackagist-plugin/events-made-easy": "1.5.40",
+    "wpackagist-plugin/events-manager": "5.5.7",
+    "wpackagist-plugin/fd-footnotes": "1.31",
+    "wpackagist-plugin/feedwordpress": "2015.0514",
+    "wpackagist-plugin/force-regenerate-thumbnails": "2.0.5",
+    "wpackagist-plugin/google-document-embedder": "2.5.19",
+    "wpackagist-plugin/google-sitemap-generator": "4.0.8",
+    "wpackagist-plugin/issuem": "2.1.0",
+    "wpackagist-plugin/jquery-hover-footnotes": "1.4",
+    "wpackagist-plugin/knight-lab-timelinejs": "2.35.6.0",
+    "wpackagist-plugin/more-privacy-options": "3.9.1.1",
+    "wpackagist-plugin/move-comments": "1.2",
+    "wpackagist-plugin/multisite-plugin-manager": "3.1.4",
+    "wpackagist-plugin/network-plugin-auditor": "1.8.1",
+    "wpackagist-plugin/ninja-forms": "2.9.17",
+    "wpackagist-plugin/openbook-book-data": "3.5.1",
+    "wpackagist-plugin/options-framework": "1.8.4",
+    "wpackagist-plugin/participants-database": "1.5.4.9",
+    "wpackagist-plugin/password-protected": "2.0",
+    "wpackagist-plugin/pressforward": "3.5.2",
+    "wpackagist-plugin/printfriendly": "3.3.10",
+    "wpackagist-plugin/q-and-a": "1.0.6.2",
+    "wpackagist-plugin/redux-framework": "3.5.4.3",
+    "wpackagist-plugin/scholarpress-coins": "1.3",
+    "wpackagist-plugin/shareadraft": "1.4",
+    "wpackagist-plugin/sky-login-redirect": "1.8",
+    "wpackagist-plugin/storify": "1.0.6",
+    "wpackagist-plugin/typekit-fonts-for-wordpress": "1.7.1",
+    "wpackagist-plugin/video-thumbnails": "2.12.1",
+    "wpackagist-plugin/woosidebars": "1.4.2",
+    "wpackagist-plugin/wordpress-importer": "0.6.1",
+    "wpackagist-plugin/wp-accessibility": "1.4.1",
+    "wpackagist-plugin/wp-fail2ban": "2.3.0",
+    "wpackagist-plugin/wpfront-notification-bar": "1.5.2",
+    "wpackagist-plugin/wp-google-maps": "6.1.9",
+    "wpackagist-plugin/wp-hide-dashboard": "2.2.1",
+    "wpackagist-plugin/wp-markdown": "1.5.1",
+    "wpackagist-plugin/wp-polls": "2.69",
+    "wpackagist-plugin/wp-to-twitter": "3.0.7",
+    "wpackagist-plugin/wptouch": "3.7.9",
+    "wpackagist-theme/annotum-base": "*",
+    "wpackagist-theme/arcade-basic": "*",
+    "wpackagist-theme/blaskan": "*",
+    "wpackagist-theme/esquire": "*",
+    "wpackagist-theme/foghorn": "*",
+    "wpackagist-theme/hum": "*",
+    "wpackagist-theme/maskitto-light": "*",
+    "wpackagist-theme/origin": "*",
+    "wpackagist-theme/publish": "*",
+    "wpackagist-theme/radcliffe": "*",
+    "wpackagist-theme/responsive": "*",
+    "wpackagist-theme/simplemarket": "*",
+    "wpackagist-theme/sparkling": "*"
   },
   "extra": {
     "installer-paths": {
