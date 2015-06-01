@@ -29,3 +29,6 @@
 [submodule "public/wp-content/plugins/invite-anyone"]
 	path = public/wp-content/plugins/invite-anyone
 	url = https://github.com/mlaa/invite-anyone
+[submodule "/home/admin/app/public/wp-content/plugins/buddypress-group-email-subscription"]
+	path = /home/admin/app/public/wp-content/plugins/buddypress-group-email-subscription
+	url = https://github.com/mlaa/buddypress-group-email-subscription.git
