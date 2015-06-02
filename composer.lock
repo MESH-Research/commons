@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4be2f1cbf094260ffb50418faa8182d3",
+    "hash": "bef6dca45af14af7c7f785305a0c7806",
     "packages": [
         {
             "name": "composer/installers",
@@ -1577,26 +1577,6 @@
             "homepage": "https://wordpress.org/plugins/wpfront-notification-bar/"
         },
         {
-            "name": "wpackagist-plugin/wptouch",
-            "version": "3.7.9",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wptouch/",
-                "reference": "tags/3.7.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wptouch.3.7.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wptouch/"
-        },
-        {
             "name": "wpackagist-theme/annotum-base",
             "version": "2.0",
             "source": {
@@ -1718,15 +1698,15 @@
         },
         {
             "name": "wpackagist-theme/maskitto-light",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/maskitto-light/",
-                "reference": "2.0.7"
+                "reference": "2.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/maskitto-light.2.0.7.zip",
+                "url": "https://downloads.wordpress.org/theme/maskitto-light.2.0.8.zip",
                 "reference": null,
                 "shasum": null
             },
