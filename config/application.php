@@ -3,11 +3,6 @@ $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
 
 /**
- * Custom applications settings
- */
-require_once __DIR__ . '/customizations.php';
-
-/**
  * Use Dotenv to set required environment variables and load .env file in root
  */
 if (file_exists($root_dir . '/.env')) {
@@ -15,6 +10,15 @@ if (file_exists($root_dir . '/.env')) {
 }
 
 Dotenv::required(['DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL']);
+
+/**
+ * Include an 'all' environment config, if it exists.
+ */
+$all_config = __DIR__ . '/environments/all.php';
+
+if (file_exists($all_config)) {
+  require_once $all_config;
+}
 
 /**
  * Set up our global environment constant and load its config first
@@ -27,6 +31,7 @@ $env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
 if (file_exists($env_config)) {
   require_once $env_config;
 }
+
 
 /**
  * URLs
