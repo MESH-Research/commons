@@ -1,20 +1,18 @@
-# WP Core
-/wp-config.php
-/public/wp-*
-/public/index.php
-/public/license.txt
-/public/readme.html
-/public/xmlrpc.php
+# Application
+web/app/blogs.dir/*
+web/app/plugins/*
+web/app/themes/*
+web/app/upgrade/*
+web/app/uploads/*
 
-# Don't ignore mu-plugins.
-# First, unignore wp-content.
-!/public/wp-content
-# But ignore everything in wp-content...
-/public/wp-content/*
-# ...except for mu-plugins.
-!/public/wp-content/mu-plugins
-# ...and our translations files
-!/public/wp-content/languages 
+# WordPress
+web/wp
 
-# Ignore ctags file
-tags
+# Dotenv
+.env
+
+# Vendor (e.g. Composer)
+vendor/*
+
+# Node Package Manager
+node_modules
