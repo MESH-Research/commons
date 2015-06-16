@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bef6dca45af14af7c7f785305a0c7806",
+    "hash": "10a52aeaae03bd27fd67d8cd1cc6385c",
     "packages": [
         {
             "name": "composer/installers",
@@ -166,20 +166,20 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e"
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a4c08e91be99e858c7778c2f52a4d73820147c2e",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "conflict": {
                 "composer/installers": "<1.0.6"
@@ -207,85 +207,160 @@
                 }
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
-            "time": "2013-09-09 15:04:54"
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "mlaa/buddypress-docs",
-            "version": "1.0.0",
+            "version": "1.8.1-patch",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/buddypress-docs.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/buddypress-docs.git",
+                "reference": "ae2a2f33fb8ef27256f621b7429c2693d8772527"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/buddypress-docs/zipball/ae2a2f33fb8ef27256f621b7429c2693d8772527",
+                "reference": "ae2a2f33fb8ef27256f621b7429c2693d8772527",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
+                "issues": "https://github.com/mlaa/buddypress-docs/issues"
+            },
+            "time": "2015-06-16 02:25:20"
         },
         {
             "name": "mlaa/cac-advanced-profiles",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/cac-advanced-profiles.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/cac-advanced-profiles.git",
+                "reference": "ed50c39de3b5bcfcbbb9d9737d6e6aabc64d2dfa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/cac-advanced-profiles/zipball/ed50c39de3b5bcfcbbb9d9737d6e6aabc64d2dfa",
+                "reference": "ed50c39de3b5bcfcbbb9d9737d6e6aabc64d2dfa",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/cac-advanced-profiles/tree/1.0.0",
+                "issues": "https://github.com/mlaa/cac-advanced-profiles/issues"
+            },
+            "time": "2015-06-16 02:29:07"
         },
         {
             "name": "mlaa/cbox-auth",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/cbox-auth.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/cbox-auth.git",
+                "reference": "70e837a045d57441268a5ec0e7a7d76be1d438f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/70e837a045d57441268a5ec0e7a7d76be1d438f1",
+                "reference": "70e837a045d57441268a5ec0e7a7d76be1d438f1",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/cbox-auth/tree/1.0.0",
+                "issues": "https://github.com/mlaa/cbox-auth/issues"
+            },
+            "time": "2015-06-16 02:35:11"
         },
         {
             "name": "mlaa/cbox-mla",
-            "version": "1.0.0",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/cbox-mla.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/cbox-mla.git",
+                "reference": "95f59a867d0bc9e1f7950eb7f1bf038b533b0099"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/95f59a867d0bc9e1f7950eb7f1bf038b533b0099",
+                "reference": "95f59a867d0bc9e1f7950eb7f1bf038b533b0099",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-theme"
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/cbox-mla/tree/v2.3.2",
+                "issues": "https://github.com/mlaa/cbox-mla/issues"
+            },
+            "time": "2015-06-16 03:15:45"
         },
         {
             "name": "mlaa/cbox-mla-blog",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/cbox-mla-blog.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/cbox-mla-blog.git",
+                "reference": "cc15d9228b99cc8db18a1d386e6dbf1655885ca3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla-blog/zipball/cc15d9228b99cc8db18a1d386e6dbf1655885ca3",
+                "reference": "cc15d9228b99cc8db18a1d386e6dbf1655885ca3",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-theme"
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/cbox-mla-blog/tree/1.0.0",
+                "issues": "https://github.com/mlaa/cbox-mla-blog/issues"
+            },
+            "time": "2015-06-16 03:18:12"
         },
         {
             "name": "mlaa/commentpress-mla",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/commentpress-mla.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/commentpress-mla.git",
+                "reference": "2ce98e226bc11c4255a82156a1bb33f5e77ce2f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/2ce98e226bc11c4255a82156a1bb33f5e77ce2f7",
+                "reference": "2ce98e226bc11c4255a82156a1bb33f5e77ce2f7",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-theme"
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/commentpress-mla/tree/1.0.0",
+                "issues": "https://github.com/mlaa/commentpress-mla/issues"
+            },
+            "time": "2015-06-16 03:20:32"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
@@ -319,38 +394,74 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/humcore.git",
-                "reference": "master"
+                "reference": "0f18a7884215ed09226c7004d7ed95aaeb2657cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0f18a7884215ed09226c7004d7ed95aaeb2657cd",
+                "reference": "0f18a7884215ed09226c7004d7ed95aaeb2657cd",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/humcore/tree/1.0.0",
+                "issues": "https://github.com/mlaa/humcore/issues"
+            },
+            "time": "2015-06-16 03:00:51"
         },
         {
             "name": "mlaa/invite-anyone",
-            "version": "1.0.0",
+            "version": "1.3.7-patch",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/invite-anyone.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/invite-anyone.git",
+                "reference": "8ff3a5008e9fd02c42381e583027a5131aefc87b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/invite-anyone/zipball/8ff3a5008e9fd02c42381e583027a5131aefc87b",
+                "reference": "8ff3a5008e9fd02c42381e583027a5131aefc87b",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/invite-anyone/tree/1.3.7-dev",
+                "issues": "https://github.com/mlaa/invite-anyone/issues"
+            },
+            "time": "2015-06-16 03:02:53"
         },
         {
             "name": "mlaa/mla-admin-bar",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/mla-admin-bar.git",
-                "reference": "master"
+                "url": "https://github.com/mlaa/mla-admin-bar.git",
+                "reference": "11b0a22578f2151a4f02ebc7cdfab3dd0228ea2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-admin-bar/zipball/11b0a22578f2151a4f02ebc7cdfab3dd0228ea2b",
+                "reference": "11b0a22578f2151a4f02ebc7cdfab3dd0228ea2b",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-admin-bar/tree/1.0.0",
+                "issues": "https://github.com/mlaa/mla-admin-bar/issues"
+            },
+            "time": "2015-06-16 03:05:27"
         },
         {
             "name": "mlaa/profession",
@@ -358,12 +469,24 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/profession-theme.git",
-                "reference": "master"
+                "reference": "3ac91d300674df60fc3df227b02ad82dff6cee69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/3ac91d300674df60fc3df227b02ad82dff6cee69",
+                "reference": "3ac91d300674df60fc3df227b02ad82dff6cee69",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
-            "type": "wordpress-theme"
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/profession-theme/tree/1.0.0",
+                "issues": "https://github.com/mlaa/profession-theme/issues"
+            },
+            "time": "2015-06-16 03:46:57"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -818,7 +941,7 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.5.7",
+            "version": "5.5.7.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/events-manager/",
@@ -1462,11 +1585,11 @@
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
