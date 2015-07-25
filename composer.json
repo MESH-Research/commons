@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "type": "project",
   "license": "MIT",
-  "config": {
-    "preferred-install": "dist"
-  },
   "repositories": [
     {
       "type": "composer",
       "url": "http://wpackagist.org"
     },
     {
+      "type": "artifact",
+      "url": "/tmp/commons-packages/"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/bp-group-documents.git"
+    },
+    {
       "type": "vcs",
       "url": "git@github.com:mlaa/buddypress-docs.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/buddypress-group-email-subscription.git"
     },
     {
       "type": "vcs",
@@ -34,38 +43,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:mlaa/commentpress-mla.git"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mlaa/commentpress-mla-digitalpedagogy",
-        "version": "1.0.0",
-        "type": "wordpress-theme",
-        "source": {
-          "url": "git@github.com:mlaa/commentpress-mla.git",
-          "type": "git",
-          "reference": "digital-pedagogy"
-        },
-        "require" : {
-          "composer/installers": "~1.0.12"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mlaa/commentpress-mla-groups",
-        "version": "1.0.0",
-        "type": "wordpress-theme",
-        "source": {
-          "url": "git@github.com:mlaa/commentpress-mla.git",
-          "type": "git",
-          "reference": "groups-discussion"
-        },
-        "require" : {
-          "composer/installers": "~1.0.12"
-        }
-      }
     },
     {
       "type": "vcs",
@@ -102,13 +79,29 @@
     {
       "type": "package",
       "package": {
-        "name": "cuny-academic-commons/external-group-blogs",
-        "version": "1.6.0",
-        "type": "wordpress-plugin",
+        "name": "mlaa/commentpress-mla-digitalpedagogy",
+        "version": "dev-digital-pedagogy",
+        "type": "wordpress-theme",
         "source": {
-          "url": "git@github.com:cuny-academic-commons/external-group-blogs.git",
+          "url": "git@github.com:mlaa/commentpress-mla.git",
           "type": "git",
-          "reference": "1.6.0"
+          "reference": "digital-pedagogy"
+        },
+        "require" : {
+          "composer/installers": "~1.0.12"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/commentpress-mla-groups",
+        "version": "dev-groups-discussion",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:mlaa/commentpress-mla.git",
+          "type": "git",
+          "reference": "groups-discussion"
         },
         "require" : {
           "composer/installers": "~1.0.12"
@@ -121,36 +114,27 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.2.3",
+    "mlaa/bp-group-documents": "dev-master",
     "mlaa/buddypress-docs": "1.8.1-patch",
-    "mlaa/cac-advanced-profiles": "1.0.0",
-    "mlaa/cbox-auth": "1.0.0",
-    "mlaa/cbox-mla": "2.3.2",
-    "mlaa/cbox-mla-blog": "1.0.0",
-    "mlaa/commentpress-mla": "1.0.0",
-    "mlaa/commentpress-mla-digitalpedagogy": "1.0.0",
-    "mlaa/commentpress-mla-groups": "1.0.0",
-    "mlaa/humcore": "1.0.0",
+    "mlaa/buddypress-group-email-subscription": "dev-master",
+    "mlaa/cac-advanced-profiles": "dev-master",
+    "mlaa/cbox-auth": "dev-master",
+    "mlaa/humcore": "dev-master",
     "mlaa/invite-anyone": "1.3.7-patch",
-    "mlaa/mla-admin-bar": "1.0.0",
-    "mlaa/profession": "1.0.0",
-    "cuny-academic-commons/cbox-theme": "1.0.10",
-    "cuny-academic-commons/external-group-blogs": "1.6.0",
-    "wpackagist-plugin/akismet": "3.1.1",
-    "wpackagist-plugin/anthologize": "0.7.5",
+    "mlaa/mla-admin-bar": "dev-master",
+    "themesindep/shortcodes-indep": "3.0.0",
+    "wpackagist-plugin/akismet": "3.1.3",
+    "wpackagist-plugin/anthologize": "0.7.6",
     "wpackagist-plugin/bbpress": "2.5.7",
     "wpackagist-plugin/bebop": "1.3.2",
-    "wpackagist-plugin/bp-edit-group-slug": "1.2",
     "wpackagist-plugin/bp-groupblog": "1.8.11",
-    "wpackagist-plugin/bp-group-documents": "1.9.3.1",
     "wpackagist-plugin/bp-lotsa-feeds": "1.0",
     "wpackagist-plugin/bp-mpo-activity-filter": "1.2",
     "wpackagist-plugin/bp-system-report": "0.1",
     "wpackagist-plugin/buddypress": "2.2.3.1",
-    "wpackagist-plugin/buddypress-group-email-subscription": "3.5.1",
     "wpackagist-plugin/cac-featured-content": "1.0.5",
     "wpackagist-plugin/commentpress-core": "3.7",
     "wpackagist-plugin/commons-in-a-box": "1.0.10",
-    "wpackagist-plugin/cookie-message": "1.2",
     "wpackagist-plugin/creative-commons-configurator-1": "1.8.7",
     "wpackagist-plugin/custom-profile-filters-for-buddypress": "0.4",
     "wpackagist-plugin/disable-password-reset-extended": "1.0",
@@ -168,44 +152,66 @@
     "wpackagist-plugin/move-comments": "1.2",
     "wpackagist-plugin/multisite-plugin-manager": "3.1.4",
     "wpackagist-plugin/network-plugin-auditor": "1.8.1",
-    "wpackagist-plugin/ninja-forms": "2.9.17",
+    "wpackagist-plugin/ninja-forms": "2.9.21",
     "wpackagist-plugin/openbook-book-data": "3.5.1",
     "wpackagist-plugin/options-framework": "1.8.4",
-    "wpackagist-plugin/participants-database": "1.5.4.9",
+    "wpackagist-plugin/participants-database": "1.6.2.5",
     "wpackagist-plugin/password-protected": "2.0",
     "wpackagist-plugin/pressforward": "3.5.2",
-    "wpackagist-plugin/printfriendly": "3.3.10",
+    "wpackagist-plugin/printfriendly": "3.4.0",
     "wpackagist-plugin/q-and-a": "1.0.6.2",
-    "wpackagist-plugin/redux-framework": "3.5.4.3",
+    "wpackagist-plugin/redux-framework": "3.5.6",
     "wpackagist-plugin/scholarpress-coins": "1.3",
     "wpackagist-plugin/shareadraft": "1.4",
+    "wpackagist-plugin/siteorigin-panels": "2.1.4",
     "wpackagist-plugin/sky-login-redirect": "1.8",
-    "wpackagist-plugin/storify": "1.0.6",
+    "wpackagist-plugin/storify": "1.0.9",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "1.7.1",
     "wpackagist-plugin/video-thumbnails": "2.12.1",
     "wpackagist-plugin/woosidebars": "1.4.2",
     "wpackagist-plugin/wordpress-importer": "0.6.1",
-    "wpackagist-plugin/wp-accessibility": "1.4.1",
+    "wpackagist-plugin/wp-accessibility": "1.4.2",
     "wpackagist-plugin/wp-fail2ban": "2.3.0",
     "wpackagist-plugin/wpfront-notification-bar": "1.5.2",
-    "wpackagist-plugin/wp-google-maps": "6.1.9",
+    "wpackagist-plugin/wp-google-maps": "6.2.1",
     "wpackagist-plugin/wp-hide-dashboard": "2.2.1",
     "wpackagist-plugin/wp-markdown": "1.5.1",
     "wpackagist-plugin/wp-polls": "2.69",
-    "wpackagist-plugin/wp-to-twitter": "3.0.7",
+    "wpackagist-plugin/wp-to-twitter": "3.1.2",
+    "wpmudev/google-analytics-async": "3.1.5",
+    "wpninjas/ninja-forms-conditionals": "1.3.9",
+    "wpninjas/ninja-forms-multi-part": "1.3.4",
+    "wpninjas/ninja-forms-pdf-submissions": "1.3.2",
+    "wpninjas/ninja-forms-save-progress": "1.2.1",
+    "wpninjas/ninja-forms-style": "1.2.7",
+    "wpninjas/ninja-forms-uploads": "1.4.5",
+    "cuny-academic-commons/cbox-theme": "1.0.10",
+    "mlaa/cbox-mla": "dev-master",
+    "mlaa/cbox-mla-blog": "dev-master",
+    "mlaa/commentpress-mla": "dev-master",
+    "mlaa/commentpress-mla-digitalpedagogy": "dev-digital-pedagogy",
+    "mlaa/commentpress-mla-groups": "dev-groups-discussion",
+    "mlaa/profession-theme": "dev-master",
+    "themesindep/simplemag": "3.0.4",
     "wpackagist-theme/annotum-base": "2.0",
     "wpackagist-theme/arcade-basic": "1.0.6",
     "wpackagist-theme/blaskan": "2.6.6",
     "wpackagist-theme/esquire": "1.3.1",
     "wpackagist-theme/foghorn": "0.3",
     "wpackagist-theme/hum": "0.2.1",
-    "wpackagist-theme/maskitto-light": "2.0.8",
+    "wpackagist-theme/maskitto-light": "2.1.2",
     "wpackagist-theme/origin": "0.5.8",
     "wpackagist-theme/publish": "1.2.4",
     "wpackagist-theme/radcliffe": "1.12",
-    "wpackagist-theme/responsive": "1.9.7.6",
+    "wpackagist-theme/responsive": "1.9.7.7",
     "wpackagist-theme/simplemarket": "1.1.1",
-    "wpackagist-theme/sparkling": "1.8.3"
+    "wpackagist-theme/sparkling": "1.9.1",
+    "wpackagist-theme/suits": "1.1",
+    "wpackagist-theme/twentyeleven": "2.1",
+    "wpackagist-theme/twentyfifteen": "1.2",
+    "wpackagist-theme/twentyfourteen": "1.4",
+    "wpackagist-theme/twentythirteen": "1.5",
+    "wpackagist-theme/twentytwelve": "1.7"
   },
   "extra": {
     "installer-paths": {
