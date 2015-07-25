@@ -119,8 +119,8 @@
   "require": {
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
-    "vlucas/phpdotenv": "~1.0.9",
-    "johnpbloch/wordpress": "4.2.2",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.2.3",
     "mlaa/buddypress-docs": "1.8.1-patch",
     "mlaa/cac-advanced-profiles": "1.0.0",
     "mlaa/cbox-auth": "1.0.0",
