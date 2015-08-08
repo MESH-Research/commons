@@ -39,18 +39,4 @@ function _vlog( $var ) {
 	error_log( print_r( debug_backtrace(), true ) ); 
 } 
 
-/* Don't write PHP Strict Standards error messages to debug.log.
- * Because apparently everything everywhere is a violation of a PHP
- * Strict Standard.
- *
- * When not debugging, skip E_NOTICE and lower.
- */
-if (WP_DEBUG === true) {
-	error_reporting(E_ALL & ~E_STRICT);
-	ini_set( 'log_errors', 1 );
-	ini_set( 'error_log', '/var/log/wp/debug.log' );
-} else {
-	error_reporting(E_USER_ERROR);
-}
-
 ?>
