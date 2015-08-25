@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d489a7689f23a72c21a8952ee5f23cce",
+    "hash": "b2fc1382b196208efcfcad833c466fa7",
     "packages": [
         {
             "name": "composer/installers",
@@ -116,16 +116,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.3",
+            "version": "4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "56525f7941a9835ae64deafcaff15cd52336e467"
+                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/56525f7941a9835ae64deafcaff15cd52336e467",
-                "reference": "56525f7941a9835ae64deafcaff15cd52336e467",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
+                "reference": "7ba0030c15a88c63b3ba2e8ebee1215e211aa9a1",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-07-23 11:16:08"
+            "time": "2015-08-04 12:01:12"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -308,7 +308,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/2eb733f172662c16cb1d3f9430edc8603a9aca4d",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/9bbbe30ec61d7d238926f180804d800f81ace115",
                 "reference": "2eb733f172662c16cb1d3f9430edc8603a9aca4d",
                 "shasum": ""
             },
@@ -431,13 +431,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/humcore-proto.git",
-                "reference": "aeaaa06331521e1933d69451406605537fa68bd9"
+                "url": "https://github.com/mlaa/humcore.git",
+                "reference": "939ea3570e8fbca546679bef1226c22379684c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore-proto/zipball/aeaaa06331521e1933d69451406605537fa68bd9",
-                "reference": "aeaaa06331521e1933d69451406605537fa68bd9",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/939ea3570e8fbca546679bef1226c22379684c2a",
+                "reference": "939ea3570e8fbca546679bef1226c22379684c2a",
                 "shasum": ""
             },
             "require": {
@@ -452,10 +452,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore-proto/tree/master",
-                "issues": "https://github.com/mlaa/humcore-proto/issues"
+                "source": "https://github.com/mlaa/humcore/tree/master",
+                "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-07-27 05:14:27"
+            "time": "2015-08-25 19:44:51"
         },
         {
             "name": "mlaa/invite-anyone",
