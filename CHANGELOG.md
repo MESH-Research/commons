@@ -1,3 +1,11 @@
+### 1.4.4: 2015-08-18
+
+* Update to WordPress 4.3
+
+### 1.4.3: 2015-08-04
+
+* Update to WordPress 4.2.4
+
 ### 1.4.2: 2015-07-24
 
 * Update to WordPress 4.2.3
