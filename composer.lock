@@ -329,12 +329,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "fd6d119d13a08412f322bece36621c3233761357"
+                "reference": "2d290fe45bd2206ed4dc4ebe20151ca00d96d7e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/fd6d119d13a08412f322bece36621c3233761357",
-                "reference": "fd6d119d13a08412f322bece36621c3233761357",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/2d290fe45bd2206ed4dc4ebe20151ca00d96d7e8",
+                "reference": "2d290fe45bd2206ed4dc4ebe20151ca00d96d7e8",
                 "shasum": ""
             },
             "require": {
@@ -346,7 +346,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2015-09-03 12:15:32"
+            "time": "2015-09-08 21:37:32"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -432,12 +432,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "72bd2934e75dd270b620e3a6e07d145ddf2acce3"
+                "reference": "67e9ba1c45a63b148d79e1c3fc46ce5a0da5e641"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/72bd2934e75dd270b620e3a6e07d145ddf2acce3",
-                "reference": "72bd2934e75dd270b620e3a6e07d145ddf2acce3",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/67e9ba1c45a63b148d79e1c3fc46ce5a0da5e641",
+                "reference": "67e9ba1c45a63b148d79e1c3fc46ce5a0da5e641",
                 "shasum": ""
             },
             "require": {
@@ -455,7 +455,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-09-03 12:17:10"
+            "time": "2015-09-08 21:46:52"
         },
         {
             "name": "mlaa/invite-anyone",
