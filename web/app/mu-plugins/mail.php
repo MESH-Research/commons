@@ -24,4 +24,15 @@ function mail_add_sender(&$phpmailer) {
   $phpmailer->Sender = $phpmailer->From;
 }
 
+
+// Disable e-mails sent to users when their e-mail address or password changes.
+// This behavior is new in WP 4.3, and seems to be triggered when accounts are
+// changed via our custom auth plugin. Disabling since our member info and
+// notifications are handled externally.
+//
+// https://make.wordpress.org/core/2015/07/28/passwords-strong-by-default/
+
+add_filter('send_email_change_email', '__return_false');
+add_filter('send_password_change_email', '__return_false');
+
 ?>
