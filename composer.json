@@ -10,7 +10,7 @@
     },
     {
       "type": "artifact",
-      "url": "/tmp/wordpress-packages/"
+      "url": "/usr/local/share/wordpress-packages/"
     },
     {
       "type": "vcs",
