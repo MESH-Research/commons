@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04a8aafeb992edd133882fcd5c7b9690",
-    "content-hash": "076f6063ce0dd63cf002ff1e00885e81",
+    "hash": "5d8ea6c0ede11124c14911851ff5099b",
+    "content-hash": "aaaf6da0b258f868cc67eecbf26e5caa",
     "packages": [
         {
             "name": "composer/installers",
@@ -1540,26 +1540,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
-        },
-        {
-            "name": "wpackagist-plugin/sky-login-redirect",
-            "version": "1.9",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/sky-login-redirect/",
-                "reference": "tags/1.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sky-login-redirect.1.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sky-login-redirect/"
         },
         {
             "name": "wpackagist-plugin/storify",
