@@ -1023,15 +1023,15 @@
         },
         {
             "name": "wpackagist-plugin/events-made-easy",
-            "version": "1.5.45",
+            "version": "1.5.46",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/events-made-easy/",
-                "reference": "tags/1.5.45"
+                "reference": "tags/1.5.46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.5.45.zip",
+                "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.5.46.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1783,15 +1783,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
-            "version": "3.1.5",
+            "version": "3.1.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-to-twitter/",
-                "reference": "tags/3.1.5"
+                "reference": "tags/3.1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.1.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
