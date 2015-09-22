@@ -304,12 +304,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "9bbbe30ec61d7d238926f180804d800f81ace115"
+                "reference": "55240b6cc1d41116201a7c82b108c11bb8df0794"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/9bbbe30ec61d7d238926f180804d800f81ace115",
-                "reference": "9bbbe30ec61d7d238926f180804d800f81ace115",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/55240b6cc1d41116201a7c82b108c11bb8df0794",
+                "reference": "55240b6cc1d41116201a7c82b108c11bb8df0794",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +321,7 @@
                 "source": "https://github.com/mlaa/cbox-auth/tree/master",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-08-15 23:06:42"
+            "time": "2015-09-22 13:44:33"
         },
         {
             "name": "mlaa/cbox-mla",
@@ -492,7 +492,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-admin-bar/zipball/11b0a22578f2151a4f02ebc7cdfab3dd0228ea2b",
+                "url": "https://api.github.com/repos/mlaa/mla-admin-bar/zipball/0dfe2792efdc1031b3add7feee37ab7f2e82f6ec",
                 "reference": "11b0a22578f2151a4f02ebc7cdfab3dd0228ea2b",
                 "shasum": ""
             },
