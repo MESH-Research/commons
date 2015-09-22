@@ -10,7 +10,7 @@
     },
     {
       "type": "artifact",
-      "url": "/tmp/wordpress-packages/"
+      "url": "/usr/local/share/wordpress-packages/"
     },
     {
       "type": "vcs",
@@ -120,7 +120,7 @@
     "mlaa/cac-advanced-profiles": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/humcore": "dev-master",
-    "mlaa/invite-anyone": "1.3.7-patch",
+    "mlaa/invite-anyone": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
     "themesindep/shortcodes-indep": "3.0.0",
     "wpackagist-plugin/akismet": "3.*",
@@ -164,7 +164,6 @@
     "wpackagist-plugin/scholarpress-coins": "1.*",
     "wpackagist-plugin/shareadraft": "1.*",
     "wpackagist-plugin/siteorigin-panels": "2.*",
-    "wpackagist-plugin/sky-login-redirect": "1.*",
     "wpackagist-plugin/storify": "1.*",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "1.*",
     "wpackagist-plugin/video-thumbnails": "2.*",
