@@ -1,9 +1,9 @@
 # Application
-web/app/blogs.dir/*
-web/app/plugins/*
-web/app/themes/*
-web/app/upgrade/*
-web/app/uploads/*
+web/app/blogs.dir
+web/app/plugins
+web/app/themes
+web/app/upgrade
+web/app/uploads
 
 # WordPress
 web/wp
