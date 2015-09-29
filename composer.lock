@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f2d6f59fc1034c20cbb696f41790e150",
-    "content-hash": "ec6eb10e9376ce7decf501b4bf357da8",
+    "hash": "9419956330f050a87cb6c86ec75c4139",
+    "content-hash": "2e94da4cf0eedf6dc406871632efa63f",
     "packages": [
         {
             "name": "composer/installers",
@@ -780,26 +780,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bbpress/"
-        },
-        {
-            "name": "wpackagist-plugin/bebop",
-            "version": "1.3.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bebop/",
-                "reference": "tags/1.3.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bebop.1.3.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bebop/"
         },
         {
             "name": "wpackagist-plugin/bp-groupblog",
