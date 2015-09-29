@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "c191b23afdea3528bb5df6b61317a0b6d0e50a97"
+                "reference": "de0d499b33307ff099852a754fc76b0245423de1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/c191b23afdea3528bb5df6b61317a0b6d0e50a97",
-                "reference": "c191b23afdea3528bb5df6b61317a0b6d0e50a97",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/de0d499b33307ff099852a754fc76b0245423de1",
+                "reference": "de0d499b33307ff099852a754fc76b0245423de1",
                 "shasum": ""
             },
             "require": {
@@ -319,10 +319,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/cbox-auth/tree/develop",
+                "source": "https://github.com/mlaa/cbox-auth/tree/master",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-09-24 19:50:39"
+            "time": "2015-09-29 18:17:31"
         },
         {
             "name": "mlaa/cbox-mla",
@@ -592,12 +592,12 @@
             "version": "v2.7.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/EventDispatcher.git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
                 "reference": "b58c916f1db03a611b72dd702564f30ad8fe83fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/b58c916f1db03a611b72dd702564f30ad8fe83fa",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b58c916f1db03a611b72dd702564f30ad8fe83fa",
                 "reference": "b58c916f1db03a611b72dd702564f30ad8fe83fa",
                 "shasum": ""
             },
