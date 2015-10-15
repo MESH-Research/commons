@@ -61,20 +61,8 @@
       "url": "git@github.com:mlaa/profession-theme.git"
     },
     {
-      "type": "package",
-      "package": {
-        "name": "cuny-academic-commons/cbox-theme",
-        "version": "1.0.10",
-        "type": "wordpress-theme",
-        "source": {
-          "url": "git@github.com:cuny-academic-commons/cbox-theme.git",
-          "type": "git",
-          "reference": "1.0.10"
-        },
-        "require" : {
-          "composer/installers": "~1.0.12"
-        }
-      }
+      "type": "vcs",
+      "url": "git@github.com:mlaa/cbox-theme.git"
     },
     {
       "type": "package",
@@ -184,7 +172,6 @@
     "wpninjas/ninja-forms-save-progress": "1.2.1",
     "wpninjas/ninja-forms-style": "1.2.7",
     "wpninjas/ninja-forms-uploads": "1.4.5",
-    "cuny-academic-commons/cbox-theme": "1.0.10",
     "mlaa/cbox-mla": "dev-master",
     "mlaa/cbox-mla-blog": "dev-master",
     "mlaa/commentpress-mla": "dev-master",
@@ -211,7 +198,8 @@
     "wpackagist-theme/twentyfifteen": "*",
     "wpackagist-theme/twentyfourteen": "*",
     "wpackagist-theme/twentythirteen": "*",
-    "wpackagist-theme/twentytwelve": "*"
+    "wpackagist-theme/twentytwelve": "*",
+    "cuny-academic-commons/cbox-theme": "dev-master"
   },
   "extra": {
     "installer-paths": {
