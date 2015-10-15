@@ -123,7 +123,7 @@
     "mlaa/invite-anyone": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
     "themesindep/shortcodes-indep": "3.0.0",
-    "wpackagist-plugin/akismet": "3.*",
+    "wpackagist-plugin/akismet": "^3.1",
     "wpackagist-plugin/anthologize": "0.*",
     "wpackagist-plugin/bbpress": "2.5.7",
     "wpackagist-plugin/bp-groupblog": "1.8.11",
