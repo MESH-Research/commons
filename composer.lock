@@ -108,19 +108,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-theme.git",
-                "reference": "517a00451ccd988ac732b3453d7a7bae5fbc0dee"
+                "reference": "2310f92978fcf739f95c0f8554e09c1168f49093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-theme/zipball/517a00451ccd988ac732b3453d7a7bae5fbc0dee",
-                "reference": "517a00451ccd988ac732b3453d7a7bae5fbc0dee",
+                "url": "https://api.github.com/repos/mlaa/cbox-theme/zipball/2310f92978fcf739f95c0f8554e09c1168f49093",
+                "reference": "2310f92978fcf739f95c0f8554e09c1168f49093",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
                 "source": "https://github.com/mlaa/cbox-theme/tree/master"
             },
-            "time": "2015-10-15 17:45:59"
+            "time": "2015-10-15 16:16:08"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -2050,15 +2050,15 @@
         },
         {
             "name": "wpackagist-theme/sparkling",
-            "version": "1.9.3",
+            "version": "2.0",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/sparkling/",
-                "reference": "1.9.3"
+                "reference": "2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sparkling.1.9.3.zip",
+                "url": "https://downloads.wordpress.org/theme/sparkling.2.0.zip",
                 "reference": null,
                 "shasum": null
             },
