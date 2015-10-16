@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "70385d7cfd6a3fedd6a2d04aedca9643",
-    "content-hash": "ddfd3cba25e257cb11c2014c86d48564",
+    "hash": "81228b4285f503772c8de4db826f08f5",
+    "content-hash": "83f2c3122d6a5ccc597f1651d55c4043",
     "packages": [
         {
             "name": "composer/installers",
@@ -930,15 +930,15 @@
         },
         {
             "name": "wpackagist-plugin/commons-in-a-box",
-            "version": "1.0.10",
+            "version": "1.0.11",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/commons-in-a-box/",
-                "reference": "tags/1.0.10"
+                "reference": "tags/1.0.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commons-in-a-box.1.0.10.zip",
+                "url": "https://downloads.wordpress.org/plugin/commons-in-a-box.1.0.11.zip",
                 "reference": null,
                 "shasum": null
             },
