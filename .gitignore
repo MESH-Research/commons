@@ -16,6 +16,7 @@ vendor/*
 
 # Node Package Manager
 node_modules
+npm-debug.log
 
 # WP-CLI
 wp-cli.local.yml
