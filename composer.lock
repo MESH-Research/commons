@@ -337,12 +337,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "ad0a10fc6b9c527ad57c2a8bbba05650ef2e7aea"
+                "reference": "2f5b30bb659712a074c7b912f72eb6e26d6b72dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/ad0a10fc6b9c527ad57c2a8bbba05650ef2e7aea",
-                "reference": "ad0a10fc6b9c527ad57c2a8bbba05650ef2e7aea",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/2f5b30bb659712a074c7b912f72eb6e26d6b72dc",
+                "reference": "2f5b30bb659712a074c7b912f72eb6e26d6b72dc",
                 "shasum": ""
             },
             "require": {
@@ -354,7 +354,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2015-10-02 18:19:21"
+            "time": "2015-10-20 02:48:52"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -1050,7 +1050,7 @@
         },
         {
             "name": "wpackagist-plugin/fd-footnotes",
-            "version": "1.34",
+            "version": "1.35",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/fd-footnotes/",
@@ -1410,15 +1410,15 @@
         },
         {
             "name": "wpackagist-plugin/printfriendly",
-            "version": "3.4.4",
+            "version": "3.4.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/printfriendly/",
-                "reference": "tags/3.4.4"
+                "reference": "tags/3.4.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/printfriendly.3.4.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/printfriendly.3.4.5.zip",
                 "reference": null,
                 "shasum": null
             },
