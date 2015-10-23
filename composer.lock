@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "81228b4285f503772c8de4db826f08f5",
-    "content-hash": "83f2c3122d6a5ccc597f1651d55c4043",
+    "hash": "5b8a9386ca81ce7d5a6ccf303c4bf91b",
+    "content-hash": "a5861cd11872eaba7aaae234dc67e163",
     "packages": [
         {
             "name": "composer/installers",
@@ -256,30 +256,6 @@
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
-        },
-        {
-            "name": "mlaa/buddypress-group-email-subscription",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/buddypress-group-email-subscription.git",
-                "reference": "d39f9a721a22b41886c56c631a0326cd71a59b25"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/buddypress-group-email-subscription/zipball/d39f9a721a22b41886c56c631a0326cd71a59b25",
-                "reference": "d39f9a721a22b41886c56c631a0326cd71a59b25",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/buddypress-group-email-subscription/tree/master"
-            },
-            "time": "2015-07-26 17:06:28"
         },
         {
             "name": "mlaa/cac-advanced-profiles",
@@ -887,6 +863,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-group-email-subscription",
+            "version": "3.5.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
+                "reference": "tags/3.5.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.5.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
@@ -2314,7 +2310,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mlaa/bp-group-documents": 20,
-        "mlaa/buddypress-group-email-subscription": 20,
         "mlaa/cac-advanced-profiles": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,

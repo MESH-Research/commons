@@ -22,10 +22,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/buddypress-group-email-subscription.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/cac-advanced-profiles.git"
     },
     {
@@ -104,7 +100,6 @@
     "johnpbloch/wordpress": "4.3.1",
     "mlaa/bp-group-documents": "dev-master",
     "mlaa/buddypress-docs": "1.8.1-patch",
-    "mlaa/buddypress-group-email-subscription": "dev-master",
     "mlaa/cac-advanced-profiles": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/humcore": "dev-master",
@@ -119,6 +114,7 @@
     "wpackagist-plugin/bp-mpo-activity-filter": "1.2",
     "wpackagist-plugin/bp-system-report": "0.*",
     "wpackagist-plugin/buddypress": "2.2.3.1",
+    "wpackagist-plugin/buddypress-group-email-subscription": "3.5.2",
     "wpackagist-plugin/cac-featured-content": "1.0.5",
     "wpackagist-plugin/commentpress-core": "3.*",
     "wpackagist-plugin/commons-in-a-box": "1.0.11",
