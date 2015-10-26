@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "3d91a09c5d3a4300a621fb18d64ba99a366aa04f"
+                "reference": "7ff482240c3acf431e88e5b80a21f86e39358f91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/3d91a09c5d3a4300a621fb18d64ba99a366aa04f",
-                "reference": "3d91a09c5d3a4300a621fb18d64ba99a366aa04f",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/7ff482240c3acf431e88e5b80a21f86e39358f91",
+                "reference": "7ff482240c3acf431e88e5b80a21f86e39358f91",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +305,7 @@
                 "source": "https://github.com/mlaa/cbox-auth/tree/develop",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-10-01 20:37:15"
+            "time": "2015-10-26 18:30:29"
         },
         {
             "name": "mlaa/cbox-mla",
@@ -1506,15 +1506,15 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.2",
+            "version": "2.2.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.2"
+                "reference": "tags/2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1646,15 +1646,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-fail2ban",
-            "version": "2.3.0",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-fail2ban/",
-                "reference": "tags/2.3.0"
+                "reference": "tags/2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.2.3.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.2.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1926,15 +1926,15 @@
         },
         {
             "name": "wpackagist-theme/maskitto-light",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/maskitto-light/",
-                "reference": "3.0.0"
+                "reference": "3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/maskitto-light.3.0.0.zip",
+                "url": "https://downloads.wordpress.org/theme/maskitto-light.3.0.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2066,15 +2066,15 @@
         },
         {
             "name": "wpackagist-theme/suits",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/suits/",
-                "reference": "1.1"
+                "reference": "1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/suits.1.1.zip",
+                "url": "https://downloads.wordpress.org/theme/suits.1.2.zip",
                 "reference": null,
                 "shasum": null
             },
