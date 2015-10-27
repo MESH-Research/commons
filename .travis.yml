@@ -1,17 +1,27 @@
-sudo: false
+sudo: required
 language: php
 php:
   - 5.6
   - 5.5
-  - 5.4
+
+env:
+  global:
+    - secure: "Mc37WgZczC3sVsv4Y/wPxrImxYpvNsTbPrJLpLfmDeb8x1JG3xpxky9jbLjmlY3GfgNxGXxHhuzcp+VSpqwJiqMOI8eE17iAHHLQ2W11+vRMhJ83HqdIcsEnmS2/ybrlDnVGiWwkzpOlZ0o9zinItAUoGS1m1wkhD+Q3U9zAayU="
+    - secure: "FJti+LkBeyOMtdWNOwpkFgV/cFMP6sKDnP/r7JC1nlpQaapWyTdeJBe5IDHzBaDXzUyUwjdI4t77xqBlhjcBAPHHaUzurn9OMHIMsiJnYe7gZHKBQfsy9lCfRp2BHnGJ1ujEwfgUujYgFKv9VnNCWwx7mcY9jiQ6sz7IPB19bmA="
+    - secure: "X/VcmdiZXeWx5/Xd1tLVjk/7FAyTtZzEIuqSjWbo3ef1/6YyyuHW8Yc1mqUy/8obIJMb0jAfjCAE9GVS7Nps18MkDOhKK9QNwcnR6Ksf0TWJWtkCYD71XURcmJp/L030eDZ1s0d1X22PCtjOw0yFJFUsHUIaycuGUaD5HWCT2P8="
 
 before_install:
   - curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+  - sudo mkdir -p -m 777 /usr/local/share/wordpress-packages
+  - aws s3 cp --quiet --recursive $S3_PRIVATE_PACKAGES_DIR/ /usr/local/share/wordpress-packages/
+  - ls /usr/local/share/wordpress-packages
 
 script:
   - composer validate
   - composer install
   - mysql -e "CREATE DATABASE wordpress_tests;" -uroot
   - cp .env.travis .env
-  - php wp-cli.phar core install --path=web/wp --url=example.com --title=WP --admin_user=test --admin_password=test --admin_email=user@example.com
+  - php wp-cli.phar core install --quiet --path=web/wp --url=example.com --title=WP --admin_user=test --admin_password=test --admin_email=user@example.com
   - php web/index.php
