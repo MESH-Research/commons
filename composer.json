@@ -57,10 +57,6 @@
       "url": "git@github.com:mlaa/profession-theme.git"
     },
     {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/cbox-theme.git"
-    },
-    {
       "type": "package",
       "package": {
         "name": "mlaa/commentpress-mla-digitalpedagogy",

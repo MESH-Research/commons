@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b8a9386ca81ce7d5a6ccf303c4bf91b",
-    "content-hash": "a5861cd11872eaba7aaae234dc67e163",
+    "hash": "a1d206dc07c4f6c401019788c2bb8665",
     "packages": [
         {
             "name": "composer/installers",
@@ -288,12 +287,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "7ff482240c3acf431e88e5b80a21f86e39358f91"
+                "reference": "040a5eee94d3e1193257badda0c00baa4dd94969"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/7ff482240c3acf431e88e5b80a21f86e39358f91",
-                "reference": "7ff482240c3acf431e88e5b80a21f86e39358f91",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/040a5eee94d3e1193257badda0c00baa4dd94969",
+                "reference": "040a5eee94d3e1193257badda0c00baa4dd94969",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +304,7 @@
                 "source": "https://github.com/mlaa/cbox-auth/tree/develop",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-10-26 18:30:29"
+            "time": "2015-10-26 20:01:24"
         },
         {
             "name": "mlaa/cbox-mla",
