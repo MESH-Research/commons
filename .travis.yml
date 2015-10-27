@@ -1,7 +1,6 @@
 sudo: false
 language: php
 php:
-  - nightly
   - 5.6
   - 5.5
   - 5.4
@@ -11,8 +10,12 @@ matrix:
     - php: nightly
 
 before_install:
-  - pyrus install pear/PHP_CodeSniffer
-  - phpenv rehash
+  - curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 
 script:
-  - phpcs --standard=ruleset.xml --extensions=php --ignore=web/wp/,vendor/ -n -s .
+  - composer validate
+  - composer install
+  - mysql -e "CREATE DATABASE wordpress_tests;" -uroot
+  - cp .env.travis .env
+  - php wp-cli.phar core install --path=web/wp --url=example.com --title=WP --admin_user=test --admin_password=test --admin_email=user@example.com
+  - php web/index.php
