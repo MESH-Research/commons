@@ -472,12 +472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-admin-bar.git",
-                "reference": "0dfe2792efdc1031b3add7feee37ab7f2e82f6ec"
+                "reference": "8b751f8c6950abfacf2de5ac6494316663847fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-admin-bar/zipball/0dfe2792efdc1031b3add7feee37ab7f2e82f6ec",
-                "reference": "0dfe2792efdc1031b3add7feee37ab7f2e82f6ec",
+                "url": "https://api.github.com/repos/mlaa/mla-admin-bar/zipball/8b751f8c6950abfacf2de5ac6494316663847fbb",
+                "reference": "8b751f8c6950abfacf2de5ac6494316663847fbb",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +489,7 @@
                 "source": "https://github.com/mlaa/mla-admin-bar/tree/master",
                 "issues": "https://github.com/mlaa/mla-admin-bar/issues"
             },
-            "time": "2015-09-18 17:47:54"
+            "time": "2015-10-29 18:17:14"
         },
         {
             "name": "mlaa/profession-theme",
