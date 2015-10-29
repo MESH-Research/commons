@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "f8bc3b92ac6f220a41930549e843e0e16cfaa6e5"
+                "reference": "206469bae02f63831f8af3835a08190e54924f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/f8bc3b92ac6f220a41930549e843e0e16cfaa6e5",
-                "reference": "f8bc3b92ac6f220a41930549e843e0e16cfaa6e5",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/206469bae02f63831f8af3835a08190e54924f53",
+                "reference": "206469bae02f63831f8af3835a08190e54924f53",
                 "shasum": ""
             },
             "require": {
@@ -302,10 +302,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/cbox-auth/tree/master",
+                "source": "https://github.com/mlaa/cbox-auth/tree/develop",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-10-28 17:44:26"
+            "time": "2015-10-29 20:24:44"
         },
         {
             "name": "mlaa/cbox-mla",
@@ -496,12 +496,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/profession-theme.git",
-                "reference": "834f6b16ff865dcc5355b7162ed2b7481524ec19"
+                "url": "https://github.com/mlaa/profession-theme.git",
+                "reference": "02c61a8e7068a0a861b5e0e8b05fbafd0d2635e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/834f6b16ff865dcc5355b7162ed2b7481524ec19",
+                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/02c61a8e7068a0a861b5e0e8b05fbafd0d2635e3",
                 "reference": "834f6b16ff865dcc5355b7162ed2b7481524ec19",
                 "shasum": ""
             },
@@ -514,7 +514,7 @@
                 "source": "https://github.com/mlaa/profession-theme/tree/develop",
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
-            "time": "2015-07-26 17:00:18"
+            "time": "2015-10-27 03:08:57"
         },
         {
             "name": "solarium/solarium",
