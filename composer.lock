@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "1c01e88293b707a820ba634d372aff0ccfb75997"
+                "reference": "7986a80ac4357a5525aad105ecdc31b6ba2eea31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/1c01e88293b707a820ba634d372aff0ccfb75997",
-                "reference": "1c01e88293b707a820ba634d372aff0ccfb75997",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/7986a80ac4357a5525aad105ecdc31b6ba2eea31",
+                "reference": "7986a80ac4357a5525aad105ecdc31b6ba2eea31",
                 "shasum": ""
             },
             "require": {
@@ -305,7 +305,7 @@
                 "source": "https://github.com/mlaa/cbox-auth/tree/master",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-11-04 16:48:15"
+            "time": "2015-11-06 17:03:42"
         },
         {
             "name": "mlaa/cbox-mla",
