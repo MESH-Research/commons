@@ -11,7 +11,7 @@
     },
     {
       "type": "artifact",
-      "url": "/usr/local/share/wordpress-packages/"
+      "url": "/tmp/wordpress-packages/"
     },
     {
       "type": "vcs",
@@ -193,6 +193,12 @@
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-theme/twentytwelve": "*",
     "cuny-academic-commons/cbox-theme": "dev-master"
+  },
+  "scripts": {
+    "pre-install-cmd": [
+      "mkdir -p /tmp/wordpress-packages",
+      "aws s3 sync s3://mla-backup/commons/packages /tmp/wordpress-packages --only-show-errors --delete"
+    ]
   },
   "extra": {
     "installer-paths": {
