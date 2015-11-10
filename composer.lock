@@ -906,15 +906,15 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.8.2"
+                "reference": "tags/3.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.8.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.8.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -946,15 +946,15 @@
         },
         {
             "name": "wpackagist-plugin/creative-commons-configurator-1",
-            "version": "1.8.9",
+            "version": "1.8.13",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/creative-commons-configurator-1/",
-                "reference": "tags/1.8.9"
+                "reference": "tags/1.8.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.9.zip",
+                "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.13.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1386,15 +1386,15 @@
         },
         {
             "name": "wpackagist-plugin/password-protected",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/password-protected/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1646,15 +1646,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-accessibility",
-            "version": "1.4.5",
+            "version": "1.4.6",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/wp-accessibility/",
-                "reference": "tags/1.4.5"
+                "reference": "tags/1.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.4.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.4.6.zip",
                 "reference": null,
                 "shasum": null
             },
