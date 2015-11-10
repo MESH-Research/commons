@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "2f5b30bb659712a074c7b912f72eb6e26d6b72dc"
+                "reference": "833a4083d6e02d59a9155f3fb6de0f440f0946ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/2f5b30bb659712a074c7b912f72eb6e26d6b72dc",
-                "reference": "2f5b30bb659712a074c7b912f72eb6e26d6b72dc",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/833a4083d6e02d59a9155f3fb6de0f440f0946ba",
+                "reference": "833a4083d6e02d59a9155f3fb6de0f440f0946ba",
                 "shasum": ""
             },
             "require": {
@@ -330,7 +330,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2015-10-20 02:48:52"
+            "time": "2015-11-10 16:57:29"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -416,12 +416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "ed5edae76a52f5ec38ad64ac705851320a869b70"
+                "reference": "3ae477927e5538abbb35defd7b880d2c56c2f2a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/ed5edae76a52f5ec38ad64ac705851320a869b70",
-                "reference": "ed5edae76a52f5ec38ad64ac705851320a869b70",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/3ae477927e5538abbb35defd7b880d2c56c2f2a3",
+                "reference": "3ae477927e5538abbb35defd7b880d2c56c2f2a3",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +439,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-09-16 21:24:10"
+            "time": "2015-11-10 16:58:01"
         },
         {
             "name": "mlaa/invite-anyone",
@@ -633,7 +633,7 @@
             "version": "3.0",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/themesindep-shortcodes-indep-3.0.zip",
+                "url": "/usr/local/share/wordpress-packages/themesindep-shortcodes-indep-3.0.zip",
                 "reference": null,
                 "shasum": "25ae54bd1191b73762873bc95ebc12a4543d3e2d"
             },
@@ -648,7 +648,7 @@
             "version": "3.0.4",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/themesindep-simplemag-3.0.4.zip",
+                "url": "/usr/local/share/wordpress-packages/themesindep-simplemag-3.0.4.zip",
                 "reference": null,
                 "shasum": "09807171c35a462f28901515fac7862b5d2505af"
             },
@@ -2189,7 +2189,7 @@
             "version": "3.1.5",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.5.zip",
+                "url": "/usr/local/share/wordpress-packages/wpmudev-google-analytics-async-3.1.5.zip",
                 "reference": null,
                 "shasum": "fc9acb3bf7bbddb7e523e62608b990dba5f89397"
             },
@@ -2204,7 +2204,7 @@
             "version": "1.1.1.5",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-simplemarket-1.1.1.5.zip",
+                "url": "/usr/local/share/wordpress-packages/wpmudev-simplemarket-1.1.1.5.zip",
                 "reference": null,
                 "shasum": "0334a9f40e88fc3d0098b34367f1bdcfa2b68adc"
             },
@@ -2219,7 +2219,7 @@
             "version": "1.3.9",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-conditionals-1.3.9.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-conditionals-1.3.9.zip",
                 "reference": null,
                 "shasum": "d6ab6f8cd866193488e0ca292543f9319c79122c"
             },
@@ -2234,7 +2234,7 @@
             "version": "1.3.4",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-multi-part-1.3.4.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-multi-part-1.3.4.zip",
                 "reference": null,
                 "shasum": "5f7f5439c3464ab7eb917b6523f9ab03286c8ac7"
             },
@@ -2249,7 +2249,7 @@
             "version": "1.3.2",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-pdf-submissions-1.3.2.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-pdf-submissions-1.3.2.zip",
                 "reference": null,
                 "shasum": "10767614d46cdf52f46ea707e6854078c65b0b18"
             },
@@ -2264,7 +2264,7 @@
             "version": "1.2.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-save-progress-1.2.1.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-save-progress-1.2.1.zip",
                 "reference": null,
                 "shasum": "8ada51dc07a9ec514ca02566b5617ed57223edc1"
             },
@@ -2279,7 +2279,7 @@
             "version": "1.2.7",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-style-1.2.7.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-style-1.2.7.zip",
                 "reference": null,
                 "shasum": "4349870456d1061e75ad909170bb2dfa88f0f5bf"
             },
@@ -2294,7 +2294,7 @@
             "version": "1.4.5",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-uploads-1.4.5.zip",
+                "url": "/usr/local/share/wordpress-packages/wpninjas-ninja-forms-uploads-1.4.5.zip",
                 "reference": null,
                 "shasum": "eabb777ab485c53b39f3c8fc6347d8b5d3824d46"
             },
