@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "7986a80ac4357a5525aad105ecdc31b6ba2eea31"
+                "reference": "844cd0e29b3ae777a5956117b5e4e81f88b868b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/7986a80ac4357a5525aad105ecdc31b6ba2eea31",
-                "reference": "7986a80ac4357a5525aad105ecdc31b6ba2eea31",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/844cd0e29b3ae777a5956117b5e4e81f88b868b1",
+                "reference": "844cd0e29b3ae777a5956117b5e4e81f88b868b1",
                 "shasum": ""
             },
             "require": {
@@ -302,10 +302,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/cbox-auth/tree/master",
+                "source": "https://github.com/mlaa/cbox-auth/tree/check-local-user-first",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2015-11-06 17:03:42"
+            "time": "2015-11-11 18:17:00"
         },
         {
             "name": "mlaa/cbox-mla",
