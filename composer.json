@@ -204,5 +204,8 @@
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
     "wordpress-install-dir": "web/wp"
+  },
+  "require-dev": {
+    "codeception/codeception": "*"
   }
 }
