@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "932f89ab450956635f5497393bd47e1f",
-    "content-hash": "f5721375c4b3be50895e7288e3d3899e",
+    "hash": "24f63045abd8a5239f7d67d2905cd546",
+    "content-hash": "651445735909ce12c2d10154eee97f7b",
     "packages": [
         {
             "name": "composer/installers",
@@ -846,15 +846,15 @@
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.3.3",
+            "version": "2.3.5",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.3.3"
+                "reference": "tags/2.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.3.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.3.5.zip",
                 "reference": null,
                 "shasum": null
             },
