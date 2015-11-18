@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24f63045abd8a5239f7d67d2905cd546",
-    "content-hash": "651445735909ce12c2d10154eee97f7b",
+    "hash": "ce9d48e485b00e9dfa4a08b663d5b139",
+    "content-hash": "069cc44092aa2aa8f3bd594f4f5a8f90",
     "packages": [
         {
             "name": "composer/installers",
@@ -627,6 +627,21 @@
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
             "time": "2015-09-22 13:49:29"
+        },
+        {
+            "name": "themeforest/15zine",
+            "version": "2.1.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/themeforest-15zine-2.1.1.zip",
+                "reference": null,
+                "shasum": "a8dc96502056faffa9c87ef077325337a98ca17b"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "themesindep/shortcodes-indep",
