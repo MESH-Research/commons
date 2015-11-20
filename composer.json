@@ -98,6 +98,8 @@
     "mlaa/humcore": "dev-master",
     "mlaa/invite-anyone": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
+    "cubell/15zine-functionality": "2.1.0",
+    "envato/wordpress-toolkit": "1.7.3",
     "themesindep/shortcodes-indep": "3.0.0",
     "wpackagist-plugin/akismet": "^3.1",
     "wpackagist-plugin/anthologize": "0.*",
