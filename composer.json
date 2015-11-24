@@ -43,6 +43,14 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/commentpress-mla-digitalpedagogy.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/commentpress-mla-groups.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/humcore.git"
     },
     {
@@ -52,38 +60,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:mlaa/profession-theme.git"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mlaa/commentpress-mla-digitalpedagogy",
-        "version": "dev-digital-pedagogy",
-        "type": "wordpress-theme",
-        "source": {
-          "url": "git@github.com:mlaa/commentpress-mla.git",
-          "type": "git",
-          "reference": "digital-pedagogy"
-        },
-        "require" : {
-          "composer/installers": "~1.0.12"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mlaa/commentpress-mla-groups",
-        "version": "dev-groups-discussion",
-        "type": "wordpress-theme",
-        "source": {
-          "url": "git@github.com:mlaa/commentpress-mla.git",
-          "type": "git",
-          "reference": "groups-discussion"
-        },
-        "require" : {
-          "composer/installers": "~1.0.12"
-        }
-      }
     }
   ],
   "require": {
@@ -167,8 +143,8 @@
     "mlaa/cbox-mla": "dev-master",
     "mlaa/cbox-mla-blog": "dev-master",
     "mlaa/commentpress-mla": "dev-master",
-    "mlaa/commentpress-mla-digitalpedagogy": "dev-digital-pedagogy",
-    "mlaa/commentpress-mla-groups": "dev-groups-discussion",
+    "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
+    "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/profession-theme": "dev-master",
     "themeforest/15zine": "2.1.2",
     "themesindep/simplemag": "3.0.4",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d4f6ef93116dc212018ba880432033b9",
-    "content-hash": "79c7079e57e8e62b3c86e9602eabdbdc",
+    "hash": "2fd6360352289dda858dca53b3082c7a",
+    "content-hash": "6ed05afc33a2dc9e5f976fcb6501a13a",
     "packages": [
         {
             "name": "composer/installers",
@@ -417,31 +417,53 @@
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
-            "version": "dev-digital-pedagogy",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/commentpress-mla.git",
-                "reference": "digital-pedagogy"
+                "url": "https://github.com/mlaa/commentpress-mla-digitalpedagogy.git",
+                "reference": "c16d0554f64040c5a5074b6d4fbcd5e22e2b6001"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla-digitalpedagogy/zipball/c16d0554f64040c5a5074b6d4fbcd5e22e2b6001",
+                "reference": "c16d0554f64040c5a5074b6d4fbcd5e22e2b6001",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
             "type": "wordpress-theme",
-            "time": "2015-07-11 18:48:30"
+            "support": {
+                "source": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/tree/master",
+                "issues": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/issues"
+            },
+            "time": "2015-11-24 21:22:40"
         },
         {
             "name": "mlaa/commentpress-mla-groups",
-            "version": "dev-groups-discussion",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:mlaa/commentpress-mla.git",
-                "reference": "groups-discussion"
+                "url": "https://github.com/mlaa/commentpress-mla-groups.git",
+                "reference": "13b9e3b95e17e7c111a49a7af3836e7048bd4ed1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla-groups/zipball/13b9e3b95e17e7c111a49a7af3836e7048bd4ed1",
+                "reference": "13b9e3b95e17e7c111a49a7af3836e7048bd4ed1",
+                "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0.12"
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
             },
             "type": "wordpress-theme",
-            "time": "2015-07-11 18:48:15"
+            "support": {
+                "source": "https://github.com/mlaa/commentpress-mla-groups/tree/master",
+                "issues": "https://github.com/mlaa/commentpress-mla-groups/issues"
+            },
+            "time": "2015-11-24 21:21:47"
         },
         {
             "name": "mlaa/humcore",
