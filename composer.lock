@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "9f2daccf8b36058eaf046bafd970f299531e9a0d"
+                "reference": "3b41e212534893f1c66703ea69d9e8ce25b8ca5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/9f2daccf8b36058eaf046bafd970f299531e9a0d",
-                "reference": "9f2daccf8b36058eaf046bafd970f299531e9a0d",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/3b41e212534893f1c66703ea69d9e8ce25b8ca5f",
+                "reference": "3b41e212534893f1c66703ea69d9e8ce25b8ca5f",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +494,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-12-08 21:13:52"
+            "time": "2015-12-09 14:46:24"
         },
         {
             "name": "mlaa/invite-anyone",
