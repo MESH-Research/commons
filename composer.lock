@@ -285,7 +285,7 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
+                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-patch",
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
@@ -552,12 +552,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profession-theme.git",
-                "reference": "02c61a8e7068a0a861b5e0e8b05fbafd0d2635e3"
+                "reference": "1c0c567f2000592ccf66663c59b09c32b08f76b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/02c61a8e7068a0a861b5e0e8b05fbafd0d2635e3",
-                "reference": "02c61a8e7068a0a861b5e0e8b05fbafd0d2635e3",
+                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/1c0c567f2000592ccf66663c59b09c32b08f76b5",
+                "reference": "1c0c567f2000592ccf66663c59b09c32b08f76b5",
                 "shasum": ""
             },
             "require": {
@@ -566,10 +566,10 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/profession-theme/tree/develop",
+                "source": "https://github.com/mlaa/profession-theme/tree/master",
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
-            "time": "2015-10-27 03:08:57"
+            "time": "2015-12-09 18:17:15"
         },
         {
             "name": "solarium/solarium",
