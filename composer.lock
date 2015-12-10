@@ -285,7 +285,7 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-patch",
+                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
@@ -346,12 +346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "833a4083d6e02d59a9155f3fb6de0f440f0946ba"
+                "reference": "493668e6d0647f96140cfe98b8a910d144f05344"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/833a4083d6e02d59a9155f3fb6de0f440f0946ba",
-                "reference": "833a4083d6e02d59a9155f3fb6de0f440f0946ba",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/493668e6d0647f96140cfe98b8a910d144f05344",
+                "reference": "493668e6d0647f96140cfe98b8a910d144f05344",
                 "shasum": ""
             },
             "require": {
@@ -363,7 +363,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2015-11-10 16:57:29"
+            "time": "2015-12-10 13:49:15"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "3b41e212534893f1c66703ea69d9e8ce25b8ca5f"
+                "reference": "24ffc327a28d7107fcd0736712c2e8781c4ade4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/3b41e212534893f1c66703ea69d9e8ce25b8ca5f",
-                "reference": "3b41e212534893f1c66703ea69d9e8ce25b8ca5f",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/24ffc327a28d7107fcd0736712c2e8781c4ade4b",
+                "reference": "24ffc327a28d7107fcd0736712c2e8781c4ade4b",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +494,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-12-09 14:46:24"
+            "time": "2015-12-10 18:49:21"
         },
         {
             "name": "mlaa/invite-anyone",
