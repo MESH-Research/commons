@@ -54,6 +54,8 @@ define('CBOX_OVERRIDE_PLUGINS', false);
 /**
  * Humanities CORE
  */
+define('CORE_HTTP_DEBUG', getenv('CORE_HTTP_DEBUG'));
+define('CORE_ERROR_LOG', getenv('CORE_ERROR_LOG'));
 define('CORE_HUMCORE_NAMESPACE', getenv('CORE_HUMCORE_NAMESPACE'));
 define('CORE_HUMCORE_TEMP_DIR', getenv('CORE_HUMCORE_TEMP_DIR'));
 define('CORE_HUMCORE_COLLECTION_PID', getenv('CORE_HUMCORE_COLLECTION_PID'));
