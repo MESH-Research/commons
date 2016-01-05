@@ -471,12 +471,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "97668ed7986fef32f571b6e6caf396964c87938e"
+                "reference": "52c167560e925fc89aff8bc273e3feb96100a6cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/97668ed7986fef32f571b6e6caf396964c87938e",
-                "reference": "97668ed7986fef32f571b6e6caf396964c87938e",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/52c167560e925fc89aff8bc273e3feb96100a6cc",
+                "reference": "52c167560e925fc89aff8bc273e3feb96100a6cc",
                 "shasum": ""
             },
             "require": {
@@ -491,10 +491,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/master",
+                "source": "https://github.com/mlaa/humcore/tree/host-oai-xsl",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2015-12-22 19:24:00"
+            "time": "2016-01-05 18:03:07"
         },
         {
             "name": "mlaa/invite-anyone",
