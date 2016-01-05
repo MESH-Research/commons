@@ -60,6 +60,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:mlaa/profession-theme.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
     }
   ],
   "require": {
@@ -72,7 +76,6 @@
     "mlaa/cac-advanced-profiles": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/humcore": "dev-master",
-    "mlaa/invite-anyone": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
     "cubell/15zine-functionality": "2.1.0",
     "envato/wordpress-toolkit": "1.7.3",
@@ -103,7 +106,7 @@
     "wpackagist-plugin/issuem": "2.*",
     "wpackagist-plugin/jquery-hover-footnotes": "1.*",
     "wpackagist-plugin/knight-lab-timelinejs": "2.*",
-    "wpackagist-plugin/more-privacy-options": "3.9.1.1",
+    "wpackagist-plugin/more-privacy-options": "4.1.1",
     "wpackagist-plugin/move-comments": "1.*",
     "wpackagist-plugin/multisite-plugin-manager": "3.*",
     "wpackagist-plugin/network-plugin-auditor": "1.*",
@@ -168,7 +171,7 @@
     "wpackagist-theme/twentyfourteen": "*",
     "wpackagist-theme/twentythirteen": "*",
     "wpackagist-theme/twentytwelve": "*",
-    "cuny-academic-commons/cbox-theme": "dev-master"
+    "cuny-academic-commons/cbox-theme": "dev-master#251cb22"
   },
   "scripts": {
     "pre-install-cmd": [

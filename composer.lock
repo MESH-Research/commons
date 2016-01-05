@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2fd6360352289dda858dca53b3082c7a",
-    "content-hash": "6ed05afc33a2dc9e5f976fcb6501a13a",
+    "hash": "51e2824d81bf3bed78c01eba8311f1ac",
+    "content-hash": "2ea787e420c039725253d3ce3a092197",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,20 +125,21 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mlaa/cbox-theme.git",
-                "reference": "2310f92978fcf739f95c0f8554e09c1168f49093"
+                "url": "https://github.com/cuny-academic-commons/cbox-theme.git",
+                "reference": "251cb22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-theme/zipball/2310f92978fcf739f95c0f8554e09c1168f49093",
-                "reference": "2310f92978fcf739f95c0f8554e09c1168f49093",
+                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/aff6f82ff39f3b8394163ac41bf1941dd2ff2a31",
+                "reference": "251cb22",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/cbox-theme/tree/master"
+                "source": "https://github.com/cuny-academic-commons/cbox-theme/tree/master",
+                "issues": "https://github.com/cuny-academic-commons/cbox-theme/issues"
             },
-            "time": "2015-10-15 16:16:08"
+            "time": "2015-10-15 20:10:36"
         },
         {
             "name": "envato/wordpress-toolkit",
@@ -495,31 +496,6 @@
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2016-01-05 18:03:07"
-        },
-        {
-            "name": "mlaa/invite-anyone",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/invite-anyone.git",
-                "reference": "c2fc06b2295bc964485cf8d745be1ec4503a59e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/invite-anyone/zipball/c2fc06b2295bc964485cf8d745be1ec4503a59e1",
-                "reference": "c2fc06b2295bc964485cf8d745be1ec4503a59e1",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/invite-anyone/tree/master",
-                "issues": "https://github.com/mlaa/invite-anyone/issues"
-            },
-            "time": "2015-09-20 21:54:40"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -1300,7 +1276,7 @@
         },
         {
             "name": "wpackagist-plugin/more-privacy-options",
-            "version": "3.9.1.1",
+            "version": "4.1.1",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/more-privacy-options/",
@@ -4036,7 +4012,6 @@
         "mlaa/cac-advanced-profiles": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
-        "mlaa/invite-anyone": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
