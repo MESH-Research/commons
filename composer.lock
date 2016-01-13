@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "187fa816e0d01f8be370084bd37e4504",
-    "content-hash": "4e70c1c6d967508cd67a93567be4dbf2",
+    "hash": "8d258a72632e170c01706745f39715d3",
+    "content-hash": "0f54d87e29e2ea5067310f760c4c900a",
     "packages": [
         {
             "name": "composer/installers",
@@ -1996,15 +1996,15 @@
         },
         {
             "name": "wpackagist-theme/maskitto-light",
-            "version": "3.1.0",
+            "version": "3.1.7",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/maskitto-light/",
-                "reference": "3.1.0"
+                "reference": "3.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/maskitto-light.3.1.0.zip",
+                "url": "https://downloads.wordpress.org/theme/maskitto-light.3.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2116,15 +2116,15 @@
         },
         {
             "name": "wpackagist-theme/sparkling",
-            "version": "2.0.1",
+            "version": "2.2.1",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/sparkling/",
-                "reference": "2.0.1"
+                "reference": "2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sparkling.2.0.1.zip",
+                "url": "https://downloads.wordpress.org/theme/sparkling.2.2.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2156,15 +2156,15 @@
         },
         {
             "name": "wpackagist-theme/twentyeleven",
-            "version": "2.2",
+            "version": "2.3",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyeleven/",
-                "reference": "2.2"
+                "reference": "2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.2.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2176,15 +2176,15 @@
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
-            "version": "1.3",
+            "version": "1.4",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyfifteen/",
-                "reference": "1.3"
+                "reference": "1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.3.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2196,15 +2196,15 @@
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
-            "version": "1.5",
+            "version": "1.6",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentyfourteen/",
-                "reference": "1.5"
+                "reference": "1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfourteen.1.5.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfourteen.1.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2215,16 +2215,36 @@
             "homepage": "https://wordpress.org/themes/twentyfourteen/"
         },
         {
-            "name": "wpackagist-theme/twentythirteen",
-            "version": "1.6",
+            "name": "wpackagist-theme/twentysixteen",
+            "version": "1.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentythirteen/",
-                "reference": "1.6"
+                "url": "http://themes.svn.wordpress.org/twentysixteen/",
+                "reference": "1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentythirteen.1.6.zip",
+                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentysixteen/"
+        },
+        {
+            "name": "wpackagist-theme/twentythirteen",
+            "version": "1.7",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/twentythirteen/",
+                "reference": "1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentythirteen.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -2236,15 +2256,15 @@
         },
         {
             "name": "wpackagist-theme/twentytwelve",
-            "version": "1.8",
+            "version": "1.9",
             "source": {
                 "type": "svn",
                 "url": "http://themes.svn.wordpress.org/twentytwelve/",
-                "reference": "1.8"
+                "reference": "1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwelve.1.8.zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwelve.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
