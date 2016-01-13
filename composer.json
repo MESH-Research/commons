@@ -15,10 +15,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/bp-group-documents.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/buddypress-docs.git"
     },
     {
@@ -71,7 +67,6 @@
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.4.1",
-    "mlaa/bp-group-documents": "dev-master",
     "mlaa/buddypress-docs": "1.8.1-patch",
     "mlaa/cac-advanced-profiles": "dev-master",
     "mlaa/cbox-auth": "dev-master",
@@ -83,6 +78,7 @@
     "wpackagist-plugin/akismet": "3.1.7",
     "wpackagist-plugin/anthologize": "0.*",
     "wpackagist-plugin/bbpress": "2.5.8",
+    "wpackagist-plugin/bp-group-documents": "1.9.4",
     "wpackagist-plugin/bp-groupblog": "1.8.11",
     "wpackagist-plugin/bp-lotsa-feeds": "1.0",
     "wpackagist-plugin/bp-mpo-activity-filter": "1.2",

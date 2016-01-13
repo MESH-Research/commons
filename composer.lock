@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d258a72632e170c01706745f39715d3",
-    "content-hash": "0f54d87e29e2ea5067310f760c4c900a",
+    "hash": "659118b484e1e1b3e401ce711bc17a8e",
+    "content-hash": "f853b7e8c54a44de25179e5ccf2ebf39",
     "packages": [
         {
             "name": "composer/installers",
@@ -240,31 +240,6 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
-        },
-        {
-            "name": "mlaa/bp-group-documents",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/bp-group-documents.git",
-                "reference": "9823163420584ef41ec4002f259489b2c5f158ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/9823163420584ef41ec4002f259489b2c5f158ed",
-                "reference": "9823163420584ef41ec4002f259489b2c5f158ed",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/bp-group-documents/tree/master",
-                "issues": "https://github.com/mlaa/bp-group-documents/issues"
-            },
-            "time": "2015-07-26 17:05:06"
         },
         {
             "name": "mlaa/buddypress-docs",
@@ -813,6 +788,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bbpress/"
+        },
+        {
+            "name": "wpackagist-plugin/bp-group-documents",
+            "version": "1.9.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/bp-group-documents/",
+                "reference": "tags/1.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bp-group-documents.1.9.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bp-group-documents/"
         },
         {
             "name": "wpackagist-plugin/bp-groupblog",
@@ -4028,7 +4023,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mlaa/bp-group-documents": 20,
         "mlaa/cac-advanced-profiles": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
