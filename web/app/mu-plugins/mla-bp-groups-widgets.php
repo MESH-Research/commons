@@ -32,15 +32,6 @@ class MLA_BP_Groups_Widget extends WP_Widget {
 		}
 	}
 
-	/**
-	 * PHP4 constructor
-	 *
-	 * For backward compatibility only
-	 */
-	function mla_bp_groups_widget() {
-		$this->_construct();
-	}
-
 	function widget( $args, $instance ) {
 		$user_id = apply_filters( 'bp_group_widget_user_id', '0' );
 
