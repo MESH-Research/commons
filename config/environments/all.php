@@ -33,13 +33,16 @@ define('NOBLOGREDIRECT', getenv('WP_HOME'));
 define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
 
 /**
+ * Logging
+ */
+define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
+
+/**
  * MLA Member API
  */
 define('CBOX_AUTH_API_URL', getenv('CBOX_AUTH_API_URL'));
 define('CBOX_AUTH_API_KEY', getenv('CBOX_AUTH_API_KEY'));
 define('CBOX_AUTH_API_SECRET', getenv('CBOX_AUTH_API_SECRET'));
-define('CBOX_AUTH_DEBUG', false);
-define('CBOX_AUTH_DEBUG_LOG', getenv('CBOX_AUTH_DEBUG_LOG'));
 
 /**
  * SMTP settings
