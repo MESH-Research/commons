@@ -28,7 +28,14 @@ use \Monolog\Handler\StreamHandler;
 class Logger extends MonologLogger {
 
 	/**
-	 * Continue to log errors to error_log.
+	 * Log slug/prefix.
+	 *
+	 * @var string
+	 */
+	private $slug = '';
+
+	/**
+	 * Additionally log errors to WordPress's error_log.
 	 * @param string $message An error message.
 	 */
 	public function addError ( $message, array $context = array() ) {
@@ -37,7 +44,7 @@ class Logger extends MonologLogger {
 			$message .= ' *** ' . serialize( $context );
 		}
 
-		error_log( $message );
+		error_log( $this->slug . $message );
 
 	}
 
@@ -53,12 +60,15 @@ class Logger extends MonologLogger {
 		}
 
 		// If no slug was passed, use the null handler.
-		if ( ! $slug ) {
+		if ( ! ( is_string( $slug ) && strlen( $slug ) ) ) {
 			$this->pushHandler( new NullHandler(), parent::DEBUG );
 			return true;
 		}
 
+		// Ignore debug unless WP_DEBUG is turned on.
 		$log_level = ( WP_DEBUG ) ? parent::DEBUG : parent::INFO;
+
+		$this->slug = '[' . $slug . '] ';
 		$this->pushHandler( new StreamHandler( WP_LOGS_DIR . '/' . $slug . '.log' ), $log_level );
 
 		return true;
