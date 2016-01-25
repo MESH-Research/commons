@@ -40,6 +40,9 @@ class Logger extends MonologLogger {
 	 */
 	public function addError ( $message, array $context = array() ) {
 
+		// Send to Monolog.
+		parent::addError ( $message, $context );
+
 		if ( ! empty( $context ) ) {
 			$message .= ' *** ' . serialize( $context );
 		}
