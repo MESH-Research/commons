@@ -72,7 +72,7 @@ class Logger extends MonologLogger {
 		$log_level = ( WP_DEBUG ) ? parent::DEBUG : parent::INFO;
 
 		$this->slug = '[' . $slug . '] ';
-		$this->pushHandler( new StreamHandler( WP_LOGS_DIR . '/' . $slug . '.log' ), $log_level );
+		$this->pushHandler( new StreamHandler( WP_LOGS_DIR . '/' . $slug . '.log', $log_level ) );
 
 		return true;
 
