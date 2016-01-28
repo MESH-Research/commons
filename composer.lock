@@ -297,12 +297,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-auth.git",
-                "reference": "b70d94f9968d53e9932ed917cc2113f83e522402"
+                "reference": "dd3f2a55cdf657c4338dba6288e71317598dfccd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/b70d94f9968d53e9932ed917cc2113f83e522402",
-                "reference": "b70d94f9968d53e9932ed917cc2113f83e522402",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/dd3f2a55cdf657c4338dba6288e71317598dfccd",
+                "reference": "dd3f2a55cdf657c4338dba6288e71317598dfccd",
                 "shasum": ""
             },
             "require": {
@@ -311,10 +311,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/cbox-auth/tree/refactor-improve-tests",
+                "source": "https://github.com/mlaa/cbox-auth/tree/master",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2016-01-28 17:09:15"
+            "time": "2016-01-28 20:34:03"
         },
         {
             "name": "mlaa/cbox-mla",
