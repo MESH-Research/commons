@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19315e99cfa76e28a2ed0948ef8de2d6",
-    "content-hash": "1e975a3245937256a11f54f8cd8c34ee",
+    "hash": "e820a7a821d3f73453aebc513de2d548",
+    "content-hash": "4c0ac84af23092982489ecbb5c502ced",
     "packages": [
         {
             "name": "composer/installers",
@@ -261,7 +261,7 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-patch",
+                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
@@ -1703,6 +1703,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+        },
+        {
+            "name": "wpackagist-plugin/so-widgets-bundle",
+            "version": "1.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/so-widgets-bundle/",
+                "reference": "tags/1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
         },
         {
             "name": "wpackagist-plugin/storify",
@@ -3225,16 +3245,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.21",
+            "version": "4.8.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ea76b17bced0500a28098626b84eda12dbcf119c"
+                "reference": "dfb11aa5236376b4fc63853cf746af39fe780e72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ea76b17bced0500a28098626b84eda12dbcf119c",
-                "reference": "ea76b17bced0500a28098626b84eda12dbcf119c",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/dfb11aa5236376b4fc63853cf746af39fe780e72",
+                "reference": "dfb11aa5236376b4fc63853cf746af39fe780e72",
                 "shasum": ""
             },
             "require": {
@@ -3293,7 +3313,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-12-12 07:45:58"
+            "time": "2016-02-02 09:01:21"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
