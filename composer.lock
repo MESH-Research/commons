@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "213be4f628dc1864a9be0b6bced20e19",
-    "content-hash": "490c138369ee728d9301fddccb8174b5",
+    "hash": "19315e99cfa76e28a2ed0948ef8de2d6",
+    "content-hash": "1e975a3245937256a11f54f8cd8c34ee",
     "packages": [
         {
             "name": "composer/installers",
@@ -2383,6 +2383,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/twentytwelve/"
+        },
+        {
+            "name": "wpackagist-theme/vantage",
+            "version": "1.4.4",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/vantage/",
+                "reference": "1.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/vantage.1.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/vantage/"
         },
         {
             "name": "wpmudev/google-analytics-async",

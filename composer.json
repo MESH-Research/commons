@@ -169,6 +169,7 @@
     "wpackagist-theme/twentysixteen": "1.1",
     "wpackagist-theme/twentythirteen": "1.7",
     "wpackagist-theme/twentytwelve": "1.9",
+    "wpackagist-theme/vantage": "1.4.4",
     "cuny-academic-commons/cbox-theme": "dev-master#251cb22"
   },
   "scripts": {
