@@ -64,7 +64,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "composer/installers": "~1.0.12",
+    "composer/installers": "1.0.23",
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.4.1",
     "monolog/monolog": "^1.17",
@@ -166,10 +166,10 @@
     "wpackagist-theme/twentyeleven": "2.3",
     "wpackagist-theme/twentyfifteen": "1.4",
     "wpackagist-theme/twentyfourteen": "1.6",
+    "wpackagist-theme/twentysixteen": "1.1",
     "wpackagist-theme/twentythirteen": "1.7",
     "wpackagist-theme/twentytwelve": "1.9",
-    "cuny-academic-commons/cbox-theme": "dev-master#251cb22",
-    "wpackagist-theme/twentysixteen": "1.1"
+    "cuny-academic-commons/cbox-theme": "dev-master#251cb22"
   },
   "scripts": {
     "pre-install-cmd": [

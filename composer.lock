@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd60b8406dd80dface282990006e0b29",
-    "content-hash": "f39247d5d299906405662832ed3a83f5",
+    "hash": "213be4f628dc1864a9be0b6bced20e19",
+    "content-hash": "490c138369ee728d9301fddccb8174b5",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -103,7 +103,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "cubell/15zine-functionality",
@@ -261,7 +261,7 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
+                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-patch",
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
@@ -326,7 +326,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/d9a13d62a6937b85536e51e53098994a59363a1f",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/fdd5dc1aa492d0d42a915709eb796347eb899dab",
                 "reference": "d9a13d62a6937b85536e51e53098994a59363a1f",
                 "shasum": ""
             },
@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/52c167560e925fc89aff8bc273e3feb96100a6cc",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0f273ae11469fd6a6356ef34829bba5099ff9622",
                 "reference": "52c167560e925fc89aff8bc273e3feb96100a6cc",
                 "shasum": ""
             },
