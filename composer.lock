@@ -322,12 +322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "d9a13d62a6937b85536e51e53098994a59363a1f"
+                "reference": "fdd5dc1aa492d0d42a915709eb796347eb899dab"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/fdd5dc1aa492d0d42a915709eb796347eb899dab",
-                "reference": "d9a13d62a6937b85536e51e53098994a59363a1f",
+                "reference": "fdd5dc1aa492d0d42a915709eb796347eb899dab",
                 "shasum": ""
             },
             "require": {
@@ -339,7 +339,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2016-02-02 16:30:47"
+            "time": "2016-02-03 14:09:43"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "52c167560e925fc89aff8bc273e3feb96100a6cc"
+                "reference": "0f273ae11469fd6a6356ef34829bba5099ff9622"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/humcore/zipball/0f273ae11469fd6a6356ef34829bba5099ff9622",
-                "reference": "52c167560e925fc89aff8bc273e3feb96100a6cc",
+                "reference": "0f273ae11469fd6a6356ef34829bba5099ff9622",
                 "shasum": ""
             },
             "require": {
@@ -467,10 +467,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/host-oai-xsl",
+                "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-01-05 18:03:07"
+            "time": "2016-02-03 16:50:12"
         },
         {
             "name": "mlaa/mla-admin-bar",
