@@ -130,7 +130,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/983af5bbf88ce1ed8a39354b5e6ad4cb363b8b81",
+                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/c3b6bd3655f2524ba409ff3d6d987f2443219477",
                 "reference": "251cb22",
                 "shasum": ""
             },
@@ -301,7 +301,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/0be7582394bf512820d4a8691cce3f1ec09aab62",
+                "url": "https://api.github.com/repos/mlaa/cbox-auth/zipball/50494169b0051fd52f3190d3094d60cc84052132",
                 "reference": "0be7582394bf512820d4a8691cce3f1ec09aab62",
                 "shasum": ""
             },
@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "0f273ae11469fd6a6356ef34829bba5099ff9622"
+                "reference": "2044def45223a6e1c727be26b44a6ed0e3770933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0f273ae11469fd6a6356ef34829bba5099ff9622",
-                "reference": "0f273ae11469fd6a6356ef34829bba5099ff9622",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/2044def45223a6e1c727be26b44a6ed0e3770933",
+                "reference": "2044def45223a6e1c727be26b44a6ed0e3770933",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-02-03 16:50:12"
+            "time": "2016-02-19 21:04:22"
         },
         {
             "name": "mlaa/mla-admin-bar",
