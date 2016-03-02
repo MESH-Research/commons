@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "259e2b3153c61d889c5b9735f4ca34c09e92dcbf"
+                "reference": "32032ab19ddeb246679caf41f2e5f5683c780e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/259e2b3153c61d889c5b9735f4ca34c09e92dcbf",
-                "reference": "259e2b3153c61d889c5b9735f4ca34c09e92dcbf",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/32032ab19ddeb246679caf41f2e5f5683c780e6b",
+                "reference": "32032ab19ddeb246679caf41f2e5f5683c780e6b",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-02-29 14:16:28"
+            "time": "2016-03-02 17:59:38"
         },
         {
             "name": "mlaa/mla-admin-bar",
