@@ -59,6 +59,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/style-center.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
     }
   ],
@@ -149,6 +153,7 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/profession-theme": "dev-master",
+    "mlaa/style-center": "dev-master",
     "themeforest/15zine": "2.1.2",
     "themesindep/simplemag": "3.0.4",
     "wpackagist-theme/annotum-base": "*",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "33e882f97a52cd9b87186ae1c3f7570d",
-    "content-hash": "2c95bec9c4ba6249983194cf44d997a9",
+    "hash": "8d4744e0c7dae0d51b8de04cfa9b731e",
+    "content-hash": "bd0c7cf808f2e9d656430102728676ae",
     "packages": [
         {
             "name": "composer/installers",
@@ -521,6 +521,34 @@
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
             "time": "2015-12-09 18:17:15"
+        },
+        {
+            "name": "mlaa/style-center",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/style-center.git",
+                "reference": "393b049c5b034eae544e4de3e0523c62220751bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/393b049c5b034eae544e4de3e0523c62220751bc",
+                "reference": "393b049c5b034eae544e4de3e0523c62220751bc",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "All rights reserved"
+            ],
+            "support": {
+                "source": "https://github.com/mlaa/style-center/tree/master",
+                "issues": "https://github.com/mlaa/style-center/issues"
+            },
+            "time": "2016-03-11 05:03:04"
         },
         {
             "name": "monolog/monolog",
@@ -4228,6 +4256,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/profession-theme": 20,
+        "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20
     },
     "prefer-stable": false,
