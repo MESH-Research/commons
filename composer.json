@@ -90,6 +90,7 @@
     "wpackagist-plugin/bp-system-report": "0.*",
     "wpackagist-plugin/buddypress": "2.3.5",
     "wpackagist-plugin/buddypress-group-email-subscription": "3.5.2",
+    "wpackagist-plugin/bwp-google-xml-sitemaps": "1.4.1",
     "wpackagist-plugin/cac-featured-content": "1.0.6",
     "wpackagist-plugin/commentpress-core": "3.8.4",
     "wpackagist-plugin/commons-in-a-box": "1.0.11",

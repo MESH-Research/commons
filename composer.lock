@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8d4744e0c7dae0d51b8de04cfa9b731e",
-    "content-hash": "bd0c7cf808f2e9d656430102728676ae",
+    "hash": "59517ca5bc8b391c21b747bef06fa8ab",
+    "content-hash": "d73d2c4afb47cf63b9e89b91658b33d0",
     "packages": [
         {
             "name": "composer/installers",
@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/32032ab19ddeb246679caf41f2e5f5683c780e6b",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/a15ee6e121de77e526c245639a1bed4ede979e87",
                 "reference": "32032ab19ddeb246679caf41f2e5f5683c780e6b",
                 "shasum": ""
             },
@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "e381023c64de3c79f394f9ea25fa480b880f71f4"
+                "reference": "0dd2531acbb07800725ba4e67671726443b354d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/e381023c64de3c79f394f9ea25fa480b880f71f4",
-                "reference": "e381023c64de3c79f394f9ea25fa480b880f71f4",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/0dd2531acbb07800725ba4e67671726443b354d3",
+                "reference": "0dd2531acbb07800725ba4e67671726443b354d3",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-03-11 05:50:01"
+            "time": "2016-03-14 17:28:49"
         },
         {
             "name": "monolog/monolog",
@@ -1071,6 +1071,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
+        },
+        {
+            "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bwp-google-xml-sitemaps/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
