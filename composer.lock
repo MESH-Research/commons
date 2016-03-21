@@ -322,12 +322,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "fdd5dc1aa492d0d42a915709eb796347eb899dab"
+                "reference": "c63f116b5a5428e2e1aaca075fa0735d10d86d70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/fdd5dc1aa492d0d42a915709eb796347eb899dab",
-                "reference": "fdd5dc1aa492d0d42a915709eb796347eb899dab",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/c63f116b5a5428e2e1aaca075fa0735d10d86d70",
+                "reference": "c63f116b5a5428e2e1aaca075fa0735d10d86d70",
                 "shasum": ""
             },
             "require": {
@@ -339,7 +339,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2016-02-03 14:09:43"
+            "time": "2016-03-21 14:47:40"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "a15ee6e121de77e526c245639a1bed4ede979e87"
+                "reference": "2d971ab7091ccb965da7a040768bef71c43a8f0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/a15ee6e121de77e526c245639a1bed4ede979e87",
-                "reference": "a15ee6e121de77e526c245639a1bed4ede979e87",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/2d971ab7091ccb965da7a040768bef71c43a8f0c",
+                "reference": "2d971ab7091ccb965da7a040768bef71c43a8f0c",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-03-15 18:00:32"
+            "time": "2016-03-21 14:40:44"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -877,7 +877,7 @@
             "version": "3.1.7",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
                 "reference": "tags/3.1.7"
             },
             "dist": {
@@ -897,7 +897,7 @@
             "version": "0.7.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/anthologize/",
+                "url": "https://plugins.svn.wordpress.org/anthologize/",
                 "reference": "tags/0.7.6"
             },
             "dist": {
@@ -917,7 +917,7 @@
             "version": "2.5.8",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bbpress/",
+                "url": "https://plugins.svn.wordpress.org/bbpress/",
                 "reference": "tags/2.5.8"
             },
             "dist": {
@@ -937,7 +937,7 @@
             "version": "1.9.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bp-group-documents/",
+                "url": "https://plugins.svn.wordpress.org/bp-group-documents/",
                 "reference": "tags/1.9.4"
             },
             "dist": {
@@ -957,7 +957,7 @@
             "version": "1.8.11",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bp-groupblog/",
+                "url": "https://plugins.svn.wordpress.org/bp-groupblog/",
                 "reference": "tags/1.8.11"
             },
             "dist": {
@@ -977,7 +977,7 @@
             "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bp-lotsa-feeds/",
+                "url": "https://plugins.svn.wordpress.org/bp-lotsa-feeds/",
                 "reference": "tags/1.0"
             },
             "dist": {
@@ -997,7 +997,7 @@
             "version": "1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bp-mpo-activity-filter/",
+                "url": "https://plugins.svn.wordpress.org/bp-mpo-activity-filter/",
                 "reference": "tags/1.2"
             },
             "dist": {
@@ -1017,7 +1017,7 @@
             "version": "0.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bp-system-report/",
+                "url": "https://plugins.svn.wordpress.org/bp-system-report/",
                 "reference": "tags/0.1"
             },
             "dist": {
@@ -1037,7 +1037,7 @@
             "version": "2.3.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/buddypress/",
+                "url": "https://plugins.svn.wordpress.org/buddypress/",
                 "reference": "tags/2.3.5"
             },
             "dist": {
@@ -1057,7 +1057,7 @@
             "version": "3.5.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
+                "url": "https://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
                 "reference": "tags/3.5.2"
             },
             "dist": {
@@ -1077,7 +1077,7 @@
             "version": "1.4.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
+                "url": "https://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
                 "reference": "tags/1.4.1"
             },
             "dist": {
@@ -1097,7 +1097,7 @@
             "version": "1.0.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/cac-featured-content/",
+                "url": "https://plugins.svn.wordpress.org/cac-featured-content/",
                 "reference": "tags/1.0.6"
             },
             "dist": {
@@ -1117,7 +1117,7 @@
             "version": "3.8.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/commentpress-core/",
+                "url": "https://plugins.svn.wordpress.org/commentpress-core/",
                 "reference": "tags/3.8.4"
             },
             "dist": {
@@ -1137,7 +1137,7 @@
             "version": "1.0.11",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/commons-in-a-box/",
+                "url": "https://plugins.svn.wordpress.org/commons-in-a-box/",
                 "reference": "tags/1.0.11"
             },
             "dist": {
@@ -1157,7 +1157,7 @@
             "version": "1.8.15",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/creative-commons-configurator-1/",
+                "url": "https://plugins.svn.wordpress.org/creative-commons-configurator-1/",
                 "reference": "tags/1.8.15"
             },
             "dist": {
@@ -1177,7 +1177,7 @@
             "version": "0.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/custom-profile-filters-for-buddypress/",
+                "url": "https://plugins.svn.wordpress.org/custom-profile-filters-for-buddypress/",
                 "reference": "tags/0.4"
             },
             "dist": {
@@ -1197,7 +1197,7 @@
             "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disable-password-reset-extended/",
+                "url": "https://plugins.svn.wordpress.org/disable-password-reset-extended/",
                 "reference": "trunk"
             },
             "dist": {
@@ -1217,7 +1217,7 @@
             "version": "1.6.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/events-made-easy/",
+                "url": "https://plugins.svn.wordpress.org/events-made-easy/",
                 "reference": "tags/1.6.3"
             },
             "dist": {
@@ -1237,7 +1237,7 @@
             "version": "5.6.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/events-manager/",
+                "url": "https://plugins.svn.wordpress.org/events-manager/",
                 "reference": "tags/5.6.2"
             },
             "dist": {
@@ -1297,7 +1297,7 @@
             "version": "2.0.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
+                "url": "https://plugins.svn.wordpress.org/force-regenerate-thumbnails/",
                 "reference": "tags/2.0.5"
             },
             "dist": {
@@ -1337,7 +1337,7 @@
             "version": "4.0.8",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
                 "reference": "tags/4.0.8"
             },
             "dist": {
@@ -1357,7 +1357,7 @@
             "version": "1.3.9.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/highlight-search-terms/",
+                "url": "https://plugins.svn.wordpress.org/highlight-search-terms/",
                 "reference": "trunk"
             },
             "dist": {
@@ -1377,7 +1377,7 @@
             "version": "1.3.9",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/invite-anyone/",
+                "url": "https://plugins.svn.wordpress.org/invite-anyone/",
                 "reference": "tags/1.3.9"
             },
             "dist": {
@@ -1397,7 +1397,7 @@
             "version": "2.4.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/issuem/",
+                "url": "https://plugins.svn.wordpress.org/issuem/",
                 "reference": "tags/2.4.0"
             },
             "dist": {
@@ -1417,7 +1417,7 @@
             "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/jquery-hover-footnotes/",
+                "url": "https://plugins.svn.wordpress.org/jquery-hover-footnotes/",
                 "reference": "trunk"
             },
             "dist": {
@@ -1437,7 +1437,7 @@
             "version": "3.3.11.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/knight-lab-timelinejs/",
+                "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
                 "reference": "tags/3.3.11.2"
             },
             "dist": {
@@ -1457,7 +1457,7 @@
             "version": "4.1.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/more-privacy-options/",
+                "url": "https://plugins.svn.wordpress.org/more-privacy-options/",
                 "reference": "trunk"
             },
             "dist": {
@@ -1477,7 +1477,7 @@
             "version": "1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/move-comments/",
+                "url": "https://plugins.svn.wordpress.org/move-comments/",
                 "reference": "tags/1.2"
             },
             "dist": {
@@ -1497,7 +1497,7 @@
             "version": "3.1.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/multisite-plugin-manager/",
+                "url": "https://plugins.svn.wordpress.org/multisite-plugin-manager/",
                 "reference": "tags/3.1.4"
             },
             "dist": {
@@ -1517,7 +1517,7 @@
             "version": "1.9.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/network-plugin-auditor/",
+                "url": "https://plugins.svn.wordpress.org/network-plugin-auditor/",
                 "reference": "tags/1.9.1"
             },
             "dist": {
@@ -1537,7 +1537,7 @@
             "version": "2.9.33",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ninja-forms/",
+                "url": "https://plugins.svn.wordpress.org/ninja-forms/",
                 "reference": "tags/2.9.33"
             },
             "dist": {
@@ -1557,7 +1557,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/openbook-book-data/",
+                "url": "https://plugins.svn.wordpress.org/openbook-book-data/",
                 "reference": "tags/3.5.1"
             },
             "dist": {
@@ -1577,7 +1577,7 @@
             "version": "1.8.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/options-framework/",
+                "url": "https://plugins.svn.wordpress.org/options-framework/",
                 "reference": "tags/1.8.4"
             },
             "dist": {
@@ -1597,7 +1597,7 @@
             "version": "1.6.2.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/participants-database/",
+                "url": "https://plugins.svn.wordpress.org/participants-database/",
                 "reference": "tags/1.6.2.6"
             },
             "dist": {
@@ -1617,7 +1617,7 @@
             "version": "2.0.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/password-protected/",
+                "url": "https://plugins.svn.wordpress.org/password-protected/",
                 "reference": "tags/2.0.2"
             },
             "dist": {
@@ -1637,7 +1637,7 @@
             "version": "3.8.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/pressforward/",
+                "url": "https://plugins.svn.wordpress.org/pressforward/",
                 "reference": "tags/3.8.0"
             },
             "dist": {
@@ -1657,7 +1657,7 @@
             "version": "3.4.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/printfriendly/",
+                "url": "https://plugins.svn.wordpress.org/printfriendly/",
                 "reference": "tags/3.4.5"
             },
             "dist": {
@@ -1677,7 +1677,7 @@
             "version": "1.0.6.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/q-and-a/",
+                "url": "https://plugins.svn.wordpress.org/q-and-a/",
                 "reference": "tags/1.0.6.2"
             },
             "dist": {
@@ -1717,7 +1717,7 @@
             "version": "1.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/scholarpress-coins/",
+                "url": "https://plugins.svn.wordpress.org/scholarpress-coins/",
                 "reference": "tags/1.3"
             },
             "dist": {
@@ -1737,7 +1737,7 @@
             "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/shareadraft/",
+                "url": "https://plugins.svn.wordpress.org/shareadraft/",
                 "reference": "tags/1.4"
             },
             "dist": {
@@ -1757,7 +1757,7 @@
             "version": "2.2.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/siteorigin-panels/",
+                "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
                 "reference": "tags/2.2.2"
             },
             "dist": {
@@ -1777,7 +1777,7 @@
             "version": "1.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/so-widgets-bundle/",
+                "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
                 "reference": "tags/1.5"
             },
             "dist": {
@@ -1797,7 +1797,7 @@
             "version": "1.0.9",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/storify/",
+                "url": "https://plugins.svn.wordpress.org/storify/",
                 "reference": "tags/1.0.9"
             },
             "dist": {
@@ -1817,7 +1817,7 @@
             "version": "1.8",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/",
+                "url": "https://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/",
                 "reference": "tags/1.8"
             },
             "dist": {
@@ -1837,7 +1837,7 @@
             "version": "2.12.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/video-thumbnails/",
+                "url": "https://plugins.svn.wordpress.org/video-thumbnails/",
                 "reference": "tags/2.12.1"
             },
             "dist": {
@@ -1857,7 +1857,7 @@
             "version": "1.4.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/woosidebars/",
+                "url": "https://plugins.svn.wordpress.org/woosidebars/",
                 "reference": "tags/1.4.3"
             },
             "dist": {
@@ -1877,7 +1877,7 @@
             "version": "0.6.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-importer/",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
                 "reference": "tags/0.6.1"
             },
             "dist": {
@@ -1897,7 +1897,7 @@
             "version": "1.4.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-accessibility/",
+                "url": "https://plugins.svn.wordpress.org/wp-accessibility/",
                 "reference": "tags/1.4.6"
             },
             "dist": {
@@ -1917,7 +1917,7 @@
             "version": "2.3.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-fail2ban/",
+                "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
                 "reference": "tags/2.3.2"
             },
             "dist": {
@@ -1937,8 +1937,8 @@
             "version": "6.3.03",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
+                "reference": "tags/6.3.03"
             },
             "dist": {
                 "type": "zip",
@@ -1957,7 +1957,7 @@
             "version": "2.2.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-hide-dashboard/",
+                "url": "https://plugins.svn.wordpress.org/wp-hide-dashboard/",
                 "reference": "tags/2.2.1"
             },
             "dist": {
@@ -1977,7 +1977,7 @@
             "version": "1.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-markdown/",
+                "url": "https://plugins.svn.wordpress.org/wp-markdown/",
                 "reference": "tags/1.5.1"
             },
             "dist": {
@@ -1997,7 +1997,7 @@
             "version": "2.72",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-polls/",
+                "url": "https://plugins.svn.wordpress.org/wp-polls/",
                 "reference": "tags/2.72"
             },
             "dist": {
@@ -2017,7 +2017,7 @@
             "version": "0.37",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-pro-quiz/",
+                "url": "https://plugins.svn.wordpress.org/wp-pro-quiz/",
                 "reference": "tags/0.37"
             },
             "dist": {
@@ -2037,7 +2037,7 @@
             "version": "3.1.9",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-to-twitter/",
+                "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
                 "reference": "tags/3.1.9"
             },
             "dist": {
@@ -2057,7 +2057,7 @@
             "version": "1.7",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpfront-notification-bar/",
+                "url": "https://plugins.svn.wordpress.org/wpfront-notification-bar/",
                 "reference": "tags/1.7"
             },
             "dist": {
@@ -2077,7 +2077,7 @@
             "version": "2.0",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/annotum-base/",
+                "url": "https://themes.svn.wordpress.org/annotum-base/",
                 "reference": "2.0"
             },
             "dist": {
@@ -2097,7 +2097,7 @@
             "version": "1.0.6",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/arcade-basic/",
+                "url": "https://themes.svn.wordpress.org/arcade-basic/",
                 "reference": "1.0.6"
             },
             "dist": {
@@ -2117,7 +2117,7 @@
             "version": "2.6.6",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/blaskan/",
+                "url": "https://themes.svn.wordpress.org/blaskan/",
                 "reference": "2.6.6"
             },
             "dist": {
@@ -2137,7 +2137,7 @@
             "version": "1.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/dispatch/",
+                "url": "https://themes.svn.wordpress.org/dispatch/",
                 "reference": "1.5.1"
             },
             "dist": {
@@ -2157,7 +2157,7 @@
             "version": "1.3.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/esquire/",
+                "url": "https://themes.svn.wordpress.org/esquire/",
                 "reference": "1.3.1"
             },
             "dist": {
@@ -2177,7 +2177,7 @@
             "version": "0.3",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/foghorn/",
+                "url": "https://themes.svn.wordpress.org/foghorn/",
                 "reference": "0.3"
             },
             "dist": {
@@ -2197,7 +2197,7 @@
             "version": "0.2.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/hum/",
+                "url": "https://themes.svn.wordpress.org/hum/",
                 "reference": "0.2.1"
             },
             "dist": {
@@ -2217,7 +2217,7 @@
             "version": "3.1.7",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/maskitto-light/",
+                "url": "https://themes.svn.wordpress.org/maskitto-light/",
                 "reference": "3.1.7"
             },
             "dist": {
@@ -2237,7 +2237,7 @@
             "version": "0.5.8",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/origin/",
+                "url": "https://themes.svn.wordpress.org/origin/",
                 "reference": "0.5.8"
             },
             "dist": {
@@ -2257,7 +2257,7 @@
             "version": "1.2.4",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/publish/",
+                "url": "https://themes.svn.wordpress.org/publish/",
                 "reference": "1.2.4"
             },
             "dist": {
@@ -2277,7 +2277,7 @@
             "version": "1.14",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/radcliffe/",
+                "url": "https://themes.svn.wordpress.org/radcliffe/",
                 "reference": "1.14"
             },
             "dist": {
@@ -2297,7 +2297,7 @@
             "version": "1.9.7.7",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/responsive/",
+                "url": "https://themes.svn.wordpress.org/responsive/",
                 "reference": "1.9.7.7"
             },
             "dist": {
@@ -2317,7 +2317,7 @@
             "version": "1.1.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/simplemarket/",
+                "url": "https://themes.svn.wordpress.org/simplemarket/",
                 "reference": "1.1.1"
             },
             "dist": {
@@ -2337,7 +2337,7 @@
             "version": "2.2.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/sparkling/",
+                "url": "https://themes.svn.wordpress.org/sparkling/",
                 "reference": "2.2.1"
             },
             "dist": {
@@ -2357,7 +2357,7 @@
             "version": "1.2",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/suits/",
+                "url": "https://themes.svn.wordpress.org/suits/",
                 "reference": "1.2"
             },
             "dist": {
@@ -2377,7 +2377,7 @@
             "version": "2.3",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentyeleven/",
+                "url": "https://themes.svn.wordpress.org/twentyeleven/",
                 "reference": "2.3"
             },
             "dist": {
@@ -2397,7 +2397,7 @@
             "version": "1.4",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentyfifteen/",
+                "url": "https://themes.svn.wordpress.org/twentyfifteen/",
                 "reference": "1.4"
             },
             "dist": {
@@ -2417,7 +2417,7 @@
             "version": "1.6",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentyfourteen/",
+                "url": "https://themes.svn.wordpress.org/twentyfourteen/",
                 "reference": "1.6"
             },
             "dist": {
@@ -2437,7 +2437,7 @@
             "version": "1.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentysixteen/",
+                "url": "https://themes.svn.wordpress.org/twentysixteen/",
                 "reference": "1.1"
             },
             "dist": {
@@ -2457,7 +2457,7 @@
             "version": "1.7",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentythirteen/",
+                "url": "https://themes.svn.wordpress.org/twentythirteen/",
                 "reference": "1.7"
             },
             "dist": {
@@ -2477,7 +2477,7 @@
             "version": "1.9",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentytwelve/",
+                "url": "https://themes.svn.wordpress.org/twentytwelve/",
                 "reference": "1.9"
             },
             "dist": {
@@ -2497,7 +2497,7 @@
             "version": "1.4.4",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/vantage/",
+                "url": "https://themes.svn.wordpress.org/vantage/",
                 "reference": "1.4.4"
             },
             "dist": {
