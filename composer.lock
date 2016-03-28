@@ -372,12 +372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla.git",
-                "reference": "bfcb0a9afd43b05c3cd2dfe9ab519284c890dcaa"
+                "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/bfcb0a9afd43b05c3cd2dfe9ab519284c890dcaa",
-                "reference": "bfcb0a9afd43b05c3cd2dfe9ab519284c890dcaa",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
+                "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla/issues"
             },
-            "time": "2016-01-04 20:05:45"
+            "time": "2016-03-28 03:45:09"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla-digitalpedagogy.git",
-                "reference": "ce48a4aa3d2be154509aca8c2382ee8d8bbdbbf7"
+                "reference": "07463af48161ac2f87f77d83aee5d2af03112288"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla-digitalpedagogy/zipball/ce48a4aa3d2be154509aca8c2382ee8d8bbdbbf7",
-                "reference": "ce48a4aa3d2be154509aca8c2382ee8d8bbdbbf7",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla-digitalpedagogy/zipball/07463af48161ac2f87f77d83aee5d2af03112288",
+                "reference": "07463af48161ac2f87f77d83aee5d2af03112288",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +414,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/issues"
             },
-            "time": "2016-01-19 20:31:23"
+            "time": "2016-03-28 04:03:52"
         },
         {
             "name": "mlaa/commentpress-mla-groups",
@@ -422,12 +422,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla-groups.git",
-                "reference": "13b9e3b95e17e7c111a49a7af3836e7048bd4ed1"
+                "reference": "e2c01fcb9186a541f21f342417c7282438519977"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla-groups/zipball/13b9e3b95e17e7c111a49a7af3836e7048bd4ed1",
-                "reference": "13b9e3b95e17e7c111a49a7af3836e7048bd4ed1",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla-groups/zipball/e2c01fcb9186a541f21f342417c7282438519977",
+                "reference": "e2c01fcb9186a541f21f342417c7282438519977",
                 "shasum": ""
             },
             "require": {
@@ -439,7 +439,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla-groups/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla-groups/issues"
             },
-            "time": "2015-11-24 21:21:47"
+            "time": "2016-03-28 04:11:20"
         },
         {
             "name": "mlaa/humcore",
