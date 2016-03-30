@@ -272,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cac-advanced-profiles.git",
-                "reference": "ee13baf8edee6b9c2065bd26af39f5aa4824e350"
+                "reference": "a0e92261502154e569e5496ca0761a00334abdaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cac-advanced-profiles/zipball/ee13baf8edee6b9c2065bd26af39f5aa4824e350",
-                "reference": "ee13baf8edee6b9c2065bd26af39f5aa4824e350",
+                "url": "https://api.github.com/repos/mlaa/cac-advanced-profiles/zipball/a0e92261502154e569e5496ca0761a00334abdaf",
+                "reference": "a0e92261502154e569e5496ca0761a00334abdaf",
                 "shasum": ""
             },
             "require": {
@@ -286,10 +286,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/cac-advanced-profiles/tree/develop",
+                "source": "https://github.com/mlaa/cac-advanced-profiles/tree/master",
                 "issues": "https://github.com/mlaa/cac-advanced-profiles/issues"
             },
-            "time": "2015-11-06 17:11:27"
+            "time": "2016-03-30 20:56:38"
         },
         {
             "name": "mlaa/cbox-auth",
