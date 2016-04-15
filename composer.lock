@@ -130,7 +130,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/c3b6bd3655f2524ba409ff3d6d987f2443219477",
+                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/df518b110794556009ad304f428e8cbe291f0b12",
                 "reference": "c3b6bd3",
                 "shasum": ""
             },
@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "1d040df024df72ab703c484efdf543c5b6b9cace"
+                "reference": "ffb59368a2011831d2371a3c4780f0a18271f52f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/1d040df024df72ab703c484efdf543c5b6b9cace",
-                "reference": "1d040df024df72ab703c484efdf543c5b6b9cace",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/ffb59368a2011831d2371a3c4780f0a18271f52f",
+                "reference": "ffb59368a2011831d2371a3c4780f0a18271f52f",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-04-11 00:31:22"
+            "time": "2016-04-15 20:09:53"
         },
         {
             "name": "monolog/monolog",
