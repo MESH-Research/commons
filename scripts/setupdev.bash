@@ -8,7 +8,7 @@ sudo chown -R www-data:www-data /srv/www/commons/shared/blogs.dir
 # tmp file to disable extraneous output from php when running wp-cli
 # http://wordpress.stackexchange.com/a/145313/66711
 pre_php=/tmp/__pre.php
-echo "<?php error_reporting( 0 ); define( 'WP_DEBUG', false );" > "$pre_php"
+[[ -e "$pre_php" ]] || echo "<?php error_reporting( 0 ); define( 'WP_DEBUG', false );" > "$pre_php"
 
 wp="wp --path=/srv/www/commons/current/web/wp --require=$pre_php"
 
