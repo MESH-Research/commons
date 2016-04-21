@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/27c7b1561363ed3f92819c38a76faf2cfdadc394",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/c888dd6ac9e1dd9a81309dc9896d8438dd13c7ac",
                 "reference": "27c7b1561363ed3f92819c38a76faf2cfdadc394",
                 "shasum": ""
             },
@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "c3facce25e9684419d20f84a95d96b6ccbb43fa0"
+                "reference": "d5848042e3a4c248fb142be39a84912d2823a685"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/c3facce25e9684419d20f84a95d96b6ccbb43fa0",
-                "reference": "c3facce25e9684419d20f84a95d96b6ccbb43fa0",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/d5848042e3a4c248fb142be39a84912d2823a685",
+                "reference": "d5848042e3a4c248fb142be39a84912d2823a685",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-04-21 15:59:40"
+            "time": "2016-04-21 20:07:45"
         },
         {
             "name": "monolog/monolog",
