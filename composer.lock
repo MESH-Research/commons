@@ -447,7 +447,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "27c7b1561363ed3f92819c38a76faf2cfdadc394"
+                "reference": "c888dd6ac9e1dd9a81309dc9896d8438dd13c7ac"
             },
             "dist": {
                 "type": "zip",
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-04-07 17:25:33"
+            "time": "2016-04-21 18:10:21"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -1957,11 +1957,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.3.05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.3.05.zip",
                 "reference": null,
                 "shasum": null
             },
