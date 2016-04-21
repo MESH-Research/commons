@@ -1,6 +1,10 @@
 #!/bin/bash
 set -ex
 
+# sync images etc.
+sudo aws s3 sync s3://mla-backup/commons/www/sync/blogs.dir /srv/www/commons/shared/blogs.dir --delete --exclude '*pdf'
+sudo chown -R www-data:www-data /srv/www/commons/shared/blogs.dir
+
 # tmp file to disable extraneous output from php when running wp-cli
 # http://wordpress.stackexchange.com/a/145313/66711
 pre_php=/tmp/__pre.php
