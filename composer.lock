@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "27c7b1561363ed3f92819c38a76faf2cfdadc394"
+                "reference": "c888dd6ac9e1dd9a81309dc9896d8438dd13c7ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/27c7b1561363ed3f92819c38a76faf2cfdadc394",
-                "reference": "27c7b1561363ed3f92819c38a76faf2cfdadc394",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/c888dd6ac9e1dd9a81309dc9896d8438dd13c7ac",
+                "reference": "c888dd6ac9e1dd9a81309dc9896d8438dd13c7ac",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-04-07 17:25:33"
+            "time": "2016-04-21 18:10:21"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -532,7 +532,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/c3facce25e9684419d20f84a95d96b6ccbb43fa0",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/d5b2c80ab0f459e595bffe6eac7cd3b29f1ad64c",
                 "reference": "c3facce25e9684419d20f84a95d96b6ccbb43fa0",
                 "shasum": ""
             },
@@ -1957,11 +1957,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.3.05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.3.05.zip",
                 "reference": null,
                 "shasum": null
             },
