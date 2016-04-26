@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "35fa3f1bea751c1ca936403c09db5379",
-    "content-hash": "0ccf1b3acbb812efd8a88db89f5fe49d",
+    "hash": "399b794a69dc474b2791b32fbce52ff0",
+    "content-hash": "9a240da7fef87205ece3dfd176197816",
     "packages": [
         {
             "name": "composer/installers",
@@ -1912,6 +1912,26 @@
             "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
+            "name": "wpackagist-plugin/wordpress-mu-domain-mapping",
+            "version": "0.5.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-mu-domain-mapping/",
+                "reference": "tags/0.5.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-mu-domain-mapping.0.5.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-mu-domain-mapping/"
+        },
+        {
             "name": "wpackagist-plugin/wp-accessibility",
             "version": "1.5.1",
             "source": {
@@ -1957,11 +1977,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.3.05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.3.05.zip",
                 "reference": null,
                 "shasum": null
             },

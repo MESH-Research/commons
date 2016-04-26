@@ -131,6 +131,7 @@
     "wpackagist-plugin/video-thumbnails": "2.*",
     "wpackagist-plugin/woosidebars": "1.*",
     "wpackagist-plugin/wordpress-importer": "0.*",
+    "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
     "wpackagist-plugin/wp-accessibility": "1.5.1",
     "wpackagist-plugin/wp-fail2ban": "2.*",
     "wpackagist-plugin/wpfront-notification-bar": "1.7",

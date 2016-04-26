@@ -23,6 +23,12 @@ define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
 /**
+ * Domain Mapping Plugin
+define('SUNRISE', 'on');
+define('PLUGINDIR', 'app/plugins');
+ */
+
+/**
  * Redirect nonexistent blogs
  */
 define('NOBLOGREDIRECT', getenv('WP_HOME'));
