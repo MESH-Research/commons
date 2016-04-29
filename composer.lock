@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "728a7b1d491d3a78f37c7039fb148f925c83cde5"
+                "reference": "caa945cd5008283b953570bbb986068cbd89c0ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/728a7b1d491d3a78f37c7039fb148f925c83cde5",
-                "reference": "728a7b1d491d3a78f37c7039fb148f925c83cde5",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/caa945cd5008283b953570bbb986068cbd89c0ff",
+                "reference": "caa945cd5008283b953570bbb986068cbd89c0ff",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-04-28 17:43:33"
+            "time": "2016-04-29 15:31:02"
         },
         {
             "name": "monolog/monolog",
@@ -1977,11 +1977,11 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.3.05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.3.05.zip",
                 "reference": null,
                 "shasum": null
             },
