@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "8a87756cc76c36b29cad804eacd94da20854b3c6"
+                "reference": "01c2fde8635c017e6cb9815d737dd3f40a72e8d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/8a87756cc76c36b29cad804eacd94da20854b3c6",
-                "reference": "8a87756cc76c36b29cad804eacd94da20854b3c6",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/01c2fde8635c017e6cb9815d737dd3f40a72e8d9",
+                "reference": "01c2fde8635c017e6cb9815d737dd3f40a72e8d9",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-05-03 16:34:28"
+            "time": "2016-05-03 17:41:43"
         },
         {
             "name": "monolog/monolog",
