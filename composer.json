@@ -113,7 +113,7 @@
     "wpackagist-plugin/move-comments": "1.*",
     "wpackagist-plugin/multisite-plugin-manager": "3.*",
     "wpackagist-plugin/network-plugin-auditor": "1.*",
-    "wpackagist-plugin/ninja-forms": "2.9.43",
+    "wpackagist-plugin/ninja-forms": "2.9.45",
     "wpackagist-plugin/openbook-book-data": "3.*",
     "wpackagist-plugin/options-framework": "1.8.5",
     "wpackagist-plugin/participants-database": "1.*",
