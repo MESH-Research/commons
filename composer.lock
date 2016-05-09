@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b7ea7ff8e6400193566236bfdb6d5221",
-    "content-hash": "76e3c6d452a697431d5260a94214cde8",
+    "hash": "747a9aa9ff85ddbfa132963f23ecc09c",
+    "content-hash": "19ea7a97fc07e76f93eef06f8f7c6c0f",
     "packages": [
         {
             "name": "composer/installers",
@@ -521,6 +521,31 @@
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
             "time": "2015-12-09 18:17:15"
+        },
+        {
+            "name": "mlaa/profile",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/profile.git",
+                "reference": "5d7d1440d82b02b6afe382697cfa60543cca4238"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/5d7d1440d82b02b6afe382697cfa60543cca4238",
+                "reference": "5d7d1440d82b02b6afe382697cfa60543cca4238",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/profile/tree/generic-plugin-skeleton",
+                "issues": "https://github.com/mlaa/profile/issues"
+            },
+            "time": "2016-05-02 17:00:16"
         },
         {
             "name": "mlaa/style-center",
@@ -4538,6 +4563,7 @@
         "mlaa/profession-theme": 20,
         "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20,
+        "mlaa/profile": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

@@ -66,6 +66,10 @@
       "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/profile.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
@@ -194,7 +198,8 @@
     "wpackagist-theme/twentythirteen": "1.7",
     "wpackagist-theme/twentytwelve": "1.9",
     "wpackagist-theme/vantage": "1.4.4",
-    "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3"
+    "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
+    "mlaa/profile": "dev-develop"
   },
   "scripts": {
     "pre-install-cmd": [
