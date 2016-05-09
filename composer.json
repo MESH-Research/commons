@@ -198,6 +198,7 @@
     "wordpress-install-dir": "web/wp"
   },
   "require-dev": {
-    "codeception/codeception": "*"
+    "codeception/codeception": "*",
+    "wpackagist-plugin/debug-bar": "^0.8.4"
   }
 }
