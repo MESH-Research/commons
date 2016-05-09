@@ -64,6 +64,19 @@
     {
       "type": "vcs",
       "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "Clorith/wordpress-debug-bar-template-trace",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -199,6 +212,7 @@
   },
   "require-dev": {
     "codeception/codeception": "*",
-    "wpackagist-plugin/debug-bar": "^0.8.4"
+    "wpackagist-plugin/debug-bar": "^0.8.4",
+    "Clorith/wordpress-debug-bar-template-trace": "dev-master"
   }
 }

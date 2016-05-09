@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3cd7becd09b494317502f790c33e0068",
-    "content-hash": "d31368b11f2397cd0bd8a59ccdf69aca",
+    "hash": "b7ea7ff8e6400193566236bfdb6d5221",
+    "content-hash": "76e3c6d452a697431d5260a94214cde8",
     "packages": [
         {
             "name": "composer/installers",
@@ -2674,6 +2674,17 @@
     ],
     "packages-dev": [
         {
+            "name": "Clorith/wordpress-debug-bar-template-trace",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2014-01-12 20:30:40"
+        },
+        {
             "name": "codeception/codeception",
             "version": "2.1.7",
             "source": {
@@ -4526,7 +4537,8 @@
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/profession-theme": 20,
         "mlaa/style-center": 20,
-        "cuny-academic-commons/cbox-theme": 20
+        "cuny-academic-commons/cbox-theme": 20,
+        "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
