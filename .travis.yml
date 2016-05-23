@@ -6,10 +6,6 @@ php:
 addons:
   hosts:
   - travis.dev
-env:
-  global:
-  - secure: Mc37WgZczC3sVsv4Y/wPxrImxYpvNsTbPrJLpLfmDeb8x1JG3xpxky9jbLjmlY3GfgNxGXxHhuzcp+VSpqwJiqMOI8eE17iAHHLQ2W11+vRMhJ83HqdIcsEnmS2/ybrlDnVGiWwkzpOlZ0o9zinItAUoGS1m1wkhD+Q3U9zAayU=
-  - secure: FJti+LkBeyOMtdWNOwpkFgV/cFMP6sKDnP/r7JC1nlpQaapWyTdeJBe5IDHzBaDXzUyUwjdI4t77xqBlhjcBAPHHaUzurn9OMHIMsiJnYe7gZHKBQfsy9lCfRp2BHnGJ1ujEwfgUujYgFKv9VnNCWwx7mcY9jiQ6sz7IPB19bmA=
 before_install:
 - pip install --user awscli
 - export PATH=$PATH:$HOME/.local/bin
@@ -20,4 +16,4 @@ script:
 - ./vendor/bin/codecept run
 notifications:
   slack:
-    secure: BZ9ec8GMlcArxPkDCyX0O4oJ7y8giDJ9HfmCPfwDHJaioy2aPOpqk1/K/8xWWvQ3khhAeDg3E04YSpOvCvelsWErb73oeD8DmO1RX6QD6ipRVrOwRkoUwTwJr+KRYmhN4AIIVLRKuXMfbjsWIgYh3lvUllZlSzbik3kB/vR+h/k=
+    secure: RDOtCNSwSeTnJZL1PkcGgma6ZKtsdy0mDWD8DYyt2tZxqlWcEQRY6LkLmX4VjaJKrbj2ZGts2tmMmK15NMsTfQW5dbzt1lKXhIIUDG0z9FcH74ZskqtMVCiKxItEooX2itMRFZP+eFZu9OYZksg6nPCOaoRHa98IOCcPsgx3MX4=
