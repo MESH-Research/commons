@@ -218,6 +218,7 @@
   "require-dev": {
     "codeception/codeception": "*",
     "wpackagist-plugin/debug-bar": "^0.8.4",
-    "Clorith/wordpress-debug-bar-template-trace": "dev-master"
+    "Clorith/wordpress-debug-bar-template-trace": "dev-master",
+    "wpackagist-plugin/buddypress-followers": "^1.2"
   }
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "747a9aa9ff85ddbfa132963f23ecc09c",
-    "content-hash": "19ea7a97fc07e76f93eef06f8f7c6c0f",
+    "hash": "a8298e311ac0f1917a7368b9a3fdc950",
+    "content-hash": "3322326387d437a1e32c645ff086ae49",
     "packages": [
         {
             "name": "composer/installers",
@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0cdfee46f7cba9613f61b6d7452a3485ecdb9205",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/72375bb46cff59d484225b168440d33753be4ef7",
                 "reference": "0cdfee46f7cba9613f61b6d7452a3485ecdb9205",
                 "shasum": ""
             },
@@ -532,7 +532,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/5d7d1440d82b02b6afe382697cfa60543cca4238",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/d2de122acf6d17226b176c34929ff06bc175166f",
                 "reference": "5d7d1440d82b02b6afe382697cfa60543cca4238",
                 "shasum": ""
             },
@@ -4526,6 +4526,26 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2016-03-04 07:55:57"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-followers",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-followers/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-followers.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-followers/"
         },
         {
             "name": "wpackagist-plugin/debug-bar",
