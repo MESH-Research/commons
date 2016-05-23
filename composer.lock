@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "0cdfee46f7cba9613f61b6d7452a3485ecdb9205"
+                "reference": "72375bb46cff59d484225b168440d33753be4ef7"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/humcore/zipball/72375bb46cff59d484225b168440d33753be4ef7",
-                "reference": "0cdfee46f7cba9613f61b6d7452a3485ecdb9205",
+                "reference": "72375bb46cff59d484225b168440d33753be4ef7",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-05-06 18:09:57"
+            "time": "2016-05-20 13:24:14"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -521,6 +521,31 @@
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
             "time": "2015-12-09 18:17:15"
+        },
+        {
+            "name": "mlaa/profile",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/profile.git",
+                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/023adebe97afe7a83232a106bdcc0f00cfc7d07a",
+                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/profile/tree/develop",
+                "issues": "https://github.com/mlaa/profile/issues"
+            },
+            "time": "2016-05-19 21:45:27"
         },
         {
             "name": "mlaa/style-center",
