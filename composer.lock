@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "061fa77dc35a63dfb64b48d7863cd44e",
-    "content-hash": "6747f4310d12e87afea1842fe8695e63",
+    "hash": "833d33e1455187693a4d149d363f75aa",
+    "content-hash": "e9f7e4596730debd4c8b86ee22f9237b",
     "packages": [
         {
             "name": "composer/installers",
@@ -521,31 +521,6 @@
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
             "time": "2015-12-09 18:17:15"
-        },
-        {
-            "name": "mlaa/profile",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/profile.git",
-                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/023adebe97afe7a83232a106bdcc0f00cfc7d07a",
-                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": "^5.5 || ^7.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/profile/tree/develop",
-                "issues": "https://github.com/mlaa/profile/issues"
-            },
-            "time": "2016-05-19 21:45:27"
         },
         {
             "name": "mlaa/style-center",
@@ -3064,12 +3039,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "d2de122acf6d17226b176c34929ff06bc175166f"
+                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/d2de122acf6d17226b176c34929ff06bc175166f",
-                "reference": "d2de122acf6d17226b176c34929ff06bc175166f",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/a76cbb1edadce194316ac4a82fd8f4518f8db7c4",
+                "reference": "023adebe97afe7a83232a106bdcc0f00cfc7d07a",
                 "shasum": ""
             },
             "require": {
@@ -3081,7 +3056,7 @@
                 "source": "https://github.com/mlaa/profile/tree/develop",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-05-23 17:54:46"
+            "time": "2016-05-19 21:45:27"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3124,6 +3099,17 @@
                 "object graph"
             ],
             "time": "2015-11-07 22:20:37"
+        },
+        {
+            "name": "philopress/bp-block-member",
+            "version": "1.4",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/philopress-bp-block-member-1.4.zip",
+                "reference": null,
+                "shasum": "956bcbbef92a8a31661205b612a0bf23321e61d4"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "phpdocumentor/reflection-docblock",

@@ -219,6 +219,7 @@
     "wpackagist-plugin/debug-bar": "^0.8.4",
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "wpackagist-plugin/buddypress-followers": "^1.2",
-    "mlaa/profile": "dev-develop"
+    "mlaa/profile": "dev-develop",
+    "philopress/bp-block-member": "1.4"
   }
 }
