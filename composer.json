@@ -220,6 +220,7 @@
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "mlaa/profile": "dev-develop",
-    "philopress/bp-block-member": "1.4"
+    "philopress/bp-block-member": "1.4",
+    "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5"
   }
 }
