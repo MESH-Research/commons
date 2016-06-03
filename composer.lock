@@ -3039,12 +3039,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196"
+                "reference": "39b0ef1b5258abe0416153045eec45101401a339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/23b8cf3861147c0755bcd672ffe4b67830aa0196",
-                "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/39b0ef1b5258abe0416153045eec45101401a339",
+                "reference": "39b0ef1b5258abe0416153045eec45101401a339",
                 "shasum": ""
             },
             "require": {
@@ -3056,7 +3056,7 @@
                 "source": "https://github.com/mlaa/profile/tree/develop",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-05-26 21:06:58"
+            "time": "2016-06-03 19:13:50"
         },
         {
             "name": "myclabs/deep-copy",
