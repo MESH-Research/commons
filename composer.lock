@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "651bfecad977aa02a480f17e556343a2",
-    "content-hash": "5454b72b9ad14c00a6d8201b09cce64b",
+    "hash": "3dabc686d81be6363d0a9b67b75252a1",
+    "content-hash": "424dd0ef6f0cab4de2d9ab9621c4bc95",
     "packages": [
         {
             "name": "composer/installers",
@@ -1690,6 +1690,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/printfriendly/"
+        },
+        {
+            "name": "wpackagist-plugin/public-post-preview",
+            "version": "2.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/public-post-preview/",
+                "reference": "tags/2.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.5.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/public-post-preview/"
         },
         {
             "name": "wpackagist-plugin/q-and-a",
