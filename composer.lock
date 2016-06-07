@@ -376,7 +376,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/bc05ec2d26ebe40e2abc644261bf18596064df11",
                 "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
                 "shasum": ""
             },
@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/72375bb46cff59d484225b168440d33753be4ef7",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/a29f2dcb33d3e6eba39cce0a075209d2bd5fa169",
                 "reference": "72375bb46cff59d484225b168440d33753be4ef7",
                 "shasum": ""
             },
@@ -3039,12 +3039,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "39b0ef1b5258abe0416153045eec45101401a339"
+                "reference": "509c83eb6300c9a0c6d60a20fc716693296efd96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/39b0ef1b5258abe0416153045eec45101401a339",
-                "reference": "39b0ef1b5258abe0416153045eec45101401a339",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/509c83eb6300c9a0c6d60a20fc716693296efd96",
+                "reference": "509c83eb6300c9a0c6d60a20fc716693296efd96",
                 "shasum": ""
             },
             "require": {
@@ -3056,7 +3056,7 @@
                 "source": "https://github.com/mlaa/profile/tree/develop",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-06-03 19:13:50"
+            "time": "2016-06-07 21:25:57"
         },
         {
             "name": "myclabs/deep-copy",
