@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "637f0ea1fba6a649f64e77b951f24810262ca07d"
+                "reference": "4d2274fb70b3f8d49ea5464ec000a3ba7ad79a4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/637f0ea1fba6a649f64e77b951f24810262ca07d",
-                "reference": "637f0ea1fba6a649f64e77b951f24810262ca07d",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4d2274fb70b3f8d49ea5464ec000a3ba7ad79a4b",
+                "reference": "4d2274fb70b3f8d49ea5464ec000a3ba7ad79a4b",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-06-02 20:41:32"
+            "time": "2016-06-08 19:06:47"
         },
         {
             "name": "monolog/monolog",
@@ -3063,7 +3063,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/39b0ef1b5258abe0416153045eec45101401a339",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/7ca357b0f68e1995857e6ac3f8f936099d3e7264",
                 "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196",
                 "shasum": ""
             },
