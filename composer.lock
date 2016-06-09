@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "651bfecad977aa02a480f17e556343a2",
-    "content-hash": "5454b72b9ad14c00a6d8201b09cce64b",
+    "hash": "dd3e2f737afc55be61465ada14549f02",
+    "content-hash": "a27740b5d0d163334a52fac6160c1a09",
     "packages": [
         {
             "name": "composer/installers",
@@ -473,6 +473,31 @@
             "time": "2016-05-20 13:24:14"
         },
         {
+            "name": "mlaa/mla-academic-interests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-academic-interests.git",
+                "reference": "010c291e538faa806ed232d7c8065bc165f5390b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/010c291e538faa806ed232d7c8065bc165f5390b",
+                "reference": "010c291e538faa806ed232d7c8065bc165f5390b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
+                "issues": "https://github.com/mlaa/mla-academic-interests/issues"
+            },
+            "time": "2016-06-09 17:21:12"
+        },
+        {
             "name": "mlaa/mla-admin-bar",
             "version": "dev-master",
             "source": {
@@ -532,7 +557,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/637f0ea1fba6a649f64e77b951f24810262ca07d",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/3429ac67f61f50f92b43c5b5acb48f7cfdd29f7b",
                 "reference": "637f0ea1fba6a649f64e77b951f24810262ca07d",
                 "shasum": ""
             },
@@ -3043,7 +3068,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/509c83eb6300c9a0c6d60a20fc716693296efd96",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/ee8fe39b661d8d83554808f24c1d9759fc8d188f",
                 "reference": "509c83eb6300c9a0c6d60a20fc716693296efd96",
                 "shasum": ""
             },
@@ -4614,6 +4639,7 @@
         "mlaa/profession-theme": 20,
         "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20,
+        "mlaa/mla-academic-interests": 20,
         "clorith/wordpress-debug-bar-template-trace": 20,
         "mlaa/profile": 20
     },
