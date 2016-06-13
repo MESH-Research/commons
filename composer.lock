@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd3e2f737afc55be61465ada14549f02",
-    "content-hash": "a27740b5d0d163334a52fac6160c1a09",
+    "hash": "3dabc686d81be6363d0a9b67b75252a1",
+    "content-hash": "424dd0ef6f0cab4de2d9ab9621c4bc95",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,12 +372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla.git",
-                "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62"
+                "reference": "bc05ec2d26ebe40e2abc644261bf18596064df11"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/bc05ec2d26ebe40e2abc644261bf18596064df11",
-                "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
+                "reference": "bc05ec2d26ebe40e2abc644261bf18596064df11",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla/issues"
             },
-            "time": "2016-03-28 03:45:09"
+            "time": "2016-06-07 16:07:23"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "72375bb46cff59d484225b168440d33753be4ef7"
+                "reference": "a29f2dcb33d3e6eba39cce0a075209d2bd5fa169"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/humcore/zipball/a29f2dcb33d3e6eba39cce0a075209d2bd5fa169",
-                "reference": "72375bb46cff59d484225b168440d33753be4ef7",
+                "reference": "a29f2dcb33d3e6eba39cce0a075209d2bd5fa169",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-05-20 13:24:14"
+            "time": "2016-06-06 13:10:07"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -553,12 +553,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "637f0ea1fba6a649f64e77b951f24810262ca07d"
+                "reference": "2b76bfe6d8de99380e5f38f76b540699632d3cd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/3429ac67f61f50f92b43c5b5acb48f7cfdd29f7b",
-                "reference": "637f0ea1fba6a649f64e77b951f24810262ca07d",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/2b76bfe6d8de99380e5f38f76b540699632d3cd2",
+                "reference": "2b76bfe6d8de99380e5f38f76b540699632d3cd2",
                 "shasum": ""
             },
             "require": {
@@ -573,7 +573,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-06-02 20:41:32"
+            "time": "2016-06-13 20:47:09"
         },
         {
             "name": "monolog/monolog",
@@ -1715,6 +1715,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/printfriendly/"
+        },
+        {
+            "name": "wpackagist-plugin/public-post-preview",
+            "version": "2.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/public-post-preview/",
+                "reference": "tags/2.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.5.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/public-post-preview/"
         },
         {
             "name": "wpackagist-plugin/q-and-a",
@@ -3068,8 +3088,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/ee8fe39b661d8d83554808f24c1d9759fc8d188f",
-                "reference": "509c83eb6300c9a0c6d60a20fc716693296efd96",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/d08efc1dae044e515a9cb20b887b1e234a91a1f8",
+                "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196",
                 "shasum": ""
             },
             "require": {
