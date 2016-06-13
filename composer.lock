@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3dabc686d81be6363d0a9b67b75252a1",
-    "content-hash": "424dd0ef6f0cab4de2d9ab9621c4bc95",
+    "hash": "6f54858ade4722faf34b9e7407158264",
+    "content-hash": "d51d96a681660c919169ba1c8fec2c80",
     "packages": [
         {
             "name": "composer/installers",
@@ -3084,12 +3084,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "509c83eb6300c9a0c6d60a20fc716693296efd96"
+                "reference": "7c8ca3460ca4837773496e1466830dcfe8d3007c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/d08efc1dae044e515a9cb20b887b1e234a91a1f8",
-                "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/7c8ca3460ca4837773496e1466830dcfe8d3007c",
+                "reference": "7c8ca3460ca4837773496e1466830dcfe8d3007c",
                 "shasum": ""
             },
             "require": {
@@ -3101,7 +3101,7 @@
                 "source": "https://github.com/mlaa/profile/tree/develop",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-06-07 21:25:57"
+            "time": "2016-06-13 13:41:02"
         },
         {
             "name": "myclabs/deep-copy",
