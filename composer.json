@@ -227,6 +227,7 @@
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "mlaa/profile": "dev-develop",
     "philopress/bp-block-member": "1.4",
-    "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5"
+    "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
+    "wpackagist-plugin/user-switching": "^1.0"
   }
 }
