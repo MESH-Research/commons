@@ -204,7 +204,10 @@
     "wpackagist-theme/twentytwelve": "1.9",
     "wpackagist-theme/vantage": "1.4.4",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
-    "mlaa/mla-academic-interests": "dev-master"
+    "mlaa/mla-academic-interests": "dev-master",
+    "wpackagist-plugin/buddypress-followers": "^1.2",
+    "philopress/bp-block-member": "^1.4",
+    "mlaa/profile": "dev-develop"
   },
   "scripts": {
     "pre-install-cmd": [
@@ -224,9 +227,6 @@
     "codeception/codeception": "*",
     "wpackagist-plugin/debug-bar": "^0.8.4",
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
-    "wpackagist-plugin/buddypress-followers": "^1.2",
-    "mlaa/profile": "dev-develop",
-    "philopress/bp-block-member": "1.4",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
     "wpackagist-plugin/user-switching": "^1.0"
   }
