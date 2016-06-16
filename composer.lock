@@ -478,12 +478,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "010c291e538faa806ed232d7c8065bc165f5390b"
+                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/010c291e538faa806ed232d7c8065bc165f5390b",
-                "reference": "010c291e538faa806ed232d7c8065bc165f5390b",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/34814c59de859eba2b777e86d13ff8a1e102fe0f",
+                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +495,7 @@
                 "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2016-06-09 17:21:12"
+            "time": "2016-06-16 15:50:21"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -3088,7 +3088,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/7443f0dc7394c6e5bb727a7812a1931df8de152c",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/0a6e327aa45448f66dfd8be5e90cbdf4d93a3c8c",
                 "reference": "7443f0dc7394c6e5bb727a7812a1931df8de152c",
                 "shasum": ""
             },
