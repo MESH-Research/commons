@@ -24,7 +24,9 @@ done
 # disable xdebug for php cli to speed up composer
 sudo sed -i '/^zend_extension/s/^/;/' /etc/php/7.0/cli/conf.d/20-xdebug.ini
 
-$wp plugin activate debug-bar
-$wp plugin activate debug-bar-actions-and-filters-addon
-$wp plugin activate wordpress-debug-bar-template-trace
-$wp plugin activate user-switching
+$wp plugin deactivate --network wordpress-mu-domain-mapping
+
+$wp plugin activate --network debug-bar
+$wp plugin activate --network debug-bar-actions-and-filters-addon
+$wp plugin activate --network wordpress-debug-bar-template-trace
+$wp plugin activate --network user-switching
