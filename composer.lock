@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ba460932f2ed4b8b456f5b23127652fa",
-    "content-hash": "e885c50bf9699738494de211af0b1028",
+    "hash": "d6b83f8a32a1eda783f2b15fa6750c94",
+    "content-hash": "79d402821d0314940eb3a45829209c80",
     "packages": [
         {
             "name": "composer/installers",
@@ -2301,6 +2301,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/origin/"
+        },
+        {
+            "name": "wpackagist-theme/portfolio-press",
+            "version": "2.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/portfolio-press/",
+                "reference": "2.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/portfolio-press.2.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/portfolio-press/"
         },
         {
             "name": "wpackagist-theme/publish",

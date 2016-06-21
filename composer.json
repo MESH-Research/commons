@@ -199,7 +199,8 @@
     "wpackagist-theme/twentytwelve": "1.9",
     "wpackagist-theme/vantage": "1.4.4",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
-    "raygun/q-and-a": "1.0.6.2"
+    "raygun/q-and-a": "1.0.6.2",
+    "wpackagist-theme/portfolio-press": "^2.7"
   },
   "scripts": {
     "pre-install-cmd": [
