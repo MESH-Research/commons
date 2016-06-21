@@ -326,7 +326,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/4f0980ee58ac9367877912f38b7df67ef87083d8",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/48c4de1990683793f1eb631c175a66605f9c4f79",
                 "reference": "4f0980ee58ac9367877912f38b7df67ef87083d8",
                 "shasum": ""
             },
@@ -528,12 +528,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "2b76bfe6d8de99380e5f38f76b540699632d3cd2"
+                "reference": "d5635cf301a32395f1852f42e76ab8d0ce9835ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/2b76bfe6d8de99380e5f38f76b540699632d3cd2",
-                "reference": "2b76bfe6d8de99380e5f38f76b540699632d3cd2",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/d5635cf301a32395f1852f42e76ab8d0ce9835ee",
+                "reference": "d5635cf301a32395f1852f42e76ab8d0ce9835ee",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +548,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-06-13 20:47:09"
+            "time": "2016-06-21 18:10:14"
         },
         {
             "name": "monolog/monolog",
@@ -3063,7 +3063,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/d08efc1dae044e515a9cb20b887b1e234a91a1f8",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/0f049c4817fff711afabac5af2173e5aeeda86f7",
                 "reference": "23b8cf3861147c0755bcd672ffe4b67830aa0196",
                 "shasum": ""
             },
