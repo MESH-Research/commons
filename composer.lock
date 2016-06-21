@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3066231bc4102cec1783ee75d03a186a",
-    "content-hash": "28ab0a570888f3ed76f667980c3e4985",
+    "hash": "ba460932f2ed4b8b456f5b23127652fa",
+    "content-hash": "e885c50bf9699738494de211af0b1028",
     "packages": [
         {
             "name": "composer/installers",
@@ -665,6 +665,17 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "raygun/q-and-a",
+            "version": "1.0.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/raygun-q-and-a-1.0.6.2.zip",
+                "reference": null,
+                "shasum": "6594c45a4a36f3e7f4e440cf756d5cfeb2a0fb09"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "siteorigin/vantage",
