@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d6b83f8a32a1eda783f2b15fa6750c94",
-    "content-hash": "79d402821d0314940eb3a45829209c80",
+    "hash": "526e45961c370cd78d66a4e44864fe3e",
+    "content-hash": "745173ad7f1649bf4c9b7e1a2787f57d",
     "packages": [
         {
             "name": "composer/installers",
@@ -2241,6 +2241,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/foghorn/"
+        },
+        {
+            "name": "wpackagist-theme/hitchcock",
+            "version": "1.06",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hitchcock/",
+                "reference": "1.06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hitchcock.1.06.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hitchcock/"
         },
         {
             "name": "wpackagist-theme/hum",
