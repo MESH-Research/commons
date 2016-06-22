@@ -142,7 +142,6 @@
     "wpackagist-plugin/pressforward": "3.8.0",
     "wpackagist-plugin/printfriendly": "3.*",
     "wpackagist-plugin/public-post-preview": "2.5.0",
-    "wpackagist-plugin/q-and-a": "1.*",
     "wpackagist-plugin/redux-framework": "3.5.9",
     "wpackagist-plugin/scholarpress-coins": "1.*",
     "wpackagist-plugin/shareadraft": "1.*",
@@ -207,7 +206,10 @@
     "mlaa/mla-academic-interests": "dev-master",
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "philopress/bp-block-member": "^1.4",
-    "mlaa/profile": "dev-develop"
+    "mlaa/profile": "dev-develop",
+    "raygun/q-and-a": "1.0.6.2",
+    "wpackagist-theme/portfolio-press": "^2.7",
+    "wpackagist-theme/hitchcock": "^1.06"
   },
   "scripts": {
     "pre-install-cmd": [
