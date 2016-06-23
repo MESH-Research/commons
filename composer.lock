@@ -553,12 +553,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "e8d8cd071506294b771e883ff4c8a13cf272056e"
+                "reference": "984df9c9a98e6b3a7feb527b74cfd330ced7ca44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/e8d8cd071506294b771e883ff4c8a13cf272056e",
-                "reference": "e8d8cd071506294b771e883ff4c8a13cf272056e",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/984df9c9a98e6b3a7feb527b74cfd330ced7ca44",
+                "reference": "984df9c9a98e6b3a7feb527b74cfd330ced7ca44",
                 "shasum": ""
             },
             "require": {
@@ -570,7 +570,7 @@
                 "source": "https://github.com/mlaa/profile/tree/develop",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-06-23 13:52:15"
+            "time": "2016-06-23 14:13:08"
         },
         {
             "name": "mlaa/style-center",
