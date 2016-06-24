@@ -205,7 +205,7 @@
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "mlaa/mla-academic-interests": "dev-master",
     "wpackagist-plugin/buddypress-followers": "^1.2",
-    "mlaa/profile": "dev-develop",
+    "mlaa/profile": "dev-master",
     "raygun/q-and-a": "1.0.6.2",
     "wpackagist-theme/portfolio-press": "^2.7",
     "wpackagist-theme/hitchcock": "^1.06",

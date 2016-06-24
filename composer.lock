@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d20aa939539411945dcd4c84a6dd8e2",
-    "content-hash": "468e98e7742871dc32239c96739b9ee1",
+    "hash": "8b63b9697636209cca1156b922faa78a",
+    "content-hash": "b7035bdcae59648300cda9b353406cbf",
     "packages": [
         {
             "name": "composer/installers",
@@ -564,7 +564,7 @@
         },
         {
             "name": "mlaa/profile",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
