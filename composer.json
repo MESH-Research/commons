@@ -208,7 +208,8 @@
     "mlaa/profile": "dev-develop",
     "raygun/q-and-a": "1.0.6.2",
     "wpackagist-theme/portfolio-press": "^2.7",
-    "wpackagist-theme/hitchcock": "^1.06"
+    "wpackagist-theme/hitchcock": "^1.06",
+    "mlaa/bp-block-member": "^1.4"
   },
   "scripts": {
     "pre-install-cmd": [

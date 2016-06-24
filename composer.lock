@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0ac16f3e48536116e8df1f6fa5a32d5a",
-    "content-hash": "122f5799d2f7cec21a04a9ace5926e32",
+    "hash": "3d20aa939539411945dcd4c84a6dd8e2",
+    "content-hash": "468e98e7742871dc32239c96739b9ee1",
     "packages": [
         {
             "name": "composer/installers",
@@ -240,6 +240,21 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "mlaa/bp-block-member",
+            "version": "1.4.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "reference": null,
+                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "mlaa/buddypress-docs",
