@@ -543,12 +543,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "6734ec23fccbc185429b1047167662fdb66137e6"
+                "reference": "ec4d1d72e4ada3267cf4ad20d5a15005df9e2242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/6734ec23fccbc185429b1047167662fdb66137e6",
-                "reference": "6734ec23fccbc185429b1047167662fdb66137e6",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/ec4d1d72e4ada3267cf4ad20d5a15005df9e2242",
+                "reference": "ec4d1d72e4ada3267cf4ad20d5a15005df9e2242",
                 "shasum": ""
             },
             "require": {
@@ -557,10 +557,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/profile/tree/develop",
+                "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-06-23 15:33:11"
+            "time": "2016-06-27 15:49:31"
         },
         {
             "name": "mlaa/style-center",
