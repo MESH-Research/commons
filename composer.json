@@ -94,7 +94,6 @@
     "johnpbloch/wordpress": "4.4.3",
     "monolog/monolog": "^1.17",
     "mlaa/buddypress-docs": "1.8.1-patch",
-    "mlaa/cac-advanced-profiles": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/humcore": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",

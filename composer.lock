@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b63b9697636209cca1156b922faa78a",
-    "content-hash": "b7035bdcae59648300cda9b353406cbf",
+    "hash": "939d66207d9ebb9bc187edc2512d24f4",
+    "content-hash": "6715d5d8b5103177870b9293799b4c54",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,31 +280,6 @@
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
-        },
-        {
-            "name": "mlaa/cac-advanced-profiles",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/cac-advanced-profiles.git",
-                "reference": "a0e92261502154e569e5496ca0761a00334abdaf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cac-advanced-profiles/zipball/a0e92261502154e569e5496ca0761a00334abdaf",
-                "reference": "a0e92261502154e569e5496ca0761a00334abdaf",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/cac-advanced-profiles/tree/master",
-                "issues": "https://github.com/mlaa/cac-advanced-profiles/issues"
-            },
-            "time": "2016-03-30 20:56:38"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -4858,7 +4833,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mlaa/cac-advanced-profiles": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
         "mlaa/mla-admin-bar": 20,
