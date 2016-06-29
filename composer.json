@@ -74,6 +74,10 @@
       "url": "git@github.com:mlaa/mla-academic-interests.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-allowed-tags.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
@@ -208,7 +212,8 @@
     "raygun/q-and-a": "1.0.6.2",
     "wpackagist-theme/portfolio-press": "^2.7",
     "wpackagist-theme/hitchcock": "^1.06",
-    "mlaa/bp-block-member": "^1.4"
+    "mlaa/bp-block-member": "^1.4",
+    "mlaa/mla-allowed-tags": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [
