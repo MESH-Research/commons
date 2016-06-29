@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "747a9aa9ff85ddbfa132963f23ecc09c",
-    "content-hash": "19ea7a97fc07e76f93eef06f8f7c6c0f",
+    "hash": "1d14c30af624b1b928f58fd285dbb3f0",
+    "content-hash": "bdf711221609e5422865e43da7effaca",
     "packages": [
         {
             "name": "composer/installers",
@@ -158,16 +158,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4.3",
+            "version": "4.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "e0273619488dd1e082d5f380963f6f2aab7ecc66"
+                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/e0273619488dd1e082d5f380963f6f2aab7ecc66",
-                "reference": "e0273619488dd1e082d5f380963f6f2aab7ecc66",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
+                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
                 "shasum": ""
             },
             "require": {
@@ -191,7 +191,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-05-06 18:16:15"
+            "time": "2016-06-21 16:31:21"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -326,7 +326,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/4f0980ee58ac9367877912f38b7df67ef87083d8",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/cadeeffd10661fc5e373f74969dbc1799e5b282f",
                 "reference": "4f0980ee58ac9367877912f38b7df67ef87083d8",
                 "shasum": ""
             },
@@ -376,7 +376,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/bc05ec2d26ebe40e2abc644261bf18596064df11",
                 "reference": "c1008b10a5f0ab3ced34cfc6a8f8ddeda0a58b62",
                 "shasum": ""
             },
@@ -451,7 +451,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0cdfee46f7cba9613f61b6d7452a3485ecdb9205",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/392ad3308bfeb21c96efe82e35a373f474e330ea",
                 "reference": "0cdfee46f7cba9613f61b6d7452a3485ecdb9205",
                 "shasum": ""
             },
@@ -471,6 +471,31 @@
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2016-05-06 18:09:57"
+        },
+        {
+            "name": "mlaa/mla-academic-interests",
+            "version": "dev-hcommons",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-academic-interests.git",
+                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/34814c59de859eba2b777e86d13ff8a1e102fe0f",
+                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/hcommons",
+                "issues": "https://github.com/mlaa/mla-academic-interests/issues"
+            },
+            "time": "2016-06-16 15:50:21"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -532,7 +557,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/5d7d1440d82b02b6afe382697cfa60543cca4238",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/19bda0f4e80230df5f17582800258277d73b9ce8",
                 "reference": "5d7d1440d82b02b6afe382697cfa60543cca4238",
                 "shasum": ""
             },
@@ -557,7 +582,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/61099082fcb771cf4d318c90493cbe55ddb1318f",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/5c7d4acbd026ed4740de6690ed69b33b05ea8cee",
                 "reference": "61099082fcb771cf4d318c90493cbe55ddb1318f",
                 "shasum": ""
             },
@@ -652,6 +677,17 @@
                 "psr-3"
             ],
             "time": "2016-03-13 16:08:35"
+        },
+        {
+            "name": "philopress/bp-block-member",
+            "version": "1.4",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/philopress-bp-block-member-1.4.zip",
+                "reference": null,
+                "shasum": "956bcbbef92a8a31661205b612a0bf23321e61d4"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "psr/log",
@@ -759,6 +795,42 @@
                 "solr"
             ],
             "time": "2014-11-12 06:53:41"
+        },
+        {
+            "name": "stuttter/wp-multi-network",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stuttter/wp-multi-network.git",
+                "reference": "8bf74296792a173573d1197aaf9c7a8c02012405"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/2de58dd4776390173f5620368f3d62aa9caf783e",
+                "reference": "8bf74296792a173573d1197aaf9c7a8c02012405",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2 or later"
+            ],
+            "authors": [
+                {
+                    "name": "John James Jacoby",
+                    "email": "johnjamesjacoby@me.com"
+                }
+            ],
+            "description": "A Network Management UI for global administrators in WordPress Multisite",
+            "homepage": "https://github.com/stuttter/wp-multi-network",
+            "support": {
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "issues": "https://github.com/stuttter/wp-multi-network/issues"
+            },
+            "time": "2016-03-04 07:42:35"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -977,6 +1049,26 @@
             "homepage": "https://wordpress.org/plugins/bbpress/"
         },
         {
+            "name": "wpackagist-plugin/bp-blog-avatar",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bp-blog-avatar/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bp-blog-avatar.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bp-blog-avatar/"
+        },
+        {
             "name": "wpackagist-plugin/bp-group-documents",
             "version": "1.9.4",
             "source": {
@@ -1077,16 +1169,36 @@
             "homepage": "https://wordpress.org/plugins/bp-system-report/"
         },
         {
-            "name": "wpackagist-plugin/buddypress",
-            "version": "2.4.0",
+            "name": "wpackagist-plugin/buddydrive",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.4.0"
+                "url": "https://plugins.svn.wordpress.org/buddydrive/",
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddydrive.2.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddydrive/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress",
+            "version": "2.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress/",
+                "reference": "tags/2.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1095,6 +1207,27 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-followers",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-followers/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-followers.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-followers/",
+            "time": "2016-03-21 17:43:44"
         },
         {
             "name": "wpackagist-plugin/buddypress-group-email-subscription",
@@ -2555,26 +2688,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/twentytwelve/"
-        },
-        {
-            "name": "wpackagist-theme/vantage",
-            "version": "1.4.4",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/vantage/",
-                "reference": "1.4.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/vantage.1.4.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/vantage/"
         },
         {
             "name": "wpmudev/google-analytics-async",
@@ -4546,6 +4659,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-theme/vantage",
+            "version": "1.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/vantage/",
+                "reference": "1.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/vantage.1.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/vantage/"
         }
     ],
     "aliases": [],
@@ -4555,6 +4688,7 @@
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
         "mlaa/mla-admin-bar": 20,
+        "wpackagist-plugin/buddypress-followers": 20,
         "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
@@ -4563,7 +4697,9 @@
         "mlaa/profession-theme": 20,
         "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20,
+        "mlaa/mla-academic-interests": 20,
         "mlaa/profile": 20,
+        "stuttter/wp-multi-network": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

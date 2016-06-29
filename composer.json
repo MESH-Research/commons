@@ -70,6 +70,14 @@
       "url": "git@github.com:mlaa/profile.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-academic-interests.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:stuttter/wp-multi-network.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
@@ -87,7 +95,7 @@
     "php": ">=5.5",
     "composer/installers": "1.0.23",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.4.3",
+    "johnpbloch/wordpress": "4.5.3",
     "monolog/monolog": "^1.17",
     "mlaa/buddypress-docs": "1.8.1-patch",
     "mlaa/cac-advanced-profiles": "dev-master",
@@ -96,16 +104,20 @@
     "mlaa/mla-admin-bar": "dev-master",
     "cubell/15zine-functionality": "2.1.0",
     "envato/wordpress-toolkit": "1.7.3",
+    "philopress/bp-block-member": "1.4",
     "themesindep/shortcodes-indep": "3.0.0",
     "wpackagist-plugin/akismet": "3.1.8",
     "wpackagist-plugin/anthologize": "0.*",
     "wpackagist-plugin/bbpress": "2.5.8",
+    "wpackagist-plugin/bp-blog-avatar": "1",
     "wpackagist-plugin/bp-group-documents": "1.9.4",
     "wpackagist-plugin/bp-groupblog": "1.8.12",
     "wpackagist-plugin/bp-lotsa-feeds": "1.0",
     "wpackagist-plugin/bp-mpo-activity-filter": "1.2",
     "wpackagist-plugin/bp-system-report": "0.*",
-    "wpackagist-plugin/buddypress": "2.4",
+    "wpackagist-plugin/buddypress": "2.6.0",
+    "wpackagist-plugin/buddydrive": "2.0.0",
+    "wpackagist-plugin/buddypress-followers": "dev-trunk",
     "wpackagist-plugin/buddypress-group-email-subscription": "3.6.0",
     "wpackagist-plugin/bwp-google-xml-sitemaps": "1.4.1",
     "wpackagist-plugin/cac-featured-content": "1.0.6",
@@ -197,9 +209,10 @@
     "wpackagist-theme/twentysixteen": "1.1",
     "wpackagist-theme/twentythirteen": "1.7",
     "wpackagist-theme/twentytwelve": "1.9",
-    "wpackagist-theme/vantage": "1.4.4",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
-    "mlaa/profile": "dev-develop"
+    "mlaa/mla-academic-interests": "dev-hcommons",
+    "mlaa/profile": "dev-develop",
+    "stuttter/wp-multi-network": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [

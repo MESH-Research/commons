@@ -9,6 +9,12 @@
 
  **/
 
+/**
+ * Apache Proxy Setting
+ */
+$_SERVER['HTTPS']='on';
+define('FORCE_SSL_ADMIN', true);
+
 
 /**
  * Multisite
@@ -17,10 +23,25 @@ define('WP_ALLOW_MULTISITE', 'true');
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
 $base = '/';
-define('DOMAIN_CURRENT_SITE', getenv('WP_DOMAIN'));
+//define('DOMAIN_CURRENT_SITE', getenv('WP_DOMAIN'));
+
+define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
+define( 'COOKIE_DOMAIN', 'alpha.hcommons.org' );
+define( 'ADMIN_COOKIE_PATH', '/' );
+define( 'COOKIEPATH',        '/' );
+define( 'SITECOOKIEPATH',    '/' );
+define( 'TEST_COOKIE',        'wordpress_test_cookie' );
+define( 'AUTH_COOKIE',        'wordpress_'          . COOKIEHASH );
+define( 'USER_COOKIE',        'wordpress_user_'     . COOKIEHASH );
+define( 'PASS_COOKIE',        'wordpress_pass_'     . COOKIEHASH );
+define( 'SECURE_AUTH_COOKIE', 'wordpress_sec_'      . COOKIEHASH );
+define( 'LOGGED_IN_COOKIE',   'wordpress_logged_in' . COOKIEHASH );
+
 define('PATH_CURRENT_SITE', '/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
+
+define('PRIMARY_NETWORK_ID', 1);
+//define('SITE_ID_CURRENT_SITE', 1);
+//define('BLOG_ID_CURRENT_SITE', 1);
 
 /**
  * Domain Mapping Plugin
@@ -58,7 +79,7 @@ define('GLOBAL_SMTP_FROM', getenv('GLOBAL_SMTP_FROM'));
 /**
  * CBOX plugin management
  */
-define('CBOX_OVERRIDE_PLUGINS', false);
+define('CBOX_OVERRIDE_PLUGINS', true); // help debug setup
 
 /**
  * Humanities CORE
