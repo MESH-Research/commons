@@ -78,6 +78,10 @@
       "url": "git@github.com:mlaa/mla-allowed-tags.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/buddypress-docs-minor-edit.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
@@ -213,7 +217,8 @@
     "wpackagist-theme/portfolio-press": "^2.7",
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
-    "mlaa/mla-allowed-tags": "dev-master"
+    "mlaa/mla-allowed-tags": "dev-master",
+    "mlaa/buddypress-docs-minor-edit": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [

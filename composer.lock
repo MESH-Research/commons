@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e73143840d10a9895a00b9addbc6ff2",
-    "content-hash": "d78406f66943b5ac63e41b96291d4314",
+    "hash": "5a1ccdbb8ab3ea7f98d156227f97cee9",
+    "content-hash": "cecc9c3ffb4d3f44d6e32d4242e93516",
     "packages": [
         {
             "name": "composer/installers",
@@ -280,6 +280,27 @@
                 "issues": "https://github.com/mlaa/buddypress-docs/issues"
             },
             "time": "2015-06-16 02:25:20"
+        },
+        {
+            "name": "mlaa/buddypress-docs-minor-edit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/buddypress-docs-minor-edit.git",
+                "reference": "b55251ed590c2fc463f148d87f58bc021ee76c99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/buddypress-docs-minor-edit/zipball/b55251ed590c2fc463f148d87f58bc021ee76c99",
+                "reference": "b55251ed590c2fc463f148d87f58bc021ee76c99",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/buddypress-docs-minor-edit/tree/master",
+                "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
+            },
+            "time": "2016-06-29 21:05:46"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -4868,6 +4889,7 @@
         "mlaa/mla-academic-interests": 20,
         "mlaa/profile": 20,
         "mlaa/mla-allowed-tags": 20,
+        "mlaa/buddypress-docs-minor-edit": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
