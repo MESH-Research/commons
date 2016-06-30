@@ -21,3 +21,8 @@ npm-debug.log
 
 # WP-CLI
 wp-cli.local.yml
+
+# codecept tests
+tests/_output/
+tests/_support/_generated/
+wp-cli.phar
