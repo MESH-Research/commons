@@ -254,7 +254,8 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
     "boonebgorges/buddypress-group-email-subscription": "dev-2.5",
-    "boonebgorges/buddypress-docs": "dev-1.9.1"
+    "boonebgorges/buddypress-docs": "dev-1.9.1",
+    "wpackagist-plugin/sparkpost": "2.3.0"
   },
   "scripts": {
     "pre-install-cmd": [
