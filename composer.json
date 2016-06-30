@@ -78,6 +78,10 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/shibboleth.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
@@ -115,7 +119,7 @@
     "wpackagist-plugin/bp-lotsa-feeds": "1.0",
     "wpackagist-plugin/bp-mpo-activity-filter": "1.2",
     "wpackagist-plugin/bp-system-report": "0.*",
-    "wpackagist-plugin/buddypress": "2.6.0",
+    "wpackagist-plugin/buddypress": "2.6.1.1",
     "wpackagist-plugin/buddydrive": "2.0.0",
     "wpackagist-plugin/buddypress-followers": "dev-trunk",
     "wpackagist-plugin/buddypress-group-email-subscription": "3.6.0",
@@ -212,7 +216,8 @@
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "mlaa/mla-academic-interests": "dev-hcommons",
     "mlaa/profile": "dev-develop",
-    "stuttter/wp-multi-network": "dev-master"
+    "stuttter/wp-multi-network": "dev-master",
+    "mlaa/shibboleth": "dev-hcommons"
   },
   "scripts": {
     "pre-install-cmd": [

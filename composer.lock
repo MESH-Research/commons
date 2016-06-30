@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1d14c30af624b1b928f58fd285dbb3f0",
-    "content-hash": "bdf711221609e5422865e43da7effaca",
+    "hash": "b576c34fb1ea4c4fbea849ad7f1a00d5",
+    "content-hash": "2e22fe6f61571847948a981ba433bcf7",
     "packages": [
         {
             "name": "composer/installers",
@@ -573,6 +573,30 @@
             "time": "2016-05-02 17:00:16"
         },
         {
+            "name": "mlaa/shibboleth",
+            "version": "dev-hcommons",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/shibboleth.git",
+                "reference": "1e137601d193e8e3f69944209a2b15ad27dd86b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/1e137601d193e8e3f69944209a2b15ad27dd86b5",
+                "reference": "1e137601d193e8e3f69944209a2b15ad27dd86b5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/shibboleth/tree/hcommons"
+            },
+            "time": "2016-06-30 17:32:10"
+        },
+        {
             "name": "mlaa/style-center",
             "version": "dev-master",
             "source": {
@@ -582,7 +606,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/5c7d4acbd026ed4740de6690ed69b33b05ea8cee",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/a0325154040828fb432d0a6ad3f3cfc7e6061b35",
                 "reference": "61099082fcb771cf4d318c90493cbe55ddb1318f",
                 "shasum": ""
             },
@@ -1190,15 +1214,15 @@
         },
         {
             "name": "wpackagist-plugin/buddypress",
-            "version": "2.6.0",
+            "version": "2.6.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress/",
-                "reference": "tags/2.6.0"
+                "reference": "tags/2.6.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -4700,6 +4724,7 @@
         "mlaa/mla-academic-interests": 20,
         "mlaa/profile": 20,
         "stuttter/wp-multi-network": 20,
+        "mlaa/shibboleth": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
