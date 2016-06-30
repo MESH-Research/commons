@@ -88,6 +88,19 @@
     {
       "type": "package",
       "package": {
+        "name": "boonebgorges/buddypress-group-email-subscription",
+        "version": "dev-2.5",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
+          "type": "git",
+          "reference": "2.5"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -226,7 +239,8 @@
     "wpackagist-theme/portfolio-press": "^2.7",
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
-    "mlaa/mla-allowed-tags": "dev-master"
+    "mlaa/mla-allowed-tags": "dev-master",
+    "boonebgorges/buddypress-group-email-subscription": "dev-2.5"
   },
   "scripts": {
     "pre-install-cmd": [

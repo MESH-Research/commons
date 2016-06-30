@@ -4,9 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5607d3e8d9a906026525060da5a9b18",
-    "content-hash": "eab69266eb51917b75f03078026972da",
+    "hash": "6b54ca38aef73a4f83114976c2261be9",
+    "content-hash": "d88cd6813339c42120775a3ab5fc44e0",
     "packages": [
+        {
+            "name": "boonebgorges/buddypress-group-email-subscription",
+            "version": "dev-2.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
+                "reference": "2.5"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-06-27 20:06:44"
+        },
         {
             "name": "composer/installers",
             "version": "v1.0.23",
@@ -1105,7 +1116,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bp-blog-avatar.1.0.zip",
-                "reference": null,
+                "reference": "tags/1.0",
                 "shasum": null
             },
             "require": {
@@ -1225,7 +1236,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddydrive.2.0.0.zip",
-                "reference": null,
+                "reference": "tags/2.0.0",
                 "shasum": null
             },
             "require": {
@@ -1245,7 +1256,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.6.1.1.zip",
-                "reference": null,
+                "reference": "tags/2.6.1.1",
                 "shasum": null
             },
             "require": {
@@ -1265,7 +1276,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress-followers.1.2.1.zip",
-                "reference": null,
+                "reference": "tags/1.2.1",
                 "shasum": null
             },
             "require": {
@@ -1905,7 +1916,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.5.0.zip",
-                "reference": null,
+                "reference": "tags/2.5.0",
                 "shasum": null
             },
             "require": {
@@ -2445,7 +2456,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/hitchcock.1.06.zip",
-                "reference": null,
+                "reference": "1.06",
                 "shasum": null
             },
             "require": {
@@ -2525,7 +2536,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/portfolio-press.2.7.2.zip",
-                "reference": null,
+                "reference": "2.7.2",
                 "shasum": null
             },
             "require": {
@@ -2785,7 +2796,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/vantage.1.4.4.zip",
-                "reference": null,
+                "reference": "1.4.4",
                 "shasum": null
             },
             "require": {
@@ -5723,6 +5734,7 @@
         "mlaa/shibboleth": 20,
         "mlaa/profile": 20,
         "mlaa/mla-allowed-tags": 20,
+        "boonebgorges/buddypress-group-email-subscription": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
