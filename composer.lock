@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "08995f70e8989301320d586a9d6df352",
-    "content-hash": "238774d5caa3a518ba7bc11de52b41bc",
+    "hash": "eee31f2166a1e2a618face74936b9e64",
+    "content-hash": "f6926f29a873d70007df2dead8c9d0a3",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -628,6 +628,27 @@
                 "source": "https://github.com/mlaa/shibboleth/tree/hcommons"
             },
             "time": "2016-06-30 17:44:55"
+        },
+        {
+            "name": "mlaa/sparkpost-bp-mailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/sparkpost-bp-mailer.git",
+                "reference": "b0189326a5896e0b49f4e72af4e1b107fc62d069"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/sparkpost-bp-mailer/zipball/b0189326a5896e0b49f4e72af4e1b107fc62d069",
+                "reference": "b0189326a5896e0b49f4e72af4e1b107fc62d069",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/sparkpost-bp-mailer/tree/master",
+                "issues": "https://github.com/mlaa/sparkpost-bp-mailer/issues"
+            },
+            "time": "2016-06-30 18:54:26"
         },
         {
             "name": "mlaa/style-center",
@@ -2047,7 +2068,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sparkpost.2.3.0.zip",
-                "reference": null,
+                "reference": "tags/2.3.0",
                 "shasum": null
             },
             "require": {
@@ -5767,6 +5788,7 @@
         "mlaa/mla-allowed-tags": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "boonebgorges/buddypress-docs": 20,
+        "mlaa/sparkpost-bp-mailer": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
