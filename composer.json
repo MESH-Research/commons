@@ -88,6 +88,19 @@
     {
       "type": "package",
       "package": {
+        "name": "boonebgorges/buddypress-docs",
+        "version": "dev-1.9.1",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:boonebgorges/buddypress-docs.git",
+          "type": "git",
+          "reference": "1.9.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "boonebgorges/buddypress-group-email-subscription",
         "version": "dev-2.5",
         "type": "wordpress-plugin",
@@ -240,7 +253,8 @@
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
-    "boonebgorges/buddypress-group-email-subscription": "dev-2.5"
+    "boonebgorges/buddypress-group-email-subscription": "dev-2.5",
+    "boonebgorges/buddypress-docs": "dev-1.9.1"
   },
   "scripts": {
     "pre-install-cmd": [

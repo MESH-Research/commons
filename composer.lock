@@ -4,9 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b54ca38aef73a4f83114976c2261be9",
-    "content-hash": "d88cd6813339c42120775a3ab5fc44e0",
+    "hash": "57cd5227cb2181f45bdedd4ab241e5ca",
+    "content-hash": "82157a50efe3a9d94755f5ad5b8ea439",
     "packages": [
+        {
+            "name": "boonebgorges/buddypress-docs",
+            "version": "dev-1.9.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:boonebgorges/buddypress-docs.git",
+                "reference": "1.9.1"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-05-06 18:31:35"
+        },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
             "version": "dev-2.5",
@@ -5643,7 +5654,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
-                "reference": null,
+                "reference": "tags/1.5.1",
                 "shasum": null
             },
             "require": {
@@ -5663,7 +5674,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": null,
+                "reference": "tags/1.0.9",
                 "shasum": null
             },
             "require": {
@@ -5735,6 +5746,7 @@
         "mlaa/profile": 20,
         "mlaa/mla-allowed-tags": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
+        "boonebgorges/buddypress-docs": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
