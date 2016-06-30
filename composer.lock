@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eee31f2166a1e2a618face74936b9e64",
-    "content-hash": "f6926f29a873d70007df2dead8c9d0a3",
+    "hash": "232d1059e09491e66ce12abaa915001e",
+    "content-hash": "bf7f988f9bdb5e2e448036f36e182ba5",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -15,8 +15,7 @@
                 "url": "git@github.com:boonebgorges/buddypress-docs.git",
                 "reference": "1.9.1"
             },
-            "type": "wordpress-plugin",
-            "time": "2016-05-06 18:31:35"
+            "type": "wordpress-plugin"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -277,31 +276,6 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "mlaa/buddypress-docs",
-            "version": "1.8.1-patch",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/buddypress-docs.git",
-                "reference": "ae2a2f33fb8ef27256f621b7429c2693d8772527"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/buddypress-docs/zipball/ae2a2f33fb8ef27256f621b7429c2693d8772527",
-                "reference": "ae2a2f33fb8ef27256f621b7429c2693d8772527",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/buddypress-docs/tree/1.8.1-dev",
-                "issues": "https://github.com/mlaa/buddypress-docs/issues"
-            },
-            "time": "2015-06-16 02:25:20"
         },
         {
             "name": "mlaa/cbox-auth",

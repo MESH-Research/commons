@@ -15,10 +15,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/buddypress-docs.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/cac-advanced-profiles.git"
     },
     {
@@ -135,7 +131,6 @@
     "vlucas/phpdotenv": "v2.2.0",
     "johnpbloch/wordpress": "4.5.3",
     "monolog/monolog": "1.18.1",
-    "mlaa/buddypress-docs": "1.8.1-patch",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/humcore": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
