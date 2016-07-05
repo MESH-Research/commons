@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f8fa77eb2b33c24601e5f52cc47b1ec8",
-    "content-hash": "e013b78daf9c274653fe90c4767eba03",
+    "hash": "382cc9976913f7aaea5382eb59f3a2de",
+    "content-hash": "948790e19df50f4dd509b356b66ebf48",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -279,6 +279,27 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "mlaa/buddypress-docs-minor-edit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/buddypress-docs-minor-edit.git",
+                "reference": "c403b028f3354fd63b1cdc08ec67a2c6bb8d8c8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/buddypress-docs-minor-edit/zipball/c403b028f3354fd63b1cdc08ec67a2c6bb8d8c8e",
+                "reference": "c403b028f3354fd63b1cdc08ec67a2c6bb8d8c8e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/buddypress-docs-minor-edit/tree/master",
+                "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
+            },
+            "time": "2016-06-29 21:14:47"
+        },
+        {
             "name": "mlaa/cbox-auth",
             "version": "dev-master",
             "source": {
@@ -465,12 +486,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f"
+                "reference": "da678a544d7d2312952da98d135d3018e2089d66"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/da678a544d7d2312952da98d135d3018e2089d66",
-                "reference": "34814c59de859eba2b777e86d13ff8a1e102fe0f",
+                "reference": "da678a544d7d2312952da98d135d3018e2089d66",
                 "shasum": ""
             },
             "require": {
@@ -479,10 +500,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/hcommons",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2016-06-16 15:50:21"
+            "time": "2016-07-01 13:33:42"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -561,12 +582,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "89babd89b764eaac034d7a037ecfeb3aca137d37"
+                "reference": "19940a54da832e6ee56f3c6d8c18691c1bb54960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/89babd89b764eaac034d7a037ecfeb3aca137d37",
-                "reference": "89babd89b764eaac034d7a037ecfeb3aca137d37",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/19940a54da832e6ee56f3c6d8c18691c1bb54960",
+                "reference": "19940a54da832e6ee56f3c6d8c18691c1bb54960",
                 "shasum": ""
             },
             "require": {
@@ -578,7 +599,7 @@
                 "source": "https://github.com/mlaa/profile/tree/hcommons",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-07-05 16:22:54"
+            "time": "2016-07-05 17:39:41"
         },
         {
             "name": "mlaa/shibboleth",
@@ -866,12 +887,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stuttter/wp-multi-network.git",
-                "reference": "2de58dd4776390173f5620368f3d62aa9caf783e"
+                "reference": "840c834110703397592bde17a35c6a7733a991cf"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/840c834110703397592bde17a35c6a7733a991cf",
-                "reference": "2de58dd4776390173f5620368f3d62aa9caf783e",
+                "reference": "840c834110703397592bde17a35c6a7733a991cf",
                 "shasum": ""
             },
             "require": {
@@ -894,7 +915,7 @@
                 "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2016-06-27 04:43:50"
+            "time": "2016-07-05 12:34:24"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -5764,6 +5785,7 @@
         "boonebgorges/buddypress-group-email-subscription": 20,
         "boonebgorges/buddypress-docs": 20,
         "mlaa/sparkpost-bp-mailer": 20,
+        "mlaa/buddypress-docs-minor-edit": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

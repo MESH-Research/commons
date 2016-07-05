@@ -83,6 +83,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/buddypress-docs-minor-edit.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/sparkpost-bp-mailer.git"
     },
     {
@@ -255,7 +259,8 @@
     "boonebgorges/buddypress-group-email-subscription": "dev-2.5",
     "boonebgorges/buddypress-docs": "dev-1.9.1",
     "wpackagist-plugin/sparkpost": "2.3.0",
-    "mlaa/sparkpost-bp-mailer": "dev-master"
+    "mlaa/sparkpost-bp-mailer": "dev-master",
+    "mlaa/buddypress-docs-minor-edit": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [
