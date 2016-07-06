@@ -557,12 +557,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-society-badges.git",
-                "reference": "e0e25fde3cea46f7f541032e28442164c24ce14c"
+                "reference": "5fadc816dd672f39d98c5d7c7ab9af42d28326f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/e0e25fde3cea46f7f541032e28442164c24ce14c",
-                "reference": "e0e25fde3cea46f7f541032e28442164c24ce14c",
+                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/5fadc816dd672f39d98c5d7c7ab9af42d28326f7",
+                "reference": "5fadc816dd672f39d98c5d7c7ab9af42d28326f7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -570,7 +570,7 @@
                 "source": "https://github.com/mlaa/mla-society-badges/tree/master",
                 "issues": "https://github.com/mlaa/mla-society-badges/issues"
             },
-            "time": "2016-07-06 16:10:02"
+            "time": "2016-07-06 18:31:37"
         },
         {
             "name": "mlaa/profession-theme",
