@@ -90,6 +90,10 @@
       "url": "git@github.com:mlaa/sparkpost-bp-mailer.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-society-badges.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-docs",
@@ -260,7 +264,8 @@
     "boonebgorges/buddypress-docs": "dev-1.9.1",
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/buddypress-docs-minor-edit": "dev-master"
+    "mlaa/buddypress-docs-minor-edit": "dev-master",
+    "mlaa/mla-society-badges": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "382cc9976913f7aaea5382eb59f3a2de",
-    "content-hash": "948790e19df50f4dd509b356b66ebf48",
+    "hash": "cfd1be937a17b90fb09185c7af84a090",
+    "content-hash": "9112a724d82b03b27bdb8a627d42ce02",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -334,7 +334,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/f08747330eb2ee8058c72168948494aeedd3c392",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/63b19147d4a2544b92dfcc880e7ef810db95dfe9",
                 "reference": "f08747330eb2ee8058c72168948494aeedd3c392",
                 "shasum": ""
             },
@@ -550,6 +550,27 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2016-06-29 15:05:08"
+        },
+        {
+            "name": "mlaa/mla-society-badges",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-society-badges.git",
+                "reference": "e0e25fde3cea46f7f541032e28442164c24ce14c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/e0e25fde3cea46f7f541032e28442164c24ce14c",
+                "reference": "e0e25fde3cea46f7f541032e28442164c24ce14c",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-society-badges/tree/master",
+                "issues": "https://github.com/mlaa/mla-society-badges/issues"
+            },
+            "time": "2016-07-06 16:10:02"
         },
         {
             "name": "mlaa/profession-theme",
@@ -5786,6 +5807,7 @@
         "boonebgorges/buddypress-docs": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
+        "mlaa/mla-society-badges": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
