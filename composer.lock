@@ -152,7 +152,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/364f55d354dde2c81deb332c47545af625a6c2b3",
+                "url": "https://api.github.com/repos/cuny-academic-commons/cbox-theme/zipball/c3b6bd3",
                 "reference": "c3b6bd3",
                 "shasum": ""
             },
@@ -334,7 +334,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/63b19147d4a2544b92dfcc880e7ef810db95dfe9",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/f08747330eb2ee8058c72168948494aeedd3c392",
                 "reference": "f08747330eb2ee8058c72168948494aeedd3c392",
                 "shasum": ""
             },
@@ -624,12 +624,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "19940a54da832e6ee56f3c6d8c18691c1bb54960"
+                "reference": "9d49c12162ffb074cf9afea89bc1c9587a1aca75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/19940a54da832e6ee56f3c6d8c18691c1bb54960",
-                "reference": "19940a54da832e6ee56f3c6d8c18691c1bb54960",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/9d49c12162ffb074cf9afea89bc1c9587a1aca75",
+                "reference": "9d49c12162ffb074cf9afea89bc1c9587a1aca75",
                 "shasum": ""
             },
             "require": {
@@ -641,7 +641,7 @@
                 "source": "https://github.com/mlaa/profile/tree/hcommons",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-07-05 17:39:41"
+            "time": "2016-07-07 16:18:10"
         },
         {
             "name": "mlaa/shibboleth",
@@ -1346,7 +1346,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress-followers.1.2.1.zip",
-                "reference": null,
+                "reference": "tags/1.2.1",
                 "shasum": null
             },
             "require": {
@@ -1986,7 +1986,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/public-post-preview.2.5.0.zip",
-                "reference": null,
+                "reference": "tags/2.5.0",
                 "shasum": null
             },
             "require": {
@@ -2546,7 +2546,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/hitchcock.1.06.zip",
-                "reference": null,
+                "reference": "1.06",
                 "shasum": null
             },
             "require": {
@@ -2626,7 +2626,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/portfolio-press.2.7.2.zip",
-                "reference": null,
+                "reference": "2.7.2",
                 "shasum": null
             },
             "require": {
@@ -2886,7 +2886,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/vantage.1.4.4.zip",
-                "reference": null,
+                "reference": "1.4.4",
                 "shasum": null
             },
             "require": {
