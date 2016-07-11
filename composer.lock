@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "daa3a847de85b6c920f2f3933a171e9d",
-    "content-hash": "1d8859a071a68a0526af96c113dbc03f",
+    "hash": "b137a3a00df4c040bcb0b29128d67a93",
+    "content-hash": "be1c3808d5c352f5338bd00baaf6a5da",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -592,6 +592,27 @@
                 "issues": "https://github.com/mlaa/mla-society-badges/issues"
             },
             "time": "2016-07-06 21:58:21"
+        },
+        {
+            "name": "mlaa/mla-society-styles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-society-styles.git",
+                "reference": "c7742da82294e389736ecebc7d09d21fba6a6b6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-society-styles/zipball/c7742da82294e389736ecebc7d09d21fba6a6b6b",
+                "reference": "c7742da82294e389736ecebc7d09d21fba6a6b6b",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-society-styles/tree/master",
+                "issues": "https://github.com/mlaa/mla-society-styles/issues"
+            },
+            "time": "2016-07-08 21:31:54"
         },
         {
             "name": "mlaa/profession-theme",
@@ -5733,7 +5754,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
-                "reference": null,
+                "reference": "tags/1.5.1",
                 "shasum": null
             },
             "require": {
@@ -5753,7 +5774,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": null,
+                "reference": "tags/1.0.9",
                 "shasum": null
             },
             "require": {
@@ -5830,6 +5851,7 @@
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/mla-society-badges": 20,
         "mlaa/humanities-commons": 20,
+        "mlaa/mla-society-styles": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

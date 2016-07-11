@@ -98,6 +98,10 @@
       "url": "git@github.com:mlaa/humanities-commons.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-society-styles.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-docs",
@@ -270,7 +274,8 @@
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/mla-society-badges": "dev-master",
-    "mlaa/humanities-commons": "dev-master"
+    "mlaa/humanities-commons": "dev-master",
+    "mlaa/mla-society-styles": "dev-master"
   },
   "scripts": {
     "pre-install-cmd": [
