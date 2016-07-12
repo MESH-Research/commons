@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b137a3a00df4c040bcb0b29128d67a93",
-    "content-hash": "be1c3808d5c352f5338bd00baaf6a5da",
+    "hash": "ce101393b3fd3b616adc47d20188cc3c",
+    "content-hash": "8e7fe7565cc48943177cde351c07a9ed",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -814,17 +814,6 @@
                 "psr-3"
             ],
             "time": "2016-03-13 16:08:35"
-        },
-        {
-            "name": "philopress/bp-block-member",
-            "version": "1.4",
-            "dist": {
-                "type": "zip",
-                "url": "/tmp/wordpress-packages/philopress-bp-block-member-1.4.zip",
-                "reference": null,
-                "shasum": "956bcbbef92a8a31661205b612a0bf23321e61d4"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "psr/log",
