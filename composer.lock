@@ -599,12 +599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-society-styles.git",
-                "reference": "e026b04412a97c58daf220a18b8ea2cd3e027f86"
+                "reference": "1a3d2641a7d80d1802a7b99adba08b7594fd4e0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-styles/zipball/e026b04412a97c58daf220a18b8ea2cd3e027f86",
-                "reference": "e026b04412a97c58daf220a18b8ea2cd3e027f86",
+                "url": "https://api.github.com/repos/mlaa/mla-society-styles/zipball/1a3d2641a7d80d1802a7b99adba08b7594fd4e0f",
+                "reference": "1a3d2641a7d80d1802a7b99adba08b7594fd4e0f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -612,7 +612,7 @@
                 "source": "https://github.com/mlaa/mla-society-styles/tree/master",
                 "issues": "https://github.com/mlaa/mla-society-styles/issues"
             },
-            "time": "2016-07-12 21:21:36"
+            "time": "2016-07-13 18:47:43"
         },
         {
             "name": "mlaa/profession-theme",
