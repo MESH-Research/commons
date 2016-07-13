@@ -330,12 +330,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "c86d1fe366075dde72d8d690628521ec7c77132e"
+                "reference": "98d848cb9fa356255a6b7058d03c48e82cd6a5ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/c86d1fe366075dde72d8d690628521ec7c77132e",
-                "reference": "c86d1fe366075dde72d8d690628521ec7c77132e",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/98d848cb9fa356255a6b7058d03c48e82cd6a5ef",
+                "reference": "98d848cb9fa356255a6b7058d03c48e82cd6a5ef",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "source": "https://github.com/mlaa/cbox-mla/tree/hcommons",
                 "issues": "https://github.com/mlaa/cbox-mla/issues"
             },
-            "time": "2016-07-11 19:50:58"
+            "time": "2016-07-13 18:51:08"
         },
         {
             "name": "mlaa/cbox-mla-blog",
