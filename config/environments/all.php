@@ -25,6 +25,7 @@ define('SUBDOMAIN_INSTALL', true);
 $base = '/';
 //define('DOMAIN_CURRENT_SITE', getenv('WP_DOMAIN'));
 
+/* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
 define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
 define( 'COOKIE_DOMAIN', 'alpha.hcommons.org' );
 define( 'ADMIN_COOKIE_PATH', '/' );
@@ -32,10 +33,11 @@ define( 'COOKIEPATH',        '/' );
 define( 'SITECOOKIEPATH',    '/' );
 define( 'TEST_COOKIE',        'wordpress_test_cookie' );
 define( 'AUTH_COOKIE',        'wordpress_'          . COOKIEHASH );
-define( 'USER_COOKIE',        'wordpress_user_'     . COOKIEHASH );
-define( 'PASS_COOKIE',        'wordpress_pass_'     . COOKIEHASH );
+define( 'USER_COOKIE',        'wordpressuser_'     . COOKIEHASH );
+define( 'PASS_COOKIE',        'wordpresspass_'     . COOKIEHASH );
 define( 'SECURE_AUTH_COOKIE', 'wordpress_sec_'      . COOKIEHASH );
 define( 'LOGGED_IN_COOKIE',   'wordpress_logged_in' . COOKIEHASH );
+*/
 
 define('PATH_CURRENT_SITE', '/');
 
