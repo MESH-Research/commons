@@ -148,7 +148,7 @@
     "johnpbloch/wordpress": "4.5.3",
     "monolog/monolog": "1.18.1",
     "mlaa/cbox-auth": "dev-master",
-    "mlaa/humcore": "dev-master",
+    "mlaa/humcore": "dev-hcommons",
     "mlaa/mla-admin-bar": "dev-master",
     "cubell/15zine-functionality": "2.1.0",
     "envato/wordpress-toolkit": "1.7.3",
