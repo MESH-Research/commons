@@ -578,12 +578,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-society-badges.git",
-                "reference": "3a703a35984290d3313069a92db1a52a4755363c"
+                "reference": "92513b582178de4d02911bbd4df9f94f3b5f3cf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/3a703a35984290d3313069a92db1a52a4755363c",
-                "reference": "3a703a35984290d3313069a92db1a52a4755363c",
+                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/92513b582178de4d02911bbd4df9f94f3b5f3cf7",
+                "reference": "92513b582178de4d02911bbd4df9f94f3b5f3cf7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -591,7 +591,7 @@
                 "source": "https://github.com/mlaa/mla-society-badges/tree/master",
                 "issues": "https://github.com/mlaa/mla-society-badges/issues"
             },
-            "time": "2016-07-14 13:51:46"
+            "time": "2016-07-20 21:13:54"
         },
         {
             "name": "mlaa/mla-society-styles",
