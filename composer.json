@@ -277,6 +277,9 @@
     "mlaa/mla-society-styles": "dev-master"
   },
   "scripts": {
+    "pre-update-cmd": [
+      "mkdir -p /tmp/wordpress-packages"
+    ],
     "pre-install-cmd": [
       "mkdir -p /tmp/wordpress-packages",
       "aws s3 sync s3://mla-backup/commons/packages /tmp/wordpress-packages --only-show-errors --delete"
