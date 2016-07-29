@@ -694,12 +694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/sparkpost-bp-mailer.git",
-                "reference": "b0189326a5896e0b49f4e72af4e1b107fc62d069"
+                "reference": "7b303b581eca4306920ceaf532165ffd0466995c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/sparkpost-bp-mailer/zipball/b0189326a5896e0b49f4e72af4e1b107fc62d069",
-                "reference": "b0189326a5896e0b49f4e72af4e1b107fc62d069",
+                "url": "https://api.github.com/repos/mlaa/sparkpost-bp-mailer/zipball/7b303b581eca4306920ceaf532165ffd0466995c",
+                "reference": "7b303b581eca4306920ceaf532165ffd0466995c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -707,7 +707,7 @@
                 "source": "https://github.com/mlaa/sparkpost-bp-mailer/tree/master",
                 "issues": "https://github.com/mlaa/sparkpost-bp-mailer/issues"
             },
-            "time": "2016-06-30 18:54:26"
+            "time": "2016-07-29 17:09:02"
         },
         {
             "name": "mlaa/style-center",
