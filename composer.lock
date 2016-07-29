@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d4d205f654107dd0e572217d191bfb0e",
+    "hash": "250498cd542f7df2f5f5fa33a7cdf0ea",
     "content-hash": "dd698783f4c7d2bb8724b2104e04f785",
     "packages": [
         {
@@ -578,12 +578,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-society-badges.git",
-                "reference": "92513b582178de4d02911bbd4df9f94f3b5f3cf7"
+                "reference": "990a9d0eb6324acd91ece6f2bf7c108a5dfaed2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/92513b582178de4d02911bbd4df9f94f3b5f3cf7",
-                "reference": "92513b582178de4d02911bbd4df9f94f3b5f3cf7",
+                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/990a9d0eb6324acd91ece6f2bf7c108a5dfaed2e",
+                "reference": "990a9d0eb6324acd91ece6f2bf7c108a5dfaed2e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -591,7 +591,7 @@
                 "source": "https://github.com/mlaa/mla-society-badges/tree/master",
                 "issues": "https://github.com/mlaa/mla-society-badges/issues"
             },
-            "time": "2016-07-20 21:13:54"
+            "time": "2016-07-29 16:56:18"
         },
         {
             "name": "mlaa/mla-society-styles",
