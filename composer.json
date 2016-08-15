@@ -274,7 +274,8 @@
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/mla-society-badges": "dev-master",
     "mlaa/humanities-commons": "dev-master",
-    "mlaa/mla-society-styles": "dev-master"
+    "mlaa/mla-society-styles": "dev-master",
+    "buddyboss/boss": "^2.2"
   },
   "scripts": {
     "pre-update-cmd": [

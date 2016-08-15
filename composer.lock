@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "250498cd542f7df2f5f5fa33a7cdf0ea",
-    "content-hash": "dd698783f4c7d2bb8724b2104e04f785",
+    "hash": "13acacd54ed59aa880a77d224e2a1863",
+    "content-hash": "c63ee2fc3a96ced95f80cd56e73c02f6",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -28,6 +28,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-07-12 18:51:28"
+        },
+        {
+            "name": "buddyboss/boss",
+            "version": "2.2.2",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/buddyboss-boss-2.2.2.zip",
+                "reference": null,
+                "shasum": "cabb53c95c7dcefa33145b16d8538458a88d205a"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "composer/installers",
