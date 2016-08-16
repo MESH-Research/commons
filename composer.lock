@@ -36,7 +36,7 @@
                 "type": "zip",
                 "url": "/tmp/wordpress-packages/buddyboss-boss-2.2.2.zip",
                 "reference": null,
-                "shasum": "cabb53c95c7dcefa33145b16d8538458a88d205a"
+                "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
             },
             "type": "wordpress-theme"
         },
