@@ -589,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "580be2b67db35f595df3c69099daab7331b9006a"
+                "reference": "452f2b9959b4308a7cd54314ba3419007d890da8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/580be2b67db35f595df3c69099daab7331b9006a",
-                "reference": "580be2b67db35f595df3c69099daab7331b9006a",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/452f2b9959b4308a7cd54314ba3419007d890da8",
+                "reference": "452f2b9959b4308a7cd54314ba3419007d890da8",
                 "shasum": ""
             },
             "require": {
@@ -609,7 +609,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-07-26 19:38:10"
+            "time": "2016-08-16 14:17:14"
         },
         {
             "name": "monolog/monolog",
@@ -1654,7 +1654,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.54.zip",
-                "reference": null,
+                "reference": "tags/2.9.54",
                 "shasum": null
             },
             "require": {
