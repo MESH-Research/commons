@@ -539,12 +539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profession-theme.git",
-                "reference": "1c0c567f2000592ccf66663c59b09c32b08f76b5"
+                "reference": "99c675b8de57f6ebcfc889bd7f1f05bc0fcb540b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/1c0c567f2000592ccf66663c59b09c32b08f76b5",
-                "reference": "1c0c567f2000592ccf66663c59b09c32b08f76b5",
+                "url": "https://api.github.com/repos/mlaa/profession-theme/zipball/99c675b8de57f6ebcfc889bd7f1f05bc0fcb540b",
+                "reference": "99c675b8de57f6ebcfc889bd7f1f05bc0fcb540b",
                 "shasum": ""
             },
             "require": {
@@ -556,7 +556,7 @@
                 "source": "https://github.com/mlaa/profession-theme/tree/master",
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
-            "time": "2015-12-09 18:17:15"
+            "time": "2016-08-23 15:17:11"
         },
         {
             "name": "mlaa/profile",
