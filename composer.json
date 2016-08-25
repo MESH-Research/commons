@@ -213,7 +213,8 @@
     "wpackagist-theme/portfolio-press": "^2.7",
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
-    "mlaa/mla-allowed-tags": "dev-master"
+    "mlaa/mla-allowed-tags": "dev-master",
+    "wpackagist-plugin/optinmonster": "1.1.4.7"
   },
   "scripts": {
     "pre-install-cmd": [

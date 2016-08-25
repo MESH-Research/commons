@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d47958bf3fcd76115a1b91c8e4f94df0",
-    "content-hash": "a94c4afa00cebba0d97a6370c6591d47",
+    "hash": "ffd2615afd9b42b8d329a36b947b6ef2",
+    "content-hash": "c0d6c5bd03f81bb1a7d3937b76108ab3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1682,6 +1682,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/openbook-book-data/"
+        },
+        {
+            "name": "wpackagist-plugin/optinmonster",
+            "version": "1.1.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/optinmonster/",
+                "reference": "tags/1.1.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/optinmonster.1.1.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/optinmonster/"
         },
         {
             "name": "wpackagist-plugin/options-framework",
