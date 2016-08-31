@@ -589,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "157900078a8602ceaa26e868d2e129bbadc8bf39"
+                "reference": "006ccff55cf1e92a3dbc3a63ae0e02c77b0d7ed5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/157900078a8602ceaa26e868d2e129bbadc8bf39",
-                "reference": "157900078a8602ceaa26e868d2e129bbadc8bf39",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/006ccff55cf1e92a3dbc3a63ae0e02c77b0d7ed5",
+                "reference": "006ccff55cf1e92a3dbc3a63ae0e02c77b0d7ed5",
                 "shasum": ""
             },
             "require": {
@@ -609,7 +609,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-08-19 17:26:41"
+            "time": "2016-08-30 20:36:47"
         },
         {
             "name": "monolog/monolog",
@@ -1694,7 +1694,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/optinmonster.1.1.4.7.zip",
-                "reference": null,
+                "reference": "tags/1.1.4.7",
                 "shasum": null
             },
             "require": {
