@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "13acacd54ed59aa880a77d224e2a1863",
-    "content-hash": "c63ee2fc3a96ced95f80cd56e73c02f6",
+    "hash": "d1844b8599128de52c39fe73225f2039",
+    "content-hash": "70a33f6fc1869f41045e7bc4dfe58cef",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -273,6 +273,27 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "mlaa/boss-child",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/boss-child.git",
+                "reference": "59b10b16c62be09c21e0b34ba06facce1e931635"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/59b10b16c62be09c21e0b34ba06facce1e931635",
+                "reference": "59b10b16c62be09c21e0b34ba06facce1e931635",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "issues": "https://github.com/mlaa/boss-child/issues"
+            },
+            "time": "2016-08-31 20:15:59"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -5852,6 +5873,7 @@
         "mlaa/mla-society-badges": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/mla-society-styles": 20,
+        "mlaa/boss-child": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

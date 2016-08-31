@@ -102,6 +102,10 @@
       "url": "git@github.com:mlaa/mla-society-styles.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/boss-child.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-docs",
@@ -275,7 +279,8 @@
     "mlaa/mla-society-badges": "dev-master",
     "mlaa/humanities-commons": "dev-master",
     "mlaa/mla-society-styles": "dev-master",
-    "buddyboss/boss": "^2.2"
+    "buddyboss/boss": "^2.2",
+    "mlaa/boss-child": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
