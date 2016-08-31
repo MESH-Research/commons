@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d1844b8599128de52c39fe73225f2039",
-    "content-hash": "70a33f6fc1869f41045e7bc4dfe58cef",
+    "hash": "73b1398fde8590b2a99e95edacaf9736",
+    "content-hash": "be91a20062fecf47184e3b87099d9867",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2936,6 +2936,17 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/vantage/"
+        },
+        {
+            "name": "wpbakery/visual-composer",
+            "version": "4.12",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/wpbakery-visual-composer-4.12.zip",
+                "reference": null,
+                "shasum": "c104ca31ec545d4f4b1aaa256f108eac0a75aaa6"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpmudev/google-analytics-async",
