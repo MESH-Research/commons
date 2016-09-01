@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57fbfc82a5a997192716f72c1cfbcd77",
-    "content-hash": "7a52a3511b3f411c426c57a6a5ef307b",
+    "hash": "aa369b34a69aa7107879731517bb3647",
+    "content-hash": "7cb9bbb2c4bce4f1a4ebc88a179c0a37",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1218,6 +1218,26 @@
             "homepage": "https://wordpress.org/plugins/bbpress/"
         },
         {
+            "name": "wpackagist-plugin/black-studio-tinymce-widget",
+            "version": "2.2.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/black-studio-tinymce-widget/",
+                "reference": "tags/2.2.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/black-studio-tinymce-widget.2.2.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/black-studio-tinymce-widget/"
+        },
+        {
             "name": "wpackagist-plugin/bp-blog-avatar",
             "version": "1.0",
             "source": {
@@ -1808,7 +1828,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/menu-icons.0.10.1.zip",
-                "reference": null,
+                "reference": "tags/0.10.1",
                 "shasum": null
             },
             "require": {
