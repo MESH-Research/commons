@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "73b1398fde8590b2a99e95edacaf9736",
-    "content-hash": "be91a20062fecf47184e3b87099d9867",
+    "hash": "57fbfc82a5a997192716f72c1cfbcd77",
+    "content-hash": "7a52a3511b3f411c426c57a6a5ef307b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1796,6 +1796,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
+        },
+        {
+            "name": "wpackagist-plugin/menu-icons",
+            "version": "0.10.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/menu-icons/",
+                "reference": "tags/0.10.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/menu-icons.0.10.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/menu-icons/"
         },
         {
             "name": "wpackagist-plugin/more-privacy-options",
