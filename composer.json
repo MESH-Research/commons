@@ -277,7 +277,7 @@
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/mla-society-badges": "dev-master",
-    "mlaa/humanities-commons": "dev-master",
+    "mlaa/humanities-commons": "dev-hcommons",
     "mlaa/mla-society-styles": "dev-master",
     "buddyboss/boss": "^2.2",
     "mlaa/boss-child": "dev-master",
