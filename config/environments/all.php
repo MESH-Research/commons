@@ -67,6 +67,16 @@ define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
 define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 
 /**
+ * Humanities Commons
+ */
+define('HC_SITE_ID', getenv('HC_SITE_ID'));
+define('HC_ENROLLMENT_URL', getenv('HC_ENROLLMENT_URL'));
+define('AJS_ENROLLMENT_URL', getenv('AJS_ENROLLMENT_URL'));
+define('ASEEES_ENROLLMENT_URL', getenv('ASEEES_ENROLLMENT_URL'));
+define('MLA_ENROLLMENT_URL', getenv('MLA_ENROLLMENT_URL'));
+define('CAA_ENROLLMENT_URL', getenv('CAA_ENROLLMENT_URL'));
+
+/**
  * MLA Member API
  */
 define('CBOX_AUTH_API_URL', getenv('CBOX_AUTH_API_URL'));
