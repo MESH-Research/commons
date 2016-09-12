@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52c8502e84bf9fbef32b838f5669cb86",
-    "content-hash": "c3bbf29efaa814d76b43f5d2a0457b56",
+    "hash": "4b4e81e992fb4efb389f2acdfacf5586",
+    "content-hash": "27fc50865572de4ef7684db91ae65cda",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +27,7 @@
                 "reference": "2.5"
             },
             "type": "wordpress-plugin",
-            "time": "2016-09-02 20:11:42"
+            "time": "2016-07-12 18:51:28"
         },
         {
             "name": "buddyboss/boss",
@@ -300,9 +300,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
                 "reference": null,
-                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -480,6 +480,33 @@
                 "issues": "https://github.com/mlaa/commentpress-mla-groups/issues"
             },
             "time": "2016-03-28 04:11:20"
+        },
+        {
+            "name": "mlaa/hc-styles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-styles.git",
+                "reference": "6d061c4bee9c666279fdb7127097a8a7c27116f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/6d061c4bee9c666279fdb7127097a8a7c27116f5",
+                "reference": "6d061c4bee9c666279fdb7127097a8a7c27116f5",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Humanities_Commons\\Plugin\\HC_Styles\\": "classes/"
+                },
+                "files": []
+            },
+            "support": {
+                "source": "https://github.com/mlaa/hc-styles/tree/master",
+                "issues": "https://github.com/mlaa/hc-styles/issues"
+            },
+            "time": "2016-09-09 19:04:35"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -5925,6 +5952,7 @@
         "mlaa/humanities-commons": 20,
         "mlaa/mla-society-styles": 20,
         "mlaa/boss-child": 20,
+        "mlaa/hc-styles": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
