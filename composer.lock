@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "314af65738a703958a35a73614634867",
-    "content-hash": "bd17cba0793c6ba101e8d1fac7999e0a",
+    "hash": "23efceae7458334a14c4f3c143ba65f9",
+    "content-hash": "c0d36a04670ceef82f7e4fb2a085b7a9",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -17,17 +17,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-05-06 18:31:35"
-        },
-        {
-            "name": "boonebgorges/buddypress-group-email-subscription",
-            "version": "dev-2.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
-                "reference": "2.5"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-07-12 18:51:28"
         },
         {
             "name": "buddyboss/boss",
@@ -1401,26 +1390,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-followers/"
-        },
-        {
-            "name": "wpackagist-plugin/buddypress-group-email-subscription",
-            "version": "3.6.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
-                "reference": "tags/3.6.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.6.0.zip",
-                "reference": "tags/3.6.0",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
         },
         {
             "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
@@ -6782,6 +6751,26 @@
             "time": "2016-08-09 13:25:56"
         },
         {
+            "name": "wpackagist-plugin/buddypress-group-email-subscription",
+            "version": "3.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
+                "reference": "tags/3.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.6.0.zip",
+                "reference": "tags/3.6.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.8.4",
             "source": {
@@ -6903,7 +6892,6 @@
         "mlaa/shibboleth": 20,
         "mlaa/profile": 20,
         "mlaa/mla-allowed-tags": 20,
-        "boonebgorges/buddypress-group-email-subscription": 20,
         "boonebgorges/buddypress-docs": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,

@@ -113,19 +113,6 @@
     {
       "type": "package",
       "package": {
-        "name": "boonebgorges/buddypress-group-email-subscription",
-        "version": "dev-2.5",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
-          "type": "git",
-          "reference": "2.5"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "Clorith/wordpress-debug-bar-template-trace",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -160,7 +147,6 @@
     "wpackagist-plugin/bp-system-report": "0.*",
     "wpackagist-plugin/buddypress": "2.6.1.1",
     "wpackagist-plugin/buddydrive": "2.0.0",
-    "wpackagist-plugin/buddypress-group-email-subscription": "3.6.0",
     "wpackagist-plugin/bwp-google-xml-sitemaps": "1.4.1",
     "wpackagist-plugin/cac-featured-content": "1.0.6",
     "wpackagist-plugin/commentpress-core": "3.8.7",
@@ -263,7 +249,6 @@
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
-    "boonebgorges/buddypress-group-email-subscription": "dev-2.5",
     "boonebgorges/buddypress-docs": "dev-1.9.1",
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
