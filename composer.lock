@@ -27,7 +27,7 @@
                 "reference": "2.5"
             },
             "type": "wordpress-plugin",
-            "time": "2016-07-12 18:51:28"
+            "time": "2016-09-02 20:11:42"
         },
         {
             "name": "buddyboss/boss",
@@ -280,12 +280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "0733e34ace347670ece0a8c2773445c938f9413a"
+                "reference": "311cf302c77760e09ce57d5fed02fdfd150590aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0733e34ace347670ece0a8c2773445c938f9413a",
-                "reference": "0733e34ace347670ece0a8c2773445c938f9413a",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/311cf302c77760e09ce57d5fed02fdfd150590aa",
+                "reference": "311cf302c77760e09ce57d5fed02fdfd150590aa",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -293,16 +293,16 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-09-09 13:00:05"
+            "time": "2016-09-12 16:02:38"
         },
         {
             "name": "mlaa/bp-block-member",
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
                 "reference": null,
-                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
+                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -514,12 +514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "c4bc1e150817524cb3c2be2e18a4857682ff3e36"
+                "reference": "20cd8a8522a19abc40d6f0ef5b6eb8233022fed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c4bc1e150817524cb3c2be2e18a4857682ff3e36",
-                "reference": "c4bc1e150817524cb3c2be2e18a4857682ff3e36",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/20cd8a8522a19abc40d6f0ef5b6eb8233022fed6",
+                "reference": "20cd8a8522a19abc40d6f0ef5b6eb8233022fed6",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -527,7 +527,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-09-09 18:42:22"
+            "time": "2016-09-12 16:03:53"
         },
         {
             "name": "mlaa/humcore",
