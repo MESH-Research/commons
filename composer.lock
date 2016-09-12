@@ -280,12 +280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "311cf302c77760e09ce57d5fed02fdfd150590aa"
+                "reference": "8a8264152f33107171e9fc10b3868d418e116c88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/311cf302c77760e09ce57d5fed02fdfd150590aa",
-                "reference": "311cf302c77760e09ce57d5fed02fdfd150590aa",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/8a8264152f33107171e9fc10b3868d418e116c88",
+                "reference": "8a8264152f33107171e9fc10b3868d418e116c88",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -293,7 +293,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-09-12 16:02:38"
+            "time": "2016-09-12 17:19:38"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -1173,7 +1173,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/anthologize.0.7.7.zip",
-                "reference": null,
+                "reference": "tags/0.7.7",
                 "shasum": null
             },
             "require": {
@@ -1653,7 +1653,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/force-regenerate-thumbnails.2.0.6.zip",
-                "reference": null,
+                "reference": "tags/2.0.6",
                 "shasum": null
             },
             "require": {
@@ -1873,7 +1873,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/multisite-plugin-manager.3.1.5.zip",
-                "reference": null,
+                "reference": "tags/3.1.5",
                 "shasum": null
             },
             "require": {
@@ -1893,7 +1893,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/network-plugin-auditor.1.10.zip",
-                "reference": null,
+                "reference": "tags/1.10",
                 "shasum": null
             },
             "require": {
@@ -2233,7 +2233,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/video-thumbnails.2.12.3.zip",
-                "reference": null,
+                "reference": "tags/2.12.3",
                 "shasum": null
             },
             "require": {
