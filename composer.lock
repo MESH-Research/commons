@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4b4e81e992fb4efb389f2acdfacf5586",
-    "content-hash": "27fc50865572de4ef7684db91ae65cda",
+    "hash": "2d831fe5e671637c01b8d882f79a2615",
+    "content-hash": "f80afa68891b1a44d14c59d83e9e9c2f",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -630,27 +630,6 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2016-06-29 15:05:08"
-        },
-        {
-            "name": "mlaa/mla-society-badges",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/mla-society-badges.git",
-                "reference": "e6e385662b88f5e643906f53b97484e5bd0d7a16"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-badges/zipball/e6e385662b88f5e643906f53b97484e5bd0d7a16",
-                "reference": "e6e385662b88f5e643906f53b97484e5bd0d7a16",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/mla-society-badges/tree/master",
-                "issues": "https://github.com/mlaa/mla-society-badges/issues"
-            },
-            "time": "2016-09-08 21:06:12"
         },
         {
             "name": "mlaa/mla-society-styles",
@@ -5948,7 +5927,6 @@
         "boonebgorges/buddypress-docs": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
-        "mlaa/mla-society-badges": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/mla-society-styles": 20,
         "mlaa/boss-child": 20,

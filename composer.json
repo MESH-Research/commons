@@ -91,10 +91,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/mla-society-badges.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/humanities-commons.git"
     },
     {
@@ -276,7 +272,6 @@
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
-    "mlaa/mla-society-badges": "dev-master",
     "mlaa/humanities-commons": "dev-hcommons",
     "mlaa/mla-society-styles": "dev-master",
     "buddyboss/boss": "^2.2",
