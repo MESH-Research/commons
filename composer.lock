@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d831fe5e671637c01b8d882f79a2615",
-    "content-hash": "f80afa68891b1a44d14c59d83e9e9c2f",
+    "hash": "4636b92279cd40149ccd950c9213bc53",
+    "content-hash": "0dd593dc31dfee5d3263321e14d1201b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -630,27 +630,6 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2016-06-29 15:05:08"
-        },
-        {
-            "name": "mlaa/mla-society-styles",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/mla-society-styles.git",
-                "reference": "c49869fa02228352b429d889310258e86404a15b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-society-styles/zipball/c49869fa02228352b429d889310258e86404a15b",
-                "reference": "c49869fa02228352b429d889310258e86404a15b",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/mla-society-styles/tree/master",
-                "issues": "https://github.com/mlaa/mla-society-styles/issues"
-            },
-            "time": "2016-08-04 17:09:49"
         },
         {
             "name": "mlaa/profession-theme",
@@ -5928,7 +5907,6 @@
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/humanities-commons": 20,
-        "mlaa/mla-society-styles": 20,
         "mlaa/boss-child": 20,
         "mlaa/hc-styles": 20,
         "clorith/wordpress-debug-bar-template-trace": 20

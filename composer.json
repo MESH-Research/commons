@@ -95,10 +95,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/mla-society-styles.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/boss-child.git"
     },
     {
@@ -273,7 +269,6 @@
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/humanities-commons": "dev-hcommons",
-    "mlaa/mla-society-styles": "dev-master",
     "buddyboss/boss": "^2.2",
     "mlaa/boss-child": "dev-master",
     "wpbakery/visual-composer": "^4.12",
