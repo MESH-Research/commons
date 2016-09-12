@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "23efceae7458334a14c4f3c143ba65f9",
-    "content-hash": "c0d36a04670ceef82f7e4fb2a085b7a9",
+    "hash": "0cd98d0a065258d2289be804d6dbf6ab",
+    "content-hash": "7ffc2c0744ab173554a6d861b7421d2e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1390,6 +1390,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-followers/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-group-email-subscription",
+            "version": "3.6.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
+                "reference": "tags/3.6.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.6.0.zip",
+                "reference": "tags/3.6.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
         },
         {
             "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
@@ -6749,26 +6769,6 @@
                 "wordpress"
             ],
             "time": "2016-08-09 13:25:56"
-        },
-        {
-            "name": "wpackagist-plugin/buddypress-group-email-subscription",
-            "version": "3.6.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress-group-email-subscription/",
-                "reference": "tags/3.6.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.6.0.zip",
-                "reference": "tags/3.6.0",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddypress-group-email-subscription/"
         },
         {
             "name": "wpackagist-plugin/debug-bar",

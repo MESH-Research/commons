@@ -259,7 +259,8 @@
     "wpbakery/visual-composer": "^4.12",
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
-    "mlaa/hc-styles": "dev-master"
+    "mlaa/hc-styles": "dev-master",
+    "wpackagist-plugin/buddypress-group-email-subscription": "3.6"
   },
   "scripts": {
     "pre-update-cmd": [
