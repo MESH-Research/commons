@@ -98,6 +98,10 @@
       "url": "git@github.com:mlaa/boss-child.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/hc-styles.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-docs",
@@ -259,8 +263,8 @@
     "wpbakery/visual-composer": "^4.12",
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
-    "mlaa/hc-styles": "dev-master",
-    "wpackagist-plugin/buddypress-group-email-subscription": "3.6"
+    "wpackagist-plugin/buddypress-group-email-subscription": "3.6",
+    "mlaa/hc-styles": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [

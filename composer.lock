@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0cd98d0a065258d2289be804d6dbf6ab",
-    "content-hash": "7ffc2c0744ab173554a6d861b7421d2e",
+    "hash": "0e7f3693e20ae61f803f4588dbdfe772",
+    "content-hash": "097469e97555cd390b2debbe65921b06",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -289,9 +289,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
                 "reference": null,
-                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "6d061c4bee9c666279fdb7127097a8a7c27116f5"
+                "reference": "56ac4682fa7104b3b529497e63951ec0398be865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/6d061c4bee9c666279fdb7127097a8a7c27116f5",
-                "reference": "6d061c4bee9c666279fdb7127097a8a7c27116f5",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/56ac4682fa7104b3b529497e63951ec0398be865",
+                "reference": "56ac4682fa7104b3b529497e63951ec0398be865",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -495,7 +495,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2016-09-09 19:04:35"
+            "time": "2016-09-13 16:56:42"
         },
         {
             "name": "mlaa/humanities-commons",
