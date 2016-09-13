@@ -104,6 +104,19 @@
     {
       "type": "package",
       "package": {
+        "name": "cuny-academic-commons/bp-event-organiser",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/bp-event-organiser.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "boonebgorges/buddypress-docs",
         "version": "dev-1.9.1",
         "type": "wordpress-plugin",
@@ -255,6 +268,7 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
     "boonebgorges/buddypress-docs": "dev-1.9.1",
+    "cuny-academic-commons/bp-event-organiser": "dev-master",
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
