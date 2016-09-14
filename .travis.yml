@@ -20,4 +20,6 @@ script:
 - ./vendor/bin/codecept run
 notifications:
   slack:
+    on_success: change
+    on_failure: always
     secure: BZ9ec8GMlcArxPkDCyX0O4oJ7y8giDJ9HfmCPfwDHJaioy2aPOpqk1/K/8xWWvQ3khhAeDg3E04YSpOvCvelsWErb73oeD8DmO1RX6QD6ipRVrOwRkoUwTwJr+KRYmhN4AIIVLRKuXMfbjsWIgYh3lvUllZlSzbik3kB/vR+h/k=
