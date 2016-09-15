@@ -214,7 +214,8 @@
     "wpackagist-theme/hitchcock": "^1.06",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
-    "wpackagist-plugin/optinmonster": "1.1.4.7"
+    "wpackagist-plugin/optinmonster": "1.1.4.7",
+    "mmlc/lesmiserables-wordpress-theme": "^1.0"
   },
   "scripts": {
     "pre-install-cmd": [

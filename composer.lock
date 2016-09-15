@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ffd2615afd9b42b8d329a36b947b6ef2",
-    "content-hash": "c0d6c5bd03f81bb1a7d3937b76108ab3",
+    "hash": "a13f057e371445ef210d578f1b77a489",
+    "content-hash": "cdb6a2a851dd99394807f20c5faca8f5",
     "packages": [
         {
             "name": "composer/installers",
@@ -610,6 +610,17 @@
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
             "time": "2016-09-07 20:21:06"
+        },
+        {
+            "name": "mmlc/lesmiserables-wordpress-theme",
+            "version": "1.0.0",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.0.zip",
+                "reference": null,
+                "shasum": "f4ff3e4ae8d95c2fc1b1abd7ba22f569722c7a91"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "monolog/monolog",
