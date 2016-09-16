@@ -12,8 +12,8 @@
  * @param array $args the args originally passed to BP_Blogs_Blog::get(), so we can reconstruct the query
  */
 function more_privacy_options_blogs_get( $return_value, $args ) {
-	global $wpdb;
 
+	global $wpdb;
 	/**
 	 * one of these things is not like the others...
 	 * all variables passed to BP_Blogs_Blog::get() match their names given in $args except "limit" - that's "per_page"
@@ -23,11 +23,14 @@ function more_privacy_options_blogs_get( $return_value, $args ) {
 
 	$bp = buddypress();
 
-	if ( is_user_logged_in() ) {
-		$hidden_sql = "AND wb.public in (1, -1)"; // this accommodates More Privacy Options
-	} else {
+	if ( is_user_logged_in() && bp_is_current_action('my-sites') ) {
+		$hidden_sql = "AND wb.public in ( 0, 1, -1, -2 )"; // this accommodates More Privacy Options
+	} elseif( bp_is_current_action('my-sites') && current_user_can('manage_options') || is_super_admin() ) {
+		$hidden_sql = ""; // this enables sites to users that are admin if the visibility is -3
+	}
+	else {
 		if ( !is_user_logged_in() || !bp_current_user_can( 'bp_moderate' ) && ( $user_id != bp_loggedin_user_id() ) )
-			$hidden_sql = "AND wb.public = 1"; // this does not consider any values of "public" added by MPO
+			$hidden_sql = "AND wb.public in ( 0, 1 ) "; // this does not consider any values of "public" added by MPO
 		else
 			$hidden_sql = '';
 	}
@@ -53,9 +56,10 @@ function more_privacy_options_blogs_get( $return_value, $args ) {
 
 	$include_sql = '';
 	$include_blog_ids = array_filter( wp_parse_id_list( $include_blog_ids ) );
+
 	if ( ! empty( $include_blog_ids ) ) {
 		$blog_ids_sql = implode( ',', $include_blog_ids );
-		$include_sql  = " AND b.blog_id IN ({$blog_ids_sql})";
+		$include_sql = " AND b.blog_id IN ({$blog_ids_sql})";
 	}
 
 	if ( ! empty( $search_terms ) ) {
@@ -107,5 +111,6 @@ function more_privacy_options_blogs_get( $return_value, $args ) {
 	}
 
 	return array( 'blogs' => $paged_blogs, 'total' => $total_blogs );
+
 }
 add_filter( 'bp_blogs_get_blogs', 'more_privacy_options_blogs_get', null, 3 );
