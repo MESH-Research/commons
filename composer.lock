@@ -613,12 +613,12 @@
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.0.zip",
+                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.1.zip",
                 "reference": null,
-                "shasum": "f4ff3e4ae8d95c2fc1b1abd7ba22f569722c7a91"
+                "shasum": "7989e2d890c54826a1530d4d3839d32cc56ddab3"
             },
             "type": "wordpress-theme"
         },
