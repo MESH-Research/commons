@@ -487,12 +487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "bd3876572311d7d8ee1407da68595770a866d628"
+                "reference": "cf2ec7947a053170ad4a88ec243d562bdc04efc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/bd3876572311d7d8ee1407da68595770a866d628",
-                "reference": "bd3876572311d7d8ee1407da68595770a866d628",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/cf2ec7947a053170ad4a88ec243d562bdc04efc3",
+                "reference": "cf2ec7947a053170ad4a88ec243d562bdc04efc3",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -506,7 +506,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2016-09-13 20:07:13"
+            "time": "2016-09-19 20:57:49"
         },
         {
             "name": "mlaa/humanities-commons",
