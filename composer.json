@@ -279,7 +279,8 @@
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
     "wpackagist-plugin/buddypress-group-email-subscription": "3.6",
-    "mlaa/hc-styles": "dev-master"
+    "mlaa/hc-styles": "dev-master",
+    "buddyboss/wall": "^1.2"
   },
   "scripts": {
     "pre-update-cmd": [
