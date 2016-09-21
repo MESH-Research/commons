@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02817a2f07adf4ded2067ead5ec3331c",
-    "content-hash": "22c8ffb687b30d6cbc842e329c0df7af",
+    "hash": "024f6e69fb8a6e3e35b1004ba47d50a6",
+    "content-hash": "e8ce14fd12a4510e8dfeafdda9eacf1b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "2b3f08681f88da9cb9734d082048ebfa2070d329"
+                "reference": "d7fc10d4a655a221989ff3f60afa5e6562ad3963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/2b3f08681f88da9cb9734d082048ebfa2070d329",
-                "reference": "2b3f08681f88da9cb9734d082048ebfa2070d329",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/d7fc10d4a655a221989ff3f60afa5e6562ad3963",
+                "reference": "d7fc10d4a655a221989ff3f60afa5e6562ad3963",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -304,7 +304,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-09-14 20:35:07"
+            "time": "2016-09-21 17:39:26"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -960,42 +960,6 @@
                 "solr"
             ],
             "time": "2014-11-12 06:53:41"
-        },
-        {
-            "name": "stuttter/wp-multi-network",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stuttter/wp-multi-network.git",
-                "reference": "8b8584409eeb0ef8605ad133bf0a0aad3f347755"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/8b8584409eeb0ef8605ad133bf0a0aad3f347755",
-                "reference": "8b8584409eeb0ef8605ad133bf0a0aad3f347755",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "^1.0",
-                "php": ">=5.2"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPLv2 or later"
-            ],
-            "authors": [
-                {
-                    "name": "John James Jacoby",
-                    "email": "johnjamesjacoby@me.com"
-                }
-            ],
-            "description": "A Network Management UI for global administrators in WordPress Multisite",
-            "homepage": "https://github.com/stuttter/wp-multi-network",
-            "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
-                "issues": "https://github.com/stuttter/wp-multi-network/issues"
-            },
-            "time": "2016-09-12 16:08:12"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2432,6 +2396,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-markdown/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-multi-network",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-multi-network/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-multi-network.zip",
+                "reference": "trunk",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-multi-network/"
         },
         {
             "name": "wpackagist-plugin/wp-polls",
@@ -6930,7 +6914,6 @@
         "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/mla-academic-interests": 20,
-        "stuttter/wp-multi-network": 20,
         "mlaa/shibboleth": 20,
         "mlaa/profile": 20,
         "mlaa/mla-allowed-tags": 20,

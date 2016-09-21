@@ -258,7 +258,7 @@
     "wpackagist-theme/vantage": "1.4.4",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "mlaa/mla-academic-interests": "dev-hcommons",
-    "stuttter/wp-multi-network": "dev-master",
+    "wpackagist-plugin/wp-multi-network": "1.8.1",
     "mlaa/shibboleth": "dev-hcommons",
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "mlaa/profile": "dev-hcommons",
