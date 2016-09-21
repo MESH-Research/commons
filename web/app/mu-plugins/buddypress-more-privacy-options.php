@@ -18,6 +18,7 @@ function more_privacy_options_blogs_get( $return_value, $args ) {
 	 * one of these things is not like the others...
 	 * all variables passed to BP_Blogs_Blog::get() match their names given in $args except "limit" - that's "per_page"
 	 */
+
 	extract( $args );
 	$limit = $per_page;
 

@@ -311,9 +311,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
                 "reference": null,
-                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
+                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -525,12 +525,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "b34a7308d0115a26306023600d068588c55b794e"
+                "reference": "85b23d3cbcb29bd48f531d2832e67ad5b7411177"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b34a7308d0115a26306023600d068588c55b794e",
-                "reference": "b34a7308d0115a26306023600d068588c55b794e",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/85b23d3cbcb29bd48f531d2832e67ad5b7411177",
+                "reference": "85b23d3cbcb29bd48f531d2832e67ad5b7411177",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -538,7 +538,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-09-14 12:39:35"
+            "time": "2016-09-21 16:16:52"
         },
         {
             "name": "mlaa/humcore",
