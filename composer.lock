@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7aee5282ccfb53dad208280aee4b1885",
-    "content-hash": "4c4e38614320d6b7aa8f505f4137d4da",
+    "hash": "02817a2f07adf4ded2067ead5ec3331c",
+    "content-hash": "22c8ffb687b30d6cbc842e329c0df7af",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -28,6 +28,17 @@
                 "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
             },
             "type": "wordpress-theme"
+        },
+        {
+            "name": "buddyboss/wall",
+            "version": "1.2.7",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/buddyboss-wall-1.2.7.zip",
+                "reference": null,
+                "shasum": "3e08f089364fc965b435958079e90d56d932d520"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "composer/installers",
@@ -487,12 +498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "bd3876572311d7d8ee1407da68595770a866d628"
+                "reference": "3883087f045c132fbb713194b9400d4bd9a6656a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/bd3876572311d7d8ee1407da68595770a866d628",
-                "reference": "bd3876572311d7d8ee1407da68595770a866d628",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/3883087f045c132fbb713194b9400d4bd9a6656a",
+                "reference": "3883087f045c132fbb713194b9400d4bd9a6656a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -506,7 +517,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2016-09-13 20:07:13"
+            "time": "2016-09-20 16:41:56"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -662,12 +673,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "593c236428222b0b1290c955257d0c4be6586472"
+                "reference": "8276e1006f3178653a982ff394fcf1eb20c6aa23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/593c236428222b0b1290c955257d0c4be6586472",
-                "reference": "593c236428222b0b1290c955257d0c4be6586472",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/8276e1006f3178653a982ff394fcf1eb20c6aa23",
+                "reference": "8276e1006f3178653a982ff394fcf1eb20c6aa23",
                 "shasum": ""
             },
             "require": {
@@ -679,7 +690,7 @@
                 "source": "https://github.com/mlaa/profile/tree/hcommons",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-09-15 20:47:50"
+            "time": "2016-09-19 20:56:06"
         },
         {
             "name": "mlaa/shibboleth",
