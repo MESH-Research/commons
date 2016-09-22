@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "d7fc10d4a655a221989ff3f60afa5e6562ad3963"
+                "reference": "b0c948795ba22a32c787cc045f58eb4aa5e5d679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/d7fc10d4a655a221989ff3f60afa5e6562ad3963",
-                "reference": "d7fc10d4a655a221989ff3f60afa5e6562ad3963",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b0c948795ba22a32c787cc045f58eb4aa5e5d679",
+                "reference": "b0c948795ba22a32c787cc045f58eb4aa5e5d679",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -304,16 +304,16 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-09-21 17:39:26"
+            "time": "2016-09-22 19:44:58"
         },
         {
             "name": "mlaa/bp-block-member",
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
                 "reference": null,
-                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
             },
             "require": {
                 "composer/installers": "~1.0",
