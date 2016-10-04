@@ -76,6 +76,11 @@ define('AJS_ENROLLMENT_URL', getenv('AJS_ENROLLMENT_URL'));
 define('ASEEES_ENROLLMENT_URL', getenv('ASEEES_ENROLLMENT_URL'));
 define('MLA_ENROLLMENT_URL', getenv('MLA_ENROLLMENT_URL'));
 define('CAA_ENROLLMENT_URL', getenv('CAA_ENROLLMENT_URL'));
+define('HC_LOGIN_URL', getenv('HC_LOGIN_URL'));
+define('AJS_LOGIN_URL', getenv('AJS_LOGIN_URL'));
+define('ASEEES_LOGIN_URL', getenv('ASEEES_LOGIN_URL'));
+define('MLA_LOGIN_URL', getenv('MLA_LOGIN_URL'));
+define('CAA_LOGIN_URL', getenv('CAA_LOGIN_URL'));
 
 /**
  * MLA Member API
