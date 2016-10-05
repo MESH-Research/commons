@@ -1,0 +1,40 @@
+{
+  "name": "mlaa-gulp",
+  "version": "1.0.0",
+  "description": "Gulpfile for mla development",
+  "main": "._gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mlaa/commons.git"
+  },
+  "author": "G. Leo Fulgencio <lfulgencio@mla.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlaa/commons/issues"
+  },
+  "homepage": "https://github.com/mlaa/commons#readme",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "dotenv": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.8",
+    "gulp-env": "^0.4.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.9",
+    "portscanner": "^1.0.0"
+  }
+}
