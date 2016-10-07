@@ -117,6 +117,19 @@
     {
       "type": "package",
       "package": {
+        "name": "cuny-academic-commons/bp-multiple-forum-post",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "boonebgorges/buddypress-docs",
         "version": "dev-1.9.1",
         "type": "wordpress-plugin",
@@ -124,6 +137,19 @@
           "url": "git@github.com:boonebgorges/buddypress-docs.git",
           "type": "git",
           "reference": "1.9.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "boonebgorges/buddypress-group-email-subscription",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
+          "type": "git",
+          "reference": "master"
         }
       }
     },
@@ -268,7 +294,9 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/mla-allowed-tags": "dev-master",
     "boonebgorges/buddypress-docs": "dev-1.9.1",
+    "boonebgorges/buddypress-group-email-subscription": "dev-master",
     "cuny-academic-commons/bp-event-organiser": "dev-master",
+    "cuny-academic-commons/bp-multiple-forum-post": "dev-master",
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
@@ -278,7 +306,6 @@
     "wpbakery/visual-composer": "^4.12",
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
-    "wpackagist-plugin/buddypress-group-email-subscription": "3.6",
     "mlaa/hc-styles": "dev-master",
     "buddyboss/wall": "^1.2"
   },
