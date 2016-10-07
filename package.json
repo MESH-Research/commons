@@ -36,5 +36,8 @@
     "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.9",
     "portscanner": "^1.0.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^2.3.2"
   }
 }
