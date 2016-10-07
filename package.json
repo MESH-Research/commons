@@ -2,7 +2,7 @@
   "name": "mlaa-gulp",
   "version": "1.0.0",
   "description": "Gulpfile for mla development",
-  "main": "._gulpfile.js",
+  "main": "gulpfile.js",
   "directories": {
     "test": "tests"
   },
