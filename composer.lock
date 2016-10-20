@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9d03cbe8ad2ce5be9f8e6429d77bf615",
-    "content-hash": "8e449dc085f9408a01953c356f4fac84",
+    "hash": "16b2b65675e1cb69129b8f6e5475404f",
+    "content-hash": "34b134f3053139ede632bd37af2778dc",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -551,7 +551,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/3ce4a9bbbc52ea63d4aa59df7ff5796583a46011",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/2e911d8d9d3cfaba3258b1bedafed41a4875b48b",
                 "reference": "3ce4a9bbbc52ea63d4aa59df7ff5796583a46011",
                 "shasum": ""
             },
@@ -572,7 +572,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/efce6c9479f3365f9568f443788362e1f3f55575",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/5099901e040fd19c7f2fe92517443421cdecd468",
                 "reference": "d0df3b0db497ef0587a1d433d97933d7148bd6b8",
                 "shasum": ""
             },
@@ -663,6 +663,17 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2016-06-29 15:05:08"
+        },
+        {
+            "name": "mlaa/password-protected",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/password-protected.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-03-23 00:28:35"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1978,26 +1989,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/participants-database/"
-        },
-        {
-            "name": "wpackagist-plugin/password-protected",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/password-protected/",
-                "reference": "tags/2.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/password-protected.2.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/password-protected/"
         },
         {
             "name": "wpackagist-plugin/pressforward",
@@ -6927,6 +6918,7 @@
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
         "mlaa/mla-admin-bar": 20,
+        "mlaa/password-protected": 20,
         "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,

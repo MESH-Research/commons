@@ -165,6 +165,19 @@
           "reference": "master"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/password-protected",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/password-protected.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -218,7 +231,7 @@
     "wpackagist-plugin/openbook-book-data": "3.*",
     "wpackagist-plugin/options-framework": "1.8.5",
     "wpackagist-plugin/participants-database": "1.6.2.7",
-    "wpackagist-plugin/password-protected": "2.0.3",
+    "mlaa/password-protected": "dev-master",
     "wpackagist-plugin/pressforward": "3.8.0",
     "wpackagist-plugin/printfriendly": "3.4.5",
     "wpackagist-plugin/public-post-preview": "2.5.0",
