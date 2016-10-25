@@ -320,7 +320,8 @@
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
     "mlaa/hc-styles": "dev-master",
-    "buddyboss/wall": "^1.2"
+    "buddyboss/wall": "^1.2",
+    "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3"
   },
   "scripts": {
     "pre-update-cmd": [
