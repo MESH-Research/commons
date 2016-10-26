@@ -52,4 +52,15 @@ function mla_is_group_committee( $group_id = 0 ) {
 
 endif;
 
+
 load_plugin_textdomain( 'buddypress-sitewide-activity-widget', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+
+// prevent users from seeing one another's followers (can only see their own)
+// unfortunately there's no filter to prevent running the query, but we can at least empty the result before rendering
+function hcommons_filter_get_followers( $followers ) {
+	if ( bp_displayed_user_id() !== get_current_user_id() ) {
+		$followers = [];
+	}
+	return $followers;
+}
+add_filter( 'bp_follow_get_followers', 'hcommons_filter_get_followers' );
