@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Sitewide Activity\n"
+"POT-Creation-Date: 2015-10-22 02:18+0530\n"
+"PO-Revision-Date: 2016-10-26 09:53-0400\n"
+"Last-Translator: BuddyDev.com\n"
+"Language-Team: BuddyDev\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-KeywordsList: __;_e;_ex;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-"
+"sitewide-activity-widget\n"
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/template/post-form.php:6
+#, php-format
+msgid "What's new %s?"
+msgstr "What’s happening, %s?"
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/template/post-form.php:20
+msgid "Post in"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/template/post-form.php:23
+msgid "My Profile"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/template/post-form.php:37
+msgid "Post Update"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:66
+msgid "Profile"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:67
+msgid "Friends"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:68
+msgid "Groups"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:69
+msgid "Status"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:70
+msgid "Blogs"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:71
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:72
+msgid "Forums"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:86
+msgid "Clear Filter"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:210
+#, php-format
+msgid "You have no recent %s activity."
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:212
+msgid "There has been no recent site activity."
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:274
+msgid "Reply"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:286
+msgid "In reply to"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:287
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:287
+msgid "View"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:316
+msgid "Post"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/template.php:316
+msgid "or press esc to cancel."
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:11
+msgid "(BuddyPress) Site Wide Activity"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:59
+msgid "Site Wide Activity RSS Feed"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:59
+msgid "[RSS]"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:134
+msgid "Site Wide Activities"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:160
+msgid "Title:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:161
+msgid "Number of Items Per Page:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:162
+msgid "Max items to show:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:165
+msgid "Limit to Logged In user's activity:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:171
+msgid "List My Activity Only:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:179
+msgid "Show Avatar:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:185
+msgid "Show Feed Link:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:191
+msgid "Show Activity Content:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:198
+msgid "Limit activity content to:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:199
+msgid "words. Zero means no limit."
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:204
+msgid "Show Post Form"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:210
+msgid "Allow reply to activity item:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:216
+msgid "Show Activity Filters:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:225
+msgid "Include only following Filters:"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/widget.php:237
+msgid "Exclude following Components activity"
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/ajax.php:64
+msgid "Please enter some content to post."
+msgstr ""
+
+#: /var/www/bp/2.3/dev/wp-content/plugins/buddypress-sitewide-activity-widget/core/ajax.php:77
+msgid "There was a problem posting your update, please try again."
+msgstr ""

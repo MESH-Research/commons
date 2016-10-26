@@ -51,3 +51,5 @@ function mla_is_group_committee( $group_id = 0 ) {
 }
 
 endif;
+
+load_plugin_textdomain( 'buddypress-sitewide-activity-widget', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
