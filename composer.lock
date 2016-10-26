@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae27a514c7b2109e36c2a7fbc0f86889",
-    "content-hash": "7968f573cd7ef1ca79bc94eb801685a5",
+    "hash": "bff1b3e42561001d93c8aa82c3e765a9",
+    "content-hash": "f217644fa6fdede4903cd8d5b267759e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -663,17 +663,6 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2016-06-29 15:05:08"
-        },
-        {
-            "name": "mlaa/password-protected",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/password-protected.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-10-20 16:46:46"
         },
         {
             "name": "mlaa/profession-theme",
@@ -6938,7 +6927,6 @@
         "mlaa/cbox-auth": 20,
         "mlaa/humcore": 20,
         "mlaa/mla-admin-bar": 20,
-        "mlaa/password-protected": 20,
         "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
