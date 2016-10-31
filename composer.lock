@@ -26,7 +26,8 @@
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-06-30 18:24:35"
         },
         {
             "name": "buddyboss/boss",
@@ -567,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "34b4184bc3775b315187ba0fab86e054409b9ca9"
+                "reference": "8ca752d03f0eb4a4ecc6e2011e5fdcc07dc926a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/34b4184bc3775b315187ba0fab86e054409b9ca9",
-                "reference": "34b4184bc3775b315187ba0fab86e054409b9ca9",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/8ca752d03f0eb4a4ecc6e2011e5fdcc07dc926a3",
+                "reference": "8ca752d03f0eb4a4ecc6e2011e5fdcc07dc926a3",
                 "shasum": ""
             },
             "require": {
@@ -590,7 +591,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/hcommons",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-10-27 16:29:30"
+            "time": "2016-10-31 21:13:40"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -3130,8 +3131,7 @@
                 "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin",
-            "time": "2014-01-12 20:30:40"
+            "type": "wordpress-plugin"
         },
         {
             "name": "bacon/bacon-string-utils",
@@ -6819,7 +6819,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress-group-email-subscription.3.6.0.zip",
-                "reference": "tags/3.6.0",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6839,7 +6839,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": "tags/0.8.4",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6859,7 +6859,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.1.zip",
-                "reference": "tags/1.5.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6879,7 +6879,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": "tags/1.0.9",
+                "reference": null,
                 "shasum": null
             },
             "require": {
