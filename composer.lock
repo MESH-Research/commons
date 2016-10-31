@@ -26,8 +26,7 @@
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin",
-            "time": "2016-10-13 19:51:49"
+            "type": "wordpress-plugin"
         },
         {
             "name": "buddyboss/boss",
@@ -333,9 +332,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
                 "reference": null,
-                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -547,12 +546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "27bc30755d7ea33337dd8995022ec65beb7428ae"
+                "reference": "57d13b0088ae5b25156c56343aaaf72672d7d8e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/27bc30755d7ea33337dd8995022ec65beb7428ae",
-                "reference": "27bc30755d7ea33337dd8995022ec65beb7428ae",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/57d13b0088ae5b25156c56343aaaf72672d7d8e1",
+                "reference": "57d13b0088ae5b25156c56343aaaf72672d7d8e1",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +559,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-10-31 19:49:34"
+            "time": "2016-10-31 20:12:55"
         },
         {
             "name": "mlaa/humcore",
@@ -673,7 +672,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-31 17:38:26"
+            "time": "2016-10-26 00:25:46"
         },
         {
             "name": "mlaa/profession-theme",
