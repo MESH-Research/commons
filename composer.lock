@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1880a46015c2c0b8c24678e05d94d69c",
-    "content-hash": "7d4ea917a5b58fb7ac3c73b4b720bb45",
+    "hash": "0e0d66a8d8a487b4f4d5f7fea648e367",
+    "content-hash": "b78d1b6a58fdbb0013ede91539f4385d",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -937,6 +937,17 @@
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=5.3.0"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "siteorigin/vantage-premium",
+            "version": "2.5.4",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/siteorigin-vantage-premium-2.5.4.zip",
+                "reference": null,
+                "shasum": "cdd3fe25859576bf272c628ba78952592e1e54b5"
             },
             "type": "wordpress-theme"
         },
@@ -2741,7 +2752,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/poseidon.1.1.2.zip",
-                "reference": null,
+                "reference": "1.1.2",
                 "shasum": null
             },
             "require": {
