@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "82b4d729709f3186d1bb19135b4dca04",
-    "content-hash": "38268f392e300135fa8f6086fc13491a",
+    "hash": "1880a46015c2c0b8c24678e05d94d69c",
+    "content-hash": "7d4ea917a5b58fb7ac3c73b4b720bb45",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2729,6 +2729,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/portfolio-press/"
+        },
+        {
+            "name": "wpackagist-theme/poseidon",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/poseidon/",
+                "reference": "1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/poseidon.1.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/poseidon/"
         },
         {
             "name": "wpackagist-theme/publish",
