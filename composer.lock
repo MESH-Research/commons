@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-13 19:51:49"
         },
         {
             "name": "buddyboss/boss",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "90c07528ceb7cdc7b95bdb0a47db6dd224647d1f"
+                "reference": "0022f4e19353d9a4561578a01c24a210d405d0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/90c07528ceb7cdc7b95bdb0a47db6dd224647d1f",
-                "reference": "90c07528ceb7cdc7b95bdb0a47db6dd224647d1f",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0022f4e19353d9a4561578a01c24a210d405d0db",
+                "reference": "0022f4e19353d9a4561578a01c24a210d405d0db",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,16 +326,16 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-09 21:48:53"
+            "time": "2016-11-10 15:23:18"
         },
         {
             "name": "mlaa/bp-block-member",
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
                 "reference": null,
-                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
+                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
