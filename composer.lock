@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-13 19:51:49"
+            "time": "2016-06-30 18:24:35"
         },
         {
             "name": "buddyboss/boss",
@@ -333,9 +333,9 @@
             "version": "1.4.1",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.1.zip",
+                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
                 "reference": null,
-                "shasum": "d1077dc41ce2e4bcdee88e842c7b3fd14c1e098b"
+                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:54:15"
+            "time": "2016-10-26 00:25:46"
         },
         {
             "name": "mlaa/profession-theme",
@@ -706,12 +706,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "821c864d675967dcdc32be8c74a33c9376d194f9"
+                "reference": "63d4e3174d7079fa67b3579fd281d2d0f3d62bde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/821c864d675967dcdc32be8c74a33c9376d194f9",
-                "reference": "821c864d675967dcdc32be8c74a33c9376d194f9",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/63d4e3174d7079fa67b3579fd281d2d0f3d62bde",
+                "reference": "63d4e3174d7079fa67b3579fd281d2d0f3d62bde",
                 "shasum": ""
             },
             "require": {
@@ -723,7 +723,7 @@
                 "source": "https://github.com/mlaa/profile/tree/hcommons",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2016-11-01 20:44:30"
+            "time": "2016-11-10 19:57:00"
         },
         {
             "name": "mlaa/shibboleth",
