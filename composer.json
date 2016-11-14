@@ -169,6 +169,19 @@
     {
       "type": "package",
       "package": {
+        "name": "r-a-y/bp-reply-by-email",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:r-a-y/bp-reply-by-email.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/password-protected",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -323,7 +336,8 @@
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
     "mlaa/password-protected": "dev-master",
     "wpackagist-theme/poseidon": "^1.1",
-    "siteorigin/vantage-premium": "^2.5"
+    "siteorigin/vantage-premium": "^2.5",
+    "r-a-y/bp-reply-by-email": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
