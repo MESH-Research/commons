@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "15f1c5e9dc914e9b2f1b372f64cbfabc",
-    "content-hash": "b1b432ed6360ee91d6fe2a3951109e2d",
+    "hash": "5db207aef68041445b42f555b1518cb8",
+    "content-hash": "068667dd8e3d1f90d2c33eb36ce14d1a",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -6910,6 +6910,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/simply-show-ids",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simply-show-ids/",
+                "reference": "tags/1.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simply-show-ids.1.3.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simply-show-ids/"
         },
         {
             "name": "wpackagist-plugin/user-switching",

@@ -362,6 +362,7 @@
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
     "wpackagist-plugin/user-switching": "^1.0",
-    "lucatume/wp-browser": "^1.14"
+    "lucatume/wp-browser": "^1.14",
+    "wpackagist-plugin/simply-show-ids": "^1.3"
   }
 }
