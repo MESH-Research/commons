@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "8495a21214fdd1cc30908de36d0b485bd4562794"
+                "reference": "9c078f780dbd51fa9f111eb162c643d5660ca6a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/8495a21214fdd1cc30908de36d0b485bd4562794",
-                "reference": "8495a21214fdd1cc30908de36d0b485bd4562794",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/9c078f780dbd51fa9f111eb162c643d5660ca6a6",
+                "reference": "9c078f780dbd51fa9f111eb162c643d5660ca6a6",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-17 17:48:49"
+            "time": "2016-11-17 18:16:15"
         },
         {
             "name": "mlaa/bp-block-member",
