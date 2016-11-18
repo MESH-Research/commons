@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5db207aef68041445b42f555b1518cb8",
-    "content-hash": "068667dd8e3d1f90d2c33eb36ce14d1a",
+    "hash": "051426b63a30267b0fe2d21f3093edb2",
+    "content-hash": "d6430cb85bd11342c0412c5efcb08df5",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2171,6 +2171,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+        },
+        {
+            "name": "wpackagist-plugin/so-css",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/so-css/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/so-css.1.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/so-css/"
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",

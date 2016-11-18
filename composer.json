@@ -337,7 +337,8 @@
     "mlaa/password-protected": "dev-master",
     "wpackagist-theme/poseidon": "^1.1",
     "siteorigin/vantage-premium": "^2.5",
-    "r-a-y/bp-reply-by-email": "dev-master"
+    "r-a-y/bp-reply-by-email": "dev-master",
+    "wpackagist-plugin/so-css": "^1.1"
   },
   "scripts": {
     "pre-update-cmd": [
