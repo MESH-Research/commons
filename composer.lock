@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "051426b63a30267b0fe2d21f3093edb2",
-    "content-hash": "d6430cb85bd11342c0412c5efcb08df5",
+    "hash": "348955dca2302dc49181711528ebd884",
+    "content-hash": "1de4b418c4f9d4346c26ab4fa5026bb5",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-03 21:32:32"
         },
         {
             "name": "buddyboss/boss",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1691,6 +1691,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/feedwordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/file-away",
+            "version": "3.9.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/file-away/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/file-away.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/file-away/"
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",
@@ -1963,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2183,7 +2203,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-css.1.1.2.zip",
-                "reference": null,
+                "reference": "tags/1.1.2",
                 "shasum": null
             },
             "require": {
@@ -2523,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6902,7 +6922,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": "tags/0.8.4",
+                "reference": null,
                 "shasum": null
             },
             "require": {

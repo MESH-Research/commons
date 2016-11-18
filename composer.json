@@ -338,7 +338,8 @@
     "wpackagist-theme/poseidon": "^1.1",
     "siteorigin/vantage-premium": "^2.5",
     "r-a-y/bp-reply-by-email": "dev-master",
-    "wpackagist-plugin/so-css": "^1.1"
+    "wpackagist-plugin/so-css": "^1.1",
+    "wpackagist-plugin/file-away": "3.9.6.1"
   },
   "scripts": {
     "pre-update-cmd": [
