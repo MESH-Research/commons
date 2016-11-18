@@ -55,6 +55,8 @@ endif;
 
 load_plugin_textdomain( 'buddypress-sitewide-activity-widget', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
 
+load_plugin_textdomain( 'invite-anyone', false, dirname( basename( __FILE__ ) ). '/languages/' );
+
 // prevent users from seeing one another's followers (can only see their own)
 // unfortunately there's no filter to prevent running the query, but we can at least empty the result before rendering
 function hcommons_filter_get_followers( $followers ) {
