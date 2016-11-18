@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "348955dca2302dc49181711528ebd884",
-    "content-hash": "1de4b418c4f9d4346c26ab4fa5026bb5",
+    "hash": "feb2e9e3ad94d9c7126357a729959422",
+    "content-hash": "e0dccde43593526ca863520d47aa1d76",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -26,8 +26,7 @@
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin",
-            "time": "2016-10-03 21:32:32"
+            "type": "wordpress-plugin"
         },
         {
             "name": "buddyboss/boss",
@@ -673,7 +672,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:54:15"
+            "time": "2016-10-26 00:25:46"
         },
         {
             "name": "mlaa/profession-theme",
@@ -776,12 +775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "c3354dd9a528454e02663b704d2b5cabc2c26839"
+                "reference": "f8a2050"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/c3354dd9a528454e02663b704d2b5cabc2c26839",
-                "reference": "c3354dd9a528454e02663b704d2b5cabc2c26839",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/f8a2050",
+                "reference": "f8a2050",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +795,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-09-07 20:21:06"
+            "time": "2016-11-14 16:30:06"
         },
         {
             "name": "monolog/monolog",
@@ -1543,7 +1542,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": null,
+                "reference": "tags/1.8.15",
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1622,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": null,
+                "reference": "tags/1.6.12",
                 "shasum": null
             },
             "require": {
@@ -1703,7 +1702,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/file-away.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1982,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": null,
+                "reference": "tags/2.9.45",
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2542,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": null,
+                "reference": "tags/3.2.6",
                 "shasum": null
             },
             "require": {
@@ -3213,8 +3212,7 @@
                 "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin",
-            "time": "2014-01-12 20:30:40"
+            "type": "wordpress-plugin"
         },
         {
             "name": "bacon/bacon-string-utils",
@@ -6922,7 +6920,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": null,
+                "reference": "tags/0.8.4",
                 "shasum": null
             },
             "require": {
