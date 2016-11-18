@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "feb2e9e3ad94d9c7126357a729959422",
-    "content-hash": "e0dccde43593526ca863520d47aa1d76",
+    "hash": "cc7e639a25628b4e7b8403c9c15f655a",
+    "content-hash": "a35e85d4236f0f6286d10d299093264b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -327,21 +327,6 @@
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
             "time": "2016-11-18 19:19:21"
-        },
-        {
-            "name": "mlaa/bp-block-member",
-            "version": "1.4.1",
-            "dist": {
-                "type": "zip",
-                "url": "/tmp/wordpress-packages/mlaa-bp-block-member-1.4.2.zip",
-                "reference": null,
-                "shasum": "7d66e42add7c50be33ce4f5e1a0a8ce060794a60"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
