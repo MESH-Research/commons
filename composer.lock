@@ -26,7 +26,8 @@
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-06-30 18:24:35"
         },
         {
             "name": "buddyboss/boss",
@@ -312,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "9c078f780dbd51fa9f111eb162c643d5660ca6a6"
+                "reference": "ba4a6b339139e2a801791043ccf070b2c35f3348"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/9c078f780dbd51fa9f111eb162c643d5660ca6a6",
-                "reference": "9c078f780dbd51fa9f111eb162c643d5660ca6a6",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ba4a6b339139e2a801791043ccf070b2c35f3348",
+                "reference": "ba4a6b339139e2a801791043ccf070b2c35f3348",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -325,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-17 18:16:15"
+            "time": "2016-11-18 19:19:21"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -3212,7 +3213,8 @@
                 "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2014-01-12 20:30:40"
         },
         {
             "name": "bacon/bacon-string-utils",
