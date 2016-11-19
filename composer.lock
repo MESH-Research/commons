@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-03 21:32:32"
         },
         {
             "name": "buddyboss/boss",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "ba4a6b339139e2a801791043ccf070b2c35f3348"
+                "reference": "af0d6049cfc9a76c8b55fed84d58a69ac0e714ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ba4a6b339139e2a801791043ccf070b2c35f3348",
-                "reference": "ba4a6b339139e2a801791043ccf070b2c35f3348",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/af0d6049cfc9a76c8b55fed84d58a69ac0e714ad",
+                "reference": "af0d6049cfc9a76c8b55fed84d58a69ac0e714ad",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-18 19:19:21"
+            "time": "2016-11-19 21:31:55"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "789d797952680282d57c958d95e6c8b99cc19673"
+                "reference": "caca9719331fd1715f3041fa8a180ed8b008f3be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/789d797952680282d57c958d95e6c8b99cc19673",
-                "reference": "789d797952680282d57c958d95e6c8b99cc19673",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/caca9719331fd1715f3041fa8a180ed8b008f3be",
+                "reference": "caca9719331fd1715f3041fa8a180ed8b008f3be",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-11-18 21:55:21"
+            "time": "2016-11-19 22:02:45"
         },
         {
             "name": "mlaa/humcore",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
