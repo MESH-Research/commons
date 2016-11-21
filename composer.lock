@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-03 21:32:32"
         },
         {
             "name": "buddyboss/boss",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -731,12 +731,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "da19aef29414dc7fcafd57cef5d32d156377912c"
+                "reference": "b82b5bec14b5cea04d07630395168aed3c728ec8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/da19aef29414dc7fcafd57cef5d32d156377912c",
-                "reference": "da19aef29414dc7fcafd57cef5d32d156377912c",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/b82b5bec14b5cea04d07630395168aed3c728ec8",
+                "reference": "b82b5bec14b5cea04d07630395168aed3c728ec8",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/hcommons"
             },
-            "time": "2016-08-02 14:54:53"
+            "time": "2016-11-21 16:53:05"
         },
         {
             "name": "mlaa/sparkpost-bp-mailer",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
