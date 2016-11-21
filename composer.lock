@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-13 19:51:49"
         },
         {
             "name": "buddyboss/boss",
@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "476f8a8f7d766ffa702ea6fb7be498b594317c9a"
+                "reference": "f351be81997c21ddbc1cb76af2e95ecacd5d8175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/476f8a8f7d766ffa702ea6fb7be498b594317c9a",
-                "reference": "476f8a8f7d766ffa702ea6fb7be498b594317c9a",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/f351be81997c21ddbc1cb76af2e95ecacd5d8175",
+                "reference": "f351be81997c21ddbc1cb76af2e95ecacd5d8175",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-21 15:52:33"
+            "time": "2016-11-21 16:08:55"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -923,7 +923,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-10-24 05:58:56"
         },
         {
             "name": "raygun/q-and-a",
