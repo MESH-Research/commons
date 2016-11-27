@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "b4a73f73247ed48c1d313c53f189f3b1f734439a"
+                "reference": "b7769e2df6790503d832a98957511503e0e7f187"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b4a73f73247ed48c1d313c53f189f3b1f734439a",
-                "reference": "b4a73f73247ed48c1d313c53f189f3b1f734439a",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b7769e2df6790503d832a98957511503e0e7f187",
+                "reference": "b7769e2df6790503d832a98957511503e0e7f187",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-11-23 19:03:20"
+            "time": "2016-11-26 16:05:41"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "92359fab2bf4bb6f1a85a0df8a64c8b5d4c59198"
+                "reference": "8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/92359fab2bf4bb6f1a85a0df8a64c8b5d4c59198",
-                "reference": "92359fab2bf4bb6f1a85a0df8a64c8b5d4c59198",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429",
+                "reference": "8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-11-21 20:29:10"
+            "time": "2016-11-27 23:08:39"
         },
         {
             "name": "mlaa/humcore",
