@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429"
+                "reference": "dc2adf101e46fa48da9eb60ecd07b19cd26f0447"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429",
-                "reference": "8d5bc8c4e8d4131cf68e4fa6944dbe7c04110429",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/dc2adf101e46fa48da9eb60ecd07b19cd26f0447",
+                "reference": "dc2adf101e46fa48da9eb60ecd07b19cd26f0447",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-11-27 23:08:39"
+            "time": "2016-11-28 04:21:47"
         },
         {
             "name": "mlaa/humcore",
@@ -568,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "4dab8583dedc5b7e3d865ebd7c042a29280542a9"
+                "reference": "41714e23250166101cc52139d96fd1863941720a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/4dab8583dedc5b7e3d865ebd7c042a29280542a9",
-                "reference": "4dab8583dedc5b7e3d865ebd7c042a29280542a9",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/41714e23250166101cc52139d96fd1863941720a",
+                "reference": "41714e23250166101cc52139d96fd1863941720a",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +591,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/hcommons",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-11-13 01:22:04"
+            "time": "2016-11-28 04:15:08"
         },
         {
             "name": "mlaa/mla-academic-interests",
