@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-06-30 18:24:35"
+            "time": "2016-10-03 21:32:32"
         },
         {
             "name": "buddyboss/boss",
@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "dc2adf101e46fa48da9eb60ecd07b19cd26f0447"
+                "reference": "b3c5b984264dca4e354ff4dbeadee3acbf4c524c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/dc2adf101e46fa48da9eb60ecd07b19cd26f0447",
-                "reference": "dc2adf101e46fa48da9eb60ecd07b19cd26f0447",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b3c5b984264dca4e354ff4dbeadee3acbf4c524c",
+                "reference": "b3c5b984264dca4e354ff4dbeadee3acbf4c524c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-11-28 04:21:47"
+            "time": "2016-11-30 02:37:31"
         },
         {
             "name": "mlaa/humcore",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
