@@ -281,7 +281,6 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/profession-theme": "dev-master",
-    "mlaa/style-center": "dev-master#f8a2050",
     "siteorigin/vantage": "2.4.4",
     "themeforest/15zine": "2.2.3",
     "themesindep/simplemag": "3.0.4",
@@ -339,7 +338,8 @@
     "r-a-y/bp-reply-by-email": "dev-master",
     "wpackagist-plugin/so-css": "^1.1",
     "wpackagist-plugin/file-away": "3.9.6.1",
-    "mlaa/bp-block-member": "^1.4"
+    "mlaa/bp-block-member": "^1.4",
+    "mlaa/style-center": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [

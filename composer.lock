@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "be93b5bcb47009d2474e927cdecfa12c",
-    "content-hash": "fbfeb215982b9c7ab638ee35a6f0707e",
+    "hash": "3f7139ea830679c7d1eed8230692d25e",
+    "content-hash": "fe60360bd97020aa59a0396160bb4f47",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -776,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "f8a2050"
+                "reference": "7da8e287d98a46410001748acf7cc71f1d756a06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/f8a2050",
-                "reference": "f8a2050",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/7da8e287d98a46410001748acf7cc71f1d756a06",
+                "reference": "7da8e287d98a46410001748acf7cc71f1d756a06",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-11-14 16:30:06"
+            "time": "2016-11-17 22:09:45"
         },
         {
             "name": "monolog/monolog",
@@ -7026,7 +7026,6 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/profession-theme": 20,
-        "mlaa/style-center": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/mla-academic-interests": 20,
         "mlaa/shibboleth": 20,
@@ -7043,6 +7042,7 @@
         "mlaa/hc-styles": 20,
         "mlaa/password-protected": 20,
         "r-a-y/bp-reply-by-email": 20,
+        "mlaa/style-center": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
