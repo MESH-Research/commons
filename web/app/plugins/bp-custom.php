@@ -52,6 +52,14 @@ function mla_is_group_committee( $group_id = 0 ) {
 
 endif;
 
+function hcommons_filter_bp_get_group_type( $type, $group ) {
+	if ( mla_is_group_committee( $group->id ) ) {
+		$type = 'Committee';
+	}
+
+	return $type;
+}
+add_filter( 'bp_get_group_type', 'hcommons_filter_bp_get_group_type', null, 2 );
 
 load_plugin_textdomain( 'buddypress-sitewide-activity-widget', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
 
