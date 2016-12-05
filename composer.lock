@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3f7139ea830679c7d1eed8230692d25e",
-    "content-hash": "fe60360bd97020aa59a0396160bb4f47",
+    "hash": "add3b6a4d50f8b6fbcf7168d5f408dc3",
+    "content-hash": "9e6651cce28fd561d49e2f2c0e639cc7",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2051,6 +2051,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/participants-database/"
+        },
+        {
+            "name": "wpackagist-plugin/post-types-order",
+            "version": "1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-types-order/",
+                "reference": "tags/1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-types-order/"
         },
         {
             "name": "wpackagist-plugin/pressforward",
