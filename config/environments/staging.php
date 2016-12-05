@@ -7,8 +7,10 @@ define('DISALLOW_FILE_MODS', true); // this disables all file modifications incl
 
 /* Changes to vanilla Bedrock below this line */
 
+/* disabled due to self-signed ssl not working with cloudfront
 define('SUNRISE', 'on');
 define('PLUGINDIR', 'app/plugins');
+ */
 
 /* Disable outgoing mail */
 function wp_mail(){}
