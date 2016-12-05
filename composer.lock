@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:54:15"
+            "time": "2016-10-26 00:25:46"
         },
         {
             "name": "mlaa/profession-theme",
@@ -776,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "7da8e287d98a46410001748acf7cc71f1d756a06"
+                "reference": "200dac09ee657a5d338869cd509e6c99ff6e6403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/7da8e287d98a46410001748acf7cc71f1d756a06",
-                "reference": "7da8e287d98a46410001748acf7cc71f1d756a06",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/200dac09ee657a5d338869cd509e6c99ff6e6403",
+                "reference": "200dac09ee657a5d338869cd509e6c99ff6e6403",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2016-11-17 22:09:45"
+            "time": "2016-12-05 19:59:49"
         },
         {
             "name": "monolog/monolog",
@@ -923,7 +923,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-24 05:58:56"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "raygun/q-and-a",
