@@ -520,12 +520,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "501512d2c2b9dfe035b09198624b83f0ee529b6e"
+                "reference": "e1b16c8e55a26d21607140ebc732cf9e0c4cfae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/501512d2c2b9dfe035b09198624b83f0ee529b6e",
-                "reference": "501512d2c2b9dfe035b09198624b83f0ee529b6e",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/e1b16c8e55a26d21607140ebc732cf9e0c4cfae8",
+                "reference": "e1b16c8e55a26d21607140ebc732cf9e0c4cfae8",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -539,7 +539,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2016-11-22 20:40:14"
+            "time": "2016-12-05 17:13:11"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -923,7 +923,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-10-24 05:58:56"
         },
         {
             "name": "raygun/q-and-a",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": null,
+                "reference": "tags/1.8.15",
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": null,
+                "reference": "tags/1.6.12",
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": null,
+                "reference": "tags/2.9.45",
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": null,
+                "reference": "tags/3.2.6",
                 "shasum": null
             },
             "require": {
