@@ -13,4 +13,5 @@ define('PLUGINDIR', 'app/plugins');
  */
 
 /* Disable outgoing mail */
-function wp_mail(){}
+// testing sparkpost
+//function wp_mail(){}
