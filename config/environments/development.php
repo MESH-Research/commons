@@ -12,5 +12,4 @@ ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 /* Changes to vanilla Bedrock below this line */
 
 /* Disable outgoing mail */
-//testing sparkpost
-//function wp_mail(){}
+function wp_mail(){}
