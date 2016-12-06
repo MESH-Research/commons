@@ -313,12 +313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "031af0a96e66ea128d22877532d344e72e2bf042"
+                "reference": "7891bdf30057010a142371296447a00adb849fcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/031af0a96e66ea128d22877532d344e72e2bf042",
-                "reference": "031af0a96e66ea128d22877532d344e72e2bf042",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/7891bdf30057010a142371296447a00adb849fcf",
+                "reference": "7891bdf30057010a142371296447a00adb849fcf",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -326,7 +326,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-12-06 19:21:39"
+            "time": "2016-12-06 21:13:42"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:54:15"
+            "time": "2016-10-26 00:25:46"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": null,
+                "reference": "tags/1.8.15",
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": null,
+                "reference": "tags/1.6.12",
                 "shasum": null
             },
             "require": {
@@ -1983,7 +1983,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": null,
+                "reference": "tags/2.9.45",
                 "shasum": null
             },
             "require": {
@@ -2563,7 +2563,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": null,
+                "reference": "tags/3.2.6",
                 "shasum": null
             },
             "require": {
