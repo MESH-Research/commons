@@ -95,7 +95,7 @@ class MLA_Groups {
 	}
 
 	function add_status_filter() {
-		$str  = '<li class="filter-status">';
+		$str  = '<span class="filter-status">';
 		$str .= '<select id="groups-filter-by-status">';
 		$str .= '<option value="all">All Visibilities</option>';
 		$str .= '<option value="public">Public</option>';
@@ -103,19 +103,19 @@ class MLA_Groups {
 		if ( is_admin() || is_super_admin() ) {
 			$str .= '<option value="hidden">Hidden</option>';
 		}
-		$str .= '</select></li>';
+		$str .= '</select></span>';
 		echo $str;
 	}
 
 	function add_type_filter() {
-		$str  = '<li class="filter-type">';
+		$str  = '<span class="filter-type">';
 		$str .= '<select id="groups-filter-by-type">';
 		$str .= '<option value="all">All Types</option>';
 		$str .= '<option value="committees">Committees</option>';
 		$str .= '<option value="forums">Forums</option>';
 		$str .= '<option value="prospective_forums">Prospective Forums</option>';
 		$str .= '<option value="other">Other</option>';
-		$str .= '</select></li>';
+		$str .= '</select></span>';
 		echo $str;
 	}
 
@@ -123,9 +123,9 @@ class MLA_Groups {
 		if ( wp_script_is( 'jquery', 'done' ) ) { ?>
 			<script type="text/javascript">
 				if (jq.cookie('bp-groups-status')) {
-					jq('li.filter-status select').val(jq.cookie('bp-groups-status'));
+					jq('.filter-status select').val(jq.cookie('bp-groups-status'));
 			}
-			jq('li.filter-status select').change( function() {
+			jq('.filter-status select').change( function() {
 
 				if ( jq('.item-list-tabs li.selected').length )
 					var el = jq('.item-list-tabs li.selected');
@@ -157,9 +157,9 @@ class MLA_Groups {
 		if ( wp_script_is( 'jquery', 'done' ) ) { ?>
 		<script>
 			if (jq.cookie('bp-groups-status')) {
-				jq('li.filter-type select').val(jq.cookie('bp-groups-type'));
+				jq('.filter-type select').val(jq.cookie('bp-groups-type'));
 			}
-			jq('li.filter-type select').change( function() {
+			jq('.filter-type select').change( function() {
 
 				if ( jq('.item-list-tabs li.selected').length )
 					var el = jq('.item-list-tabs li.selected');
