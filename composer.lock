@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "add3b6a4d50f8b6fbcf7168d5f408dc3",
-    "content-hash": "9e6651cce28fd561d49e2f2c0e639cc7",
+    "hash": "86d37f34253f004fe941f8803969fcc8",
+    "content-hash": "6dde191f2b3ea04c3e60829dc723c1fb",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1691,26 +1691,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/feedwordpress/"
-        },
-        {
-            "name": "wpackagist-plugin/file-away",
-            "version": "3.9.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/file-away/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/file-away.zip",
-                "reference": "trunk",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/file-away/"
         },
         {
             "name": "wpackagist-plugin/force-regenerate-thumbnails",
