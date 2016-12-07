@@ -205,18 +205,20 @@ class MLA_Groups {
 				$value = '^U';
 				break;
 			}
+		} else if ( bp_is_user() && ! bp_is_user_profile() ) {
+			$value = '^U'; // exclude committees on member invite-anyone
+		}
 
-			if ( ! empty( $value ) ) {
-				if ( empty( $args['meta_query'] ) ) {
-					$args['meta_query'] = [];
-				}
-
-				$args['meta_query'][] = [
-					'key' => 'mla_oid',
-					'value' => $value,
-					'compare' => 'RLIKE',
-				];
+		if ( ! empty( $value ) ) {
+			if ( empty( $args['meta_query'] ) ) {
+				$args['meta_query'] = [];
 			}
+
+			$args['meta_query'][] = [
+				'key' => 'mla_oid',
+				'value' => $value,
+				'compare' => 'RLIKE',
+			];
 		}
 
 		return $args;
