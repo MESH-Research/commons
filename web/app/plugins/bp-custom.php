@@ -201,6 +201,9 @@ class MLA_Groups {
 			case 'prospective_forums':
 				$value = '^F';
 				break;
+			case 'other':
+				$value = '^U';
+				break;
 			}
 
 			if ( ! empty( $value ) ) {
