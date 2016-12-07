@@ -205,7 +205,7 @@ class MLA_Groups {
 				$value = '^U';
 				break;
 			}
-		} else if ( bp_is_user() && ! bp_is_user_profile() ) {
+		} else if ( bp_is_user() && false !== strpos( $_SERVER['REQUEST_URI'], 'invite-anyone' ) ) {
 			$value = '^U'; // exclude committees on member invite-anyone
 		}
 
