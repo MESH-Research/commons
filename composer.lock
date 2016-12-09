@@ -568,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "be9e2acfd649b627ff5f2ac98b0c698eea157370"
+                "reference": "955c8e7a5a48514957f60610f720584cc6f0427d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/be9e2acfd649b627ff5f2ac98b0c698eea157370",
-                "reference": "be9e2acfd649b627ff5f2ac98b0c698eea157370",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/955c8e7a5a48514957f60610f720584cc6f0427d",
+                "reference": "955c8e7a5a48514957f60610f720584cc6f0427d",
                 "shasum": ""
             },
             "require": {
@@ -591,7 +591,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/hcommons",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2016-12-08 13:36:49"
+            "time": "2016-12-09 13:29:09"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1963,7 +1963,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
