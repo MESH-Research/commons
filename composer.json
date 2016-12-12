@@ -322,7 +322,6 @@
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
-    "mlaa/humanities-commons": "dev-hcommons",
     "buddyboss/boss": "^2.2",
     "mlaa/boss-child": "dev-master",
     "wpbakery/visual-composer": "^4.12",
