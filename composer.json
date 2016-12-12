@@ -338,7 +338,8 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/style-center": "dev-master",
     "wpackagist-plugin/post-types-order": "^1.9",
-    "mlaa/profile": "dev-master"
+    "mlaa/profile": "dev-master",
+    "mlaa/humanities-commons": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [

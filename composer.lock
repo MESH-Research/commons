@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cbeb790e577a174ea48ec9a0af8bbb6a",
-    "content-hash": "2322a61d729f0291ae63db1467cf4ca8",
+    "hash": "fa01d6e3019f1b4800d3a02e1585a79d",
+    "content-hash": "9b33163c14652a60ef6fa30a95cee69c",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -540,6 +540,27 @@
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
             "time": "2016-12-05 17:13:11"
+        },
+        {
+            "name": "mlaa/humanities-commons",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/humanities-commons.git",
+                "reference": "c1cff28626681963d50ff3d14adfc3cdae1bf350"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c1cff28626681963d50ff3d14adfc3cdae1bf350",
+                "reference": "c1cff28626681963d50ff3d14adfc3cdae1bf350",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/humanities-commons/tree/hcommons",
+                "issues": "https://github.com/mlaa/humanities-commons/issues"
+            },
+            "time": "2016-12-09 21:58:42"
         },
         {
             "name": "mlaa/humcore",
@@ -7021,6 +7042,7 @@
         "r-a-y/bp-reply-by-email": 20,
         "mlaa/style-center": 20,
         "mlaa/profile": 20,
+        "mlaa/humanities-commons": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
