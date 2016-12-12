@@ -309,7 +309,6 @@
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "mlaa/mla-academic-interests": "dev-hcommons",
     "wpackagist-plugin/wp-multi-network": "1.8.1",
-    "mlaa/shibboleth": "dev-hcommons",
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
     "wpackagist-theme/portfolio-press": "^2.7",
@@ -339,7 +338,8 @@
     "mlaa/style-center": "dev-master",
     "wpackagist-plugin/post-types-order": "^1.9",
     "mlaa/profile": "dev-master",
-    "mlaa/humanities-commons": "dev-master"
+    "mlaa/humanities-commons": "dev-master",
+    "mlaa/shibboleth": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [

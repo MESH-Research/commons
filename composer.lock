@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fa01d6e3019f1b4800d3a02e1585a79d",
-    "content-hash": "9b33163c14652a60ef6fa30a95cee69c",
+    "hash": "8417ffa77377b1e3818fa1da0532296a",
+    "content-hash": "da27fb637029a6e90885759037f0ddbd",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -727,7 +727,7 @@
         },
         {
             "name": "mlaa/shibboleth",
-            "version": "dev-hcommons",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
@@ -1543,7 +1543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1623,7 +1623,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1963,7 +1963,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2543,7 +2543,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -7028,7 +7028,6 @@
         "mlaa/profession-theme": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/mla-academic-interests": 20,
-        "mlaa/shibboleth": 20,
         "mlaa/mla-allowed-tags": 20,
         "boonebgorges/buddypress-docs": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
@@ -7043,6 +7042,7 @@
         "mlaa/style-center": 20,
         "mlaa/profile": 20,
         "mlaa/humanities-commons": 20,
+        "mlaa/shibboleth": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
