@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7e6cc5caf8027007b7160e9397d04c40",
-    "content-hash": "f4d02cd076428b7e9d7def1e0c91e298",
+    "hash": "bef85c618a65b8e7c5a0cdc0427c3990",
+    "content-hash": "9982baa14aad3441ed7280d6f4ad122f",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -699,6 +699,31 @@
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
             "time": "2016-09-21 14:42:47"
+        },
+        {
+            "name": "mlaa/profile",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/profile.git",
+                "reference": "e76079f5c619da4a96ea64a2f0348afca5a3f968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/e76079f5c619da4a96ea64a2f0348afca5a3f968",
+                "reference": "e76079f5c619da4a96ea64a2f0348afca5a3f968",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": "^5.5 || ^7.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/profile/tree/hcommons",
+                "issues": "https://github.com/mlaa/profile/issues"
+            },
+            "time": "2016-12-01 21:13:15"
         },
         {
             "name": "mlaa/shibboleth",
@@ -7017,6 +7042,7 @@
         "mlaa/password-protected": 20,
         "r-a-y/bp-reply-by-email": 20,
         "mlaa/style-center": 20,
+        "mlaa/profile": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
