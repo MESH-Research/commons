@@ -75,8 +75,11 @@ function hcommons_filter_get_followers( $followers ) {
 }
 add_filter( 'bp_follow_get_followers', 'hcommons_filter_get_followers' );
 
-
-
+function hcommons_filter_groups_activity_new_update_action( $activity_action ) {
+	$activity_action = preg_replace( '/(in the group <a href="[^"]*)(">)/', '\1activity\2', $activity_action );
+	return $activity_action;
+}
+add_filter( 'groups_activity_new_update_action', 'hcommons_filter_groups_activity_new_update_action' );
 
 
 
