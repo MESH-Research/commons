@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e8d219039ecab552ed230c34ccb02dae",
-    "content-hash": "5070c800e77a18b0a75aa35cd3d5b6f8",
+    "hash": "441ebfef01805fef22d11e62084bf402",
+    "content-hash": "0aa288c7af861621d4be9e316a86a973",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -797,6 +797,17 @@
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
             "time": "2016-12-05 20:50:45"
+        },
+        {
+            "name": "mmlc/lesmiserables-wordpress-theme",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.1.zip",
+                "reference": null,
+                "shasum": "7989e2d890c54826a1530d4d3839d32cc56ddab3"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "monolog/monolog",
