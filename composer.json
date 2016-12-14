@@ -232,7 +232,7 @@
     "wpackagist-plugin/google-document-embedder": "2.*",
     "wpackagist-plugin/google-sitemap-generator": "4.*",
     "wpackagist-plugin/highlight-search-terms": "1.3.9.1",
-    "wpackagist-plugin/invite-anyone": "1.3.9",
+    "wpackagist-plugin/invite-anyone": "^1.3",
     "wpackagist-plugin/issuem": "2.5.0",
     "wpackagist-plugin/jquery-hover-footnotes": "1.*",
     "wpackagist-plugin/knight-lab-timelinejs": "3.3.14.0",
