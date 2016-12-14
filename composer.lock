@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "c0c057ea22a5f877f0696c2bcb8e8520d1632a89"
+                "reference": "c955c7487b4c18c41a06c353a8dea9f8cb14e7f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c0c057ea22a5f877f0696c2bcb8e8520d1632a89",
-                "reference": "c0c057ea22a5f877f0696c2bcb8e8520d1632a89",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c955c7487b4c18c41a06c353a8dea9f8cb14e7f9",
+                "reference": "c955c7487b4c18c41a06c353a8dea9f8cb14e7f9",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-12-12 18:25:10"
+            "time": "2016-12-14 19:32:35"
         },
         {
             "name": "mlaa/humcore",
@@ -1783,7 +1783,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/invite-anyone.1.3.12.zip",
-                "reference": null,
+                "reference": "tags/1.3.12",
                 "shasum": null
             },
             "require": {
