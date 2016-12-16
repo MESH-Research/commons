@@ -338,7 +338,7 @@
     "mlaa/style-center": "dev-master",
     "wpackagist-plugin/post-types-order": "^1.9",
     "mlaa/profile": "dev-master",
-    "mlaa/humanities-commons": "dev-master",
+    "mlaa/humanities-commons": "dev-whitelist_global_superadmins",
     "mlaa/shibboleth": "dev-master",
     "mmlc/lesmiserables-wordpress-theme": "^1.0"
   },
