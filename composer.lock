@@ -800,12 +800,12 @@
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.1.zip",
+                "url": "/tmp/wordpress-packages/mmlc-lesmiserables-wordpress-theme-1.0.2.zip",
                 "reference": null,
-                "shasum": "7989e2d890c54826a1530d4d3839d32cc56ddab3"
+                "shasum": "61f5fb4426e002715a055d2bb613d766c54c2ebf"
             },
             "type": "wordpress-theme"
         },
