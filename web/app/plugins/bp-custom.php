@@ -135,7 +135,7 @@ function hcommons_wp_footer() {
 		//$script = '<script>jQuery("footer#colophon").append("<br>"+jQuery("#hcommons-network-footer").html());</script>';
 		//echo $text . $script;
 
-		echo $text . $script;
+		echo $text;
 	}
 }
 add_action( 'wp_footer', 'hcommons_wp_footer' );
