@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52ffda04a17b804145f506df7b7b1278",
-    "content-hash": "fc8e2848738c05e3490fafad7186ab2b",
+    "hash": "2e3e93d610cb99989274b717ece46c36",
+    "content-hash": "e42b2071ad7a0e7bfe1475b670b270fc",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -342,6 +342,17 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "mlaa/bp-mpo-activity-filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-12-20 17:03:09"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -7034,6 +7045,7 @@
         "mlaa/profile": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/shibboleth": 20,
+        "mlaa/bp-mpo-activity-filter": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,

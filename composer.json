@@ -104,6 +104,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/bp-mpo-activity-filter",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "cuny-academic-commons/bp-event-organiser",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -339,7 +352,8 @@
     "mlaa/profile": "dev-master",
     "mlaa/humanities-commons": "dev-whitelist_global_superadmins",
     "mlaa/shibboleth": "dev-master",
-    "mmlc/lesmiserables-wordpress-theme": "^1.0"
+    "mmlc/lesmiserables-wordpress-theme": "^1.0",
+    "mlaa/bp-mpo-activity-filter": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
