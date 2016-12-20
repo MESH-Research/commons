@@ -365,7 +365,8 @@
     "mlaa/humanities-commons": "dev-whitelist_global_superadmins",
     "mlaa/shibboleth": "dev-master",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
-    "mlaa/bp-mpo-activity-filter": "dev-master"
+    "mlaa/bp-mpo-activity-filter": "dev-master",
+    "mlaa/bp-event-organiser": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
