@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -184,7 +184,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-08-31 14:22:11"
+            "time": "2016-11-08 14:32:49"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -547,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "9e8c9867797dce2fdebd861c85447e12dd5c3e92"
+                "reference": "cd8af465add0d45adb3f3a9816cc09894f5d806b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9e8c9867797dce2fdebd861c85447e12dd5c3e92",
-                "reference": "9e8c9867797dce2fdebd861c85447e12dd5c3e92",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/cd8af465add0d45adb3f3a9816cc09894f5d806b",
+                "reference": "cd8af465add0d45adb3f3a9816cc09894f5d806b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/whitelist_global_superadmins",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-12-19 19:42:40"
+            "time": "2016-12-20 16:32:51"
         },
         {
             "name": "mlaa/humcore",
@@ -673,7 +673,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-26 00:25:46"
+            "time": "2016-11-08 14:54:15"
         },
         {
             "name": "mlaa/profession-theme",
@@ -934,7 +934,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
