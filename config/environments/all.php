@@ -96,6 +96,7 @@ define('AJS_ROOT_BLOG_ID', getenv('AJS_ROOT_BLOG_ID'));
 define('ASEEES_ROOT_BLOG_ID', getenv('ASEEES_ROOT_BLOG_ID'));
 define('CAA_ROOT_BLOG_ID', getenv('CAA_ROOT_BLOG_ID'));
 define('MLA_ROOT_BLOG_ID', getenv('MLA_ROOT_BLOG_ID'));
+define('GLOBAL_SUPER_ADMINS', getenv('GLOBAL_SUPER_ADMINS'));
 
 /**
  * MLA Member API
