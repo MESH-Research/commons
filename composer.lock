@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-19 15:30:38"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -173,7 +173,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:32:49"
+            "time": "2016-08-31 14:22:11"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -302,12 +302,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "faa9f5de6304b9e77ddb3bff394626769cc47392"
+                "reference": "483a37240f8ba8e1ddfcd362deb8b6959cb8a313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/faa9f5de6304b9e77ddb3bff394626769cc47392",
-                "reference": "faa9f5de6304b9e77ddb3bff394626769cc47392",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/483a37240f8ba8e1ddfcd362deb8b6959cb8a313",
+                "reference": "483a37240f8ba8e1ddfcd362deb8b6959cb8a313",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -315,7 +315,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2016-12-20 19:25:32"
+            "time": "2016-12-22 21:25:40"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -945,7 +945,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-25 01:17:07"
+            "time": "2016-10-24 05:58:56"
         },
         {
             "name": "raygun/q-and-a",
