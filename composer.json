@@ -366,7 +366,8 @@
     "mlaa/shibboleth": "dev-master",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "mlaa/bp-mpo-activity-filter": "dev-master",
-    "mlaa/bp-event-organiser": "dev-master"
+    "mlaa/bp-event-organiser": "dev-master",
+    "wpackagist-plugin/tinymce-advanced": "^4.4"
   },
   "scripts": {
     "pre-update-cmd": [
