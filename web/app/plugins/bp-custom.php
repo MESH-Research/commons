@@ -146,7 +146,7 @@ function hcommons_filter_tiny_mce_before_init( $args ) {
 	$args['paste_as_text'] = 'true';
 	return $args;
 }
-add_filter( 'tiny_mce_before_init', 'hcommons_filter_tiny_mce_before_init' );
+//add_filter( 'tiny_mce_before_init', 'hcommons_filter_tiny_mce_before_init' );
 
 class MLA_Groups {
 
