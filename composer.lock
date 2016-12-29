@@ -558,20 +558,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "b02daddd2cf0e7df3de1af174c580b3e68bd4325"
+                "reference": "3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b02daddd2cf0e7df3de1af174c580b3e68bd4325",
-                "reference": "b02daddd2cf0e7df3de1af174c580b3e68bd4325",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2",
+                "reference": "3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/whitelist_global_superadmins",
+                "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2016-12-20 21:35:44"
+            "time": "2016-12-29 18:44:47"
         },
         {
             "name": "mlaa/humcore",
@@ -2285,7 +2285,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.3.zip",
-                "reference": null,
+                "reference": "tags/4.4.3",
                 "shasum": null
             },
             "require": {
