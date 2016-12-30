@@ -379,7 +379,8 @@
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "mlaa/bp-mpo-activity-filter": "dev-master",
     "mlaa/bp-event-organiser": "dev-master",
-    "wpackagist-plugin/tinymce-advanced": "^4.4"
+    "wpackagist-plugin/tinymce-advanced": "^4.4",
+    "mlaa/bp-multiple-forum-post": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [

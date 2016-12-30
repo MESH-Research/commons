@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a0e8ad1a35a8f6143bd54a1f3a4ae6f",
-    "content-hash": "9bef15a26588d6ab2be241f9709a9161",
+    "hash": "7337f80a6a85b208e07aa6116ebc9039",
+    "content-hash": "651dc92700ffd89fc6dc5ea8a0229b51",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -342,6 +342,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-12-20 17:03:09"
+        },
+        {
+            "name": "mlaa/bp-multiple-forum-post",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-multiple-forum-post.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-12-30 17:19:29"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -7054,6 +7065,7 @@
         "mlaa/shibboleth": 20,
         "mlaa/bp-mpo-activity-filter": 20,
         "mlaa/bp-event-organiser": 20,
+        "mlaa/bp-multiple-forum-post": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
