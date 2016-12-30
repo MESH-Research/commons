@@ -143,6 +143,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/bp-multiple-forum-post",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/bp-multiple-forum-post.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "cuny-academic-commons/bp-multiple-forum-post",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -341,7 +354,6 @@
     "mlaa/mla-allowed-tags": "dev-master",
     "boonebgorges/buddypress-docs": "dev-1.9.1",
     "boonebgorges/buddypress-group-email-subscription": "dev-master",
-    "cuny-academic-commons/bp-multiple-forum-post": "dev-master",
     "wpackagist-plugin/sparkpost": "2.3.0",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",

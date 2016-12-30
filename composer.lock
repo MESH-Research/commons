@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc8e259b43b4d2341ac9f506c5d4a270",
-    "content-hash": "0a685c58baed7b8fea67e51cf76b8d17",
+    "hash": "0a0e8ad1a35a8f6143bd54a1f3a4ae6f",
+    "content-hash": "9bef15a26588d6ab2be241f9709a9161",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -163,17 +163,6 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "cuny-academic-commons/bp-multiple-forum-post",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-11-08 14:32:49"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -7053,7 +7042,6 @@
         "mlaa/mla-allowed-tags": 20,
         "boonebgorges/buddypress-docs": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
-        "cuny-academic-commons/bp-multiple-forum-post": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/boss-child": 20,
