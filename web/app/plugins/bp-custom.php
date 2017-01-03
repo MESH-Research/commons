@@ -131,11 +131,10 @@ function hcommons_wp_footer() {
 			$society_url
 		);
 
-		// doesn't work too well after all. maybe later.
-		//$script = '<script>jQuery("footer#colophon").append("<br>"+jQuery("#hcommons-network-footer").html());</script>';
-		//echo $text . $script;
+		// fix commentpress
+		$script = '<script>jQuery(".cp_sidebar_toc #hcommons-network-footer").appendTo("#footer").css({"line-height": "2em"});</script>';
 
-		echo $text;
+		echo $text . $script;
 	}
 }
 add_action( 'wp_footer', 'hcommons_wp_footer' );
