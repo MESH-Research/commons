@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -717,12 +717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "d59768fa6d2e849428adee9c511e2477655fbdff"
+                "reference": "9ba128db93374e8d76a97713113a8886d5fdfde5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/d59768fa6d2e849428adee9c511e2477655fbdff",
-                "reference": "d59768fa6d2e849428adee9c511e2477655fbdff",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/9ba128db93374e8d76a97713113a8886d5fdfde5",
+                "reference": "9ba128db93374e8d76a97713113a8886d5fdfde5",
                 "shasum": ""
             },
             "require": {
@@ -731,10 +731,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/profile/tree/master",
+                "source": "https://github.com/mlaa/profile/tree/feature-improve-academic-interest-filter",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-01-03 18:59:45"
+            "time": "2017-01-05 23:42:01"
         },
         {
             "name": "mlaa/shibboleth",
@@ -945,7 +945,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-24 05:58:56"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
