@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7337f80a6a85b208e07aa6116ebc9039",
-    "content-hash": "651dc92700ffd89fc6dc5ea8a0229b51",
+    "hash": "db6cc8a3c6f65aa4e5905eac77b83dd6",
+    "content-hash": "46b546270e40a133eac9af6f871d3294",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -558,12 +558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "cdfa8c297f99ca4082808ef786192e52f2e3d13d"
+                "reference": "3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/cdfa8c297f99ca4082808ef786192e52f2e3d13d",
-                "reference": "cdfa8c297f99ca4082808ef786192e52f2e3d13d",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2",
+                "reference": "3d6fea14a6b70a2e36ac1097ec7785ab8339c6d2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -571,7 +571,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-01-06 22:21:58"
+            "time": "2016-12-29 18:44:47"
         },
         {
             "name": "mlaa/humcore",
@@ -945,7 +945,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-10-24 05:58:56"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
