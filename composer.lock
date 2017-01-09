@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4caa7fc8e8927336b5d679c77c27455a",
-    "content-hash": "fc8f3d0737682a240c4e3a8c584de03f",
+    "hash": "7337f80a6a85b208e07aa6116ebc9039",
+    "content-hash": "651dc92700ffd89fc6dc5ea8a0229b51",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "626071e2f6462eea43cf93ac7d1e68762140d97a"
+                "reference": "7ebc251fdd8e0c45efe22bdd8f0e324aadfd6018"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/626071e2f6462eea43cf93ac7d1e68762140d97a",
-                "reference": "626071e2f6462eea43cf93ac7d1e68762140d97a",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/7ebc251fdd8e0c45efe22bdd8f0e324aadfd6018",
+                "reference": "7ebc251fdd8e0c45efe22bdd8f0e324aadfd6018",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -304,7 +304,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-01-03 14:47:00"
+            "time": "2017-01-06 22:22:58"
         },
         {
             "name": "mlaa/bp-block-member",
