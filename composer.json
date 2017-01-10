@@ -221,6 +221,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/sparkpost",
+        "version": "dev-hotfix-hc-multinetwork",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/wordpress-sparkpost.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/password-protected",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -379,7 +392,8 @@
     "mlaa/bp-mpo-activity-filter": "dev-master",
     "mlaa/bp-event-organiser": "dev-master",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
-    "mlaa/bp-multiple-forum-post": "dev-master"
+    "mlaa/bp-multiple-forum-post": "dev-master",
+    "mlaa/sparkpost": "dev-hotfix-hc-multinetwork"
   },
   "scripts": {
     "pre-update-cmd": [
