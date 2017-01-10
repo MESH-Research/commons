@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a2d4f978d9a6008fea3f28485a2b34f",
-    "content-hash": "adfae57ef412f03822f840e130ff2d0b",
+    "hash": "a97b030fcefa30f8ec7ccc2e1d273cbc",
+    "content-hash": "c59bfeee3656cb2cb75b1477dbf66832",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -759,6 +759,17 @@
                 "source": "https://github.com/mlaa/shibboleth/tree/hcommons"
             },
             "time": "2016-11-21 16:53:05"
+        },
+        {
+            "name": "mlaa/sparkpost",
+            "version": "dev-hotfix-hc-multinetwork",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/wordpress-sparkpost.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-12-23 04:30:25"
         },
         {
             "name": "mlaa/sparkpost-bp-mailer",
@@ -7046,6 +7057,7 @@
         "mlaa/bp-mpo-activity-filter": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-multiple-forum-post": 20,
+        "mlaa/sparkpost": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
