@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a83fd7263928d22a08db30935ad58b9",
-    "content-hash": "a24dcd6e05e65b6fcb8d2db3b7abb4a8",
+    "hash": "0a2d4f978d9a6008fea3f28485a2b34f",
+    "content-hash": "adfae57ef412f03822f840e130ff2d0b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2233,26 +2233,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
-        },
-        {
-            "name": "wpackagist-plugin/sparkpost",
-            "version": "2.3.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/sparkpost/",
-                "reference": "tags/2.3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sparkpost.2.3.0.zip",
-                "reference": "tags/2.3.0",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sparkpost/"
         },
         {
             "name": "wpackagist-plugin/storify",
