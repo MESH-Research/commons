@@ -370,7 +370,7 @@
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "buddyboss/boss": "^2.2",
-    "mlaa/boss-child": "dev-master#626071e2f6462eea43cf93ac7d1e68762140d97a",
+    "mlaa/boss-child": "dev-hotfix-caa-colors",
     "wpbakery/visual-composer": "^4.12",
     "wpackagist-plugin/menu-icons": "^0.10.1",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",

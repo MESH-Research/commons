@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a97b030fcefa30f8ec7ccc2e1d273cbc",
-    "content-hash": "c59bfeee3656cb2cb75b1477dbf66832",
+    "hash": "608d828d8369d72cd82b30b6fdf0cad5",
+    "content-hash": "c57e8b3f0b364ffefd85336e54c2c857",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -287,24 +287,24 @@
         },
         {
             "name": "mlaa/boss-child",
-            "version": "dev-master",
+            "version": "dev-hotfix-caa-colors",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "626071e2f6462eea43cf93ac7d1e68762140d97a"
+                "reference": "66941565424c0bbe208c2b9e364aeeee6444a8ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/626071e2f6462eea43cf93ac7d1e68762140d97a",
-                "reference": "626071e2f6462eea43cf93ac7d1e68762140d97a",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/66941565424c0bbe208c2b9e364aeeee6444a8ac",
+                "reference": "66941565424c0bbe208c2b9e364aeeee6444a8ac",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/hotfix-caa-colors",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-01-03 14:47:00"
+            "time": "2017-01-11 16:16:46"
         },
         {
             "name": "mlaa/bp-block-member",
