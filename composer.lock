@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-19 15:30:38"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -558,12 +558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "cdfa8c297f99ca4082808ef786192e52f2e3d13d"
+                "reference": "885a17b3c99cdc91cd9fe4d381f0b52ee2e40b77"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/cdfa8c297f99ca4082808ef786192e52f2e3d13d",
-                "reference": "cdfa8c297f99ca4082808ef786192e52f2e3d13d",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/885a17b3c99cdc91cd9fe4d381f0b52ee2e40b77",
+                "reference": "885a17b3c99cdc91cd9fe4d381f0b52ee2e40b77",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -571,7 +571,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-01-06 22:21:58"
+            "time": "2017-01-10 17:40:56"
         },
         {
             "name": "mlaa/humcore",
@@ -945,7 +945,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-25 01:17:07"
+            "time": "2016-10-24 05:58:56"
         },
         {
             "name": "raygun/q-and-a",
