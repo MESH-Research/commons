@@ -742,12 +742,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "b82b5bec14b5cea04d07630395168aed3c728ec8"
+                "reference": "0333a2b1b2057091c8fc72af7ede3cfa5952cd38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/b82b5bec14b5cea04d07630395168aed3c728ec8",
-                "reference": "b82b5bec14b5cea04d07630395168aed3c728ec8",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/0333a2b1b2057091c8fc72af7ede3cfa5952cd38",
+                "reference": "0333a2b1b2057091c8fc72af7ede3cfa5952cd38",
                 "shasum": ""
             },
             "require": {
@@ -756,9 +756,9 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/shibboleth/tree/hcommons"
+                "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2016-11-21 16:53:05"
+            "time": "2017-01-17 19:03:51"
         },
         {
             "name": "mlaa/sparkpost",
