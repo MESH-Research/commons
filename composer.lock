@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6d0dfbb1f41857f56a0d923f954aff07",
-    "content-hash": "6e329b915066e50ab227a0e3d440224c",
+    "hash": "4337d57d3b190c9edfd05aeb56e4300b",
+    "content-hash": "950290229a403801d97d920215eb075e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -284,27 +284,6 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
-        },
-        {
-            "name": "mlaa/boss-child",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "5ab70b3dfea72290d3af042892d58deb76250f02"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/5ab70b3dfea72290d3af042892d58deb76250f02",
-                "reference": "5ab70b3dfea72290d3af042892d58deb76250f02",
-                "shasum": ""
-            },
-            "type": "wordpress-theme",
-            "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
-                "issues": "https://github.com/mlaa/boss-child/issues"
-            },
-            "time": "2017-01-17 21:42:51"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -7045,7 +7024,6 @@
         "boonebgorges/buddypress-group-email-subscription": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
-        "mlaa/boss-child": 20,
         "mlaa/hc-styles": 20,
         "mlaa/password-protected": 20,
         "r-a-y/bp-reply-by-email": 20,
