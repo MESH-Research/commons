@@ -392,7 +392,8 @@
     "mlaa/bp-event-organiser": "dev-master",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "mlaa/bp-multiple-forum-post": "dev-master",
-    "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#4b2d7d12d9a1a28e4b41552aa4a53fcb147369a9"
+    "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#4b2d7d12d9a1a28e4b41552aa4a53fcb147369a9",
+    "mlaa/humcore": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
