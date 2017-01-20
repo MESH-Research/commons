@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "19975607348bd746c91797ff462aeb4f",
-    "content-hash": "3e8b863cb4cf6831b3fb085a5d5f69ce",
+    "hash": "2afa1070fc3557d71ed72e8c4b8ea381",
+    "content-hash": "1338317743f306bf670123128c85468d",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -301,7 +301,7 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/develop",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
             "time": "2017-01-18 16:54:56"
@@ -599,7 +599,7 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/master",
+                "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2017-01-19 15:41:34"
@@ -956,7 +956,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
@@ -1556,7 +1556,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": null,
+                "reference": "tags/1.8.15",
                 "shasum": null
             },
             "require": {
@@ -1636,7 +1636,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": null,
+                "reference": "tags/1.6.12",
                 "shasum": null
             },
             "require": {
@@ -1906,26 +1906,6 @@
             "homepage": "https://wordpress.org/plugins/more-privacy-options/"
         },
         {
-            "name": "wpackagist-plugin/move-comments",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/move-comments/",
-                "reference": "tags/1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/move-comments.1.2.zip",
-                "reference": "tags/1.2",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/move-comments/"
-        },
-        {
             "name": "wpackagist-plugin/multisite-plugin-manager",
             "version": "3.1.5",
             "source": {
@@ -1976,7 +1956,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": null,
+                "reference": "tags/2.9.45",
                 "shasum": null
             },
             "require": {
@@ -2556,7 +2536,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": null,
+                "reference": "tags/3.2.6",
                 "shasum": null
             },
             "require": {
