@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -558,12 +558,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "81f3a6cdd7eb4488e1fb7aac1be20276a19e9f18"
+                "reference": "c766240f28fd3ca7fd8ea3bbb66df56ee6de82fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/81f3a6cdd7eb4488e1fb7aac1be20276a19e9f18",
-                "reference": "81f3a6cdd7eb4488e1fb7aac1be20276a19e9f18",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c766240f28fd3ca7fd8ea3bbb66df56ee6de82fa",
+                "reference": "c766240f28fd3ca7fd8ea3bbb66df56ee6de82fa",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -571,7 +571,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-01-17 19:39:57"
+            "time": "2017-01-23 14:56:07"
         },
         {
             "name": "mlaa/humcore",
@@ -599,7 +599,7 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/master",
+                "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2017-01-19 15:41:34"
@@ -956,7 +956,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
@@ -1556,7 +1556,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": null,
+                "reference": "tags/1.8.15",
                 "shasum": null
             },
             "require": {
@@ -1636,7 +1636,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": null,
+                "reference": "tags/1.6.12",
                 "shasum": null
             },
             "require": {
@@ -1976,7 +1976,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": null,
+                "reference": "tags/2.9.45",
                 "shasum": null
             },
             "require": {
@@ -2556,7 +2556,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": null,
+                "reference": "tags/3.2.6",
                 "shasum": null
             },
             "require": {
