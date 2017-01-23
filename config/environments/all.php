@@ -96,6 +96,11 @@ define('ASEEES_ROOT_BLOG_ID', getenv('ASEEES_ROOT_BLOG_ID'));
 define('CAA_ROOT_BLOG_ID', getenv('CAA_ROOT_BLOG_ID'));
 define('MLA_ROOT_BLOG_ID', getenv('MLA_ROOT_BLOG_ID'));
 define('GLOBAL_SUPER_ADMINS', getenv('GLOBAL_SUPER_ADMINS'));
+define('GOOGLE_IDP_URL', getenv('GOOGLE_IDP_URL'));
+define('TWITTER_IDP_URL', getenv('TWITTER_IDP_URL'));
+define('MLA_IDP_URL', getenv('MLA_IDP_URL'));
+define('HC_IDP_URL', getenv('HC_IDP_URL'));
+define('REGISTRY_SP_URL', getenv('REGISTRY_SP_URL'));
 
 /**
  * MLA Member API
