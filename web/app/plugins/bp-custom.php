@@ -83,6 +83,24 @@ add_filter( 'groups_activity_new_update_action', 'hcommons_filter_groups_activit
 
 
 /**
+ * remove urls in comments from comment notification emails so that we don't trigger spam filters
+ */
+function hcommons_filter_comment_notification_text( $text ) {
+	$delimiter = 'You can see all comments on this post here:';
+	$exploded_text = explode( $delimiter, $text );
+
+	// http://stackoverflow.com/a/6165666/700113
+	$pattern = "/(?i)\b((?:https?:\/\/|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))/";
+	$replace = '<url removed>';
+	$exploded_text[0] = preg_replace( $pattern, $replace, $exploded_text[0] );
+
+	$text = $exploded_text[0] . $delimiter . $exploded_text[1];
+
+	return $text;
+}
+add_filter( 'comment_notification_text', 'hcommons_filter_comment_notification_text' );
+
+/**
  * append some text to the bottom of any/all themes to tell users about HC and its networks
  */
 function hcommons_wp_footer() {
