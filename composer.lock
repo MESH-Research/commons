@@ -717,12 +717,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "9ba128db93374e8d76a97713113a8886d5fdfde5"
+                "reference": "011ec8df08411516ac72eb3772cc34e28388ce4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/9ba128db93374e8d76a97713113a8886d5fdfde5",
-                "reference": "9ba128db93374e8d76a97713113a8886d5fdfde5",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/011ec8df08411516ac72eb3772cc34e28388ce4d",
+                "reference": "011ec8df08411516ac72eb3772cc34e28388ce4d",
                 "shasum": ""
             },
             "require": {
@@ -731,10 +731,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/profile/tree/feature-improve-academic-interest-filter",
+                "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-01-05 23:42:01"
+            "time": "2017-02-07 20:51:18"
         },
         {
             "name": "mlaa/shibboleth",
