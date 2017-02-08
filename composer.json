@@ -391,8 +391,8 @@
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "mlaa/bp-multiple-forum-post": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
-    "mlaa/humcore": "dev-develop",
-    "mlaa/boss-child": "dev-develop"
+    "mlaa/humcore": "dev-master",
+    "mlaa/boss-child": "dev-master"
   },
   "scripts": {
     "pre-update-cmd": [
