@@ -387,7 +387,7 @@
     "mlaa/shibboleth": "dev-master",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "mlaa/bp-mpo-activity-filter": "dev-master",
-    "mlaa/bp-event-organiser": "dev-master",
+    "mlaa/bp-event-organiser": "dev-master#63ff721",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "mlaa/bp-multiple-forum-post": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
