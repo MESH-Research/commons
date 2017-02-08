@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0a0123547a632e469119e82aed075cd1",
-    "content-hash": "0e334032f684dcd7aa3a5cc3c39695d1",
+    "hash": "57890f5da82a0380ddace1be9ac567b3",
+    "content-hash": "010bee7cd71c5761ef44bfa090de5b13",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +27,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-19 15:30:38"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -291,12 +291,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "db1a4fcb879b68ce05f80f0d037afd74f7017477"
+                "reference": "48d9085491f821228e40b222437ce37f2d403e6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/db1a4fcb879b68ce05f80f0d037afd74f7017477",
-                "reference": "db1a4fcb879b68ce05f80f0d037afd74f7017477",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/48d9085491f821228e40b222437ce37f2d403e6d",
+                "reference": "48d9085491f821228e40b222437ce37f2d403e6d",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -304,7 +304,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/develop",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-01-23 21:00:38"
+            "time": "2017-01-30 19:53:55"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -554,24 +554,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "989313789d11b85ef89866c0c27344c2cd0aa914"
+                "reference": "cba71dce4dd192a042c5354f63928787c36c41b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/989313789d11b85ef89866c0c27344c2cd0aa914",
-                "reference": "989313789d11b85ef89866c0c27344c2cd0aa914",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/cba71dce4dd192a042c5354f63928787c36c41b3",
+                "reference": "cba71dce4dd192a042c5354f63928787c36c41b3",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-01-27 21:56:25"
+            "time": "2017-02-08 15:54:07"
         },
         {
             "name": "mlaa/humcore",
@@ -579,12 +579,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "f0685f07a09cfacfa7b1d9bef826fd43b4b80b18"
+                "reference": "05b024c677ee02c9959d5550ff81cbccbf5beb86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/f0685f07a09cfacfa7b1d9bef826fd43b4b80b18",
-                "reference": "f0685f07a09cfacfa7b1d9bef826fd43b4b80b18",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/05b024c677ee02c9959d5550ff81cbccbf5beb86",
+                "reference": "05b024c677ee02c9959d5550ff81cbccbf5beb86",
                 "shasum": ""
             },
             "require": {
@@ -602,7 +602,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-01-19 15:41:34"
+            "time": "2017-02-08 14:17:47"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -956,7 +956,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-25 01:17:07"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "raygun/q-and-a",
@@ -1556,7 +1556,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
-                "reference": "tags/1.8.15",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1636,7 +1636,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-made-easy.1.6.12.zip",
-                "reference": "tags/1.6.12",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1956,7 +1956,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
-                "reference": "tags/2.9.45",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2536,7 +2536,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
-                "reference": "tags/3.2.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
