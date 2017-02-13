@@ -392,7 +392,8 @@
     "mlaa/bp-multiple-forum-post": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
     "mlaa/humcore": "dev-master",
-    "mlaa/boss-child": "dev-master"
+    "mlaa/boss-child": "dev-master",
+    "wpackagist-plugin/wp-redis": "^0.6.0"
   },
   "scripts": {
     "pre-update-cmd": [
