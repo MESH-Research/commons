@@ -798,12 +798,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "57011ebcaa3b1c1090b2ce5d3bd69b55b005f748"
+                "reference": "29a64b7f2aa25b427b491f036988ff31a8d76960"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/57011ebcaa3b1c1090b2ce5d3bd69b55b005f748",
-                "reference": "57011ebcaa3b1c1090b2ce5d3bd69b55b005f748",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/29a64b7f2aa25b427b491f036988ff31a8d76960",
+                "reference": "29a64b7f2aa25b427b491f036988ff31a8d76960",
                 "shasum": ""
             },
             "require": {
@@ -818,7 +818,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-01-07 14:32:49"
+            "time": "2017-02-13 21:28:34"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
