@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5bb3553021d4a7bc1bc3c0d66a12ef1e",
-    "content-hash": "89e76a6e10210f313c22ed0fc84d9126",
+    "hash": "41db526ff8d18c00be65ede165ee650a",
+    "content-hash": "8b31b385a470b65008a73b09abfe7997",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -3019,21 +3019,6 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpmudev/simplemarket",
-            "version": "1.1.1.5",
-            "dist": {
-                "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-simplemarket-1.1.1.5.zip",
-                "reference": null,
-                "shasum": "0334a9f40e88fc3d0098b34367f1bdcfa2b68adc"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-theme"
         },
         {
             "name": "wpninjas/ninja-forms-conditionals",
