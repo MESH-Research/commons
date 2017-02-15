@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "04e2f110280193accc5fbd27d4d76f1f",
-    "content-hash": "df261f392fdae2c60e310a1256dfa041",
+    "hash": "c81a26886a6a70e70efdaef44231f984",
+    "content-hash": "a778b61ef2c07ddd62e7d51f127d2af4",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -39,17 +39,6 @@
                 "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
             },
             "type": "wordpress-theme"
-        },
-        {
-            "name": "buddyboss/wall",
-            "version": "1.2.7",
-            "dist": {
-                "type": "zip",
-                "url": "/tmp/wordpress-packages/buddyboss-wall-1.2.7.zip",
-                "reference": null,
-                "shasum": "3e08f089364fc965b435958079e90d56d932d520"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "composer/installers",
@@ -2925,7 +2914,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.1.zip",
-                "reference": null,
+                "reference": "1.1",
                 "shasum": null
             },
             "require": {
