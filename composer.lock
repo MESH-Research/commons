@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a9ff77aba226445114be94ce51056f3",
-    "content-hash": "07da4084ea9e6a6c4f1811c02e41fd17",
+    "hash": "4e4dd0f4c8de80e83f9734f952a6e6ba",
+    "content-hash": "324460302bcb046ceacf3660985ecd99",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1325,16 +1325,16 @@
         },
         {
             "name": "wpackagist-plugin/bp-groupblog",
-            "version": "1.8.12",
+            "version": "1.8.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/bp-groupblog/",
-                "reference": "tags/1.8.12"
+                "reference": "tags/1.8.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bp-groupblog.1.8.12.zip",
-                "reference": "tags/1.8.12",
+                "url": "https://downloads.wordpress.org/plugin/bp-groupblog.1.8.13.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1894,7 +1894,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/more-privacy-options.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
