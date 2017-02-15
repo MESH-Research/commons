@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "007738d7ef74a15beb0b88f2c57d3c14",
-    "content-hash": "95a2124233df97c8e378b412126547bd",
+    "hash": "2de1025e341dbeee2453152b424ca5ba",
+    "content-hash": "0880180b10847c32576e88c89a8b4f3a",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -199,6 +199,91 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "4.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ac7b1792641d1fb61cb2901db292903b31694057",
+                "reference": "ac7b1792641d1fb61cb2901db292903b31694057",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms"
+            ],
+            "time": "2017-01-26 18:32:19"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "mlaa/boss-child",
@@ -6979,7 +7064,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": null,
+                "reference": "tags/1.5.2",
                 "shasum": null
             },
             "require": {
@@ -7074,34 +7159,34 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "boonebgorges/buddypress-docs": 20,
+        "boonebgorges/buddypress-group-email-subscription": 20,
+        "cuny-academic-commons/cbox-theme": 20,
+        "mlaa/boss-child": 20,
+        "mlaa/bp-event-organiser": 20,
+        "mlaa/bp-mpo-activity-filter": 20,
+        "mlaa/bp-multiple-forum-post": 20,
+        "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/cbox-auth": 20,
-        "mlaa/mla-admin-bar": 20,
         "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
-        "mlaa/profession-theme": 20,
-        "cuny-academic-commons/cbox-theme": 20,
-        "mlaa/mla-academic-interests": 20,
-        "mlaa/mla-allowed-tags": 20,
-        "boonebgorges/buddypress-docs": 20,
-        "boonebgorges/buddypress-group-email-subscription": 20,
-        "mlaa/sparkpost-bp-mailer": 20,
-        "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/hc-styles": 20,
-        "mlaa/password-protected": 20,
-        "r-a-y/bp-reply-by-email": 20,
-        "mlaa/style-center": 20,
-        "mlaa/profile": 20,
         "mlaa/humanities-commons": 20,
-        "mlaa/shibboleth": 20,
-        "mlaa/bp-mpo-activity-filter": 20,
-        "mlaa/bp-event-organiser": 20,
-        "mlaa/bp-multiple-forum-post": 20,
-        "mlaa/sparkpost": 20,
         "mlaa/humcore": 20,
-        "mlaa/boss-child": 20,
+        "mlaa/mla-academic-interests": 20,
+        "mlaa/mla-admin-bar": 20,
+        "mlaa/mla-allowed-tags": 20,
+        "mlaa/password-protected": 20,
+        "mlaa/profession-theme": 20,
+        "mlaa/profile": 20,
+        "mlaa/shibboleth": 20,
+        "mlaa/sparkpost": 20,
+        "mlaa/sparkpost-bp-mailer": 20,
+        "mlaa/style-center": 20,
+        "r-a-y/bp-reply-by-email": 20,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
