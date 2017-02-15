@@ -4,9 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d5b8400fbba3135ae056a4c67dc7e718",
-    "content-hash": "8267106bab4831caf4a1d6966963a6fe",
+    "hash": "5d5d8ce719b9f803d831f2d2fd5049df",
+    "content-hash": "43de7db67a818d5bf556c5ee471f333f",
     "packages": [
+        {
+            "name": "boonebgorges/bp-mpo-activity-filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:boonebgorges/bp-mpo-activity-filter.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-12-21 18:48:03"
+        },
         {
             "name": "boonebgorges/buddypress-docs",
             "version": "dev-1.9.1",
@@ -7042,6 +7053,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "boonebgorges/bp-mpo-activity-filter": 20,
         "boonebgorges/buddypress-docs": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/cbox-theme": 20,
