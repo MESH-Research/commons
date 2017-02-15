@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3d0c26060c592d8e2bb7970a1419db96",
-    "content-hash": "70499fb57f6acbd31e8c388274991b27",
+    "hash": "fec1ce864b549221cc2013052e049f5c",
+    "content-hash": "e987bd413a262615faf19365e6f98acf",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2593,26 +2593,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpfront-notification-bar/"
-        },
-        {
-            "name": "wpackagist-theme/blaskan",
-            "version": "2.6.6",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/blaskan/",
-                "reference": "2.6.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blaskan.2.6.6.zip",
-                "reference": "2.6.6",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/blaskan/"
         },
         {
             "name": "wpackagist-theme/dispatch",

@@ -360,7 +360,6 @@
     "wpackagist-plugin/wp-redis": "^0.6.0",
     "wpackagist-plugin/wp-to-twitter": "3.2.6",
     "wpackagist-plugin/wpfront-notification-bar": "1.7",
-    "wpackagist-theme/blaskan": "*",
     "wpackagist-theme/dispatch": "2.2",
     "wpackagist-theme/foghorn": "*",
     "wpackagist-theme/hitchcock": "^1.06",
