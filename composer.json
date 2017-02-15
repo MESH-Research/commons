@@ -408,7 +408,7 @@
   "require-dev": {
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "codeception/codeception": "^2.2",
-    "lucatume/wp-browser": "^1.14",
+    "lucatume/wp-browser": "^1.19",
     "wpackagist-plugin/debug-bar": "^0.8.4",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
     "wpackagist-plugin/simply-show-ids": "^1.3",
