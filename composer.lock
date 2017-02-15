@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c0ef83c82b24980a34caa452f8f580f",
-    "content-hash": "557a0d2672a6935e0d488289686389bd",
+    "hash": "aac635c2e688774d96d67b87456bed57",
+    "content-hash": "6ff2a9934bca05bad1e81406162892ab",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2613,26 +2613,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/annotum-base/"
-        },
-        {
-            "name": "wpackagist-theme/arcade-basic",
-            "version": "1.0.7",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/arcade-basic/",
-                "reference": "1.0.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/arcade-basic.1.0.7.zip",
-                "reference": "1.0.7",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/arcade-basic/"
         },
         {
             "name": "wpackagist-theme/blaskan",
