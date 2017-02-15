@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aac635c2e688774d96d67b87456bed57",
-    "content-hash": "6ff2a9934bca05bad1e81406162892ab",
+    "hash": "3d0c26060c592d8e2bb7970a1419db96",
+    "content-hash": "70499fb57f6acbd31e8c388274991b27",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2593,26 +2593,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpfront-notification-bar/"
-        },
-        {
-            "name": "wpackagist-theme/annotum-base",
-            "version": "2.0",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/annotum-base/",
-                "reference": "2.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/annotum-base.2.0.zip",
-                "reference": "2.0",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/annotum-base/"
         },
         {
             "name": "wpackagist-theme/blaskan",
