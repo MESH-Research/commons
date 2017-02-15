@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fec1ce864b549221cc2013052e049f5c",
-    "content-hash": "e987bd413a262615faf19365e6f98acf",
+    "hash": "5bb3553021d4a7bc1bc3c0d66a12ef1e",
+    "content-hash": "89e76a6e10210f313c22ed0fc84d9126",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -2813,26 +2813,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/responsive/"
-        },
-        {
-            "name": "wpackagist-theme/simplemarket",
-            "version": "1.1.1",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/simplemarket/",
-                "reference": "1.1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/simplemarket.1.1.1.zip",
-                "reference": "1.1.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/simplemarket/"
         },
         {
             "name": "wpackagist-theme/sparkling",
