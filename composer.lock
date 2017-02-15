@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c043ebd09300a4502d1498e7660be3fe",
-    "content-hash": "eb5c7edaa68d4f98433ca9e0ce5cbe17",
+    "hash": "5e900e62a10ea63f89781d96f1b0650f",
+    "content-hash": "d7c13cf9016012c898d508de1423cad1",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -397,31 +397,6 @@
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
             "time": "2016-12-01 13:22:13"
-        },
-        {
-            "name": "mlaa/cbox-mla",
-            "version": "dev-hcommons",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/cbox-mla.git",
-                "reference": "3e414fd6bfa97f48821a376c76c175ef283e219b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla/zipball/3e414fd6bfa97f48821a376c76c175ef283e219b",
-                "reference": "3e414fd6bfa97f48821a376c76c175ef283e219b",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-theme",
-            "support": {
-                "source": "https://github.com/mlaa/cbox-mla/tree/hcommons",
-                "issues": "https://github.com/mlaa/cbox-mla/issues"
-            },
-            "time": "2016-07-25 21:35:40"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -7071,7 +7046,6 @@
         "mlaa/bp-multiple-forum-post": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/cbox-auth": 20,
-        "mlaa/cbox-mla": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
         "mlaa/commentpress-mla-digitalpedagogy": 20,
