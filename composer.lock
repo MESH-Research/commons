@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "158260666c86c193ca9cc091b7cac9ae",
-    "content-hash": "9bf4f5f57e199a034373aa3f2122e42b",
+    "hash": "a94b6fc30f706fc65922b3182a4c8da8",
+    "content-hash": "290acd8ba221a981041d4b19ac33c6f9",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1254,7 +1254,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bbpress.2.5.12.zip",
-                "reference": null,
+                "reference": "tags/2.5.12",
                 "shasum": null
             },
             "require": {
@@ -1485,16 +1485,16 @@
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cac-featured-content/",
-                "reference": "tags/1.0.6"
+                "reference": "tags/1.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.6.zip",
-                "reference": "tags/1.0.6",
+                "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.7.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
