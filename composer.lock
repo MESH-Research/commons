@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "163008e0845559dcf6d23a356e6a3273",
-    "content-hash": "69ff9c32c057fcdce0c108d4f7bfc6fb",
+    "hash": "007738d7ef74a15beb0b88f2c57d3c14",
+    "content-hash": "95a2124233df97c8e378b412126547bd",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -199,91 +199,6 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "johnpbloch/wordpress",
-            "version": "4.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "reference": "f5c6f4dd899e6365ddf2752d2705ed1de7e10715",
-                "shasum": ""
-            },
-            "require": {
-                "johnpbloch/wordpress-core-installer": "~0.2",
-                "php": ">=5.3.2"
-            },
-            "type": "wordpress-core",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
-            "homepage": "http://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms"
-            ],
-            "time": "2016-06-21 16:31:21"
-        },
-        {
-            "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "conflict": {
-                "composer/installers": "<1.0.6"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
-            },
-            "autoload": {
-                "psr-0": {
-                    "johnpbloch\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "John P. Bloch",
-                    "email": "me@johnpbloch.com"
-                }
-            ],
-            "description": "A custom installer to handle deploying WordPress with composer",
-            "keywords": [
-                "wordpress"
-            ],
-            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "mlaa/boss-child",
@@ -1285,7 +1200,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/black-studio-tinymce-widget.2.3.1.zip",
-                "reference": null,
+                "reference": "tags/2.3.1",
                 "shasum": null
             },
             "require": {
@@ -1745,7 +1660,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-document-embedder.2.6.2.zip",
-                "reference": null,
+                "reference": "tags/2.6.2",
                 "shasum": null
             },
             "require": {
@@ -1805,7 +1720,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/invite-anyone.1.3.14.zip",
-                "reference": null,
+                "reference": "tags/1.3.14",
                 "shasum": null
             },
             "require": {
@@ -1885,7 +1800,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/menu-icons.0.10.2.zip",
-                "reference": null,
+                "reference": "tags/0.10.2",
                 "shasum": null
             },
             "require": {
@@ -1945,7 +1860,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/network-plugin-auditor.1.10.1.zip",
-                "reference": null,
+                "reference": "tags/1.10.1",
                 "shasum": null
             },
             "require": {
@@ -2205,7 +2120,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/so-css.1.1.3.zip",
-                "reference": null,
+                "reference": "tags/1.1.3",
                 "shasum": null
             },
             "require": {
@@ -2545,7 +2460,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-redis.0.6.0.zip",
-                "reference": null,
+                "reference": "tags/0.6.0",
                 "shasum": null
             },
             "require": {
@@ -2825,7 +2740,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/poseidon.1.1.8.zip",
-                "reference": null,
+                "reference": "1.1.8",
                 "shasum": null
             },
             "require": {
@@ -2945,7 +2860,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/suits.1.3.zip",
-                "reference": null,
+                "reference": "1.3",
                 "shasum": null
             },
             "require": {

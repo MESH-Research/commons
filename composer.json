@@ -249,7 +249,6 @@
     "php": ">=5.5",
     "composer/installers": "1.0.23",
     "vlucas/phpdotenv": "v2.2.0",
-    "johnpbloch/wordpress": "4.5.3",
     "monolog/monolog": "1.18.1",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/mla-admin-bar": "dev-master",
