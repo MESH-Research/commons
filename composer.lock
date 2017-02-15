@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f79edb1b6103bdc1caf72ad225b40bac",
-    "content-hash": "87de25a4c1474435aaa1f4e1985d15d3",
+    "hash": "3c0ef83c82b24980a34caa452f8f580f",
+    "content-hash": "557a0d2672a6935e0d488289686389bd",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -1425,7 +1425,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress.2.7.4.zip",
-                "reference": null,
+                "reference": "tags/2.7.4",
                 "shasum": null
             },
             "require": {
@@ -2673,26 +2673,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/dispatch/"
-        },
-        {
-            "name": "wpackagist-theme/esquire",
-            "version": "1.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/esquire/",
-                "reference": "1.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/esquire.1.3.1.zip",
-                "reference": "1.3.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/esquire/"
         },
         {
             "name": "wpackagist-theme/foghorn",
