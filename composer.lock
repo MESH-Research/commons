@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a94b6fc30f706fc65922b3182a4c8da8",
-    "content-hash": "290acd8ba221a981041d4b19ac33c6f9",
+    "hash": "d5b8400fbba3135ae056a4c67dc7e718",
+    "content-hash": "8267106bab4831caf4a1d6966963a6fe",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -320,17 +320,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2017-02-08 21:15:28"
-        },
-        {
-            "name": "mlaa/bp-mpo-activity-filter",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
-                "reference": "master"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-12-20 17:03:09"
         },
         {
             "name": "mlaa/bp-multiple-forum-post",
@@ -1494,7 +1483,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.7.zip",
-                "reference": null,
+                "reference": "tags/1.0.7",
                 "shasum": null
             },
             "require": {
@@ -7058,7 +7047,6 @@
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/boss-child": 20,
         "mlaa/bp-event-organiser": 20,
-        "mlaa/bp-mpo-activity-filter": 20,
         "mlaa/bp-multiple-forum-post": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/cbox-auth": 20,
