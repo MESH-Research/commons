@@ -67,6 +67,11 @@ define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
 define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 
 /**
+ * Redis
+ */
+define('WP_CACHE_KEY_SALT', getenv('WP_CACHE_KEY_SALT'));
+
+/**
  * Humanities Commons
  */
 define('HC_SITE_ID', getenv('HC_SITE_ID'));
