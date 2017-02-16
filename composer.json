@@ -359,7 +359,7 @@
     "wpackagist-plugin/wp-to-twitter": "3.2.6",
     "wpackagist-plugin/wpfront-notification-bar": "1.7",
     "wpackagist-theme/dispatch": "^4.1",
-    "wpackagist-theme/foghorn": "*",
+    "wpackagist-theme/foghorn": "^0.3.0",
     "wpackagist-theme/hitchcock": "^1.06",
     "wpackagist-theme/hum": "*",
     "wpackagist-theme/maskitto-light": "3.2.3",
