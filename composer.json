@@ -301,7 +301,7 @@
     "wpackagist-plugin/printfriendly": "^3.7",
     "wpackagist-plugin/public-post-preview": "^2.5",
     "wpackagist-plugin/redux-framework": "3.5.9",
-    "wpackagist-plugin/scholarpress-coins": "1.*",
+    "wpackagist-plugin/scholarpress-coins": "^2.1",
     "wpackagist-plugin/shareadraft": "1.*",
     "wpackagist-plugin/siteorigin-panels": "2.3.2",
     "wpackagist-plugin/so-css": "^1.1",
