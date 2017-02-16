@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a7dc4d46c5e638453062a8e3000ea01",
+    "content-hash": "a2779aa208221688e0f8c0a749b73929",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2468,16 +2468,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-polls",
-            "version": "2.72",
+            "version": "2.73.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-polls/",
-                "reference": "tags/2.72"
+                "reference": "tags/2.73.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.72.zip",
-                "reference": "tags/2.72",
+                "url": "https://downloads.wordpress.org/plugin/wp-polls.2.73.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
