@@ -277,7 +277,7 @@
     "wpackagist-plugin/disable-password-reset-extended": "^1.0",
     "wpackagist-plugin/event-organiser": "^3.1",
     "wpackagist-plugin/events-made-easy": "^1.7",
-    "wpackagist-plugin/events-manager": "5.6.2",
+    "wpackagist-plugin/events-manager": "5.6.6.1",
     "wpackagist-plugin/fd-footnotes": "1.*",
     "wpackagist-plugin/feedwordpress": "2015.0514",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.*",
