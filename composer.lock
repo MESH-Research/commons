@@ -1997,7 +1997,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.1.12.zip",
-                "reference": null,
+                "reference": "tags/1.7.1.12",
                 "shasum": null
             },
             "require": {
