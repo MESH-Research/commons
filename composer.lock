@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "baf6e52a648f80e620b66332ecd35a52",
+    "content-hash": "cd3a7a1894e50cf44170e346a1d803e4",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1488,16 +1488,16 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.8.7",
+            "version": "3.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.8.7"
+                "reference": "tags/3.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.8.7.zip",
-                "reference": "tags/3.8.7",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
