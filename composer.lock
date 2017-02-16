@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7db6726f3821febe7cd8706f9e75f65a",
+    "content-hash": "dfee73706c878027b2c86456af897120",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1828,16 +1828,16 @@
         },
         {
             "name": "wpackagist-plugin/knight-lab-timelinejs",
-            "version": "3.3.14.0",
+            "version": "3.4.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
-                "reference": "tags/3.3.14.0"
+                "reference": "tags/3.4.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.14.0.zip",
-                "reference": "tags/3.3.14.0",
+                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.4.0.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
