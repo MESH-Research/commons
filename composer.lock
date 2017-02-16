@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfd8764468bb97c449f35d51ea51e8b6",
+    "content-hash": "d0f8d3ceeeb67dfc7d02dd4476473608",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1668,15 +1668,15 @@
         },
         {
             "name": "wpackagist-plugin/feedwordpress",
-            "version": "2015.0514",
+            "version": "2016.1213",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/feedwordpress/",
-                "reference": "tags/2015.0514"
+                "url": "https://plugins.svn.wordpress.org/feedwordpress/",
+                "reference": "tags/2016.1213"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2015.0514.zip",
+                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2016.1213.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -7063,6 +7063,7 @@
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
         "r-a-y/bp-reply-by-email": 20,
+        "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
     "prefer-stable": false,
