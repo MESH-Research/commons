@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4570b83778d0eb14418693974ddf068",
+    "content-hash": "b5623d4b92af052cfe614c12d40ac74e",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2357,7 +2357,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.5.10.zip",
-                "reference": null,
+                "reference": "tags/1.5.10",
                 "shasum": null
             },
             "require": {
@@ -2368,16 +2368,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-fail2ban",
-            "version": "2.3.2",
+            "version": "3.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/3.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.2.3.2.zip",
-                "reference": "tags/2.3.2",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.3.5.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {

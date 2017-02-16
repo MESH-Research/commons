@@ -314,7 +314,7 @@
     "wpackagist-plugin/wordpress-importer": "^0.6.3",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
     "wpackagist-plugin/wp-accessibility": "^1.5",
-    "wpackagist-plugin/wp-fail2ban": "2.*",
+    "wpackagist-plugin/wp-fail2ban": "^3.5",
     "wpackagist-plugin/wp-google-maps": "6.3.05",
     "wpackagist-plugin/wp-hide-dashboard": "2.*",
     "wpackagist-plugin/wp-markdown": "1.*",
