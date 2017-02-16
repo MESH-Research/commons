@@ -275,7 +275,7 @@
     "wpackagist-plugin/creative-commons-configurator-1": "^1.8",
     "wpackagist-plugin/custom-profile-filters-for-buddypress": "0.4",
     "wpackagist-plugin/disable-password-reset-extended": "^1.0",
-    "wpackagist-plugin/event-organiser": "3.1.4",
+    "wpackagist-plugin/event-organiser": "^3.1",
     "wpackagist-plugin/events-made-easy": "1.6.12",
     "wpackagist-plugin/events-manager": "5.6.2",
     "wpackagist-plugin/fd-footnotes": "1.*",

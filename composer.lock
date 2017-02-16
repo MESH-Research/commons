@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "270dd8a11890ab42edce6729de9407c1",
+    "content-hash": "c772ab67741e49032f71fbf772ea3c74",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1588,16 +1588,16 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.1.4",
+            "version": "3.1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.1.4"
+                "reference": "tags/3.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.1.4.zip",
-                "reference": "tags/3.1.4",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.1.7.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
