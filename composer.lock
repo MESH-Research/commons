@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa79a7a6f76cfc704b3a3e2915aa8d5c",
+    "content-hash": "a0405160e3785aa62e285058c2da0af6",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1928,15 +1928,15 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "2.9.45",
+            "version": "3.0.27",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/2.9.45"
+                "reference": "tags/3.0.27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.2.9.45.zip",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.27.zip",
                 "reference": null,
                 "shasum": null
             },
