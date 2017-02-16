@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7ec33ed63c092b1b76b58f613c2182a6",
-    "content-hash": "595f2bf09f6ea685eed92ef47682d96a",
+    "hash": "3a648d9e0eda9e426e0f777bad5aa30d",
+    "content-hash": "52ea92ad87076804f36ebd08994b480d",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2658,7 +2658,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/maskitto-light.3.4.0.zip",
-                "reference": null,
+                "reference": "3.4.0",
                 "shasum": null
             },
             "require": {
@@ -2669,16 +2669,16 @@
         },
         {
             "name": "wpackagist-theme/origin",
-            "version": "0.5.8",
+            "version": "0.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/origin/",
-                "reference": "0.5.8"
+                "reference": "0.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/origin.0.5.8.zip",
-                "reference": "0.5.8",
+                "url": "https://downloads.wordpress.org/theme/origin.0.6.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
