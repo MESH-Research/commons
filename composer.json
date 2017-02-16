@@ -311,7 +311,7 @@
     "wpackagist-plugin/typekit-fonts-for-wordpress": "^1.8",
     "wpackagist-plugin/video-thumbnails": "^2.12",
     "wpackagist-plugin/woosidebars": "^1.4",
-    "wpackagist-plugin/wordpress-importer": "0.6.1",
+    "wpackagist-plugin/wordpress-importer": "^0.6.3",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
     "wpackagist-plugin/wp-accessibility": "1.5.1",
     "wpackagist-plugin/wp-fail2ban": "2.*",
