@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "774b3021b3a8c4defaf4b2a6c2514de6",
-    "content-hash": "4f39ca6116ea5c345f5ccce8a6212828",
+    "hash": "c22e29f32872299acdb698dec2c77ffc",
+    "content-hash": "715a8d7c989534587179ca643f56d7ad",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2778,7 +2778,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/responsive.2.0.zip",
-                "reference": null,
+                "reference": "2.0",
                 "shasum": null
             },
             "require": {
@@ -2789,16 +2789,16 @@
         },
         {
             "name": "wpackagist-theme/sparkling",
-            "version": "2.2.2",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/sparkling/",
-                "reference": "2.2.2"
+                "reference": "2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sparkling.2.2.2.zip",
-                "reference": "2.2.2",
+                "url": "https://downloads.wordpress.org/theme/sparkling.2.3.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
