@@ -344,7 +344,7 @@
     "wpackagist-theme/twentysixteen": "^1.3",
     "wpackagist-theme/twentythirteen": "^2.1",
     "wpackagist-theme/twentytwelve": "^2.2",
-    "wpackagist-theme/vantage": "1.4.4",
+    "wpackagist-theme/vantage": "^1.5",
     "wpbakery/visual-composer": "^4.12",
     "wpmudev/google-analytics-async": "3.1.5.1",
     "wpninjas/ninja-forms-conditionals": "1.3.9",
