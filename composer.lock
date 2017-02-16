@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "31f8f2ee225726fc6238592af971ca02",
+    "content-hash": "5ce9779d2315ea11deb7b4e894658781",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1197,7 +1197,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.2.zip",
-                "reference": null,
+                "reference": "tags/3.2",
                 "shasum": null
             },
             "require": {

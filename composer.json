@@ -256,7 +256,7 @@
     "themesindep/simplemag": "^3.0",
     "vlucas/phpdotenv": "v2.2.0",
     "wpackagist-plugin/akismet": "^3.2",
-    "wpackagist-plugin/anthologize": "0.*",
+    "wpackagist-plugin/anthologize": "^0.7.7",
     "wpackagist-plugin/bbpress": "2.5.12",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
     "wpackagist-plugin/bp-blog-avatar": "1",
