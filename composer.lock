@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "169c68e19a0893f180abb4e91fa0e023",
-    "content-hash": "d51c44567e0d0f7b554dde0404915bc1",
+    "hash": "250aba17a4fe0725f840c828fc700453",
+    "content-hash": "05c0a8101e124d23e7845efc9729a703",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2569,16 +2569,16 @@
         },
         {
             "name": "wpackagist-theme/dispatch",
-            "version": "2.2",
+            "version": "4.1.4",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/dispatch/",
-                "reference": "2.2"
+                "reference": "4.1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/dispatch.2.2.zip",
-                "reference": "2.2",
+                "url": "https://downloads.wordpress.org/theme/dispatch.4.1.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
