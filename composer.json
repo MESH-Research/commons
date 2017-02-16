@@ -368,7 +368,7 @@
     "wpackagist-theme/poseidon": "^1.1",
     "wpackagist-theme/publish": "^1.2",
     "wpackagist-theme/radcliffe": "^1.17",
-    "wpackagist-theme/responsive": "1.9.8.0",
+    "wpackagist-theme/responsive": "^2.0",
     "wpackagist-theme/sparkling": "2.2.2",
     "wpackagist-theme/suits": "*",
     "wpackagist-theme/twentyeleven": "2.3",

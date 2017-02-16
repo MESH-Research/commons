@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9c0c5fe7dbb782fdc3e71503efa540b1",
-    "content-hash": "4549d6f4820c86f8048482e343c1bf10",
+    "hash": "774b3021b3a8c4defaf4b2a6c2514de6",
+    "content-hash": "4f39ca6116ea5c345f5ccce8a6212828",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2758,7 +2758,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/radcliffe.1.17.zip",
-                "reference": null,
+                "reference": "1.17",
                 "shasum": null
             },
             "require": {
@@ -2769,16 +2769,16 @@
         },
         {
             "name": "wpackagist-theme/responsive",
-            "version": "1.9.8.0",
+            "version": "2.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/responsive/",
-                "reference": "1.9.8.0"
+                "reference": "2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/responsive.1.9.8.0.zip",
-                "reference": "1.9.8.0",
+                "url": "https://downloads.wordpress.org/theme/responsive.2.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
