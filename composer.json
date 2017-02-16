@@ -263,7 +263,7 @@
     "wpackagist-plugin/bp-group-documents": "1.9.4",
     "wpackagist-plugin/bp-groupblog": "^1.8",
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
-    "wpackagist-plugin/bp-system-report": "0.*",
+    "wpackagist-plugin/bp-system-report": "^0.1.0",
     "wpackagist-plugin/buddydrive": "2.0.0",
     "wpackagist-plugin/buddypress": "2.7.4",
     "wpackagist-plugin/buddypress-followers": "^1.2",
