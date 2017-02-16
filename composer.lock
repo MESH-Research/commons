@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc76b5debb4581e7c5260891a55e1e32",
+    "content-hash": "27bd749d3fd9a14d60a157712d2ca203",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2148,16 +2148,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.3.2",
+            "version": "2.4.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/2.4.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.3.2.zip",
-                "reference": "tags/2.3.2",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.24.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
