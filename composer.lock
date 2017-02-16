@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1eeb95e8a91173f718f7cd4c8d9b330e",
+    "content-hash": "fc76b5debb4581e7c5260891a55e1e32",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2117,7 +2117,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/scholarpress-coins.2.1.zip",
-                "reference": null,
+                "reference": "tags/2.1",
                 "shasum": null
             },
             "require": {
