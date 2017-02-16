@@ -298,7 +298,7 @@
     "wpackagist-plugin/participants-database": "1.7.1.12",
     "wpackagist-plugin/post-types-order": "^1.9",
     "wpackagist-plugin/pressforward": "^4.2",
-    "wpackagist-plugin/printfriendly": "3.4.5",
+    "wpackagist-plugin/printfriendly": "^3.7",
     "wpackagist-plugin/public-post-preview": "2.5.0",
     "wpackagist-plugin/redux-framework": "3.5.9",
     "wpackagist-plugin/scholarpress-coins": "1.*",
