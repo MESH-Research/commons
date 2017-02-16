@@ -306,7 +306,7 @@
     "wpackagist-plugin/siteorigin-panels": "^2.4",
     "wpackagist-plugin/so-css": "^1.1",
     "wpackagist-plugin/so-widgets-bundle": "^1.8",
-    "wpackagist-plugin/storify": "1.*",
+    "wpackagist-plugin/storify": "^1.0",
     "wpackagist-plugin/tinymce-advanced": "^4.4",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "1.8.1",
     "wpackagist-plugin/video-thumbnails": "2.*",
