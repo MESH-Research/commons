@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0405160e3785aa62e285058c2da0af6",
+    "content-hash": "e10e20857c6a5c9bbe81a8a542012c8a",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1937,7 +1937,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.27.zip",
-                "reference": null,
+                "reference": "tags/3.0.27",
                 "shasum": null
             },
             "require": {

@@ -293,7 +293,7 @@
     "wpackagist-plugin/multisite-plugin-manager": "^3.1",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
     "wpackagist-plugin/ninja-forms": "^3.0",
-    "wpackagist-plugin/openbook-book-data": "3.*",
+    "wpackagist-plugin/openbook-book-data": "^3.5",
     "wpackagist-plugin/options-framework": "1.8.5",
     "wpackagist-plugin/participants-database": "1.6.2.7",
     "wpackagist-plugin/post-types-order": "^1.9",
