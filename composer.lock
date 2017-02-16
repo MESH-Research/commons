@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c26c203275b9a8b931e1d2fc316fbdf",
+    "content-hash": "37c1608173c0e13c6915973920d6dac4",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2028,16 +2028,16 @@
         },
         {
             "name": "wpackagist-plugin/pressforward",
-            "version": "3.8.0",
+            "version": "4.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pressforward/",
-                "reference": "tags/3.8.0"
+                "reference": "tags/4.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pressforward.3.8.0.zip",
-                "reference": "tags/3.8.0",
+                "url": "https://downloads.wordpress.org/plugin/pressforward.4.2.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
