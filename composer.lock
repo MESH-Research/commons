@@ -2678,7 +2678,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/origin.0.6.0.zip",
-                "reference": null,
+                "reference": "0.6.0",
                 "shasum": null
             },
             "require": {
