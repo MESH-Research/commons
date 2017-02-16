@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ff9ce3d812797ec6ae90e719cce1f39",
+    "content-hash": "270dd8a11890ab42edce6729de9407c1",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1537,7 +1537,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.27.zip",
-                "reference": null,
+                "reference": "tags/1.8.27",
                 "shasum": null
             },
             "require": {
