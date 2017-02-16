@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "772d8f23b9cf8c0b7ddbc8e0e8c8ff43",
+    "content-hash": "1cb14d069e69d9204502fd4fbd735147",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2248,16 +2248,16 @@
         },
         {
             "name": "wpackagist-plugin/typekit-fonts-for-wordpress",
-            "version": "1.8.1",
+            "version": "1.8.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/",
-                "reference": "tags/1.8.1"
+                "reference": "tags/1.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/typekit-fonts-for-wordpress.1.8.1.zip",
-                "reference": "tags/1.8.1",
+                "url": "https://downloads.wordpress.org/plugin/typekit-fonts-for-wordpress.1.8.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
