@@ -2477,7 +2477,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-polls.2.73.2.zip",
-                "reference": null,
+                "reference": "tags/2.73.2",
                 "shasum": null
             },
             "require": {
