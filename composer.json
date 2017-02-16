@@ -287,7 +287,7 @@
     "siteorigin/vantage-premium": "^2.5",
     "themeforest/15zine": "^2.2",
     "themesindep/shortcodes-indep": "^3.0",
-    "themesindep/simplemag": "3.0.4",
+    "themesindep/simplemag": "^3.0",
     "vlucas/phpdotenv": "v2.2.0",
     "wpackagist-plugin/akismet": "3.1.8",
     "wpackagist-plugin/anthologize": "0.*",
