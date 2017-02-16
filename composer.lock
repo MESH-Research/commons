@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d73b631558a5a9fa515c2a44ff6bf372",
+    "content-hash": "50c9d62fb608d7da9cf7a45a3e4d64ed",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1637,7 +1637,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/events-manager.5.6.6.1.zip",
-                "reference": null,
+                "reference": "tags/5.6.6.1",
                 "shasum": null
             },
             "require": {
