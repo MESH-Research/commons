@@ -15,15 +15,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/cac-advanced-profiles.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/cbox-auth.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/cbox-mla.git"
     },
     {
       "type": "vcs",
@@ -117,19 +109,6 @@
     {
       "type": "package",
       "package": {
-        "name": "cuny-academic-commons/bp-event-organiser",
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:cuny-academic-commons/bp-event-organiser.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "mlaa/bp-event-organiser",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -148,19 +127,6 @@
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/bp-multiple-forum-post.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "cuny-academic-commons/bp-multiple-forum-post",
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
           "type": "git",
           "reference": "master"
         }
