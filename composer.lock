@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "93dc0b4e7435262e38142c5328450f8b",
+    "content-hash": "1ff9ce3d812797ec6ae90e719cce1f39",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1517,7 +1517,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/commons-in-a-box.1.0.14.zip",
-                "reference": null,
+                "reference": "tags/1.0.14",
                 "shasum": null
             },
             "require": {
@@ -1528,15 +1528,15 @@
         },
         {
             "name": "wpackagist-plugin/creative-commons-configurator-1",
-            "version": "1.8.15",
+            "version": "1.8.27",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/creative-commons-configurator-1/",
-                "reference": "tags/1.8.15"
+                "reference": "tags/1.8.27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.15.zip",
+                "url": "https://downloads.wordpress.org/plugin/creative-commons-configurator-1.1.8.27.zip",
                 "reference": null,
                 "shasum": null
             },
