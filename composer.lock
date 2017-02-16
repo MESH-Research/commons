@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2779aa208221688e0f8c0a749b73929",
+    "content-hash": "8a6e079498a64144ee4fccc6961265af",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2528,15 +2528,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
-            "version": "3.2.6",
+            "version": "3.2.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
-                "reference": "tags/3.2.6"
+                "reference": "tags/3.2.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.17.zip",
                 "reference": null,
                 "shasum": null
             },
