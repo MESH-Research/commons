@@ -2317,7 +2317,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
-                "reference": null,
+                "reference": "tags/0.6.3",
                 "shasum": null
             },
             "require": {
