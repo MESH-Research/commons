@@ -2157,7 +2157,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.24.zip",
-                "reference": null,
+                "reference": "tags/2.4.24",
                 "shasum": null
             },
             "require": {
