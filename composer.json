@@ -255,7 +255,7 @@
     "themesindep/shortcodes-indep": "^3.0",
     "themesindep/simplemag": "^3.0",
     "vlucas/phpdotenv": "v2.2.0",
-    "wpackagist-plugin/akismet": "3.1.8",
+    "wpackagist-plugin/akismet": "^3.2",
     "wpackagist-plugin/anthologize": "0.*",
     "wpackagist-plugin/bbpress": "2.5.12",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.2",
