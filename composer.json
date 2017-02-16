@@ -259,7 +259,7 @@
     "wpackagist-plugin/anthologize": "^0.7.7",
     "wpackagist-plugin/bbpress": "2.5.12",
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.3",
-    "wpackagist-plugin/bp-blog-avatar": "1",
+    "wpackagist-plugin/bp-blog-avatar": "^1.0",
     "wpackagist-plugin/bp-group-documents": "1.9.4",
     "wpackagist-plugin/bp-groupblog": "1.8.13",
     "wpackagist-plugin/bp-lotsa-feeds": "1.0",
