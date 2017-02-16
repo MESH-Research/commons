@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3d2ce877593f8fc1a4f1394461cf47f",
+    "content-hash": "02f0c17b02f63678d918905b6ce78911",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2397,7 +2397,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
