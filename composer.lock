@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b9c9513699d3261c2190a20a27042df",
-    "content-hash": "f6630b3e7a7c361f31ee7f70c071b628",
+    "hash": "e41913420d69157ac1e392564ea924f8",
+    "content-hash": "584868720f1217609c845c58e1474930",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2829,16 +2829,16 @@
         },
         {
             "name": "wpackagist-theme/twentyeleven",
-            "version": "2.3",
+            "version": "2.5",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentyeleven/",
-                "reference": "2.3"
+                "reference": "2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.3.zip",
-                "reference": "2.3",
+                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
