@@ -324,6 +324,7 @@
     "wpackagist-plugin/wp-redis": "^0.6.0",
     "wpackagist-plugin/wp-to-twitter": "^3.2",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
+    "wpackagist-plugin/zotpress": "^6.1",
     "wpackagist-theme/dispatch": "^4.1",
     "wpackagist-theme/foghorn": "^0.3.0",
     "wpackagist-theme/hitchcock": "^1.06",

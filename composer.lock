@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "abe90b0e67e96ea5317daa8fc2b90f4b",
-    "content-hash": "eaf8b648ec6f29b1ba6a16607d56c09a",
+    "hash": "18d470844b78a98b6c7a7d39c9a73215",
+    "content-hash": "ae12ef5b3ef52a6031d1f68203b4a010",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2575,6 +2575,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpfront-notification-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/zotpress",
+            "version": "6.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/zotpress/",
+                "reference": "tags/6.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/zotpress.6.1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/zotpress/"
         },
         {
             "name": "wpackagist-theme/dispatch",
