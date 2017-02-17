@@ -325,16 +325,12 @@ class MLA_Groups {
 			}
 
 			if ( ! empty( $value ) ) {
-				if ( isset( $sql_arr['hidden'] ) ) {
-					$sql_arr['hidden'] = " AND g.status = '$value'";
-				} else {
-					// we must insert 'hidden' ourselves and it must be before ORDER BY (which has no key) and LIMIT ('pagination').
-					array_splice( $sql_arr, -2, 0, " AND g.status = '$value'" );
-				}
+				$sql_arr['where'] = ( ( isset( $sql_arr['where'] ) ) ? $sql_arr['where'] . ' AND ' : '' ) . "g.status = '$value'";
+				$sql_str = "{$sql_arr['select']} FROM {$sql_arr['from']} WHERE {$sql_arr['where']} {$sql_arr['orderby']} {$sql_arr['pagination']}";
 			}
 		}
 
-		return join( ' ', (array) $sql_arr );
+		return $sql_str;
 	}
 
 }
