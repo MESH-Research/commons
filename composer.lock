@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "603c91f29fe11ddf8be582a024bab767",
-    "content-hash": "14a2b739bc833ae8f973c66d1e32b8f7",
+    "hash": "abe90b0e67e96ea5317daa8fc2b90f4b",
+    "content-hash": "eaf8b648ec6f29b1ba6a16607d56c09a",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -3009,12 +3009,12 @@
         },
         {
             "name": "wpmudev/google-analytics-async",
-            "version": "3.1.5.1",
+            "version": "3.1.5.5",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.5.1.zip",
+                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.5.5.zip",
                 "reference": null,
-                "shasum": "db96679b8b352c5ee8893dd4b8df76eca4a9b97d"
+                "shasum": "53c4e731f622c1372cb218f9921509e9aec10e77"
             },
             "require": {
                 "composer/installers": "~1.0",
