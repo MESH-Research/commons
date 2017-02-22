@@ -113,6 +113,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/buddypress",
+        "version": "dev-2.8.1-hcommons",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/BuddyPress.git",
+          "type": "git",
+          "reference": "2.8.1-hcommons"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/bp-event-organiser",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -229,6 +242,7 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#63ff721",
     "mlaa/bp-multiple-forum-post": "dev-master",
+    "mlaa/buddypress": "dev-2.8.1-hcommons",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/cbox-mla-blog": "dev-master",
