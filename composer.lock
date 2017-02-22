@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "86164e7a91946089b7826c8395fd1685",
+    "content-hash": "0c936a33cbb62888cf12e1928c25d545",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -324,7 +324,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/bp-event-organiser.git",
-                "reference": "master"
+                "reference": "14b66da"
             },
             "type": "wordpress-plugin",
             "time": "2017-02-22 21:17:17"

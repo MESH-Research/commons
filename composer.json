@@ -240,7 +240,7 @@
     "johnpbloch/wordpress": "4.7.2",
     "mlaa/boss-child": "dev-master",
     "mlaa/bp-block-member": "^1.4",
-    "mlaa/bp-event-organiser": "dev-master",
+    "mlaa/bp-event-organiser": "dev-master#14b66da",
     "mlaa/bp-multiple-forum-post": "dev-master",
     "mlaa/buddypress": "dev-2.8.1-hcommons",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
