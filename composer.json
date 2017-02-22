@@ -270,7 +270,6 @@
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
     "wpackagist-plugin/bp-system-report": "^0.1.0",
     "wpackagist-plugin/buddydrive": "^2.0",
-    "wpackagist-plugin/buddypress": "^2.8",
     "wpackagist-plugin/buddypress-docs": "^1.9",
     "wpackagist-plugin/buddypress-followers": "^1.2",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
