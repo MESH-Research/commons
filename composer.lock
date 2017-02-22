@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc5f0d19694d89fe4b6341e3d17b5dbe",
+    "content-hash": "340307c8672176b029d27aeac81669e5",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1018,6 +1018,42 @@
                 "solr"
             ],
             "time": "2014-11-12T06:53:41+00:00"
+        },
+        {
+            "name": "stuttter/wp-multi-network",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stuttter/wp-multi-network.git",
+                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
+                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.2"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2 or later"
+            ],
+            "authors": [
+                {
+                    "name": "John James Jacoby",
+                    "email": "johnjamesjacoby@me.com"
+                }
+            ],
+            "description": "A Network Management UI for global administrators in WordPress Multisite",
+            "homepage": "https://github.com/stuttter/wp-multi-network",
+            "support": {
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "issues": "https://github.com/stuttter/wp-multi-network/issues"
+            },
+            "time": "2017-01-10 05:02:46"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -7082,6 +7118,7 @@
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
         "r-a-y/bp-reply-by-email": 20,
+        "stuttter/wp-multi-network": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20
     },
