@@ -319,7 +319,6 @@
     "wpackagist-plugin/wp-google-maps": "^6.4",
     "wpackagist-plugin/wp-hide-dashboard": "^2.2",
     "wpackagist-plugin/wp-markdown": "^1.5",
-    "wpackagist-plugin/wp-multi-network": "1.8.1",
     "wpackagist-plugin/wp-polls": "^2.73",
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
     "wpackagist-plugin/wp-redis": "^0.6.0",
