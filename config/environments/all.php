@@ -25,6 +25,10 @@ define('SUBDOMAIN_INSTALL', true);
 $base = '/';
 //define('DOMAIN_CURRENT_SITE', getenv('WP_DOMAIN'));
 
+// necessary to prevent redirect loops caused by session cookie confusion in wp >= 4.7
+// see https://core.trac.wordpress.org/changeset/38619#file1
+define( 'COOKIEHASH', '' );
+
 /* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
 define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
 define( 'COOKIE_DOMAIN', 'alpha.hcommons.org' );
