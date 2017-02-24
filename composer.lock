@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -716,12 +716,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "843e35a99efb7cd126eb2aaccd2bdb285c73fd09"
+                "reference": "3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/843e35a99efb7cd126eb2aaccd2bdb285c73fd09",
-                "reference": "843e35a99efb7cd126eb2aaccd2bdb285c73fd09",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e",
+                "reference": "3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e",
                 "shasum": ""
             },
             "require": {
@@ -733,7 +733,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-02-10 18:13:15"
+            "time": "2017-02-24 18:17:40"
         },
         {
             "name": "mlaa/shibboleth",
@@ -955,7 +955,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "raygun/q-and-a",
