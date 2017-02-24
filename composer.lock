@@ -298,7 +298,7 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/develop",
+                "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
             "time": "2017-02-16 19:52:06"
@@ -526,7 +526,7 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
@@ -540,7 +540,7 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
             "time": "2017-02-17 21:42:59"
@@ -689,12 +689,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "843e35a99efb7cd126eb2aaccd2bdb285c73fd09"
+                "reference": "3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/843e35a99efb7cd126eb2aaccd2bdb285c73fd09",
-                "reference": "843e35a99efb7cd126eb2aaccd2bdb285c73fd09",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e",
+                "reference": "3b2c9490f664211b4ef76a0f49ef7b5b7b8f160e",
                 "shasum": ""
             },
             "require": {
@@ -706,7 +706,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-02-10 18:13:15"
+            "time": "2017-02-24 18:17:40"
         },
         {
             "name": "mlaa/shibboleth",
