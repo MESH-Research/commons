@@ -20,7 +20,7 @@ define('PLUGINDIR', 'app/plugins');
 
 // Redis
 $redis_server = array(
-        'host'     => 'hc-dev-redis.gdrquz.ng.0001.use1.cache.amazonaws.com',
+        'host'     => 'hc-dev-redis.gdrquz.0001.use1.cache.amazonaws.com',
         'port'     => 6379,
         //'auth'     => '12345',
         //'database' => 0, // Optionally use a specific numeric Redis database. Default is 0.

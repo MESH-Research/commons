@@ -7,3 +7,11 @@ define('DISALLOW_FILE_MODS', true); // this disables all file modifications incl
 
 define('SUNRISE', 'on');
 define('PLUGINDIR', 'app/plugins');
+
+// Redis
+$redis_server = array(
+	'host'     => 'hc-prod-redis.gdrquz.0001.use1.cache.amazonaws.com',
+	'port'     => 6379,
+	//'auth'     => '12345',
+	//'database' => 0, // Optionally use a specific numeric Redis database. Default is 0.
+);
