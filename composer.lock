@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "163008e0845559dcf6d23a356e6a3273",
-    "content-hash": "69ff9c32c057fcdce0c108d4f7bfc6fb",
+    "content-hash": "85c01067a5af59779f1d37963f8c4017",
     "packages": [
         {
             "name": "boonebgorges/buddypress-docs",
@@ -27,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-01-04 08:55:00"
+            "time": "2016-12-19 15:30:38"
         },
         {
             "name": "buddyboss/boss",
@@ -717,12 +716,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "a755b2b2389e2ac69c718e3584f2eb81f22e64ee"
+                "reference": "6faf5589974c355dc1d5dc9faedafc653505d55f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/a755b2b2389e2ac69c718e3584f2eb81f22e64ee",
-                "reference": "a755b2b2389e2ac69c718e3584f2eb81f22e64ee",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/6faf5589974c355dc1d5dc9faedafc653505d55f",
+                "reference": "6faf5589974c355dc1d5dc9faedafc653505d55f",
                 "shasum": ""
             },
             "require": {
@@ -734,7 +733,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-02-27 20:49:58"
+            "time": "2017-02-28 14:16:20"
         },
         {
             "name": "mlaa/shibboleth",
@@ -2536,7 +2535,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-redis.0.6.0.zip",
-                "reference": null,
+                "reference": "tags/0.6.0",
                 "shasum": null
             },
             "require": {
