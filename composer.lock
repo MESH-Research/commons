@@ -2074,7 +2074,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/pressforward.4.2.2.zip",
-                "reference": null,
+                "reference": "tags/4.2.2",
                 "shasum": null
             },
             "require": {
@@ -2425,16 +2425,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "6.4.02",
+            "version": "6.4.03",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "tags/6.4.02"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.4.02.zip",
-                "reference": "tags/6.4.02",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
