@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "53eb2e5b4dd32cd0b6bd87ea8ae88cba",
+    "content-hash": "770758ad6eb40cb033c3cccc5a25b02f",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-19 15:30:38"
+            "time": "2017-01-04 08:55:00"
         },
         {
             "name": "buddyboss/boss",
@@ -349,7 +349,7 @@
                 "reference": "2.8.1-hcommons"
             },
             "type": "wordpress-plugin",
-            "time": "2017-02-22 18:39:04"
+            "time": "2017-02-24 19:54:55"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -530,12 +530,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "b230dfe826bc81ea8ecf71c5dd80fb2ed5c0b18d"
+                "reference": "eb68a5bded939e3832fcbd52158f2da4c6015184"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b230dfe826bc81ea8ecf71c5dd80fb2ed5c0b18d",
-                "reference": "b230dfe826bc81ea8ecf71c5dd80fb2ed5c0b18d",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/eb68a5bded939e3832fcbd52158f2da4c6015184",
+                "reference": "eb68a5bded939e3832fcbd52158f2da4c6015184",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -543,7 +543,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-02-17 21:42:59"
+            "time": "2017-02-21 16:59:48"
         },
         {
             "name": "mlaa/humcore",
@@ -2439,12 +2439,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/6.4.02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.6.4.02.zip",
+                "reference": "tags/6.4.02",
                 "shasum": null
             },
             "require": {
