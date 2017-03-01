@@ -230,6 +230,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/buddypress-messages-spam-blocker",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/buddypress-messages-spam-blocker.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/password-protected",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -257,6 +270,7 @@
     "mlaa/bp-multiple-forum-post": "dev-master",
     "mlaa/buddypress": "dev-2.8.1-hcommons",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
+    "mlaa/buddypress-messages-spam-blocker": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/cbox-mla-blog": "dev-master",
     "mlaa/commentpress-mla": "dev-master",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1f7c81a22ab10f4d562ac3d0d5f2978",
+    "content-hash": "ae86fcfcac9d07d6c7031ff2dae45371",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -371,6 +371,17 @@
                 "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
             },
             "time": "2016-06-29 21:14:47"
+        },
+        {
+            "name": "mlaa/buddypress-messages-spam-blocker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/buddypress-messages-spam-blocker.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-03-01 14:47:56"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -2534,7 +2545,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-redis.0.6.1.zip",
-                "reference": null,
+                "reference": "tags/0.6.1",
                 "shasum": null
             },
             "require": {
@@ -7081,6 +7092,7 @@
         "mlaa/bp-multiple-forum-post": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
+        "mlaa/buddypress-messages-spam-blocker": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
