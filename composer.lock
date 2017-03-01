@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3715ffd29412bb7de28c1767f64e2ca",
+    "content-hash": "069df47d28fc2c94104b94fb541e5016",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2025,16 +2025,16 @@
         },
         {
             "name": "wpackagist-plugin/participants-database",
-            "version": "1.7.1.12",
+            "version": "1.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/participants-database/",
-                "reference": "tags/1.7.1.12"
+                "reference": "tags/1.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.1.12.zip",
-                "reference": "tags/1.7.1.12",
+                "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2194,7 +2194,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.25.zip",
-                "reference": null,
+                "reference": "tags/2.4.25",
                 "shasum": null
             },
             "require": {

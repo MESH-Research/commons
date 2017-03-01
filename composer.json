@@ -327,7 +327,7 @@
     "wpackagist-plugin/ninja-forms": "^3.0",
     "wpackagist-plugin/openbook-book-data": "^3.5",
     "wpackagist-plugin/options-framework": "^1.8",
-    "wpackagist-plugin/participants-database": "1.7.1.12",
+    "wpackagist-plugin/participants-database": "^1.7",
     "wpackagist-plugin/post-types-order": "^1.9",
     "wpackagist-plugin/pressforward": "^4.2",
     "wpackagist-plugin/printfriendly": "^3.7",
