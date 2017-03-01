@@ -2054,7 +2054,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.3.zip",
-                "reference": null,
+                "reference": "tags/1.9.3",
                 "shasum": null
             },
             "require": {
@@ -2065,16 +2065,16 @@
         },
         {
             "name": "wpackagist-plugin/pressforward",
-            "version": "4.2.1",
+            "version": "4.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pressforward/",
-                "reference": "tags/4.2.1"
+                "reference": "tags/4.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pressforward.4.2.1.zip",
-                "reference": "tags/4.2.1",
+                "url": "https://downloads.wordpress.org/plugin/pressforward.4.2.2.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
