@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "754d1c7b2f1941c99945e6f788f76151",
+    "content-hash": "e034abe055b5f0608eb5fdc2b2cdee36",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1244,7 +1244,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/akismet.3.3.zip",
-                "reference": null,
+                "reference": "tags/3.3",
                 "shasum": null
             },
             "require": {
@@ -1452,26 +1452,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-docs/"
-        },
-        {
-            "name": "wpackagist-plugin/buddypress-followers",
-            "version": "1.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress-followers/",
-                "reference": "tags/1.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-followers.1.2.1.zip",
-                "reference": "tags/1.2.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddypress-followers/"
         },
         {
             "name": "wpackagist-plugin/buddypress-sitewide-activity-widget",
