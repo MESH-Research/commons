@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "770758ad6eb40cb033c3cccc5a25b02f",
+    "content-hash": "754d1c7b2f1941c99945e6f788f76151",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1235,16 +1235,16 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "3.2",
+            "version": "3.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/3.2"
+                "reference": "tags/3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.3.2.zip",
-                "reference": "tags/3.2",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
