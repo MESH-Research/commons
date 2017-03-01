@@ -204,6 +204,19 @@
     {
       "type": "package",
       "package": {
+        "name": "r-a-y/buddypress-followers",
+        "version": "1.2.2",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:r-a-y/buddypress-followers.git",
+          "type": "git",
+          "reference": "1.2.2"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/sparkpost",
         "version": "dev-hotfix-hc-multinetwork",
         "type": "wordpress-plugin",
@@ -265,6 +278,7 @@
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "r-a-y/bp-reply-by-email": "dev-master",
+    "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
     "siteorigin/vantage": "2.4.4",
     "siteorigin/vantage-premium": "^2.5",
