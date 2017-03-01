@@ -2034,7 +2034,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.2.zip",
-                "reference": null,
+                "reference": "tags/1.7.2",
                 "shasum": null
             },
             "require": {
@@ -2045,16 +2045,16 @@
         },
         {
             "name": "wpackagist-plugin/post-types-order",
-            "version": "1.9",
+            "version": "1.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-types-order/",
-                "reference": "tags/1.9"
+                "reference": "tags/1.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.zip",
-                "reference": "tags/1.9",
+                "url": "https://downloads.wordpress.org/plugin/post-types-order.1.9.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
