@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "70121a1fd8267da7106782c8cf03d881",
+    "content-hash": "d1f7c81a22ab10f4d562ac3d0d5f2978",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -526,24 +526,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "eb68a5bded939e3832fcbd52158f2da4c6015184"
+                "reference": "9e1e30995819cc01d43480d2d5593885aac06b70"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/eb68a5bded939e3832fcbd52158f2da4c6015184",
-                "reference": "eb68a5bded939e3832fcbd52158f2da4c6015184",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9e1e30995819cc01d43480d2d5593885aac06b70",
+                "reference": "9e1e30995819cc01d43480d2d5593885aac06b70",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-02-21 16:59:48"
+            "time": "2017-03-01 15:09:12"
         },
         {
             "name": "mlaa/humcore",
@@ -2534,7 +2534,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-redis.0.6.1.zip",
-                "reference": null,
+                "reference": "tags/0.6.1",
                 "shasum": null
             },
             "require": {
