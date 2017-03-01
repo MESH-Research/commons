@@ -352,7 +352,7 @@
     "wpackagist-plugin/wp-markdown": "^1.5",
     "wpackagist-plugin/wp-polls": "^2.73",
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
-    "wpackagist-plugin/wp-redis": "^0.6.0",
+    "wpackagist-plugin/wp-redis": "^0.6.1",
     "wpackagist-plugin/wp-to-twitter": "^3.2",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
     "wpackagist-plugin/zotpress": "^6.1",
