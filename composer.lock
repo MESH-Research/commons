@@ -1974,7 +1974,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.30.zip",
-                "reference": null,
+                "reference": "tags/3.0.30",
                 "shasum": null
             },
             "require": {
@@ -2185,16 +2185,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.4.24",
+            "version": "2.4.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.4.24"
+                "reference": "tags/2.4.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.24.zip",
-                "reference": "tags/2.4.24",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.4.25.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
