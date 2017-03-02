@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ae86fcfcac9d07d6c7031ff2dae45371",
+    "content-hash": "1e3235045fa3943d1f2aa9b6c7dd32b1",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1413,26 +1413,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bp-lotsa-feeds/"
-        },
-        {
-            "name": "wpackagist-plugin/bp-system-report",
-            "version": "0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bp-system-report/",
-                "reference": "tags/0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bp-system-report.0.1.zip",
-                "reference": "tags/0.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bp-system-report/"
         },
         {
             "name": "wpackagist-plugin/buddydrive",
