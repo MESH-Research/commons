@@ -190,7 +190,11 @@ function hcommons_maybe_redirect_after_login() {
 add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
 
 function hcommons_add_redirect_to_shib_login_url( $login_url ) {
-	if ( false === strpos( $login_url, 'redirect_to' ) ) {
+	if (
+		false === strpos( $_SERVER['REQUEST_URI'], 'logged-out' ) &&
+		false === strpos( $_SERVER['REQUEST_URI'], 'not-a-member' ) &&
+		false === strpos( $login_url, 'redirect_to' )
+	) {
 		$login_url = add_query_arg( 'redirect_to', urlencode( get_site_url() . $_SERVER['REQUEST_URI'] ), $login_url );
 	}
 	return $login_url;
