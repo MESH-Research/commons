@@ -186,8 +186,8 @@ function hcommons_maybe_redirect_after_login() {
 		}
 	}
 }
-// priority 5 to ensure Set-Cookie header is set before shibboleth_auto_login() (or anything else) redirects
-add_action( 'init', 'hcommons_maybe_redirect_after_login', 5 );
+// priority 15 to allow shibboleth_auto_login() to run first
+add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
 
 
 
