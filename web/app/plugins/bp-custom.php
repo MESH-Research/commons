@@ -165,6 +165,34 @@ function hcommons_filter_tiny_mce_before_init( $args ) {
 }
 //add_filter( 'tiny_mce_before_init', 'hcommons_filter_tiny_mce_before_init' );
 
+
+// shibboleth attempts to put users back where they came from after authenticating with the redirect_to param.
+// that param is not always preserved through the login flow, so handle it here with a cookie to be sure.
+function hcommons_maybe_redirect_after_login() {
+	$param_name = 'redirect_to';
+	$cookie_name = $param_name;
+
+	if ( isset( $_REQUEST['action'] ) && 'shibboleth' === $_REQUEST['action'] ) {
+		if ( isset( $_COOKIE[ $cookie_name ] ) ) {
+			// unset cookie & redirect
+			setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH );
+			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
+			exit;
+		}
+
+		if ( isset( $_REQUEST[ $param_name ] ) ) {
+			// set cookie to the value of the param so we can reference it after authentication
+			setcookie( $cookie_name, $_REQUEST[ $param_name ], null, COOKIEPATH );
+		}
+	}
+}
+// priority 5 to ensure Set-Cookie header is set before shibboleth_auto_login() (or anything else) redirects
+add_action( 'init', 'hcommons_maybe_redirect_after_login', 5 );
+
+
+
+
+
 class MLA_Groups {
 
 	function __construct() {
