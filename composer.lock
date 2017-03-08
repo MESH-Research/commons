@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "982484dd7b197b9fbf5a6228b0d61c39",
+    "content-hash": "9679268000855ea99c523565c6f0763b",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -537,16 +537,16 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "bd13f09dfcda37c67877418c453a958f823b2eb4"
+                "reference": "fb97228485ef646e0d0609edad7a875ef3b87b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/bd13f09dfcda37c67877418c453a958f823b2eb4",
-                "reference": "bd13f09dfcda37c67877418c453a958f823b2eb4",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/fb97228485ef646e0d0609edad7a875ef3b87b9b",
+                "reference": "fb97228485ef646e0d0609edad7a875ef3b87b9b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -554,7 +554,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-03-01 21:36:05"
+            "time": "2017-03-08 16:04:18"
         },
         {
             "name": "mlaa/humcore",
