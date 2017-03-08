@@ -562,12 +562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "9f2f8055962f78eee5cfd73a8fd051fe8c1866b4"
+                "reference": "147779e9557307ac4466aa8aa681f07b2603f10c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/9f2f8055962f78eee5cfd73a8fd051fe8c1866b4",
-                "reference": "9f2f8055962f78eee5cfd73a8fd051fe8c1866b4",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/147779e9557307ac4466aa8aa681f07b2603f10c",
+                "reference": "147779e9557307ac4466aa8aa681f07b2603f10c",
                 "shasum": ""
             },
             "require": {
@@ -582,10 +582,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/master",
+                "source": "https://github.com/mlaa/humcore/tree/upgrade",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-02-08 14:19:13"
+            "time": "2017-02-21 14:09:11"
         },
         {
             "name": "mlaa/mla-academic-interests",
