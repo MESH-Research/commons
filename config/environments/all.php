@@ -28,7 +28,7 @@ $base = '/';
 // necessary to prevent redirect loops caused by session cookie confusion in wp >= 4.7
 // see https://core.trac.wordpress.org/changeset/38619#file1
 define( 'COOKIEHASH', '' );
-define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
+//define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
 
 /* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
 define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );

@@ -14,6 +14,8 @@ ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 /* Disable outgoing mail */
 function wp_mail(){}
 
+define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
+
 // Redis
 $redis_server = array(
 	'host'     => 'hc-dev-redis.gdrquz.0001.use1.cache.amazonaws.com',
