@@ -201,6 +201,26 @@ function hcommons_add_redirect_to_shib_login_url( $login_url ) {
 }
 add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url', 15 );
 
+/**
+ * use mapped domain rather than the internal domain when possible
+ * intended to make all links to style center use style.mla.org
+ */
+function hcommons_filter_get_blog_permalink( $permalink ) {
+	global $blogs_template, $wpdb;
+
+	if ( ! isset( $wpdb->dmtable ) ) {
+		$wpdb->dmtable = $wpdb->base_prefix . 'domain_mapping';
+	}
+
+	$mapped_domain = $wpdb->get_var( "SELECT domain FROM {$wpdb->dmtable} WHERE blog_id = {$blogs_template->blog->blog_id}" );
+
+	if ( $mapped_domain ) {
+		$permalink = "https://$mapped_domain";
+	}
+
+	return $permalink;
+}
+add_filter( 'bp_get_blog_permalink', 'hcommons_filter_get_blog_permalink' );
 
 
 
