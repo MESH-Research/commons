@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-01-04 08:55:00"
         },
         {
             "name": "buddyboss/boss",
@@ -541,20 +541,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "d8b445c4383d923465e2a3e2176217073a12daf6"
+                "reference": "1346762f8fe58d2b48235079eec92f249ae88986"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/d8b445c4383d923465e2a3e2176217073a12daf6",
-                "reference": "d8b445c4383d923465e2a3e2176217073a12daf6",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/1346762f8fe58d2b48235079eec92f249ae88986",
+                "reference": "1346762f8fe58d2b48235079eec92f249ae88986",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-03-08 20:07:24"
+            "time": "2017-03-09 16:54:38"
         },
         {
             "name": "mlaa/humcore",
@@ -948,7 +948,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -6969,7 +6969,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": "tags/1.5.2",
+                "reference": null,
                 "shasum": null
             },
             "require": {
