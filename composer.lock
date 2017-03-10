@@ -725,12 +725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "0333a2b1b2057091c8fc72af7ede3cfa5952cd38"
+                "reference": "dc6a30ea5e0ff9d02b8d8d916c4b926bc1d36fe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/0333a2b1b2057091c8fc72af7ede3cfa5952cd38",
-                "reference": "0333a2b1b2057091c8fc72af7ede3cfa5952cd38",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/dc6a30ea5e0ff9d02b8d8d916c4b926bc1d36fe5",
+                "reference": "dc6a30ea5e0ff9d02b8d8d916c4b926bc1d36fe5",
                 "shasum": ""
             },
             "require": {
@@ -741,7 +741,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2017-01-17 19:03:51"
+            "time": "2017-03-10 17:46:05"
         },
         {
             "name": "mlaa/sparkpost",
@@ -6969,7 +6969,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": null,
+                "reference": "tags/1.5.2",
                 "shasum": null
             },
             "require": {
