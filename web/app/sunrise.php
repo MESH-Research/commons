@@ -34,4 +34,6 @@ if( $domain_mapping_id ) {
 		$current_site = get_current_site_name( $current_site );
 
 	define( 'DOMAIN_MAPPING', 1 );
+} else {
+	define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
 }

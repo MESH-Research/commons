@@ -9,16 +9,9 @@ ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 
 /* Changes to vanilla Bedrock below this line */
 
-/* disabled due to self-signed ssl not working with cloudfront
-define('SUNRISE', 'on');
-define('PLUGINDIR', 'app/plugins');
- */
-
 /* Disable outgoing mail */
 // testing sparkpost
 //function wp_mail(){}
-
-define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
 
 // Redis
 $redis_server = array(

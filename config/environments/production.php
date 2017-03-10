@@ -5,9 +5,6 @@ define('WP_DEBUG_DISPLAY', false);
 define('SCRIPT_DEBUG', false);
 define('DISALLOW_FILE_MODS', true); // this disables all file modifications including updates and update notifications
 
-define('SUNRISE', 'on');
-define('PLUGINDIR', 'app/plugins');
-
 // Redis
 $redis_server = array(
 	'host'     => 'hc-prod-redis.gdrquz.0001.use1.cache.amazonaws.com',
