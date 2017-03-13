@@ -173,7 +173,7 @@ function hcommons_maybe_redirect_after_login() {
 	$cookie_name = $param_name;
 
 	if ( isset( $_REQUEST['action'] ) && 'shibboleth' === $_REQUEST['action'] ) {
-		if ( isset( $_COOKIE[ $cookie_name ] ) ) {
+		if ( isset( $_COOKIE[ $cookie_name ] ) && false === strpos( $_COOKIE[ $cookie_name ], 'wp-admin' ) ) {
 			// unset cookie & redirect
 			setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH );
 			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
