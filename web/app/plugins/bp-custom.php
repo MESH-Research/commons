@@ -186,8 +186,7 @@ function hcommons_maybe_redirect_after_login() {
 		}
 	}
 }
-// priority 15 to allow shibboleth_auto_login() to run first
-add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
+//add_action( 'init', 'hcommons_maybe_redirect_after_login' );
 
 function hcommons_add_redirect_to_shib_login_url( $login_url ) {
 	if (
@@ -199,7 +198,7 @@ function hcommons_add_redirect_to_shib_login_url( $login_url ) {
 	}
 	return $login_url;
 }
-add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url', 15 );
+//add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url' );
 
 /**
  * use mapped domain rather than the internal domain when possible
