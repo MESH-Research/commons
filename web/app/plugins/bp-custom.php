@@ -172,18 +172,16 @@ function hcommons_maybe_redirect_after_login() {
 	$param_name = 'redirect_to';
 	$cookie_name = $param_name;
 
-	if ( isset( $_REQUEST['action'] ) && 'shibboleth' === $_REQUEST['action'] ) {
-		if ( isset( $_COOKIE[ $cookie_name ] ) && false === strpos( $_COOKIE[ $cookie_name ], 'wp-admin' ) ) {
-			// unset cookie & redirect
-			setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH );
-			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
-			exit;
-		}
+	if ( is_user_logged_in() && isset( $_COOKIE[ $cookie_name ] ) ) {
+		// unset cookie & redirect
+		setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
+		wp_safe_redirect( $_COOKIE[ $cookie_name ] );
+		exit;
+	}
 
-		if ( isset( $_REQUEST[ $param_name ] ) ) {
-			// set cookie to the value of the param so we can reference it after authentication
-			setcookie( $cookie_name, $_REQUEST[ $param_name ], null, COOKIEPATH );
-		}
+	if ( isset( $_REQUEST[ $param_name ] ) ) {
+		// set cookie to the value of the param so we can reference it after authentication
+		setcookie( $cookie_name, $_REQUEST[ $param_name ], null, COOKIEPATH, COOKIE_DOMAIN );
 	}
 }
 // priority 15 to allow shibboleth_auto_login() to run first
@@ -199,7 +197,7 @@ function hcommons_add_redirect_to_shib_login_url( $login_url ) {
 	}
 	return $login_url;
 }
-add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url', 15 );
+add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url' );
 
 /**
  * use mapped domain rather than the internal domain when possible
