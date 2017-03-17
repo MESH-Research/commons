@@ -173,10 +173,14 @@ function hcommons_maybe_redirect_after_login() {
 	$cookie_name = $param_name;
 
 	if ( is_user_logged_in() && isset( $_COOKIE[ $cookie_name ] ) ) {
-		// unset cookie & redirect
+		// unset cookie
 		setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
-		wp_safe_redirect( $_COOKIE[ $cookie_name ] );
-		exit;
+
+		// only redirect if we're not already there
+		if ( false === strpos( urldecode( $_COOKIE[ $cookie_name ] ), $_SERVER['REQUEST_URI'] ) ) {
+			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
+			exit;
+		}
 	}
 
 	if ( isset( $_REQUEST[ $param_name ] ) ) {

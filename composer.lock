@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9679268000855ea99c523565c6f0763b",
+    "content-hash": "4a07db8770913e51adf03ad0575721e2",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -342,14 +342,14 @@
         },
         {
             "name": "mlaa/buddypress",
-            "version": "dev-2.8.1-hcommons",
+            "version": "dev-hcommons-2.8.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/BuddyPress.git",
-                "reference": "2.8.1-hcommons"
+                "reference": "hcommons-2.8.2"
             },
             "type": "wordpress-plugin",
-            "time": "2017-02-24 19:54:55"
+            "time": "2017-03-16 16:18:36"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -541,12 +541,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "7218cf7aa161083ba0d90a2a39da9d3a956608a2"
+                "reference": "e09ad1f39c90f23a1d3706d3d86bc54c6d35075b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/7218cf7aa161083ba0d90a2a39da9d3a956608a2",
-                "reference": "7218cf7aa161083ba0d90a2a39da9d3a956608a2",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/e09ad1f39c90f23a1d3706d3d86bc54c6d35075b",
+                "reference": "e09ad1f39c90f23a1d3706d3d86bc54c6d35075b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -554,7 +554,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-03-15 18:25:20"
+            "time": "2017-03-17 20:32:17"
         },
         {
             "name": "mlaa/humcore",
