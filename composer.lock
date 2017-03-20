@@ -700,12 +700,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "2375b64690319320216fa320c17e8fd87ce9f465"
+                "reference": "b620eaf1c5726506c3275af758649f5da839fb91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/2375b64690319320216fa320c17e8fd87ce9f465",
-                "reference": "2375b64690319320216fa320c17e8fd87ce9f465",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/b620eaf1c5726506c3275af758649f5da839fb91",
+                "reference": "b620eaf1c5726506c3275af758649f5da839fb91",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-03-20 15:03:08"
+            "time": "2017-03-20 15:13:36"
         },
         {
             "name": "mlaa/shibboleth",
