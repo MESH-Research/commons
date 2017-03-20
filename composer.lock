@@ -700,24 +700,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "54676afef76804edff12013d3710152e66ec07b0"
+                "reference": "2375b64690319320216fa320c17e8fd87ce9f465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/54676afef76804edff12013d3710152e66ec07b0",
-                "reference": "54676afef76804edff12013d3710152e66ec07b0",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/2375b64690319320216fa320c17e8fd87ce9f465",
+                "reference": "2375b64690319320216fa320c17e8fd87ce9f465",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0",
                 "php": "^5.5 || ^7.0"
             },
+            "require-dev": {
+                "phpunit/phpunit": "5.6"
+            },
             "type": "wordpress-plugin",
             "support": {
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-03-10 21:23:44"
+            "time": "2017-03-20 15:03:08"
         },
         {
             "name": "mlaa/shibboleth",
