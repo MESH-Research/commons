@@ -224,6 +224,18 @@ function hcommons_filter_get_blog_permalink( $permalink ) {
 }
 add_filter( 'bp_get_blog_permalink', 'hcommons_filter_get_blog_permalink' );
 
+/**
+ * filter topic permalinks to restore ?view=all where necessary.
+ * that string is removed by a filter in bbpress/includes/extend/buddypress/groups.php:
+ * add_filter( 'bbp_get_topic_permalink',   array( $this, 'map_topic_permalink_to_group' ), 10, 2 );
+ */
+function hcommons_filter_bbp_get_topic_permalink( $topic_permalink, $topic_id ) {
+	// the logic to decide whether this actually gets added is handled internally by bbp_get_view_all(),
+	// so here we can just call it and let bbpress decide whether to add it or not.
+	return bbp_add_view_all( $topic_permalink );
+}
+// priority 20 to override map_topic_permalink_to_group()
+add_filter( 'bbp_get_topic_permalink', 'hcommons_filter_bbp_get_topic_permalink', 20, 2 );
 
 
 class MLA_Groups {
