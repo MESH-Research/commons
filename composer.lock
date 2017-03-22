@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-01-04 08:55:00"
         },
         {
             "name": "buddyboss/boss",
@@ -514,12 +514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "c2dfc627cdcc19d7f532ed4b6927e7e363964f65"
+                "reference": "46ac531c63c979e91de88e83166269c494b7e7a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/c2dfc627cdcc19d7f532ed4b6927e7e363964f65",
-                "reference": "c2dfc627cdcc19d7f532ed4b6927e7e363964f65",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/46ac531c63c979e91de88e83166269c494b7e7a1",
+                "reference": "46ac531c63c979e91de88e83166269c494b7e7a1",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -533,7 +533,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2017-03-02 17:20:12"
+            "time": "2017-03-22 17:45:42"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -951,7 +951,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "r-a-y/buddypress-followers",
