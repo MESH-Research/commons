@@ -86,13 +86,13 @@ define('HC_SITE_ID', getenv('HC_SITE_ID'));
 define('HC_SITE_URL', getenv('HC_SITE_URL'));
 define('REGISTRY_SERVER_URL', getenv('REGISTRY_SERVER_URL'));
 define('HC_ENROLLMENT_URL', getenv('HC_ENROLLMENT_URL'));
-define('AAUP_ENROLLMENT_URL', getenv('AAUP_ENROLLMENT_URL'));
+define('UP_ENROLLMENT_URL', getenv('UP_ENROLLMENT_URL'));
 define('AJS_ENROLLMENT_URL', getenv('AJS_ENROLLMENT_URL'));
 define('ASEEES_ENROLLMENT_URL', getenv('ASEEES_ENROLLMENT_URL'));
 define('MLA_ENROLLMENT_URL', getenv('MLA_ENROLLMENT_URL'));
 define('CAA_ENROLLMENT_URL', getenv('CAA_ENROLLMENT_URL'));
 define('HC_ACCOUNT_LINK_URL', getenv('HC_ACCOUNT_LINK_URL'));
-define('AAUP_ACCOUNT_LINK_URL', getenv('AAUP_ACCOUNT_LINK_URL'));
+define('UP_ACCOUNT_LINK_URL', getenv('UP_ACCOUNT_LINK_URL'));
 define('AJS_ACCOUNT_LINK_URL', getenv('AJS_ACCOUNT_LINK_URL'));
 define('ASEEES_ACCOUNT_LINK_URL', getenv('ASEEES_ACCOUNT_LINK_URL'));
 define('MLA_ACCOUNT_LINK_URL', getenv('MLA_ACCOUNT_LINK_URL'));
@@ -106,7 +106,7 @@ define('TWITTER_LOGIN_METHOD_SCOPE', getenv('TWITTER_LOGIN_METHOD_SCOPE'));
 define('HC_LOGIN_METHOD_SCOPE', getenv('HC_LOGIN_METHOD_SCOPE'));
 define('MLA_LOGIN_METHOD_SCOPE', getenv('MLA_LOGIN_METHOD_SCOPE'));
 define('HC_ROOT_BLOG_ID', getenv('HC_ROOT_BLOG_ID'));
-define('AAUP_ROOT_BLOG_ID', getenv('AAUP_ROOT_BLOG_ID'));
+define('UP_ROOT_BLOG_ID', getenv('UP_ROOT_BLOG_ID'));
 define('AJS_ROOT_BLOG_ID', getenv('AJS_ROOT_BLOG_ID'));
 define('ASEEES_ROOT_BLOG_ID', getenv('ASEEES_ROOT_BLOG_ID'));
 define('CAA_ROOT_BLOG_ID', getenv('CAA_ROOT_BLOG_ID'));
@@ -117,6 +117,13 @@ define('TWITTER_IDP_URL', getenv('TWITTER_IDP_URL'));
 define('MLA_IDP_URL', getenv('MLA_IDP_URL'));
 define('HC_IDP_URL', getenv('HC_IDP_URL'));
 define('REGISTRY_SP_URL', getenv('REGISTRY_SP_URL'));
+
+/**
+ * COMANAGE API
+ */
+define('COMANAGE_API_URL', getenv( 'COMANAGE_API_URL' ));
+define('COMANAGE_API_USERNAME', getenv( 'COMANAGE_API_USERNAME' ));
+define('COMANAGE_API_PASSWORD', getenv( 'COMANAGE_API_PASSWORD' ));
 
 /**
  * MLA Member API
