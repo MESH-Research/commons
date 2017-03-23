@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a07db8770913e51adf03ad0575721e2",
+    "content-hash": "a0a86bf1ab73a2116a011d3426bf8d34",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1162,6 +1162,17 @@
             "require": {
                 "composer/installers": "~1.0",
                 "php": ">=5.3.0"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "themeforest/charityhub",
+            "version": "1.11",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/themeforest-charityhub-1.11.zip",
+                "reference": null,
+                "shasum": "f3d614a138888bb918229c4a5be70b6bfbf08822"
             },
             "type": "wordpress-theme"
         },
