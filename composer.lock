@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0a86bf1ab73a2116a011d3426bf8d34",
+    "content-hash": "10b7f73d18fa893eeaaacc164caa00b8",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -281,6 +281,17 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "kreatura/layerslider",
+            "version": "5.6.6",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/kreatura-layerslider-5.6.6.zip",
+                "reference": null,
+                "shasum": "62a8d4f0f29b5a6cb2f0ad16fce73fa47716b0dc"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "mlaa/boss-child",
