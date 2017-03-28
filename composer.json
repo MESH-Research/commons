@@ -264,6 +264,7 @@
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "envato/wordpress-toolkit": "1.7.3",
     "goodlayers/gdlr-cause": "^1.0",
+    "goodlayers/gdlr-portfolio": "^1.0",
     "johnpbloch/wordpress": "4.7.3",
     "kreatura/layerslider": "^5.6",
     "mlaa/boss-child": "dev-master",
