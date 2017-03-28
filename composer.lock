@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "17d82c16686a4903d3b538aad19054eb",
+    "content-hash": "df249ca4e04906e493b796922929e7c5",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -216,6 +216,17 @@
                 "url": "/tmp/wordpress-packages/goodlayers-gdlr-portfolio-1.0.0.zip",
                 "reference": null,
                 "shasum": "c60ba672e59f38b138efdc15acff3d3b9dd3bfe2"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "goodlayers/gdlr-shortcode",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/goodlayers-gdlr-shortcode-1.0.1.zip",
+                "reference": null,
+                "shasum": "373df0ece08353ee3894cf247c08e10ec98832eb"
             },
             "type": "wordpress-plugin"
         },
