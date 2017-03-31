@@ -239,6 +239,15 @@ function hcommons_filter_bbp_get_topic_permalink( $topic_permalink, $topic_id ) 
 add_filter( 'bbp_get_topic_permalink', 'hcommons_filter_bbp_get_topic_permalink', 20, 2 );
 
 
+function hcommons_filter_wp_redirect( $url ) {
+	if ( strpos( $url, 'action=bpnoaccess' ) !== false ) {
+		$url = add_query_arg( array( 'action' => 'shibboleth' ), $url );
+	}
+	return $url;
+}
+add_filter( 'wp_redirect', 'hcommons_filter_wp_redirect' );
+
+
 class MLA_Groups {
 
 	function __construct() {
