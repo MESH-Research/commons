@@ -424,3 +424,147 @@ function hcommons_init_mla_groups() {
 	}
 }
 add_action( 'bp_init', 'hcommons_init_mla_groups' );
+
+
+
+/**
+ * inject BP_Email into wp_mail
+ */
+function hcommons_filter_wp_mail( $args ) {
+	extract( $args );
+
+	//var_dump( $args );die;
+	// some plugins already use html email, e.g. bbpress
+	// unfortunately they haven't set content-type by this point.
+	// however they do use specific strings to mark up links, e.g. [link text](url)
+	//if ( 'text/html' === $args['content-type'] ) {
+	//	return;
+	//}
+	if ( strpos( $args['message'], '](' ) !== false ) {
+		return $args;
+	}
+
+	// leave a hint for the content type filter to let it know this needs the html header
+	$args['headers'] = array_merge( $args['headers'], [
+		'content-type' => 'text/html',
+	] );
+
+	$template = bp_locate_template( 'assets/emails/single-bp-email.php' );
+
+	ob_start();
+	add_filter( 'bp_locate_template_and_load', '__return_true' );
+	bp_locate_template( 'assets/emails/single-bp-email.php', true, false );
+	remove_filter( 'bp_locate_template_and_load', '__return_true' );
+	$template = ob_get_contents();
+	ob_end_clean();
+
+	$args['message'] = bp_core_replace_tokens_in_text( $template, [
+		'content' => make_clickable( nl2br( $message ) ),
+		// TODO ...catchall? there's no bp setting to send users to, since we're reusing a generic tpl
+		'unsubscribe' => site_url(),
+		'recipient.name' => $to, // TODO actual name if possible (not possible with invite-by-email for instance)
+	] );
+	return $args;
+
+	//var_dump( $template );
+	//var_dump($args);die;
+
+	// register new email template(s)
+	// if we reuse a generic tpl we don't need this at all.
+	//$hcommons_register_email_templates = function() use ( $message ) {
+	//	// these apply only to one specific email type
+	//	$email_type = 'invite-anyone-invitation'; // TODO DRY
+	//	$email_type_args = [
+	//		// specific to this particular email type
+	//		'post_title'   => 'invite anyone invitation: test1: {{test1}}',
+	//		//'post_content' => "test2: {{test2}}",
+	//		'post_content' => $message, // TODO do we need separate post types for each possible msg? think so
+	//		'post_excerpt' => "test3: {{test3}}",
+
+	//		// same for all emails of this post_type
+	//		'post_status' => 'publish',
+	//		'post_type'   => bp_get_email_post_type(),
+	//	];
+
+	//	$post_id = wp_insert_post(
+	//		$email_type_args,
+	//		'install_email_' . $email_type
+	//	);
+	//	//var_dump( $post_id );
+
+	//	$tt_ids = wp_set_object_terms( $post_id, $email_type, bp_get_email_tax_type() );
+	//	foreach ( $tt_ids as $tt_id ) {
+	//		$term = get_term_by( 'term_taxonomy_id', (int) $tt_id, bp_get_email_tax_type() );
+	//		wp_update_term( (int) $term->term_id, bp_get_email_tax_type(), array(
+	//			'description'	=> 'test email description',
+	//			'unsubscribe'	=> array(
+	//				'meta_key'	=> 'notification_invite_anyone_invitation',
+	//				'message'	=> 'test email message',
+	//			),
+	//		) );
+	//	}
+	//	//var_dump( __METHOD__ . ' finished' );
+	//};
+	// TODO need to ensure this only runs once for each post.
+	//$hcommons_register_email_templates();
+
+
+	//$hcommons_send_custom_email = function() use ( $to ) {
+	//	// construct email of newly registered type
+	//	//bp_get_email
+	//	//$email = bp_get_email( 'invite-anyone-invitation' );
+	//	//$email   = new BP_Email( 'invite-anyone-invitation' ); // TODO DRY
+	//	//$email   = new BP_Email( 'activity-at-message' );
+	//	//$email->set_content_html( $message );
+	//	//$email->set_content_type( 'html' );
+	//	//$email->set_subject( $subject );
+	//	//$email->set_tokens( [
+	//	//	'test1' => 'test1 value',
+	//	//	'test2' => 'test2 value',
+	//	//	'test3' => 'test3 value',
+	//	//] );
+	//	//var_dump( $email );
+	//	//die;
+	//	//$bp_mail_result = bp_mail( $email );
+	//	//var_dump( $bp_mail_result );
+	//	//die;
+
+	//	// TODO pretty sure this is only necessary when sparkpost is off, but double check
+	//	add_filter( 'bp_email_use_wp_mail', '__return_false' );
+
+	//	// TODO can we avoid overwriting this when we don't have a WP_User to pull real name from?
+	//	add_filter( 'bp_email_get_salutation', function( $settings, $token ) use ( $to ) {
+	//		return "Hi $to,"; // TODO keep things simple for now, but we may want a token here at some point
+	//		//var_dump(sprintf( _x( 'Hi %s,', 'recipient salutation', 'buddypress' ), $token ), $settings, $token );
+	//		//var_dump( func_get_args() ); die;
+	//		//return apply_filters( 'bp_email_get_salutation', sprintf( _x( 'Hi %s,', 'recipient salutation', 'buddypress' ), $token ), $settings, $token );
+	//	} );
+
+	//	// turn plaintext urls into anchor tags
+	//	add_filter( 'bp_email_get_content_html', 'make_clickable' );
+
+	//	$result = bp_send_email( 'invite-anyone-invitation', $to, array(
+	//		'tokens' => [
+	//			'recipient.name' => 'test recipient name',
+	//			'test1' => 'test1 value',
+	//			'test2' => 'test2 value',
+	//			'test3' => 'test3 value',
+	//		],
+	//	) );
+
+	//	return $result;
+	//};
+	//$send_result = $hcommons_send_custom_email();
+	//var_dump( $send_result ); die;
+
+	// end html-ification (below wp_mail is also commented out, restore that when removing above code)
+
+}
+//$atts = apply_filters( 'wp_mail', compact( 'to', 'subject', 'message', 'headers', 'attachments' ) );
+add_filter( 'wp_mail', 'hcommons_filter_wp_mail' );
+
+//function hcommons_filter_wp_mail_content_type() {
+//	var_dump( func_get_args() ); die;
+//	return 'text/html';
+//}
+//add_filter( 'wp_mail_content_type', 'hcommons_filter_wp_mail_content_type' );
