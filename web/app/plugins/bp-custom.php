@@ -464,8 +464,9 @@ function hcommons_filter_wp_mail( $args ) {
 		'recipient.name' => 'there', // since we don't know the user's actual name
 	] );
 
-	// TODO avoid duplicating existing header
-	$args['headers'][] = 'Content-Type: text/html';
+	if ( ! in_array( 'content-type: text/html', array_map( 'strtolower', $args['headers'] ) ) ) {
+		$args['headers'][] = 'Content-Type: text/html';
+	}
 
 	return $args;
 }
