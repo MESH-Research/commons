@@ -465,9 +465,7 @@ function hcommons_filter_wp_mail( $args ) {
 		return strpos( strtolower( $v ), 'content-type' ) === false;
 	} );
 	// set html content-type
-	if ( ! in_array( 'content-type: text/html', array_map( 'strtolower', $args['headers'] ) ) ) {
-		$args['headers'][] = 'Content-Type: text/html';
-	}
+	$args['headers'][] = 'Content-Type: text/html';
 
 	return $args;
 }
