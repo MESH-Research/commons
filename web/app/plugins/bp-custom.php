@@ -436,11 +436,10 @@ function hcommons_filter_wp_mail( $args ) {
 	// replace default footer to remove "unsubscribe" since that isn't handled for non-bp-email types
 	add_action( 'bp_before_email_footer', 'ob_start', 999, 0 );
 	add_action( 'bp_after_email_footer',  'ob_get_clean', -999, 0 );
-	function hcommons_email_footer() {
+	add_action( 'bp_after_email_footer', function() {
 		$settings = bp_email_get_appearance_settings();
 		echo $settings['footer_text'];
-	}
-	add_action( 'bp_after_email_footer', 'hcommons_email_footer' );
+	} );
 
 	// load template markup
 	ob_start();
