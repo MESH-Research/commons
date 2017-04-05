@@ -461,9 +461,7 @@ function hcommons_filter_wp_mail( $args ) {
 
 	$args['message'] = bp_core_replace_tokens_in_text( $template, [
 		'content' => make_clickable( nl2br( $message ) ),
-		// TODO ...catchall? there's no bp setting to send users to, since we're reusing a generic tpl
-		'unsubscribe' => site_url(),
-		'recipient.name' => $to, // TODO actual name if possible (not possible with invite-by-email for instance)
+		'recipient.name' => 'there', // since we don't know the user's actual name
 	] );
 
 	// TODO avoid duplicating existing header
