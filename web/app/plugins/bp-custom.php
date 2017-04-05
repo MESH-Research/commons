@@ -429,18 +429,9 @@ add_action( 'bp_init', 'hcommons_init_mla_groups' );
 
 /**
  * inject BP_Email into wp_mail
- * TODO check each email type and ensure all necessary exceptions are handled, e.g. bbpress using custom link markup for html
  */
 function hcommons_filter_wp_mail( $args ) {
 	extract( $args );
-
-	// some plugins already use html email, e.g. bbpress
-	// unfortunately they haven't set content-type by this point.
-	// however they do use specific strings to mark up links, e.g. [link text](url)
-	// TODO need more reliable/robust way of determining if email needs to be html-ified
-	if ( strpos( $args['message'], '](' ) !== false ) {
-		return $args;
-	}
 
 	// replace default footer to remove "unsubscribe" since that isn't handled for non-bp-email types
 	add_action( 'bp_before_email_footer', 'ob_start', 999, 0 );
@@ -477,3 +468,13 @@ function hcommons_filter_wp_mail( $args ) {
 	return $args;
 }
 add_filter( 'wp_mail', 'hcommons_filter_wp_mail' );
+
+/**
+ * sometimes we don't want to use our html filter (e.g. bbpress has its own),
+ * but there's no way to tell inside wp_mail when that's the case - this is a workaround
+ */
+function hcommons_unfilter_wp_mail() {
+	remove_filter( 'wp_mail', 'hcommons_filter_wp_mail' );
+}
+add_action( 'bbp_pre_notify_subscribers', 'hcommons_unfilter_wp_mail' );
+add_action( 'bbp_pre_notify_forum_subscribers', 'hcommons_unfilter_wp_mail' );
