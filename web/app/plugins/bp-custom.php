@@ -457,6 +457,9 @@ function hcommons_filter_wp_mail( $args ) {
 		'recipient.name' => $to, // TODO actual name if possible (not possible with invite-by-email for instance)
 	] );
 
+	// TODO avoid duplicating existing header
+	$args['headers'][] = 'Content-Type: text/html';
+
 	return $args;
 }
 add_filter( 'wp_mail', 'hcommons_filter_wp_mail' );
