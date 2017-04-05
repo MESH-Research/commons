@@ -459,7 +459,7 @@ function hcommons_filter_wp_mail( $args ) {
 	// most plugins use/keep the array set by apply_filter( 'wp_mail' ).
 	// cast to array, then set/overwrite content-type.
 	if ( is_string( $args['headers'] ) ) {
-		$args['headers'] = implode( "\n", $args['headers'] );
+		$args['headers'] = explode( "\n", $args['headers'] );
 	}
 	if ( ! in_array( 'content-type: text/html', array_map( 'strtolower', $args['headers'] ) ) ) {
 		$args['headers'][] = 'Content-Type: text/html';
