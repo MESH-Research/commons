@@ -437,12 +437,21 @@ function hcommons_filter_wp_mail( $args ) {
 	// some plugins already use html email, e.g. bbpress
 	// unfortunately they haven't set content-type by this point.
 	// however they do use specific strings to mark up links, e.g. [link text](url)
+	// TODO need more reliable/robust way of determining if email needs to be html-ified
 	if ( strpos( $args['message'], '](' ) !== false ) {
 		return $args;
 	}
 
-	$template = bp_locate_template( 'assets/emails/single-bp-email.php' );
+	// replace default footer to remove "unsubscribe" since that isn't handled for non-bp-email types
+	add_action( 'bp_before_email_footer', 'ob_start', 999, 0 );
+	add_action( 'bp_after_email_footer',  'ob_get_clean', -999, 0 );
+	function hcommons_email_footer() {
+		$settings = bp_email_get_appearance_settings();
+		echo $settings['footer_text'];
+	}
+	add_action( 'bp_after_email_footer', 'hcommons_email_footer' );
 
+	// load template markup
 	ob_start();
 	add_filter( 'bp_locate_template_and_load', '__return_true' );
 	bp_locate_template( 'assets/emails/single-bp-email.php', true, false );
