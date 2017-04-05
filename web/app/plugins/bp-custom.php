@@ -468,6 +468,9 @@ function hcommons_filter_wp_mail( $args ) {
 	// set html content-type
 	$args['headers'][] = 'Content-Type: text/html';
 
+	// clean up
+	remove_action( 'bp_after_email_footer', 'hcommons_email_footer' );
+
 	return $args;
 }
 add_filter( 'wp_mail', 'hcommons_filter_wp_mail' );
