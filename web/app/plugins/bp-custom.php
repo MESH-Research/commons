@@ -456,10 +456,15 @@ function hcommons_filter_wp_mail( $args ) {
 
 	// wp core sets headers to a string value joined by newlines for e.g. comment notifications.
 	// most plugins use/keep the array set by apply_filter( 'wp_mail' ).
-	// cast to array, then set/overwrite content-type.
+	// cast to array
 	if ( is_string( $args['headers'] ) ) {
 		$args['headers'] = explode( "\n", $args['headers'] );
 	}
+	// remove existing content-type header if present
+	$args['headers'] = array_filter( $args['headers'], function( $v ) {
+		return strpos( strtolower( $v ), 'content-type' ) === false;
+	} );
+	// set html content-type
 	if ( ! in_array( 'content-type: text/html', array_map( 'strtolower', $args['headers'] ) ) ) {
 		$args['headers'][] = 'Content-Type: text/html';
 	}
