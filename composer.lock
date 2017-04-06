@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7994ae7474838342d047eb9e6af689ed",
+    "content-hash": "6093fabf14ec6b494078e1d697838f72",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1682,6 +1682,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/disable-password-reset-extended/"
+        },
+        {
+            "name": "wpackagist-plugin/elasticpress",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elasticpress/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elasticpress/"
         },
         {
             "name": "wpackagist-plugin/event-organiser",
