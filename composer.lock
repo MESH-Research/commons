@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6093fabf14ec6b494078e1d697838f72",
+    "content-hash": "d60d7fd767f8ae4b57c5a1dd1813378a",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -16,6 +16,26 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-12-21 18:48:03"
+        },
+        {
+            "name": "boonebgorges/bpes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bpes.git",
+                "reference": "899d035be1b314501adf841b6b49ce7cb9a1521a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bpes/zipball/899d035be1b314501adf841b6b49ce7cb9a1521a",
+                "reference": "899d035be1b314501adf841b6b49ce7cb9a1521a",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bpes/tree/master"
+            },
+            "time": "2017-04-06 18:12:44"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1694,7 +1714,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
-                "reference": null,
+                "reference": "tags/2.2.1",
                 "shasum": null
             },
             "require": {
@@ -7154,6 +7174,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "boonebgorges/bp-mpo-activity-filter": 20,
+        "boonebgorges/bpes": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/boss-child": 20,

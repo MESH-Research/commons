@@ -98,6 +98,10 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/bpes.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "boonebgorges/bp-mpo-activity-filter",
@@ -257,6 +261,7 @@
   "require": {
     "php": ">=5.5",
     "boonebgorges/bp-mpo-activity-filter": "dev-master",
+    "boonebgorges/bpes": "dev-master",
     "boonebgorges/buddypress-group-email-subscription": "dev-master",
     "buddyboss/boss": "^2.2",
     "composer/installers": "^1.2",
