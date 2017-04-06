@@ -80,6 +80,11 @@ define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 define('WP_CACHE_KEY_SALT', getenv('WP_CACHE_KEY_SALT'));
 
 /**
+ * ElasticPress Elasticsearch
+ */
+define('EP_HOST', getenv('EP_HOST'));
+
+/**
  * Humanities Commons
  */
 define('HC_SITE_ID', getenv('HC_SITE_ID'));
