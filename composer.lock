@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d60d7fd767f8ae4b57c5a1dd1813378a",
+    "content-hash": "eccda7e4a57766c6062aebfa7be83748",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -359,24 +359,24 @@
         },
         {
             "name": "mlaa/boss-child",
-            "version": "dev-master",
+            "version": "dev-elasticsearch",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f"
+                "reference": "4b02274bc7db8c3605f914eeb0725d7c69a34cc8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3290bbbce439eec13857908624afeca6eecf393f",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/4b02274bc7db8c3605f914eeb0725d7c69a34cc8",
+                "reference": "4b02274bc7db8c3605f914eeb0725d7c69a34cc8",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/elasticsearch",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-04-03 19:08:58"
+            "time": "2017-04-07 19:32:43"
         },
         {
             "name": "mlaa/bp-block-member",
