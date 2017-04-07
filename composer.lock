@@ -23,19 +23,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bpes.git",
-                "reference": "899d035be1b314501adf841b6b49ce7cb9a1521a"
+                "reference": "3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bpes/zipball/899d035be1b314501adf841b6b49ce7cb9a1521a",
-                "reference": "899d035be1b314501adf841b6b49ce7cb9a1521a",
+                "url": "https://api.github.com/repos/mlaa/bpes/zipball/3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe",
+                "reference": "3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
                 "source": "https://github.com/mlaa/bpes/tree/master"
             },
-            "time": "2017-04-06 18:12:44"
+            "time": "2017-04-07 16:30:13"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
