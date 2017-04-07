@@ -190,7 +190,7 @@ function hcommons_maybe_redirect_after_login() {
 	}
 }
 // priority 15 to allow shibboleth_auto_login() to run first
-add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
+//add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
 
 function hcommons_add_redirect_to_shib_login_url( $login_url ) {
 	if (
