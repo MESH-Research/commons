@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eccda7e4a57766c6062aebfa7be83748",
+    "content-hash": "73077db05f625929ad88c5541d2ecf37",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -19,23 +19,23 @@
         },
         {
             "name": "boonebgorges/bpes",
-            "version": "dev-master",
+            "version": "dev-elasticpress",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bpes.git",
-                "reference": "3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe"
+                "reference": "8365d06155a70eaf997f1da48caa996fd05a7a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bpes/zipball/3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe",
-                "reference": "3d52974bbf66b7cd80b7ad8c71d3c5b1f75c3ebe",
+                "url": "https://api.github.com/repos/mlaa/bpes/zipball/8365d06155a70eaf997f1da48caa996fd05a7a44",
+                "reference": "8365d06155a70eaf997f1da48caa996fd05a7a44",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/bpes/tree/master"
+                "source": "https://github.com/mlaa/bpes/tree/elasticpress"
             },
-            "time": "2017-04-07 16:30:13"
+            "time": "2017-04-11 20:45:46"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
