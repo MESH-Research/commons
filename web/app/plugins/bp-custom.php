@@ -247,6 +247,25 @@ function hcommons_filter_wp_redirect( $url ) {
 }
 add_filter( 'wp_redirect', 'hcommons_filter_wp_redirect' );
 
+/**
+ * Filter the login redirect to prevent landing on wp-admin when logging in with shibboleth.
+ *
+ * @param string $location
+ * @return string $location Modified url
+ */
+function hcommons_remove_admin_redirect( $location ) {
+	if (
+		isset( $_REQUEST['action'] ) &&
+		'shibboleth' === $_REQUEST['action'] &&
+		strpos( $location, 'wp-admin' ) !== false
+	) {
+		$location = get_site_url();
+	}
+	return $location;
+}
+add_filter( 'wp_safe_redirect_fallback', 'hcommons_remove_admin_redirect' );
+add_filter( 'login_redirect', 'hcommons_remove_admin_redirect' );
+
 
 class MLA_Groups {
 
