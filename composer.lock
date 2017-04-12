@@ -783,12 +783,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "ace2bc99ff49f2cb9a4f3d96b4a88fbd1f8ee872"
+                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/ace2bc99ff49f2cb9a4f3d96b4a88fbd1f8ee872",
-                "reference": "ace2bc99ff49f2cb9a4f3d96b4a88fbd1f8ee872",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
+                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +799,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2017-04-12 18:05:20"
+            "time": "2017-04-12 18:13:42"
         },
         {
             "name": "mlaa/sparkpost",
