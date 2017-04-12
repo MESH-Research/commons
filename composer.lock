@@ -775,12 +775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "f5deb0552dee34730fd6b2f86183d8476113b463"
+                "reference": "86a3fcd473ad0ce6a7ebc4a010266fbb5fe5b03a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/f5deb0552dee34730fd6b2f86183d8476113b463",
-                "reference": "f5deb0552dee34730fd6b2f86183d8476113b463",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/86a3fcd473ad0ce6a7ebc4a010266fbb5fe5b03a",
+                "reference": "86a3fcd473ad0ce6a7ebc4a010266fbb5fe5b03a",
                 "shasum": ""
             },
             "require": {
@@ -795,7 +795,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-04-11 13:22:55"
+            "time": "2017-04-12 15:49:46"
         },
         {
             "name": "mlaa/shibboleth",
@@ -803,12 +803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "419f4997cbf152cc9ec075bcc76335c0f581fc9b"
+                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/419f4997cbf152cc9ec075bcc76335c0f581fc9b",
-                "reference": "419f4997cbf152cc9ec075bcc76335c0f581fc9b",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
+                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
                 "shasum": ""
             },
             "require": {
@@ -819,7 +819,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2017-03-29 18:32:08"
+            "time": "2017-04-12 18:13:42"
         },
         {
             "name": "mlaa/sparkpost",
