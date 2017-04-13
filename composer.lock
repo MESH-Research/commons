@@ -596,20 +596,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "dd236c949639da73644839778f37f907610dd7ec"
+                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/dd236c949639da73644839778f37f907610dd7ec",
-                "reference": "dd236c949639da73644839778f37f907610dd7ec",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/ade47e39e215b1e8049128c37bf186402b4f49ab",
+                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-03-28 20:41:16"
+            "time": "2017-04-13 14:51:05"
         },
         {
             "name": "mlaa/humcore",
