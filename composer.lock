@@ -46,7 +46,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-28 15:35:07"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -616,20 +616,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "dd236c949639da73644839778f37f907610dd7ec"
+                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/dd236c949639da73644839778f37f907610dd7ec",
-                "reference": "dd236c949639da73644839778f37f907610dd7ec",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/ade47e39e215b1e8049128c37bf186402b4f49ab",
+                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-03-28 20:41:16"
+            "time": "2017-04-13 14:51:05"
         },
         {
             "name": "mlaa/humcore",
@@ -637,12 +637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "a01dfa7fa9d60adea8ef9cf73dacff370eb2e7a1"
+                "reference": "0c1c427489c59c2d9437983a72324eacf4ea4a66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/a01dfa7fa9d60adea8ef9cf73dacff370eb2e7a1",
-                "reference": "a01dfa7fa9d60adea8ef9cf73dacff370eb2e7a1",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/0c1c427489c59c2d9437983a72324eacf4ea4a66",
+                "reference": "0c1c427489c59c2d9437983a72324eacf4ea4a66",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +660,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-03-09 14:20:11"
+            "time": "2017-04-10 19:15:58"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1026,7 +1026,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-20 22:11:55"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "r-a-y/buddypress-followers",
