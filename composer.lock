@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "119548ba6e13b320ab39bc4bcbc9d1f1",
+    "content-hash": "edb3f80057c5f30f9e91391def214c12",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -582,6 +582,17 @@
                 "issues": "https://github.com/mlaa/commentpress-mla-groups/issues"
             },
             "time": "2016-03-28 04:11:20"
+        },
+        {
+            "name": "mlaa/elasticpress-buddypress",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/elasticpress-buddypress.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-04-17 20:38:28"
         },
         {
             "name": "mlaa/hc-styles",
@@ -1654,7 +1665,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/creare-eu-cookie-law-banner.zip?timestamp=1435650401",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -7118,7 +7129,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-elasticpress.1.2.zip",
-                "reference": null,
+                "reference": "tags/1.2",
                 "shasum": null
             },
             "require": {
@@ -7228,6 +7239,7 @@
         "mlaa/commentpress-mla": 20,
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
+        "mlaa/elasticpress-buddypress": 20,
         "mlaa/hc-styles": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
