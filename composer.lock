@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f736a4bf6ecf961427adfdaff6e8491",
+    "content-hash": "119548ba6e13b320ab39bc4bcbc9d1f1",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1642,6 +1642,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/commons-in-a-box/"
+        },
+        {
+            "name": "wpackagist-plugin/creare-eu-cookie-law-banner",
+            "version": "0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/creare-eu-cookie-law-banner/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/creare-eu-cookie-law-banner.zip?timestamp=1435650401",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/creare-eu-cookie-law-banner/"
         },
         {
             "name": "wpackagist-plugin/creative-commons-configurator-1",
