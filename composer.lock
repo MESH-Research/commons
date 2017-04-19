@@ -46,7 +46,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-13 22:52:49"
+            "time": "2017-01-04 08:55:00"
         },
         {
             "name": "buddyboss/boss",
@@ -814,12 +814,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d"
+                "reference": "081cf4507151404b21824fc11e4ce99ea016ce0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
-                "reference": "d1b84d9d0cab5b3154b6bec280007d8e482bc53d",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/081cf4507151404b21824fc11e4ce99ea016ce0c",
+                "reference": "081cf4507151404b21824fc11e4ce99ea016ce0c",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2017-04-12 18:13:42"
+            "time": "2017-04-19 16:28:00"
         },
         {
             "name": "mlaa/sparkpost",
@@ -1037,7 +1037,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-20 22:11:55"
+            "time": "2016-11-25 01:17:07"
         },
         {
             "name": "r-a-y/buddypress-followers",
