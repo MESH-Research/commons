@@ -274,7 +274,6 @@
   "require": {
     "php": ">=5.5",
     "boonebgorges/bp-mpo-activity-filter": "dev-master",
-    "boonebgorges/bpes": "dev-elasticpress",
     "boonebgorges/buddypress-group-email-subscription": "dev-master",
     "buddyboss/boss": "^2.2",
     "composer/installers": "^1.2",

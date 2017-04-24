@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "edb3f80057c5f30f9e91391def214c12",
+    "content-hash": "01020692afed79c80a5805bec591a95c",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -16,26 +16,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-12-21 18:48:03"
-        },
-        {
-            "name": "boonebgorges/bpes",
-            "version": "dev-elasticpress",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/bpes.git",
-                "reference": "8365d06155a70eaf997f1da48caa996fd05a7a44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bpes/zipball/8365d06155a70eaf997f1da48caa996fd05a7a44",
-                "reference": "8365d06155a70eaf997f1da48caa996fd05a7a44",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/bpes/tree/elasticpress"
-            },
-            "time": "2017-04-11 20:45:46"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -592,7 +572,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-24 16:51:07"
+            "time": "2017-04-24 19:12:18"
         },
         {
             "name": "mlaa/hc-styles",
@@ -7225,7 +7205,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "boonebgorges/bp-mpo-activity-filter": 20,
-        "boonebgorges/bpes": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/boss-child": 20,
