@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d582a5e9b32ada36f0c02a707203109d",
+    "content-hash": "95ed806b7bdae71e62bfa9748ce788ea",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-01-04 08:55:00"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -437,6 +437,27 @@
             },
             "type": "wordpress-plugin",
             "time": "2017-03-01 14:47:56"
+        },
+        {
+            "name": "mlaa/bwp-google-xml-sitemaps",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bwp-google-xml-sitemaps.git",
+                "reference": "19da5cfce9bb10dc316e9c500c56a8e2178328b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bwp-google-xml-sitemaps/zipball/19da5cfce9bb10dc316e9c500c56a8e2178328b3",
+                "reference": "19da5cfce9bb10dc316e9c500c56a8e2178328b3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
+                "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
+            },
+            "time": "2017-04-24 19:31:53"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -1006,7 +1027,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-25 01:17:07"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1542,26 +1563,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
-            "version": "1.4.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
-                "reference": "tags/1.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": "tags/1.4.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bwp-google-xml-sitemaps/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
@@ -7028,6 +7029,26 @@
             "time": "2016-08-09T13:25:56+00:00"
         },
         {
+            "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
+                "reference": "tags/1.4.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bwp-google-xml-sitemaps/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.8.4",
             "source": {
@@ -7162,6 +7183,7 @@
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
+        "mlaa/bwp-google-xml-sitemaps": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
