@@ -439,6 +439,27 @@
             "time": "2017-03-01 14:47:56"
         },
         {
+            "name": "mlaa/bwp-google-xml-sitemaps",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bwp-google-xml-sitemaps.git",
+                "reference": "19da5cfce9bb10dc316e9c500c56a8e2178328b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bwp-google-xml-sitemaps/zipball/19da5cfce9bb10dc316e9c500c56a8e2178328b3",
+                "reference": "19da5cfce9bb10dc316e9c500c56a8e2178328b3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
+                "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
+            },
+            "time": "2017-04-24 19:31:53"
+        },
+        {
             "name": "mlaa/cbox-auth",
             "version": "dev-master",
             "source": {
@@ -628,12 +649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "044b3ab03414f96cc9975f376911638a448837c1"
+                "reference": "f18158775c12062fcd9e06c3bc36c552d8e81c21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/044b3ab03414f96cc9975f376911638a448837c1",
-                "reference": "044b3ab03414f96cc9975f376911638a448837c1",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/f18158775c12062fcd9e06c3bc36c552d8e81c21",
+                "reference": "f18158775c12062fcd9e06c3bc36c552d8e81c21",
                 "shasum": ""
             },
             "require": {
@@ -651,7 +672,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-04-18 03:37:03"
+            "time": "2017-04-26 12:55:43"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1553,26 +1574,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
-            "version": "1.4.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
-                "reference": "tags/1.4.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": "tags/1.4.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bwp-google-xml-sitemaps/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
@@ -3260,8 +3261,7 @@
                 "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
                 "reference": "master"
             },
-            "type": "wordpress-plugin",
-            "time": "2014-01-12 20:30:40"
+            "type": "wordpress-plugin"
         },
         {
             "name": "antecedent/patchwork",
@@ -7059,6 +7059,26 @@
             "time": "2016-08-09T13:25:56+00:00"
         },
         {
+            "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
+            "version": "1.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bwp-google-xml-sitemaps/",
+                "reference": "tags/1.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bwp-google-xml-sitemaps/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar",
             "version": "0.8.4",
             "source": {
@@ -7069,7 +7089,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": "tags/0.8.4",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -7089,7 +7109,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": "tags/1.5.2",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -7129,7 +7149,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/simply-show-ids.1.3.3.zip",
-                "reference": "tags/1.3.3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -7149,7 +7169,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": "tags/1.0.9",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -7213,6 +7233,7 @@
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
+        "mlaa/bwp-google-xml-sitemaps": 20,
         "mlaa/cbox-auth": 20,
         "mlaa/cbox-mla-blog": 20,
         "mlaa/commentpress-mla": 20,
