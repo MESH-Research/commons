@@ -98,10 +98,6 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/bpes.git"
-    },
-    {
       "type": "package",
       "package": {
         "name": "boonebgorges/bp-mpo-activity-filter",
