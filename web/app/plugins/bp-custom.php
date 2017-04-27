@@ -509,3 +509,23 @@ function hcommons_unfilter_wp_mail() {
 }
 add_action( 'bbp_pre_notify_subscribers', 'hcommons_unfilter_wp_mail' );
 add_action( 'bbp_pre_notify_forum_subscribers', 'hcommons_unfilter_wp_mail' );
+
+
+
+/**
+ * ElasticPress BuddyPress customizations for Humanities Commons
+ */
+function hcommons_filter_ep_sync_taxonomies( $taxonomies ) {
+	return array_merge( $taxonomies, [
+		get_taxonomy( 'mla_academic_interests' ),
+	] );
+}
+add_filter( 'ep_sync_taxonomies', 'hcommons_filter_ep_sync_taxonomies' );
+
+// TODO probably belongs in humcore plugin
+function hcommons_filter_ep_indexable_post_types( $post_types ) {
+	return array_unique( array_merge( $post_types, [
+		'humcore_deposit',
+	] ) );
+}
+add_filter( 'ep_indexable_post_types', 'hcommons_filter_ep_indexable_post_types' );
