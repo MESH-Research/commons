@@ -537,6 +537,55 @@ function hcommons_add_terms_to_search_query( $query ) {
 }
 add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // after elasticpress ep_improve_default_search()
 
+/**
+ * Overwrite search result post excerpt with the relevant matching text from the query so it's obvious what content matched.
+ * Since ElasticSearch is fuzzy, there may not be exact matches - in which case just defer to elasticpress defaults.
+ */
+function hcommons_filter_ep_search_results_array( $results, $response, $args, $scope ) {
+	function abbreviate_match( $str, $pos ) {
+		$strlen = strlen( get_search_query() );
+		return strip_tags( substr(
+			$str,
+			( $pos - $strlen * 10 > 0 ) ? $pos - $strlen * 10 : 0,
+			$strlen * 20
+		) );
+	}
+
+	$search_query = strtolower( get_search_query() );
+
+	foreach ( $results['posts'] as &$post ) {
+		$matched_text = [];
+
+		foreach ( $post['terms'] as $tax ) {
+			foreach ( $tax as $term ) {
+				$strpos = strpos( strtolower( strip_tags( $term['name'] ) ), $search_query );
+				if ( $strpos !== false ) {
+					$matched_text[ $term['slug'] ] = abbreviate_match( $term['name'], $strpos );
+				}
+			}
+		}
+
+		foreach ( [ 'post_excerpt', 'post_content' ] as $property ) {
+			$strpos = strpos( strtolower( strip_tags( $property ) ), $search_query );
+			if ( $strpos !== false ) {
+				$matched_text[ $property ] = abbreviate_match( $property, $strpos );
+			}
+		}
+
+		if ( count( $matched_text ) ) {
+			$post['post_excerpt'] = implode( '', [
+				'...',
+				implode( '...<br />...', array_unique( $matched_text ) ),
+				'...<br />',
+				$post['post_excerpt'],
+			] );
+		}
+	}
+
+	return $results;
+}
+add_filter( 'ep_search_results_array', 'hcommons_filter_ep_search_results_array', 10, 4 );
+
 // do not index legacy xprofile group
 add_filter( 'ep_bp_index_xprofile_group_profile', '__return_false' );
 
