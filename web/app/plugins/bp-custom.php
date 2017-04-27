@@ -522,6 +522,21 @@ function hcommons_filter_ep_sync_taxonomies( $taxonomies ) {
 }
 add_filter( 'ep_sync_taxonomies', 'hcommons_filter_ep_sync_taxonomies' );
 
+// add custom taxonomies to elasticsearch queries
+function hcommons_add_terms_to_search_query( $query ) {
+	if (
+		is_search() &&
+		! ( defined( 'WP_CLI' ) && WP_CLI ) &&
+		! apply_filters( 'ep_skip_query_integration', false, $query )
+	) {
+		$query->set( 'search_fields', array_unique( array_merge_recursive(
+			(array) $query->get( 'search_fields' ),
+			[ 'taxonomies' => [ 'mla_academic_interests' ] ]
+		) ) );
+	}
+}
+add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // after elasticpress ep_improve_default_search()
+
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {
 	return array_unique( array_merge( $post_types, [
