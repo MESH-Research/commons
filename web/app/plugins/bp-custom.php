@@ -537,6 +537,9 @@ function hcommons_add_terms_to_search_query( $query ) {
 }
 add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // after elasticpress ep_improve_default_search()
 
+// do not index legacy xprofile group
+add_filter( 'ep_bp_index_xprofile_group_profile', '__return_false' );
+
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {
 	return array_unique( array_merge( $post_types, [
