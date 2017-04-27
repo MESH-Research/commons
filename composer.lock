@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba8ad92e4522295a108d946f068a6d26",
+    "content-hash": "daa939be9ced26bb5dfdf3d5f1be0e14",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -593,7 +593,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-25 20:07:04"
+            "time": "2017-04-27 17:49:56"
         },
         {
             "name": "mlaa/hc-styles",
@@ -1674,26 +1674,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/creative-commons-configurator-1/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-profile-filters-for-buddypress",
-            "version": "0.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/custom-profile-filters-for-buddypress/",
-                "reference": "tags/0.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-profile-filters-for-buddypress.0.4.zip",
-                "reference": "tags/0.4",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-profile-filters-for-buddypress/"
         },
         {
             "name": "wpackagist-plugin/disable-password-reset-extended",
