@@ -544,11 +544,8 @@ add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // afte
 function hcommons_filter_ep_search_results_array( $results, $response, $args, $scope ) {
 	function abbreviate_match( $str, $pos ) {
 		$strlen = strlen( get_search_query() );
-		return strip_tags( substr(
-			$str,
-			( $pos - $strlen * 10 > 0 ) ? $pos - $strlen * 10 : 0,
-			$strlen * 20
-		) );
+		$padding = 20 * $strlen; // max characters to include on either side of the matched text
+		return substr( strip_tags( $str ), ( $pos - $padding > 0 ) ? $pos - $padding : 0, 2 * $padding );
 	}
 
 	$search_query = strtolower( get_search_query() );
