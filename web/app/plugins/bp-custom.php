@@ -584,3 +584,18 @@ function hcommons_filter_charityhub_template_directory( $dir ) {
 	return $dir;
 }
 add_filter( 'template_directory', 'hcommons_filter_charityhub_template_directory' );
+
+/**
+ * other half of hcommons_filter_charityhub_template_directory():
+ * use the filtered stylesheet path when enqueueing.
+ */
+function hcommons_filter_charityhub_enqueue_scripts( $scripts ) {
+	$path = 'stylesheet/style-custom' . get_current_blog_id() . '.css';
+	foreach ( $scripts['style'] as &$url ) {
+		if ( strpos( $url, 'style-custom' ) !== false ) {
+			$url = trailingslashit(  wp_get_upload_dir()['baseurl'] ) . $path;
+		}
+	}
+	return $scripts;
+}
+add_filter( 'gdlr_enqueue_scripts', 'hcommons_filter_charityhub_enqueue_scripts', 20 );
