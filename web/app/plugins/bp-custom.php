@@ -592,7 +592,7 @@ add_filter( 'template_directory', 'hcommons_filter_charityhub_template_directory
 function hcommons_filter_charityhub_enqueue_scripts( $scripts ) {
 	$path = 'stylesheet/style-custom' . get_current_blog_id() . '.css';
 	foreach ( $scripts['style'] as &$url ) {
-		if ( strpos( $url, 'style-custom' ) !== false ) {
+		if ( strpos( $url, $path ) !== false ) {
 			$url = trailingslashit(  wp_get_upload_dir()['baseurl'] ) . $path;
 		}
 	}
