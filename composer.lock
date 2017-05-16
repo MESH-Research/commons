@@ -617,12 +617,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "c1e323d1fc00369feb3e9b64318bcc50df60f560"
+                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/c1e323d1fc00369feb3e9b64318bcc50df60f560",
-                "reference": "c1e323d1fc00369feb3e9b64318bcc50df60f560",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b4deb5eb29492a1fb35b310a1ed34092ef636a34",
+                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -630,7 +630,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-05-08 13:26:51"
+            "time": "2017-05-16 17:55:50"
         },
         {
             "name": "mlaa/humcore",
@@ -860,12 +860,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "7c893a378aff1fdbb15ee29b4dccb3ce719f7fd5"
+                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/7c893a378aff1fdbb15ee29b4dccb3ce719f7fd5",
-                "reference": "7c893a378aff1fdbb15ee29b4dccb3ce719f7fd5",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4def32a41f192f53e4965fe6506961e696ef0b1f",
+                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f",
                 "shasum": ""
             },
             "require": {
@@ -880,7 +880,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-05-10 18:33:25"
+            "time": "2017-05-16 17:34:46"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
