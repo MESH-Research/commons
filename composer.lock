@@ -243,20 +243,58 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.7.3",
+            "version": "4.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a"
+                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
-                "reference": "eef7c0520b1e7187cd2cd7540dc997c4c3b0340a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
+                "reference": "381ef55a27e1dcc1c4bbe8b0c6a7ba2d45623819",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core": "4.7.5",
                 "johnpbloch/wordpress-core-installer": "~0.2",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-05-16T22:48:14+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
+                "reference": "9a88a4b4c65f689d78789ef6ff77a7ca0239ec02",
+                "shasum": ""
+            },
+            "require": {
                 "php": ">=5.3.2"
             },
             "type": "wordpress-core",
@@ -274,9 +312,10 @@
             "homepage": "http://wordpress.org/",
             "keywords": [
                 "blog",
-                "cms"
+                "cms",
+                "wordpress"
             ],
-            "time": "2017-03-06T16:01:58+00:00"
+            "time": "2017-05-16T22:48:08+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -628,12 +667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab"
+                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/ade47e39e215b1e8049128c37bf186402b4f49ab",
-                "reference": "ade47e39e215b1e8049128c37bf186402b4f49ab",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b4deb5eb29492a1fb35b310a1ed34092ef636a34",
+                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -641,7 +680,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-04-13 14:51:05"
+            "time": "2017-05-16 17:55:50"
         },
         {
             "name": "mlaa/humcore",
@@ -649,12 +688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "f18158775c12062fcd9e06c3bc36c552d8e81c21"
+                "reference": "c39f4167287209b007dcac17ba31b7677c119a63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/f18158775c12062fcd9e06c3bc36c552d8e81c21",
-                "reference": "f18158775c12062fcd9e06c3bc36c552d8e81c21",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/c39f4167287209b007dcac17ba31b7677c119a63",
+                "reference": "c39f4167287209b007dcac17ba31b7677c119a63",
                 "shasum": ""
             },
             "require": {
@@ -672,7 +711,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-04-26 12:55:43"
+            "time": "2017-05-08 13:24:35"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -787,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "eba2cf5ee8655830674bac82fe5e9d054406d3ce"
+                "reference": "3fe1e88b118237b714cc305e4c2db1c17f556599"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/eba2cf5ee8655830674bac82fe5e9d054406d3ce",
-                "reference": "eba2cf5ee8655830674bac82fe5e9d054406d3ce",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/3fe1e88b118237b714cc305e4c2db1c17f556599",
+                "reference": "3fe1e88b118237b714cc305e4c2db1c17f556599",
                 "shasum": ""
             },
             "require": {
@@ -807,7 +846,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-04-24 13:29:41"
+            "time": "2017-04-26 19:19:09"
         },
         {
             "name": "mlaa/shibboleth",
@@ -871,12 +910,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "d18eaaadc456988f160b277c009f692416367d44"
+                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/d18eaaadc456988f160b277c009f692416367d44",
-                "reference": "d18eaaadc456988f160b277c009f692416367d44",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4def32a41f192f53e4965fe6506961e696ef0b1f",
+                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f",
                 "shasum": ""
             },
             "require": {
@@ -891,7 +930,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-03-20 16:28:37"
+            "time": "2017-05-16 17:34:46"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
