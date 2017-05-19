@@ -532,7 +532,7 @@ function hcommons_add_terms_to_search_query( $query ) {
 		$query->set( 'search_fields', array_unique( array_merge_recursive(
 			(array) $query->get( 'search_fields' ),
 			[ 'taxonomies' => [ 'mla_academic_interests' ] ]
-		) ) );
+		), SORT_REGULAR ) );
 	}
 }
 add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // after elasticpress ep_improve_default_search()
