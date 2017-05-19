@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccec63e6c3b1e2be90448a0d11f330e4",
+    "content-hash": "458c9ccc903d7cfa64e341db780b660a",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -496,7 +496,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -7149,7 +7149,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-elasticpress.1.2.zip",
-                "reference": "tags/1.2",
+                "reference": null,
                 "shasum": null
             },
             "require": {
