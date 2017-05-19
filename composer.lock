@@ -1330,12 +1330,12 @@
         },
         {
             "name": "themesindep/simplemag",
-            "version": "3.0.4",
+            "version": "4.0",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/themesindep-simplemag-3.0.4.zip",
+                "url": "/tmp/wordpress-packages/themesindep-simplemag-4.0.zip",
                 "reference": null,
-                "shasum": "09807171c35a462f28901515fac7862b5d2505af"
+                "shasum": "b1e916b09423adb27fe11104a2e2e978b27698c3"
             },
             "require": {
                 "composer/installers": "~1.0",
