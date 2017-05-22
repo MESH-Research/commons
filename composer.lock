@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "07d5133fea5a5127f16f8b57a3407fb5",
+    "content-hash": "cf6e9debee6dfe460d8a0f0c9060759e",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1319,12 +1319,12 @@
         },
         {
             "name": "themesindep/simplemag",
-            "version": "4.0",
+            "version": "3.0.4",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/themesindep-simplemag-4.0.zip",
+                "url": "/tmp/wordpress-packages/themesindep-simplemag-3.0.4.zip",
                 "reference": null,
-                "shasum": "b1e916b09423adb27fe11104a2e2e978b27698c3"
+                "shasum": "09807171c35a462f28901515fac7862b5d2505af"
             },
             "require": {
                 "composer/installers": "~1.0",
