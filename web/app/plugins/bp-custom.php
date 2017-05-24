@@ -600,7 +600,7 @@ add_filter( 'ep_bp_show_post_type_facet_bp_docs_folder', '__return_false' );
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {
 	return array_unique( array_merge( $post_types, [
-		'humcore_deposit',
+		'humcore_deposit' => 'humcore_deposit',
 	] ) );
 }
 add_filter( 'ep_indexable_post_types', 'hcommons_filter_ep_indexable_post_types' );
