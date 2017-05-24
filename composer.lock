@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d93615fdeadcee77b584b70118d3915",
+    "content-hash": "ef661fce2e56f92d54158bfb6013926f",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -378,24 +378,24 @@
         },
         {
             "name": "mlaa/boss-child",
-            "version": "dev-master",
+            "version": "dev-elasticsearch",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f"
+                "reference": "a764cf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3290bbbce439eec13857908624afeca6eecf393f",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/a764cf6",
+                "reference": "a764cf6",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/elasticsearch",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-04-03 19:08:58"
+            "time": "2017-05-24 19:14:54"
         },
         {
             "name": "mlaa/bp-block-member",
