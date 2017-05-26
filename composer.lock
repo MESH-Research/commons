@@ -910,12 +910,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f"
+                "reference": "66243501fccc5314d12c80fd76e715585199dff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4def32a41f192f53e4965fe6506961e696ef0b1f",
-                "reference": "4def32a41f192f53e4965fe6506961e696ef0b1f",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/66243501fccc5314d12c80fd76e715585199dff9",
+                "reference": "66243501fccc5314d12c80fd76e715585199dff9",
                 "shasum": ""
             },
             "require": {
@@ -930,7 +930,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-05-16 17:34:46"
+            "time": "2017-05-23 17:12:25"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -3093,6 +3093,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/twentysixteen/"
+        },
+        {
+            "name": "wpackagist-theme/twentyten",
+            "version": "2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentyten/",
+                "reference": "2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentyten.2.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentyten/"
         },
         {
             "name": "wpackagist-theme/twentythirteen",
