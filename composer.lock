@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef661fce2e56f92d54158bfb6013926f",
+    "content-hash": "f9ee78541b6f013a475c413cd4a6b660",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -629,10 +629,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/elasticpress-buddypress.git",
-                "reference": "fd76470"
+                "reference": "b6b77c5"
             },
             "type": "wordpress-plugin",
-            "time": "2017-05-24 18:47:18"
+            "time": "2017-05-26 17:57:18"
         },
         {
             "name": "mlaa/hc-styles",
@@ -3105,7 +3105,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentyten.2.2.zip",
-                "reference": null,
+                "reference": "2.2",
                 "shasum": null
             },
             "require": {
