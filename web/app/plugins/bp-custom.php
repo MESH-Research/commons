@@ -687,6 +687,12 @@ add_filter( 'ep_bp_show_post_type_facet_bp_doc', '__return_false' );
 add_filter( 'ep_bp_show_post_type_facet_event', '__return_false' );
 add_filter( 'ep_bp_show_post_type_facet_bp_docs_folder', '__return_false' );
 
+function hcommons_filter_ep_bp_fallback_post_type_facet_selection( $post_types ) {
+	return array_merge( $post_types, [
+		'humcore_deposit',
+	] );
+}
+add_filter( 'ep_bp_fallback_post_type_facet_selection', 'hcommons_filter_ep_bp_fallback_post_type_facet_selection' );
 
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {
