@@ -511,6 +511,96 @@ add_action( 'bbp_pre_notify_subscribers', 'hcommons_unfilter_wp_mail' );
 add_action( 'bbp_pre_notify_forum_subscribers', 'hcommons_unfilter_wp_mail' );
 
 
+/**
+ * Set the group default tab to 'forum' if the current group has a forum
+ * attached to it.
+ */
+function hcommons_override_cbox_set_group_default_tab( $retval ) {
+        // check if bbPress or legacy forums are active and configured properly
+        if ( ( function_exists( 'bbp_is_group_forums_active' ) && bbp_is_group_forums_active() ) ||
+                ( function_exists( 'bp_forums_is_installed_correctly' ) && bp_forums_is_installed_correctly() ) ) {
+
+                // if current group does not have a forum attached, stop now!
+                if ( ! bp_group_is_forum_enabled( groups_get_current_group() ) ) {
+                        return $retval;
+                }
+
+                // Allow non-logged-in users to view a private group's homepage.
+                if ( false === is_user_logged_in() && groups_get_current_group() && 'private' === bp_get_new_group_status() ) {
+                        return $retval;
+                }
+
+                // reconfigure the group's nav
+                add_action( 'bp_actions', 'hcommons_override_config_group_nav', 99 );
+
+                // finally, use 'forum' as the default group tab
+                return 'home';
+        }
+
+        return $retval;
+}
+add_filter( 'bp_groups_default_extension', 'hcommons_override_cbox_set_group_default_tab', 100 );
+
+/**
+ * On the current group page, reconfigure the group nav when a forum is
+ * enabled for the group.
+ *
+ * What we do here is:
+ *  - move the 'Forum' tab to the beginning of the nav
+ *  - rename the 'Home' tab to 'Activity'
+ */
+function hcommons_override_config_group_nav() {
+        $group_slug = bp_current_item();
+
+        // BP 2.6+.
+        if ( function_exists( 'bp_rest_api_init' ) ) {
+                buddypress()->groups->nav->edit_nav( array( 'position' => 1 ), 'forum', $group_slug );
+                buddypress()->groups->nav->edit_nav( array( 'position' => 0 ), 'home', $group_slug );
+                buddypress()->groups->nav->edit_nav( array( 'name' => __( 'Activity', 'buddypress' ) ), 'home', $group_slug );
+
+        // Older versions of BP.
+        } else {
+                buddypress()->bp_options_nav[$group_slug]['home']['position'] = 0;
+                buddypress()->bp_options_nav[$group_slug]['forum']['position'] = 1;
+                buddypress()->bp_options_nav[$group_slug]['home']['name']      = __( 'Activity', 'buddypress' );
+        }
+
+}
+
+
+/**
+ * charityhub saves its custom options in a file inside the theme directory.
+ * when that happens, filter get_template_dir() to return a writeable dir instead.
+ * see charityhub/include/gdlr-admin-option.php gdlr_generate_style_custom()
+ */
+function hcommons_filter_charityhub_template_directory( $dir ) {
+	foreach ( debug_backtrace() as $bt ) {
+		if ( isset( $bt['function'] ) && 'gdlr_generate_style_custom' === $bt['function'] ) {
+			$dir = wp_get_upload_dir()['basedir'];
+			// actual css files are inside a hardcoded dir, make sure it exists
+			mkdir( trailingslashit( $dir ) . 'stylesheet' );
+			break;
+		}
+	}
+	return $dir;
+}
+add_filter( 'template_directory', 'hcommons_filter_charityhub_template_directory' );
+
+/**
+ * other half of hcommons_filter_charityhub_template_directory():
+ * use the filtered stylesheet path when enqueueing.
+ */
+function hcommons_filter_charityhub_enqueue_scripts( $scripts ) {
+	$path = 'stylesheet/style-custom' . get_current_blog_id() . '.css';
+	foreach ( $scripts['style'] as &$url ) {
+		if ( strpos( $url, $path ) !== false ) {
+			$url = trailingslashit(  wp_get_upload_dir()['baseurl'] ) . $path;
+		}
+	}
+	return $scripts;
+}
+add_filter( 'gdlr_enqueue_scripts', 'hcommons_filter_charityhub_enqueue_scripts', 20 );
+
 
 /**
  * ElasticPress BuddyPress customizations for Humanities Commons
