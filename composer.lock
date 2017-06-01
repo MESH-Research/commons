@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-13 22:52:49"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -496,7 +496,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24T19:31:53+00:00"
+            "time": "2017-04-24 19:31:53"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "c39f4167287209b007dcac17ba31b7677c119a63"
+                "reference": "a27d040a59bf84afbf713e00fed97aefaf8c71ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/c39f4167287209b007dcac17ba31b7677c119a63",
-                "reference": "c39f4167287209b007dcac17ba31b7677c119a63",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/a27d040a59bf84afbf713e00fed97aefaf8c71ae",
+                "reference": "a27d040a59bf84afbf713e00fed97aefaf8c71ae",
                 "shasum": ""
             },
             "require": {
@@ -700,7 +700,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-05-08 13:24:35"
+            "time": "2017-06-01 15:31:31"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -899,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "66243501fccc5314d12c80fd76e715585199dff9"
+                "reference": "7b00d99a54a54ae73175ec816657c395329e07b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/66243501fccc5314d12c80fd76e715585199dff9",
-                "reference": "66243501fccc5314d12c80fd76e715585199dff9",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/7b00d99a54a54ae73175ec816657c395329e07b6",
+                "reference": "7b00d99a54a54ae73175ec816657c395329e07b6",
                 "shasum": ""
             },
             "require": {
@@ -919,7 +919,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-05-23 17:12:25"
+            "time": "2017-05-25 19:42:34"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1066,7 +1066,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-20 22:11:55"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -3094,7 +3094,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentyten.2.2.zip",
-                "reference": null,
+                "reference": "2.2",
                 "shasum": null
             },
             "require": {
