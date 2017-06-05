@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b770cc87bbb96982dc9b295fafa9691e",
+    "content-hash": "b9bed53d370175de07c3fe7dacbd346e",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-04-13 22:52:49"
         },
         {
             "name": "buddyboss/boss",
@@ -496,7 +496,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -629,10 +629,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/elasticpress-buddypress.git",
-                "reference": "33555df"
+                "reference": "0a1f2e2"
             },
             "type": "wordpress-plugin",
-            "time": "2017-05-31 17:37:36"
+            "time": "2017-06-05 18:50:19"
         },
         {
             "name": "mlaa/hc-styles",
@@ -1077,7 +1077,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2017-03-20 22:11:55"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -7169,7 +7169,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-elasticpress.1.2.zip",
-                "reference": "tags/1.2",
+                "reference": null,
                 "shasum": null
             },
             "require": {
