@@ -567,6 +567,40 @@ function hcommons_override_config_group_nav() {
 
 }
 
+/**
+ * override core function to remove actual check on referer since we have lots of domains
+ * this is an attempt to prevent "are you sure you want to do this?" errors
+ */
+if ( !function_exists('check_admin_referer') ) :
+function check_admin_referer( $action = -1, $query_arg = '_wpnonce' ) {
+	if ( -1 == $action )
+		_doing_it_wrong( __FUNCTION__, __( 'You should specify a nonce action to be verified by using the first parameter.' ), '3.2.0' );
+
+	$adminurl = strtolower(admin_url());
+	$referer = strtolower(wp_get_referer());
+	$result = isset($_REQUEST[$query_arg]) ? wp_verify_nonce($_REQUEST[$query_arg], $action) : false;
+
+	/**
+	 * Fires once the admin request has been validated or not.
+	 *
+	 * @since 1.5.1
+	 *
+	 * @param string    $action The nonce action.
+	 * @param false|int $result False if the nonce is invalid, 1 if the nonce is valid and generated between
+	 *                          0-12 hours ago, 2 if the nonce is valid and generated between 12-24 hours ago.
+	 */
+	do_action( 'check_admin_referer', $action, $result );
+
+	// this is the part changed from core. don't care about referer.
+	//if ( ! $result && ! ( -1 == $action && strpos( $referer, $adminurl ) === 0 ) ) {
+	if ( ! $result && ! ( -1 == $action ) ) {
+		wp_nonce_ays( $action );
+		die();
+	}
+
+	return $result;
+}
+endif;
 
 /**
  * charityhub saves its custom options in a file inside the theme directory.
