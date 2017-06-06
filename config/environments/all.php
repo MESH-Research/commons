@@ -39,6 +39,8 @@ define('PLUGINDIR', 'app/plugins');
 
 // all paths should be on the root to avoid cookies which are duplicates aside from path
 define( 'COOKIEPATH', '/' );
+define( 'ADMIN_COOKIE_PATH', '/' );
+define( 'SITECOOKIEPATH',    '/' );
 
 /* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
 define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
