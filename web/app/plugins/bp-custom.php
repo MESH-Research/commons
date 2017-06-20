@@ -666,11 +666,11 @@ add_action( 'pre_get_posts', 'hcommons_add_terms_to_search_query', 20 ); // afte
  * Since ElasticSearch is fuzzy, there may not be exact matches - in which case just defer to elasticpress defaults.
  */
 function hcommons_filter_ep_search_results_array( $results, $response, $args, $scope ) {
-	function abbreviate_match( $str, $pos ) {
+	$abbreviate_match = function( $str, $pos ) {
 		$strlen = strlen( get_search_query() );
 		$padding = 20 * $strlen; // max characters to include on either side of the matched text
 		return substr( strip_tags( $str ), ( $pos - $padding > 0 ) ? $pos - $padding : 0, 2 * $padding );
-	}
+	};
 
 	$search_query = strtolower( get_search_query() );
 
@@ -681,7 +681,7 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 			foreach ( $tax as $term ) {
 				$strpos = strpos( strtolower( strip_tags( $term['name'] ) ), $search_query );
 				if ( $strpos !== false ) {
-					$matched_text[ $term['slug'] ] = abbreviate_match( $term['name'], $strpos );
+					$matched_text[ $term['slug'] ] = $abbreviate_match( $term['name'], $strpos );
 				}
 			}
 		}
@@ -690,7 +690,7 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 			if ( ! empty( $property ) ) {
 				$strpos = strpos( strtolower( strip_tags( $property ) ), $search_query );
 				if ( $strpos !== false ) {
-					$matched_text[ $property ] = abbreviate_match( $property, $strpos );
+					$matched_text[ $property ] = $abbreviate_match( $property, $strpos );
 				}
 			}
 		}
