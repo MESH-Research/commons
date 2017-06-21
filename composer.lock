@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a3d6ca8455ec0e4a3c20dea4676faa8",
+    "content-hash": "f9e05cd6e8c858d3df98189c955e8ded",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-06-05 14:49:11"
         },
         {
             "name": "buddyboss/boss",
@@ -382,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f"
+                "reference": "a49c29c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3290bbbce439eec13857908624afeca6eecf393f",
-                "reference": "3290bbbce439eec13857908624afeca6eecf393f",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/a49c29c",
+                "reference": "a49c29c",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -395,7 +395,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-04-03 19:08:58"
+            "time": "2017-06-21 19:22:02"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -496,7 +496,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -1066,7 +1066,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2017-06-13 18:10:02"
         },
         {
             "name": "r-a-y/buddypress-followers",
