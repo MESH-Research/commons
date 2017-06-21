@@ -723,6 +723,16 @@ add_filter( 'ep_bp_show_post_type_facet_bp_doc', '__return_false' );
 add_filter( 'ep_bp_show_post_type_facet_event', '__return_false' );
 add_filter( 'ep_bp_show_post_type_facet_bp_docs_folder', '__return_false' );
 
+// if query contains quotes, no fuzziness
+function hcommons_filter_ep_fuzziness_arg( $fuzziness ) {
+	global $wp_query;
+	if ( strpos( $wp_query->get( 's' ), '"' ) !== false ) {
+		$fuzziness = 0;
+	}
+	return $fuzziness;
+}
+add_filter( 'ep_fuzziness_arg', 'hcommons_filter_ep_fuzziness_arg', 2 );
+
 function hcommons_filter_ep_bp_fallback_post_type_facet_selection( $post_types ) {
 	return array_merge( $post_types, [
 		'humcore_deposit',
