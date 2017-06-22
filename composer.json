@@ -294,7 +294,7 @@
     "mlaa/mla-allowed-tags": "dev-master",
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
-    "mlaa/profile": "dev-master",
+    "mlaa/profile": "dev-master#b0bad63",
     "mlaa/shibboleth": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
     "mlaa/sparkpost-bp-mailer": "dev-master",

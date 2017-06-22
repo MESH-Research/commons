@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7dd2dd49d7773f764feef9e48583f0f2",
+    "content-hash": "8093c6188703bd3b6406ca1c3760e3be",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -815,12 +815,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "c9d192aa0be75e7cdac53ff277b8e90bac0301fb"
+                "reference": "b0bad63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/c9d192aa0be75e7cdac53ff277b8e90bac0301fb",
-                "reference": "c9d192aa0be75e7cdac53ff277b8e90bac0301fb",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/b0bad63",
+                "reference": "b0bad63",
                 "shasum": ""
             },
             "require": {
@@ -835,7 +835,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-05-22 13:46:15"
+            "time": "2017-06-22 15:20:10"
         },
         {
             "name": "mlaa/shibboleth",
