@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "71bb7e2d2eb2371ab25a04030c2509da",
+    "content-hash": "7dd2dd49d7773f764feef9e48583f0f2",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -382,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "1c6eae3"
+                "reference": "dcb5b01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/1c6eae3",
-                "reference": "1c6eae3",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/dcb5b01",
+                "reference": "dcb5b01",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -395,7 +395,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-06-22 13:26:14"
+            "time": "2017-06-22 14:16:27"
         },
         {
             "name": "mlaa/bp-block-member",
