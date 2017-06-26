@@ -668,6 +668,18 @@ function wp_verify_nonce( $nonce, $action = -1 ) {
 
 
 /**
+ * google-analytics-async tries to handle form submissions even when the form has nothing to do with that plugin's settings.
+ * stop it, check if the form needs handling, call that ourselves if so. otherwise allow user to proceed without interruption
+ */
+function hcommons_prevent_gaa_submit_hijack() {
+	global $google_analytics_async;
+	if ( isset( $_SERVER['REQUEST_URI'] ) && strpos( 'page=google-analytics', $_SERVER['REQUEST_URI'] ) === false ) {
+		remove_action( 'admin_init', array( $google_analytics_async, 'handle_page_requests' ) );
+	}
+}
+add_action( 'admin_init', 'hcommons_prevent_gaa_submit_hijack', 5 ); // before the original action has run, so we can cancel it
+
+/**
  * charityhub saves its custom options in a file inside the theme directory.
  * when that happens, filter get_template_dir() to return a writeable dir instead.
  * see charityhub/include/gdlr-admin-option.php gdlr_generate_style_custom()
