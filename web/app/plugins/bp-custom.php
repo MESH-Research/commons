@@ -687,7 +687,7 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 		}
 
 		foreach ( [ 'post_excerpt', 'post_content' ] as $property ) {
-			if ( ! empty( $property ) ) {
+			if ( ! empty( $matched_text[ $property ] ) ) {
 				$strpos = strpos( strtolower( strip_tags( $property ) ), $search_query );
 				if ( $strpos !== false ) {
 					$matched_text[ $property ] = $abbreviate_match( $property, $strpos );
