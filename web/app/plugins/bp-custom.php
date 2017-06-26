@@ -766,12 +766,9 @@ add_filter( 'ep_indexable_post_types', 'hcommons_filter_ep_indexable_post_types'
 function humcore_filter_post_type_link( $post_link ) {
 	if ( 'humcore_deposit' === get_post_type() ) {
 		$meta = get_post_meta( get_the_ID() );
-		if ( isset( $meta['_deposit_file_metadata'][0] ) ) {
-			$decoded_deposit_meta = json_decode( $meta['_deposit_file_metadata'][0] );
-			if ( is_array( $decoded_deposit_meta->files ) ) {
-				$pid = $decoded_deposit_meta->files[0]->pid;
-				$post_link = sprintf( '%1$s/deposits/item/%2$s', bp_get_root_domain(), $pid );
-			}
+		if ( isset( $meta['_deposit_metadata'][0] ) ) {
+			$decoded_deposit_meta = json_decode( $meta['_deposit_metadata'][0] );
+			$post_link = sprintf( '%1$s/deposits/item/%2$s', bp_get_root_domain(), $decoded_deposit_meta->pid );
 		}
 	}
 	return $post_link;
