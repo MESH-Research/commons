@@ -709,6 +709,17 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 }
 add_filter( 'ep_search_results_array', 'hcommons_filter_ep_search_results_array', 10, 4 );
 
+/**
+ * filter out humcore child posts from indexing
+ */
+function hcommons_filter_ep_post_sync_kill( $kill, $post_args, $post_id ) {
+	if ( $post_args['post_type'] === 'humcore_deposit' && $post_args['post_parent'] !== 0 ) {
+		$kill = true;
+	}
+	return $kill;
+}
+add_filter( 'ep_post_sync_kill', 'hcommons_filter_ep_post_sync_kill', 10, 3 );
+
 // do not index legacy xprofile group
 add_filter( 'ep_bp_index_xprofile_group_profile', '__return_false' );
 
