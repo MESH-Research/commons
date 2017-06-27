@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-06-05 14:49:11"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -496,7 +496,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24T19:31:53+00:00"
+            "time": "2017-04-24 19:31:53"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -656,12 +656,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34"
+                "reference": "9663865912ec41f4f552ce5c161dbda2141450d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b4deb5eb29492a1fb35b310a1ed34092ef636a34",
-                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9663865912ec41f4f552ce5c161dbda2141450d3",
+                "reference": "9663865912ec41f4f552ce5c161dbda2141450d3",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -669,7 +669,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-05-16 17:55:50"
+            "time": "2017-06-26 15:57:18"
         },
         {
             "name": "mlaa/humcore",
@@ -1066,7 +1066,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-06-13 18:10:02"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "r-a-y/buddypress-followers",
