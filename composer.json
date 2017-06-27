@@ -312,7 +312,7 @@
     "mlaa/shibboleth": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-master",
+    "mlaa/style-center": "dev-master#c9b1133",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "r-a-y/bp-reply-by-email": "dev-master",
