@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd3575f9ec7cbc7f0e5321d7ba38645b",
+    "content-hash": "bdfe7122f70d652df30a7c0963420c68",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -382,12 +382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "5ca0f8f"
+                "reference": "80431e3a2252c7e48d0a177bcc428f57d21f02ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/5ca0f8f",
-                "reference": "5ca0f8f",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/80431e3a2252c7e48d0a177bcc428f57d21f02ef",
+                "reference": "80431e3a2252c7e48d0a177bcc428f57d21f02ef",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -395,7 +395,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/elasticsearch",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-06-26 13:32:26"
+            "time": "2017-06-28 17:34:49"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -667,12 +667,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34"
+                "reference": "0af5bdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b4deb5eb29492a1fb35b310a1ed34092ef636a34",
-                "reference": "b4deb5eb29492a1fb35b310a1ed34092ef636a34",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/0af5bdb",
+                "reference": "0af5bdb",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -680,7 +680,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-05-16 17:55:50"
+            "time": "2017-06-27 20:36:55"
         },
         {
             "name": "mlaa/humcore",
@@ -826,12 +826,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "c9d192aa0be75e7cdac53ff277b8e90bac0301fb"
+                "reference": "6271433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/c9d192aa0be75e7cdac53ff277b8e90bac0301fb",
-                "reference": "c9d192aa0be75e7cdac53ff277b8e90bac0301fb",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/6271433",
+                "reference": "6271433",
                 "shasum": ""
             },
             "require": {
@@ -846,7 +846,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-05-22 13:46:15"
+            "time": "2017-06-27 19:54:19"
         },
         {
             "name": "mlaa/shibboleth",
