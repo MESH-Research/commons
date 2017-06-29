@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "69ebf00b52bb2c92f5e32f41b2218234",
+    "content-hash": "177461aa44607952dd88a47924dfaae8",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -38,6 +38,17 @@
                 "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
             },
             "type": "wordpress-theme"
+        },
+        {
+            "name": "cmoreira/interactive-world-maps",
+            "version": "1.9.9",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/cmoreira-interactive-world-maps-1.9.9.zip",
+                "reference": null,
+                "shasum": "e5cdbb5757d1510afc1a3a1fdb5621d7e7ec0d63"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "composer/installers",
