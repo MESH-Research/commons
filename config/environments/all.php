@@ -89,6 +89,11 @@ define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 define('WP_CACHE_KEY_SALT', getenv('WP_CACHE_KEY_SALT'));
 
 /**
+ * Redis cache
+ */
+define('REDIS_HOST', getenv('REDIS_HOST'));
+
+/**
  * ElasticPress Elasticsearch
  */
 define('EP_HOST', getenv('EP_HOST'));
