@@ -773,11 +773,19 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 			}
 		}
 
+		// ensure we're not duplicating content that's already in the excerpt
+		// (excerpt can include terms depending on type e.g. member "about" xprofile field)
+		foreach ( $matched_text as $i => $match ) {
+			if ( false !== strpos( $match, $post['post_excerpt'] ) ) {
+				unset( $matched_text[ $i ] );
+			}
+		}
+
 		if ( count( $matched_text ) ) {
 			$post['post_excerpt'] = implode( '', [
 				'...',
-				implode( '...<br />...', array_unique( $matched_text ) ),
-				'...<br />',
+				implode( '...<br>...', array_unique( $matched_text ) ),
+				'...<br><br>',
 				$post['post_excerpt'],
 			] );
 		}
