@@ -846,6 +846,16 @@ function hcommons_filter_ep_indexable_post_types( $post_types ) {
 add_filter( 'ep_indexable_post_types', 'hcommons_filter_ep_indexable_post_types' );
 
 /**
+ * change post type label for core deposits
+ * TODO either update the actual post type data or put in humcore plugin
+ */
+function hcommons_filter_post_type_labels_humcore_deposit( $labels ) {
+	$labels->name = 'CORE Deposits';
+	return $labels;
+}
+add_filter( 'post_type_labels_humcore_deposit', 'hcommons_filter_post_type_labels_humcore_deposit' );
+
+/**
  * filter humcore permalinks (for elasticpress results)
  * TODO put this in humcore plugin?
  */
