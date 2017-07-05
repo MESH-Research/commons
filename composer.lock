@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "79a2e9b1f4957c4a299b29529e041894",
+    "content-hash": "b3ddbbd12541b85c8e9269547c84d14d",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-04-13 22:52:49"
         },
         {
             "name": "buddyboss/boss",
@@ -393,12 +393,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "c8acec1"
+                "reference": "e90d74c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/c8acec1",
-                "reference": "c8acec1",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/e90d74c",
+                "reference": "e90d74c",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -406,7 +406,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/elasticsearch",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-06-30 15:31:43"
+            "time": "2017-07-05 19:01:22"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -528,7 +528,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -1109,7 +1109,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2017-03-20 22:11:55"
         },
         {
             "name": "r-a-y/buddypress-followers",
