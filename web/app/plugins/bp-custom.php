@@ -776,7 +776,11 @@ function hcommons_filter_ep_search_results_array( $results, $response, $args, $s
 		// ensure we're not duplicating content that's already in the excerpt
 		// (excerpt can include terms depending on type e.g. member "about" xprofile field)
 		foreach ( $matched_text as $i => $match ) {
-			if ( false !== strpos( $match, $post['post_excerpt'] ) ) {
+			// adjust comparison for different filtering
+			$clean_match = preg_replace('/\s+/', ' ', strip_tags( $match ) );
+			$clean_excerpt = preg_replace('/\s+/', ' ', strip_tags( $post['post_excerpt'] ) );
+
+			if ( false !== strpos( $clean_excerpt, $clean_match ) ) {
 				unset( $matched_text[ $i ] );
 			}
 		}
