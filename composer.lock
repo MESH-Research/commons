@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3ddbbd12541b85c8e9269547c84d14d",
+    "content-hash": "05a934d6c1bed02da422e706f3a2af0e",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -942,12 +942,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "c9b1133"
+                "reference": "e4e81d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/c9b1133",
-                "reference": "c9b1133",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/e4e81d7",
+                "reference": "e4e81d7",
                 "shasum": ""
             },
             "require": {
@@ -962,7 +962,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-06-27 17:52:33"
+            "time": "2017-07-05 19:24:22"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
