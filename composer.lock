@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b4150f0d9ecec6e01c3a5791f199ce2",
+    "content-hash": "02eac6f70a8935fa3493aeabfefe0adf",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-13 22:52:49"
+            "time": "2016-11-20 08:28:55"
         },
         {
             "name": "buddyboss/boss",
@@ -435,6 +435,27 @@
             "time": "2017-02-23 19:31:52"
         },
         {
+            "name": "mlaa/bp-group-documents",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bp-group-documents.git",
+                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6072b5a7ceabf664e035247bc836ea90b8112d68",
+                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bp-group-documents/tree/master",
+                "issues": "https://github.com/mlaa/bp-group-documents/issues"
+            },
+            "time": "2017-07-05 17:42:39"
+        },
+        {
             "name": "mlaa/bp-multiple-forum-post",
             "version": "dev-master",
             "source": {
@@ -507,7 +528,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24T19:31:53+00:00"
+            "time": "2017-04-24 19:31:53"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -1088,7 +1109,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-20 22:11:55"
+            "time": "2016-11-15 16:19:17"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1504,26 +1525,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bp-blog-avatar/"
-        },
-        {
-            "name": "wpackagist-plugin/bp-group-documents",
-            "version": "1.9.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bp-group-documents/",
-                "reference": "tags/1.9.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bp-group-documents.1.9.4.zip",
-                "reference": "tags/1.9.4",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bp-group-documents/"
         },
         {
             "name": "wpackagist-plugin/bp-groupblog",
@@ -7280,6 +7281,7 @@
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/boss-child": 20,
         "mlaa/bp-event-organiser": 20,
+        "mlaa/bp-group-documents": 20,
         "mlaa/bp-multiple-forum-post": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
