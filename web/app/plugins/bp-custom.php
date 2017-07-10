@@ -876,7 +876,9 @@ function humcore_filter_post_type_link( $post_link, $post ) {
 			// TODO is there a way to get blog_id for a post, so we can switch_to_blog for meta instead of invoking solr?
 			if ( ! isset( $meta['_deposit_metadata'][0] ) ) {
 				preg_match( '/\/' . get_post_type() . '\/([\w]+)\//', $post_link, $matches );
-				$meta = humcore_has_deposits( 'include=' . $matches[1] );
+				if ( isset( $matches[1] ) ) {
+					$meta = humcore_has_deposits( 'include=' . $matches[1] );
+				}
 			}
 
 			if ( isset( $meta['_deposit_metadata'][0] ) ) {
