@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a92f852a6df03b8911d0e54609f50ba8",
+    "content-hash": "f0b5a71c32394e4b3eba0857677e24ac",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -695,24 +695,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "709df943ad2aecbd134c63b7fa9714a9ef66a79f"
+                "reference": "e3e787c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/709df943ad2aecbd134c63b7fa9714a9ef66a79f",
-                "reference": "709df943ad2aecbd134c63b7fa9714a9ef66a79f",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/e3e787c",
+                "reference": "e3e787c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-07-05 14:48:15"
+            "time": "2017-07-12 16:07:12"
         },
         {
             "name": "mlaa/humcore",
@@ -2117,7 +2117,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/newsletters-lite.4.6.6.2.zip",
-                "reference": null,
+                "reference": "tags/4.6.6.2",
                 "shasum": null
             },
             "require": {
