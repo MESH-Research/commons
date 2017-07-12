@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "83ec5e214c7986b9393514b4a0711ba5",
+    "content-hash": "7bcf524dac72159e830fcdb03b6b8488",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -171,6 +171,17 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "cuny-academic-commons/bp-multiple-forum-post",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
+                "reference": "0d1afc3"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-06-02 20:31:29"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -7287,6 +7298,7 @@
     "stability-flags": {
         "boonebgorges/bp-mpo-activity-filter": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
+        "cuny-academic-commons/bp-multiple-forum-post": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/boss-child": 20,
         "mlaa/bp-event-organiser": 20,
