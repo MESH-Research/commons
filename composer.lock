@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "adffad4b499dfadd13b1e3a6eb19c678",
+    "content-hash": "a92f852a6df03b8911d0e54609f50ba8",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -2105,6 +2105,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/network-plugin-auditor/"
+        },
+        {
+            "name": "wpackagist-plugin/newsletters-lite",
+            "version": "4.6.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/newsletters-lite/",
+                "reference": "tags/4.6.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/newsletters-lite.4.6.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/newsletters-lite/"
         },
         {
             "name": "wpackagist-plugin/ninja-forms",

@@ -367,6 +367,7 @@
     "wpackagist-plugin/more-privacy-options": "4.6",
     "wpackagist-plugin/multisite-plugin-manager": "^3.1",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
+    "wpackagist-plugin/newsletters-lite": "4.6.6.2",
     "wpackagist-plugin/ninja-forms": "^3.0",
     "wpackagist-plugin/openbook-book-data": "^3.5",
     "wpackagist-plugin/options-framework": "^1.8",
