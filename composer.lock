@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "48dfba7432e460ec59a61182b3c1d245",
+    "content-hash": "720fb6ec0e83845bf0ce96c4af859fa6",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
