@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "720fb6ec0e83845bf0ce96c4af859fa6",
+    "content-hash": "555a6ddfa86bdf6b7f3473cd6f904889",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -4627,6 +4627,27 @@
             "time": "2015-02-12T03:09:57+00:00"
         },
         {
+            "name": "modelm/buddypress-body-classes",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/modelm/buddypress-body-classes.git",
+                "reference": "75c91578c0e89b6a7806322b10c6789ea2ea892a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/modelm/buddypress-body-classes/zipball/75c91578c0e89b6a7806322b10c6789ea2ea892a",
+                "reference": "75c91578c0e89b6a7806322b10c6789ea2ea892a",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
+                "issues": "https://github.com/modelm/buddypress-body-classes/issues"
+            },
+            "time": "2017-07-14T15:05:32+00:00"
+        },
+        {
             "name": "mustache/mustache",
             "version": "v2.11.1",
             "source": {
@@ -7329,7 +7350,8 @@
         "r-a-y/bp-reply-by-email": 20,
         "stuttter/wp-multi-network": 20,
         "wpackagist-plugin/feedwordpress": 0,
-        "clorith/wordpress-debug-bar-template-trace": 20
+        "clorith/wordpress-debug-bar-template-trace": 20,
+        "modelm/buddypress-body-classes": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
