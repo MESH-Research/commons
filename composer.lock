@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "48dfba7432e460ec59a61182b3c1d245",
+    "content-hash": "9337e4fc65f351db641d06f56866d15d",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -386,6 +386,17 @@
                 "shasum": "62a8d4f0f29b5a6cb2f0ad16fce73fa47716b0dc"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "mlaa/bbPress-Export-and-Import",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bbPress-Export-and-Import.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2013-04-09 22:14:19"
         },
         {
             "name": "mlaa/boss-child",
@@ -7299,6 +7310,7 @@
         "boonebgorges/bp-mpo-activity-filter": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/cbox-theme": 20,
+        "mlaa/bbpress-export-and-import": 20,
         "mlaa/boss-child": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
