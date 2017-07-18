@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "07e05ca1ce179f01b737dc3e263f3e3a",
+    "content-hash": "0362385acd7ae650ecc3adf5d0573d76",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:boonebgorges/bp-mpo-activity-filter.git",
-                "reference": "master"
+                "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
             "time": "2016-12-21 18:48:03"
