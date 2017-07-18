@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fae85f36404f0b61a4a57df327e7221",
+    "content-hash": "07e05ca1ce179f01b737dc3e263f3e3a",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -26,7 +26,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-04-13 22:52:49"
+            "time": "2017-06-23 01:19:16"
         },
         {
             "name": "buddyboss/boss",
@@ -869,12 +869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "998936a"
+                "reference": "ef2b194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/998936a",
-                "reference": "998936a",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/ef2b194",
+                "reference": "ef2b194",
                 "shasum": ""
             },
             "require": {
@@ -889,7 +889,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-07-11 19:37:03"
+            "time": "2017-07-18 20:24:01"
         },
         {
             "name": "mlaa/shibboleth",
@@ -1120,7 +1120,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-20 22:11:55"
+            "time": "2017-06-23 04:33:04"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1908,7 +1908,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.2.0.1.zip",
-                "reference": null,
+                "reference": "tags/2.0.1",
                 "shasum": null
             },
             "require": {
@@ -4676,7 +4676,7 @@
                 "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
                 "issues": "https://github.com/modelm/buddypress-body-classes/issues"
             },
-            "time": "2017-07-14T15:05:32+00:00"
+            "time": "2017-07-14 15:05:32"
         },
         {
             "name": "mustache/mustache",
