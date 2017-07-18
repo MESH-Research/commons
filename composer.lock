@@ -7253,7 +7253,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-export-for-bbpress.2.0.1.zip",
-                "reference": "tags/2.0.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
