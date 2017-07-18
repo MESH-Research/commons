@@ -509,7 +509,11 @@ function hcommons_unfilter_wp_mail() {
 }
 add_action( 'bbp_pre_notify_subscribers', 'hcommons_unfilter_wp_mail' );
 add_action( 'bbp_pre_notify_forum_subscribers', 'hcommons_unfilter_wp_mail' );
-
+// no action available for this one, so abuse a filter instead
+add_filter( 'newsletters_execute_mail_message', function( $message ) {
+	hcommons_unfilter_wp_mail();
+	return $message;
+} );
 
 /**
  * Set the group default tab to 'forum' if the current group has a forum
