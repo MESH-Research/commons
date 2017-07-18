@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1704a2d8eb211d8a8664d880790d2ddb",
+    "content-hash": "8fae85f36404f0b61a4a57df327e7221",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1896,6 +1896,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/force-regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/formassembly-web-forms",
+            "version": "2.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/formassembly-web-forms/",
+                "reference": "tags/2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/formassembly-web-forms.2.0.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/formassembly-web-forms/"
         },
         {
             "name": "wpackagist-plugin/google-document-embedder",

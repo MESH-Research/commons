@@ -374,6 +374,7 @@
     "wpackagist-plugin/fd-footnotes": "^1.36",
     "wpackagist-plugin/feedwordpress": "@stable",
     "wpackagist-plugin/force-regenerate-thumbnails": "^2.0",
+    "wpackagist-plugin/formassembly-web-forms": "^2.0",
     "wpackagist-plugin/google-document-embedder": "^2.6",
     "wpackagist-plugin/google-sitemap-generator": "^4.0",
     "wpackagist-plugin/highlight-search-terms": "^1.4",
