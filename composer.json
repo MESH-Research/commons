@@ -294,6 +294,7 @@
   ],
   "require": {
     "php": ">=5.5",
+    "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
     "boonebgorges/buddypress-group-email-subscription": "dev-master",
     "buddyboss/boss": "^2.2",
     "cmoreira/interactive-world-maps": "1.9.9",
