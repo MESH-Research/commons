@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5289f8ed2f9d76866ca2f0ae88f58ae",
+    "content-hash": "5ccd04185acd038cb52b08cf931fb993",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -465,6 +465,17 @@
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
             "time": "2017-07-05 17:42:39"
+        },
+        {
+            "name": "mlaa/bp-mpo-activity-filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
+                "reference": "202278c"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-12-20 17:03:09"
         },
         {
             "name": "mlaa/buddypress",
@@ -7364,6 +7375,7 @@
         "mlaa/boss-child": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
+        "mlaa/bp-mpo-activity-filter": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,

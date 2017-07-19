@@ -125,11 +125,11 @@
     {
       "type": "package",
       "package": {
-        "name": "boonebgorges/bp-mpo-activity-filter",
+        "name": "mlaa/bp-mpo-activity-filter",
         "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:boonebgorges/bp-mpo-activity-filter.git",
+          "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
           "type": "git",
           "reference": "master"
         }
@@ -313,6 +313,7 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
+    "mlaa/bp-mpo-activity-filter": "dev-master#202278c",
     "mlaa/buddypress": "dev-hcommons-2.8.2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/buddypress-messages-spam-blocker": "dev-master",
