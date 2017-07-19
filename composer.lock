@@ -4,19 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0362385acd7ae650ecc3adf5d0573d76",
+    "content-hash": "a5289f8ed2f9d76866ca2f0ae88f58ae",
     "packages": [
-        {
-            "name": "boonebgorges/bp-mpo-activity-filter",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:boonebgorges/bp-mpo-activity-filter.git",
-                "reference": "2cd9b53"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-12-21 18:48:03"
-        },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
             "version": "dev-master",
@@ -4676,7 +4665,7 @@
                 "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
                 "issues": "https://github.com/modelm/buddypress-body-classes/issues"
             },
-            "time": "2017-07-14T15:05:32+00:00"
+            "time": "2017-07-14 15:05:32"
         },
         {
             "name": "mustache/mustache",
@@ -7368,7 +7357,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "boonebgorges/bp-mpo-activity-filter": 20,
         "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/bp-multiple-forum-post": 20,
         "cuny-academic-commons/cbox-theme": 20,
