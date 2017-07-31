@@ -818,7 +818,6 @@ add_filter( 'ep_post_sync_kill', 'hcommons_filter_ep_post_sync_kill', 10, 3 );
 add_filter( 'ep_bp_index_xprofile_group_profile', '__return_false' );
 
 // hide some networks & post types from search facets
-add_filter( 'ep_bp_show_network_facet_5', '__return_false' ); // CAA
 add_filter( 'ep_bp_show_network_facet_6', '__return_false' ); // UP
 add_filter( 'ep_bp_show_post_type_facet_post', '__return_false' );
 add_filter( 'ep_bp_show_post_type_facet_page', '__return_false' );
