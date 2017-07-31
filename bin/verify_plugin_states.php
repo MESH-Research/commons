@@ -1,9 +1,8 @@
 <?php
 
-/**
- * Verify that plugins have consistent states across all networks.
- * Output any discrepancies.
- */
+// if enabled, try to reconcile plugin states agains the main network.
+// otherwise just output any problems detected.
+const FIX_PLUGIN_STATES = false;
 
 $networks = [
 	'',
@@ -37,6 +36,36 @@ array_walk( $all_networks_plugins, function( $plugins, $url ) use ( $hostname, $
 				$plugin->status,
 				$url
 			);
+
+			if ( FIX_PLUGIN_STATES ) {
+				$cmd = "wp --url=$url plugin ";
+
+				switch ( $all_networks_plugins[ $hostname ][ $k ]->status ) {
+				case 'active':
+					if ( false !== strpos( $plugin->status, 'network' ) ) {
+						// network active on this network, but only site active on main.
+						// deactivate before reactivating at correct scope
+						echo shell_exec( "$cmd deactivate --network {$plugin->name}" );
+					}
+					$cmd .= 'activate ';
+					break;
+				case 'active-network':
+					$cmd .= 'activate --network ';
+					break;
+				case 'inactive':
+					$cmd .= 'deactivate ';
+					if ( false !== strpos( $plugin->status, 'network' ) ) {
+						$cmd .= '--network ';
+					}
+					break;
+				}
+
+				$cmd .= $plugin->name;
+
+				echo $cmd . PHP_EOL;
+
+				echo shell_exec( $cmd );
+			}
 		}
 	}
 
