@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf145eb305ee55c24073f5e387bcd24e",
+    "content-hash": "f0ccac2114ba2db277a26f5ce300f560",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -15,7 +15,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-06-23 01:19:16"
         },
         {
             "name": "buddyboss/boss",
@@ -539,7 +539,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -706,24 +706,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "e3e787c"
+                "reference": "709df94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/e3e787c",
-                "reference": "e3e787c",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/709df94",
+                "reference": "709df94",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-07-12 16:07:12"
+            "time": "2017-07-05 14:48:15"
         },
         {
             "name": "mlaa/humcore",
@@ -1120,7 +1120,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2017-06-23 04:33:04"
         },
         {
             "name": "r-a-y/buddypress-followers",
