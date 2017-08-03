@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ca3da63fb2a42723033558e99a0b41e",
+    "content-hash": "46a1e56ac700e666cd83738ab94e305b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -15,7 +15,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-20 08:28:55"
+            "time": "2017-06-23 01:19:16"
         },
         {
             "name": "buddyboss/boss",
@@ -539,7 +539,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -710,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "543d49a"
+                "reference": "b1a6dff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/543d49a",
-                "reference": "543d49a",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/b1a6dff",
+                "reference": "b1a6dff",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -723,7 +723,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-08-03 13:30:00"
+            "time": "2017-08-03 16:22:46"
         },
         {
             "name": "mlaa/humcore",
@@ -1120,7 +1120,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-15 16:19:17"
+            "time": "2017-06-23 04:33:04"
         },
         {
             "name": "r-a-y/buddypress-followers",
