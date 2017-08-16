@@ -517,7 +517,6 @@ add_filter( 'newsletters_execute_mail_message', function( $message ) {
 
 /**
  * attempt to catch and prevent any "blank" digest emails from going out
- * @uses hcommons_write_error_log
  */
 function hcommons_filter_ass_digest_summary_full( $summary ) {
 	// start with a clean slate, handle below if we need to kill this particular email
