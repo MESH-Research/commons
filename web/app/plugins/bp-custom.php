@@ -516,6 +516,24 @@ add_filter( 'newsletters_execute_mail_message', function( $message ) {
 } );
 
 /**
+ * attempt to catch and prevent any "blank" digest emails from going out
+ * @uses hcommons_write_error_log
+ */
+function hcommons_filter_ass_digest_summary_full( $summary ) {
+	// start with a clean slate, handle below if we need to kill this particular email
+	remove_filter( 'ass_send_email_args', '__return_false' );
+
+	// this should contain the name of at least one group. otherwise it's a problem, kill it
+	if ( 'Group Summary:' === trim( strip_tags( $summary ) ) ) {
+		error_log( 'DIGEST: killed empty digest with summary: ' . $summary );
+		add_filter( 'ass_send_email_args', '__return_false' );
+	}
+
+	return $summary;
+}
+add_filter( 'ass_digest_summary_full', 'hcommons_filter_ass_digest_summary_full', 10, 5 );
+
+/**
  * Set the group default tab to 'forum' if the current group has a forum
  * attached to it.
  */
