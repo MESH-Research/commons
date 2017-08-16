@@ -530,7 +530,7 @@ function hcommons_filter_ass_digest_summary_full( $summary ) {
 
 	return $summary;
 }
-add_filter( 'ass_digest_summary_full', 'hcommons_filter_ass_digest_summary_full', 10, 5 );
+add_filter( 'ass_digest_summary_full', 'hcommons_filter_ass_digest_summary_full' );
 
 /**
  * Set the group default tab to 'forum' if the current group has a forum
