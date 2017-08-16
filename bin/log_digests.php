@@ -5,9 +5,8 @@
  * e.g. all_networks_wp.bash eval-file bin/log_digests.php
  */
 
-// together these satisfy the condition to enable ass_digest_fire_test()
+// this makes digest dry run without sending anything
 $_GET['sum'] = true;
-wp_set_current_user( 5488 ); // rwms (must be super-admin)
 
 // open new log file for writing
 $filename = sprintf( '/srv/www/commons/logs/digest_%s_%s.html',
