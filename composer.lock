@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "08e14f9b2e0cef78f6f80e1cd428842c",
+    "content-hash": "1790549e784c1e4f91257e81eb44b295",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -758,16 +758,16 @@
         },
         {
             "name": "mlaa/mla-academic-interests",
-            "version": "dev-hcommons",
+            "version": "dev-feature-case-insensitive-save",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "482de1530ebf8189f80b9f8f142d7e92217227c9"
+                "reference": "e4960ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/482de1530ebf8189f80b9f8f142d7e92217227c9",
-                "reference": "482de1530ebf8189f80b9f8f142d7e92217227c9",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/e4960ff",
+                "reference": "e4960ff",
                 "shasum": ""
             },
             "require": {
@@ -776,10 +776,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/mla-academic-interests/tree/hcommons",
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/feature-case-insensitive-save",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2016-09-13 20:51:48"
+            "time": "2017-08-17 15:26:14"
         },
         {
             "name": "mlaa/mla-admin-bar",
