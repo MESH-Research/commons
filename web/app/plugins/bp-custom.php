@@ -844,6 +844,20 @@ function hcommons_filter_ep_bp_fallback_post_type_facet_selection( $post_types )
 }
 add_filter( 'ep_bp_fallback_post_type_facet_selection', 'hcommons_filter_ep_bp_fallback_post_type_facet_selection' );
 
+/**
+ * Disable large_network features (like removing pagination) on network users admin.
+ */
+function hcommons_wp_is_large_network( $is_large_network ) {
+	$screen = get_current_screen();
+
+	if ( 'users-network' === $screen->id ) {
+		$is_large_network = false;
+	}
+
+	return $is_large_network;
+}
+add_filter( 'wp_is_large_network', 'hcommons_wp_is_large_network' );
+
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {
 	return array_unique( array_merge( $post_types, [
