@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72b3c0b42e9376a3b640c7c7e7c68dd",
+    "content-hash": "5c543428cea6cb435870bd7156b3e282",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -7181,6 +7181,26 @@
                 "wordpress"
             ],
             "time": "2016-08-09T13:25:56+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/better-http-redirects",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-http-redirects/",
+                "reference": "tags/1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-http-redirects.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-http-redirects/"
         },
         {
             "name": "wpackagist-plugin/bwp-google-xml-sitemaps",
