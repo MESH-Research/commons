@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "52974840ebf895eb6b27479267dc04e9",
+    "content-hash": "e36d1e8c4752b7fa986dcf6cb28a8b6a",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -672,10 +672,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/elasticpress-buddypress.git",
-                "reference": "10744f0"
+                "reference": "2a4ac8c"
             },
             "type": "wordpress-plugin",
-            "time": "2017-07-11 12:51:51"
+            "time": "2017-08-29 16:30:39"
         },
         {
             "name": "mlaa/hc-styles",
@@ -1063,6 +1063,17 @@
                 "psr-3"
             ],
             "time": "2016-03-13T16:08:35+00:00"
+        },
+        {
+            "name": "owwwlab/faculty",
+            "version": "3.11.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/owwwlab-faculty-3.11.1.zip",
+                "reference": null,
+                "shasum": "f08c18a899f70b82da8cb6f07c817e6e0ab66856"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "psr/log",
