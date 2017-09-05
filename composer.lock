@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c1ab354311e4cb67ba01184a6938ad5",
+    "content-hash": "87f823d644363a2b9d710062d71fb10f",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -706,7 +706,7 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-feature-shib-https",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
