@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3448ab2790e1f557d1ec609a8c6a085",
+    "content-hash": "5f7483dfcf84e3d8c18544123553b974",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1063,6 +1063,17 @@
                 "psr-3"
             ],
             "time": "2016-03-13T16:08:35+00:00"
+        },
+        {
+            "name": "owwwlab/faculty",
+            "version": "3.11.1",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/owwwlab-faculty-3.11.1.zip",
+                "reference": null,
+                "shasum": "f08c18a899f70b82da8cb6f07c817e6e0ab66856"
+            },
+            "type": "wordpress-theme"
         },
         {
             "name": "psr/log",
