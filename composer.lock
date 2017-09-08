@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8356a66a4253c99519c80c2471aee655",
+    "content-hash": "865f4fe73597782fed95d651fcf09d64",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,12 +404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "7d48889"
+                "reference": "6a8c4e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/7d48889",
-                "reference": "7d48889",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/6a8c4e3",
+                "reference": "6a8c4e3",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -417,7 +417,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-09-05 16:20:00"
+            "time": "2017-09-07 20:49:12"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -731,12 +731,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "6aaa0f4"
+                "reference": "6aaa0f49a076b3c42d72bda724a5a76beab2b2d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/6aaa0f4",
-                "reference": "6aaa0f4",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/6aaa0f49a076b3c42d72bda724a5a76beab2b2d7",
+                "reference": "6aaa0f49a076b3c42d72bda724a5a76beab2b2d7",
                 "shasum": ""
             },
             "require": {
