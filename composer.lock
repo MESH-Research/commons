@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f5f76bfbe44209b8c33aba2982db817",
+    "content-hash": "265d18071a2a63592455a985a6265aba",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -2408,6 +2408,26 @@
             "homepage": "https://wordpress.org/plugins/redux-framework/"
         },
         {
+            "name": "wpackagist-plugin/remove-dashboard-access-for-non-admins",
+            "version": "1.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/remove-dashboard-access-for-non-admins/",
+                "reference": "tags/1.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/remove-dashboard-access-for-non-admins.1.1.3.zip",
+                "reference": "tags/1.1.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/remove-dashboard-access-for-non-admins/"
+        },
+        {
             "name": "wpackagist-plugin/scholarpress-coins",
             "version": "2.1",
             "source": {
@@ -2706,26 +2726,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-google-maps/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-hide-dashboard",
-            "version": "2.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-hide-dashboard/",
-                "reference": "tags/2.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-hide-dashboard.2.2.1.zip",
-                "reference": "tags/2.2.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-hide-dashboard/"
         },
         {
             "name": "wpackagist-plugin/wp-markdown",
