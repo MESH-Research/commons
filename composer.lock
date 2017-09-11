@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "30a57ff18097ab9c11c988dde7979b1e",
+    "content-hash": "7969b96db0c6ff62ab958be07f9f2da8",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -2418,7 +2418,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/remove-dashboard-access-for-non-admins.1.1.3.zip",
-                "reference": null,
+                "reference": "tags/1.1.3",
                 "shasum": null
             },
             "require": {
@@ -2726,26 +2726,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-google-maps/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-hide-dashboard",
-            "version": "2.2.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-hide-dashboard/",
-                "reference": "tags/2.2.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-hide-dashboard.2.2.1.zip",
-                "reference": "tags/2.2.1",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-hide-dashboard/"
         },
         {
             "name": "wpackagist-plugin/wp-markdown",
