@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "30c6408f01ab5f91516ab4de5a6b0869",
+    "content-hash": "30a57ff18097ab9c11c988dde7979b1e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -2406,6 +2406,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redux-framework/"
+        },
+        {
+            "name": "wpackagist-plugin/remove-dashboard-access-for-non-admins",
+            "version": "1.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/remove-dashboard-access-for-non-admins/",
+                "reference": "tags/1.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/remove-dashboard-access-for-non-admins.1.1.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/remove-dashboard-access-for-non-admins/"
         },
         {
             "name": "wpackagist-plugin/scholarpress-coins",
