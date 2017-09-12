@@ -158,6 +158,17 @@ function hcommons_wp_footer() {
 }
 add_action( 'wp_footer', 'hcommons_wp_footer' );
 
+/**
+ * Comments are not nested correctly if caching is on, so disable it for commentpress.
+ */
+function hcommons_selectively_disable_object_cache() {
+	$theme = wp_get_theme();
+
+	if ( false !== strpos( strtolower( $theme->get( 'Name' ) ), 'commentpress' ) ) {
+		wp_cache_add_non_persistent_groups( array( 'comment' ) );
+	}
+}
+add_action( 'plugins_loaded', 'hcommons_selectively_disable_object_cache' );
 
 function hcommons_filter_tiny_mce_before_init( $args ) {
 	$args['plugins'] = 'paste';
@@ -678,8 +689,17 @@ function wp_verify_nonce( $nonce, $action = -1 ) {
  */
 function hcommons_prevent_gaa_submit_hijack() {
 	global $google_analytics_async;
-	if ( isset( $_SERVER['REQUEST_URI'] ) && strpos( 'page=google-analytics', $_SERVER['REQUEST_URI'] ) === false ) {
-		remove_action( 'admin_init', array( $google_analytics_async, 'handle_page_requests' ) );
+
+	remove_action( 'admin_init', array( $google_analytics_async, 'handle_page_requests' ) );
+
+	if ( isset( $_SERVER['REQUEST_URI'] ) && false !== strpos( $_SERVER['REQUEST_URI'], 'page=google-analytics' ) ) {
+		// code inside this block ripped straight from Google_Analytics_Async::handle_page_requests(),
+		// since it tries to redirect to settings.php when we actually want options-general.php
+		if ( isset( $_POST['_wpnonce'] ) && wp_verify_nonce( $_POST['_wpnonce'], 'submit_settings' ) ) {
+			$google_analytics_async->save_options( array('track_settings' => $_POST) );
+			wp_redirect( add_query_arg( array( 'page' => 'google-analytics', 'dmsg' => urlencode( __( 'Changes were saved!', $google_analytics_async->text_domain ) ) ), 'options-general.php' ) );
+			exit;
+		}
 	}
 }
 add_action( 'admin_init', 'hcommons_prevent_gaa_submit_hijack', 5 ); // before the original action has run, so we can cancel it
@@ -843,6 +863,22 @@ function hcommons_filter_ep_bp_fallback_post_type_facet_selection( $post_types )
 	] );
 }
 add_filter( 'ep_bp_fallback_post_type_facet_selection', 'hcommons_filter_ep_bp_fallback_post_type_facet_selection' );
+
+/**
+ * Disable large_network features (like removing pagination) on network users admin.
+ */
+function hcommons_wp_is_large_network( $is_large_network ) {
+	if ( function_exists( 'get_current_screen' ) ) {
+		$screen = get_current_screen();
+
+		if ( 'users-network' === $screen->id ) {
+			$is_large_network = false;
+		}
+	}
+
+	return $is_large_network;
+}
+add_filter( 'wp_is_large_network', 'hcommons_wp_is_large_network' );
 
 // TODO probably belongs in humcore plugin
 function hcommons_filter_ep_indexable_post_types( $post_types ) {

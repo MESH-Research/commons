@@ -103,6 +103,10 @@ define('EP_HOST', getenv('EP_HOST'));
  */
 define('HC_SITE_ID', getenv('HC_SITE_ID'));
 define('HC_SITE_URL', getenv('HC_SITE_URL'));
+define('MLA_SITE_URL', getenv('MLA_SITE_URL'));
+define('AJS_SITE_URL', getenv('AJS_SITE_URL'));
+define('ASEEES_SITE_URL', getenv('ASEEES_SITE_URL'));
+define('CAA_SITE_URL', getenv('CAA_SITE_URL'));
 define('REGISTRY_SERVER_URL', getenv('REGISTRY_SERVER_URL'));
 define('HC_ENROLLMENT_URL', getenv('HC_ENROLLMENT_URL'));
 define('UP_ENROLLMENT_URL', getenv('UP_ENROLLMENT_URL'));
