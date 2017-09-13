@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "59cc9ad0ff6b527feddd774e721f064f",
+    "content-hash": "75737cb63c1d1d75631f500bc623893c",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -763,12 +763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "ab73b12"
+                "reference": "5f40fce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/ab73b12",
-                "reference": "ab73b12",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/5f40fce",
+                "reference": "5f40fce",
                 "shasum": ""
             },
             "require": {
@@ -780,7 +780,7 @@
                 "source": "https://github.com/mlaa/mla-academic-interests/tree/feature-case-insensitive-save",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2017-09-12 20:41:21"
+            "time": "2017-09-13 14:08:57"
         },
         {
             "name": "mlaa/mla-admin-bar",
