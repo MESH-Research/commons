@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cde96a4df4ddb9e074e7b4f38f96b0c0",
+    "content-hash": "1a3efce182c426341c5a110898cd5fc2",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -756,31 +756,6 @@
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2017-09-06 12:37:22"
-        },
-        {
-            "name": "mlaa/mla-academic-interests",
-            "version": "dev-feature-case-insensitive-save",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "baafb66"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/baafb66",
-                "reference": "baafb66",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/mlaa/mla-academic-interests/tree/feature-case-insensitive-save",
-                "issues": "https://github.com/mlaa/mla-academic-interests/issues"
-            },
-            "time": "2017-09-13 19:24:13"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -7570,7 +7545,6 @@
         "mlaa/hc-styles": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
-        "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/password-protected": 20,
