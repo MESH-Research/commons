@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a3efce182c426341c5a110898cd5fc2",
+    "content-hash": "d6ab5087f95717ebe90f2f4d3719c40b",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -756,6 +756,31 @@
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2017-09-06 12:37:22"
+        },
+        {
+            "name": "mlaa/mla-academic-interests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-academic-interests.git",
+                "reference": "de4016c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/de4016c",
+                "reference": "de4016c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.0"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
+                "issues": "https://github.com/mlaa/mla-academic-interests/issues"
+            },
+            "time": "2017-09-14 17:09:26"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -7545,6 +7570,7 @@
         "mlaa/hc-styles": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
+        "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/password-protected": 20,
