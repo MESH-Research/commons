@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6ab5087f95717ebe90f2f4d3719c40b",
+    "content-hash": "d1b0264348c1ea686366dcb437a1abe2",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -683,12 +683,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "663c42a"
+                "reference": "26f79d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/663c42a",
-                "reference": "663c42a",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/26f79d5",
+                "reference": "26f79d5",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -702,7 +702,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2017-06-28 12:26:47"
+            "time": "2017-09-13 20:37:08"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -710,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "7fdc33e"
+                "reference": "1d6f8eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/7fdc33e",
-                "reference": "7fdc33e",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/1d6f8eb",
+                "reference": "1d6f8eb",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -723,7 +723,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-09-11 20:19:13"
+            "time": "2017-09-13 15:47:43"
         },
         {
             "name": "mlaa/humcore",
@@ -731,12 +731,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "6aaa0f4"
+                "reference": "1867d086b9f3ea62830370b65d2c0f34e05fbb0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/6aaa0f4",
-                "reference": "6aaa0f4",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/1867d086b9f3ea62830370b65d2c0f34e05fbb0e",
+                "reference": "1867d086b9f3ea62830370b65d2c0f34e05fbb0e",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-09-06 12:37:22"
+            "time": "2017-09-12 13:22:00"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -870,12 +870,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "f4432e6"
+                "reference": "f37cc7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/f4432e6",
-                "reference": "f4432e6",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/f37cc7b",
+                "reference": "f37cc7b",
                 "shasum": ""
             },
             "require": {
@@ -890,7 +890,7 @@
                 "source": "https://github.com/mlaa/profile/tree/master",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-09-11 19:59:55"
+            "time": "2017-09-13 20:30:49"
         },
         {
             "name": "mlaa/shibboleth",
