@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34e03ac28b30f20bf6bb1e98bc4a4520",
+    "content-hash": "962bae8aefeb27c48d83655294eaa5f2",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -710,12 +710,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "1d6f8eb"
+                "reference": "7615c1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/1d6f8eb",
-                "reference": "1d6f8eb",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/7615c1a",
+                "reference": "7615c1a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -723,7 +723,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-09-13 15:47:43"
+            "time": "2017-09-14 18:24:42"
         },
         {
             "name": "mlaa/humcore",
@@ -731,12 +731,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "1867d086b9f3ea62830370b65d2c0f34e05fbb0e"
+                "reference": "e855733"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/1867d086b9f3ea62830370b65d2c0f34e05fbb0e",
-                "reference": "1867d086b9f3ea62830370b65d2c0f34e05fbb0e",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/e855733",
+                "reference": "e855733",
                 "shasum": ""
             },
             "require": {
@@ -755,7 +755,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-09-12 13:22:00"
+            "time": "2017-09-14 18:26:31"
         },
         {
             "name": "mlaa/mla-academic-interests",
