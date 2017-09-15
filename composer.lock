@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b500b5a58766090cb66ed079ed9b03de",
+    "content-hash": "f8d7c6e56748b5bece0d5d6451d6d0b7",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -3320,16 +3320,12 @@
         },
         {
             "name": "wpmudev/google-analytics-async",
-            "version": "3.1.5.5",
+            "version": "3.1.6",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.5.5.zip",
+                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.6.zip",
                 "reference": null,
-                "shasum": "53c4e731f622c1372cb218f9921509e9aec10e77"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+                "shasum": "e0a3e36d4c3bf847618fe5bd01d290e53bc499d4"
             },
             "type": "wordpress-plugin"
         },
