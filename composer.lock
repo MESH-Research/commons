@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b7f8278ef589cc1c0dd622424edd2ac",
+    "content-hash": "f686f19a20a9ce4d84f09b6823c9c5a2",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1708,6 +1708,26 @@
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
         },
         {
+            "name": "wpackagist-plugin/buddypress-xprofile-custom-fields-type",
+            "version": "2.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-xprofile-custom-fields-type/",
+                "reference": "tags/2.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-xprofile-custom-fields-type.2.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-xprofile-custom-fields-type/"
+        },
+        {
             "name": "wpackagist-plugin/cac-featured-content",
             "version": "1.0.7",
             "source": {
@@ -2558,7 +2578,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.6.3.zip",
-                "reference": null,
+                "reference": "tags/4.6.3",
                 "shasum": null
             },
             "require": {
