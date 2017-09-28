@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34aafeaae55120e7cd02aacaf4bdc72c",
+    "content-hash": "aae0a5771bc95af3628c44061f7a9aa0",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1667,26 +1667,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bp-lotsa-feeds/"
-        },
-        {
-            "name": "wpackagist-plugin/buddydrive",
-            "version": "2.0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddydrive/",
-                "reference": "tags/2.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddydrive.2.0.0.zip",
-                "reference": "tags/2.0.0",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddydrive/"
         },
         {
             "name": "wpackagist-plugin/buddypress-docs",
