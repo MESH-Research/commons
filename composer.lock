@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6bf476c310618ab9ec7a0c2769eb5eb7",
+    "content-hash": "8a231bea4506738532c78549dadb8249",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -887,16 +887,16 @@
         },
         {
             "name": "mlaa/profile",
-            "version": "dev-master",
+            "version": "dev-feature-cv-field",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "f37cc7b"
+                "reference": "6a0cb71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/f37cc7b",
-                "reference": "f37cc7b",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/6a0cb71",
+                "reference": "6a0cb71",
                 "shasum": ""
             },
             "require": {
@@ -908,10 +908,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/profile/tree/master",
+                "source": "https://github.com/mlaa/profile/tree/feature-cv-field",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-09-13 20:30:49"
+            "time": "2017-09-28 19:14:11"
         },
         {
             "name": "mlaa/shibboleth",
