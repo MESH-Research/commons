@@ -15,6 +15,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/bp-attachment-xprofile-field-type.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/cbox-auth.git"
     },
     {
@@ -310,6 +314,7 @@
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "mlaa/boss-child": "dev-master#6a8c4e3",
+    "mlaa/bp-attachment-xprofile-field-type": "dev-master#17601cb",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
@@ -332,7 +337,7 @@
     "mlaa/mla-allowed-tags": "dev-master",
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
-    "mlaa/profile": "dev-master#f37cc7b",
+    "mlaa/profile": "dev-feature-cv-field#6a0cb71",
     "mlaa/shibboleth": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
     "mlaa/sparkpost-bp-mailer": "dev-master",
@@ -363,6 +368,7 @@
     "wpackagist-plugin/buddydrive": "^2.0",
     "wpackagist-plugin/buddypress-docs": "^1.9",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
+    "wpackagist-plugin/buddypress-xprofile-custom-fields-type": "^2.6",
     "wpackagist-plugin/cac-featured-content": "1.0.7",
     "wpackagist-plugin/commentpress-core": "^3.9",
     "wpackagist-plugin/commons-in-a-box": "^1.0",
@@ -405,7 +411,7 @@
     "wpackagist-plugin/so-css": "^1.1",
     "wpackagist-plugin/so-widgets-bundle": "^1.8",
     "wpackagist-plugin/storify": "^1.0",
-    "wpackagist-plugin/tinymce-advanced": "^4.4",
+    "wpackagist-plugin/tinymce-advanced": "^4.6",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "^1.8",
     "wpackagist-plugin/video-thumbnails": "^2.12",
     "wpackagist-plugin/woosidebars": "^1.4",

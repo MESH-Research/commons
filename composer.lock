@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7779c8417b22acc5e3a9aba4ac4d96f5",
+    "content-hash": "9760eb2b135bcb3468bde50bd7af106a",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -418,6 +418,27 @@
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
             "time": "2017-09-07 20:49:12"
+        },
+        {
+            "name": "mlaa/bp-attachment-xprofile-field-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bp-attachment-xprofile-field-type.git",
+                "reference": "17601cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/17601cb",
+                "reference": "17601cb",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bp-attachment-xprofile-field-type/tree/master",
+                "issues": "https://github.com/mlaa/bp-attachment-xprofile-field-type/issues"
+            },
+            "time": "2017-09-28 19:08:11"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -866,16 +887,16 @@
         },
         {
             "name": "mlaa/profile",
-            "version": "dev-master",
+            "version": "dev-feature-cv-field",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/profile.git",
-                "reference": "f37cc7b"
+                "reference": "6a0cb71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/profile/zipball/f37cc7b",
-                "reference": "f37cc7b",
+                "url": "https://api.github.com/repos/mlaa/profile/zipball/6a0cb71",
+                "reference": "6a0cb71",
                 "shasum": ""
             },
             "require": {
@@ -887,10 +908,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/profile/tree/master",
+                "source": "https://github.com/mlaa/profile/tree/feature-cv-field",
                 "issues": "https://github.com/mlaa/profile/issues"
             },
-            "time": "2017-09-13 20:30:49"
+            "time": "2017-09-28 19:14:11"
         },
         {
             "name": "mlaa/shibboleth",
@@ -1706,6 +1727,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-xprofile-custom-fields-type",
+            "version": "2.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-xprofile-custom-fields-type/",
+                "reference": "tags/2.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-xprofile-custom-fields-type.2.6.3.zip",
+                "reference": "tags/2.6.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-xprofile-custom-fields-type/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
@@ -2549,16 +2590,16 @@
         },
         {
             "name": "wpackagist-plugin/tinymce-advanced",
-            "version": "4.4.3",
+            "version": "4.6.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-                "reference": "tags/4.4.3"
+                "reference": "tags/4.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.4.3.zip",
-                "reference": "tags/4.4.3",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.6.3.zip",
+                "reference": "tags/4.6.3",
                 "shasum": null
             },
             "require": {
@@ -7550,6 +7591,7 @@
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/bbpress-export-and-import": 20,
         "mlaa/boss-child": 20,
+        "mlaa/bp-attachment-xprofile-field-type": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
