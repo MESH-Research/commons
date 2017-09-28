@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f686f19a20a9ce4d84f09b6823c9c5a2",
+    "content-hash": "6bf476c310618ab9ec7a0c2769eb5eb7",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -418,6 +418,27 @@
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
             "time": "2017-09-07 20:49:12"
+        },
+        {
+            "name": "mlaa/bp-attachment-xprofile-field-type",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/bp-attachment-xprofile-field-type.git",
+                "reference": "17601cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/17601cb",
+                "reference": "17601cb",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/bp-attachment-xprofile-field-type/tree/master",
+                "issues": "https://github.com/mlaa/bp-attachment-xprofile-field-type/issues"
+            },
+            "time": "2017-09-28 19:08:11"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -1718,7 +1739,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress-xprofile-custom-fields-type.2.6.3.zip",
-                "reference": null,
+                "reference": "tags/2.6.3",
                 "shasum": null
             },
             "require": {
@@ -7570,6 +7591,7 @@
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/bbpress-export-and-import": 20,
         "mlaa/boss-child": 20,
+        "mlaa/bp-attachment-xprofile-field-type": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
