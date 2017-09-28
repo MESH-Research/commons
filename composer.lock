@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84ebf5a4fa1b3a1d80b4419c10d13dd6",
+    "content-hash": "34aafeaae55120e7cd02aacaf4bdc72c",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1727,26 +1727,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/buddypress-xprofile-custom-fields-type",
-            "version": "2.6.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/buddypress-xprofile-custom-fields-type/",
-                "reference": "tags/2.6.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-xprofile-custom-fields-type.2.6.3.zip",
-                "reference": "tags/2.6.3",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/buddypress-xprofile-custom-fields-type/"
         },
         {
             "name": "wpackagist-plugin/cac-featured-content",
