@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b7f8278ef589cc1c0dd622424edd2ac",
+    "content-hash": "f35d7dd040e5f4f6b42712c9d91bd5d5",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -759,16 +759,16 @@
         },
         {
             "name": "mlaa/mla-academic-interests",
-            "version": "dev-hcommons",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-academic-interests.git",
-                "reference": "482de1530ebf8189f80b9f8f142d7e92217227c9"
+                "reference": "de4016c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/482de1530ebf8189f80b9f8f142d7e92217227c9",
-                "reference": "482de1530ebf8189f80b9f8f142d7e92217227c9",
+                "url": "https://api.github.com/repos/mlaa/mla-academic-interests/zipball/de4016c",
+                "reference": "de4016c",
                 "shasum": ""
             },
             "require": {
@@ -777,10 +777,10 @@
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/mla-academic-interests/tree/hcommons",
+                "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2016-09-13 20:51:48"
+            "time": "2017-09-14 17:09:26"
         },
         {
             "name": "mlaa/mla-admin-bar",
