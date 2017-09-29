@@ -337,7 +337,6 @@
     "mlaa/mla-allowed-tags": "dev-master",
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
-    "mlaa/profile": "dev-feature-cv-field#6a0cb71",
     "mlaa/shibboleth": "dev-master",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
     "mlaa/sparkpost-bp-mailer": "dev-master",
