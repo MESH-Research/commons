@@ -476,7 +476,6 @@
   "require-dev": {
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "codeception/codeception": "^2.3",
-    "lucatume/wp-browser": "^1.19",
     "modelm/buddypress-body-classes": "dev-master#75c9157",
     "wp-coding-standards/wpcs": "^0.13.1",
     "wpackagist-plugin/better-http-redirects": "1.2",
