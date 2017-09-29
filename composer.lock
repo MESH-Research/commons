@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d11ce2dd738b5336eefa6732a8f65fbf",
+    "content-hash": "559b883bf73cb82530901d21995912d8",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -697,6 +697,34 @@
             },
             "type": "wordpress-plugin",
             "time": "2017-08-29 16:30:39"
+        },
+        {
+            "name": "mlaa/hc-member-profiles",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-member-profiles.git",
+                "reference": "1616c28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/1616c28",
+                "reference": "1616c28",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.6"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
+                "issues": "https://github.com/mlaa/hc-member-profiles/issues"
+            },
+            "time": "2017-09-29 20:39:54"
         },
         {
             "name": "mlaa/hc-styles",
@@ -5946,6 +5974,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/hc-member-profiles": 20,
         "mlaa/hc-styles": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
