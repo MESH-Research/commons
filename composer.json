@@ -418,6 +418,7 @@
     "wpackagist-plugin/wp-accessibility": "^1.5",
     "wpackagist-plugin/wp-fail2ban": "^3.5",
     "wpackagist-plugin/wp-google-maps": "^6.4",
+    "wpackagist-plugin/wp-hide-dashboard": "^2.2",
     "wpackagist-plugin/wp-markdown": "^1.5",
     "wpackagist-plugin/wp-polls": "^2.73",
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
