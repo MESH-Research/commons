@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "829964cda23531201e5e19340387397a",
+    "content-hash": "ba349316734639bb04e67c7017f24b79",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -718,6 +718,27 @@
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
             "time": "2017-10-02 17:02:10"
+        },
+        {
+            "name": "mlaa/hc-provisional-content",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-provisional-content.git",
+                "reference": "e92ba24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-provisional-content/zipball/e92ba24",
+                "reference": "e92ba24",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-provisional-content/tree/master",
+                "issues": "https://github.com/mlaa/hc-provisional-content/issues"
+            },
+            "time": "2017-10-02 19:07:35"
         },
         {
             "name": "mlaa/hc-styles",
@@ -5877,6 +5898,7 @@
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
         "mlaa/hc-member-profiles": 20,
+        "mlaa/hc-provisional-content": 20,
         "mlaa/hc-styles": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,

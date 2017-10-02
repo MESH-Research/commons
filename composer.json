@@ -63,6 +63,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/hc-provisional-content.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/mla-academic-interests.git"
     },
     {
@@ -330,6 +334,7 @@
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#2a4ac8c",
     "mlaa/hc-member-profiles": "dev-master#8d0fbfb",
+    "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#26f79d5",
     "mlaa/humanities-commons": "dev-master#7615c1a",
     "mlaa/humcore": "dev-master#e855733",
