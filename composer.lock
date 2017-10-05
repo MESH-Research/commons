@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "97ad062e638fc87b7637580fe51ff109",
+    "content-hash": "65b315a8803a36fa61580fe9c09a87c0",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -697,6 +697,27 @@
             },
             "type": "wordpress-plugin",
             "time": "2017-08-29 16:30:39"
+        },
+        {
+            "name": "mlaa/hc-custom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-custom.git",
+                "reference": "cb4d540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/cb4d540",
+                "reference": "cb4d540",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-custom/tree/master",
+                "issues": "https://github.com/mlaa/hc-custom/issues"
+            },
+            "time": "2017-10-05 15:15:22"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -5897,6 +5918,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
         "mlaa/hc-provisional-content": 20,
         "mlaa/hc-styles": 20,

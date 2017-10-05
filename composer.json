@@ -15,7 +15,27 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/boss-child.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/bp-attachment-xprofile-field-type.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/bp-group-documents.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/buddypress-docs-minor-edit.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/bwp-google-xml-sitemaps.git"
     },
     {
       "type": "vcs",
@@ -39,11 +59,39 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/hc-member-profiles.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/hc-provisional-content.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/hc-styles.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/hc-custom.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/humanities-commons.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/humcore.git"
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mla-academic-interests.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/mla-admin-bar.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-allowed-tags.git"
     },
     {
       "type": "vcs",
@@ -55,35 +103,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:cuny-academic-commons/cbox-theme.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/hc-member-profiles.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/hc-provisional-content.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/mla-academic-interests.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:stuttter/wp-multi-network.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/shibboleth.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/mla-allowed-tags.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/buddypress-docs-minor-edit.git"
     },
     {
       "type": "vcs",
@@ -91,31 +111,11 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/humanities-commons.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/boss-child.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/hc-styles.git"
+      "url": "git@github.com:modelm/buddypress-body-classes.git"
     },
     {
       "type": "vcs",
       "url": "git@github.com:stuttter/wp-multi-network.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/bwp-google-xml-sitemaps.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/bp-group-documents.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:modelm/buddypress-body-classes.git"
     },
     {
       "type": "package",
@@ -333,6 +333,7 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#2a4ac8c",
+    "mlaa/hc-custom": "dev-master#cb4d540",
     "mlaa/hc-member-profiles": "dev-master#73a11bc",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#e19f8b6",
