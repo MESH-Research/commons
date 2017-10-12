@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4259b8afc63c98965ba071bce1325a52",
+    "content-hash": "037f1ee9aacbed81bcbb8503eb6fc4f7",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,12 +404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "7cef10d"
+                "reference": "0719633"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/7cef10d",
-                "reference": "7cef10d",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0719633",
+                "reference": "0719633",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -417,7 +417,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-10-05 16:26:07"
+            "time": "2017-10-12 17:28:01"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "ba2807c"
+                "reference": "5ab7b8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/ba2807c",
-                "reference": "ba2807c",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/5ab7b8f",
+                "reference": "5ab7b8f",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -807,7 +807,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-10-05 16:48:55"
+            "time": "2017-10-12 17:26:36"
         },
         {
             "name": "mlaa/humcore",
