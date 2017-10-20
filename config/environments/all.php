@@ -168,6 +168,11 @@ define('GLOBAL_SMTP_FROM', getenv('GLOBAL_SMTP_FROM'));
 define('CBOX_OVERRIDE_PLUGINS', true); // help debug setup
 
 /**
+ * BuddyPress
+ */
+define( 'BP_DEFAULT_COMPONENT', 'profile' ); // make "profile" default rather than "activity" for bp members component
+
+/**
  * Humanities CORE
  */
 define('CORE_HTTP_DEBUG', getenv('CORE_HTTP_DEBUG'));
