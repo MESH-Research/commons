@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aafe7cb7209cf03b27b6948b8bbb9e87",
+    "content-hash": "7ad564e8b6327d6303b7f513ca2c609a",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -767,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "e0c07ce"
+                "reference": "4111b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/e0c07ce",
-                "reference": "e0c07ce",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/4111b93",
+                "reference": "4111b93",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -786,7 +786,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2017-10-23 16:05:10"
+            "time": "2017-10-23 16:29:38"
         },
         {
             "name": "mlaa/humanities-commons",
