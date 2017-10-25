@@ -457,6 +457,7 @@
     "wpbakery/visual-composer": "^5.2",
     "wpmudev/google-analytics-async": "^3.1",
     "wpninjas/ninja-forms-conditional-logic": "^3.0",
+    "wpninjas/ninja-forms-multi-part": "^3.0",
     "wpninjas/ninja-forms-pdf-submissions": "^1.3",
     "wpninjas/ninja-forms-save-progress": "^1.2",
     "wpninjas/ninja-forms-style": "^1.2",
