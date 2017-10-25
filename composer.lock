@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "28ed1515596b9dae2dfd1d3d0b9c0dbb",
+    "content-hash": "269b3f0d762ed0bbca457e4033483431",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -3409,6 +3409,17 @@
                 "shasum": "890c6ebddd8ea5469c6229457878c30c85cd450f"
             },
             "type": "library"
+        },
+        {
+            "name": "wpninjas/ninja-forms-multi-part",
+            "version": "3.0.21",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-multi-part-3.0.21.zip",
+                "reference": null,
+                "shasum": "5655249cefff880932734d76d21085a3f2b539d7"
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "wpninjas/ninja-forms-pdf-submissions",
