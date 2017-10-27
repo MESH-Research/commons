@@ -123,26 +123,18 @@ function hcommons_maybe_redirect_after_login() {
 	$param_name = 'redirect_to';
 	$cookie_name = $param_name;
 
-	if (
-		is_user_logged_in() &&
-		isset( $_COOKIE[ $cookie_name ] ) &&
-		false === strpos( $_SERVER['REQUEST_URI'], 'action=logout' )
-	) {
-		$cookie_value = $_COOKIE[ $cookie_name ];
-
+	if ( is_user_logged_in() && isset( $_COOKIE[ $cookie_name ] ) ) {
 		// unset cookie
 		setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
 
 		// only redirect if we're not already there
-		if ( false === strpos( urldecode( $cookie_value ), $_SERVER['REQUEST_URI'] ) ) {
-			// Can't use wp_safe_redirect() because it may be overzealously filtered,
-			// send the user directly first and then let catchuri etc. figure it out from there.
-			header( "Location: $cookie_value" );
+		if ( false === strpos( urldecode( $_COOKIE[ $cookie_name ] ), $_SERVER['REQUEST_URI'] ) ) {
+			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
 			exit;
 		}
 	}
 
-	if ( isset( $_REQUEST[ $param_name ] ) && strlen( $_SERVER['REQUEST_URI'] ) > 1 ) {
+	if ( isset( $_REQUEST[ $param_name ] ) ) {
 		// set cookie to the value of the param so we can reference it after authentication
 		setcookie( $cookie_name, $_REQUEST[ $param_name ], null, COOKIEPATH, COOKIE_DOMAIN );
 	}
@@ -150,47 +142,17 @@ function hcommons_maybe_redirect_after_login() {
 // priority 15 to allow shibboleth_auto_login() to run first
 add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
 
-
-/**
- * Closely related to hcommons_maybe_redirect_after_login(),
- * this handles cases where WP/BP redirects before 'init'.
- * e.g. hidden groups.
- */
-function hcommons_add_redirect_to_bp_404() {
-	$cookie_name = 'redirect_to';
-	$cookie_value = get_site_url() . $_SERVER['REQUEST_URI'];
-
-	setcookie( $cookie_name, $cookie_value, null, COOKIEPATH, COOKIE_DOMAIN );
-
-	// This action can run more than once for a single request - only set the cookie the first time.
-	remove_action( 'bp_do_404', __METHOD__ );
-}
-add_action( 'bp_do_404', 'hcommons_add_redirect_to_bp_404' );
-
 function hcommons_add_redirect_to_shib_login_url( $login_url ) {
-	$redirect_url = ( isset( $_COOKIE['redirect_to'] ) ) ? $_COOKIE['redirect_to'] : get_site_url() . $_SERVER['REQUEST_URI'];
-	$login_url_query = parse_url( $login_url, PHP_URL_QUERY );
-	parse_str( $login_url_query, $parsed_login_url_query );
-
 	if (
-		// Exclude some special pages
 		false === strpos( $_SERVER['REQUEST_URI'], 'logged-out' ) &&
 		false === strpos( $_SERVER['REQUEST_URI'], 'not-a-member' ) &&
-		(
-			! isset( $parsed_login_url_query['redirect_to'] ) ||
-			/**
-			 * Sometimes you end up on the homepage after being redirected away from hidden content.
-			 * In that case, preserve the cookie value and overwrite the homepage in redirect_to.
-			 */
-			trailingslashit( get_site_url() ) === trailingslashit( $parsed_login_url_query['redirect_to'] )
-		)
+		false === strpos( $login_url, 'redirect_to' )
 	) {
-		$login_url = add_query_arg( 'redirect_to', urlencode( $redirect_url ), $login_url );
+		$login_url = add_query_arg( 'redirect_to', urlencode( get_site_url() . $_SERVER['REQUEST_URI'] ), $login_url );
 	}
-
 	return $login_url;
 }
-add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url', -100 );
+add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url' );
 
 /**
  * use mapped domain rather than the internal domain when possible
