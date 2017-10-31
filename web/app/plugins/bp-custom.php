@@ -143,7 +143,7 @@ function hcommons_maybe_redirect_after_login() {
 
 		if ( isset( $_COOKIE[ $cookie_name ] ) ) {
 			// only redirect if we're not already there
-			if ( false === strpos( urldecode( $_COOKIE[ $cookie_name ] ), $_SERVER['REQUEST_URI'] ) ) {
+			if ( false === strpos( $_COOKIE[ $cookie_name ], $_SERVER['REQUEST_URI'] ) ) {
 				// Can't use wp_safe_redirect due to filters, just send directly.
 				header( 'Location: ' . $_COOKIE[ $cookie_name ] );
 				exit;
