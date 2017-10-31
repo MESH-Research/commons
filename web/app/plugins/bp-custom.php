@@ -109,13 +109,6 @@ function hcommons_selectively_disable_object_cache() {
 }
 add_action( 'plugins_loaded', 'hcommons_selectively_disable_object_cache' );
 
-function hcommons_filter_tiny_mce_before_init( $args ) {
-	$args['plugins'] = 'paste';
-	$args['paste_as_text'] = 'true';
-	return $args;
-}
-//add_filter( 'tiny_mce_before_init', 'hcommons_filter_tiny_mce_before_init' );
-
 
 // shibboleth attempts to put users back where they came from after authenticating with the redirect_to param.
 // that param is not always preserved through the login flow, so handle it here with a cookie to be sure.
