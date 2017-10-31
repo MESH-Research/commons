@@ -123,36 +123,55 @@ function hcommons_maybe_redirect_after_login() {
 	$param_name = 'redirect_to';
 	$cookie_name = $param_name;
 
-	if ( is_user_logged_in() && isset( $_COOKIE[ $cookie_name ] ) ) {
-		// unset cookie
-		setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
+	// Some pages need to be excluded from being redirect targets.
+	$blacklist = [
+		'/',
+		'/clear-session/',
+		'/logged-out/',
+		'/not-a-member/',
+		'/wp-admin/admin-ajax.php',
+		'/wp-login.php?action=shibboleth',
+	];
 
-		// only redirect if we're not already there
-		if ( false === strpos( urldecode( $_COOKIE[ $cookie_name ] ), $_SERVER['REQUEST_URI'] ) ) {
-			wp_safe_redirect( $_COOKIE[ $cookie_name ] );
-			exit;
+	// Once user has authenticated, maybe redirect to original destination.
+	if ( is_user_logged_in() ) {
+
+		// unset cookie on each network domains
+		foreach ( get_networks() as $network ) {
+			setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, $network->cookie_domain );
 		}
-	}
 
-	if ( isset( $_REQUEST[ $param_name ] ) ) {
-		// set cookie to the value of the param so we can reference it after authentication
-		setcookie( $cookie_name, $_REQUEST[ $param_name ], null, COOKIEPATH, COOKIE_DOMAIN );
+		if ( isset( $_COOKIE[ $cookie_name ] ) ) {
+			// only redirect if we're not already there
+			if ( false === strpos( urldecode( $_COOKIE[ $cookie_name ] ), $_SERVER['REQUEST_URI'] ) ) {
+				// Can't use wp_safe_redirect due to filters, just send directly.
+				header( 'Location: ' . $_COOKIE[ $cookie_name ] );
+				exit;
+			}
+		}
+
+	// Otherwise, as long as this isn't a blacklisted page, set cookie.
+	} else if ( ! in_array( $_SERVER['REQUEST_URI'], $blacklist ) ) {
+		// Direct access to protected group docs is handled with another redirect, leave as-is.
+		if ( ! preg_match( '/You must be a logged-in member/', $_COOKIE['bp-message'] ) ) {
+			$cookie_value = isset( $_REQUEST[ $param_name ] ) ? $_REQUEST[ $param_name ] : get_site_url() . $_SERVER['REQUEST_URI'];
+
+			setcookie( $cookie_name, $cookie_value, null, COOKIEPATH, COOKIE_DOMAIN );
+		}
+
+		// No need to set duplicate cookies, once we set one we're done with this request.
+		remove_action( 'bp_do_404', __METHOD__ );
+		remove_action( 'init', __METHOD__ );
+		remove_action( 'wp', __METHOD__ );
 	}
 }
+// bp_do_404 runs before wp, so needs an additional hook to set cookie for hidden content etc.
+add_action( 'bp_do_404', 'hcommons_maybe_redirect_after_login' );
 // priority 15 to allow shibboleth_auto_login() to run first
 add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
+// to catch cookies set by cac_catch_group_doc_request
+add_action( 'wp', 'hcommons_maybe_redirect_after_login' );
 
-function hcommons_add_redirect_to_shib_login_url( $login_url ) {
-	if (
-		false === strpos( $_SERVER['REQUEST_URI'], 'logged-out' ) &&
-		false === strpos( $_SERVER['REQUEST_URI'], 'not-a-member' ) &&
-		false === strpos( $login_url, 'redirect_to' )
-	) {
-		$login_url = add_query_arg( 'redirect_to', urlencode( get_site_url() . $_SERVER['REQUEST_URI'] ), $login_url );
-	}
-	return $login_url;
-}
-add_filter( 'login_url', 'hcommons_add_redirect_to_shib_login_url' );
 
 /**
  * use mapped domain rather than the internal domain when possible
