@@ -161,7 +161,7 @@ function hcommons_maybe_redirect_after_login() {
 
 		// No need to set duplicate cookies, once we set one we're done with this request.
 		remove_action( 'bp_do_404', __METHOD__ );
-		remove_action( 'init', __METHOD__ );
+		remove_action( 'init', __METHOD__, 15 );
 		remove_action( 'wp', __METHOD__ );
 	}
 }
