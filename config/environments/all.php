@@ -173,6 +173,11 @@ define('CBOX_OVERRIDE_PLUGINS', true); // help debug setup
 define( 'BP_DEFAULT_COMPONENT', 'profile' ); // make "profile" default rather than "activity" for bp members component
 
 /**
+ * BuddyPress Reply By Email
+ */
+define( 'BP_RBE_SPARKPOST_WEBHOOK_TOKEN', getenv( 'BP_RBE_SPARKPOST_WEBHOOK_TOKEN' ) );
+
+/**
  * Humanities CORE
  */
 define('CORE_HTTP_DEBUG', getenv('CORE_HTTP_DEBUG'));
