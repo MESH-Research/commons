@@ -146,7 +146,10 @@ function hcommons_maybe_redirect_after_login() {
 	// Otherwise, as long as this isn't a blacklisted page, set cookie.
 	} else if ( ! in_array( $_SERVER['REQUEST_URI'], $blacklist ) ) {
 		// Direct access to protected group docs is handled with another redirect, leave as-is.
-		if ( ! preg_match( '/You must be a logged-in member/', $_COOKIE['bp-message'] ) ) {
+		if (
+			! isset( $_COOKIE['bp-message'] ) ||
+			! preg_match( '/You must be a logged-in member/', $_COOKIE['bp-message'] )
+		) {
 			$cookie_value = isset( $_REQUEST[ $param_name ] ) ? $_REQUEST[ $param_name ] : get_site_url() . $_SERVER['REQUEST_URI'];
 
 			setcookie( $cookie_name, $cookie_value, null, COOKIEPATH, COOKIE_DOMAIN );
