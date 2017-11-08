@@ -345,7 +345,7 @@
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
     "mlaa/shibboleth": "dev-master",
-    "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#7ae2d8d",
+    "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#d46a9ed",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/style-center": "dev-master#8f88cad",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
