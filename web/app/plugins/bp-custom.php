@@ -144,7 +144,7 @@ function hcommons_maybe_redirect_after_login() {
 		}
 
 	// Otherwise, as long as this isn't a blacklisted page, set cookie.
-	} else if ( ! in_array( $_SERVER['REQUEST_URI'], $blacklist ) ) {
+	} else if ( ! in_array( $_SERVER['REQUEST_URI'], $blacklist ) && false === strpos( $_SERVER['REQUEST_URI'], '/wp-json/' ) ) {
 		// Direct access to protected group docs is handled with another redirect, leave as-is.
 		if (
 			! isset( $_COOKIE['bp-message'] ) ||
