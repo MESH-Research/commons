@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f929c4c4d2f4fbaa8d56354d7f8ea3c8",
+    "content-hash": "ef3a87ae8d50d2ac496a51c441be7b2e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -425,12 +425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bp-attachment-xprofile-field-type.git",
-                "reference": "a3853dd"
+                "reference": "1cc136c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/a3853dd",
-                "reference": "a3853dd",
+                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/1cc136c",
+                "reference": "1cc136c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -438,7 +438,7 @@
                 "source": "https://github.com/mlaa/bp-attachment-xprofile-field-type/tree/master",
                 "issues": "https://github.com/mlaa/bp-attachment-xprofile-field-type/issues"
             },
-            "time": "2017-11-16 16:52:26"
+            "time": "2017-11-16 17:04:32"
         },
         {
             "name": "mlaa/bp-block-member",
