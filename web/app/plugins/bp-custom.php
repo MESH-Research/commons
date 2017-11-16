@@ -152,7 +152,7 @@ function hcommons_maybe_redirect_after_login() {
 		) {
 			$cookie_value = isset( $_REQUEST[ $param_name ] ) ? $_REQUEST[ $param_name ] : get_site_url() . $_SERVER['REQUEST_URI'];
 
-			setcookie( $cookie_name, $cookie_value, null, COOKIEPATH, COOKIE_DOMAIN );
+			setcookie( $cookie_name, $cookie_value, time() + 5 * MINUTE_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
 		}
 
 		// No need to set duplicate cookies, once we set one we're done with this request.
