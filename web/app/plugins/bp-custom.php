@@ -113,18 +113,25 @@ add_action( 'plugins_loaded', 'hcommons_selectively_disable_object_cache' );
 // shibboleth attempts to put users back where they came from after authenticating with the redirect_to param.
 // that param is not always preserved through the login flow, so handle it here with a cookie to be sure.
 function hcommons_maybe_redirect_after_login() {
+	// Some pages need to be excluded from being redirect targets.
+	$is_blacklisted = function() {
+		$blacklist = [
+			'/',
+			'/clear-session/',
+			'/logged-out/',
+			'/not-a-member/',
+			'/wp-admin/admin-ajax.php',
+		];
+
+		return (
+			in_array( $_SERVER['REQUEST_URI'], $blacklist ) ||
+			false !== strpos( $_SERVER['REQUEST_URI'], '/wp-login.php' ) ||
+			false !== strpos( $_SERVER['REQUEST_URI'], '/wp-json/' )
+		);
+	};
+
 	$param_name = 'redirect_to';
 	$cookie_name = $param_name;
-
-	// Some pages need to be excluded from being redirect targets.
-	$blacklist = [
-		'/',
-		'/clear-session/',
-		'/logged-out/',
-		'/not-a-member/',
-		'/wp-admin/admin-ajax.php',
-		'/wp-login.php?action=shibboleth',
-	];
 
 	// Once user has authenticated, maybe redirect to original destination.
 	if ( is_user_logged_in() ) {
@@ -144,7 +151,7 @@ function hcommons_maybe_redirect_after_login() {
 		}
 
 	// Otherwise, as long as this isn't a blacklisted page, set cookie.
-	} else if ( ! in_array( $_SERVER['REQUEST_URI'], $blacklist ) && false === strpos( $_SERVER['REQUEST_URI'], '/wp-json/' ) ) {
+	} else if ( ! $is_blacklisted() ) {
 		// Direct access to protected group docs is handled with another redirect, leave as-is.
 		if (
 			! isset( $_COOKIE['bp-message'] ) ||
