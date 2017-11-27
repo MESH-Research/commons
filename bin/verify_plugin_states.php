@@ -46,6 +46,7 @@ PROBLEM: typekit-fonts-for-wordpress is active on $hostname and inactive on mla.
 PROBLEM: wordpress-mu-domain-mapping is inactive on $hostname and active-network on mla.$hostname
 PROBLEM: wp-hide-dashboard is active on $hostname and active-network on mla.$hostname
 PROBLEM: password-protected is active-network on $hostname and inactive on caa.$hostname
+PROBLEM: password-protected is inactive on $hostname and active-network on up.$hostname
 
 EOD;
 // the extra newline above is necessary to ensure the final line matches
