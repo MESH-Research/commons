@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f1e9abb45ea072ac23da7dbe3209be",
+    "content-hash": "ca47710596da5dad840df54ac136f7fc",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,20 +404,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "0719633"
+                "reference": "3c631dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0719633",
-                "reference": "0719633",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3c631dd",
+                "reference": "3c631dd",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/feature-forum-ui",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-10-12 17:28:01"
+            "time": "2017-11-22 13:18:58"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24T19:31:53+00:00"
+            "time": "2017-04-24 19:31:53"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -818,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "e4d79ab"
+                "reference": "a05b79e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/e4d79ab",
-                "reference": "e4d79ab",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/a05b79e",
+                "reference": "a05b79e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -831,7 +831,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-10-24 13:22:48"
+            "time": "2017-11-22 13:20:09"
         },
         {
             "name": "mlaa/humcore",
