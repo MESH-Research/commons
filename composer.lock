@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca47710596da5dad840df54ac136f7fc",
+    "content-hash": "cdd51f54fcdd6c7d308aeb5ab5584463",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -560,7 +560,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "7e38a36"
+                "reference": "3e519a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/7e38a36",
-                "reference": "7e38a36",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/3e519a9",
+                "reference": "3e519a9",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2017-11-16 21:19:59"
+            "time": "2017-11-28 15:10:03"
         },
         {
             "name": "mlaa/humanities-commons",
