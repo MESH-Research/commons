@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3a670125fcdaf722c448f271dc3603b",
+    "content-hash": "18f4252ca31df4e0e9200a632e8be9e7",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,20 +404,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "3c631dd"
+                "reference": "eb5b762"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3c631dd",
-                "reference": "3c631dd",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/eb5b762",
+                "reference": "eb5b762",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/feature-forum-ui",
+                "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-11-22 13:18:58"
+            "time": "2017-11-28 20:50:25"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -2461,7 +2461,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/redirection.2.10.1.zip",
-                "reference": null,
+                "reference": "tags/2.10.1",
                 "shasum": null
             },
             "require": {
