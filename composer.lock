@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7ec5c93181a2c7a2318695ff97c936b",
+    "content-hash": "c75b965fde110252ca02041f2eb0e864",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,12 +404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "0719633"
+                "reference": "ecaa00d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0719633",
-                "reference": "0719633",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ecaa00d",
+                "reference": "ecaa00d",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -417,7 +417,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-10-12 17:28:01"
+            "time": "2017-11-30 19:06:55"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -425,12 +425,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bp-attachment-xprofile-field-type.git",
-                "reference": "0d85ae5"
+                "reference": "1cc136c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/0d85ae5",
-                "reference": "0d85ae5",
+                "url": "https://api.github.com/repos/mlaa/bp-attachment-xprofile-field-type/zipball/1cc136c",
+                "reference": "1cc136c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -438,7 +438,7 @@
                 "source": "https://github.com/mlaa/bp-attachment-xprofile-field-type/tree/master",
                 "issues": "https://github.com/mlaa/bp-attachment-xprofile-field-type/issues"
             },
-            "time": "2017-09-28 20:48:02"
+            "time": "2017-11-16 17:04:32"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "f9694a0"
+                "reference": "7dd33ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/f9694a0",
-                "reference": "f9694a0",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/7dd33ce",
+                "reference": "7dd33ce",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -717,7 +717,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2017-10-19 19:35:55"
+            "time": "2017-11-30 19:34:39"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -725,12 +725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
-                "reference": "585cec1"
+                "reference": "6c6bf62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/585cec1",
-                "reference": "585cec1",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/6c6bf62",
+                "reference": "6c6bf62",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -738,7 +738,7 @@
                 "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2017-10-16 19:01:10"
+            "time": "2017-10-26 17:48:03"
         },
         {
             "name": "mlaa/hc-provisional-content",
@@ -767,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "e19f8b6"
+                "reference": "4111b93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/e19f8b6",
-                "reference": "e19f8b6",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/4111b93",
+                "reference": "4111b93",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -786,7 +786,31 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2017-10-03 19:45:52"
+            "time": "2017-10-23 16:29:38"
+        },
+        {
+            "name": "mlaa/hc-suggestions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-suggestions.git",
+                "reference": "3e519a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/3e519a9",
+                "reference": "3e519a9",
+                "shasum": ""
+            },
+            "require": {
+                "mlaa/elasticpress-buddypress": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-suggestions/tree/master",
+                "issues": "https://github.com/mlaa/hc-suggestions/issues"
+            },
+            "time": "2017-11-28 15:10:03"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -794,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "5ab7b8f"
+                "reference": "a05b79e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/5ab7b8f",
-                "reference": "5ab7b8f",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/a05b79e",
+                "reference": "a05b79e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -807,7 +831,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-10-12 17:26:36"
+            "time": "2017-11-22 13:20:09"
         },
         {
             "name": "mlaa/humcore",
@@ -978,10 +1002,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/wordpress-sparkpost.git",
-                "reference": "7ae2d8d"
+                "reference": "e0ffe49"
             },
             "type": "wordpress-plugin",
-            "time": "2017-01-25 15:25:58"
+            "time": "2017-11-09 19:03:27"
         },
         {
             "name": "mlaa/sparkpost-bp-mailer",
@@ -1010,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "22eb112"
+                "reference": "1a6d1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/22eb112",
-                "reference": "22eb112",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/1a6d1db",
+                "reference": "1a6d1db",
                 "shasum": ""
             },
             "require": {
@@ -1030,7 +1054,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-09-29 14:16:57"
+            "time": "2017-11-28 22:31:16"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1185,10 +1209,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:r-a-y/bp-reply-by-email.git",
-                "reference": "master"
+                "reference": "cac2a61"
             },
             "type": "wordpress-plugin",
-            "time": "2017-06-23 04:33:04"
+            "time": "2017-11-04 01:05:31"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1867,6 +1891,26 @@
             "homepage": "https://wordpress.org/plugins/disable-password-reset-extended/"
         },
         {
+            "name": "wpackagist-plugin/edit-flow",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/edit-flow/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/edit-flow.0.8.2.zip",
+                "reference": "tags/0.8.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/edit-flow/"
+        },
+        {
             "name": "wpackagist-plugin/elasticpress",
             "version": "2.2.1",
             "source": {
@@ -2425,6 +2469,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/public-post-preview/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "2.10.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/2.10.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.10.1.zip",
+                "reference": "tags/2.10.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/redux-framework",
@@ -3389,92 +3453,68 @@
             "type": "wordpress-plugin"
         },
         {
-            "name": "wpninjas/ninja-forms-conditionals",
-            "version": "1.3.9",
+            "name": "wpninjas/ninja-forms-conditional-logic",
+            "version": "3.0.17",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-conditionals-1.3.9.zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-conditional-logic-3.0.17.zip",
                 "reference": null,
-                "shasum": "d6ab6f8cd866193488e0ca292543f9319c79122c"
+                "shasum": "701e4b14bb0759886c39983eb51e36aff97741cd"
             },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpninjas/ninja-forms-layout-styles",
+            "version": "3.0.25",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-layout-styles-3.0.25.zip",
+                "reference": null,
+                "shasum": "296037deaa1c32da9b9bbf3cbe583686041284c2"
             },
             "type": "wordpress-plugin"
         },
         {
             "name": "wpninjas/ninja-forms-multi-part",
-            "version": "1.3.5",
+            "version": "3.0.21",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-multi-part-1.3.5.zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-multi-part-3.0.21.zip",
                 "reference": null,
-                "shasum": "238eb1959a384561e6c8350c3e71a39d8bb73180"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+                "shasum": "5655249cefff880932734d76d21085a3f2b539d7"
             },
             "type": "wordpress-plugin"
         },
         {
             "name": "wpninjas/ninja-forms-pdf-submissions",
-            "version": "1.3.5",
+            "version": "3.0.4",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-pdf-submissions-1.3.5.zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-pdf-submissions-3.0.4.zip",
                 "reference": null,
-                "shasum": "66ef54451bd6682192fce84999f22776ca78385b"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+                "shasum": "2800fd403d04682c427f2638c54866956fbceae1"
             },
             "type": "wordpress-plugin"
         },
         {
             "name": "wpninjas/ninja-forms-save-progress",
-            "version": "1.2.2",
+            "version": "3.0.9",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-save-progress-1.2.2.zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-save-progress-3.0.9.zip",
                 "reference": null,
-                "shasum": "407051086134064fbcd259220ba2b876f556b931"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpninjas/ninja-forms-style",
-            "version": "1.2.7",
-            "dist": {
-                "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-style-1.2.7.zip",
-                "reference": null,
-                "shasum": "4349870456d1061e75ad909170bb2dfa88f0f5bf"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+                "shasum": "bfeaffd166b8f8e6a1c924c113e90c2a4ac275cf"
             },
             "type": "wordpress-plugin"
         },
         {
             "name": "wpninjas/ninja-forms-uploads",
-            "version": "1.4.7",
+            "version": "3.0.16",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-uploads-1.4.7.zip",
+                "url": "/tmp/wordpress-packages/wpninjas-ninja-forms-uploads-3.0.16.zip",
                 "reference": null,
-                "shasum": "eb62ba74684e3b7f8cbc6a9a7f20925556027f9b"
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
+                "shasum": "9db8a9fbd1dd94971a49168573e97806b085c876"
             },
             "type": "wordpress-plugin"
         }
@@ -5922,6 +5962,7 @@
         "mlaa/hc-member-profiles": 20,
         "mlaa/hc-provisional-content": 20,
         "mlaa/hc-styles": 20,
+        "mlaa/hc-suggestions": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
         "mlaa/mla-academic-interests": 20,
