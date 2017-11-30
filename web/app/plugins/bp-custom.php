@@ -168,7 +168,7 @@ function hcommons_maybe_redirect_after_login() {
 		remove_action( 'wp', __METHOD__ );
 	}
 }
-if ( ! ( defined( DOMAIN_MAPPING ) && DOMAIN_MAPPING ) ) {
+if ( ! ( defined( 'DOMAIN_MAPPING' ) && DOMAIN_MAPPING ) ) {
 	// bp_do_404 runs before wp, so needs an additional hook to set cookie for hidden content etc.
 	add_action( 'bp_do_404', 'hcommons_maybe_redirect_after_login' );
 	// priority 15 to allow shibboleth_auto_login() to run first
