@@ -11,6 +11,7 @@ $networks = [
 	'aseees.',
 	'caa.',
 	'mla.',
+	'up.',
 ];
 
 $all_networks_plugins = [];
