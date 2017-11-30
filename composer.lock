@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9f1e9abb45ea072ac23da7dbe3209be",
+    "content-hash": "56d827598e656ae0c34fb47e23da1d13",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -404,12 +404,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "0719633"
+                "reference": "ecaa00d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/0719633",
-                "reference": "0719633",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ecaa00d",
+                "reference": "ecaa00d",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -417,7 +417,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-10-12 17:28:01"
+            "time": "2017-11-30 19:06:55"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "12f1908"
+                "reference": "7dd33ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/12f1908",
-                "reference": "12f1908",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/7dd33ce",
+                "reference": "7dd33ce",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -717,7 +717,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2017-11-16 20:16:14"
+            "time": "2017-11-30 19:34:39"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "7e38a36"
+                "reference": "3e519a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/7e38a36",
-                "reference": "7e38a36",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/3e519a9",
+                "reference": "3e519a9",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2017-11-16 21:19:59"
+            "time": "2017-11-28 15:10:03"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -818,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "e4d79ab"
+                "reference": "a05b79e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/e4d79ab",
-                "reference": "e4d79ab",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/a05b79e",
+                "reference": "a05b79e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -831,7 +831,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2017-10-24 13:22:48"
+            "time": "2017-11-22 13:20:09"
         },
         {
             "name": "mlaa/humcore",
@@ -1034,12 +1034,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "cb2a685"
+                "reference": "1a6d1db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/cb2a685",
-                "reference": "cb2a685",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/1a6d1db",
+                "reference": "1a6d1db",
                 "shasum": ""
             },
             "require": {
@@ -1051,10 +1051,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/feature-workflow-enhancements",
+                "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2017-11-16 17:00:04"
+            "time": "2017-11-28 22:31:16"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1891,6 +1891,26 @@
             "homepage": "https://wordpress.org/plugins/disable-password-reset-extended/"
         },
         {
+            "name": "wpackagist-plugin/edit-flow",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/edit-flow/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/edit-flow.0.8.2.zip",
+                "reference": "tags/0.8.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/edit-flow/"
+        },
+        {
             "name": "wpackagist-plugin/elasticpress",
             "version": "2.2.1",
             "source": {
@@ -2449,6 +2469,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/public-post-preview/"
+        },
+        {
+            "name": "wpackagist-plugin/redirection",
+            "version": "2.10.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "tags/2.10.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.2.10.1.zip",
+                "reference": "tags/2.10.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/"
         },
         {
             "name": "wpackagist-plugin/redux-framework",
