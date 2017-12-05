@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "26f8b0863a848ec106fb68ec2eb4ff0e",
+    "content-hash": "8e79b020601273036a47b5dd505e002e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "7dd33ce"
+                "reference": "8931ba2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/7dd33ce",
-                "reference": "7dd33ce",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/8931ba2",
+                "reference": "8931ba2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -717,7 +717,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2017-11-30 19:34:39"
+            "time": "2017-12-05 15:38:52"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1486,6 +1486,17 @@
             "type": "wordpress-theme"
         },
         {
+            "name": "uglyrobot/multisite-plugin-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:uglyrobot/multisite-plugin-manager.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-11-29 23:44:35"
+        },
+        {
             "name": "vaites/php-apache-tika",
             "version": "v0.3.7",
             "source": {
@@ -2249,26 +2260,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/more-privacy-options/"
-        },
-        {
-            "name": "wpackagist-plugin/multisite-plugin-manager",
-            "version": "3.1.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/multisite-plugin-manager/",
-                "reference": "tags/3.1.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/multisite-plugin-manager.3.1.5.zip",
-                "reference": "tags/3.1.5",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/multisite-plugin-manager/"
         },
         {
             "name": "wpackagist-plugin/network-plugin-auditor",
@@ -5976,6 +5967,7 @@
         "mlaa/style-center": 20,
         "r-a-y/bp-reply-by-email": 20,
         "stuttter/wp-multi-network": 20,
+        "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,
         "modelm/buddypress-body-classes": 20

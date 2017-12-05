@@ -293,6 +293,19 @@
     {
       "type": "package",
       "package": {
+        "name": "uglyrobot/multisite-plugin-manager",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:uglyrobot/multisite-plugin-manager.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/password-protected",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -337,7 +350,7 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#2a4ac8c",
-    "mlaa/hc-custom": "dev-master#7dd33ce",
+    "mlaa/hc-custom": "dev-master#8931ba2",
     "mlaa/hc-member-profiles": "dev-master#b32dfe9",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#4111b93",
@@ -368,6 +381,7 @@
     "themeforest/education": "^2.8",
     "themesindep/shortcodes-indep": "^3.0",
     "themesindep/simplemag": "^3.0",
+    "uglyrobot/multisite-plugin-manager": "dev-master",
     "vlucas/phpdotenv": "v2.2.0",
     "wpackagist-plugin/akismet": "^3.3",
     "wpackagist-plugin/anthologize": "^0.7.7",
@@ -402,7 +416,6 @@
     "wpackagist-plugin/knight-lab-timelinejs": "^3.4",
     "wpackagist-plugin/menu-icons": "^0.10.2",
     "wpackagist-plugin/more-privacy-options": "4.6",
-    "wpackagist-plugin/multisite-plugin-manager": "^3.1",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
     "wpackagist-plugin/newsletters-lite": "4.6.6.2",
     "wpackagist-plugin/ninja-forms": "^3.0",
