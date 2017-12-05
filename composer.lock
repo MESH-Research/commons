@@ -4,18 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "99385e06f47a03909f010bdf3dece7c8",
+    "content-hash": "9e09a73e761a27e3b51ccc086993798e",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
-            "version": "dev-master",
+            "version": "dev-3.8.x",
             "source": {
                 "type": "git",
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
-                "reference": "e656a7c"
+                "reference": "3.8.x"
             },
             "type": "wordpress-plugin",
-            "time": "2017-08-07 18:52:24"
+            "time": "2017-11-17 20:15:48"
         },
         {
             "name": "buddyboss/boss",

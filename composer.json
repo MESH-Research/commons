@@ -203,12 +203,12 @@
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-group-email-subscription",
-        "version": "dev-master",
+        "version": "dev-3.8.x",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
           "type": "git",
-          "reference": "master"
+          "reference": "3.8.x"
         }
       }
     },
@@ -332,7 +332,7 @@
   ],
   "require": {
     "php": ">=5.5",
-    "boonebgorges/buddypress-group-email-subscription": "dev-master#e656a7c",
+    "boonebgorges/buddypress-group-email-subscription": "dev-3.8.x",
     "buddyboss/boss": "^2.2",
     "cmoreira/interactive-world-maps": "1.9.9",
     "composer/installers": "^1.2",
