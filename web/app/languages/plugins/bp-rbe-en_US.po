@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: BuddyPress Reply By Email v1.0-beta1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-11-16 15:11-0500\n"
+"PO-Revision-Date: 2017-12-05 15:46-0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,7 +31,9 @@ msgstr ""
 #: bp-rbe-core.php:208 includes/bp-rbe-classes.php:738
 #: includes/bp-rbe-functions.php:792
 msgid "--- Reply ABOVE THIS LINE to add a comment ---"
-msgstr "--- Reply to this e-mail to send your response to the Commons ---"
+msgstr ""
+"--- Reply to this e-mail to send your response to the Commons (attachments "
+"coming soon!) ---"
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:63
