@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3e731a3315300a8994fd8e0211f7e6e",
+    "content-hash": "8b6e2146892ed7a2854c10de0a3950cd",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1484,6 +1484,17 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-theme"
+        },
+        {
+            "name": "uglyrobot/multisite-plugin-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:uglyrobot/multisite-plugin-manager.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-11-29 23:44:35"
         },
         {
             "name": "vaites/php-apache-tika",
@@ -5956,6 +5967,7 @@
         "mlaa/style-center": 20,
         "r-a-y/bp-reply-by-email": 20,
         "stuttter/wp-multi-network": 20,
+        "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,
         "modelm/buddypress-body-classes": 20
