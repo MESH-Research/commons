@@ -293,6 +293,19 @@
     {
       "type": "package",
       "package": {
+        "name": "uglyrobot/multisite-plugin-manager",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:uglyrobot/multisite-plugin-manager.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/password-protected",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -402,7 +415,6 @@
     "wpackagist-plugin/knight-lab-timelinejs": "^3.4",
     "wpackagist-plugin/menu-icons": "^0.10.2",
     "wpackagist-plugin/more-privacy-options": "4.6",
-    "wpackagist-plugin/multisite-plugin-manager": "^3.1",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
     "wpackagist-plugin/newsletters-lite": "4.6.6.2",
     "wpackagist-plugin/ninja-forms": "^3.0",
