@@ -228,6 +228,19 @@
     {
       "type": "package",
       "package": {
+        "name": "r-a-y/bp-rbe-new-topic",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "r-a-y/bp-reply-by-email",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -369,6 +382,7 @@
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
+    "r-a-y/bp-rbe-new-topic": "dev-master",
     "r-a-y/bp-reply-by-email": "dev-master#cac2a61",
     "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",

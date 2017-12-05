@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c2809ce5bb550fcb373eb73063886239",
+    "content-hash": "3b76dbeda447255088a03513a5a367ae",
     "packages": [
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -1202,6 +1202,17 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "r-a-y/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
+                "reference": "master"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-05-18 17:40:54"
         },
         {
             "name": "r-a-y/bp-reply-by-email",
@@ -5965,6 +5976,7 @@
         "mlaa/sparkpost": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
+        "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
         "stuttter/wp-multi-network": 20,
         "uglyrobot/multisite-plugin-manager": 20,
