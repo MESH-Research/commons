@@ -332,7 +332,6 @@
   ],
   "require": {
     "php": ">=5.5",
-    "boonebgorges/buddypress-group-email-subscription": "dev-3.8.x",
     "buddyboss/boss": "^2.2",
     "cmoreira/interactive-world-maps": "1.9.9",
     "composer/installers": "^1.2",

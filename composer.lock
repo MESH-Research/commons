@@ -4,19 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e270fd8125bf6c7b022e297ad8946c07",
+    "content-hash": "f7f17b6a2d1884cff5a70fe60f53c046",
     "packages": [
-        {
-            "name": "boonebgorges/buddypress-group-email-subscription",
-            "version": "dev-3.8.x",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
-                "reference": "3.8.x"
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-12-13 20:57:51"
-        },
         {
             "name": "buddyboss/boss",
             "version": "2.2.2",
@@ -5941,7 +5930,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "boonebgorges/buddypress-group-email-subscription": 20,
         "cuny-academic-commons/bp-multiple-forum-post": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "mlaa/bbpress-export-and-import": 20,
