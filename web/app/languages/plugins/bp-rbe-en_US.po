@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: BuddyPress Reply By Email v1.0-beta1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-12-05 15:46-0500\n"
+"PO-Revision-Date: 2017-12-18 13:54-0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,"
+"_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Textdomain-Support: yes\n"
 "X-Generator: Poedit 1.8.11\n"
@@ -22,18 +22,15 @@ msgstr ""
 # @ bp-rbe
 #: bp-rbe-core.php:140
 msgid ""
-"BuddyPress Reply By Email cannot initialize.  Please navigate to "
-"\"BuddyPress > Reply By Email\" to fill in the required fields and address "
-"the webhost warnings."
+"BuddyPress Reply By Email cannot initialize.  Please navigate to \"BuddyPress > Reply By "
+"Email\" to fill in the required fields and address the webhost warnings."
 msgstr ""
 
 # @ bp-rbe
-#: bp-rbe-core.php:208 includes/bp-rbe-classes.php:738
-#: includes/bp-rbe-functions.php:792
+#: bp-rbe-core.php:208 includes/bp-rbe-classes.php:738 includes/bp-rbe-functions.php:792
 msgid "--- Reply ABOVE THIS LINE to add a comment ---"
 msgstr ""
-"--- Reply to this e-mail to send your response to the Commons (attachments "
-"coming soon!) ---"
+"--- Reply to this e-mail to send your response to the Commons (attachments coming soon!) ---"
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:63
@@ -73,8 +70,7 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:262
-msgid ""
-"Error: <strong>Keep Alive Connection</strong> value must be less than 30."
+msgid "Error: <strong>Keep Alive Connection</strong> value must be less than 30."
 msgstr ""
 
 # @ bp-rbe
@@ -85,8 +81,7 @@ msgstr ""
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:291
 msgid ""
-"Please enter the IMAP settings for your email account.  Fields marked with * "
-"are required."
+"Please enter the IMAP settings for your email account.  Fields marked with * are required."
 msgstr ""
 
 # @ bp-rbe
@@ -98,9 +93,8 @@ msgstr ""
 #: includes/bp-rbe-admin.php:299
 #, php-format
 msgid ""
-"Using GMail? (This will override the Server Name, Port and Address Tag "
-"fields on save.) Also make sure to <a href=\"%s\" target=\"_blank\">enable "
-"IMAP in GMail</a>."
+"Using GMail? (This will override the Server Name, Port and Address Tag fields on save.) "
+"Also make sure to <a href=\"%s\" target=\"_blank\">enable IMAP in GMail</a>."
 msgstr ""
 
 # @ bp-rbe
@@ -122,10 +116,9 @@ msgstr ""
 #: includes/bp-rbe-admin.php:319
 #, php-format
 msgid ""
-"Example: test@gmail.com is my email address, I can also receive email that "
-"is sent to test+anything@gmail.com.  The address tag separator for GMail is "
-"\"+\".  For other email providers, <a href=\"%s\" target=\"_blank\">view "
-"this page</a>."
+"Example: test@gmail.com is my email address, I can also receive email that is sent to test"
+"+anything@gmail.com.  The address tag separator for GMail is \"+\".  For other email "
+"providers, <a href=\"%s\" target=\"_blank\">view this page</a>."
 msgstr ""
 
 # @ bp-rbe
@@ -135,9 +128,7 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:327
-msgid ""
-"For GMail users, enter your <strong>full email address</strong> as your "
-"username."
+msgid "For GMail users, enter your <strong>full email address</strong> as your username."
 msgstr ""
 
 # @ bp-rbe
@@ -153,8 +144,8 @@ msgstr ""
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:341
 msgid ""
-"If your username is <strong>not</strong> the same as your email address, "
-"please fill in this field as well."
+"If your username is <strong>not</strong> the same as your email address, please fill in "
+"this field as well."
 msgstr ""
 
 # @ bp-rbe
@@ -170,10 +161,9 @@ msgstr ""
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:353
 msgid ""
-"This key is used to verify incoming emails before anything is posted to "
-"BuddyPress.  By default, a key is randomly generated for you.  You should "
-"rarely have to change your key.  However, if you want to change it, please "
-"type in an alphanumeric key of your choosing."
+"This key is used to verify incoming emails before anything is posted to BuddyPress.  By "
+"default, a key is randomly generated for you.  You should rarely have to change your key.  "
+"However, if you want to change it, please type in an alphanumeric key of your choosing."
 msgstr ""
 
 # @ bp-rbe
@@ -185,10 +175,9 @@ msgstr ""
 #: includes/bp-rbe-admin.php:360
 #, php-format
 msgid ""
-"The length in minutes to stay connected to your inbox. Due to <a href=\"%s\" "
-"target=\"_blank\">RFC 2177 protocol</a>, this value cannot be larger than "
-"29. If this value is changed, this will take effect on the next scheduled "
-"update."
+"The length in minutes to stay connected to your inbox. Due to <a href=\"%s\" target=\"_blank"
+"\">RFC 2177 protocol</a>, this value cannot be larger than 29. If this value is changed, "
+"this will take effect on the next scheduled update."
 msgstr ""
 
 # @ bp-rbe
@@ -198,8 +187,7 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:375
-msgid ""
-"If you're a fan of this plugin, support further development with a donation!"
+msgid "If you're a fan of this plugin, support further development with a donation!"
 msgstr ""
 
 # @ bp-rbe
@@ -211,8 +199,8 @@ msgstr ""
 #: includes/bp-rbe-admin.php:381
 #, php-format
 msgid ""
-"<a href=\"%s\">Check out the BP Reply By Email wiki</a> for articles, FAQs "
-"and more information."
+"<a href=\"%s\">Check out the BP Reply By Email wiki</a> for articles, FAQs and more "
+"information."
 msgstr ""
 
 # @ bp-rbe
@@ -223,16 +211,16 @@ msgstr ""
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:425
 msgid ""
-"IMAP extension for PHP is <strong>disabled</strong>.  This plugin will not "
-"run without it.  Please contact your webhost to enable this."
+"IMAP extension for PHP is <strong>disabled</strong>.  This plugin will not run without it.  "
+"Please contact your webhost to enable this."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:428
 #, php-format
 msgid ""
-"PHP Safe Mode is <strong>on</strong>.  This is not a dealbreaker, but this "
-"means you cannot set the Keep Alive Connection value larger than %d minutes."
+"PHP Safe Mode is <strong>on</strong>.  This is not a dealbreaker, but this means you cannot "
+"set the Keep Alive Connection value larger than %d minutes."
 msgstr ""
 
 # @ bp-rbe
@@ -249,26 +237,24 @@ msgstr ""
 #: includes/bp-rbe-admin.php:454
 #, php-format
 msgid ""
-"<strong>Reply By Email</strong> is currently <span>CONNECTED</span> and "
-"checking your inbox continuously. The next scheduled stop and restart is "
-"<strong>%s</strong>."
+"<strong>Reply By Email</strong> is currently <span>CONNECTED</span> and checking your inbox "
+"continuously. The next scheduled stop and restart is <strong>%s</strong>."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:456
 #, php-format
 msgid ""
-"<strong>Reply By Email</strong> is currently <span>NOT CONNECTED</span>. The "
-"next scheduled inbox check is <strong>%s</strong>."
+"<strong>Reply By Email</strong> is currently <span>NOT CONNECTED</span>. The next scheduled "
+"inbox check is <strong>%s</strong>."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-admin.php:461
 #, php-format
 msgid ""
-"What this means is a user will need to visit your website after %s in order "
-"for the plugin to check your inbox again. This is a limitation of Wordpress' "
-"scheduling API."
+"What this means is a user will need to visit your website after %s in order for the plugin "
+"to check your inbox again. This is a limitation of Wordpress' scheduling API."
 msgstr ""
 
 # @ bp-rbe
@@ -284,14 +270,12 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-extend-bpdocs.php:263
-msgid ""
-"error - BP doc parent comment was marked as spam before this could be posted."
+msgid "error - BP doc parent comment was marked as spam before this could be posted."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-extend-bpdocs.php:268
-msgid ""
-"error - BP doc parent comment was unapproved before this could be posted."
+msgid "error - BP doc parent comment was unapproved before this could be posted."
 msgstr ""
 
 # @ bp-rbe
@@ -329,8 +313,7 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the parent comment you were replying to no "
-"longer exists.\n"
+"Could not be posted because the parent comment you were replying to no longer exists.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -345,8 +328,7 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the parent comment you were replying to was "
-"marked as spam.\n"
+"Could not be posted because the parent comment you were replying to was marked as spam.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -361,8 +343,7 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the parent comment you were replying was "
-"unapproved.\n"
+"Could not be posted because the parent comment you were replying was unapproved.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -377,10 +358,9 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the comment setting for this group document "
-"recently changed to \"No One\".\n"
-"This means that no other comments can be posted for the group document in "
-"question.\n"
+"Could not be posted because the comment setting for this group document recently changed to "
+"\"No One\".\n"
+"This means that no other comments can be posted for the group document in question.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -395,10 +375,10 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the comment setting for this group document "
-"recently changed to \"Admin and moderators only\".\n"
-"Since you are not a group administrator or a group moderator, this means "
-"your comment could be posted.\n"
+"Could not be posted because the comment setting for this group document recently changed to "
+"\"Admin and moderators only\".\n"
+"Since you are not a group administrator or a group moderator, this means your comment could "
+"be posted.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -413,8 +393,8 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because you are no longer a member of this group.  To "
-"comment on this group document, please rejoin the group.\n"
+"Could not be posted because you are no longer a member of this group.  To comment on this "
+"group document, please rejoin the group.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -466,17 +446,15 @@ msgstr ""
 msgid ""
 "Hi there,\n"
 "\n"
-"You tried to use the email address - %s - to reply by email.  Unfortunately, "
-"we could not find this email address in our system.\n"
+"You tried to use the email address - %s - to reply by email.  Unfortunately, we could not "
+"find this email address in our system.\n"
 "\n"
 "This can happen in a couple of different ways:\n"
-"* You have configured your email client to reply with a custom \"From:\" "
-"email address.\n"
-"* You read email addressed to more than one account inside of a single "
-"Inbox.\n"
+"* You have configured your email client to reply with a custom \"From:\" email address.\n"
+"* You read email addressed to more than one account inside of a single Inbox.\n"
 "\n"
-"Make sure that, when replying by email, your \"From:\" email address is the "
-"same as the address you've registered at %s.\n"
+"Make sure that, when replying by email, your \"From:\" email address is the same as the "
+"address you've registered at %s.\n"
 "\n"
 "If you have any questions, please let us know."
 msgstr ""
@@ -502,11 +480,11 @@ msgstr ""
 msgid ""
 "Hi there,\n"
 "\n"
-"Your reply could not be posted because we could not find the \"%s\" marker "
-"in the body of your email.\n"
+"Your reply could not be posted because we could not find the \"%s\" marker in the body of "
+"your email.\n"
 "\n"
-"In the future, please make sure you reply *above* this line for your comment "
-"to be posted on the site.\n"
+"In the future, please make sure you reply *above* this line for your comment to be posted "
+"on the site.\n"
 "\n"
 "If you have any questions, please let us know."
 msgstr ""
@@ -526,17 +504,14 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the activity entry you were replying to no "
-"longer exists.\n"
+"Could not be posted because the activity entry you were replying to no longer exists.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-functions.php:814
-msgid ""
-"error - root or parent activity update was deleted before this could be "
-"posted"
+msgid "error - root or parent activity update was deleted before this could be posted"
 msgstr ""
 
 # @ bp-rbe
@@ -554,8 +529,8 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because you are no longer a member of this group.  To "
-"comment on the forum thread, please rejoin the group.\n"
+"Could not be posted because you are no longer a member of this group.  To comment on the "
+"forum thread, please rejoin the group.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -575,8 +550,8 @@ msgstr ""
 msgid ""
 "Hi there,\n"
 "\n"
-"We could not post your new forum topic by email because we could not find "
-"any text in the body of the email.\n"
+"We could not post your new forum topic by email because we could not find any text in the "
+"body of the email.\n"
 "\n"
 "In the future, please make sure to type something in your email! :)\n"
 "\n"
@@ -598,8 +573,7 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the forum topic you were replying to no longer "
-"exists.\n"
+"Could not be posted because the forum topic you were replying to no longer exists.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -627,9 +601,7 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-functions.php:899
-msgid ""
-"error - private message thread was deleted by all parties before this could "
-"be posted"
+msgid "error - private message thread was deleted by all parties before this could be posted"
 msgstr ""
 
 # @ bp-rbe
@@ -642,8 +614,8 @@ msgid ""
 "\n"
 "\"%s\"\n"
 "\n"
-"Could not be posted because the private message thread you were replying to "
-"no longer exists.\n"
+"Could not be posted because the private message thread you were replying to no longer "
+"exists.\n"
 "\n"
 "We apologize for any inconvenience this may have caused."
 msgstr ""
@@ -687,8 +659,7 @@ msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-functions.php:1078
-msgid ""
-"You can post new topics to this group from the comfort of your email inbox."
+msgid "You can post new topics to this group from the comfort of your email inbox."
 msgstr ""
 
 # @ bp-rbe
@@ -700,16 +671,14 @@ msgstr ""
 #: includes/bp-rbe-functions.php:1081
 #, php-format
 msgid ""
-"Send an email to <strong><a href=\"%s\">%s</strong></a> and a new forum "
-"topic will be posted in %s."
+"Send an email to <strong><a href=\"%s\">%s</strong></a> and a new forum topic will be "
+"posted in %s."
 msgstr ""
 
 # @ bp-rbe
 #: includes/bp-rbe-functions.php:1084
 #, php-format
-msgid ""
-"Compose a new email from the same email address you registered with &ndash; "
-"%s"
+msgid "Compose a new email from the same email address you registered with &ndash; %s"
 msgstr ""
 
 # @ bp-rbe
@@ -725,9 +694,9 @@ msgstr ""
 # @ bp-rbe
 #: includes/bp-rbe-functions.php:1090
 msgid ""
-"<strong>Note:</strong> The email address above is unique to you and this "
-"group. Do not share this email address with anyone else! (Each group member "
-"will have their own unique email address.)"
+"<strong>Note:</strong> The email address above is unique to you and this group. Do not "
+"share this email address with anyone else! (Each group member will have their own unique "
+"email address.)"
 msgstr ""
 
 # @ bp-rbe
