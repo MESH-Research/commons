@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fcdea5c65eda5ce9eaff2abbc5cd7c0",
+    "content-hash": "ac689df6176e0de789db05d96bb7d004",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -493,14 +493,14 @@
         },
         {
             "name": "mlaa/buddypress",
-            "version": "dev-hcommons-2.8.2",
+            "version": "dev-hcommons-2.9.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/BuddyPress.git",
-                "reference": "hcommons-2.8.2"
+                "reference": "hcommons-2.9.2"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-16 16:18:36"
+            "time": "2017-12-19 16:25:23"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
