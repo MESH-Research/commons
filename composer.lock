@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "21b2cd16771b6a5b951346fe568a08e0",
+    "content-hash": "979f3ce5b9b1efb2b1d75fcb92d1ea21",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -192,6 +192,17 @@
                 "issues": "https://github.com/cuny-academic-commons/cbox-theme/issues"
             },
             "time": "2016-02-16 16:43:15"
+        },
+        {
+            "name": "cuny-academic-commons/external-group-blogs",
+            "version": "dev-1.6.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:cuny-academic-commons/external-group-blogs.git",
+                "reference": "1.6.1"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-09-22 16:41:41"
         },
         {
             "name": "envato/wordpress-toolkit",
@@ -5928,6 +5939,7 @@
         "boonebgorges/bp-mpo-activity-filter": 20,
         "cuny-academic-commons/bp-multiple-forum-post": 20,
         "cuny-academic-commons/cbox-theme": 20,
+        "cuny-academic-commons/external-group-blogs": 20,
         "mlaa/bbpress-export-and-import": 20,
         "mlaa/boss-child": 20,
         "mlaa/bp-attachment-xprofile-field-type": 20,

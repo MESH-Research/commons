@@ -189,6 +189,19 @@
     {
       "type": "package",
       "package": {
+        "name": "cuny-academic-commons/external-group-blogs",
+        "version": "dev-1.6.1",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/external-group-blogs.git",
+          "type": "git",
+          "reference": "1.6.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "boonebgorges/buddypress-docs",
         "version": "dev-1.9.1",
         "type": "wordpress-plugin",
@@ -339,6 +352,7 @@
     "cubell/15zine-functionality": "2.1.0",
     "cuny-academic-commons/bp-multiple-forum-post": "dev-master#0d1afc3",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
+    "cuny-academic-commons/external-group-blogs": "dev-1.6.1",
     "envato/wordpress-toolkit": "1.7.3",
     "goodlayers/gdlr-cause": "^1.0",
     "goodlayers/gdlr-portfolio": "^1.0",
