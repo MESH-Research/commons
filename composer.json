@@ -404,7 +404,7 @@
     "wpackagist-plugin/bp-blog-avatar": "^1.0",
     "wpackagist-plugin/bp-groupblog": "^1.8",
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
-    "wpackagist-plugin/buddypress-docs": "^1.9",
+    "wpackagist-plugin/buddypress-docs": "1.9.4",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
     "wpackagist-plugin/cac-featured-content": "1.0.7",
     "wpackagist-plugin/commentpress-core": "^3.9",

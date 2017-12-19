@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac689df6176e0de789db05d96bb7d004",
+    "content-hash": "857181a16c4db4eeed7d5ed9501496b2",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -1758,16 +1758,16 @@
         },
         {
             "name": "wpackagist-plugin/buddypress-docs",
-            "version": "1.9.2",
+            "version": "1.9.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/buddypress-docs/",
-                "reference": "tags/1.9.2"
+                "reference": "tags/1.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-docs.1.9.2.zip",
-                "reference": "tags/1.9.2",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-docs.1.9.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
