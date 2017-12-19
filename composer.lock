@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec24898331d19ad75ba713b32e74e584",
+    "content-hash": "5db0ba3de78b7464dff3e2da07b23d6e",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -1658,16 +1658,16 @@
         },
         {
             "name": "wpackagist-plugin/bbpress",
-            "version": "2.5.12",
+            "version": "2.5.14",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/bbpress/",
-                "reference": "tags/2.5.12"
+                "reference": "tags/2.5.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bbpress.2.5.12.zip",
-                "reference": "tags/2.5.12",
+                "url": "https://downloads.wordpress.org/plugin/bbpress.2.5.14.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2167,7 +2167,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/invite-anyone.1.3.19.zip",
-                "reference": null,
+                "reference": "tags/1.3.19",
                 "shasum": null
             },
             "require": {
