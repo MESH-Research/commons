@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c85f9e639c5fdc03ea39c836d867d00",
+    "content-hash": "0fcdea5c65eda5ce9eaff2abbc5cd7c0",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -1336,16 +1336,16 @@
         },
         {
             "name": "stuttter/wp-multi-network",
-            "version": "dev-master",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stuttter/wp-multi-network.git",
-                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c"
+                "reference": "8eb6a402a8aeb48634c32d36d47214b6c03f99cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
-                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
+                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/8eb6a402a8aeb48634c32d36d47214b6c03f99cf",
+                "reference": "8eb6a402a8aeb48634c32d36d47214b6c03f99cf",
                 "shasum": ""
             },
             "require": {
@@ -1365,10 +1365,10 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/1.8.1",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2017-01-10 05:02:46"
+            "time": "2016-08-16T19:10:25+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -5982,7 +5982,6 @@
         "mlaa/style-center": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
-        "stuttter/wp-multi-network": 20,
         "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,

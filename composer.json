@@ -389,7 +389,7 @@
     "siteorigin/vantage": "2.4.4",
     "siteorigin/vantage-premium": "^2.5",
     "solarium/solarium": "3.8.1",
-    "stuttter/wp-multi-network": "dev-master",
+    "stuttter/wp-multi-network": "^1.8",
     "themeforest/15zine": "^2.2",
     "themeforest/charityhub": "^1.11",
     "themeforest/education": "^2.8",
