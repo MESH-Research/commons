@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5db0ba3de78b7464dff3e2da07b23d6e",
+    "content-hash": "436fdd61e098e59694d98b55407435b0",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -1667,7 +1667,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bbpress.2.5.14.zip",
-                "reference": null,
+                "reference": "tags/2.5.14",
                 "shasum": null
             },
             "require": {
@@ -1795,26 +1795,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/cac-featured-content",
-            "version": "1.0.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cac-featured-content/",
-                "reference": "tags/1.0.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.7.zip",
-                "reference": "tags/1.0.7",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cac-featured-content/"
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
