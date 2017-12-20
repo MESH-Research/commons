@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "979f3ce5b9b1efb2b1d75fcb92d1ea21",
+    "content-hash": "4b8b478684b067f57d538f3251bc30b1",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -1806,6 +1806,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-sitewide-activity-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/cac-featured-content",
+            "version": "1.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cac-featured-content/",
+                "reference": "tags/1.0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cac-featured-content/"
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
