@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b8b478684b067f57d538f3251bc30b1",
+    "content-hash": "399c6f29bde83651249b19273fd7f3a5",
     "packages": [
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -419,12 +419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "dfdba3e"
+                "reference": "684c271"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/dfdba3e",
-                "reference": "dfdba3e",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/684c271",
+                "reference": "684c271",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -432,7 +432,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-12-07 19:25:55"
+            "time": "2017-12-20 20:03:03"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -719,12 +719,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "02502ff"
+                "reference": "2ad37a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/02502ff",
-                "reference": "02502ff",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/2ad37a8",
+                "reference": "2ad37a8",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -732,7 +732,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2017-12-13 22:22:36"
+            "time": "2017-12-20 19:18:17"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1818,7 +1818,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/cac-featured-content.1.0.7.zip",
-                "reference": null,
+                "reference": "tags/1.0.7",
                 "shasum": null
             },
             "require": {
