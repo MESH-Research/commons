@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcae1be13f75d2343364ed5d5b221ba0",
+    "content-hash": "a80f02ad738c21d5ffc527fd080796d0",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5908,6 +5908,26 @@
             "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
         },
         {
+            "name": "wpackagist-plugin/debug-bar-cron",
+            "version": "0.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-cron/",
+                "reference": "tags/0.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-cron.0.1.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-cron/"
+        },
+        {
             "name": "wpackagist-plugin/debug-bar-elasticpress",
             "version": "1.2",
             "source": {
@@ -5978,7 +5998,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-transients.0.5.zip",
-                "reference": null,
+                "reference": "tags/0.5",
                 "shasum": null
             },
             "require": {
