@@ -512,6 +512,11 @@
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
+    "scripts-dev": {
+      "post-install-cmd": [
+        "chmod a+w web/wp/wp-includes/template.php"
+      ]
+    },
     "wordpress-install-dir": "web/wp"
   },
   "require-dev": {

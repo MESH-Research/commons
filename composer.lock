@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "79a5622854914601cb29a1f355691980",
+    "content-hash": "aeb24f68c45755c62ce8a808a0f30412",
     "packages": [
         {
             "name": "buddyboss/boss",
