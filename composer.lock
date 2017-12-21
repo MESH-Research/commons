@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d15da367b9b3cfcebe332ec5ba33f3af",
+    "content-hash": "dcae1be13f75d2343364ed5d5b221ba0",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5958,7 +5958,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-remote-requests.0.1.2.zip",
-                "reference": null,
+                "reference": "tags/0.1.2",
                 "shasum": null
             },
             "require": {
@@ -5966,6 +5966,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-remote-requests/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-transients",
+            "version": "0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-transients/",
+                "reference": "tags/0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-transients.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-transients/"
         },
         {
             "name": "wpackagist-plugin/import-export-for-bbpress",
