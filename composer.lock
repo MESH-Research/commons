@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b8363a992a31feaeefceecfd7987bf9",
+    "content-hash": "4b495a93cd36fa244f42017a5d25d37a",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -794,12 +794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "3e519a9"
+                "reference": "23f19d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/3e519a9",
-                "reference": "3e519a9",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/23f19d3",
+                "reference": "23f19d3",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2017-11-28 15:10:03"
+            "time": "2017-12-21 19:19:34"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -6098,7 +6098,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-slow-actions.0.8.3.zip",
-                "reference": null,
+                "reference": "tags/0.8.3",
                 "shasum": null
             },
             "require": {
