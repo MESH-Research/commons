@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9093dcc011c187b413b900c5c4c1494e",
+    "content-hash": "7ca364f46dd415f7f0cdaed3965ac394",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -1336,12 +1336,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stuttter/wp-multi-network.git",
-                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c"
+                "reference": "461477371b43fb021cf62b87350287ae4bcc0c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
-                "reference": "66ac5b8bb2c9082c49b0b06fc4830006a3151d5c",
+                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/461477371b43fb021cf62b87350287ae4bcc0c12",
+                "reference": "461477371b43fb021cf62b87350287ae4bcc0c12",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1364,7 @@
                 "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2017-01-10 05:02:46"
+            "time": "2017-09-01 01:36:54"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -5869,16 +5869,16 @@
         },
         {
             "name": "wpackagist-plugin/debug-bar",
-            "version": "0.8.4",
+            "version": "0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/debug-bar/",
-                "reference": "tags/0.8.4"
+                "reference": "tags/0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": "tags/0.8.4",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
