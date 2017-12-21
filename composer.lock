@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ca364f46dd415f7f0cdaed3965ac394",
+    "content-hash": "ed06f8c6baa8b65009e8c5a21ef5f144",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5928,6 +5928,26 @@
             "homepage": "https://wordpress.org/plugins/debug-bar-elasticpress/"
         },
         {
+            "name": "wpackagist-plugin/debug-bar-remote-requests",
+            "version": "0.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-remote-requests/",
+                "reference": "tags/0.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-remote-requests.0.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-remote-requests/"
+        },
+        {
             "name": "wpackagist-plugin/import-export-for-bbpress",
             "version": "2.0.1",
             "source": {
@@ -5978,7 +5998,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.0.zip",
-                "reference": null,
+                "reference": "tags/1.3.0",
                 "shasum": null
             },
             "require": {
