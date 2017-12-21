@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aeb24f68c45755c62ce8a808a0f30412",
+    "content-hash": "9093dcc011c187b413b900c5c4c1494e",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5969,16 +5969,16 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.0.9",
+            "version": "1.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.0.9"
+                "reference": "tags/1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.0.9.zip",
-                "reference": "tags/1.0.9",
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
