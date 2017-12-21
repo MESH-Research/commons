@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed06f8c6baa8b65009e8c5a21ef5f144",
+    "content-hash": "d15da367b9b3cfcebe332ec5ba33f3af",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5878,7 +5878,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
-                "reference": null,
+                "reference": "tags/0.9",
                 "shasum": null
             },
             "require": {
@@ -5926,6 +5926,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-elasticpress/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-list-dependencies",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-list-dependencies/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-list-dependencies.1.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-list-dependencies/"
         },
         {
             "name": "wpackagist-plugin/debug-bar-remote-requests",
