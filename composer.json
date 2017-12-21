@@ -527,6 +527,7 @@
     "wpackagist-plugin/better-http-redirects": "1.2",
     "wpackagist-plugin/debug-bar": "^0.9.0",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
+    "wpackagist-plugin/debug-bar-constants": "^1.7",
     "wpackagist-plugin/debug-bar-cron": "^0.1.3",
     "wpackagist-plugin/debug-bar-elasticpress": "^1.2",
     "wpackagist-plugin/debug-bar-list-dependencies": "^1.1",
