@@ -5889,16 +5889,16 @@
         },
         {
             "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
-            "version": "1.5.2",
+            "version": "1.5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": "tags/1.5.2",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.4.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -5938,7 +5938,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-list-dependencies.1.1.2.zip",
-                "reference": null,
+                "reference": "tags/1.1.2",
                 "shasum": null
             },
             "require": {
