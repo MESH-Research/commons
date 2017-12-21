@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "075a571bd0414d02002f549307e24454",
+    "content-hash": "55b66ccbdda070be970d6e35fd013e07",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -6058,7 +6058,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-shortcodes.2.0.3.zip",
-                "reference": null,
+                "reference": "tags/2.0.3",
                 "shasum": null
             },
             "require": {
@@ -6066,6 +6066,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-shortcodes/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-sidebars-widgets",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-sidebars-widgets/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-sidebars-widgets.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-sidebars-widgets/"
         },
         {
             "name": "wpackagist-plugin/debug-bar-transients",
