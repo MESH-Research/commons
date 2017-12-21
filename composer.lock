@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a80f02ad738c21d5ffc527fd080796d0",
+    "content-hash": "67714537518d9a1b9287c98f46780861",
     "packages": [
         {
             "name": "buddyboss/boss",
@@ -5898,7 +5898,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.4.zip",
-                "reference": null,
+                "reference": "tags/1.5.4",
                 "shasum": null
             },
             "require": {
@@ -5966,6 +5966,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-list-dependencies/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-post-types",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-post-types/",
+                "reference": "tags/1.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-post-types.1.4.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-post-types/"
         },
         {
             "name": "wpackagist-plugin/debug-bar-remote-requests",
