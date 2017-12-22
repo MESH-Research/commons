@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "deffeeb95685b38ca4e63f2167fd8abb",
+    "content-hash": "5c3c57b4abe0d31c9ee8bfcb9b60940b",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1307,10 +1307,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:r-a-y/bp-reply-by-email.git",
-                "reference": "master"
+                "reference": "ab63914"
             },
             "type": "wordpress-plugin",
-            "time": "2017-12-11 03:39:33"
+            "time": "2017-12-22 19:01:57"
         },
         {
             "name": "r-a-y/buddypress-followers",
