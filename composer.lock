@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b495a93cd36fa244f42017a5d25d37a",
+    "content-hash": "eaad5d74db2502b012540f14aecbd5b2",
     "packages": [
+        {
+            "name": "bashkarev/email",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bashkarev/email.git",
+                "reference": "38cb11e5961f0b81e98c7e2be9e28cebd2e51846"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bashkarev/email/zipball/38cb11e5961f0b81e98c7e2be9e28cebd2e51846",
+                "reference": "38cb11e5961f0b81e98c7e2be9e28cebd2e51846",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bashkarev\\email\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "bashkarev",
+                    "email": "dmitriy@bashkarev.com"
+                }
+            ],
+            "description": "Faster MIME Mail Parser could be used to parse emails in MIME format.",
+            "keywords": [
+                "arf",
+                "email",
+                "fbl",
+                "mail",
+                "mailparse",
+                "mime",
+                "mime-parser"
+            ],
+            "time": "2017-03-13T20:03:51+00:00"
+        },
         {
             "name": "buddyboss/boss",
             "version": "2.2.2",
@@ -1202,6 +1251,44 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "r-a-y/bp-rbe-inbound-forum-attachments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments.git",
+                "reference": "0c20200556d669f7bddb6636a8aa716e1db28b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/r-a-y/bp-rbe-inbound-forum-attachments/zipball/0c20200556d669f7bddb6636a8aa716e1db28b32",
+                "reference": "0c20200556d669f7bddb6636a8aa716e1db28b32",
+                "shasum": ""
+            },
+            "require": {
+                "bashkarev/email": "~1",
+                "composer/installers": "~1"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "r-a-y"
+                }
+            ],
+            "description": "Inbound Forum Attachments addon for the BP Reply By Email plugin.",
+            "homepage": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments",
+            "keywords": [
+                "buddypress"
+            ],
+            "support": {
+                "source": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/tree/master",
+                "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
+            },
+            "time": "2017-12-22 19:43:41"
         },
         {
             "name": "r-a-y/bp-rbe-new-topic",
@@ -6118,7 +6205,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/debug-bar-taxonomies.1.1.zip",
-                "reference": null,
+                "reference": "tags/1.1",
                 "shasum": null
             },
             "require": {
@@ -6246,6 +6333,7 @@
         "mlaa/sparkpost": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
+        "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
         "stuttter/wp-multi-network": 20,
