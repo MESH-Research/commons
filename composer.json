@@ -384,7 +384,7 @@
     "owwwlab/faculty": "^3.11",
     "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master",
     "r-a-y/bp-rbe-new-topic": "dev-master",
-    "r-a-y/bp-reply-by-email": "dev-master#cac2a61",
+    "r-a-y/bp-reply-by-email": "dev-master",
     "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
     "siteorigin/vantage": "2.4.4",
