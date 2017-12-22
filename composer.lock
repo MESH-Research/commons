@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eaad5d74db2502b012540f14aecbd5b2",
+    "content-hash": "9cd34b36cf228f83a12eb05e1c8b1160",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2178,6 +2178,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/formassembly-web-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/gd-bbpress-attachments",
+            "version": "2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gd-bbpress-attachments/",
+                "reference": "tags/2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gd-bbpress-attachments.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gd-bbpress-attachments/"
         },
         {
             "name": "wpackagist-plugin/google-document-embedder",
