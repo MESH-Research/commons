@@ -4,8 +4,57 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7052cb3454730a41384a148c81f9495",
+    "content-hash": "a6b2dfacc2e1a1459395c41946f0e830",
     "packages": [
+        {
+            "name": "bashkarev/email",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bashkarev/email.git",
+                "reference": "38cb11e5961f0b81e98c7e2be9e28cebd2e51846"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bashkarev/email/zipball/38cb11e5961f0b81e98c7e2be9e28cebd2e51846",
+                "reference": "38cb11e5961f0b81e98c7e2be9e28cebd2e51846",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bashkarev\\email\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "bashkarev",
+                    "email": "dmitriy@bashkarev.com"
+                }
+            ],
+            "description": "Faster MIME Mail Parser could be used to parse emails in MIME format.",
+            "keywords": [
+                "arf",
+                "email",
+                "fbl",
+                "mail",
+                "mailparse",
+                "mime",
+                "mime-parser"
+            ],
+            "time": "2017-03-13T20:03:51+00:00"
+        },
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
             "version": "dev-master",
@@ -809,12 +858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "3e519a9"
+                "reference": "23f19d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/3e519a9",
-                "reference": "3e519a9",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/23f19d3",
+                "reference": "23f19d3",
                 "shasum": ""
             },
             "require": {
@@ -825,7 +874,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2017-11-28 15:10:03"
+            "time": "2017-12-21 19:19:34"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -1219,15 +1268,53 @@
             "time": "2016-10-10T12:19:37+00:00"
         },
         {
+            "name": "r-a-y/bp-rbe-inbound-forum-attachments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments.git",
+                "reference": "4b29985"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/r-a-y/bp-rbe-inbound-forum-attachments/zipball/4b29985",
+                "reference": "4b29985",
+                "shasum": ""
+            },
+            "require": {
+                "bashkarev/email": "~1",
+                "composer/installers": "~1"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "r-a-y"
+                }
+            ],
+            "description": "Inbound Forum Attachments addon for the BP Reply By Email plugin.",
+            "homepage": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments",
+            "keywords": [
+                "buddypress"
+            ],
+            "support": {
+                "source": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/tree/master",
+                "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
+            },
+            "time": "2017-12-24 19:06:55"
+        },
+        {
             "name": "r-a-y/bp-rbe-new-topic",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
-                "reference": "master"
+                "reference": "b68a6ca"
             },
             "type": "wordpress-plugin",
-            "time": "2017-05-18 17:40:54"
+            "time": "2017-12-28 20:25:04"
         },
         {
             "name": "r-a-y/bp-reply-by-email",
@@ -1235,10 +1322,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:r-a-y/bp-reply-by-email.git",
-                "reference": "cac2a61"
+                "reference": "5c83d88"
             },
             "type": "wordpress-plugin",
-            "time": "2017-11-04 01:05:31"
+            "time": "2018-01-03 18:58:36"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1364,6 +1451,7 @@
                 "php": ">=5.2"
             },
             "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPLv2 or later"
             ],
@@ -1375,10 +1463,6 @@
             ],
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
-            "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/1.8.1",
-                "issues": "https://github.com/stuttter/wp-multi-network/issues"
-            },
             "time": "2016-08-16T19:10:25+00:00"
         },
         {
@@ -2106,6 +2190,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/formassembly-web-forms/"
+        },
+        {
+            "name": "wpackagist-plugin/gd-bbpress-attachments",
+            "version": "2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gd-bbpress-attachments/",
+                "reference": "tags/2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gd-bbpress-attachments.2.5.zip",
+                "reference": "tags/2.5",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gd-bbpress-attachments/"
         },
         {
             "name": "wpackagist-plugin/google-document-embedder",
@@ -5884,16 +5988,16 @@
         },
         {
             "name": "wpackagist-plugin/debug-bar",
-            "version": "0.8.4",
+            "version": "0.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/debug-bar/",
-                "reference": "tags/0.8.4"
+                "reference": "tags/0.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.4.zip",
-                "reference": "tags/0.8.4",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.9.zip",
+                "reference": "tags/0.9",
                 "shasum": null
             },
             "require": {
@@ -5904,16 +6008,16 @@
         },
         {
             "name": "wpackagist-plugin/debug-bar-actions-and-filters-addon",
-            "version": "1.5.2",
+            "version": "1.5.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/debug-bar-actions-and-filters-addon/",
-                "reference": "tags/1.5.2"
+                "reference": "tags/1.5.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.2.zip",
-                "reference": "tags/1.5.2",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-actions-and-filters-addon.1.5.4.zip",
+                "reference": "tags/1.5.4",
                 "shasum": null
             },
             "require": {
@@ -5921,6 +6025,66 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-console",
+            "version": "0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-console/",
+                "reference": "tags/0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-console.0.3.zip",
+                "reference": "tags/0.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-console/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-constants",
+            "version": "1.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-constants/",
+                "reference": "tags/1.7.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-constants.1.7.0.zip",
+                "reference": "tags/1.7.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-constants/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-cron",
+            "version": "0.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-cron/",
+                "reference": "tags/0.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-cron.0.1.3.zip",
+                "reference": "tags/0.1.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-cron/"
         },
         {
             "name": "wpackagist-plugin/debug-bar-elasticpress",
@@ -5941,6 +6105,166 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar-elasticpress/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-list-dependencies",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-list-dependencies/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-list-dependencies.1.1.2.zip",
+                "reference": "tags/1.1.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-list-dependencies/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-post-types",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-post-types/",
+                "reference": "tags/1.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-post-types.1.4.0.zip",
+                "reference": "tags/1.4.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-post-types/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-remote-requests",
+            "version": "0.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-remote-requests/",
+                "reference": "tags/0.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-remote-requests.0.1.2.zip",
+                "reference": "tags/0.1.2",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-remote-requests/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-shortcodes",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-shortcodes/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-shortcodes.2.0.3.zip",
+                "reference": "tags/2.0.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-shortcodes/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-sidebars-widgets",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-sidebars-widgets/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-sidebars-widgets.1.0.zip",
+                "reference": "tags/1.0",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-sidebars-widgets/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-slow-actions",
+            "version": "0.8.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-slow-actions/",
+                "reference": "tags/0.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-slow-actions.0.8.3.zip",
+                "reference": "tags/0.8.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-slow-actions/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-taxonomies",
+            "version": "1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-taxonomies/",
+                "reference": "tags/1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-taxonomies.1.1.zip",
+                "reference": "tags/1.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-taxonomies/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-transients",
+            "version": "0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-transients/",
+                "reference": "tags/0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-transients.0.5.zip",
+                "reference": "tags/0.5",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-transients/"
         },
         {
             "name": "wpackagist-plugin/import-export-for-bbpress",
@@ -5993,7 +6317,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.0.zip",
-                "reference": null,
+                "reference": "tags/1.3.0",
                 "shasum": null
             },
             "require": {
@@ -6042,6 +6366,7 @@
         "mlaa/sparkpost": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
+        "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
         "uglyrobot/multisite-plugin-manager": 20,
