@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c3c57b4abe0d31c9ee8bfcb9b60940b",
+    "content-hash": "d6933681e3a13d89c8a08771b1a50a7d",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1258,12 +1258,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments.git",
-                "reference": "0c20200556d669f7bddb6636a8aa716e1db28b32"
+                "reference": "4b29985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/r-a-y/bp-rbe-inbound-forum-attachments/zipball/0c20200556d669f7bddb6636a8aa716e1db28b32",
-                "reference": "0c20200556d669f7bddb6636a8aa716e1db28b32",
+                "url": "https://api.github.com/repos/r-a-y/bp-rbe-inbound-forum-attachments/zipball/4b29985",
+                "reference": "4b29985",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1288,7 @@
                 "source": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/tree/master",
                 "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
             },
-            "time": "2017-12-22 19:43:41"
+            "time": "2017-12-24 19:06:55"
         },
         {
             "name": "r-a-y/bp-rbe-new-topic",

@@ -382,7 +382,7 @@
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
-    "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master",
+    "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master#4b29985",
     "r-a-y/bp-rbe-new-topic": "dev-master",
     "r-a-y/bp-reply-by-email": "dev-master#ab63914",
     "r-a-y/buddypress-followers": "^1.2",
