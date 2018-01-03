@@ -383,7 +383,7 @@
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
     "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master#4b29985",
-    "r-a-y/bp-rbe-new-topic": "dev-master",
+    "r-a-y/bp-rbe-new-topic": "dev-master#b68a6ca",
     "r-a-y/bp-reply-by-email": "dev-master#8ace56f",
     "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
