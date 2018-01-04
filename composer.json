@@ -345,6 +345,19 @@
           "reference": "master"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "mlaa/bp-reply-by-email",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/bp-reply-by-email.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "require": {
@@ -370,6 +383,8 @@
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
+    "mlaa/bp-mpo-activity-filter": "dev-master#202278c",
+    "mlaa/bp-reply-by-email": "dev-master",
     "mlaa/buddypress": "dev-hcommons-2.9.2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/buddypress-group-email-subscription": "dev-3.8.x-hotfix-128",
@@ -402,7 +417,6 @@
     "owwwlab/faculty": "^3.11",
     "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master#4b29985",
     "r-a-y/bp-rbe-new-topic": "dev-master#b68a6ca",
-    "r-a-y/bp-reply-by-email": "dev-master#5c83d88",
     "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
     "siteorigin/vantage": "2.4.4",
@@ -415,7 +429,7 @@
     "themesindep/shortcodes-indep": "^3.0",
     "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
-    "vlucas/phpdotenv": "v2.2.0",
+    "vlucas/phpdotenv": "^2.4",
     "wpackagist-plugin/akismet": "^3.3",
     "wpackagist-plugin/anthologize": "^0.7.7",
     "wpackagist-plugin/bbpress": "2.5.14",
