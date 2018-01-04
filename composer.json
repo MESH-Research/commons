@@ -410,7 +410,7 @@
     "themesindep/shortcodes-indep": "^3.0",
     "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
-    "vlucas/phpdotenv": "v2.2.0",
+    "vlucas/phpdotenv": "^2.4",
     "wpackagist-plugin/akismet": "^3.3",
     "wpackagist-plugin/anthologize": "^0.7.7",
     "wpackagist-plugin/bbpress": "2.5.12",
