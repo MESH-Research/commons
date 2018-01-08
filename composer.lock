@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee3e36e34338efca7f662b31fdcef251",
+    "content-hash": "c57e949c7e988a1dc523a5d2dc26301f",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -74,6 +74,17 @@
                 "url": "/tmp/wordpress-packages/buddyboss-boss-2.2.2.zip",
                 "reference": null,
                 "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "christian-wach/commentpress-flat-child",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/christian-wach-commentpress-flat-child-1.0.zip",
+                "reference": null,
+                "shasum": "c012442e53fa652c950c963b1ffbf04b01ebc00c"
             },
             "type": "wordpress-theme"
         },
@@ -790,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "2ad37a8"
+                "reference": "bb659c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/2ad37a8",
-                "reference": "2ad37a8",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/bb659c2",
+                "reference": "bb659c2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -803,7 +814,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2017-12-20 19:18:17"
+            "time": "2018-01-08 15:53:42"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1926,16 +1937,16 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.9.3",
+            "version": "3.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.9.3"
+                "reference": "tags/3.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.3.zip",
-                "reference": "tags/3.9.3",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.8.zip",
+                "reference": "tags/3.9.8",
                 "shasum": null
             },
             "require": {
