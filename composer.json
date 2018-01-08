@@ -346,6 +346,7 @@
   "require": {
     "php": ">=5.5",
     "buddyboss/boss": "^2.2",
+    "christian-wach/commentpress-flat-child": "^1.0",
     "cmoreira/interactive-world-maps": "1.9.9",
     "composer/installers": "^1.2",
     "cubell/15zine-functionality": "2.1.0",

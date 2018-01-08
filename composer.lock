@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ca3db1eb3e21c66c3c38179e8582e21",
+    "content-hash": "18f071774d8b16f3f56918114a58f01f",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -63,6 +63,17 @@
                 "url": "/tmp/wordpress-packages/buddyboss-boss-2.2.2.zip",
                 "reference": null,
                 "shasum": "e446188db6e55ba96bdaa6e48f05c021b318aa11"
+            },
+            "type": "wordpress-theme"
+        },
+        {
+            "name": "christian-wach/commentpress-flat-child",
+            "version": "1.0",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/christian-wach-commentpress-flat-child-1.0.zip",
+                "reference": null,
+                "shasum": "c012442e53fa652c950c963b1ffbf04b01ebc00c"
             },
             "type": "wordpress-theme"
         },
@@ -1909,7 +1920,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.8.zip",
-                "reference": null,
+                "reference": "tags/3.9.8",
                 "shasum": null
             },
             "require": {
