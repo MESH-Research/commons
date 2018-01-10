@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "37985d98bbdeacd0143d1e70f424008b",
+    "content-hash": "d0b3dc22b99f75620848575bd83c2e53",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -545,7 +545,7 @@
                 "reference": "202278c"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-20 17:03:09"
+            "time": "2016-12-20T17:03:09+00:00"
         },
         {
             "name": "mlaa/bp-reply-by-email",
@@ -553,10 +553,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/bp-reply-by-email.git",
-                "reference": "e4aa43d"
+                "reference": "29b396c"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-10 15:50:04"
+            "time": "2018-01-10 19:08:08"
         },
         {
             "name": "mlaa/buddypress",
@@ -1447,6 +1447,7 @@
                 "php": ">=5.2"
             },
             "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPLv2 or later"
             ],
@@ -1458,10 +1459,6 @@
             ],
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
-            "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
-                "issues": "https://github.com/stuttter/wp-multi-network/issues"
-            },
             "time": "2017-09-01 01:36:54"
         },
         {
