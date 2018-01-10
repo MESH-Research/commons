@@ -520,6 +520,9 @@
     "pre-install-cmd": [
       "mkdir -p /tmp/wordpress-packages",
       "aws s3 sync s3://mla-backup/commons/packages /tmp/wordpress-packages --only-show-errors --delete"
+    ],
+    "post-install-cmd": [
+      "cd web/app/plugins/bp-rbe-inbound-forum-attachments && composer install"
     ]
   },
   "extra": {
