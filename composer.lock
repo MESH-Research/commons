@@ -64,7 +64,7 @@
                 "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-21 18:48:03"
+            "time": "2016-12-21T18:48:03+00:00"
         },
         {
             "name": "buddyboss/boss",
@@ -1937,16 +1937,16 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.9.3",
+            "version": "3.9.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.9.3"
+                "reference": "tags/3.9.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.3.zip",
-                "reference": "tags/3.9.3",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.8.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
