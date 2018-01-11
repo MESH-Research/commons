@@ -1908,16 +1908,16 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.9.8",
+            "version": "3.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.9.8"
+                "reference": "tags/3.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.8.zip",
-                "reference": "tags/3.9.8",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.3.zip",
+                "reference": "tags/3.9.3",
                 "shasum": null
             },
             "require": {
