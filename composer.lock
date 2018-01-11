@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e3fb99b657cfbdae126798a6c850212",
+    "content-hash": "6ec4aa3df5a00791c128c778e7cc265e",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -479,20 +479,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "684c271"
+                "reference": "a9534fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/684c271",
-                "reference": "684c271",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/a9534fb",
+                "reference": "a9534fb",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/feature-error-box-fix",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2017-12-20 20:03:03"
+            "time": "2018-01-11 17:48:59"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -579,10 +579,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/bp-reply-by-email.git",
-                "reference": "e4aa43d"
+                "reference": "29b396c"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-10 15:50:04"
+            "time": "2018-01-10 19:08:08"
         },
         {
             "name": "mlaa/buddypress",
@@ -801,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "6ef5f5b"
+                "reference": "b238f43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/6ef5f5b",
-                "reference": "6ef5f5b",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/b238f43",
+                "reference": "b238f43",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -814,7 +814,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-01-10 17:01:34"
+            "time": "2018-01-10 18:43:47"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -936,12 +936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "fd00042"
+                "reference": "c19b43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/fd00042",
-                "reference": "fd00042",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/c19b43d",
+                "reference": "c19b43d",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +960,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2017-12-11 20:12:14"
+            "time": "2018-01-11 17:01:31"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1937,16 +1937,16 @@
         },
         {
             "name": "wpackagist-plugin/commentpress-core",
-            "version": "3.9.8",
+            "version": "3.9.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/commentpress-core/",
-                "reference": "tags/3.9.8"
+                "reference": "tags/3.9.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.8.zip",
-                "reference": "tags/3.9.8",
+                "url": "https://downloads.wordpress.org/plugin/commentpress-core.3.9.3.zip",
+                "reference": "tags/3.9.3",
                 "shasum": null
             },
             "require": {
