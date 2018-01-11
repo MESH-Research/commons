@@ -9,7 +9,7 @@
 $_GET['sum'] = true;
 
 // open new log file for writing
-$filename = sprintf( '/srv/www/commons/logs/digest_%s_%s.html',
+$filename = sprintf( '/mnt/efs-logs/digest_%s_%s.html',
 	date( 'Y_m_d' ),
 	Humanities_Commons::$society_id
 );
