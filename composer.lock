@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0333dbc1d47c65f200dba939156669a",
+    "content-hash": "0eb50d30025fd3e6947524ff7ef94355",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -544,7 +544,8 @@
                 "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
                 "reference": "202278c"
             },
-            "type": "wordpress-plugin"
+            "type": "wordpress-plugin",
+            "time": "2016-12-20T17:03:09+00:00"
         },
         {
             "name": "mlaa/bp-reply-by-email",
@@ -795,12 +796,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
-                "reference": "f98f343"
+                "reference": "5959c5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/f98f343",
-                "reference": "f98f343",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/5959c5c",
+                "reference": "5959c5c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -808,7 +809,7 @@
                 "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2018-01-12 17:06:06"
+            "time": "2018-01-12 18:20:05"
         },
         {
             "name": "mlaa/hc-provisional-content",
