@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "72bb0a8f2d56ff97f5854ad891c04053",
+    "content-hash": "31aa21bef1e069a2ff0ccc721046fcbf",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -453,12 +453,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "8590cd6"
+                "reference": "ca382ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/8590cd6",
-                "reference": "8590cd6",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ca382ae",
+                "reference": "ca382ae",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -466,7 +466,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-01-12 16:09:50"
+            "time": "2018-01-12 16:24:35"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -544,8 +544,7 @@
                 "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
                 "reference": "202278c"
             },
-            "type": "wordpress-plugin",
-            "time": "2016-12-20 17:03:09"
+            "type": "wordpress-plugin"
         },
         {
             "name": "mlaa/bp-reply-by-email",
