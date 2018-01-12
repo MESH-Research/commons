@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6450ae7bfa3de5cb0e9c2d8d98fd098",
+    "content-hash": "72bb0a8f2d56ff97f5854ad891c04053",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -453,20 +453,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "a9534fb"
+                "reference": "8590cd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/a9534fb",
-                "reference": "a9534fb",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/8590cd6",
+                "reference": "8590cd6",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/feature-error-box-fix",
+                "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-01-11 17:48:59"
+            "time": "2018-01-12 16:09:50"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -545,7 +545,7 @@
                 "reference": "202278c"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-20T17:03:09+00:00"
+            "time": "2016-12-20 17:03:09"
         },
         {
             "name": "mlaa/bp-reply-by-email",
