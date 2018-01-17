@@ -392,7 +392,7 @@
     "mlaa/buddypress-messages-spam-blocker": "dev-master",
     "mlaa/bwp-google-xml-sitemaps": "dev-master",
     "mlaa/cbox-auth": "dev-master",
-    "mlaa/cbox-mla-blog": "dev-master",
+    "mlaa/cbox-mla-blog": "dev-master#ec1c086",
     "mlaa/commentpress-mla": "dev-master",
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",

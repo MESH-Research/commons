@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3ad20494a40a5043a668e37f28fbc97",
+    "content-hash": "9d71b7f1c9a17a24c22786e5e20895b5",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -690,12 +690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/cbox-mla-blog.git",
-                "reference": "899ba7d79a5ee04b3cc8162a39291c59e634285d"
+                "reference": "ec1c086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/cbox-mla-blog/zipball/899ba7d79a5ee04b3cc8162a39291c59e634285d",
-                "reference": "899ba7d79a5ee04b3cc8162a39291c59e634285d",
+                "url": "https://api.github.com/repos/mlaa/cbox-mla-blog/zipball/ec1c086",
+                "reference": "ec1c086",
                 "shasum": ""
             },
             "require": {
@@ -704,10 +704,10 @@
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/cbox-mla-blog/tree/develop",
+                "source": "https://github.com/mlaa/cbox-mla-blog/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla-blog/issues"
             },
-            "time": "2015-07-22 15:26:35"
+            "time": "2018-01-17 18:14:50"
         },
         {
             "name": "mlaa/commentpress-mla",
