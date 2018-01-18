@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3349a5ae486ac292b3bdfe1e774ddc76",
+    "content-hash": "dbee180d085885c8aa1bafef96bfadb5",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2374,6 +2374,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
+        },
+        {
+            "name": "wpackagist-plugin/mashsharer",
+            "version": "3.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mashsharer/",
+                "reference": "tags/3.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mashsharer/"
         },
         {
             "name": "wpackagist-plugin/menu-icons",
