@@ -403,7 +403,7 @@
     "mlaa/hc-styles": "dev-master#4111b93",
     "mlaa/hc-suggestions": "dev-master#e6b0ef0",
     "mlaa/humanities-commons": "dev-master#11ae333",
-    "mlaa/humcore": "dev-master#c19b43d",
+    "mlaa/humcore": "dev-develop",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master",
