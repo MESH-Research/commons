@@ -136,12 +136,12 @@ function hcommons_maybe_redirect_after_login() {
 	// Once user has authenticated, maybe redirect to original destination.
 	if ( is_user_logged_in() ) {
 
-		// unset cookie on each network domains
-		foreach ( get_networks() as $network ) {
-			setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, $network->cookie_domain );
-		}
-
 		if ( isset( $_COOKIE[ $cookie_name ] ) ) {
+			// unset cookie on each network domains
+			foreach ( get_networks() as $network ) {
+				setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, $network->cookie_domain );
+			}
+
 			// only redirect if we're not already there
 			if ( false === strpos( $_COOKIE[ $cookie_name ], $_SERVER['REQUEST_URI'] ) ) {
 				// Can't use wp_safe_redirect due to filters, just send directly.
