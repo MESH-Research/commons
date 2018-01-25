@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c5085bb8f199f72ac8e316c742fb526",
+    "content-hash": "8af87a01a15919beceba89afdb5546dc",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2133,6 +2133,26 @@
             "homepage": "https://wordpress.org/plugins/events-manager/"
         },
         {
+            "name": "wpackagist-plugin/ewww-image-optimizer",
+            "version": "4.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/4.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
             "name": "wpackagist-plugin/fd-footnotes",
             "version": "1.36",
             "source": {
@@ -2883,7 +2903,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/w3-total-cache.0.9.6.zip",
-                "reference": null,
+                "reference": "tags/0.9.6",
                 "shasum": null
             },
             "require": {
