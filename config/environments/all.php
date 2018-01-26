@@ -83,6 +83,9 @@ define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
  */
 define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
 
+// W3 Total Cache
+define( 'WP_CACHE', getenv( 'WP_CACHE' ) );
+
 /**
  * Redis
  */
