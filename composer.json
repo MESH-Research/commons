@@ -155,12 +155,12 @@
       "type": "package",
       "package": {
         "name": "mlaa/buddypress",
-        "version": "dev-hcommons-2.9.2",
+        "version": "dev-hcommons-2.9.3",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/BuddyPress.git",
           "type": "git",
-          "reference": "hcommons-2.9.2"
+          "reference": "hcommons-2.9.3"
         }
       }
     },
@@ -386,7 +386,7 @@
     "mlaa/bp-group-documents": "dev-master",
     "mlaa/bp-mpo-activity-filter": "dev-master#202278c",
     "mlaa/bp-reply-by-email": "dev-master#29b396c",
-    "mlaa/buddypress": "dev-hcommons-2.9.2",
+    "mlaa/buddypress": "dev-hcommons-2.9.3#4ff20f8",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/buddypress-group-email-subscription": "dev-3.8.x-hotfix-128",
     "mlaa/buddypress-messages-spam-blocker": "dev-master",

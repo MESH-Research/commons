@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8af87a01a15919beceba89afdb5546dc",
+    "content-hash": "1dd083c0bd56a8d0e8d9f1c7d7832ec5",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -64,7 +64,7 @@
                 "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-21 18:48:03"
+            "time": "2016-12-21T18:48:03+00:00"
         },
         {
             "name": "buddyboss/boss",
@@ -586,14 +586,14 @@
         },
         {
             "name": "mlaa/buddypress",
-            "version": "dev-hcommons-2.9.2",
+            "version": "dev-hcommons-2.9.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/BuddyPress.git",
-                "reference": "hcommons-2.9.2"
+                "reference": "4ff20f8"
             },
             "type": "wordpress-plugin",
-            "time": "2017-12-19 16:25:23"
+            "time": "2018-01-26 18:42:42"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -2143,7 +2143,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.4.0.6.zip",
-                "reference": null,
+                "reference": "tags/4.0.6",
                 "shasum": null
             },
             "require": {
