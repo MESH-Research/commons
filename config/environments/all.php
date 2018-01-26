@@ -183,6 +183,12 @@ define( 'BP_DEFAULT_COMPONENT', 'profile' ); // make "profile" default rather th
 define( 'BP_RBE_SPARKPOST_WEBHOOK_TOKEN', getenv( 'BP_RBE_SPARKPOST_WEBHOOK_TOKEN' ) );
 
 /**
+ * Social Accounts
+ */
+define( 'TWITTER_USERNAME', getenv( 'TWITTER_USERNAME' ) );
+define( 'FACEBOOK_APP_ID', getenv( 'FACEBOOK_APP_ID' ) );
+
+/**
  * Humanities CORE
  */
 define('CORE_HTTP_DEBUG', getenv('CORE_HTTP_DEBUG'));
