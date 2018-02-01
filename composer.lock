@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ef7de9820c839294f2dec77d2d6d031",
+    "content-hash": "66ec20e84dc361299cadda4f0a8cd23b",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -715,12 +715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla.git",
-                "reference": "87786df2741321a78cd961ce52e50cee1372f090"
+                "reference": "cf80cf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/87786df2741321a78cd961ce52e50cee1372f090",
-                "reference": "87786df2741321a78cd961ce52e50cee1372f090",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/cf80cf9",
+                "reference": "cf80cf9",
                 "shasum": ""
             },
             "require": {
@@ -732,7 +732,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla/issues"
             },
-            "time": "2017-03-06 21:00:22"
+            "time": "2018-01-26 20:24:08"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
