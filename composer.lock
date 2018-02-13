@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "79b3daafa0d3e81f52e461737886db93",
+    "content-hash": "a1f912ec8c0a10bb02a84e5233512822",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1072,12 +1072,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "081cf4507151404b21824fc11e4ce99ea016ce0c"
+                "reference": "b19c7a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/081cf4507151404b21824fc11e4ce99ea016ce0c",
-                "reference": "081cf4507151404b21824fc11e4ce99ea016ce0c",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/b19c7a6",
+                "reference": "b19c7a6",
                 "shasum": ""
             },
             "require": {
@@ -1088,7 +1088,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2017-04-19 16:28:00"
+            "time": "2018-02-13 21:09:59"
         },
         {
             "name": "mlaa/sparkpost",

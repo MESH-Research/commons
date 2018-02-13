@@ -409,7 +409,7 @@
     "mlaa/mla-allowed-tags": "dev-master",
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
-    "mlaa/shibboleth": "dev-master",
+    "mlaa/shibboleth": "dev-master#b19c7a6",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
     "mlaa/style-center": "dev-master#68441ed",
