@@ -401,7 +401,7 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#c1acd01",
-    "mlaa/hc-auth": "dev-master",
+    "mlaa/hc-auth": "dev-master#e6352fe",
     "mlaa/hc-custom": "dev-master#803c16a",
     "mlaa/hc-member-profiles": "dev-master#8956900",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
