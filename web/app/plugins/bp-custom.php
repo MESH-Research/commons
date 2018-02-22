@@ -175,6 +175,11 @@ if ( ! ( defined( 'DOMAIN_MAPPING' ) && DOMAIN_MAPPING ) ) {
 	add_action( 'init', 'hcommons_maybe_redirect_after_login', 15 );
 	// to catch cookies set by cac_catch_group_doc_request
 	add_action( 'wp', 'hcommons_maybe_redirect_after_login' );
+	// to catch users trying to access their notifications while not logged in
+	add_filter( 'bp_core_no_access', function( $r ) {
+		hcommons_maybe_redirect_after_login();
+		return $r;
+	} );
 }
 
 
