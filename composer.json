@@ -71,6 +71,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/hc-auth.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/hc-custom.git"
     },
     {
@@ -397,12 +401,13 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#c1acd01",
+    "mlaa/hc-auth": "dev-master",
     "mlaa/hc-custom": "dev-master#803c16a",
     "mlaa/hc-member-profiles": "dev-master#8956900",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#4111b93",
     "mlaa/hc-suggestions": "dev-master#a93bda6",
-    "mlaa/humanities-commons": "dev-master#a61fdc2",
+    "mlaa/humanities-commons": "dev-master#f7b6748",
     "mlaa/humcore": "dev-master#559d782",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",

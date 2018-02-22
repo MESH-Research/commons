@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "534b97a780dc6779faddcf5afc5bafff",
+    "content-hash": "43500e93fac8ed5811658f4d9943a33b",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -64,7 +64,7 @@
                 "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-21T18:48:03+00:00"
+            "time": "2016-12-21 18:48:03"
         },
         {
             "name": "buddyboss/boss",
@@ -796,6 +796,27 @@
             "time": "2018-01-23 20:53:38"
         },
         {
+            "name": "mlaa/hc-auth",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-auth.git",
+                "reference": "e6352fe7166802944d49deabfd4bad142b98b3e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-auth/zipball/e6352fe7166802944d49deabfd4bad142b98b3e6",
+                "reference": "e6352fe7166802944d49deabfd4bad142b98b3e6",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-auth/tree/master",
+                "issues": "https://github.com/mlaa/hc-auth/issues"
+            },
+            "time": "2018-02-22 17:44:34"
+        },
+        {
             "name": "mlaa/hc-custom",
             "version": "dev-master",
             "source": {
@@ -912,12 +933,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "a61fdc2"
+                "reference": "f7b6748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/a61fdc2",
-                "reference": "a61fdc2",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/f7b6748",
+                "reference": "f7b6748",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -925,7 +946,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-02-14 16:14:02"
+            "time": "2018-02-22 13:59:00"
         },
         {
             "name": "mlaa/humcore",
@@ -6433,6 +6454,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/hc-auth": 20,
         "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
         "mlaa/hc-provisional-content": 20,
