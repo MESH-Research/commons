@@ -48,6 +48,7 @@ PROBLEM: wordpress-mu-domain-mapping is inactive on $hostname and active-network
 PROBLEM: wp-hide-dashboard is active on $hostname and active-network on mla.$hostname
 PROBLEM: password-protected is active-network on $hostname and inactive on caa.$hostname
 PROBLEM: password-protected is inactive on $hostname and active-network on up.$hostname
+PROBLEM: hc-auth is inactive on hcommons.org and active on mla.hcommons.org
 
 EOD;
 // the extra newline above is necessary to ensure the final line matches
