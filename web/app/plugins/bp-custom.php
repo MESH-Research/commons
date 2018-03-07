@@ -21,21 +21,21 @@ function hcommons_filter_groups_activity_new_update_action( $activity_action ) {
 add_filter( 'groups_activity_new_update_action', 'hcommons_filter_groups_activity_new_update_action' );
 
 function hcommons_add_non_society_member_join_group_button() {
-	if ( hcommons_check_non_member_active_session() ) {
+	if ( ! is_super_admin() && hcommons_check_non_member_active_session() ) {
 		echo '<div class="disabled-button">Join Group</div>';
 	}
 }
 add_action( 'bp_directory_groups_actions', 'hcommons_add_non_society_member_join_group_button' );
 
 function hcommons_add_non_society_member_follow_button() {
-	if ( hcommons_check_non_member_active_session() ) {
+	if ( ! is_super_admin() && hcommons_check_non_member_active_session() ) {
 		echo '<div class="disabled-button">Follow</div>';
 	}
 }
 add_action( 'bp_directory_members_actions', 'hcommons_add_non_society_member_follow_button' );
 
 function hcommons_add_non_society_member_disclaimer_member() {
-	if ( hcommons_check_non_member_active_session() ) {
+	if ( ! is_super_admin() && hcommons_check_non_member_active_session() ) {
 		printf(
 			'<div class="non-member-disclaimer">Only %s members can follow others from here.<br>To follow these members, go to <a href="%s">Humanities Commons</a>.</div>',
 			strtoupper( Humanities_Commons::$society_id ),
@@ -46,7 +46,7 @@ function hcommons_add_non_society_member_disclaimer_member() {
 add_action( 'bp_before_directory_members_content', 'hcommons_add_non_society_member_disclaimer_member' );
 
 function hcommons_add_non_society_member_disclaimer_group() {
-	if ( hcommons_check_non_member_active_session() ) {
+	if ( ! is_super_admin() && hcommons_check_non_member_active_session() ) {
 		printf(
 			'<div class="non-member-disclaimer">Only %1$s members can join these groups.<br><a href="/register">Join %1$s now</a>!</div>',
 			strtoupper( Humanities_Commons::$society_id )
