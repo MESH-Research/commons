@@ -20,6 +20,19 @@ function hcommons_filter_groups_activity_new_update_action( $activity_action ) {
 }
 add_filter( 'groups_activity_new_update_action', 'hcommons_filter_groups_activity_new_update_action' );
 
+function hcommons_add_non_society_member_join_group_button() {
+	if ( hcommons_check_non_member_active_session() ) {
+		echo '<div class="disabled-button">Join Group</div>';
+	}
+}
+add_action( 'bp_directory_groups_actions', 'hcommons_add_non_society_member_join_group_button' );
+
+function hcommons_add_non_society_member_follow_button() {
+	if ( hcommons_check_non_member_active_session() ) {
+		echo '<div class="disabled-button">Follow</div>';
+	}
+}
+add_action( 'bp_directory_members_actions', 'hcommons_add_non_society_member_follow_button' );
 
 /**
  * remove urls in comments from comment notification emails so that we don't trigger spam filters
