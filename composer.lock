@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ed6b93b151ff36f9cb59206c5fcfd87",
+    "content-hash": "c9e3ed933933bd85c66ab579282c5ff0",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -479,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "90a0abb"
+                "reference": "ea25101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/90a0abb",
-                "reference": "90a0abb",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ea25101",
+                "reference": "ea25101",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -492,7 +492,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-02-20 21:03:41"
+            "time": "2018-03-07 18:42:43"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
