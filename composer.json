@@ -570,6 +570,7 @@
     "codeception/codeception": "^2.3",
     "modelm/buddypress-body-classes": "dev-master#75c9157",
     "neronmoon/scriptsdev": "^0.1.2",
+    "wp-coding-standards/wpcs": "^0.14.1",
     "wpackagist-plugin/better-http-redirects": "1.2",
     "wpackagist-plugin/debug-bar": "^0.9.0",
     "wpackagist-plugin/debug-bar-actions-and-filters-addon": "^1.5",
