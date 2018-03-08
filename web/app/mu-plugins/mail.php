@@ -35,4 +35,22 @@ function mail_add_sender(&$phpmailer) {
 add_filter('send_email_change_email', '__return_false');
 add_filter('send_password_change_email', '__return_false');
 
+/**
+ * remove urls in comments from comment notification emails so that we don't trigger spam filters
+ */
+function hcommons_filter_comment_notification_text( $text ) {
+	$delimiter = 'You can see all comments on this post here:';
+	$exploded_text = explode( $delimiter, $text );
+
+	// http://stackoverflow.com/a/6165666/700113
+	$pattern = "/(?i)\b((?:https?:\/\/|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'\".,<>?«»“”‘’]))/";
+	$replace = '<url removed>';
+	$exploded_text[0] = preg_replace( $pattern, $replace, $exploded_text[0] );
+
+	$text = $exploded_text[0] . $delimiter . $exploded_text[1];
+
+	return $text;
+}
+add_filter( 'comment_notification_text', 'hcommons_filter_comment_notification_text' );
+
 ?>
