@@ -70,7 +70,22 @@ function hcommons_wp_footer() {
 			$main_site_domain
 		);
 
+		$theme = wp_get_theme();
+		$theme_name = $theme->get( 'TextDomain' );
+
+        if( 'twentyfifteen' === $theme_name ) {
+
 		$style = implode( ';', [
+			'background-color: white',
+			'color: black',
+			'position: relative',
+			'text-align: center',
+			'width: 100%',
+			'z-index: 100',
+		] );
+
+		} else {
+			$style = implode( ';', [
 			'background-color: white',
 			'color: black',
 			'line-height: 3em',
@@ -79,6 +94,7 @@ function hcommons_wp_footer() {
 			'width: 100%',
 			'z-index: 100',
 		] );
+		}
 
 		$text = sprintf(
 			'<div id="hcommons-network-footer" style="%s">This site is part of %s<em><a href="%s">Humanities Commons</a></em>. <a href="%s">Explore other sites on this network</a> or <a href="%s">register to build your own</a>.</div>',
