@@ -94,7 +94,8 @@ define('WP_CACHE_KEY_SALT', getenv('WP_CACHE_KEY_SALT'));
 /**
  * Redis cache
  */
-define('REDIS_HOST', getenv('REDIS_HOST'));
+define('REDIS_HOST', getenv('REDIS_HOST'));       // wp-redis
+define('WP_REDIS_HOST', getenv('WP_REDIS_HOST')); // redis-cache
 
 /**
  * ElasticPress Elasticsearch
