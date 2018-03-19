@@ -243,4 +243,4 @@ function hc_add_login_redirect_script() {
 		echo "<script>window.location = '$redirect_url'</script>";
 	}
 }
-add_action( 'login_enqueue_scripts', 'hc_add_login_redirect_script' );
+//add_action( 'login_enqueue_scripts', 'hc_add_login_redirect_script' );
