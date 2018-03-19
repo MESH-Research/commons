@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05ac1bcef74257d76e3550b916ace321",
-    "content-hash": "75daff57403fb579a32b0820548d08a3",
+    "hash": "7396f81ec534fa47e9a377b3601e62a6",
+    "content-hash": "a0691443209520227b967ffa6677b6a9",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -930,24 +930,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-master",
+            "version": "dev-feature-simplesaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "f7b6748"
+                "reference": "cf7c251"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/f7b6748",
-                "reference": "f7b6748",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/cf7c251",
+                "reference": "cf7c251",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/feature-simplesaml",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-02-22 13:59:00"
+            "time": "2018-03-19 19:27:44"
         },
         {
             "name": "mlaa/humcore",
@@ -3185,7 +3185,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.0.3.8.zip",
-                "reference": null,
+                "reference": "tags/0.3.8",
                 "shasum": null
             },
             "require": {
