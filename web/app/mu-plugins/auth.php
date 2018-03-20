@@ -20,13 +20,13 @@
 		//add_filter( 'site_option_shibboleth_login_url', [ $this, 'hcommons_filter_site_option_shibboleth_urls' ] );
 		//add_filter( 'site_option_shibboleth_logout_url', [ $this, 'hcommons_filter_site_option_shibboleth_urls' ] );
 
-	public function hcommons_set_user_member_types( $user ) {
+	function hcommons_set_user_member_types( $user ) {
 
 		$user_id = $user->ID;
 
 		$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 /*
-		if ( $shib_session_id == self::$shib_session_id ) {
+		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 			hcommons_write_error_log( 'info', '****SET_USER_MEMBER_TYPES_OUT****-' . var_export( $shib_session_id, true ) );
 			return;
 		}
@@ -44,10 +44,10 @@
 
 		//If site is a society we are mapping groups for and the user is member of the society, map any groups from comanage to wp.
 		//TODO add logic to remove groups the user is no longer a member of
-		if ( in_array( self::$society_id, array( 'ajs', 'aseees', 'caa', 'mla', 'up' ) ) &&
-			in_array( self::$society_id, $memberships['societies'] ) ) {
-			foreach( $memberships['groups'][self::$society_id] as $group_name ) {
-				$group_id = $this->hcommons_lookup_society_group_id( self::$society_id, $group_name );
+		if ( in_array( Humanities_Commons::$society_id, array( 'ajs', 'aseees', 'caa', 'mla', 'up' ) ) &&
+			in_array( Humanities_Commons::$society_id, $memberships['societies'] ) ) {
+			foreach( $memberships['groups'][Humanities_Commons::$society_id] as $group_name ) {
+				$group_id = $this->hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
 				if ( ! groups_is_user_member( $user_id, $group_id ) ) {
 					$success = groups_join_group( $group_id, $user_id );
 					hcommons_write_error_log( 'info', '****ADD_GROUP_MEMBERSHIP***-' . $group_id . '-' . $user_id );
@@ -57,7 +57,7 @@
 
 	}
 
-	public function hcommons_maybe_set_user_role_for_site( $user ) {
+	function hcommons_maybe_set_user_role_for_site( $user ) {
 
 		//TODO Can we find WP functions that avoid messing directly with usermeta for a user that has not yet signed in?
 		global $wpdb;
@@ -66,7 +66,7 @@
 		$site_caps = get_user_meta( $user_id, $prefix . 'capabilities', true );
 		$site_caps_array = maybe_unserialize( $site_caps );
 		$memberships = $this->hcommons_get_user_memberships();
-		$is_site_member = in_array( self::$society_id, $memberships['societies'] );
+		$is_site_member = in_array( Humanities_Commons::$society_id, $memberships['societies'] );
 
 		if ( $is_site_member ) {
 			//TODO Copy role check logic from hcommons_check_user_site_membership().
@@ -99,18 +99,18 @@
 	 *
 	 * @param object $user
 	 */
-	public function hcommons_set_shibboleth_based_user_meta( $user ) {
+	function hcommons_set_shibboleth_based_user_meta( $user ) {
 
 		$user_id = $user->ID;
 		$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 
-		if ( $shib_session_id == self::$shib_session_id ) {
+		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 			return;
 		}
 
-		hcommons_write_error_log( 'info', '****SHIB_BASED_USER_META****-' . var_export( self::$shib_session_id, true ) );
+		hcommons_write_error_log( 'info', '****SHIB_BASED_USER_META****-' . var_export( Humanities_Commons::$shib_session_id, true ) );
 		$login_host = $_SERVER['HTTP_X_FORWARDED_HOST'];
-		$result = update_user_meta( $user_id, 'shib_session_id', self::$shib_session_id );
+		$result = update_user_meta( $user_id, 'shib_session_id', Humanities_Commons::$shib_session_id );
 		$result = update_user_meta( $user_id, 'shib_login_host', $login_host );
 
 		$shib_orcid = $_SERVER['HTTP_EDUPERSONORCID'];
@@ -191,7 +191,7 @@
 	/**
 	 * ensure invite-anyone correctly sets up notifications after user registers
 	 */
-	public function hcommons_invite_anyone_activate_user( $user ) {
+	function hcommons_invite_anyone_activate_user( $user ) {
 		$meta_key = 'hcommons_invite_anyone_activate_user_done';
 
 		if (
@@ -217,7 +217,7 @@
 
 		$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 /*
-		if ( $shib_session_id == self::$shib_session_id ) {
+		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 			hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE_OUT****-' . var_export( $shib_session_id, true ) );
 			return;
 		}
@@ -276,7 +276,7 @@
 	 * @param string $shib_email
 	 * @return string $shib_email_array[0]
 	 */
-	public function hcommons_set_shibboleth_based_user_email( $shib_email ) {
+	function hcommons_set_shibboleth_based_user_email( $shib_email ) {
 
 		$shib_email_array = explode( ';', $shib_email );
 		return $shib_email_array[0];
@@ -291,7 +291,7 @@
 	 * @param string $user_role
 	 * @return string $user_role Role or null.
 	 */
-	public function hcommons_check_user_site_membership( $user_role ) {
+	function hcommons_check_user_site_membership( $user_role ) {
 
 		$username = $_SERVER['HTTP_EMPLOYEENUMBER'];
 
@@ -304,9 +304,9 @@
 		}
 		$memberships = $this->hcommons_get_user_memberships();
 		$member_societies = (array)$memberships['societies'];
-		if ( ! in_array( self::$society_id, $member_societies ) && ! in_array( $user->user_login, $global_super_admins ) ) {
+		if ( ! in_array( Humanities_Commons::$society_id, $member_societies ) && ! in_array( $user->user_login, $global_super_admins ) ) {
 			hcommons_write_error_log( 'info', '****CHECK_USER_SITE_MEMBERSHIP_FAIL****-' . var_export( $memberships['societies'], true ) .
-				var_export( self::$society_id, true ) . var_export( $user, true ) );
+				var_export( Humanities_Commons::$society_id, true ) . var_export( $user, true ) );
 			return '';
 		}
 
@@ -335,7 +335,7 @@
 	 *
 	 * @param string $username   User who is attempting to log in.
 	 */
-	public function hcommons_login_failed( $username ) {
+	function hcommons_login_failed( $username ) {
 
 		global $wpdb;
 		$prefix = $wpdb->get_blog_prefix();
@@ -374,7 +374,7 @@
 	 * @param string $location
 	 * @return string $location Modified url
 	 */
-	public function hcommons_remove_admin_redirect( $location ) {
+	function hcommons_remove_admin_redirect( $location ) {
 		if (
 			isset( $_REQUEST['action'] ) &&
 			'shibboleth' === $_REQUEST['action'] &&
@@ -394,10 +394,10 @@
 	 * @param bool $active
 	 * @return bool $active
 	 */
-	public function hcommons_shibboleth_session_active( $active ) {
+	function hcommons_shibboleth_session_active( $active ) {
 
 		if ( $active ) {
-			self::$shib_session_id = $_SERVER['HTTP_SHIB_SESSION_ID'];
+			Humanities_Commons::$shib_session_id = $_SERVER['HTTP_SHIB_SESSION_ID'];
 		}
 		return $active;
 	}
@@ -407,7 +407,7 @@
 	 *
 	 * @since HCommons
 	 */
-	public function hcommons_login_init() {
+	function hcommons_login_init() {
 		if (
 			! isset( $_REQUEST['action'] ) ||
 			! in_array( $_REQUEST['action'], [ 'shibboleth', 'logout' ] )
@@ -427,7 +427,7 @@
 	 * This is intended to make logging out of one network log the user out of all networks,
 	 * but also serves to deal with shibboleth expiration or other unexpected scenarios.
 	 */
-	public function hcommons_shibboleth_autologout() {
+	function hcommons_shibboleth_autologout() {
 		if ( is_user_logged_in() && ! shibboleth_session_active() ) {
 			$logout_url = shibboleth_get_option('shibboleth_logout_url');
 			wp_logout();
