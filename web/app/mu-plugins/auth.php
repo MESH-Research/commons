@@ -380,27 +380,6 @@ function hcommons_shibboleth_session_active( $active ) {
 //add_filter( 'shibboleth_session_active', array( $this, 'hcommons_shibboleth_session_active' ) );
 
 /**
- * Require shibboleth login rather than allowing vanilla wp-login.
- *
- * @since HCommons
- */
-function hcommons_login_init() {
-	if (
-		! isset( $_REQUEST['action'] ) ||
-		! in_array( $_REQUEST['action'], [ 'shibboleth', 'logout' ] )
-	) {
-		$exploded_url = explode( '?', $_SERVER['REQUEST_URI'] );
-
-		parse_str( parse_url( $_SERVER['REQUEST_URI'], PHP_URL_QUERY ), $parsed_query );
-
-		$parsed_query['action'] = 'shibboleth';
-
-		wp_safe_redirect( $exploded_url[0] . '?' . http_build_query( $parsed_query ) );
-	}
-}
-//add_action( 'login_init', array( $this, 'hcommons_login_init' ) );
-
-/**
  * Force logout of current network if shibboleth session has expired.
  * This is intended to make logging out of one network log the user out of all networks,
  * but also serves to deal with shibboleth expiration or other unexpected scenarios.
