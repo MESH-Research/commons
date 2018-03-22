@@ -23,7 +23,90 @@ add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
 // TODO is wp_safe_redirect_fallback still necessary?
 //add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
 
+/**
+ * Handle a failed login attempt. Determine if the user has visitor status.
+ *
+ * @param string $username User who is attempting to log in.
+ */
+function hcommons_login_failed( $username ) {
+	hcommons_write_error_log( 'info', '****LOGIN_FAILED****-' . $_SERVER['HTTP_REFERER'] . ' ' . $_SERVER['HTTP_X_FORWARDED_FOR'] . ' ' . $_SERVER['HTTP_EMPLOYEENUMBER'] );
 
+	$referrer = $_SERVER['HTTP_REFERER'];
+
+	// TODO fix path for simplesaml
+	if ( ! empty( $referrer ) && strstr( $referrer, 'idp/profile/SAML2/Redirect/SSO?' ) ) {
+		if ( ! strstr( $_SERVER['REQUEST_URI'], '/not-a-member' ) && ! strstr( $_SERVER['REQUEST_URI'], '/inactive-member' ) ) { // one redirect
+			wp_redirect( 'https://' . $_SERVER['HTTP_X_FORWARDED_HOST'] . '/not-a-member' );
+			exit();
+		}
+	}
+}
+add_action( 'wp_login_failed', 'hcommons_login_failed' );
+
+/**
+ * Syncs the HCommons managed WordPress profile data to HCommons XProfile Group fields.
+ *
+ * @since HCommons
+ *
+ * @param object $user   User object whose profile is being synced. Passed by reference.
+ */
+function hcommons_sync_bp_profile( $user ) {
+
+	$user_id = $user->ID;
+
+	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
+/*
+		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
+			hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE_OUT****-' . var_export( $shib_session_id, true ) );
+			return;
+		}
+ */
+	hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE****-'.var_export( $user->ID, true ) );
+
+	$current_name = xprofile_get_field_data( 'Name', $user->ID );
+	if ( empty( $current_name ) ) {
+		$name = $_SERVER['HTTP_DISPLAYNAME']; // user record maybe not fully populated for first time users.
+		if ( ! empty( $name ) ) {
+			xprofile_set_field_data( 'Name', $user->ID, $name );
+		}
+	}
+
+	$current_title = xprofile_get_field_data( 'Title', $user->ID );
+	if ( empty( $current_title ) ) {
+		$titles = maybe_unserialize( get_user_meta( $user->ID, 'shib_title', true ) );
+		if ( is_array( $titles ) ) {
+			$title = $titles[0];
+		} else {
+			$title = $titles;
+		}
+		if ( ! empty( $title ) ) {
+			xprofile_set_field_data( 'Title', $user->ID, $title );
+		}
+	}
+
+	$current_org = xprofile_get_field_data( 'Institutional or Other Affiliation', $user->ID );
+	if ( empty( $current_org ) ) {
+		$orgs = maybe_unserialize( get_user_meta( $user->ID, 'shib_org', true ) );
+		if ( is_array( $orgs ) ) {
+			$org = $orgs[0];
+		} else {
+			$org = $orgs;
+		}
+		if ( ! empty( $org ) ) {
+			xprofile_set_field_data( 'Institutional or Other Affiliation', $user->ID, str_replace( 'Mla', 'MLA', $org ) );
+		}
+	}
+
+	$current_orcid = xprofile_get_field_data( 18, $user->ID );
+	if ( empty( $current_orcid ) ) {
+		$orcid = get_user_meta( $user->ID, 'shib_orcid', true );
+		if ( ! empty( $orcid ) ) {
+			xprofile_set_field_data( 18, $user->ID, $orcid );
+		}
+	}
+
+}
+add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_sync_bp_profile' ) );
 
 
 
@@ -64,7 +147,7 @@ function hcommons_set_user_member_types( $user ) {
 	}
 
 }
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_user_member_types' ) );
+//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_user_member_types' ) );
 
 function hcommons_maybe_set_user_role_for_site( $user ) {
 
@@ -100,7 +183,7 @@ function hcommons_maybe_set_user_role_for_site( $user ) {
 		}
 	}
 }
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_maybe_set_user_role_for_site' ) );
+//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_maybe_set_user_role_for_site' ) );
 
 /**
  * Capture shibboleth data in user meta once per shibboleth session
@@ -197,7 +280,7 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 	}
 	$result = update_user_meta( $user_id, 'shib_identity_provider', maybe_serialize( $shib_identity_provider_updated ) );
 }
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_shibboleth_based_user_meta' ) );
+//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_shibboleth_based_user_meta' ) );
 
 /**
  * ensure invite-anyone correctly sets up notifications after user registers
@@ -214,72 +297,8 @@ function hcommons_invite_anyone_activate_user( $user ) {
 		update_user_meta( $user->ID, $meta_key, true );
 	}
 }
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_invite_anyone_activate_user' ) );
+//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_invite_anyone_activate_user' ) );
 
-/**
- * Syncs the HCommons managed WordPress profile data to HCommons XProfile Group fields.
- *
- * @since HCommons
- *
- * @param object $user   User object whose profile is being synced. Passed by reference.
- */
-function hcommons_sync_bp_profile( $user ) {
-
-	$user_id = $user->ID;
-
-	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
-/*
-		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
-			hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE_OUT****-' . var_export( $shib_session_id, true ) );
-			return;
-		}
- */
-	hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE****-'.var_export( $user->ID, true ) );
-
-	$current_name = xprofile_get_field_data( 'Name', $user->ID );
-	if ( empty( $current_name ) ) {
-		$name = $_SERVER['HTTP_DISPLAYNAME']; // user record maybe not fully populated for first time users.
-		if ( ! empty( $name ) ) {
-			xprofile_set_field_data( 'Name', $user->ID, $name );
-		}
-	}
-
-	$current_title = xprofile_get_field_data( 'Title', $user->ID );
-	if ( empty( $current_title ) ) {
-		$titles = maybe_unserialize( get_user_meta( $user->ID, 'shib_title', true ) );
-		if ( is_array( $titles ) ) {
-			$title = $titles[0];
-		} else {
-			$title = $titles;
-		}
-		if ( ! empty( $title ) ) {
-			xprofile_set_field_data( 'Title', $user->ID, $title );
-		}
-	}
-
-	$current_org = xprofile_get_field_data( 'Institutional or Other Affiliation', $user->ID );
-	if ( empty( $current_org ) ) {
-		$orgs = maybe_unserialize( get_user_meta( $user->ID, 'shib_org', true ) );
-		if ( is_array( $orgs ) ) {
-			$org = $orgs[0];
-		} else {
-			$org = $orgs;
-		}
-		if ( ! empty( $org ) ) {
-			xprofile_set_field_data( 'Institutional or Other Affiliation', $user->ID, str_replace( 'Mla', 'MLA', $org ) );
-		}
-	}
-
-	$current_orcid = xprofile_get_field_data( 18, $user->ID );
-	if ( empty( $current_orcid ) ) {
-		$orcid = get_user_meta( $user->ID, 'shib_orcid', true );
-		if ( ! empty( $orcid ) ) {
-			xprofile_set_field_data( 18, $user->ID, $orcid );
-		}
-	}
-
-}
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_sync_bp_profile' ) );
 
 /**
  * Return first email if multiple provided in shibboleth session.
@@ -342,45 +361,6 @@ function hcommons_check_user_site_membership( $user_role ) {
 
 }
 add_filter( 'shibboleth_user_role', array( $this, 'hcommons_check_user_site_membership' ) );
-
-/**
- * Handle a failed login attempt. Determine if the user has visitor status.
- *
- * @since HCommons
- *
- * @param string $username   User who is attempting to log in.
- */
-function hcommons_login_failed( $username ) {
-
-	global $wpdb;
-	$prefix = $wpdb->get_blog_prefix();
-	$referrer = $_SERVER['HTTP_REFERER'];
-	hcommons_write_error_log( 'info', '****LOGIN_FAILED****-' . $_SERVER['HTTP_REFERER'] . ' ' . $_SERVER['HTTP_X_FORWARDED_FOR'] . ' ' . $_SERVER['HTTP_EMPLOYEENUMBER'] );
-	if ( ! empty( $referrer ) && strstr( $referrer, 'idp/profile/SAML2/Redirect/SSO?' ) ) {
-		if ( ! strstr( $_SERVER['REQUEST_URI'], '/not-a-member' ) && ! strstr( $_SERVER['REQUEST_URI'], '/inactive-member' ) ) { // one redirect
-			wp_redirect( 'https://' . $_SERVER['HTTP_X_FORWARDED_HOST'] . '/not-a-member' );
-			exit();
-		}
-	}
-		/* Maybe this can go away for good now
-		//
-		// Otherwise, we assume we have an active session coming in as a visitor.
-		$username = $_SERVER['HTTP_EMPLOYEENUMBER']; //TODO Why is the username parameter empty?
-		$user = get_user_by( 'login', $username );
-		$user_id = $user->ID;
-		$visitor_notice = get_user_meta( $user_id, $prefix . 'commons_visitor', true );
-		if ( ( empty( $visitor_notice ) ) && ! strstr( $_SERVER['REQUEST_URI'], '/not-a-member' ) ) {
-			hcommons_write_error_log( 'info', '****LOGIN_FAILED_FIRST_TIME_NOTICE****-' . $username . '-' . $_SERVER['HTTP_EPPN'] . '-' .
-				$_SERVER['HTTP_X_FORWARDED_HOST'] . '-' . var_export( $prefix, true ) );
-
-			update_user_meta( $user_id, $prefix . 'commons_visitor', 'Y' );
-			wp_redirect( 'https://' . $_SERVER['HTTP_X_FORWARDED_HOST'] . '/not-a-member' );
-			exit();
-		}
-		 */
-
-}
-add_action( 'wp_login_failed', array( $this, 'hcommons_login_failed' ) );
 
 /**
  * Filter shibboleth_session_active to set class variable
