@@ -23,16 +23,6 @@ define('WP_ALLOW_MULTISITE', 'true');
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
 $base = '/';
-//define('DOMAIN_CURRENT_SITE', getenv('WP_DOMAIN'));
-
-// necessary to prevent redirect loops caused by session cookie confusion in wp >= 4.7
-// see https://core.trac.wordpress.org/changeset/38619#file1
-if ( isset( $_SERVER['HTTP_SHIB_SESSION_ID'] ) && ! empty( $_SERVER['HTTP_SHIB_SESSION_ID'] ) ) {
-	define( 'COOKIEHASH', $_SERVER['HTTP_SHIB_SESSION_ID'] );
-} else {
-	define( 'COOKIEHASH', '' );
-}
-//define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
 
 define('SUNRISE', 'on');
 define('PLUGINDIR', 'app/plugins');
