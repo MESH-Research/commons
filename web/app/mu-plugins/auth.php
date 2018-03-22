@@ -378,11 +378,3 @@ function hcommons_shibboleth_session_active( $active ) {
 	return $active;
 }
 //add_filter( 'shibboleth_session_active', array( $this, 'hcommons_shibboleth_session_active' ) );
-
-/**
- * filter shibboleth_login_url & shibboleth_logout_url to always use https
- */
-function hcommons_filter_site_option_shibboleth_urls( $value ) {
-	$value = str_replace( 'http:', 'https:', $value );
-	return $value;
-}
