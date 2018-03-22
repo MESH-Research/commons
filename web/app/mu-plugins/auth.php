@@ -380,22 +380,6 @@ function hcommons_shibboleth_session_active( $active ) {
 //add_filter( 'shibboleth_session_active', array( $this, 'hcommons_shibboleth_session_active' ) );
 
 /**
- * Force logout of current network if shibboleth session has expired.
- * This is intended to make logging out of one network log the user out of all networks,
- * but also serves to deal with shibboleth expiration or other unexpected scenarios.
- */
-function hcommons_shibboleth_autologout() {
-	if ( is_user_logged_in() && ! shibboleth_session_active() ) {
-		$logout_url = shibboleth_get_option('shibboleth_logout_url');
-		wp_logout();
-		wp_redirect($logout_url);
-		exit;
-	}
-}
-//add_action( 'init', array( $this, 'hcommons_shibboleth_autologout' ) );
-
-
-/**
  * filter shibboleth_login_url & shibboleth_logout_url to always use https
  */
 function hcommons_filter_site_option_shibboleth_urls( $value ) {
