@@ -3,6 +3,31 @@
  * Actions & filters relating to user authentication.
  */
 
+/**
+ * Filter the login redirect to send users to the frontend rather than the dashboard.
+ *
+ * @param string $location
+ * @return string Modified url
+ */
+function hcommons_remove_admin_redirect( $location ) {
+	remove_filter( 'login_redirect', 'buddyboss_redirect_previous_page', 10, 3 );
+
+	if ( false !== strpos( $location, 'wp-admin' ) ) {
+		$location = get_site_url();
+	}
+
+	return $location;
+}
+// priority 5 to run before buddyboss_redirect_previous_page
+add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
+// TODO is wp_safe_redirect_fallback still necessary?
+//add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
+
+
+
+
+
+
 function hcommons_set_user_member_types( $user ) {
 
 	$user_id = $user->ID;
@@ -356,28 +381,6 @@ function hcommons_login_failed( $username ) {
 
 }
 add_action( 'wp_login_failed', array( $this, 'hcommons_login_failed' ) );
-
-/**
- * Filter the login redirect to prevent landing on wp-admin when logging in with shibboleth.
- *
- * @since HCommons
- *
- * @param string $location
- * @return string $location Modified url
- */
-function hcommons_remove_admin_redirect( $location ) {
-	if (
-		isset( $_REQUEST['action'] ) &&
-		'shibboleth' === $_REQUEST['action'] &&
-		strpos( $location, 'wp-admin' ) !== false
-	) {
-		$location = get_site_url();
-	}
-
-	return $location;
-}
-//add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
-//add_filter( 'login_redirect', array( $this, 'hcommons_remove_admin_redirect' ) );
 
 /**
  * Filter shibboleth_session_active to set class variable
