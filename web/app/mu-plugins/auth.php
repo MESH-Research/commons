@@ -19,7 +19,7 @@ function hcommons_remove_admin_redirect( $location ) {
 	return $location;
 }
 // priority 5 to run before buddyboss_redirect_previous_page
-//add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
+add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
 // TODO is wp_safe_redirect_fallback still necessary?
 //add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
 
