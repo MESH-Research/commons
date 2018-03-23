@@ -41,7 +41,7 @@ function hcommons_login_failed( $username ) {
 		}
 	}
 }
-//add_action( 'wp_login_failed', 'hcommons_login_failed' );
+add_action( 'wp_login_failed', 'hcommons_login_failed' );
 
 /**
  * Syncs the HCommons managed WordPress profile data to HCommons XProfile Group fields.
