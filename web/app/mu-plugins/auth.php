@@ -19,7 +19,7 @@ function hcommons_remove_admin_redirect( $location ) {
 	return $location;
 }
 // priority 5 to run before buddyboss_redirect_previous_page
-add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
+//add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
 // TODO is wp_safe_redirect_fallback still necessary?
 //add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
 
@@ -41,7 +41,7 @@ function hcommons_login_failed( $username ) {
 		}
 	}
 }
-add_action( 'wp_login_failed', 'hcommons_login_failed' );
+//add_action( 'wp_login_failed', 'hcommons_login_failed' );
 
 /**
  * Syncs the HCommons managed WordPress profile data to HCommons XProfile Group fields.
@@ -106,7 +106,7 @@ function hcommons_sync_bp_profile( $user ) {
 	}
 
 }
-add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_sync_bp_profile' ) );
+//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_sync_bp_profile' ) );
 
 
 
@@ -314,7 +314,7 @@ function hcommons_set_shibboleth_based_user_email( $shib_email ) {
 	return $shib_email_array[0];
 
 }
-add_filter( 'shibboleth_user_email', array( $this, 'hcommons_set_shibboleth_based_user_email' ) );
+//add_filter( 'shibboleth_user_email', array( $this, 'hcommons_set_shibboleth_based_user_email' ) );
 
 /**
  * Check the user's membership to this network prior to login and if valid return the role.
@@ -360,7 +360,7 @@ function hcommons_check_user_site_membership( $user_role ) {
 	return $user_role;
 
 }
-add_filter( 'shibboleth_user_role', array( $this, 'hcommons_check_user_site_membership' ) );
+//add_filter( 'shibboleth_user_role', array( $this, 'hcommons_check_user_site_membership' ) );
 
 /**
  * Filter shibboleth_session_active to set class variable
