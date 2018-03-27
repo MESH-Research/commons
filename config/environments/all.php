@@ -15,48 +15,39 @@
 $_SERVER['HTTPS']='on';
 define('FORCE_SSL_ADMIN', true);
 
-
 /**
  * Multisite
  */
-define('WP_ALLOW_MULTISITE', 'true');
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', true);
-$base = '/';
-
-define('SUNRISE', 'on');
-define('PLUGINDIR', 'app/plugins');
-
-// all paths should be on the root to avoid cookies which are duplicates aside from path
+define( 'WP_ALLOW_MULTISITE', 'true' );
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', true );
+define( 'PATH_CURRENT_SITE', '/' );
+define( 'ROOT_NETWORK_ID', 2 );
+define( 'AUTH_KEY', getenv( 'AUTH_KEY' ) );
+define( 'AUTH_SALT', getenv( 'AUTH_SALT' ) );
+define( 'SECURE_AUTH_KEY', getenv( 'SECURE_AUTH_KEY' ) );
+define( 'SECURE_AUTH_SALT', getenv( 'SECURE_AUTH_SALT' ) );
+define( 'LOGGED_IN_KEY', getenv( 'LOGGED_IN_KEY' ) );
+define( 'LOGGED_IN_SALT', getenv( 'LOGGED_IN_SALT' ) );
+define( 'NONCE_KEY', getenv( 'NONCE_KEY' ) );
+define( 'NONCE_SALT', getenv( 'NONCE_SALT' ) );
+define( 'COOKIEHASH', '' );
 define( 'COOKIEPATH', '/' );
-define( 'ADMIN_COOKIE_PATH', '/' );
-define( 'SITECOOKIEPATH',    '/' );
+define( 'SITECOOKIEPATH', COOKIEPATH );
+define( 'ADMIN_COOKIE_PATH', COOKIEPATH );
 
-/* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
-define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
-define( 'COOKIE_DOMAIN', 'alpha.hcommons.org' );
-define( 'ADMIN_COOKIE_PATH', '/' );
-define( 'COOKIEPATH',        '/' );
-define( 'SITECOOKIEPATH',    '/' );
-define( 'TEST_COOKIE',        'wordpress_test_cookie' );
-define( 'AUTH_COOKIE',        'wordpress_'          . COOKIEHASH );
-define( 'USER_COOKIE',        'wordpressuser_'     . COOKIEHASH );
-define( 'PASS_COOKIE',        'wordpresspass_'     . COOKIEHASH );
-define( 'SECURE_AUTH_COOKIE', 'wordpress_sec_'      . COOKIEHASH );
-define( 'LOGGED_IN_COOKIE',   'wordpress_logged_in' . COOKIEHASH );
-*/
-
-define('PATH_CURRENT_SITE', '/');
-
-define('PRIMARY_NETWORK_ID', 1);
-//define('SITE_ID_CURRENT_SITE', 1);
-//define('BLOG_ID_CURRENT_SITE', 1);
+/**
+ * COOKIE_DOMAIN is defined by wordpress-mu-domain-mapping's sunrise.php for mapped domains.
+ * It does not check whether it's already been defined, so we can't define it here.
+ * Wait until mu-plugins load instead.
+ */
+//define( 'COOKIE_DOMAIN', '' );
 
 /**
  * Domain Mapping Plugin
+ */
 define('SUNRISE', 'on');
 define('PLUGINDIR', 'app/plugins');
- */
 
 /**
  * Redirect nonexistent blogs

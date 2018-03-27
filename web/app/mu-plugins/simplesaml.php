@@ -1,6 +1,18 @@
 <?php
 
 /**
+ * wordpress-mu-domain-mapping's sunrise.php defines COOKIE_DOMAIN for sites using mapped domains.
+ * For all other sites, use the domain of the root blog on the root network.
+ */
+if ( ! defined( 'COOKIE_DOMAIN' ) ) {
+	// TODO reconcile with PRIMARY_NETWORK_ID, which is still MLA
+	$main_network_id = 2; // HC
+	$main_network = get_network( $main_network_id );
+
+	define( 'COOKIE_DOMAIN', $main_network->cookie_domain );
+}
+
+/**
  * Set WP SAML Auth configuration options
  */
 function hcommons_wpsa_filter_option( $value, $option_name ) {
