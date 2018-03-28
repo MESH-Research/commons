@@ -1,50 +1,73 @@
 <?php
+/**
+ * SimpleSAML-related functions.
+ *
+ * @package Commons
+ */
 
 /**
- * wordpress-mu-domain-mapping's sunrise.php defines COOKIE_DOMAIN for sites using mapped domains.
+ * COOKIE_DOMAIN is defined by wordpress-mu-domain-mapping's sunrise.php for sites using mapped domains.
  * For all other sites, use the domain of the root blog on the root network.
  */
 if ( ! defined( 'COOKIE_DOMAIN' ) ) {
-	// TODO reconcile with PRIMARY_NETWORK_ID, which is still MLA
-	$main_network_id = 2; // HC
-	$main_network = get_network( $main_network_id );
+	// TODO reconcile with PRIMARY_NETWORK_ID, which is still MLA.
+	$main_network_id = 2; // HC.
+	$main_network    = get_network( $main_network_id );
 
-	define( 'COOKIE_DOMAIN', $main_network->cookie_domain );
+	if ( is_a( $main_network, 'WP_Network' ) ) {
+		define( 'COOKIE_DOMAIN', $main_network->cookie_domain );
+	}
 }
 
 /**
- * Map attributes from urns to human-readable keys.
+ * Populate $_SERVER with attributes from SimpleSAML for backwards compatibility.
  *
- * <Attribute name="urn:oid:2.5.4.4" id="sn"/>
- * <Attribute name="urn:oid:2.5.4.42" id="givenName"/>
- * <Attribute name="urn:oid:0.9.2342.19200300.100.1.3" id="mail"/>
- * <Attribute name="urn:oid:2.16.840.1.113730.3.1.3" id="employeeNumber"/>
- * <Attribute name="urn:oid:1.3.6.1.4.1.5923.1.5.1.1" id="isMemberOf"/>
- * <Attribute name="urn:oid:2.5.4.12" id="title"/>
- * <Attribute name="urn:oid:2.5.4.10" id="o"/>
- * <Attribute name="urn:oid:0.9.2342.19200300.100.1.1" id="uid"/>
- * <Attribute name="urn:oid:1.3.6.1.4.1.5923.1.1.1.16" id="eduPersonOrcid"/>
- * <!-- for satosa -->
- * <Attribute name="urn:oid:1.3.6.1.4.1.49574.110.10" id="Meta-displayName"/>
- * <Attribute name="urn:oid:1.3.6.1.4.1.49574.110.11" id="Meta-organizationDisplayName"/>
- * <Attribute name="urn:oid:1.3.6.1.4.1.49574.110.12" id="Meta-organizationName"/>
- *
- * @param array $attributes SAML URN attributes.
- * @return array Mapped attributes.
+ * Use WP_SAML_Auth::get_instance()->get_provider()->getAttributes() instead of $_SERVER when possible.
  */
-function hcommons_map_saml_attributes( array $attributes ) {
+function hcommons_set_env_saml_attributes() {
+	$attributes = WP_SAML_Auth::get_instance()->get_provider()->getAttributes();
+
+	if ( empty( $attributes ) ) {
+		return;
+	}
+
+	$map = [
+		'urn:oid:2.5.4.4'                   => 'HTTP_SN',
+		'urn:oid:2.5.4.42'                  => 'HTTP_GIVENNAME',
+		'urn:oid:0.9.2342.19200300.100.1.3' => 'HTTP_MAIL',
+		'urn:oid:2.16.840.1.113730.3.1.3'   => 'HTTP_EMPLOYEENUMBER',
+		'urn:oid:1.3.6.1.4.1.5923.1.5.1.1'  => 'HTTP_ISMEMBEROF',
+		'urn:oid:2.5.4.12'                  => 'HTTP_TITLE',
+		'urn:oid:2.5.4.10'                  => 'HTTP_O',
+		'urn:oid:0.9.2342.19200300.100.1.1' => 'HTTP_UID',
+		'urn:oid:1.3.6.1.4.1.5923.1.1.1.16' => 'HTTP_EDUPERSONORCID',
+		'urn:oid:1.3.6.1.4.1.49574.110.10'  => 'HTTP_META_DISPLAYNAME',
+		'urn:oid:1.3.6.1.4.1.49574.110.11'  => 'HTTP_META_ORGANIZATIONDISPLAYNAME',
+		'urn:oid:1.3.6.1.4.1.49574.110.12'  => 'HTTP_META_ORGANIZATIONNAME',
+	];
+
 	$mapped = [];
-	$mapped['HTTP_SN'] = implode( ';', $attributes['urn:oid:2.5.4.4'] );
-	$mapped['HTTP_GIVENNAME'] = implode( ';', $attributes['urn:oid:2.5.4.42'] );
-	$mapped['HTTP_MAIL'] = implode( ';', $attributes['urn:oid:0.9.2342.19200300.100.1.3'] );
-	$mapped['HTTP_EMPLOYEENUMBER'] = implode( ';', $attributes['urn:oid:2.16.840.1.113730.3.1.3'] );
-	$mapped['HTTP_ISMEMBEROF'] = implode( ';', $attributes['urn:oid:1.3.6.1.4.1.5923.1.5.1.1'] );
-	$mapped['HTTP_TITLE'] = implode( ';', $attributes['urn:oid:2.5.4.12'] );
-	$mapped['HTTP_O'] = implode( ';', $attributes['urn:oid:2.5.4.10'] );
-	$mapped['HTTP_UID'] = implode( ';', $attributes['urn:oid:0.9.2342.19200300.100.1.1'] );
-	$mapped['HTTP_EDUPERSONORCID'] = implode( ';', $attributes['urn:oid:1.3.6.1.4.1.5923.1.1.1.16'] );
-	return $mapped;
-}
+
+	foreach ( $map as $k => $v ) {
+		if ( isset( $attributes[ $k ] ) ) {
+			$mapped[ $v ] = implode( ';', $attributes[ $k ] );
+		}
+	}
+
+	$mapped['HTTP_DISPLAYNAME'] = sprintf( '%s %s', $mapped['HTTP_GIVENNAME'], $mapped['HTTP_SN'] );
+
+	foreach ( $mapped as $k => $v ) {
+		$_SERVER[ $k ] = $v;
+	}
+
+	if ( ! isset( $_SERVER['HTTP_X_FORWARDED_HOST'] ) ) {
+		$_SERVER['HTTP_X_FORWARDED_HOST'] = $_SERVER['HTTP_HOST'];
+	}
+
+	// TODO do we need these?
+	$_SERVER['HTTP_SHIB_SESSION_ID'] = null;
+	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = null;
+};
 
 /**
  * Set WP SAML Auth configuration options.
@@ -52,97 +75,83 @@ function hcommons_map_saml_attributes( array $attributes ) {
  * @param mixed  $value       Configuration value.
  * @param string $option_name Configuration option name.
  */
-function hcommons_wpsa_filter_option( $value, $option_name ) {
+function hcommons_wpsa_filter_option( $value, string $option_name ) {
 	$defaults = array(
-		'connection_type' => 'simplesamlphp',
+		'connection_type'        => 'simplesamlphp',
 		'simplesamlphp_autoload' => '/srv/www/simplesamlphp/lib/_autoload.php',
-		'auth_source' => 'default-sp',
-		'auto_provision' => true,
-		'permit_wp_login' => false,
-		'get_user_by' => 'login',
-		'user_login_attribute' => 'urn:oid:2.16.840.1.113730.3.1.3',
-		'user_email_attribute' => 'urn:oid:0.9.2342.19200300.100.1.3',
+		'auth_source'            => 'default-sp',
+		'auto_provision'         => true,
+		'permit_wp_login'        => false,
+		'get_user_by'            => 'login',
+		'user_login_attribute'   => 'urn:oid:2.16.840.1.113730.3.1.3',
+		'user_email_attribute'   => 'urn:oid:0.9.2342.19200300.100.1.3',
 		'display_name_attribute' => null,
-		'first_name_attribute' => 'urn:oid:2.5.4.42',
-		'last_name_attribute' => 'urn:oid:2.5.4.4',
-		'default_role' => get_option( 'default_role' ),
+		'first_name_attribute'   => 'urn:oid:2.5.4.42',
+		'last_name_attribute'    => 'urn:oid:2.5.4.4',
+		'default_role'           => get_option( 'default_role' ),
 	);
-	$value = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
+	$value    = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
 	return $value;
 }
 add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
 
 /**
- * Automatically log out of SimpleSAML when logging out of WordPress.
- */
-function hcommons_autologout() {
-	if ( ! ( empty( $_GET['loggedout'] ) ) ) {
-		// TODO correctly configure simplesaml logout instead of this hack
-		// this isn't initialized until init 10...
-		//$wsa = WP_SAML_Auth::get_instance()->get_provider();
-		//$wsa->logout();
-		setcookie( 'SimpleSAMLAuthToken', null, 1, '/', constant( 'COOKIEDOMAIN' ) );
-		setcookie( 'SimpleSAML', null, 1, '/', constant( 'COOKIEDOMAIN' ) );
-	}
-}
-// Before WP_SAML_Auth->action_init().
-add_action( 'init', 'hcommons_autologout', 9 );
-
-/**
  * Automatically log in to WordPress with an existing SimpleSAML session.
  */
-function hcommons_autologin() {
+function hcommons_auto_login() {
+	// Do nothing for existing sessions.
+	if ( is_user_logged_in() ) {
+		return;
+	}
+
+	// Do nothing without a SimpleSAMLAuthToken.
+	if ( empty( $_COOKIE['SimpleSAMLAuthToken'] ) ) {
+		return;
+	}
+
 	// Do nothing for WP_CLI.
 	if ( defined( 'WP_CLI' ) && constant( 'WP_CLI' ) ) {
 		return;
 	}
 
-	// Ignore existing sessions.
-	if ( is_user_logged_in() ) {
-		return;
-	}
-
-	// Don't interrupt login/logout in progress.
-	// This condition is copied verbatim (and inverted) from WP_SAML_Auth->filter_authenticate().
-	if ( ! ( empty( $_GET['loggedout'] ) || ( ! empty( $_GET['action'] ) && 'wp-saml-auth' === $_GET['action'] ) ) ) {
-		return;
-	}
-
-	// Only proceed if there is a live SimpleSAML session.
-	if ( empty( $_COOKIE['SimpleSAML'] ) ) {
-		return;
-	}
-
 	// At this point, there is no WordPress session and we're not already authenticating, so try auto login.
+	error_log( sprintf( '%s: attempting SAML authentication', __METHOD__ ) );
 	$result = WP_SAML_Auth::get_instance()->do_saml_authentication();
 
-	// Success!
 	if ( is_a( $result, 'WP_User' ) ) {
-		return wp_set_current_user( $result->id );
+		error_log( sprintf( '%s: successfully authenticated %s', __METHOD__, $result->user_login ) );
+		hcommons_set_env_saml_attributes();
+		hcommons_set_shibboleth_based_user_meta( $result );
+		wp_set_current_user( $result->ID );
+		hcommons_set_user_member_types( $result );
 	}
 
 	if ( is_wp_error( $result ) ) {
-		error_log( $result->get_error_message() );
+		error_log( '%s: %s', __METHOD__, $result->get_error_message() );
 	}
 }
 // After WP_SAML_Auth->action_init().
-add_action( 'init', 'hcommons_autologin', 11 );
+add_action( 'init', 'hcommons_auto_login', 11 );
 
 /**
- * Preserve legacy references to $_SERVER shibboleth attributes by populating from SimpleSAML.
+ * Automatically log out of SimpleSAML when logging out of WordPress.
+ * TODO this is currently broken.
+ * Need to configure correct logout url in SimpleSAML before revisiting (hopefully we don't need this at all).
  */
-function hcommons_set_saml_env() {
-	$wsa = WP_SAML_Auth::get_instance()->get_provider();
-	$attributes = $wsa->getAttributes();
-	$mapped = hcommons_map_saml_attributes( $attributes );
-
-	foreach ( $mapped as $k => $v ) {
-		$_SERVER[ $k ] = $v;
-	}
-
-	if ( is_user_logged_in() ) {
-		hcommons_maybe_set_user_role_for_site( wp_get_current_user() );
+function hcommons_auto_logout() {
+	if ( isset( $_GET['loggedout'] ) ) {
+		// TODO correctly configure simplesaml logout instead of this hack
+		// this isn't initialized until init 10...
+		/*
+		$wsa = WP_SAML_Auth::get_instance()->get_provider();
+		$wsa->logout();
+		 */
+		// add_filter( 'wp_saml_auth_pre_authentication', '__return_true' );
+		// Pretty sure the SimpleSAML token is set by SimpleSAMLphp regardless of auth and in spite of unsetting here.
+		// setcookie( 'SimpleSAML', null, 1, '/', '.' . constant( 'COOKIE_DOMAIN' ), true, true );
+		setcookie( 'SimpleSAMLAuthToken', null, 1, '/', constant( 'COOKIE_DOMAIN' ) );
+		wp_safe_redirect( '/logged-out' );
+		exit;
 	}
 }
-// After hcommons_autologin().
-add_action( 'init', 'hcommons_set_saml_env', 12 );
+// add_action( 'login_init', 'hcommons_auto_logout', 9 );

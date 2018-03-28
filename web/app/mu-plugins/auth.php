@@ -41,7 +41,7 @@ function hcommons_login_failed( $username ) {
 		}
 	}
 }
-add_action( 'wp_login_failed', 'hcommons_login_failed' );
+//add_action( 'wp_login_failed', 'hcommons_login_failed' );
 
 /**
  * Syncs the HCommons managed WordPress profile data to HCommons XProfile Group fields.
@@ -54,8 +54,8 @@ function hcommons_sync_bp_profile( $user ) {
 
 	$user_id = $user->ID;
 
-	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 /*
+	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 			hcommons_write_error_log( 'info', '****SYNC_BP_PROFILE_OUT****-' . var_export( $shib_session_id, true ) );
 			return;
@@ -106,7 +106,8 @@ function hcommons_sync_bp_profile( $user ) {
 	}
 
 }
-//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_sync_bp_profile' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_sync_bp_profile' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_sync_bp_profile' );
 
 
 
@@ -115,19 +116,21 @@ function hcommons_set_user_member_types( $user ) {
 
 	$user_id = $user->ID;
 
-	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 /*
+	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 			hcommons_write_error_log( 'info', '****SET_USER_MEMBER_TYPES_OUT****-' . var_export( $shib_session_id, true ) );
 			return;
 		}
  */
-	$memberships = $this->hcommons_get_user_memberships();
+	//$memberships = $this->hcommons_get_user_memberships();
+	$memberships = Humanities_Commons::hcommons_get_user_memberships();
 	hcommons_write_error_log( 'info', '****RETURNED_MEMBERSHIPS****-' . $_SERVER['HTTP_HOST'] . '-' . var_export( $user->user_login, true ) . '-' . var_export( $memberships, true ) );
 	$member_societies = (array) bp_get_member_type( $user_id, false );
 	hcommons_write_error_log( 'info', '****PRE_SET_USER_MEMBER_TYPES****-' . var_export( $member_societies, true ) );
 	$result = bp_set_member_type( $user_id, '' ); // Clear existing types, if any.
 	$append = true;
+
 	foreach( $memberships['societies'] as $member_type ) {
 		$result = bp_set_member_type( $user_id, $member_type, $append );
 		hcommons_write_error_log( 'info', '****SET_EACH_MEMBER_TYPE****-' . $user_id . '-' . $member_type . '-' . var_export( $result, true ) );
@@ -138,7 +141,8 @@ function hcommons_set_user_member_types( $user ) {
 	if ( in_array( Humanities_Commons::$society_id, array( 'ajs', 'aseees', 'caa', 'mla', 'up' ) ) &&
 		in_array( Humanities_Commons::$society_id, $memberships['societies'] ) ) {
 		foreach( $memberships['groups'][Humanities_Commons::$society_id] as $group_name ) {
-			$group_id = $this->hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
+			//$group_id = $this->hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
+			$group_id = Humanities_Commons::hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
 			if ( ! groups_is_user_member( $user_id, $group_id ) ) {
 				$success = groups_join_group( $group_id, $user_id );
 				hcommons_write_error_log( 'info', '****ADD_GROUP_MEMBERSHIP***-' . $group_id . '-' . $user_id );
@@ -147,7 +151,9 @@ function hcommons_set_user_member_types( $user ) {
 	}
 
 }
-//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_user_member_types' ) );
+// No longer hooked to anything, but instead called from hcommons_auto_login().
+//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_set_user_member_types' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_set_user_member_types' );
 
 function hcommons_maybe_set_user_role_for_site( $user ) {
 
@@ -157,7 +163,8 @@ function hcommons_maybe_set_user_role_for_site( $user ) {
 	$user_id = $user->ID;
 	$site_caps = get_user_meta( $user_id, $prefix . 'capabilities', true );
 	$site_caps_array = maybe_unserialize( $site_caps );
-	$memberships = $this->hcommons_get_user_memberships();
+	//$memberships = $this->hcommons_get_user_memberships();
+	$memberships = Humanities_Commons::hcommons_get_user_memberships();
 	$is_site_member = in_array( Humanities_Commons::$society_id, $memberships['societies'] );
 
 	if ( $is_site_member ) {
@@ -183,7 +190,8 @@ function hcommons_maybe_set_user_role_for_site( $user ) {
 		}
 	}
 }
-//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_maybe_set_user_role_for_site' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_maybe_set_user_role_for_site' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_maybe_set_user_role_for_site' );
 
 /**
  * Capture shibboleth data in user meta once per shibboleth session
@@ -192,21 +200,26 @@ function hcommons_maybe_set_user_role_for_site( $user ) {
  *
  * @param object $user
  */
+//function hcommons_set_shibboleth_based_user_meta( $user, $attributes ) {
 function hcommons_set_shibboleth_based_user_meta( $user ) {
 
 	$user_id = $user->ID;
+	/*
 	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
 
 	if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
 		return;
 	}
+	 */
 
-	hcommons_write_error_log( 'info', '****SHIB_BASED_USER_META****-' . var_export( Humanities_Commons::$shib_session_id, true ) );
+	//hcommons_write_error_log( 'info', '****SHIB_BASED_USER_META****-' . var_export( Humanities_Commons::$shib_session_id, true ) );
+	//hcommons_write_error_log( 'info', '****SHIB_BASED_USER_META****-' . var_export( $user, true ) . var_export( $attributes, true ) );
 	$login_host = $_SERVER['HTTP_X_FORWARDED_HOST'];
 	$result = update_user_meta( $user_id, 'shib_session_id', Humanities_Commons::$shib_session_id );
 	$result = update_user_meta( $user_id, 'shib_login_host', $login_host );
 
-	$shib_orcid = $_SERVER['HTTP_EDUPERSONORCID'];
+	$shib_orcid = isset( $_SERVER['HTTP_EDUPERSONORCID'] ) ? $_SERVER['HTTP_EDUPERSONORCID'] : '';
+	//$shib_orcid = $attributes['urn:oid:1.3.6.1.4.1.5923.1.1.1.16'];
 	if ( ! empty( $shib_orcid ) ) {
 		if ( false === strpos( $shib_orcid, ';' ) ) {
 			$shib_orcid_updated = str_replace( array( 'https://orcid.org/', 'http://orcid.org/' ), '', $shib_orcid );
@@ -224,52 +237,95 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 	}
 
 	$shib_org = $_SERVER['HTTP_O'];
-	if ( false === strpos( $shib_org, ';' ) ) {
-		$shib_org_updated = $shib_org;
-		if ( 'Humanities Commons' === $shib_org_updated ) {
-			$shib_org_updated = '';
-		}
-	} else {
-		$shib_org_updated = array();
-		$shib_orgs = explode( ';', $shib_org );
-		foreach( $shib_orgs as $shib_org ) {
-			if ( 'Humanities Commons' !== $shib_org && ! empty( $shib_org ) ) {
-				$shib_org_updated[] = $shib_org;
-			}
-		}
+	if ( ! is_array( $shib_org ) ) {
+		$shib_org = [ $shib_org ];
 	}
+	//$shib_org = $attributes['urn:oid:2.5.4.10'];
+	//if ( false === strpos( $shib_org, ';' ) ) {
+	//	$shib_org_updated = $shib_org;
+	//	if ( 'Humanities Commons' === $shib_org_updated ) {
+	//		$shib_org_updated = '';
+	//	}
+	//} else {
+	//	$shib_org_updated = array();
+	//	$shib_orgs = explode( ';', $shib_org );
+	//	foreach( $shib_orgs as $shib_org ) {
+	//		if ( 'Humanities Commons' !== $shib_org && ! empty( $shib_org ) ) {
+	//			$shib_org_updated[] = $shib_org;
+	//		}
+	//	}
+	//}
+	  $filtered_orgs = array();
+    foreach( $shib_org as $each_org ) {
+		  if ( 'Humanities Commons' !== $each_org && ! empty( $each_org ) ) {
+			  $filtered_orgs[] = $each_org;
+		  }
+	  }
+	  if ( empty( $filtered_orgs ) ) {
+			$shib_org_updated = '';
+		} else if ( 1 === count( $filtered_orgs ) ) {
+			$shib_org_updated = $filtered_orgs[0];
+		} else {
+			$shib_org_updated = $filtered_orgs;
+		}
 	$result = update_user_meta( $user_id, 'shib_org', maybe_serialize( $shib_org_updated ) );
 
 	$shib_title = $_SERVER['HTTP_TITLE'];
-	if ( false === strpos( $shib_title, ';' ) ) {
-		$shib_title_updated = $shib_title;
-	} else {
-		$shib_title_updated = explode( ';', $shib_title );
-	}
+	//$shib_title = $attributes['urn:oid:2.5.4.12'];
+	  if ( empty( $shib_title ) ) {
+			$shib_title_updated = '';
+		} else if ( 1 === count( $shib_title ) ) {
+			$shib_title_updated = $shib_title[0];
+		} else {
+			$shib_title_updated = $shib_title;
+		}
+	//if ( false === strpos( $shib_title, ';' ) ) {
+	//	$shib_title_updated = $shib_title;
+	//} else {
+	//	$shib_title_updated = explode( ';', $shib_title );
+	//}
 	$result = update_user_meta( $user_id, 'shib_title', maybe_serialize( $shib_title_updated ) );
 
 	$shib_uid = $_SERVER['HTTP_UID'];
-	if ( false === strpos( $shib_uid, ';' ) ) {
-		$shib_uid_updated = $shib_uid;
-	} else {
-		$shib_uid_updated = explode( ';', $shib_uid );
-	}
+	//$shib_uid = $attributes['urn:oid:0.9.2342.19200300.100.1.1'];
+	  if ( empty( $shib_uid ) ) {
+			$shib_uid_updated = '';
+		} else if ( 1 === count( $shib_uid ) ) {
+			$shib_uid_updated = $shib_uid[0];
+		} else {
+			$shib_uid_updated = $shib_uid;
+		}
+	//if ( false === strpos( $shib_uid, ';' ) ) {
+	//	$shib_uid_updated = $shib_uid;
+	//} else {
+	//	$shib_uid_updated = explode( ';', $shib_uid );
+	//}
 	$result = update_user_meta( $user_id, 'shib_uid', maybe_serialize( $shib_uid_updated ) );
 
 	$shib_ismemberof = $_SERVER['HTTP_ISMEMBEROF'];
-	if ( false === strpos( $shib_ismemberof, ';' ) ) {
-		$shib_ismemberof_updated = $shib_ismemberof;
-	} else {
-		$shib_ismemberof_updated = explode( ';', $shib_ismemberof );
-	}
-	$result = update_user_meta( $user_id, 'shib_ismemberof', maybe_serialize( $shib_ismemberof_updated ) );
+	//$shib_ismemberof = $attributes['urn:oid:1.3.6.1.4.1.5923.1.5.1.1'];
+	//if ( false === strpos( $shib_ismemberof, ';' ) ) {
+	//	$shib_ismemberof_updated = $shib_ismemberof;
+	//} else {
+	//	$shib_ismemberof_updated = explode( ';', $shib_ismemberof );
+	//}
+	//$result = update_user_meta( $user_id, 'shib_ismemberof', maybe_serialize( $shib_ismemberof_updated ) );
+	$result = update_user_meta( $user_id, 'shib_ismemberof', maybe_serialize( $shib_ismemberof ) );
 
-	$shib_email = $_SERVER['HTTP_MAIL'];
-	if ( false === strpos( $shib_email, ';' ) ) {
-		$shib_email_updated = $shib_email;
-	} else {
-		$shib_email_updated = explode( ';', $shib_email );
-	}
+	$shib_mail = $_SERVER['HTTP_MAIL'];
+	//$shib_email = $attributes['urn:oid:0.9.2342.19200300.100.1.3'];
+	  if ( empty( $shib_email ) ) {
+			$shib_email_updated = '';
+		} else if ( 1 === count( $shib_email ) ) {
+			$shib_email_updated = $shib_email[0];
+		} else {
+			$shib_email_updated = $shib_email;
+		}
+	//if ( false === strpos( $shib_email, ';' ) ) {
+	//	$shib_email_updated = $shib_email;
+	//} else {
+	//	$shib_email_updated = explode( ';', $shib_email );
+	//}
 	$result = update_user_meta( $user_id, 'shib_email', maybe_serialize( $shib_email_updated ) );
 
 	$shib_identity_provider = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'];
@@ -280,7 +336,9 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 	}
 	$result = update_user_meta( $user_id, 'shib_identity_provider', maybe_serialize( $shib_identity_provider_updated ) );
 }
-//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_set_shibboleth_based_user_meta' ) );
+// No longer hooked to anything, but instead called from hcommons_auto_login().
+//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_set_shibboleth_based_user_meta' ) );
+//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_set_shibboleth_based_user_meta', 10, 2 );
 
 /**
  * ensure invite-anyone correctly sets up notifications after user registers
@@ -297,29 +355,11 @@ function hcommons_invite_anyone_activate_user( $user ) {
 		update_user_meta( $user->ID, $meta_key, true );
 	}
 }
-//add_action( 'shibboleth_set_user_roles', array( $this, 'hcommons_invite_anyone_activate_user' ) );
-
-
-/**
- * Return first email if multiple provided in shibboleth session.
- *
- * @since HCommons
- *
- * @param string $shib_email
- * @return string $shib_email_array[0]
- */
-function hcommons_set_shibboleth_based_user_email( $shib_email ) {
-
-	$shib_email_array = explode( ';', $shib_email );
-	return $shib_email_array[0];
-
-}
-//add_filter( 'shibboleth_user_email', array( $this, 'hcommons_set_shibboleth_based_user_email' ) );
+// TODO hopefully no longer necessary - test & confirm
+//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_invite_anyone_activate_user' ) );
 
 /**
  * Check the user's membership to this network prior to login and if valid return the role.
- *
- * @since HCommons
  *
  * @param string $user_role
  * @return string $user_role Role or null.
@@ -335,7 +375,8 @@ function hcommons_check_user_site_membership( $user_role ) {
 		$global_super_admin_list = constant( 'GLOBAL_SUPER_ADMINS' );
 		$global_super_admins = explode( ',', $global_super_admin_list );
 	}
-	$memberships = $this->hcommons_get_user_memberships();
+	//$memberships = $this->hcommons_get_user_memberships();
+	$memberships = Humanities_Commons::hcommons_get_user_memberships();
 	$member_societies = (array)$memberships['societies'];
 	if ( ! in_array( Humanities_Commons::$society_id, $member_societies ) && ! in_array( $user->user_login, $global_super_admins ) ) {
 		hcommons_write_error_log( 'info', '****CHECK_USER_SITE_MEMBERSHIP_FAIL****-' . var_export( $memberships['societies'], true ) .
@@ -365,16 +406,14 @@ function hcommons_check_user_site_membership( $user_role ) {
 /**
  * Filter shibboleth_session_active to set class variable
  *
- * @since HCommons
- *
  * @param bool $active
  * @return bool $active
  */
 function hcommons_shibboleth_session_active( $active ) {
-
 	if ( $active ) {
 		Humanities_Commons::$shib_session_id = $_SERVER['HTTP_SHIB_SESSION_ID'];
 	}
 	return $active;
 }
-//add_filter( 'shibboleth_session_active', array( $this, 'hcommons_shibboleth_session_active' ) );
+//add_filter( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_shibboleth_session_active' ) );
+//add_filter( 'wp_saml_auth_existing_user_authenticated', 'hcommons_shibboleth_session_active' );
