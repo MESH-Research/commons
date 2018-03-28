@@ -121,25 +121,12 @@ function hcommons_autologin() {
 		return wp_set_current_user( $result->id );
 	}
 
-	// TODO: Proper error return.
 	if ( is_wp_error( $result ) ) {
 		error_log( $result->get_error_message() );
 	}
 }
 // After WP_SAML_Auth->action_init().
 add_action( 'init', 'hcommons_autologin', 11 );
-
-/**
- * Stored mapped attributes in user meta on authentication.
- *
- * @param WP_User $user       The existing user object.
- * @param array   $attributes All attributes received from the SAML Response
- */
-function hcommons_saml_attribute_map( $user, $attributes ) {
-	$mapped = hcommons_map_saml_attributes( $attributes );
-	update_user_meta( $user->ID, 'saml-attributes', $mapped );
-}
-//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_saml_attribute_map', 10, 2 );
 
 /**
  * Preserve legacy references to $_SERVER shibboleth attributes by populating from SimpleSAML.
