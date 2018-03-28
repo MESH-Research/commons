@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "da44f901e6f345600c1df4ae5fa4f28a",
-    "content-hash": "396891fd44b7b5effe4b54023980ab77",
+    "hash": "ec77fc18aa6e25853f1dba6da2e8f15d",
+    "content-hash": "88c2f38ee3377b3f6913a6c91dd02616",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -913,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "a93bda6"
+                "reference": "b945dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/a93bda6",
-                "reference": "a93bda6",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/b945dfd",
+                "reference": "b945dfd",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -926,7 +926,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2018-01-23 20:57:51"
+            "time": "2018-03-28 20:46:50"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -3125,7 +3125,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.6.zip",
-                "reference": null,
+                "reference": "tags/0.6.6",
                 "shasum": null
             },
             "require": {
