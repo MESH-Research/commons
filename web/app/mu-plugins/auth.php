@@ -140,12 +140,14 @@ function hcommons_set_user_member_types( $user ) {
 	//TODO add logic to remove groups the user is no longer a member of
 	if ( in_array( Humanities_Commons::$society_id, array( 'ajs', 'aseees', 'caa', 'mla', 'up' ) ) &&
 		in_array( Humanities_Commons::$society_id, $memberships['societies'] ) ) {
-		foreach( $memberships['groups'][Humanities_Commons::$society_id] as $group_name ) {
-			//$group_id = $this->hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
-			$group_id = Humanities_Commons::hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
-			if ( ! groups_is_user_member( $user_id, $group_id ) ) {
-				$success = groups_join_group( $group_id, $user_id );
-				hcommons_write_error_log( 'info', '****ADD_GROUP_MEMBERSHIP***-' . $group_id . '-' . $user_id );
+		if ( isset( $memberships['groups'][Humanities_Commons::$society_id] ) ) {
+			foreach( $memberships['groups'][Humanities_Commons::$society_id] as $group_name ) {
+				//$group_id = $this->hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
+				$group_id = Humanities_Commons::hcommons_lookup_society_group_id( Humanities_Commons::$society_id, $group_name );
+				if ( ! groups_is_user_member( $user_id, $group_id ) ) {
+					$success = groups_join_group( $group_id, $user_id );
+					hcommons_write_error_log( 'info', '****ADD_GROUP_MEMBERSHIP***-' . $group_id . '-' . $user_id );
+				}
 			}
 		}
 	}
