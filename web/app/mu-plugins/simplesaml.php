@@ -20,6 +20,32 @@ if ( ! defined( 'COOKIE_DOMAIN' ) ) {
 }
 
 /**
+ * Set WP SAML Auth configuration options.
+ *
+ * @param mixed  $value       Configuration value.
+ * @param string $option_name Configuration option name.
+ */
+function hcommons_wpsa_filter_option( $value, string $option_name ) {
+	$defaults = array(
+		'connection_type'        => 'simplesamlphp',
+		'simplesamlphp_autoload' => '/srv/www/simplesamlphp/lib/_autoload.php',
+		'auth_source'            => 'default-sp',
+		'auto_provision'         => true,
+		'permit_wp_login'        => false,
+		'get_user_by'            => 'login',
+		'user_login_attribute'   => 'urn:oid:2.16.840.1.113730.3.1.3',
+		'user_email_attribute'   => 'urn:oid:0.9.2342.19200300.100.1.3',
+		'display_name_attribute' => null,
+		'first_name_attribute'   => 'urn:oid:2.5.4.42',
+		'last_name_attribute'    => 'urn:oid:2.5.4.4',
+		'default_role'           => get_option( 'default_role' ),
+	);
+	$value    = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
+	return $value;
+}
+add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
+
+/**
  * Populate $_SERVER with attributes from SimpleSAML for backwards compatibility.
  *
  * Use WP_SAML_Auth::get_instance()->get_provider()->getAttributes() instead of $_SERVER when possible.
@@ -68,32 +94,8 @@ function hcommons_set_env_saml_attributes() {
 	// TODO https://github.com/mlaa/humanities-commons/commit/764f6f41511a7813109c5b95a8b2fcfd444c6662
 	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = null;
 };
-
-/**
- * Set WP SAML Auth configuration options.
- *
- * @param mixed  $value       Configuration value.
- * @param string $option_name Configuration option name.
- */
-function hcommons_wpsa_filter_option( $value, string $option_name ) {
-	$defaults = array(
-		'connection_type'        => 'simplesamlphp',
-		'simplesamlphp_autoload' => '/srv/www/simplesamlphp/lib/_autoload.php',
-		'auth_source'            => 'default-sp',
-		'auto_provision'         => true,
-		'permit_wp_login'        => false,
-		'get_user_by'            => 'login',
-		'user_login_attribute'   => 'urn:oid:2.16.840.1.113730.3.1.3',
-		'user_email_attribute'   => 'urn:oid:0.9.2342.19200300.100.1.3',
-		'display_name_attribute' => null,
-		'first_name_attribute'   => 'urn:oid:2.5.4.42',
-		'last_name_attribute'    => 'urn:oid:2.5.4.4',
-		'default_role'           => get_option( 'default_role' ),
-	);
-	$value    = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
-	return $value;
-}
-add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
+// After WP_SAML_Auth->action_init().
+add_action( 'init', 'hcommons_set_env_saml_attributes', 11 );
 
 /**
  * Automatically log in to WordPress with an existing SimpleSAML session.
@@ -120,10 +122,19 @@ function hcommons_auto_login() {
 
 	if ( is_a( $result, 'WP_User' ) ) {
 		error_log( sprintf( '%s: successfully authenticated %s', __METHOD__, $result->user_login ) );
-		hcommons_set_env_saml_attributes();
-		hcommons_set_shibboleth_based_user_meta( $result );
+
+		// Make sure this user is a member of the current site.
+		$memberships = Humanities_Commons::hcommons_get_user_memberships();
+		$member_societies = (array) $memberships['societies'];
+		if ( ! in_array( Humanities_Commons::$society_id, $member_societies ) ) {
+			hcommons_write_error_log( 'info', '****CHECK_USER_SITE_MEMBERSHIP_FAIL****-' . var_export( $memberships['societies'], true ) . var_export( Humanities_Commons::$society_id, true ) . var_export( $result, true ) );
+			error_log( '****CHECK_USER_SITE_MEMBERSHIP_FAIL****-' . var_export( $memberships['societies'], true ) . var_export( Humanities_Commons::$society_id, true ) . var_export( $result, true ) );
+			error_log( sprintf( '%s: %s is not a member of %s', __METHOD__, $result->user_login, Humanities_Commons::$society_id ) );
+			return;
+		}
+
+		// If we made it this far, we know this user is a member of the current site and has an existing session.
 		wp_set_current_user( $result->ID );
-		hcommons_set_user_member_types( $result );
 	} else {
 		if ( is_wp_error( $result ) ) {
 			error_log( '%s: %s', __METHOD__, $result->get_error_message() );
@@ -131,10 +142,9 @@ function hcommons_auto_login() {
 			error_log( sprintf( '%s: failed to authenticate', __METHOD__ ) );
 		}
 	}
-
 }
-// After WP_SAML_Auth->action_init().
-add_action( 'init', 'hcommons_auto_login', 11 );
+// After hcommons_set_env_saml_attributes().
+add_action( 'init', 'hcommons_auto_login', 12 );
 
 /**
  * Automatically log out of SimpleSAML when logging out of WordPress.

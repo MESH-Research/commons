@@ -20,8 +20,6 @@ function hcommons_remove_admin_redirect( $location ) {
 }
 // priority 5 to run before buddyboss_redirect_previous_page
 add_filter( 'login_redirect', 'hcommons_remove_admin_redirect', 5 );
-// TODO is wp_safe_redirect_fallback still necessary?
-//add_filter( 'wp_safe_redirect_fallback', array( $this, 'hcommons_remove_admin_redirect' ) );
 
 /**
  * Handle a failed login attempt. Determine if the user has visitor status.
@@ -100,21 +98,10 @@ function hcommons_sync_bp_profile( $user ) {
 }
 add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_sync_bp_profile' );
 
-
-
-
 function hcommons_set_user_member_types( $user ) {
 
 	$user_id = $user->ID;
 
-/*
-	$shib_session_id = get_user_meta( $user_id, 'shib_session_id', true );
-		if ( $shib_session_id == Humanities_Commons::$shib_session_id ) {
-			hcommons_write_error_log( 'info', '****SET_USER_MEMBER_TYPES_OUT****-' . var_export( $shib_session_id, true ) );
-			return;
-		}
- */
-	//$memberships = $this->hcommons_get_user_memberships();
 	$memberships = Humanities_Commons::hcommons_get_user_memberships();
 	hcommons_write_error_log( 'info', '****RETURNED_MEMBERSHIPS****-' . $_SERVER['HTTP_HOST'] . '-' . var_export( $user->user_login, true ) . '-' . var_export( $memberships, true ) );
 	$member_societies = (array) bp_get_member_type( $user_id, false );
@@ -144,9 +131,7 @@ function hcommons_set_user_member_types( $user ) {
 	}
 
 }
-// No longer hooked to anything, but instead called from hcommons_auto_login().
-//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_set_user_member_types' ) );
-//add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_set_user_member_types' );
+add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_set_user_member_types' );
 
 function hcommons_maybe_set_user_role_for_site( $user ) {
 
@@ -183,7 +168,6 @@ function hcommons_maybe_set_user_role_for_site( $user ) {
 		}
 	}
 }
-//add_action( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_maybe_set_user_role_for_site' ) );
 add_action( 'wp_saml_auth_existing_user_authenticated', 'hcommons_maybe_set_user_role_for_site' );
 
 /**
@@ -352,5 +336,5 @@ function hcommons_shibboleth_session_active( $active ) {
 	}
 	return $active;
 }
-//add_filter( 'wp_saml_auth_existing_user_authenticated', array( $this, 'hcommons_shibboleth_session_active' ) );
-//add_filter( 'wp_saml_auth_existing_user_authenticated', 'hcommons_shibboleth_session_active' );
+// TODO this might need to use init instead, check
+add_filter( 'wp_saml_auth_existing_user_authenticated', 'hcommons_shibboleth_session_active' );
