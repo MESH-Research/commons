@@ -64,8 +64,8 @@ function hcommons_set_env_saml_attributes() {
 		$_SERVER['HTTP_X_FORWARDED_HOST'] = $_SERVER['HTTP_HOST'];
 	}
 
-	// TODO do we need these?
-	$_SERVER['HTTP_SHIB_SESSION_ID'] = null;
+	$_SERVER['HTTP_SHIB_SESSION_ID'] = $_COOKIE['SimpleSAML'];
+	// TODO https://github.com/mlaa/humanities-commons/commit/764f6f41511a7813109c5b95a8b2fcfd444c6662
 	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = null;
 };
 
@@ -99,8 +99,8 @@ add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
  * Automatically log in to WordPress with an existing SimpleSAML session.
  */
 function hcommons_auto_login() {
-	// Do nothing for existing sessions.
-	if ( is_user_logged_in() ) {
+	// Do nothing for WP_CLI.
+	if ( defined( 'WP_CLI' ) && constant( 'WP_CLI' ) ) {
 		return;
 	}
 
@@ -109,13 +109,13 @@ function hcommons_auto_login() {
 		return;
 	}
 
-	// Do nothing for WP_CLI.
-	if ( defined( 'WP_CLI' ) && constant( 'WP_CLI' ) ) {
+	// Do nothing for existing sessions.
+	if ( is_user_logged_in() ) {
 		return;
 	}
 
 	// At this point, there is no WordPress session and we're not already authenticating, so try auto login.
-	error_log( sprintf( '%s: attempting SAML authentication', __METHOD__ ) );
+	error_log( sprintf( '%s: authenticating token %s', __METHOD__, $_COOKIE['SimpleSAMLAuthToken'] ) );
 	$result = WP_SAML_Auth::get_instance()->do_saml_authentication();
 
 	if ( is_a( $result, 'WP_User' ) ) {
@@ -124,11 +124,14 @@ function hcommons_auto_login() {
 		hcommons_set_shibboleth_based_user_meta( $result );
 		wp_set_current_user( $result->ID );
 		hcommons_set_user_member_types( $result );
+	} else {
+		if ( is_wp_error( $result ) ) {
+			error_log( '%s: %s', __METHOD__, $result->get_error_message() );
+		} else {
+			error_log( sprintf( '%s: failed to authenticate', __METHOD__ ) );
+		}
 	}
 
-	if ( is_wp_error( $result ) ) {
-		error_log( '%s: %s', __METHOD__, $result->get_error_message() );
-	}
 }
 // After WP_SAML_Auth->action_init().
 add_action( 'init', 'hcommons_auto_login', 11 );
