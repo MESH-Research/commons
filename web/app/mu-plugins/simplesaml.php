@@ -152,26 +152,3 @@ function hcommons_auto_login() {
 }
 // After hcommons_set_env_saml_attributes().
 add_action( 'init', 'hcommons_auto_login', 12 );
-
-/**
- * Automatically log out of SimpleSAML when logging out of WordPress.
- * TODO this is currently broken.
- * Need to configure correct logout url in SimpleSAML before revisiting (hopefully we don't need this at all).
- */
-function hcommons_auto_logout() {
-	if ( isset( $_GET['loggedout'] ) ) {
-		// TODO correctly configure simplesaml logout instead of this hack
-		// this isn't initialized until init 10...
-		/*
-		$wsa = WP_SAML_Auth::get_instance()->get_provider();
-		$wsa->logout();
-		 */
-		// add_filter( 'wp_saml_auth_pre_authentication', '__return_true' );
-		// Pretty sure the SimpleSAML token is set by SimpleSAMLphp regardless of auth and in spite of unsetting here.
-		// setcookie( 'SimpleSAML', null, 1, '/', '.' . constant( 'COOKIE_DOMAIN' ), true, true );
-		setcookie( 'SimpleSAMLAuthToken', null, 1, '/', constant( 'COOKIE_DOMAIN' ) );
-		wp_safe_redirect( '/logged-out' );
-		exit;
-	}
-}
-// add_action( 'login_init', 'hcommons_auto_logout', 9 );
