@@ -113,6 +113,11 @@ function hcommons_auto_login() {
 		return;
 	}
 
+	// This requires wp-saml-auth to be active.
+	if ( ! class_exists( 'WP_SAML_Auth' ) ) {
+		return;
+	}
+
 	// Do nothing without a SimpleSAML session.
 	if ( ! WP_SAML_Auth::get_instance()->get_provider()->isAuthenticated() ) {
 		return;
