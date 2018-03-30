@@ -53,7 +53,7 @@ add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
  * Use WP_SAML_Auth::get_instance()->get_provider()->getAttributes() instead of $_SERVER when possible.
  */
 function hcommons_set_env_saml_attributes() {
-	// This class is only loaded when SimpleSAMLphp is installed on the system.
+	// This requires wp-saml-auth to be active.
 	if ( ! class_exists( 'WP_SAML_Auth' ) ) {
 		return;
 	}
