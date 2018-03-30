@@ -23,7 +23,7 @@ define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'ROOT_NETWORK_ID', 2 );
-define( 'COOKIEHASH', md5( 'commons' ) );
+define( 'COOKIEHASH', '' );
 define( 'COOKIEPATH', '/' );
 define( 'SITECOOKIEPATH', COOKIEPATH );
 define( 'ADMIN_COOKIE_PATH', COOKIEPATH );
