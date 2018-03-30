@@ -111,8 +111,8 @@ function hcommons_auto_login() {
 		return;
 	}
 
-	// Do nothing without a SimpleSAMLAuthToken.
-	if ( empty( $_COOKIE['SimpleSAMLAuthToken'] ) ) {
+	// Do nothing without a SimpleSAML session.
+	if ( ! WP_SAML_Auth::get_instance()->get_provider()->isAuthenticated() ) {
 		return;
 	}
 
