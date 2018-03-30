@@ -9,7 +9,7 @@
  * COOKIE_DOMAIN is defined by wordpress-mu-domain-mapping's sunrise.php for sites using mapped domains.
  * For all other sites, use the domain of the root blog on the root network.
  */
-if ( ! defined( 'COOKIE_DOMAIN' ) && is_mu ) {
+if ( ! defined( 'COOKIE_DOMAIN' ) ) {
 	$main_network_id = 2; // TODO This is HC's ID. Reconcile with PRIMARY_NETWORK_ID, which is still MLA.
 
 	if ( network_exists( $main_network_id ) ) {
