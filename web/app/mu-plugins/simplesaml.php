@@ -12,7 +12,7 @@
 if ( ! defined( 'COOKIE_DOMAIN' ) ) {
 	$main_network_id = 2; // TODO This is HC's ID. Reconcile with PRIMARY_NETWORK_ID, which is still MLA.
 
-	if ( network_exists( $main_network_id ) ) {
+	if ( function_exists( 'network_exists' ) && network_exists( $main_network_id ) ) {
 		$main_network = get_network( $main_network_id );
 
 		if ( is_a( $main_network, 'WP_Network' ) ) {
