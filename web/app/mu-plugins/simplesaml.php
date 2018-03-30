@@ -9,13 +9,15 @@
  * COOKIE_DOMAIN is defined by wordpress-mu-domain-mapping's sunrise.php for sites using mapped domains.
  * For all other sites, use the domain of the root blog on the root network.
  */
-if ( ! defined( 'COOKIE_DOMAIN' ) ) {
-	// TODO reconcile with PRIMARY_NETWORK_ID, which is still MLA.
-	$main_network_id = 2; // HC.
-	$main_network    = get_network( $main_network_id );
+if ( ! defined( 'COOKIE_DOMAIN' ) && is_mu ) {
+	$main_network_id = 2; // TODO This is HC's ID. Reconcile with PRIMARY_NETWORK_ID, which is still MLA.
 
-	if ( is_a( $main_network, 'WP_Network' ) ) {
-		define( 'COOKIE_DOMAIN', $main_network->cookie_domain );
+	if ( network_exists( $main_network_id ) ) {
+		$main_network = get_network( $main_network_id );
+
+		if ( is_a( $main_network, 'WP_Network' ) ) {
+			define( 'COOKIE_DOMAIN', $main_network->cookie_domain );
+		}
 	}
 }
 
@@ -121,7 +123,7 @@ function hcommons_auto_login() {
 		return;
 	}
 
-	// At this point, there is no WordPress session and we're not already authenticating, so try auto login.
+	// At this point, we know there's a SimpleSAML session but no WordPress session, so try authenticating.
 	error_log( sprintf( '%s: authenticating token %s', __METHOD__, $_COOKIE['SimpleSAMLAuthToken'] ) );
 	$result = WP_SAML_Auth::get_instance()->do_saml_authentication();
 
@@ -129,7 +131,7 @@ function hcommons_auto_login() {
 		error_log( sprintf( '%s: successfully authenticated %s', __METHOD__, $result->user_login ) );
 
 		// Make sure this user is a member of the current site.
-		$memberships = Humanities_Commons::hcommons_get_user_memberships();
+		$memberships      = Humanities_Commons::hcommons_get_user_memberships();
 		$member_societies = (array) $memberships['societies'];
 		if ( ! in_array( Humanities_Commons::$society_id, $member_societies ) ) {
 			hcommons_write_error_log( 'info', '****CHECK_USER_SITE_MEMBERSHIP_FAIL****-' . var_export( $memberships['societies'], true ) . var_export( Humanities_Commons::$society_id, true ) . var_export( $result, true ) );
