@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ab8b786c2fc1a6c6069d74ece9c1cfd",
+    "content-hash": "bf0e90e83caa36bfb970ebf9689d8afd",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -64,7 +64,7 @@
                 "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-21T18:48:03+00:00"
+            "time": "2016-12-21 18:48:03"
         },
         {
             "name": "buddyboss/boss",
@@ -568,10 +568,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
-                "reference": "202278c"
+                "reference": "b3cd2e6"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-20 17:03:09"
+            "time": "2018-04-02 18:50:00"
         },
         {
             "name": "mlaa/bp-reply-by-email",
