@@ -79,6 +79,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/hc-protect-uploads.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/hc-suggestions.git"
     },
     {
