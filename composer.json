@@ -59,6 +59,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/digiped-theme.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/hc-member-profiles.git"
     },
     {
@@ -404,6 +408,7 @@
     "mlaa/commentpress-mla": "dev-master#cf80cf9",
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
+    "mlaa/digiped-theme": "dev-master#d4fa210",
     "mlaa/elasticpress-buddypress": "dev-master#c1acd01",
     "mlaa/hc-auth": "dev-master#167c3843",
     "mlaa/hc-custom": "dev-master#cae21e3",
@@ -597,5 +602,7 @@
   },
   "config": {
     "sort-packages": true
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable" : true
 }
