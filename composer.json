@@ -422,7 +422,7 @@
     "mlaa/shibboleth": "dev-master#b19c7a6",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-master#7c597db",
+    "mlaa/style-center": "dev-master#f0b72d8",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
