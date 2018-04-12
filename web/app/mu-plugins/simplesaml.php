@@ -35,11 +35,11 @@ function hcommons_wpsa_filter_option( $value, string $option_name ) {
 		'auto_provision'         => true,
 		'permit_wp_login'        => false,
 		'get_user_by'            => 'login',
-		'user_login_attribute'   => 'urn:oid:2.16.840.1.113730.3.1.3',
-		'user_email_attribute'   => 'urn:oid:0.9.2342.19200300.100.1.3',
+		'user_login_attribute'   => 'employeeNumber',
+		'user_email_attribute'   => 'mail',
 		'display_name_attribute' => null,
-		'first_name_attribute'   => 'urn:oid:2.5.4.42',
-		'last_name_attribute'    => 'urn:oid:2.5.4.4',
+		'first_name_attribute'   => 'givenName',
+		'last_name_attribute'    => 'sn',
 		'default_role'           => get_option( 'default_role' ),
 	);
 	$value    = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
@@ -64,16 +64,14 @@ function hcommons_set_env_saml_attributes() {
 		return;
 	}
 
+	// Most attributes are assigned literally: 'sn' => 'HTTP_SN'. The rest are mapped here.
 	$map = [
-		'urn:oid:2.5.4.4'                   => 'HTTP_SN',
-		'urn:oid:2.5.4.42'                  => 'HTTP_GIVENNAME',
-		'urn:oid:0.9.2342.19200300.100.1.3' => 'HTTP_MAIL',
-		'urn:oid:2.16.840.1.113730.3.1.3'   => 'HTTP_EMPLOYEENUMBER',
-		'urn:oid:1.3.6.1.4.1.5923.1.5.1.1'  => 'HTTP_ISMEMBEROF',
-		'urn:oid:2.5.4.12'                  => 'HTTP_TITLE',
-		'urn:oid:2.5.4.10'                  => 'HTTP_O',
-		'urn:oid:0.9.2342.19200300.100.1.1' => 'HTTP_UID',
-		'urn:oid:1.3.6.1.4.1.5923.1.1.1.16' => 'HTTP_EDUPERSONORCID',
+		// These come from the IDP, not the AA, and are mostly redundant vs. AA attributes.
+		'urn:oid:2.16.840.1.113730.3.1.241' => 'HTTP_DISPLAYNAME',
+		'urn:oid:0.9.2342.19200300.100.1.3' => 'HTTP_IDP_MAIL',
+		'urn:oid:1.3.6.1.4.1.5923.1.1.1.6'  => 'HTTP_IDP_UID',
+
+		// These are provided by SATOSA but not Shibboleth.
 		'urn:oid:1.3.6.1.4.1.49574.110.10'  => 'HTTP_META_DISPLAYNAME',
 		'urn:oid:1.3.6.1.4.1.49574.110.11'  => 'HTTP_META_ORGANIZATIONDISPLAYNAME',
 		'urn:oid:1.3.6.1.4.1.49574.110.12'  => 'HTTP_META_ORGANIZATIONNAME',
@@ -81,13 +79,18 @@ function hcommons_set_env_saml_attributes() {
 
 	$mapped = [];
 
-	foreach ( $map as $k => $v ) {
-		if ( isset( $attributes[ $k ] ) ) {
-			$mapped[ $v ] = implode( ';', $attributes[ $k ] );
+	foreach ( $attributes as $attribute => $value ) {
+		// Legacy code expects single values to be strings, not arrays.
+		if ( 1 === count( $value ) ) {
+			$value = $value[0];
+		}
+
+		if ( isset( $map[ $attribute ] ) ) {
+			$mapped[ $map[ $attribute ] ] = $value;
+		} else {
+			$mapped[ 'HTTP_' . strtoupper( $attribute ) ] = $value;
 		}
 	}
-
-	$mapped['HTTP_DISPLAYNAME'] = sprintf( '%s %s', $mapped['HTTP_GIVENNAME'], $mapped['HTTP_SN'] );
 
 	foreach ( $mapped as $k => $v ) {
 		$_SERVER[ $k ] = $v;
