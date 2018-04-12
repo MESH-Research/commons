@@ -37,7 +37,7 @@ function hcommons_wpsa_filter_option( $value, string $option_name ) {
 		'get_user_by'            => 'login',
 		'user_login_attribute'   => 'employeeNumber',
 		'user_email_attribute'   => 'mail',
-		'display_name_attribute' => null,
+		'display_name_attribute' => 'cn',
 		'first_name_attribute'   => 'givenName',
 		'last_name_attribute'    => 'sn',
 		'default_role'           => get_option( 'default_role' ),
