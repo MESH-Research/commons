@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c2c59e932d78b4125a7d664b7d3b2eb8",
-    "content-hash": "0960a135a472aa5a93579faf46555b0c",
+    "hash": "d1125b0f302b99cbfd88da69c86db058",
+    "content-hash": "b8a8a1ebef293eb56f84c1783dccb5da",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3196,16 +3196,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-saml-auth",
-            "version": "0.3.8",
+            "version": "0.3.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-saml-auth/",
-                "reference": "tags/0.3.8"
+                "reference": "tags/0.3.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.0.3.8.zip",
-                "reference": "tags/0.3.8",
+                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.0.3.9.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
