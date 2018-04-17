@@ -90,9 +90,12 @@ function hcommons_set_env_saml_attributes() {
 	$mapped = [];
 
 	foreach ( $attributes as $attribute => $value ) {
-		// Legacy code expects single values to be strings, not arrays.
 		if ( 1 === count( $value ) ) {
+			// Legacy code expects single values to be strings, not arrays.
 			$value = $value[0];
+		} else {
+			// Accommodate Humanities_Commons::hcommons_get_user_memberships().
+			$value = implode( ';', $value );
 		}
 
 		if ( isset( $map[ $attribute ] ) ) {
