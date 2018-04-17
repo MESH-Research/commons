@@ -1,6 +1,7 @@
 # Application
 web/app/blogs.dir
 web/app/plugins
+web/app/mu-plugins/*/
 web/app/themes
 web/app/upgrade
 web/app/uploads
