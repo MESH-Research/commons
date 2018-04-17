@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2dcf7f2576c236e69bc58feaa9e859d",
+    "content-hash": "9a24d37988b0f4deb9b92ed1907f1311",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2536,16 +2536,16 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.0.30",
+            "version": "3.2.21",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.0.30"
+                "reference": "tags/3.2.21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.0.30.zip",
-                "reference": "tags/3.0.30",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.21.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
