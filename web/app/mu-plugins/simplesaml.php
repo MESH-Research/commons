@@ -48,6 +48,15 @@ function hcommons_wpsa_filter_option( $value, string $option_name ) {
 add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
 
 /**
+ * Load WP_SAML_Auth early on bp_init so that BuddyPress has correct session data when loading.
+ */
+function hcommons_bootstrap_wp_saml_auth() {
+	remove_action( 'init', [ WP_SAML_Auth::get_instance(), 'action_init' ] );
+	WP_SAML_Auth::get_instance()->action_init();
+}
+add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 2 );
+
+/**
  * Populate $_SERVER with attributes from SimpleSAML for backwards compatibility.
  *
  * Use WP_SAML_Auth::get_instance()->get_provider()->getAttributes() instead of $_SERVER when possible.
@@ -105,7 +114,7 @@ function hcommons_set_env_saml_attributes() {
 	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = null;
 };
 // After WP_SAML_Auth->action_init().
-add_action( 'init', 'hcommons_set_env_saml_attributes', 11 );
+add_action( 'bp_init', 'hcommons_set_env_saml_attributes', 4 );
 
 /**
  * Automatically log in to WordPress with an existing SimpleSAML session.
@@ -159,4 +168,4 @@ function hcommons_auto_login() {
 	}
 }
 // After hcommons_set_env_saml_attributes().
-add_action( 'init', 'hcommons_auto_login', 12 );
+add_action( 'bp_init', 'hcommons_auto_login', 6 );
