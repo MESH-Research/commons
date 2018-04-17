@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a24d37988b0f4deb9b92ed1907f1311",
+    "content-hash": "39da1e24224d8b687038edf4a93f44fd",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -822,12 +822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "cae21e3"
+                "reference": "b05d60a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/cae21e3",
-                "reference": "cae21e3",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/b05d60a",
+                "reference": "b05d60a",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -835,7 +835,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-04-10 18:26:44"
+            "time": "2018-04-17 20:03:43"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -2545,7 +2545,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.21.zip",
-                "reference": null,
+                "reference": "tags/3.2.21",
                 "shasum": null
             },
             "require": {
