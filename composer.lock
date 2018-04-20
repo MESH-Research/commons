@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c3b85313c93259a97d3a130f8a60be0",
+    "content-hash": "fd61623fa2bada52cd4cbd7dc588502d",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -561,6 +561,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2018-04-02 18:50:00"
+        },
+        {
+            "name": "mlaa/bp-multiple-forum-post",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-multiple-forum-post.git",
+                "reference": "4608641"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-04-20 15:42:18"
         },
         {
             "name": "mlaa/bp-reply-by-email",
@@ -6562,6 +6573,7 @@
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
+        "mlaa/bp-multiple-forum-post": 20,
         "mlaa/bp-reply-by-email": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
