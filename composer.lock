@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5ff54054a27bd143a3b86e31f5a37bf",
+    "content-hash": "8c3b85313c93259a97d3a130f8a60be0",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -220,17 +220,6 @@
                 "php": ">=5.3.0"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "cuny-academic-commons/bp-multiple-forum-post",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
-                "reference": "0d1afc3"
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-06-02 20:31:29"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -6565,7 +6554,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "boonebgorges/bp-mpo-activity-filter": 20,
-        "cuny-academic-commons/bp-multiple-forum-post": 20,
         "cuny-academic-commons/cbox-theme": 20,
         "cuny-academic-commons/external-group-blogs": 20,
         "mlaa/bbpress-export-and-import": 20,
