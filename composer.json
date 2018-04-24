@@ -397,7 +397,6 @@
     "goodlayers/gdlr-portfolio": "^1.0",
     "goodlayers/gdlr-shortcode": "^1.0",
     "goodlayers/goodlayers-importer": "^1.0",
-    "johnpbloch/wordpress": "4.9.2",
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "mlaa/boss-child": "dev-master#57841c4",
