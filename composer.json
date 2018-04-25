@@ -134,6 +134,10 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:wpninjas/ninja-forms-uploads.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "mlaa/bbPress-Export-and-Import",
@@ -556,7 +560,8 @@
     "wpninjas/ninja-forms-layout-styles": "^3.0",
     "wpninjas/ninja-forms-multi-part": "^3.0",
     "wpninjas/ninja-forms-pdf-submissions": "^3.0",
-    "wpninjas/ninja-forms-save-progress": "^3.0"
+    "wpninjas/ninja-forms-save-progress": "^3.0",
+    "wpninjas/ninja-forms-uploads": "3.0.18"
   },
   "scripts": {
     "pre-update-cmd": [
