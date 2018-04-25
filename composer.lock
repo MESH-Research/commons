@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f75bd576e124f74884bfd9c031698b07",
+    "content-hash": "e7c2a7c95fafe6cd46f29bca51be6fa7",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3773,24 +3773,13 @@
         },
         {
             "name": "wpninjas/ninja-forms-uploads",
-            "version": "v3.0.18",
+            "version": "3.0.18",
             "source": {
                 "type": "git",
-                "url": "https://github.com/wpninjas/ninja-forms-uploads.git",
-                "reference": "70b085a1a1dc6a826366495fe839b71ce7242a5f"
+                "url": "git@github.com:wpninjas/ninja-forms-uploads.git",
+                "reference": "3.0.18"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wpninjas/ninja-forms-uploads/zipball/70b085a1a1dc6a826366495fe839b71ce7242a5f",
-                "reference": "70b085a1a1dc6a826366495fe839b71ce7242a5f",
-                "shasum": ""
-            },
-            "type": "library",
-            "support": {
-                "source": "https://github.com/wpninjas/ninja-forms-uploads/tree/v3.0.18",
-                "issues": "https://github.com/wpninjas/ninja-forms-uploads/issues"
-            },
-            "time": "2018-03-27T13:00:15+00:00"
+            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [

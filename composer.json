@@ -134,10 +134,6 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
-      "type": "vcs",
-      "url": "git@github.com:wpninjas/ninja-forms-uploads.git"
-    },
-    {
       "type": "package",
       "package": {
         "name": "mlaa/bbPress-Export-and-Import",
@@ -381,6 +377,19 @@
           "url": "git@github.com:mlaa/bp-reply-by-email.git",
           "type": "git",
           "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wpninjas/ninja-forms-uploads",
+        "version": "3.0.18",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:wpninjas/ninja-forms-uploads.git",
+          "type": "git",
+          "reference": "3.0.18"
         }
       }
     }
