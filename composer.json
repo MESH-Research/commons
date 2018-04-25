@@ -432,7 +432,7 @@
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#c1acd01",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-master#1df45f1",
+    "mlaa/hc-custom": "dev-develop#e5fc17b",
     "mlaa/hc-member-profiles": "dev-master#612247d",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
