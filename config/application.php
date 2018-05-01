@@ -82,3 +82,8 @@ define('DISALLOW_FILE_EDIT', true);
 if (!defined('ABSPATH')) {
   define('ABSPATH', $webroot_dir . '/wp/');
 }
+
+/**
+ * Max Memory for admin functions.
+ */
+define( 'WP_MAX_MEMORY_LIMIT', '256M' );
