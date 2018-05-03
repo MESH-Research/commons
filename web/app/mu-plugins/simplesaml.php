@@ -8,6 +8,9 @@
 if ( class_exists( 'WP_SAML_Auth' ) ) {
 	add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
 
+	// Before WP_SAML_Auth->action_logout().
+	add_action( 'wp_logout', 'hcommons_wpsa_wp_logout', 5 );
+
 	add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 1 );
 
 	// After WP_SAML_Auth->action_init().
@@ -73,8 +76,6 @@ function hcommons_wpsa_wp_logout() {
 function hcommons_bootstrap_wp_saml_auth() {
 	remove_action( 'init', [ WP_SAML_Auth::get_instance(), 'action_init' ] );
 	WP_SAML_Auth::get_instance()->action_init();
-	// Before WP_SAML_Auth->action_logout().
-	add_action( 'wp_logout', 'hcommons_wpsa_wp_logout', 5 );
 }
 
 /**
