@@ -200,54 +200,51 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 	}
 
 	$shib_org = $_SERVER['HTTP_O'];
-	if ( ! is_array( $shib_org ) ) {
-		$shib_org = [ $shib_org ];
-	}
-	$filtered_orgs = array();
-	foreach( $shib_org as $each_org ) {
-		if ( 'Humanities Commons' !== $each_org && ! empty( $each_org ) ) {
-			$filtered_orgs[] = $each_org;
+	if ( false === strpos( $shib_org, ';' ) ) {
+		$shib_org_updated = $shib_org;
+		if ( 'Humanities Commons' === $shib_org_updated ) {
+			$shib_org_updated = '';
 		}
-	}
-	if ( empty( $filtered_orgs ) ) {
-		$shib_org_updated = '';
-	} else if ( 1 === count( $filtered_orgs ) ) {
-		$shib_org_updated = $filtered_orgs[0];
 	} else {
-		$shib_org_updated = $filtered_orgs;
+		$shib_org_updated = array();
+		$shib_orgs = explode( ';', $shib_org );
+		foreach( $shib_orgs as $shib_org ) {
+			if ( 'Humanities Commons' !== $shib_org && ! empty( $shib_org ) ) {
+				$shib_org_updated[] = $shib_org;
+			}
+		}
 	}
 	$result = update_user_meta( $user_id, 'shib_org', maybe_serialize( $shib_org_updated ) );
 
 	$shib_title = $_SERVER['HTTP_TITLE'];
-	if ( empty( $shib_title ) ) {
-		$shib_title_updated = '';
-	} else if ( 1 === count( $shib_title ) ) {
-		$shib_title_updated = $shib_title[0];
-	} else {
+	if ( false === strpos( $shib_title, ';' ) ) {
 		$shib_title_updated = $shib_title;
+	} else {
+		$shib_title_updated = explode( ';', $shib_title );
 	}
 	$result = update_user_meta( $user_id, 'shib_title', maybe_serialize( $shib_title_updated ) );
 
 	$shib_uid = $_SERVER['HTTP_UID'];
-	if ( empty( $shib_uid ) ) {
-		$shib_uid_updated = '';
-	} else if ( 1 === count( $shib_uid ) ) {
-		$shib_uid_updated = $shib_uid[0];
-	} else {
+	if ( false === strpos( $shib_uid, ';' ) ) {
 		$shib_uid_updated = $shib_uid;
+	} else {
+		$shib_uid_updated = explode( ';', $shib_uid );
 	}
 	$result = update_user_meta( $user_id, 'shib_uid', maybe_serialize( $shib_uid_updated ) );
 
 	$shib_ismemberof = $_SERVER['HTTP_ISMEMBEROF'];
-	$result = update_user_meta( $user_id, 'shib_ismemberof', maybe_serialize( $shib_ismemberof ) );
-
-	$shib_mail = $_SERVER['HTTP_MAIL'];
-	if ( empty( $shib_email ) ) {
-		$shib_email_updated = '';
-	} else if ( 1 === count( $shib_email ) ) {
-		$shib_email_updated = $shib_email[0];
+	if ( false === strpos( $shib_ismemberof, ';' ) ) {
+		$shib_ismemberof_updated = $shib_ismemberof;
 	} else {
+		$shib_ismemberof_updated = explode( ';', $shib_ismemberof );
+	}
+	$result = update_user_meta( $user_id, 'shib_ismemberof', maybe_serialize( $shib_ismemberof_updated ) );
+
+	$shib_email = $_SERVER['HTTP_MAIL'];
+	if ( false === strpos( $shib_email, ';' ) ) {
 		$shib_email_updated = $shib_email;
+	} else {
+		$shib_email_updated = explode( ';', $shib_email );
 	}
 	$result = update_user_meta( $user_id, 'shib_email', maybe_serialize( $shib_email_updated ) );
 

@@ -54,7 +54,7 @@ function hcommons_bootstrap_wp_saml_auth() {
 	remove_action( 'init', [ WP_SAML_Auth::get_instance(), 'action_init' ] );
 	WP_SAML_Auth::get_instance()->action_init();
 }
-add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 2 );
+add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 1 );
 
 /**
  * Populate $_SERVER with attributes from SimpleSAML for backwards compatibility.
@@ -68,6 +68,7 @@ function hcommons_set_env_saml_attributes() {
 	}
 
 	$attributes = WP_SAML_Auth::get_instance()->get_provider()->getAttributes();
+	$IDP = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = WP_SAML_Auth::get_instance()->get_provider()->getAuthData('saml:sp:IdP');
 
 	if ( empty( $attributes ) ) {
 		return;
@@ -110,10 +111,10 @@ function hcommons_set_env_saml_attributes() {
 
 	$_SERVER['HTTP_SHIB_SESSION_ID'] = $_COOKIE['SimpleSAML'];
 	// TODO https://github.com/mlaa/humanities-commons/commit/764f6f41511a7813109c5b95a8b2fcfd444c6662
-	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = null;
+	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = $IDP;
 };
 // After WP_SAML_Auth->action_init().
-add_action( 'bp_init', 'hcommons_set_env_saml_attributes', 4 );
+add_action( 'bp_init', 'hcommons_set_env_saml_attributes', 2 );
 
 /**
  * Automatically log in to WordPress with an existing SimpleSAML session.
@@ -167,4 +168,4 @@ function hcommons_auto_login() {
 	}
 }
 // After hcommons_set_env_saml_attributes().
-add_action( 'bp_init', 'hcommons_auto_login', 6 );
+add_action( 'bp_init', 'hcommons_auto_login', 3 );
