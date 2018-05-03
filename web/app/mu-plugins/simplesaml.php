@@ -48,6 +48,18 @@ function hcommons_wpsa_filter_option( $value, string $option_name ) {
 add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
 
 /**
+ * Override WP SAML Auth logout action to use a custom URL.
+ */
+function hcommons_wpsa_wp_logout() {
+	$wpsa = WP_SAML_Auth::get_instance();
+	$redirect_url = wp_login_url( esc_url( home_url() . '/logged-out' ) );
+	$wpsa->get_provider()->logout( add_query_arg( 'redirect_to', $redirect_url, wp_login_url() ) );
+}
+remove_action( 'wp_logout', [ WP_SAML_Auth::get_instance(), 'action_wp_logout' ] );
+add_action( 'wp_logout', 'hcommons_wpsa_wp_logout' );
+
+
+/**
  * Load WP_SAML_Auth early on bp_init so that BuddyPress has correct session data when loading.
  */
 function hcommons_bootstrap_wp_saml_auth() {
