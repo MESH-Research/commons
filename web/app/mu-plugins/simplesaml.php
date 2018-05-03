@@ -5,6 +5,18 @@
  * @package Commons
  */
 
+if ( class_exists( 'WP_SAML_Auth' ) ) {
+	add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
+
+	add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 1 );
+
+	// After WP_SAML_Auth->action_init().
+	add_action( 'bp_init', 'hcommons_set_env_saml_attributes', 2 );
+
+	// After hcommons_set_env_saml_attributes().
+	add_action( 'bp_init', 'hcommons_auto_login', 3 );
+}
+
 /**
  * COOKIE_DOMAIN is defined by wordpress-mu-domain-mapping's sunrise.php for sites using mapped domains.
  * For all other sites, use the domain of the root blog on the root network.
@@ -45,19 +57,15 @@ function hcommons_wpsa_filter_option( $value, string $option_name ) {
 	$value    = isset( $defaults[ $option_name ] ) ? $defaults[ $option_name ] : $value;
 	return $value;
 }
-add_filter( 'wp_saml_auth_option', 'hcommons_wpsa_filter_option', 10, 2 );
 
 /**
  * Override WP SAML Auth logout action to use a custom URL.
  */
 function hcommons_wpsa_wp_logout() {
 	$wpsa = WP_SAML_Auth::get_instance();
-	$redirect_url = wp_login_url( esc_url( home_url() . '/logged-out' ) );
-	$wpsa->get_provider()->logout( add_query_arg( 'redirect_to', $redirect_url, wp_login_url() ) );
+	$redirect_url = esc_url( home_url() . '/logged-out' );
+	$wpsa->get_provider()->logout( $redirect_url );
 }
-remove_action( 'wp_logout', [ WP_SAML_Auth::get_instance(), 'action_wp_logout' ] );
-add_action( 'wp_logout', 'hcommons_wpsa_wp_logout' );
-
 
 /**
  * Load WP_SAML_Auth early on bp_init so that BuddyPress has correct session data when loading.
@@ -65,8 +73,9 @@ add_action( 'wp_logout', 'hcommons_wpsa_wp_logout' );
 function hcommons_bootstrap_wp_saml_auth() {
 	remove_action( 'init', [ WP_SAML_Auth::get_instance(), 'action_init' ] );
 	WP_SAML_Auth::get_instance()->action_init();
+	// Before WP_SAML_Auth->action_logout().
+	add_action( 'wp_logout', 'hcommons_wpsa_wp_logout', 5 );
 }
-add_action( 'bp_init', 'hcommons_bootstrap_wp_saml_auth', 1 );
 
 /**
  * Populate $_SERVER with attributes from SimpleSAML for backwards compatibility.
@@ -125,8 +134,6 @@ function hcommons_set_env_saml_attributes() {
 	// TODO https://github.com/mlaa/humanities-commons/commit/764f6f41511a7813109c5b95a8b2fcfd444c6662
 	$_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = $IDP;
 };
-// After WP_SAML_Auth->action_init().
-add_action( 'bp_init', 'hcommons_set_env_saml_attributes', 2 );
 
 /**
  * Automatically log in to WordPress with an existing SimpleSAML session.
@@ -179,5 +186,3 @@ function hcommons_auto_login() {
 		}
 	}
 }
-// After hcommons_set_env_saml_attributes().
-add_action( 'bp_init', 'hcommons_auto_login', 3 );
