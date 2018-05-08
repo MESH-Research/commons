@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9994ed06751a5d57a652fcecd6aed05d",
+    "content-hash": "20d2c32200943403f0408a6188780e99",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -715,12 +715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/commentpress-mla.git",
-                "reference": "cf80cf9"
+                "reference": "9ca1567"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/cf80cf9",
-                "reference": "cf80cf9",
+                "url": "https://api.github.com/repos/mlaa/commentpress-mla/zipball/9ca1567",
+                "reference": "9ca1567",
                 "shasum": ""
             },
             "require": {
@@ -732,7 +732,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla/issues"
             },
-            "time": "2018-01-26 20:24:08"
+            "time": "2018-05-08 14:24:36"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
@@ -2545,7 +2545,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.2.21.zip",
-                "reference": "tags/3.2.21",
+                "reference": null,
                 "shasum": null
             },
             "require": {
