@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9f5abff2ef2ba0452138d0bdf3536f3",
+    "content-hash": "1470af02ebe89ef95fd81ce686389e53",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3196,16 +3196,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
-            "version": "3.2.17",
+            "version": "3.3.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-to-twitter/",
-                "reference": "tags/3.2.17"
+                "reference": "tags/3.3.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.2.17.zip",
-                "reference": "tags/3.2.17",
+                "url": "https://downloads.wordpress.org/plugin/wp-to-twitter.3.3.5.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
