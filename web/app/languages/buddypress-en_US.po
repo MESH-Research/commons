@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2018-05-10 10:26-0400\n"
+"PO-Revision-Date: 2016-12-07 16:03-0500\n"
 "Last-Translator: JOHN JAMES JACOBY <jjj@buddypress.org>\n"
 "Language-Team: ENGLISH <jjj@buddypress.org>\n"
 "X-Generator: Poedit 1.8.11\n"
@@ -712,15 +712,13 @@ msgstr ""
 #: bp-templates/bp-legacy/buddypress/members/register.php:149
 msgid "Yes"
 msgstr ""
-"Allow search engines to index this site, and allow the site to appear in public "
-"listings around this network."
 
 #: bp-activity/bp-activity-screens.php:272 bp-blogs/bp-blogs-template.php:1056
 #: bp-friends/bp-friends-screens.php:87 bp-groups/bp-groups-screens.php:974
 #: bp-messages/bp-messages-screens.php:200
 #: bp-templates/bp-legacy/buddypress/members/register.php:150
 msgid "No"
-msgstr "Discourage search engines from indexing this site."
+msgstr ""
 
 #: bp-activity/bp-activity-screens.php:280
 msgid "A member mentions you in an update using \"@%s\""
