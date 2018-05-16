@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b07cd762d94c5320018930babfef08b",
+    "content-hash": "4c3def321911142651c7ae71a3d78de4",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -857,6 +857,27 @@
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
             "time": "2018-05-01 20:43:49"
+        },
+        {
+            "name": "mlaa/hc-notifications",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/hc-notifications.git",
+                "reference": "93e0a58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/93e0a58",
+                "reference": "93e0a58",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/hc-notifications/tree/master",
+                "issues": "https://github.com/mlaa/hc-notifications/issues"
+            },
+            "time": "2018-05-16 18:18:54"
         },
         {
             "name": "mlaa/hc-protect-uploads",
@@ -6588,6 +6609,7 @@
         "mlaa/hc-auth": 20,
         "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
+        "mlaa/hc-notifications": 20,
         "mlaa/hc-protect-uploads": 20,
         "mlaa/hc-provisional-content": 20,
         "mlaa/hc-styles": 20,
