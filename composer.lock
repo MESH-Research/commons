@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4da391177091ab2dc59c9e6d6417be55",
+    "content-hash": "c28955621158a8d337b4500f434a8392",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -864,12 +864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-notifications.git",
-                "reference": "92bdec8"
+                "reference": "37fb18c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/92bdec8",
-                "reference": "92bdec8",
+                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/37fb18c",
+                "reference": "37fb18c",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -877,7 +877,7 @@
                 "source": "https://github.com/mlaa/hc-notifications/tree/master",
                 "issues": "https://github.com/mlaa/hc-notifications/issues"
             },
-            "time": "2018-05-18 15:32:45"
+            "time": "2018-05-18 15:41:50"
         },
         {
             "name": "mlaa/hc-protect-uploads",
@@ -2346,7 +2346,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/feedwordpress.2016.1213.zip",
-                "reference": null,
+                "reference": "tags/2016.1213",
                 "shasum": null
             },
             "require": {
