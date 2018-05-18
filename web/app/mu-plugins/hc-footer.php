@@ -37,36 +37,20 @@ function hcommons_wp_footer() {
 		);
 
 		$theme      = wp_get_theme();
-		$theme_name = $theme->get( 'TextDomain' );
 
-		if ( 'twentyfifteen' === $theme_name ) {
-			$style = implode(
-				';', [
-					'background-color: white',
-					'color: black',
-					'position: relative',
-					'text-align: center',
-					'width: 100%',
-					'z-index: 100',
-				]
-			);
-		} else {
-			$style = implode(
-				';', [
-					'background-color: white',
-					'color: black',
-					'line-height: 3em',
-					'position: relative',
-					'text-align: center',
-					'width: 100%',
-					'z-index: 100',
-				]
-			);
-		}
+		$styles = [
+			'background-color: white',
+			'color: black',
+			'line-height: 3em',
+			'position: relative',
+			'text-align: center',
+			'width: 100%',
+			'z-index: 100',
+		];
 
 		printf(
 			'<div id="hcommons-network-footer" style="%s">',
-			esc_attr( $style )
+			esc_attr( implode( ';', $styles ) )
 		);
 
 		printf(
@@ -93,7 +77,14 @@ function hcommons_wp_footer() {
 		echo '</div>';
 
 		// Fix commentpress.
-		echo '<script>jQuery(".cp_sidebar_toc #hcommons-network-footer").appendTo("#footer").css({"line-height": "2em"});</script>';
+		if ( false !== strpos( strtolower( $theme->get( 'Name' ) ), 'commentpress' ) ) {
+			echo '<script>jQuery(".cp_sidebar_toc #hcommons-network-footer").appendTo("#footer").css({"line-height":"2em"});</script>';
+		}
+
+		// 2015 needs a bit more help.
+		if ( 'twenty fifteen' === strtolower( $theme->get( 'Name' ) ) ) {
+			echo '<script>jQuery("#hcommons-network-footer").appendTo("footer .site-info").css({"margin-top":"2em","line-height":"2em"});</script>';
+		}
 	}
 }
 add_action( 'wp_footer', 'hcommons_wp_footer' );
