@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "13ba3d609bf457692470a5769a427159",
+    "content-hash": "b5fde703919f4cae85a695e05dd85c22",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1516,16 +1516,16 @@
         },
         {
             "name": "stuttter/wp-multi-network",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stuttter/wp-multi-network.git",
-                "reference": "d5ba1b6ed5bbe4d4b51d7d494c17720bee06e608"
+                "reference": "503c90c23f4ea52cced6eb183c6b928824e6f12a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/d5ba1b6ed5bbe4d4b51d7d494c17720bee06e608",
-                "reference": "d5ba1b6ed5bbe4d4b51d7d494c17720bee06e608",
+                "url": "https://api.github.com/repos/stuttter/wp-multi-network/zipball/503c90c23f4ea52cced6eb183c6b928824e6f12a",
+                "reference": "503c90c23f4ea52cced6eb183c6b928824e6f12a",
                 "shasum": ""
             },
             "require": {
@@ -1545,10 +1545,10 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.1.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2018-02-06T21:07:59+00:00"
+            "time": "2018-05-11T22:11:04+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2537,16 +2537,16 @@
         },
         {
             "name": "wpackagist-plugin/mashsharer",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mashsharer/",
-                "reference": "tags/3.5.2"
+                "reference": "tags/3.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.5.2.zip",
-                "reference": "tags/3.5.2",
+                "url": "https://downloads.wordpress.org/plugin/mashsharer.3.5.3.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -2677,16 +2677,16 @@
         },
         {
             "name": "wpackagist-plugin/participants-database",
-            "version": "1.7.8.10",
+            "version": "1.7.8.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/participants-database/",
-                "reference": "tags/1.7.8.10"
+                "reference": "tags/1.7.8.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.8.10.zip",
-                "reference": "tags/1.7.8.10",
+                "url": "https://downloads.wordpress.org/plugin/participants-database.1.7.8.11.zip",
+                "reference": "tags/1.7.8.11",
                 "shasum": null
             },
             "require": {
@@ -3077,16 +3077,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
-            "version": "0.6.3",
+            "version": "0.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-                "reference": "tags/0.6.3"
+                "reference": "tags/0.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
-                "reference": "tags/0.6.3",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.4.zip",
+                "reference": "tags/0.6.4",
                 "shasum": null
             },
             "require": {
