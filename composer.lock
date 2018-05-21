@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5fde703919f4cae85a695e05dd85c22",
+    "content-hash": "6f101848fb0afa1f462e7dc6e7f5482a",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -479,12 +479,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "761fb97"
+                "reference": "19b9186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/761fb97",
-                "reference": "761fb97",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/19b9186",
+                "reference": "19b9186",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -492,7 +492,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-05-14 14:29:06"
+            "time": "2018-05-21 14:01:45"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2546,7 +2546,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/mashsharer.3.5.3.zip",
-                "reference": null,
+                "reference": "tags/3.5.3",
                 "shasum": null
             },
             "require": {
