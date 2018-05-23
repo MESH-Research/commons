@@ -447,7 +447,7 @@
     "mlaa/humcore": "dev-master#559d782",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
-    "mlaa/mla-allowed-tags": "dev-master",
+    "mlaa/mla-allowed-tags": "dev-master#b302f21",
     "mlaa/password-protected": "dev-master",
     "mlaa/profession-theme": "dev-master",
     "mlaa/shibboleth": "dev-master#b19c7a6",
