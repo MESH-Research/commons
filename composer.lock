@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b12f1dbb97aec76252e8f163561ce742",
+    "content-hash": "508269dcd9b8bd10b18385c61246fc73",
     "packages": [
         {
             "name": "bashkarev/email",
