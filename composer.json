@@ -572,7 +572,7 @@
     "wpackagist-theme/twentytwelve": "^2.2",
     "wpackagist-theme/vantage": "^1.5",
     "wpbakery/visual-composer": "^5.2",
-    "wpmudev/google-analytics-async": "^3.1",
+    "wpmudev/google-analytics-async": "3.1.7.1",
     "wpninjas/ninja-forms-conditional-logic": "^3.0",
     "wpninjas/ninja-forms-layout-styles": "^3.0",
     "wpninjas/ninja-forms-multi-part": "^3.0",
