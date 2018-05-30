@@ -12,7 +12,7 @@ function hcommons_ninja_forms_autocomplete() {
 				actionSubmit: function( response ) {
 					$( '.nf-form-wrap form' )
 						.attr( 'target', 'ninja-forms-autocomplete' )
-						.attr( 'action', 'https://example.com' )
+						.attr( 'action', ajaxurl )
 						[0].submit();
 				},
 			});
