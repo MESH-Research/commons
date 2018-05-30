@@ -16,7 +16,7 @@ function hcommons_ninja_forms_autocomplete() {
 		jQuery( function( $ ) {
 				if ( 'object' !== typeof Marionette ) {
 					return;
-				}
+				};
 				var HcNfAutocomplete = Marionette.Object.extend( {
 					initialize: function() {
 						this.listenTo( Backbone.Radio.channel( 'forms' ), 'submit:response', this.actionSubmit );
@@ -24,6 +24,7 @@ function hcommons_ninja_forms_autocomplete() {
 					actionSubmit: function( response ) {
 						$( '.nf-form-wrap form' )
 							.attr( 'target', 'ninja-forms-autocomplete' )
+							.attr( 'method', 'post' )
 							.attr( 'action', ajaxurl )
 							[0].submit();
 					},
