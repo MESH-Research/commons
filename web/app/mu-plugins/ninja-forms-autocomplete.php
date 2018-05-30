@@ -24,8 +24,7 @@ function hcommons_ninja_forms_autocomplete() {
 					actionSubmit: function( response ) {
 						$( '.nf-form-wrap form' )
 							.attr( 'target', 'ninja-forms-autocomplete' )
-							.attr( 'method', 'post' )
-							.attr( 'action', ajaxurl )
+							.attr( 'action', '/robots.txt' ) // This doesn't do anything except fool browsers with a 200 OK response.
 							[0].submit();
 					},
 				});
