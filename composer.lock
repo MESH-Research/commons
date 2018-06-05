@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "62a121dff8c18047e40517fae8a56d22",
+    "content-hash": "3910b3993c8db5c1bfa46759f17dd3c2",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3054,6 +3054,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/w3-total-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/widget-settings-importexport",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/widget-settings-importexport/",
+                "reference": "tags/1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/widget-settings-importexport.1.5.3.zip",
+                "reference": "tags/1.5.3",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/widget-settings-importexport/"
         },
         {
             "name": "wpackagist-plugin/woosidebars",
