@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "84e430e4421fad78e03343426d9328d8",
+    "content-hash": "dc06447fac8a602a470da65a66d7b7c1",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1191,12 +1191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "98f664f"
+                "reference": "01ce734"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/98f664f",
-                "reference": "98f664f",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/01ce734",
+                "reference": "01ce734",
                 "shasum": ""
             },
             "require": {
@@ -1211,7 +1211,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-05-08 21:00:35"
+            "time": "2018-06-04 21:07:10"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -6271,7 +6271,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": "tags/1.4.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6471,7 +6471,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-export-for-bbpress.2.0.1.zip",
-                "reference": "tags/2.0.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -6511,7 +6511,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/user-switching.1.3.0.zip",
-                "reference": "tags/1.3.0",
+                "reference": null,
                 "shasum": null
             },
             "require": {
