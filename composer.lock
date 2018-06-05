@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3dbbb2f0b0ef702480f299a4120f7c3",
+    "content-hash": "a296a0caee397e903f4bb0cfa153c61c",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3106,7 +3106,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/widget-settings-importexport.1.5.3.zip",
-                "reference": null,
+                "reference": "tags/1.5.3",
                 "shasum": null
             },
             "require": {
@@ -3814,6 +3814,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/vantage/"
+        },
+        {
+            "name": "wpackagist-theme/wp-bootstrap-starter",
+            "version": "3.0.15",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/wp-bootstrap-starter/",
+                "reference": "3.0.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/wp-bootstrap-starter.3.0.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/wp-bootstrap-starter/"
         },
         {
             "name": "wpbakery/visual-composer",
