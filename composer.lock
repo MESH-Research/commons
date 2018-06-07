@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "362133df7d2387ea1c6a21fbd29ce065",
+    "content-hash": "eba17be0cb2f5aa78e7c39967e1b9ac8",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -1837,16 +1837,16 @@
         },
         {
             "name": "wpackagist-plugin/avatar-privacy",
-            "version": "1.0.6",
+            "version": "1.0.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/avatar-privacy/",
-                "reference": "tags/1.0.6"
+                "reference": "tags/1.0.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.0.6.zip",
-                "reference": "tags/1.0.6",
+                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.0.7.zip",
+                "reference": "tags/1.0.7",
                 "shasum": null
             },
             "require": {
@@ -2257,16 +2257,16 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.7.0",
+            "version": "3.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.7.0"
+                "reference": "tags/3.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.0.zip",
-                "reference": "tags/3.7.0",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.1.zip",
+                "reference": "tags/3.7.1",
                 "shasum": null
             },
             "require": {
@@ -2917,16 +2917,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.6.7",
+            "version": "2.6.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.6.7"
+                "reference": "tags/2.6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.7.zip",
-                "reference": "tags/2.6.7",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.8.zip",
+                "reference": "tags/2.6.8",
                 "shasum": null
             },
             "require": {
@@ -2937,16 +2937,16 @@
         },
         {
             "name": "wpackagist-plugin/so-css",
-            "version": "1.1.5",
+            "version": "1.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-css/",
-                "reference": "tags/1.1.5"
+                "reference": "tags/1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-css.1.1.5.zip",
-                "reference": "tags/1.1.5",
+                "url": "https://downloads.wordpress.org/plugin/so-css.1.2.0.zip",
+                "reference": "tags/1.2.0",
                 "shasum": null
             },
             "require": {
@@ -3217,16 +3217,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.0.04",
+            "version": "7.10.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "tags/7.10.07"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.7.10.07.zip",
-                "reference": "tags/7.10.07",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1527851251",
+                "reference": null,
                 "shasum": null
             },
             "require": {
