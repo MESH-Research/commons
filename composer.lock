@@ -2917,16 +2917,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.6.8",
+            "version": "2.6.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.6.8"
+                "reference": "tags/2.6.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.8.zip",
-                "reference": "tags/2.6.8",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.9.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -3217,7 +3217,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.10.10",
+            "version": "7.10.11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -3225,8 +3225,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1527851251",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528452078",
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
