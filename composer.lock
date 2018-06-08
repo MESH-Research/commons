@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "55fee33021c152709f1cfe8e5c369dca",
+    "content-hash": "deef49867dc676dda89b1f091e62419a",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -843,12 +843,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
-                "reference": "04efbe7"
+                "reference": "f81412e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/04efbe7",
-                "reference": "04efbe7",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/f81412e",
+                "reference": "f81412e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -856,7 +856,7 @@
                 "source": "https://github.com/mlaa/hc-member-profiles/tree/develop",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2018-06-08 14:33:18"
+            "time": "2018-06-08 15:12:09"
         },
         {
             "name": "mlaa/hc-notifications",
