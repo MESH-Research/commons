@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "eba17be0cb2f5aa78e7c39967e1b9ac8",
+    "content-hash": "3fb5a724a96672092809b23bf48fe829",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2926,7 +2926,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.6.9.zip",
-                "reference": null,
+                "reference": "tags/2.6.9",
                 "shasum": null
             },
             "require": {
@@ -3577,16 +3577,16 @@
         },
         {
             "name": "wpackagist-theme/responsive",
-            "version": "2.0",
+            "version": "3.11",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/responsive/",
-                "reference": "2.0"
+                "reference": "3.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/responsive.2.9.zip",
-                "reference": "2.0",
+                "url": "https://downloads.wordpress.org/theme/responsive.3.11.zip",
+                "reference": "3.11",
                 "shasum": null
             },
             "require": {
@@ -3657,16 +3657,16 @@
         },
         {
             "name": "wpackagist-theme/twentyfifteen",
-            "version": "1.7",
+            "version": "2.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentyfifteen/",
-                "reference": "1.7"
+                "reference": "2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.9.zip",
-                "reference": "1.7",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.2.0.zip",
+                "reference": "2.0",
                 "shasum": null
             },
             "require": {
@@ -3677,16 +3677,16 @@
         },
         {
             "name": "wpackagist-theme/twentyfourteen",
-            "version": "1.9",
+            "version": "2.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentyfourteen/",
-                "reference": "1.9"
+                "reference": "2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfourteen.1.9.zip",
-                "reference": "1.9",
+                "url": "https://downloads.wordpress.org/theme/twentyfourteen.2.2.zip",
+                "reference": "2.2",
                 "shasum": null
             },
             "require": {
@@ -3817,16 +3817,16 @@
         },
         {
             "name": "wpackagist-theme/wp-bootstrap-starter",
-            "version": "3.0.15",
+            "version": "3.0.16",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/wp-bootstrap-starter/",
-                "reference": "3.0.15"
+                "reference": "3.0.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/wp-bootstrap-starter.3.0.15.zip",
-                "reference": "3.0.15",
+                "url": "https://downloads.wordpress.org/theme/wp-bootstrap-starter.3.0.16.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
