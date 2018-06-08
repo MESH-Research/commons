@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fb5a724a96672092809b23bf48fe829",
+    "content-hash": "727a8610efcca49c82d84dd193ac4824",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -950,24 +950,24 @@
         },
         {
             "name": "mlaa/hc-suggestions",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "6d04589"
+                "reference": "560646b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/6d04589",
-                "reference": "6d04589",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/560646b",
+                "reference": "560646b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/hc-suggestions/tree/master",
+                "source": "https://github.com/mlaa/hc-suggestions/tree/develop",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2018-04-17 21:48:27"
+            "time": "2018-05-24 19:30:22"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -3826,7 +3826,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/wp-bootstrap-starter.3.0.16.zip",
-                "reference": null,
+                "reference": "3.0.16",
                 "shasum": null
             },
             "require": {
