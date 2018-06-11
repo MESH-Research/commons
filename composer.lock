@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b189cf6d706682a3688ffaba0935caf",
+    "content-hash": "5007a5cc97dd9baaadb0b679b5a33280",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -1857,16 +1857,16 @@
         },
         {
             "name": "wpackagist-plugin/avatar-privacy",
-            "version": "1.0.7",
+            "version": "1.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/avatar-privacy/",
-                "reference": "tags/1.0.7"
+                "reference": "tags/1.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.0.7.zip",
-                "reference": "tags/1.0.7",
+                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.1.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
