@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5007a5cc97dd9baaadb0b679b5a33280",
+    "content-hash": "b9463a9574a4d3ffed04bb94288a1d3d",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -975,12 +975,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "0ef8366"
+                "reference": "8f08d63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/0ef8366",
-                "reference": "0ef8366",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/8f08d63",
+                "reference": "8f08d63",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -988,7 +988,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-04-19 14:21:20"
+            "time": "2018-06-11 18:45:36"
         },
         {
             "name": "mlaa/humcore",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -1866,7 +1866,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.1.0.zip",
-                "reference": null,
+                "reference": "tags/1.1.0",
                 "shasum": null
             },
             "require": {
