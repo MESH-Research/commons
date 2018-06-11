@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e7652128a0749e6121c0094e23b942f",
+    "content-hash": "281fa0a21688922458d30207317f160a",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -954,12 +954,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "a6e2b94"
+                "reference": "b10175e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/a6e2b94",
-                "reference": "a6e2b94",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/b10175e",
+                "reference": "b10175e",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -967,7 +967,7 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/develop",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2018-06-11 13:31:13"
+            "time": "2018-06-11 14:29:10"
         },
         {
             "name": "mlaa/humanities-commons",
@@ -1834,6 +1834,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/anthologize/"
+        },
+        {
+            "name": "wpackagist-plugin/autoptimize",
+            "version": "2.3.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autoptimize/",
+                "reference": "tags/2.3.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autoptimize.2.3.4.zip",
+                "reference": "tags/2.3.4",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autoptimize/"
         },
         {
             "name": "wpackagist-plugin/avatar-privacy",
