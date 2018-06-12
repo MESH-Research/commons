@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "511335544a9ac4738a02fe808b61ce5c",
+    "content-hash": "38e2a634ee97f4b756a2b45b77635ebc",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -790,10 +790,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/elasticpress-buddypress.git",
-                "reference": "0ebced3"
+                "reference": "8a5d2f1"
             },
             "type": "wordpress-plugin",
-            "time": "2018-06-11 16:20:41"
+            "time": "2018-06-12 14:59:32"
         },
         {
             "name": "mlaa/hc-auth",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -3526,7 +3526,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/poseidon.1.6.zip",
-                "reference": null,
+                "reference": "1.6",
                 "shasum": null
             },
             "require": {
