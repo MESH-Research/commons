@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -1857,16 +1857,16 @@
         },
         {
             "name": "wpackagist-plugin/avatar-privacy",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/avatar-privacy/",
-                "reference": "tags/1.1.0"
+                "reference": "tags/1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.1.0.zip",
-                "reference": "tags/1.1.0",
+                "url": "https://downloads.wordpress.org/plugin/avatar-privacy.1.1.1.zip",
+                "reference": "tags/1.1.1",
                 "shasum": null
             },
             "require": {
@@ -2277,16 +2277,16 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.7.1",
+            "version": "3.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.7.1"
+                "reference": "tags/3.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.1.zip",
-                "reference": "tags/3.7.1",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.2.zip",
+                "reference": "tags/3.7.2",
                 "shasum": null
             },
             "require": {
@@ -2317,16 +2317,16 @@
         },
         {
             "name": "wpackagist-plugin/events-manager",
-            "version": "5.9.3",
+            "version": "5.9.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "tags/5.9.3"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.3.zip",
-                "reference": "tags/5.9.3",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1528652958",
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -3217,7 +3217,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.10.11",
+            "version": "7.10.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -3225,8 +3225,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528452078",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528800146",
+                "reference": null,
                 "shasum": null
             },
             "require": {
