@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9463a9574a4d3ffed04bb94288a1d3d",
+    "content-hash": "511335544a9ac4738a02fe808b61ce5c",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -3226,7 +3226,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528800146",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -3377,16 +3377,16 @@
         },
         {
             "name": "wpackagist-theme/dispatch",
-            "version": "4.1.4",
+            "version": "4.5.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/dispatch/",
-                "reference": "4.1.4"
+                "reference": "4.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/dispatch.4.4.5.zip",
-                "reference": "4.1.4",
+                "url": "https://downloads.wordpress.org/theme/dispatch.4.5.0.zip",
+                "reference": "4.5.0",
                 "shasum": null
             },
             "require": {
@@ -3517,16 +3517,16 @@
         },
         {
             "name": "wpackagist-theme/poseidon",
-            "version": "1.1.8",
+            "version": "1.6",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/poseidon/",
-                "reference": "1.1.8"
+                "reference": "1.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/poseidon.1.5.zip",
-                "reference": "1.1.8",
+                "url": "https://downloads.wordpress.org/theme/poseidon.1.6.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
