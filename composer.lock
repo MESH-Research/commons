@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "34dbfa3213e317fe9c5766ea05302b10",
+    "content-hash": "9a915239e258dc356ecf963d3f99def4",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2557,16 +2557,16 @@
         },
         {
             "name": "wpackagist-plugin/knight-lab-timelinejs",
-            "version": "3.5.4.0",
+            "version": "3.6.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
-                "reference": "tags/3.5.4.0"
+                "reference": "tags/3.6.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.5.4.0.zip",
-                "reference": "tags/3.5.4.0",
+                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.6.0.0.zip",
+                "reference": "tags/3.6.0.0",
                 "shasum": null
             },
             "require": {
@@ -2657,16 +2657,16 @@
         },
         {
             "name": "wpackagist-plugin/ninja-forms",
-            "version": "3.3.1",
+            "version": "3.3.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ninja-forms/",
-                "reference": "tags/3.3.1"
+                "reference": "tags/3.3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.1.zip",
-                "reference": "tags/3.3.1",
+                "url": "https://downloads.wordpress.org/plugin/ninja-forms.3.3.4.zip",
+                "reference": "tags/3.3.4",
                 "shasum": null
             },
             "require": {
@@ -3217,7 +3217,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.10.12",
+            "version": "7.10.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -3225,7 +3225,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528800146",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528890128",
                 "reference": "trunk",
                 "shasum": null
             },
@@ -3377,16 +3377,16 @@
         },
         {
             "name": "wpackagist-theme/dispatch",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/dispatch/",
-                "reference": "4.5.0"
+                "reference": "4.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/dispatch.4.5.0.zip",
-                "reference": "4.5.0",
+                "url": "https://downloads.wordpress.org/theme/dispatch.4.5.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
