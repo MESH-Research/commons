@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a915239e258dc356ecf963d3f99def4",
+    "content-hash": "4c3e62acb6355cf103ea4b9117d70d0f",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1191,12 +1191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "68f0695"
+                "reference": "de77171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/68f0695",
-                "reference": "68f0695",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/de77171",
+                "reference": "de77171",
                 "shasum": ""
             },
             "require": {
@@ -1208,10 +1208,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/feature-homepage-template",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-06-06 13:14:17"
+            "time": "2018-06-06 14:10:38"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -3386,7 +3386,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/dispatch.4.5.1.zip",
-                "reference": null,
+                "reference": "4.5.1",
                 "shasum": null
             },
             "require": {
