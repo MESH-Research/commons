@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f73b4f848ae1472ee0dc9360b4c3fb4",
+    "content-hash": "62a121dff8c18047e40517fae8a56d22",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1191,12 +1191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "68f0695"
+                "reference": "de77171"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/68f0695",
-                "reference": "68f0695",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/de77171",
+                "reference": "de77171",
                 "shasum": ""
             },
             "require": {
@@ -1208,10 +1208,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/feature-homepage-template",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-06-06 13:14:17"
+            "time": "2018-06-06 14:10:38"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -3325,7 +3325,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/dispatch.4.4.5.zip",
+                "url": "https://downloads.wordpress.org/theme/dispatch.4.1.4.zip",
                 "reference": "4.1.4",
                 "shasum": null
             },
@@ -3465,7 +3465,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/poseidon.1.5.zip",
+                "url": "https://downloads.wordpress.org/theme/poseidon.1.1.8.zip",
                 "reference": "1.1.8",
                 "shasum": null
             },
@@ -3525,7 +3525,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/responsive.2.9.zip",
+                "url": "https://downloads.wordpress.org/theme/responsive.2.0.zip",
                 "reference": "2.0",
                 "shasum": null
             },
@@ -3605,7 +3605,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.9.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyfifteen.1.7.zip",
                 "reference": "1.7",
                 "shasum": null
             },
