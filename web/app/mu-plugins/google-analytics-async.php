@@ -19,4 +19,5 @@ function hcommons_prevent_gaa_submit_hijack() {
 		}
 	}
 }
-add_action( 'admin_init', 'hcommons_prevent_gaa_submit_hijack', 5 ); // before the original action has run, so we can cancel it
+//new version of GA+ gets a 404 saving setttings page. Removing this filter addresses that on mla commons.
+//add_action( 'admin_init', 'hcommons_prevent_gaa_submit_hijack', 5 ); // before the original action has run, so we can cancel it
