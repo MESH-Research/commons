@@ -507,6 +507,7 @@
     "wpackagist-plugin/gd-bbpress-attachments": "^2.5",
     "wpackagist-plugin/google-document-embedder": "^2.6",
     "wpackagist-plugin/google-sitemap-generator": "^4.0",
+    "wpackagist-plugin/gutenberg": "^3.0",
     "wpackagist-plugin/invite-anyone": "1.3.19",
     "wpackagist-plugin/issuem": "^2.7",
     "wpackagist-plugin/jquery-hover-footnotes": "^1.4",
