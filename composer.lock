@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c3e62acb6355cf103ea4b9117d70d0f",
+    "content-hash": "aa2aba75df85d5e0a5292d057c3561c0",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -839,7 +839,7 @@
         },
         {
             "name": "mlaa/hc-member-profiles",
-            "version": "dev-develop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
