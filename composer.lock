@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "868a5fb0162104f87c2c4f85b6d3c9c9",
+    "content-hash": "1a8dda77862078ec989353e92f90efe0",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -822,20 +822,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "367d7e0"
+                "reference": "5fdb220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/367d7e0",
-                "reference": "367d7e0",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/5fdb220",
+                "reference": "5fdb220",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/hc-custom/tree/develop",
+                "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-06-04 13:39:30"
+            "time": "2018-06-18 18:10:21"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2506,7 +2506,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/gutenberg.3.0.1.zip",
-                "reference": null,
+                "reference": "tags/3.0.1",
                 "shasum": null
             },
             "require": {
