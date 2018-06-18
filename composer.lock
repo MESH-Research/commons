@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a8dda77862078ec989353e92f90efe0",
+    "content-hash": "8baeb96b9511fc266d241327013eb221",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -843,20 +843,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
-                "reference": "f0ab041"
+                "reference": "e72ca61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/f0ab041",
-                "reference": "f0ab041",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/e72ca61",
+                "reference": "e72ca61",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/hc-member-profiles/tree/develop",
+                "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2018-06-12 20:06:45"
+            "time": "2018-06-14 20:52:36"
         },
         {
             "name": "mlaa/hc-notifications",
@@ -1545,7 +1545,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
