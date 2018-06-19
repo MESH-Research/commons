@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8baeb96b9511fc266d241327013eb221",
+    "content-hash": "ed2834c7ad8b6652d88e8ee0b9d9118c",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1103,6 +1103,27 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-11-08 14:54:15"
+        },
+        {
+            "name": "mlaa/plugin-monitor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/plugin-monitor.git",
+                "reference": "b2f4034"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/plugin-monitor/zipball/b2f4034",
+                "reference": "b2f4034",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/plugin-monitor/tree/master",
+                "issues": "https://github.com/mlaa/plugin-monitor/issues"
+            },
+            "time": "2018-06-19 21:42:19"
         },
         {
             "name": "mlaa/profession-theme",
@@ -6640,6 +6661,7 @@
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
         "mlaa/password-protected": 20,
+        "mlaa/plugin-monitor": 20,
         "mlaa/profession-theme": 20,
         "mlaa/shibboleth": 20,
         "mlaa/sparkpost": 20,

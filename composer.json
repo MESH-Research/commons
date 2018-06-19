@@ -111,6 +111,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/plugin-monitor.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/profession-theme.git"
     },
     {
@@ -449,6 +453,7 @@
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
     "mlaa/password-protected": "dev-master",
+    "mlaa/plugin-monitor": "dev-master#b2f4034",
     "mlaa/profession-theme": "dev-master",
     "mlaa/shibboleth": "dev-master#b19c7a6",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
