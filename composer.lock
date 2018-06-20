@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3c24f746cdca1dbb7a2c12eb9418abb",
+    "content-hash": "1dd2f451af3c74fa077786bc1efe1e9d",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2655,6 +2655,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/more-privacy-options/"
+        },
+        {
+            "name": "wpackagist-plugin/multisite-custom-css",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/multisite-custom-css/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/multisite-custom-css.zip?timestamp=1510447701",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/multisite-custom-css/"
         },
         {
             "name": "wpackagist-plugin/network-plugin-auditor",
