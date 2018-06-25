@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dd2f451af3c74fa077786bc1efe1e9d",
+    "content-hash": "2117645ea05d1b5c5c134be2ae9195ad",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -790,10 +790,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/elasticpress-buddypress.git",
-                "reference": "8a5d2f1"
+                "reference": "7e2944f"
             },
             "type": "wordpress-plugin",
-            "time": "2018-06-12 14:59:32"
+            "time": "2018-06-25 13:28:22"
         },
         {
             "name": "mlaa/hc-auth",
@@ -2667,7 +2667,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/multisite-custom-css.zip?timestamp=1510447701",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
