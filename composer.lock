@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "97e57b15b274bbcef756f576ff09072c",
+    "content-hash": "128ea108ba154f35a08d9cb55f735559",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -954,20 +954,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-suggestions.git",
-                "reference": "b10175e"
+                "reference": "66358a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/b10175e",
-                "reference": "b10175e",
+                "url": "https://api.github.com/repos/mlaa/hc-suggestions/zipball/66358a7",
+                "reference": "66358a7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/hc-suggestions/tree/develop",
+                "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2018-06-11 14:29:10"
+            "time": "2018-06-25 14:50:01"
         },
         {
             "name": "mlaa/humanities-commons",
