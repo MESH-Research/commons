@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "128ea108ba154f35a08d9cb55f735559",
+    "content-hash": "20b51b138f98150b25061868ab5e3280",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1955,26 +1955,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bp-blog-avatar/"
-        },
-        {
-            "name": "wpackagist-plugin/bp-groupblog",
-            "version": "1.8.13",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/bp-groupblog/",
-                "reference": "tags/1.8.13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bp-groupblog.1.9.0.zip",
-                "reference": "tags/1.8.13",
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/bp-groupblog/"
         },
         {
             "name": "wpackagist-plugin/bp-lotsa-feeds",
