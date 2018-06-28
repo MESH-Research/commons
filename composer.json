@@ -196,13 +196,13 @@
     {
       "type": "package",
       "package": {
-        "name": "mlaa/bp-groupblog",
-        "version": "dev-hotfix-45",
+        "name": "boonebgorges/bp-groupblog",
+        "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:mlaa/bp-groupblog.git",
+          "url": "git@github.com:boonebgorges/bp-groupblog.git",
           "type": "git",
-          "reference": "hotfix-45"
+          "reference": "master"
         }
       }
     },
@@ -417,6 +417,7 @@
   ],
   "require": {
     "php": ">=5.5",
+    "boonebgorges/bp-groupblog": "dev-master",
     "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
     "buddyboss/boss": "^2.2",
     "christian-wach/commentpress-flat-child": "^1.0",
