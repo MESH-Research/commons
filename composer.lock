@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "08c671c1cb50ce075a01e9c48500ff3f",
+    "content-hash": "117f760d783b7593bcc07afa3b53b0db",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -561,17 +561,6 @@
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
             "time": "2017-07-05 17:42:39"
-        },
-        {
-            "name": "mlaa/bp-groupblog",
-            "version": "dev-hotfix-45",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/bp-groupblog.git",
-                "reference": "hotfix-45"
-            },
-            "type": "wordpress-plugin",
-            "time": "2018-06-27 20:23:13"
         },
         {
             "name": "mlaa/bp-mpo-activity-filter",
@@ -6645,7 +6634,6 @@
         "mlaa/bp-attachment-xprofile-field-type": 20,
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
-        "mlaa/bp-groupblog": 20,
         "mlaa/bp-mpo-activity-filter": 20,
         "mlaa/bp-reply-by-email": 20,
         "mlaa/buddypress": 20,
