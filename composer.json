@@ -419,6 +419,7 @@
     "php": ">=5.5",
     "boonebgorges/bp-groupblog": "dev-master",
     "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
+    "boonebgorges/buddypress-group-email-subscription": "dev-3.9.x",
     "buddyboss/boss": "^2.2",
     "christian-wach/commentpress-flat-child": "^1.0",
     "cmoreira/interactive-world-maps": "1.9.9",
