@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "684ce9cae4e06137734d347857ef8f24",
+    "content-hash": "f0aa7c92b3078a4108c3b8d9efee76da",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1167,12 +1167,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/shibboleth.git",
-                "reference": "b19c7a6"
+                "reference": "2849e37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/b19c7a6",
-                "reference": "b19c7a6",
+                "url": "https://api.github.com/repos/mlaa/shibboleth/zipball/2849e37",
+                "reference": "2849e37",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2018-02-13 21:09:59"
+            "time": "2018-06-28 16:54:06"
         },
         {
             "name": "mlaa/sparkpost",
@@ -1577,7 +1577,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
