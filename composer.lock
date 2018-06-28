@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0aa7c92b3078a4108c3b8d9efee76da",
+    "content-hash": "5927c88e6343eb47a8f8f9f04bf90d25",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -626,17 +626,6 @@
                 "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
             },
             "time": "2016-06-29 21:14:47"
-        },
-        {
-            "name": "mlaa/buddypress-group-email-subscription",
-            "version": "dev-3.8.x-hotfix-128",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/buddypress-group-email-subscription.git",
-                "reference": "3.8.x-hotfix-128"
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-12-18 18:31:58"
         },
         {
             "name": "mlaa/buddypress-messages-spam-blocker",
@@ -1577,7 +1566,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -6650,7 +6639,6 @@
         "mlaa/bp-reply-by-email": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
-        "mlaa/buddypress-group-email-subscription": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
         "mlaa/bwp-google-xml-sitemaps": 20,
         "mlaa/cbox-auth": 20,
