@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0aa7c92b3078a4108c3b8d9efee76da",
+    "content-hash": "c174627a5352d956e140c24678832397",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -333,134 +333,6 @@
                 "shasum": "8c289cd17682f333effc829e18915e9a34dd8176"
             },
             "type": "wordpress-plugin"
-        },
-        {
-            "name": "johnpbloch/wordpress",
-            "version": "4.9.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ecca35c283591e3f40732522334415521f5aa4b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ecca35c283591e3f40732522334415521f5aa4b7",
-                "reference": "ecca35c283591e3f40732522334415521f5aa4b7",
-                "shasum": ""
-            },
-            "require": {
-                "johnpbloch/wordpress-core": "4.9.6",
-                "johnpbloch/wordpress-core-installer": "^1.0",
-                "php": ">=5.3.2"
-            },
-            "type": "package",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
-            "homepage": "http://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "time": "2018-05-17T20:03:03+00:00"
-        },
-        {
-            "name": "johnpbloch/wordpress-core",
-            "version": "4.9.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "6ff81eb3d93d326b78a8bc0f120e72c161ec58c8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6ff81eb3d93d326b78a8bc0f120e72c161ec58c8",
-                "reference": "6ff81eb3d93d326b78a8bc0f120e72c161ec58c8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "provide": {
-                "wordpress/core-implementation": "4.9.6"
-            },
-            "type": "wordpress-core",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "WordPress Community",
-                    "homepage": "http://wordpress.org/about/"
-                }
-            ],
-            "description": "WordPress is web software you can use to create a beautiful website or blog.",
-            "homepage": "http://wordpress.org/",
-            "keywords": [
-                "blog",
-                "cms",
-                "wordpress"
-            ],
-            "time": "2018-05-17T20:02:55+00:00"
-        },
-        {
-            "name": "johnpbloch/wordpress-core-installer",
-            "version": "1.0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/7941acd71725710a789daabe0557429da63e7ac6",
-                "reference": "7941acd71725710a789daabe0557429da63e7ac6",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "conflict": {
-                "composer/installers": "<1.0.6"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0",
-                "phpunit/phpunit": ">=4.8.35"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
-            },
-            "autoload": {
-                "psr-0": {
-                    "johnpbloch\\Composer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "John P. Bloch",
-                    "email": "me@johnpbloch.com"
-                }
-            ],
-            "description": "A custom installer to handle deploying WordPress with composer",
-            "keywords": [
-                "wordpress"
-            ],
-            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "kreatura/layerslider",
@@ -1577,7 +1449,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2277,7 +2149,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
                 "reference": "tags/2.2.1",
                 "shasum": null
             },
