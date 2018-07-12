@@ -18,10 +18,8 @@ before_install:
 script:
 - composer validate
 - composer install
-- ./tests/bin/setup.sh
-- ./vendor/bin/codecept run
+- "./tests/bin/setup.sh"
+- "./vendor/bin/codecept run"
 notifications:
   slack:
-    on_success: change
-    on_failure: always
-    secure: BZ9ec8GMlcArxPkDCyX0O4oJ7y8giDJ9HfmCPfwDHJaioy2aPOpqk1/K/8xWWvQ3khhAeDg3E04YSpOvCvelsWErb73oeD8DmO1RX6QD6ipRVrOwRkoUwTwJr+KRYmhN4AIIVLRKuXMfbjsWIgYh3lvUllZlSzbik3kB/vR+h/k=
+    secure: hkVUzVKCzCDU832d6JqjdReJFAsJ2E+8XV4/pwLOKBY7f8kYhNNLfsw+alR614EiPUS0D/9G7aGR0HlyifceqI+RtKi+qYYb7eLS8tmJVV9Dl4hVj1Zt4TNuqC+CNSSwNKIL1zhqRY8PNeMztY9VO+TU3w0jtw527Bbp7pTiBQ4=

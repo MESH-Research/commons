@@ -6,6 +6,7 @@ web/app/themes
 web/app/upgrade
 web/app/uploads
 web/app/debug.log
+web/app/cache
 
 # WordPress
 web/wp

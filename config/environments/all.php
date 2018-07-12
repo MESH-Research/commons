@@ -148,6 +148,11 @@ define( 'GLOBAL_SMTP_FROM', getenv( 'GLOBAL_SMTP_FROM' ) );
 define( 'CBOX_OVERRIDE_PLUGINS', true ); // help debug setup
 
 /**
+ * Plugin Monitor
+ */
+define( 'PLUGIN_MONITOR_ALERT_EMAILS', getenv( 'PLUGIN_MONITOR_ALERT_EMAILS' ) );
+
+/**
  * BuddyPress
  */
 define( 'BP_DEFAULT_COMPONENT', 'profile' ); // make "profile" default rather than "activity" for bp members component
