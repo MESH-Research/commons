@@ -98,11 +98,9 @@ function hcommons_set_env_saml_attributes() {
 
 	// Most attributes are assigned literally: 'sn' => 'HTTP_SN'. The rest are mapped here.
 	$map = [
-		// These are provided by SATOSA but not Shibboleth.
-		//TODO this are are supplied by shib and we shoud getv them. see https://hcommons.org/Shibboleth.sso/Session
-		'urn:oid:1.3.6.1.4.1.49574.110.10'  => 'HTTP_META_DISPLAYNAME',
-		'urn:oid:1.3.6.1.4.1.49574.110.11'  => 'HTTP_META_ORGANIZATIONDISPLAYNAME',
-		'urn:oid:1.3.6.1.4.1.49574.110.12'  => 'HTTP_META_ORGANIZATIONNAME',
+		'Meta-displayName'  => 'HTTP_META_DISPLAYNAME',
+		'Meta-organizationName'  => 'HTTP_META_ORGANIZATIONDISPLAYNAME',
+		'Meta-organizationDisplayName'  => 'HTTP_META_ORGANIZATIONNAME',
 	];
 
 	$mapped = [];
