@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "46c7ce86007a9dae1f2ef4323f2a6efc",
+    "content-hash": "4b894585d6c9376f827357959a0a851b",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -86,7 +86,7 @@
                 "reference": "3.9.x"
             },
             "type": "wordpress-plugin",
-            "time": "2018-07-09 18:47:18"
+            "time": "2018-07-20 03:52:03"
         },
         {
             "name": "buddyboss/boss",
@@ -1223,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "de77171"
+                "reference": "73b4a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/de77171",
-                "reference": "de77171",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/73b4a97",
+                "reference": "73b4a97",
                 "shasum": ""
             },
             "require": {
@@ -1240,10 +1240,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/feature-homepage-template",
+                "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-06-06 14:10:38"
+            "time": "2018-07-30 14:39:15"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
