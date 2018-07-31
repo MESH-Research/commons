@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b894585d6c9376f827357959a0a851b",
+    "content-hash": "615b9b2106ee2a347de5a5ceb63ecf08",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -86,7 +86,7 @@
                 "reference": "3.9.x"
             },
             "type": "wordpress-plugin",
-            "time": "2018-07-20 03:52:03"
+            "time": "2018-05-23 16:37:31"
         },
         {
             "name": "buddyboss/boss",
@@ -1003,16 +1003,16 @@
         },
         {
             "name": "mlaa/humcore",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "559d782"
+                "reference": "8a80987"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/559d782",
-                "reference": "559d782",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/8a80987",
+                "reference": "8a80987",
                 "shasum": ""
             },
             "require": {
@@ -1028,10 +1028,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/mlaa/humcore/tree/master",
+                "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2018-02-05 14:13:44"
+            "time": "2018-07-30 20:12:55"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1577,7 +1577,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2277,7 +2277,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.5.2.zip",
                 "reference": "tags/2.2.1",
                 "shasum": null
             },
