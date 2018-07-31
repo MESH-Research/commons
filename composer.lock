@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "615b9b2106ee2a347de5a5ceb63ecf08",
+    "content-hash": "e07f4aaa78b2daec4fc25aec56a9afca",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -86,7 +86,7 @@
                 "reference": "3.9.x"
             },
             "type": "wordpress-plugin",
-            "time": "2018-05-23 16:37:31"
+            "time": "2018-07-20 03:52:03"
         },
         {
             "name": "buddyboss/boss",
@@ -833,12 +833,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "b970e90"
+                "reference": "ea15400"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/b970e90",
-                "reference": "b970e90",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/ea15400",
+                "reference": "ea15400",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -846,7 +846,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-07-18 21:44:32"
+            "time": "2018-07-31 13:50:40"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1577,7 +1577,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2277,7 +2277,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
                 "reference": "tags/2.2.1",
                 "shasum": null
             },
