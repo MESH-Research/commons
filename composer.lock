@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a2c6c8cc4bacefd85d7a2c494bc62bf",
+    "content-hash": "3ba047d73731bf188317094ab9db30f3",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1223,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "73b4a97"
+                "reference": "4ca4a8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/73b4a97",
-                "reference": "73b4a97",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/4ca4a8d",
+                "reference": "4ca4a8d",
                 "shasum": ""
             },
             "require": {
@@ -1243,7 +1243,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-07-30 14:39:15"
+            "time": "2018-08-02 14:45:25"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
