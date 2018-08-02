@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e0425114c404a9cacd7ba7fa3625e34",
+    "content-hash": "49f7868af1781d3a618631fed38dad7c",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2986,6 +2986,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shareadraft/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-page-tester",
+            "version": "1.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-page-tester/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-page-tester.zip?timestamp=1514931410",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-page-tester/"
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",

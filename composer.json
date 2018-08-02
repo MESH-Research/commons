@@ -549,6 +549,7 @@
     "wpackagist-plugin/remove-dashboard-access-for-non-admins": "^1.1",
     "wpackagist-plugin/scholarpress-coins": "^2.2",
     "wpackagist-plugin/shareadraft": "^1.5",
+    "wpackagist-plugin/simple-page-tester": "^1.4",
     "wpackagist-plugin/siteorigin-panels": "^2.6",
     "wpackagist-plugin/so-css": "^1.2",
     "wpackagist-plugin/so-widgets-bundle": "^1.11",
