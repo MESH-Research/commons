@@ -261,13 +261,13 @@
     {
       "type": "package",
       "package": {
-        "name": "boonebgorges/buddypress-group-email-subscription",
-        "version": "dev-3.9.x",
+        "name": "mlaa/buddypress-group-email-subscription",
+        "version": "dev-3.8.x-hotfix-128",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
+          "url": "git@github.com:mlaa/buddypress-group-email-subscription.git",
           "type": "git",
-          "reference": "3.9.x"
+          "reference": "3.8.x-hotfix-128"
         }
       }
     },
@@ -445,6 +445,7 @@
     "mlaa/bp-reply-by-email": "dev-master#29b396c",
     "mlaa/buddypress": "dev-hcommons-2.9.3#03b17d2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
+    "mlaa/buddypress-group-email-subscription": "dev-3.8.x-hotfix-128",
     "mlaa/buddypress-messages-spam-blocker": "dev-master",
     "mlaa/bwp-google-xml-sitemaps": "dev-master",
     "mlaa/cbox-auth": "dev-master",

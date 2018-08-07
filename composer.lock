@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc48fd7087d46a968c6681ac989ccddc",
+    "content-hash": "fb60b926190fb6ef0dc2ae14f2fd1833",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -85,8 +85,7 @@
                 "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
                 "reference": "3.9.x"
             },
-            "type": "wordpress-plugin",
-            "time": "2018-07-30 17:47:24"
+            "type": "wordpress-plugin"
         },
         {
             "name": "buddyboss/boss",
@@ -637,6 +636,17 @@
                 "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
             },
             "time": "2016-06-29 21:14:47"
+        },
+        {
+            "name": "mlaa/buddypress-group-email-subscription",
+            "version": "dev-3.8.x-hotfix-128",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/buddypress-group-email-subscription.git",
+                "reference": "3.8.x-hotfix-128"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-12-18 18:31:58"
         },
         {
             "name": "mlaa/buddypress-messages-spam-blocker",
@@ -6747,6 +6757,7 @@
         "mlaa/bp-reply-by-email": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
+        "mlaa/buddypress-group-email-subscription": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
         "mlaa/bwp-google-xml-sitemaps": 20,
         "mlaa/cbox-auth": 20,
