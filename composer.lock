@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "814a2db61e5b4b48cab7e8fb634f90b1",
+    "content-hash": "f7004b7040af8b6c7d1c5ad0a8fbc314",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1439,6 +1439,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2017-12-28 20:25:04"
+        },
+        {
+            "name": "r-a-y/bp-reply-by-email",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bp-reply-by-email.git",
+                "reference": "b09c020"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-05-14 20:48:14"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -6776,6 +6787,7 @@
         "mlaa/style-center": 20,
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
+        "r-a-y/bp-reply-by-email": 20,
         "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,
