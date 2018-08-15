@@ -261,13 +261,13 @@
     {
       "type": "package",
       "package": {
-        "name": "mlaa/buddypress-group-email-subscription",
-        "version": "dev-hotfix-150",
+        "name": "boonebgorges/buddypress-group-email-subscription",
+        "version": "dev-3.9.x",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:mlaa/buddypress-group-email-subscription.git",
+          "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
           "type": "git",
-          "reference": "hotfix-150"
+          "reference": "3.9.x"
         }
       }
     },
