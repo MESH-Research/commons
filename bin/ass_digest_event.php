@@ -1,4 +1,11 @@
 <?php
 
 date_default_timezone_set( 'America/New_York' );
-ass_digest_fire( 'dig' );
+
+define( 'BPGES_DEBUG_LOG_PATH', '/srv/www/commons/logs/bpges.log' );
+define( 'BPGES_DEBUG', true );
+
+$_POST['type'] = 'dig';
+$_POST['timestamp'] = date( 'Y-m-d H:i:s' );
+
+bpges_trigger_digest( 'dig' );
