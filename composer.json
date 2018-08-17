@@ -467,7 +467,7 @@
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
-    "mlaa/profession-theme": "dev-master",
+    "mlaa/profession-theme": "dev-master#6cf8ac5",
     "mlaa/shibboleth": "dev-master#2849e37",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
