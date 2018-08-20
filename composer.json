@@ -262,12 +262,12 @@
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-group-email-subscription",
-        "version": "dev-3.9.x",
+        "version": "dev-load-order",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
           "type": "git",
-          "reference": "3.9.x"
+          "reference": "load-order"
         }
       }
     },
@@ -419,7 +419,7 @@
     "php": ">=5.5",
     "boonebgorges/bp-groupblog": "dev-master#286843d",
     "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
-    "boonebgorges/buddypress-group-email-subscription": "dev-3.9.x",
+    "boonebgorges/buddypress-group-email-subscription": "dev-load-order",
     "buddyboss/boss": "^2.2",
     "christian-wach/commentpress-flat-child": "^1.0",
     "cmoreira/interactive-world-maps": "1.9.9",
