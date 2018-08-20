@@ -82,6 +82,7 @@ define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
  * Logging
  */
 define('WP_LOGS_DIR', getenv('WP_LOGS_DIR'));
+define('BPGES_DEBUG_LOG_PATH', getenv('BPGES_DEBUG_LOG_PATH'));
 
 // W3 Total Cache
 define( 'WP_CACHE', getenv( 'WP_CACHE' ) );
