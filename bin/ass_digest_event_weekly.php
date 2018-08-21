@@ -1,8 +1,13 @@
 <?php
 
-date_default_timezone_set( 'America/New_York' );
-
 $_POST['type'] = 'sum';
 $_POST['timestamp'] = date( 'Y-m-d H:i:s' );
 
-bpges_trigger_digest( 'sum' );
+class HC_BPGES_Async_Request_Send_Queue extends BPGES_Async_Request_Send_Queue {
+	function handle() {
+		return parent::handle();
+	}
+}
+
+$q = new HC_BPGES_Async_Request_Send_Queue();
+$q->handle();
