@@ -639,6 +639,7 @@
   },
   "require-dev": {
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
+    "codeception/codeception": "^2.4",
     "modelm/buddypress-body-classes": "dev-master#75c9157",
     "neronmoon/scriptsdev": "^0.1.2",
     "wp-coding-standards/wpcs": "^0.14.1",
