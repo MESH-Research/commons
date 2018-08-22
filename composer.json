@@ -422,7 +422,6 @@
     }
   ],
   "require": {
-    "php": ">=5.5",
     "boonebgorges/bp-groupblog": "dev-master#286843d",
     "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
     "boonebgorges/buddypress-group-email-subscription": "dev-load-order",

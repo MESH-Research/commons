@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0751b3d8cee4a2f8025b28cb563fb971",
+    "content-hash": "c99281c9f3c890494325cfc349474e7e",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -7920,8 +7920,6 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=5.5"
-    },
+    "platform": [],
     "platform-dev": []
 }
