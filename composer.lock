@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2d5c6c1968fcf75fc81a0d71c6d8865",
+    "content-hash": "57967e84bab8257a68332670f4278c03",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -501,12 +501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "b005845"
+                "reference": "4c3a70b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b005845",
-                "reference": "b005845",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/4c3a70b",
+                "reference": "4c3a70b",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -514,7 +514,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-08-20 18:24:14"
+            "time": "2018-08-29 12:25:46"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -1577,7 +1577,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2277,7 +2277,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.5.2.zip",
                 "reference": "tags/2.2.1",
                 "shasum": null
             },
