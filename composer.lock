@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac28db91c5cef865e890323e2268251",
+    "content-hash": "4f9eb21fa08457966711b3ff8744cfae",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -996,12 +996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "e537fc0"
+                "reference": "d4f7aee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/e537fc0",
-                "reference": "e537fc0",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/d4f7aee",
+                "reference": "d4f7aee",
                 "shasum": ""
             },
             "require": {
@@ -1020,7 +1020,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2018-08-14 12:54:06"
+            "time": "2018-09-05 18:54:33"
         },
         {
             "name": "mlaa/mla-academic-interests",
