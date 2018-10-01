@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb50221e15daba4dc13ac451ece2cf0f",
+    "content-hash": "159cc93c8681e5f16149c73d1465ead7",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1380,6 +1380,17 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "r-a-y/bbp-live-preview",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bbp-live-preview.git",
+                "reference": "5737ac3"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-10-03 16:10:09"
         },
         {
             "name": "r-a-y/bp-rbe-inbound-forum-attachments",
@@ -7893,6 +7904,7 @@
         "mlaa/sparkpost": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
+        "r-a-y/bbp-live-preview": 20,
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
