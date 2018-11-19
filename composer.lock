@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1bb6fce4ba76470bcadf99ad6ad2e7b",
+    "content-hash": "48fb545f1d3081ac03e32356783c47d3",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -822,12 +822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "9022c67"
+                "reference": "2871883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/9022c67",
-                "reference": "9022c67",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/2871883",
+                "reference": "2871883",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -835,7 +835,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-11-14 14:07:18"
+            "time": "2018-11-19 16:24:04"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1588,7 +1588,7 @@
             "description": "A Network Management UI for global administrators in WordPress Multisite",
             "homepage": "https://github.com/stuttter/wp-multi-network",
             "support": {
-                "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
+                "source": "https://github.com/stuttter/wp-multi-network/tree/master",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
             "time": "2018-05-11T22:11:04+00:00"
@@ -2288,7 +2288,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.2.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/elasticpress.2.5.2.zip",
                 "reference": "tags/2.2.1",
                 "shasum": null
             },
