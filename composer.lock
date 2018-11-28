@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff497ba5b0d6ae09dfb3d4011bfc11f2",
+    "content-hash": "0b89d99d03bda2be9d23c0fae188e8e6",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -594,6 +594,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2018-04-02 18:50:00"
+        },
+        {
+            "name": "mlaa/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-rbe-new-topic.git",
+                "reference": "958a28f"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-04-25 16:14:56"
         },
         {
             "name": "mlaa/buddypress",
@@ -1429,17 +1440,6 @@
                 "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
             },
             "time": "2017-12-24 19:06:55"
-        },
-        {
-            "name": "r-a-y/bp-rbe-new-topic",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
-                "reference": "b68a6ca"
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-12-28 20:25:04"
         },
         {
             "name": "r-a-y/bp-reply-by-email",
@@ -6079,6 +6079,17 @@
             "time": "2017-10-23T01:57:42+00:00"
         },
         {
+            "name": "r-a-y/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
+                "reference": "b68a6ca"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-12-28 20:25:04"
+        },
+        {
             "name": "roots/sage-lib",
             "version": "9.0.0",
             "source": {
@@ -7874,6 +7885,7 @@
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
+        "mlaa/bp-rbe-new-topic": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
@@ -7906,7 +7918,6 @@
         "mlaa/style-center": 20,
         "r-a-y/bbp-live-preview": 20,
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
-        "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
         "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
