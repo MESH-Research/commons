@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "543166df429bcdb5c5e7cb285867d710",
+    "content-hash": "ac054acff8d01e1a8da19f1054300227",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -594,6 +594,17 @@
             },
             "type": "wordpress-plugin",
             "time": "2018-04-02 18:50:00"
+        },
+        {
+            "name": "mlaa/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-rbe-new-topic.git",
+                "reference": "03b2d34"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-11-29 03:13:01"
         },
         {
             "name": "mlaa/buddypress",
@@ -5063,16 +5074,6 @@
             "time": "2018-01-06T12:12:26+00:00"
         },
         {
-            "name": "mlaa/bp-rbe-new-topic",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/bp-rbe-new-topic.git",
-                "reference": "03b2d34"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
             "name": "modelm/buddypress-body-classes",
             "version": "dev-master",
             "source": {
@@ -7895,6 +7896,7 @@
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
+        "mlaa/bp-rbe-new-topic": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
