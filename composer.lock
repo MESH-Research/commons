@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7fa9c1d253b5c94996ad886338d0df5b",
+    "content-hash": "543166df429bcdb5c5e7cb285867d710",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -596,17 +596,6 @@
             "time": "2018-04-02 18:50:00"
         },
         {
-            "name": "mlaa/bp-rbe-new-topic",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:mlaa/bp-rbe-new-topic.git",
-                "reference": "03b2d34"
-            },
-            "type": "wordpress-plugin",
-            "time": "2018-11-29 03:13:01"
-        },
-        {
             "name": "mlaa/buddypress",
             "version": "dev-hcommons-2.9.3",
             "source": {
@@ -833,12 +822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "aa362b9"
+                "reference": "132c6fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/aa362b9",
-                "reference": "aa362b9",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/132c6fb",
+                "reference": "132c6fb",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -846,7 +835,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/develop",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-11-29 03:09:54"
+            "time": "2018-11-29 14:57:48"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1451,6 +1440,17 @@
                 "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
             },
             "time": "2017-12-24 19:06:55"
+        },
+        {
+            "name": "r-a-y/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
+                "reference": "b68a6ca"
+            },
+            "type": "wordpress-plugin",
+            "time": "2017-12-28 20:25:04"
         },
         {
             "name": "r-a-y/bp-reply-by-email",
@@ -5063,6 +5063,16 @@
             "time": "2018-01-06T12:12:26+00:00"
         },
         {
+            "name": "mlaa/bp-rbe-new-topic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/bp-rbe-new-topic.git",
+                "reference": "03b2d34"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "modelm/buddypress-body-classes",
             "version": "dev-master",
             "source": {
@@ -6088,17 +6098,6 @@
                 "simple-cache"
             ],
             "time": "2017-10-23T01:57:42+00:00"
-        },
-        {
-            "name": "r-a-y/bp-rbe-new-topic",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:r-a-y/bp-rbe-new-topic.git",
-                "reference": "b68a6ca"
-            },
-            "type": "wordpress-plugin",
-            "time": "2017-12-28 20:25:04"
         },
         {
             "name": "roots/sage-lib",
@@ -7896,7 +7895,6 @@
         "mlaa/bp-event-organiser": 20,
         "mlaa/bp-group-documents": 20,
         "mlaa/bp-mpo-activity-filter": 20,
-        "mlaa/bp-rbe-new-topic": 20,
         "mlaa/buddypress": 20,
         "mlaa/buddypress-docs-minor-edit": 20,
         "mlaa/buddypress-messages-spam-blocker": 20,
@@ -7930,6 +7928,7 @@
         "mlaa/style-center": 20,
         "r-a-y/bbp-live-preview": 20,
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
+        "r-a-y/bp-rbe-new-topic": 20,
         "r-a-y/bp-reply-by-email": 20,
         "uglyrobot/multisite-plugin-manager": 20,
         "wpackagist-plugin/feedwordpress": 0,
