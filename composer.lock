@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0b89d99d03bda2be9d23c0fae188e8e6",
+    "content-hash": "242d106d128fbefe617d0550d6dc5eef",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -833,12 +833,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "23cb056"
+                "reference": "94d6149"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/23cb056",
-                "reference": "23cb056",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/94d6149",
+                "reference": "94d6149",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -846,7 +846,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/develop",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-11-26 14:36:46"
+            "time": "2018-11-29 02:34:38"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -1103,6 +1103,17 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2018-05-23 16:03:27"
+        },
+        {
+            "name": "mlaa/mla-style-custom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:mlaa/mla-style-custom.git",
+                "reference": "4c4f671"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-11-26 19:34:08"
         },
         {
             "name": "mlaa/password-protected",
@@ -7909,6 +7920,7 @@
         "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
+        "mlaa/mla-style-custom": 20,
         "mlaa/password-protected": 20,
         "mlaa/plugin-monitor": 20,
         "mlaa/profession-theme": 20,
