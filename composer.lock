@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bebdfc467ab84c4317d22906fe3122de",
+    "content-hash": "178996e505bad216f677c392cadd892e",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -238,10 +238,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
-                "reference": "2e49b59"
+                "reference": "685bc9d"
             },
             "type": "wordpress-plugin",
-            "time": "2018-04-24 02:01:36"
+            "time": "2018-12-12 20:49:01"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
