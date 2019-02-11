@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5df63e8d8a6d3517444f3f5d66ac7c24",
+    "content-hash": "fd2cfc9e68f488c45307a6109e0c3aae",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2028,6 +2028,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-docs/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-restrict-group-creation",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-restrict-group-creation/",
+                "reference": "tags/1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-restrict-group-creation.1.0.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-restrict-group-creation/"
         },
         {
             "name": "wpackagist-plugin/buddypress-sitewide-activity-widget",
