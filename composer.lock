@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd2cfc9e68f488c45307a6109e0c3aae",
+    "content-hash": "3083635e561c0b09811da56b026d6863",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1223,12 +1223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "bba73cb"
+                "reference": "08f3d47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/bba73cb",
-                "reference": "bba73cb",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/08f3d47",
+                "reference": "08f3d47",
                 "shasum": ""
             },
             "require": {
@@ -1243,7 +1243,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/master",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-02-05 13:35:14"
+            "time": "2019-02-12 18:15:02"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -2040,7 +2040,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/buddypress-restrict-group-creation.1.0.0.zip",
-                "reference": null,
+                "reference": "tags/1.0.0",
                 "shasum": null
             },
             "require": {
