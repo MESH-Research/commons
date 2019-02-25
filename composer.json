@@ -117,6 +117,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mla-style-custom.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/plugin-monitor.git"
     },
     {
@@ -423,19 +427,6 @@
     {
       "type": "package",
       "package": {
-        "name": "mlaa/mla-style-custom",
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:mlaa/mla-style-custom.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "wpninjas/ninja-forms-uploads",
         "version": "3.0.18",
         "type": "wordpress-plugin",
@@ -496,7 +487,7 @@
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
-    "mlaa/mla-style-custom": "dev-master#4c4f671",
+    "mlaa/mla-style-custom": "dev-develop#56a8df6",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
     "mlaa/profession-theme": "dev-master#6cf8ac5",
