@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "befdefb6965113d2c01c9c7aafd775dd",
+    "content-hash": "e594c636511a9894d937e75cc3795c8c",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1099,10 +1099,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "56a8df6"
+                "reference": "034974a"
             },
             "type": "wordpress-plugin",
-            "time": "2019-02-25 15:41:34"
+            "time": "2019-02-26 15:11:56"
         },
         {
             "name": "mlaa/password-protected",
