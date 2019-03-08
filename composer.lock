@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "758f5bd6d503a3284db02daef3f7884f",
+    "content-hash": "8d9c7669113f4defb70d7b57cb61f233",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -4018,7 +4018,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/vantage.1.9.1.zip",
-                "reference": null,
+                "reference": "1.9.1",
                 "shasum": null
             },
             "require": {
@@ -4060,12 +4060,12 @@
         },
         {
             "name": "wpmudev/google-analytics-async",
-            "version": "3.1.7.1",
+            "version": "3.1.7.2",
             "dist": {
                 "type": "zip",
-                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.7.1.zip",
+                "url": "/tmp/wordpress-packages/wpmudev-google-analytics-async-3.1.7.2.zip",
                 "reference": null,
-                "shasum": "9a4e6110624031f4954b3134f272d45bcd55326f"
+                "shasum": "45e6ad2e88ee41b70be8c8c9e6ee7d1183f4b974"
             },
             "type": "wordpress-plugin"
         },
