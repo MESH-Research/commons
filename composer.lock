@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffc1c6379972c7dafa369f02a9678dac",
+    "content-hash": "758f5bd6d503a3284db02daef3f7884f",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -2009,16 +2009,16 @@
         },
         {
             "name": "wpackagist-plugin/black-studio-tinymce-widget",
-            "version": "2.6.7",
+            "version": "2.6.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/black-studio-tinymce-widget/",
-                "reference": "tags/2.6.7"
+                "reference": "tags/2.6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/black-studio-tinymce-widget.2.6.7.zip",
-                "reference": "tags/2.6.7",
+                "url": "https://downloads.wordpress.org/plugin/black-studio-tinymce-widget.2.6.8.zip",
+                "reference": "tags/2.6.8",
                 "shasum": null
             },
             "require": {
@@ -2429,16 +2429,16 @@
         },
         {
             "name": "wpackagist-plugin/event-organiser",
-            "version": "3.7.4",
+            "version": "3.7.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/event-organiser/",
-                "reference": "tags/3.7.4"
+                "reference": "tags/3.7.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.4.zip",
-                "reference": "tags/3.7.4",
+                "url": "https://downloads.wordpress.org/plugin/event-organiser.3.7.6.zip",
+                "reference": "tags/3.7.6",
                 "shasum": null
             },
             "require": {
@@ -2449,16 +2449,16 @@
         },
         {
             "name": "wpackagist-plugin/events-made-easy",
-            "version": "2.1.8",
+            "version": "2.1.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-made-easy/",
-                "reference": "tags/2.1.8"
+                "reference": "tags/2.1.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-made-easy.2.1.8.zip",
-                "reference": "tags/2.1.8",
+                "url": "https://downloads.wordpress.org/plugin/events-made-easy.2.1.10.zip",
+                "reference": "tags/2.1.10",
                 "shasum": null
             },
             "require": {
@@ -2889,16 +2889,16 @@
         },
         {
             "name": "wpackagist-plugin/participants-database",
-            "version": "1.8.4.9",
+            "version": "1.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/participants-database/",
-                "reference": "tags/1.8.4.9"
+                "reference": "tags/1.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/participants-database.1.8.4.9.zip",
-                "reference": "tags/1.8.4.9",
+                "url": "https://downloads.wordpress.org/plugin/participants-database.1.9.1.zip",
+                "reference": "tags/1.9.1",
                 "shasum": null
             },
             "require": {
@@ -3129,16 +3129,16 @@
         },
         {
             "name": "wpackagist-plugin/siteorigin-panels",
-            "version": "2.10.1",
+            "version": "2.10.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
-                "reference": "tags/2.10.1"
+                "reference": "tags/2.10.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.10.1.zip",
-                "reference": "tags/2.10.1",
+                "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.10.2.zip",
+                "reference": "tags/2.10.2",
                 "shasum": null
             },
             "require": {
@@ -3169,16 +3169,16 @@
         },
         {
             "name": "wpackagist-plugin/so-widgets-bundle",
-            "version": "1.15.2",
+            "version": "1.15.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
-                "reference": "tags/1.15.2"
+                "reference": "tags/1.15.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.15.2.zip",
-                "reference": "tags/1.15.2",
+                "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.15.3.zip",
+                "reference": "tags/1.15.3",
                 "shasum": null
             },
             "require": {
@@ -3218,7 +3218,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.5.1.0.zip",
-                "reference": null,
+                "reference": "tags/5.1.0",
                 "shasum": null
             },
             "require": {
@@ -3369,16 +3369,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-accessibility",
-            "version": "1.6.5",
+            "version": "1.6.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-accessibility/",
-                "reference": "tags/1.6.5"
+                "reference": "tags/1.6.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.6.5.zip",
-                "reference": "tags/1.6.5",
+                "url": "https://downloads.wordpress.org/plugin/wp-accessibility.1.6.6.zip",
+                "reference": "tags/1.6.6",
                 "shasum": null
             },
             "require": {
@@ -3389,16 +3389,16 @@
         },
         {
             "name": "wpackagist-plugin/wp-fail2ban",
-            "version": "4.0.2",
+            "version": "4.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
-                "reference": "tags/4.0.2"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.4.0.2.zip",
-                "reference": "tags/4.0.2",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.zip?timestamp=1551463495",
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -3409,7 +3409,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-google-maps",
-            "version": "7.11.08",
+            "version": "7.11.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
@@ -3417,7 +3417,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1551093339",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1552032297",
                 "reference": "trunk",
                 "shasum": null
             },
@@ -3569,16 +3569,16 @@
         },
         {
             "name": "wpackagist-theme/dispatch",
-            "version": "4.7.0",
+            "version": "4.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/dispatch/",
-                "reference": "4.7.0"
+                "reference": "4.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/dispatch.4.7.0.zip",
-                "reference": "4.7.0",
+                "url": "https://downloads.wordpress.org/theme/dispatch.4.7.2.zip",
+                "reference": "4.7.2",
                 "shasum": null
             },
             "require": {
@@ -3769,16 +3769,16 @@
         },
         {
             "name": "wpackagist-theme/responsive",
-            "version": "3.13",
+            "version": "3.14",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/responsive/",
-                "reference": "3.13"
+                "reference": "3.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/responsive.3.13.zip",
-                "reference": "3.13",
+                "url": "https://downloads.wordpress.org/theme/responsive.3.14.zip",
+                "reference": "3.14",
                 "shasum": null
             },
             "require": {
@@ -4009,16 +4009,16 @@
         },
         {
             "name": "wpackagist-theme/vantage",
-            "version": "1.9",
+            "version": "1.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/vantage/",
-                "reference": "1.9"
+                "reference": "1.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/vantage.1.9.zip",
-                "reference": "1.9",
+                "url": "https://downloads.wordpress.org/theme/vantage.1.9.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
