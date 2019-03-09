@@ -7,7 +7,7 @@ function hcommons_wp_is_large_network( $is_large_network ) {
 	if ( function_exists( 'get_current_screen' ) ) {
 		$screen = get_current_screen();
 
-		if ( 'users-network' === $screen->id ) {
+		if ( is_a( $screen, 'WP_Screen' ) && 'users-network' === $screen->id ) {
 			$is_large_network = false;
 		}
 	}

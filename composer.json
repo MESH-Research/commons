@@ -482,7 +482,7 @@
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#093d3a1",
     "mlaa/hc-suggestions": "dev-master#66358a7",
-    "mlaa/humanities-commons": "dev-master#8f08d63",
+    "mlaa/humanities-commons": "dev-feature-simplesaml#2f84379",
     "mlaa/humcore": "dev-develop#dcacff7",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
@@ -592,8 +592,11 @@
     "wpackagist-plugin/wp-google-maps": "^7.10",
     "wpackagist-plugin/wp-hide-dashboard": "^2.2",
     "wpackagist-plugin/wp-markdown": "^1.6",
+    "wpackagist-plugin/wp-native-php-sessions": "^0.6.6",
     "wpackagist-plugin/wp-polls": "^2.73",
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
+    "wpackagist-plugin/wp-redis": "^0.6.1",
+    "wpackagist-plugin/wp-saml-auth": "^0.3.9",
     "wpackagist-plugin/wp-to-twitter": "^3.3",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
     "wpackagist-plugin/zotpress": "^6.2",
@@ -643,7 +646,10 @@
   },
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin",
+        "wpackagist-plugin/wp-saml-auth"
+      ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
