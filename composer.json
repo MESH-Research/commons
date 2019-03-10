@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "type": "project",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "repositories": [
     {
       "type": "composer",
@@ -59,6 +61,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/digiped-theme.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/hc-member-profiles.git"
     },
     {
@@ -108,6 +114,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:mlaa/mla-allowed-tags.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:mlaa/mla-style-custom.git"
     },
     {
       "type": "vcs",
@@ -262,12 +272,12 @@
       "type": "package",
       "package": {
         "name": "boonebgorges/buddypress-group-email-subscription",
-        "version": "dev-3.9.x",
+        "version": "dev-load-order",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:boonebgorges/buddypress-group-email-subscription.git",
           "type": "git",
-          "reference": "3.9.x"
+          "reference": "load-order"
         }
       }
     },
@@ -279,6 +289,19 @@
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:Clorith/wordpress-debug-bar-template-trace.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "r-a-y/bbp-live-preview",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:r-a-y/bbp-live-preview.git",
           "type": "git",
           "reference": "master"
         }
@@ -416,16 +439,15 @@
     }
   ],
   "require": {
-    "php": ">=5.5",
-    "boonebgorges/bp-groupblog": "dev-master",
+    "boonebgorges/bp-groupblog": "dev-master#286843d",
     "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
-    "boonebgorges/buddypress-group-email-subscription": "dev-3.9.x",
+    "boonebgorges/buddypress-group-email-subscription": "dev-load-order",
     "buddyboss/boss": "^2.2",
     "christian-wach/commentpress-flat-child": "^1.0",
     "cmoreira/interactive-world-maps": "1.9.9",
     "composer/installers": "^1.2",
     "cubell/15zine-functionality": "2.1.0",
-    "cuny-academic-commons/bp-multiple-forum-post": "dev-master#2e49b59",
+    "cuny-academic-commons/bp-multiple-forum-post": "dev-master#685bc9d",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "cuny-academic-commons/external-group-blogs": "dev-1.6.1",
     "envato/wordpress-toolkit": "1.7.3",
@@ -436,13 +458,12 @@
     "johnpbloch/wordpress": "^4.9",
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
-    "mlaa/boss-child": "dev-master#dede4e2",
+    "mlaa/boss-child": "dev-master#6455340",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
     "mlaa/bp-mpo-activity-filter": "dev-master#b3cd2e6",
-    "mlaa/bp-reply-by-email": "dev-master#29b396c",
     "mlaa/buddypress": "dev-hcommons-2.9.3#03b17d2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/buddypress-messages-spam-blocker": "dev-master",
@@ -454,30 +475,33 @@
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-master#27dd83b",
+    "mlaa/hc-custom": "dev-develop#8f5488d",
     "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
     "mlaa/hc-notifications": "dev-master#ac409d0",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
-    "mlaa/hc-styles": "dev-master#4111b93",
+    "mlaa/hc-styles": "dev-master#093d3a1",
     "mlaa/hc-suggestions": "dev-master#66358a7",
     "mlaa/humanities-commons": "dev-feature-simplesaml#2f84379",
-    "mlaa/humcore": "dev-master#559d782",
+    "mlaa/humcore": "dev-develop#dcacff7",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
+    "mlaa/mla-style-custom": "dev-develop#e107d03",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
-    "mlaa/profession-theme": "dev-master",
+    "mlaa/profession-theme": "dev-master#6cf8ac5",
     "mlaa/shibboleth": "dev-master#2849e37",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-master#de77171",
+    "mlaa/style-center": "dev-develop#c1e8889",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
+    "r-a-y/bbp-live-preview": "dev-master#5737ac3",
     "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master#4b29985",
-    "r-a-y/bp-rbe-new-topic": "dev-master#b68a6ca",
+    "r-a-y/bp-rbe-new-topic": "dev-master#958a28f",
+    "r-a-y/bp-reply-by-email": "dev-master#b09c020",
     "r-a-y/buddypress-followers": "^1.2",
     "raygun/q-and-a": "1.0.6.2",
     "siteorigin/vantage": "2.4.4",
@@ -500,6 +524,7 @@
     "wpackagist-plugin/bp-blog-avatar": "^1.0",
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
     "wpackagist-plugin/buddypress-docs": "1.9.4",
+    "wpackagist-plugin/buddypress-restrict-group-creation": "1.0.0",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
     "wpackagist-plugin/cac-featured-content": "1.0.7",
     "wpackagist-plugin/commentpress-core": "^3.9",
@@ -549,6 +574,7 @@
     "wpackagist-plugin/remove-dashboard-access-for-non-admins": "^1.1",
     "wpackagist-plugin/scholarpress-coins": "^2.2",
     "wpackagist-plugin/shareadraft": "^1.5",
+    "wpackagist-plugin/simple-page-tester": "^1.4",
     "wpackagist-plugin/siteorigin-panels": "^2.6",
     "wpackagist-plugin/so-css": "^1.2",
     "wpackagist-plugin/so-widgets-bundle": "^1.11",
@@ -637,6 +663,7 @@
   "require-dev": {
     "Clorith/wordpress-debug-bar-template-trace": "dev-master",
     "codeception/codeception": "^2.4",
+    "doctrine/inflector": "^1.2",
     "modelm/buddypress-body-classes": "dev-master#75c9157",
     "neronmoon/scriptsdev": "^0.1.2",
     "wp-coding-standards/wpcs": "^0.14.1",
