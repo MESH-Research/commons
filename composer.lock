@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d9c7669113f4defb70d7b57cb61f233",
+    "content-hash": "e59b759a15a0245237b19d2fef61e079",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -386,12 +386,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "947a6f0"
+                "reference": "6455340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/947a6f0",
-                "reference": "947a6f0",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/6455340",
+                "reference": "6455340",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -399,7 +399,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2019-01-24 16:27:12"
+            "time": "2019-03-06 19:24:43"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -707,12 +707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "02b2f07"
+                "reference": "a158084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/02b2f07",
-                "reference": "02b2f07",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/a158084",
+                "reference": "a158084",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -720,7 +720,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/develop",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2019-02-15 18:20:29"
+            "time": "2019-03-13 16:54:17"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -980,14 +980,14 @@
         },
         {
             "name": "mlaa/mla-style-custom",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "4c4f671"
+                "reference": "0e1c9f0"
             },
             "type": "wordpress-plugin",
-            "time": "2018-11-26 19:34:08"
+            "time": "2019-03-11 14:29:56"
         },
         {
             "name": "mlaa/password-protected",
@@ -1104,16 +1104,16 @@
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-master",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "138c335"
+                "reference": "1c18f06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/138c335",
-                "reference": "138c335",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/1c18f06",
+                "reference": "1c18f06",
                 "shasum": ""
             },
             "require": {
@@ -1125,10 +1125,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-02-14 17:54:30"
+            "time": "2019-03-09 12:50:07"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",

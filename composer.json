@@ -117,6 +117,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mla-style-custom.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/plugin-monitor.git"
     },
     {
@@ -423,19 +427,6 @@
     {
       "type": "package",
       "package": {
-        "name": "mlaa/mla-style-custom",
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:mlaa/mla-style-custom.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
         "name": "wpninjas/ninja-forms-uploads",
         "version": "3.0.18",
         "type": "wordpress-plugin",
@@ -466,7 +457,7 @@
     "goodlayers/goodlayers-importer": "^1.0",
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
-    "mlaa/boss-child": "dev-master#947a6f0",
+    "mlaa/boss-child": "dev-master#6455340",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
@@ -483,7 +474,7 @@
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-develop#02b2f07",
+    "mlaa/hc-custom": "dev-develop#a158084",
     "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
     "mlaa/hc-notifications": "dev-master#ac409d0",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
@@ -495,14 +486,14 @@
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
-    "mlaa/mla-style-custom": "dev-master#4c4f671",
+    "mlaa/mla-style-custom": "dev-develop#0e1c9f0",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
     "mlaa/profession-theme": "dev-master#6cf8ac5",
     "mlaa/shibboleth": "dev-master#2849e37",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-master#138c335",
+    "mlaa/style-center": "dev-develop#1c18f06",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
