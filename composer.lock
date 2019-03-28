@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "73befff5c9be3d273b25c03c70ba0995",
+    "content-hash": "8e4a17318df6eef086c06f02c7488bef",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bp-group-documents.git",
-                "reference": "9fd9d4f"
+                "reference": "6164ee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/9fd9d4f",
-                "reference": "9fd9d4f",
+                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6164ee7",
+                "reference": "6164ee7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -582,7 +582,7 @@
                 "source": "https://github.com/mlaa/bp-group-documents/tree/master",
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
-            "time": "2019-03-27 15:18:08"
+            "time": "2019-03-28 19:00:29"
         },
         {
             "name": "mlaa/bp-mpo-activity-filter",
