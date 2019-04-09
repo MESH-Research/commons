@@ -14,6 +14,7 @@ function hcommons_wp_footer() {
 		constant( 'ASEEES_ROOT_BLOG_ID' ),
 		constant( 'CAA_ROOT_BLOG_ID' ),
 		constant( 'MLA_ROOT_BLOG_ID' ),
+		constant( 'MSU_ROOT_BLOG_ID' ),
 		];
 
 		return in_array( (string) get_current_blog_id(), $society_blog_ids );
