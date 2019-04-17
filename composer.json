@@ -389,12 +389,12 @@
       "type": "package",
       "package": {
         "name": "mlaa/mla-style-custom",
-        "version": "dev-master",
+        "version": "dev-develop",
         "type": "wordpress-plugin",
         "source": {
           "url": "git@github.com:mlaa/mla-style-custom.git",
           "type": "git",
-          "reference": "master"
+          "reference": "develop"
         }
       } 
     },
@@ -500,7 +500,7 @@
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
-    "mlaa/mla-style-custom": "dev-master#592431a",
+    "mlaa/mla-style-custom": "dev-develop#765a572",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
     "mlaa/profession-theme": "dev-master#6cf8ac5",
