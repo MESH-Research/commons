@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "95d39fc03971242927675cdeaffc70b8",
+    "content-hash": "b9e5240c94dbf8b0ba2f60d088e7c929",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -794,6 +794,27 @@
             },
             "type": "wordpress-plugin",
             "time": "2018-06-25 13:28:22"
+        },
+        {
+            "name": "mlaa/faculty-child",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/faculty-child.git",
+                "reference": "81c39ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/faculty-child/zipball/81c39ec",
+                "reference": "81c39ec",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/faculty-child/tree/master",
+                "issues": "https://github.com/mlaa/faculty-child/issues"
+            },
+            "time": "2019-04-29 17:49:41"
         },
         {
             "name": "mlaa/hc-auth",
@@ -7916,6 +7937,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/faculty-child": 20,
         "mlaa/hc-auth": 20,
         "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
