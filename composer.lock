@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9e5240c94dbf8b0ba2f60d088e7c929",
+    "content-hash": "c603b49445638ad95d21b8060c86408a",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -801,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/faculty-child.git",
-                "reference": "81c39ec"
+                "reference": "e6d27c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/faculty-child/zipball/81c39ec",
-                "reference": "81c39ec",
+                "url": "https://api.github.com/repos/mlaa/faculty-child/zipball/e6d27c8",
+                "reference": "e6d27c8",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -814,7 +814,7 @@
                 "source": "https://github.com/mlaa/faculty-child/tree/master",
                 "issues": "https://github.com/mlaa/faculty-child/issues"
             },
-            "time": "2019-04-29 17:49:41"
+            "time": "2019-04-30 13:56:49"
         },
         {
             "name": "mlaa/hc-auth",
