@@ -53,6 +53,8 @@ define( 'WPCOM_API_KEY', getenv( 'WPCOM_API_KEY' ) );
  * Logging
  */
 define( 'WP_LOGS_DIR', getenv( 'WP_LOGS_DIR' ) );
+define('BPGES_DEBUG_LOG_PATH', getenv('BPGES_DEBUG_LOG_PATH'));
+define('BPGES_DEBUG', getenv('BPGES_DEBUG'));
 
 // W3 Total Cache
 define( 'WP_CACHE', getenv( 'WP_CACHE' ) );
@@ -84,6 +86,7 @@ define( 'CAA_SITE_URL', getenv( 'CAA_SITE_URL' ) );
 define( 'MLA_SITE_URL', getenv( 'MLA_SITE_URL' ) );
 define( 'MSU_SITE_URL', getenv( 'MSU_SITE_URL' ) );
 define( 'UP_SITE_URL', getenv( 'UP_SITE_URL' ) );
+define( 'SATOSA_SERVER_URL', getenv( 'SATOSA_SERVER_URL' ) );
 define( 'REGISTRY_SERVER_URL', getenv( 'REGISTRY_SERVER_URL' ) );
 define( 'HC_ENROLLMENT_URL', getenv( 'HC_ENROLLMENT_URL' ) );
 define( 'AJS_ENROLLMENT_URL', getenv( 'AJS_ENROLLMENT_URL' ) );

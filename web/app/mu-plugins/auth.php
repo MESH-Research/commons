@@ -55,7 +55,8 @@ function hcommons_sync_bp_profile( $user ) {
 
 	$current_name = xprofile_get_field_data( 'Name', $user->ID );
 	if ( empty( $current_name ) ) {
-		$name = $_SERVER['HTTP_DISPLAYNAME']; // user record maybe not fully populated for first time users.
+		$server_displayname = !empty($_SERVER['HTTP_DISPLAYNAME']) && isset($_SERVER['HTTP_DISPLAYNAME']) ? $_SERVER['HTTP_DISPLAYNAME'] : '';
+		$name = $server_displayname;  // user record maybe not fully populated for first time users.
 		if ( ! empty( $name ) ) {
 			xprofile_set_field_data( 'Name', $user->ID, $name );
 		}
@@ -215,8 +216,8 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 		}
 	}
 	$result = update_user_meta( $user_id, 'shib_org', maybe_serialize( $shib_org_updated ) );
-
-	$shib_title = $_SERVER['HTTP_TITLE'];
+	$http_title = !empty($_SERVER['HTTP_TITLE'] ) && isset($_SERVER['HTTP_TITLE']) ? $_SERVER['HTTP_TITLE'] : '';
+	$shib_title = $http_title;
 	if ( false === strpos( $shib_title, ';' ) ) {
 		$shib_title_updated = $shib_title;
 	} else {
