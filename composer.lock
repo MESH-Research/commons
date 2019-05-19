@@ -53,7 +53,7 @@
                 "mime",
                 "mime-parser"
             ],
-            "time": "2017-03-13T20:03:51+00:00"
+            "time": "2017-03-13 20:03:51"
         },
         {
             "name": "boonebgorges/bp-groupblog",
@@ -226,7 +226,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13T20:53:52+00:00"
+            "time": "2016-08-13 20:53:52"
         },
         {
             "name": "cubell/15zine-functionality",
@@ -382,7 +382,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17T20:03:03+00:00"
+            "time": "2018-05-17 20:03:03"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -422,7 +422,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17T20:02:55+00:00"
+            "time": "2018-05-17 20:02:55"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -471,7 +471,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29T14:49:29+00:00"
+            "time": "2018-01-29 14:49:29"
         },
         {
             "name": "kreatura/layerslider",
@@ -1353,7 +1353,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-13T16:08:35+00:00"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "owwwlab/faculty",
@@ -1411,7 +1411,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "r-a-y/bbp-live-preview",
@@ -1587,7 +1587,7 @@
                 "search",
                 "solr"
             ],
-            "time": "2017-02-02T13:32:22+00:00"
+            "time": "2017-02-02 13:32:22"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -1623,7 +1623,7 @@
                 "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2018-05-11T22:11:04+00:00"
+            "time": "2018-05-11 22:11:04"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1637,7 +1637,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b2e1f19280c09a42dc64c0b72b80fe44dd6e88fb",
                 "reference": "b2e1f19280c09a42dc64c0b72b80fe44dd6e88fb",
-                "shasum": ""
+               "shasum": ""
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8"
@@ -1818,7 +1818,7 @@
                 "pptx",
                 "tika"
             ],
-            "time": "2017-06-07T22:04:57+00:00"
+            "time": "2017-06-07 22:04:57"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1868,7 +1868,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01T10:05:43+00:00"
+            "time": "2016-09-01 10:05:43"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -2396,12 +2396,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "trunk"
+                "reference": "tags/5.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1528652958",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.4.zip",
+                "reference": "tags/5.9.4",
                 "shasum": null
             },
             "require": {
@@ -2896,12 +2896,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/printfriendly/",
-                "reference": "trunk"
+                "reference": "tags/3.14.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/printfriendly.zip?timestamp=1526036515",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/printfriendly.3.14.2.zip",
+                "reference": "tags/3.14.2",
                 "shasum": null
             },
             "require": {
@@ -3356,12 +3356,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/7.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528890128",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.7.10.13.zip",
+                "reference": "tags/7.10.13",
                 "shasum": null
             },
             "require": {
@@ -3411,6 +3411,26 @@
             "homepage": "https://wordpress.org/plugins/wp-markdown/"
         },
         {
+            "name": "wpackagist-plugin/wp-native-php-sessions",
+            "version": "0.6.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
+                "reference": "tags/0.6.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.6.zip",
+                "reference": "tags/0.6.6",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-native-php-sessions/"
+        },
+        {
             "name": "wpackagist-plugin/wp-polls",
             "version": "2.73.8",
             "source": {
@@ -3449,6 +3469,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-pro-quiz/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-redis",
+            "version": "0.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-redis/",
+                "reference": "tags/0.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-redis.0.6.1.zip",
+                "reference": "tags/0.6.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-redis/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-saml-auth",
+            "version": "0.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-saml-auth/",
+                "reference": "tags/0.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-saml-auth.0.3.9.zip",
+                "reference": "tags/0.3.9",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-saml-auth/"
         },
         {
             "name": "wpackagist-plugin/wp-to-twitter",
@@ -4127,7 +4187,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2017-08-30T11:04:43+00:00"
+           "time": "2017-08-30T11:04:43+00:00"
         },
         {
             "name": "brain/hierarchy",
@@ -4471,7 +4531,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14T21:17:01+00:00"
+            "time": "2015-06-14 21:17:01"
         },
         {
             "name": "facebook/webdriver",
@@ -4647,7 +4707,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "time": "2016-12-20 10:07:11"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -5217,7 +5277,109 @@
                 "dev",
                 "scripts"
             ],
-            "time": "2017-12-20T08:51:12+00:00"
+            "time": "2017-12-20 08:51:12"
+        },
+        {
+            "name": "phar-io/manifest",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/manifest.git",
+                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/2df402786ab5368a0169091f61a7c1e0eb6852d0",
+                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-phar": "*",
+                "phar-io/version": "^1.0.1",
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
+            "time": "2017-03-05 18:14:27"
+        },
+        {
+            "name": "phar-io/version",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/version.git",
+                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/a70c0ced4be299a63d32fa96d9281d03e94041df",
+                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library for handling version information and constraints",
+            "time": "2017-03-05 17:38:23"
         },
         {
             "name": "nesbot/carbon",
@@ -5740,7 +5902,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21T13:50:34+00:00"
+            "time": "2015-06-21 13:50:34"
         },
         {
             "name": "phpunit/php-timer",
@@ -6697,7 +6859,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2015-07-28T20:34:47+00:00"
+            "time": "2015-07-28 20:34:47"
         },
         {
             "name": "sebastian/version",
@@ -6740,7 +6902,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03T07:35:21+00:00"
+            "time": "2016-10-03 07:35:21"
         },
         {
             "name": "soberwp/controller",
@@ -6843,7 +7005,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-20T21:35:23+00:00"
+            "time": "2018-02-20 21:35:23"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -6888,7 +7050,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2016-02-24T05:08:54+00:00"
+            "time": "2016-02-24 05:08:54"
         },
         {
             "name": "symfony/browser-kit",
@@ -7649,7 +7811,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2018-02-16T01:57:48+00:00"
+            "time": "2018-02-16 01:57:48"
         },
         {
             "name": "wpackagist-plugin/better-http-redirects",
