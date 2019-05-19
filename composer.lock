@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5811a9b0aba4bf496af953722b40bf13",
+    "content-hash": "9662ff5e9639a0d7c3bbacf71aac7c39",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -501,12 +501,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "6455340"
+                "reference": "57e86c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/6455340",
-                "reference": "6455340",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/57e86c9",
+                "reference": "57e86c9",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -514,7 +514,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2019-03-06 19:24:43"
+            "time": "2019-03-28 19:01:13"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -569,12 +569,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bp-group-documents.git",
-                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68"
+                "reference": "6164ee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6072b5a7ceabf664e035247bc836ea90b8112d68",
-                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68",
+                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6164ee7",
+                "reference": "6164ee7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -582,7 +582,7 @@
                 "source": "https://github.com/mlaa/bp-group-documents/tree/master",
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
-            "time": "2017-07-05 17:42:39"
+            "time": "2019-03-28 19:00:29"
         },
         {
             "name": "mlaa/bp-mpo-activity-filter",
@@ -796,6 +796,27 @@
             "time": "2018-06-25 13:28:22"
         },
         {
+            "name": "mlaa/faculty-child",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/faculty-child.git",
+                "reference": "e6d27c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/faculty-child/zipball/e6d27c8",
+                "reference": "e6d27c8",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/faculty-child/tree/master",
+                "issues": "https://github.com/mlaa/faculty-child/issues"
+            },
+            "time": "2019-04-30 13:56:49"
+        },
+        {
             "name": "mlaa/hc-auth",
             "version": "dev-master",
             "source": {
@@ -822,12 +843,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "8f5488d"
+                "reference": "6a53c50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/8f5488d",
-                "reference": "8f5488d",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/6a53c50",
+                "reference": "6a53c50",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -835,7 +856,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/develop",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2019-03-06 19:23:53"
+            "time": "2019-05-19 14:54:48"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -971,24 +992,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-feature-simplesaml",
+            "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "2f84379"
+                "reference": "9ae8a15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/2f84379",
-                "reference": "2f84379",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9ae8a15",
+                "reference": "9ae8a15",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/feature-simplesaml",
+                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-03-29 16:50:51"
+            "time": "2019-05-19 15:58:22"
         },
         {
             "name": "mlaa/humcore",
@@ -996,12 +1017,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "dcacff7"
+                "reference": "6e76bd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/dcacff7",
-                "reference": "dcacff7",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/6e76bd1",
+                "reference": "6e76bd1",
                 "shasum": ""
             },
             "require": {
@@ -1020,7 +1041,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2018-11-30 18:53:40"
+            "time": "2019-05-19 15:24:28"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1078,12 +1099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-allowed-tags.git",
-                "reference": "b302f21"
+                "reference": "06bb021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/b302f21",
-                "reference": "b302f21",
+                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/06bb021",
+                "reference": "06bb021",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1091,7 +1112,7 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2018-05-23 16:03:27"
+            "time": "2019-05-01 13:05:10"
         },
         {
             "name": "mlaa/mla-style-custom",
@@ -1099,10 +1120,10 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:mlaa/mla-style-custom.git",
-                "reference": "e107d03"
+                "reference": "06d62d1"
             },
             "type": "wordpress-plugin",
-            "time": "2019-02-26 15:58:11"
+            "time": "2019-04-22 19:05:27"
         },
         {
             "name": "mlaa/password-protected",
@@ -1223,12 +1244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "c1e8889"
+                "reference": "30a85ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/c1e8889",
-                "reference": "c1e8889",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/30a85ac",
+                "reference": "30a85ac",
                 "shasum": ""
             },
             "require": {
@@ -1243,7 +1264,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-02-25 16:47:10"
+            "time": "2019-04-22 19:04:37"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -8078,6 +8099,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/faculty-child": 20,
         "mlaa/hc-auth": 20,
         "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
