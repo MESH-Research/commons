@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9662ff5e9639a0d7c3bbacf71aac7c39",
+    "content-hash": "5b12c4fbda27abdea103b8be4ae2fd62",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -53,7 +53,7 @@
                 "mime",
                 "mime-parser"
             ],
-            "time": "2017-03-13 20:03:51"
+            "time": "2017-03-13T20:03:51+00:00"
         },
         {
             "name": "boonebgorges/bp-groupblog",
@@ -64,7 +64,7 @@
                 "reference": "286843d"
             },
             "type": "wordpress-plugin",
-            "time": "2018-07-19 02:12:27"
+            "time": "2018-07-19T02:12:27+00:00"
         },
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -75,7 +75,7 @@
                 "reference": "2cd9b53"
             },
             "type": "wordpress-plugin",
-            "time": "2016-12-21 18:48:03"
+            "time": "2016-12-21T18:48:03+00:00"
         },
         {
             "name": "boonebgorges/buddypress-group-email-subscription",
@@ -86,7 +86,7 @@
                 "reference": "load-order"
             },
             "type": "wordpress-plugin",
-            "time": "2018-08-20 16:41:49"
+            "time": "2018-08-20T16:41:49+00:00"
         },
         {
             "name": "buddyboss/boss",
@@ -226,7 +226,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-08-13 20:53:52"
+            "time": "2016-08-13T20:53:52+00:00"
         },
         {
             "name": "cubell/15zine-functionality",
@@ -252,7 +252,7 @@
                 "reference": "685bc9d"
             },
             "type": "wordpress-plugin",
-            "time": "2018-12-12 20:49:01"
+            "time": "2018-12-12T20:49:01+00:00"
         },
         {
             "name": "cuny-academic-commons/cbox-theme",
@@ -273,7 +273,7 @@
                 "source": "https://github.com/cuny-academic-commons/cbox-theme/tree/master",
                 "issues": "https://github.com/cuny-academic-commons/cbox-theme/issues"
             },
-            "time": "2016-02-16 16:43:15"
+            "time": "2016-02-16T16:43:15+00:00"
         },
         {
             "name": "cuny-academic-commons/external-group-blogs",
@@ -284,7 +284,7 @@
                 "reference": "1.6.1"
             },
             "type": "wordpress-plugin",
-            "time": "2016-09-22 16:41:41"
+            "time": "2016-09-22T16:41:41+00:00"
         },
         {
             "name": "envato/wordpress-toolkit",
@@ -382,7 +382,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17 20:03:03"
+            "time": "2018-05-17T20:03:03+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -422,7 +422,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17 20:02:55"
+            "time": "2018-05-17T20:02:55+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -471,7 +471,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2018-01-29 14:49:29"
+            "time": "2018-01-29T14:49:29+00:00"
         },
         {
             "name": "kreatura/layerslider",
@@ -493,7 +493,7 @@
                 "reference": "5aaaa29"
             },
             "type": "wordpress-plugin",
-            "time": "2017-07-17 20:43:13"
+            "time": "2017-07-17T20:43:13+00:00"
         },
         {
             "name": "mlaa/boss-child",
@@ -514,7 +514,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2019-03-28 19:01:13"
+            "time": "2019-03-28T19:01:13+00:00"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -535,7 +535,7 @@
                 "source": "https://github.com/mlaa/bp-attachment-xprofile-field-type/tree/master",
                 "issues": "https://github.com/mlaa/bp-attachment-xprofile-field-type/issues"
             },
-            "time": "2017-11-16 17:04:32"
+            "time": "2017-11-16T17:04:32+00:00"
         },
         {
             "name": "mlaa/bp-block-member",
@@ -561,7 +561,7 @@
                 "reference": "3259b8d"
             },
             "type": "wordpress-plugin",
-            "time": "2017-02-23 19:31:52"
+            "time": "2017-02-23T19:31:52+00:00"
         },
         {
             "name": "mlaa/bp-group-documents",
@@ -582,7 +582,7 @@
                 "source": "https://github.com/mlaa/bp-group-documents/tree/master",
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
-            "time": "2019-03-28 19:00:29"
+            "time": "2019-03-28T19:00:29+00:00"
         },
         {
             "name": "mlaa/bp-mpo-activity-filter",
@@ -593,7 +593,7 @@
                 "reference": "b3cd2e6"
             },
             "type": "wordpress-plugin",
-            "time": "2018-04-02 18:50:00"
+            "time": "2018-04-02T18:50:00+00:00"
         },
         {
             "name": "mlaa/buddypress",
@@ -604,7 +604,7 @@
                 "reference": "03b17d2"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-30 20:44:17"
+            "time": "2018-01-30T20:44:17+00:00"
         },
         {
             "name": "mlaa/buddypress-docs-minor-edit",
@@ -625,7 +625,7 @@
                 "source": "https://github.com/mlaa/buddypress-docs-minor-edit/tree/master",
                 "issues": "https://github.com/mlaa/buddypress-docs-minor-edit/issues"
             },
-            "time": "2016-06-29 21:14:47"
+            "time": "2016-06-29T21:14:47+00:00"
         },
         {
             "name": "mlaa/buddypress-messages-spam-blocker",
@@ -636,7 +636,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2017-03-01 14:47:56"
+            "time": "2017-03-01T14:47:56+00:00"
         },
         {
             "name": "mlaa/bwp-google-xml-sitemaps",
@@ -657,7 +657,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -682,7 +682,7 @@
                 "source": "https://github.com/mlaa/cbox-auth/tree/master",
                 "issues": "https://github.com/mlaa/cbox-auth/issues"
             },
-            "time": "2016-12-01 13:22:13"
+            "time": "2016-12-01T13:22:13+00:00"
         },
         {
             "name": "mlaa/cbox-mla-blog",
@@ -707,7 +707,7 @@
                 "source": "https://github.com/mlaa/cbox-mla-blog/tree/master",
                 "issues": "https://github.com/mlaa/cbox-mla-blog/issues"
             },
-            "time": "2018-01-17 18:14:50"
+            "time": "2018-01-17T18:14:50+00:00"
         },
         {
             "name": "mlaa/commentpress-mla",
@@ -732,7 +732,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla/issues"
             },
-            "time": "2018-05-08 14:24:36"
+            "time": "2018-05-08T14:24:36+00:00"
         },
         {
             "name": "mlaa/commentpress-mla-digitalpedagogy",
@@ -757,7 +757,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla-digitalpedagogy/issues"
             },
-            "time": "2016-03-28 04:03:52"
+            "time": "2016-03-28T04:03:52+00:00"
         },
         {
             "name": "mlaa/commentpress-mla-groups",
@@ -782,7 +782,7 @@
                 "source": "https://github.com/mlaa/commentpress-mla-groups/tree/master",
                 "issues": "https://github.com/mlaa/commentpress-mla-groups/issues"
             },
-            "time": "2016-03-28 04:11:20"
+            "time": "2016-03-28T04:11:20+00:00"
         },
         {
             "name": "mlaa/elasticpress-buddypress",
@@ -793,7 +793,7 @@
                 "reference": "7e2944f"
             },
             "type": "wordpress-plugin",
-            "time": "2018-06-25 13:28:22"
+            "time": "2018-06-25T13:28:22+00:00"
         },
         {
             "name": "mlaa/faculty-child",
@@ -814,7 +814,7 @@
                 "source": "https://github.com/mlaa/faculty-child/tree/master",
                 "issues": "https://github.com/mlaa/faculty-child/issues"
             },
-            "time": "2019-04-30 13:56:49"
+            "time": "2019-04-30T13:56:49+00:00"
         },
         {
             "name": "mlaa/hc-auth",
@@ -835,7 +835,7 @@
                 "source": "https://github.com/mlaa/hc-auth/tree/master",
                 "issues": "https://github.com/mlaa/hc-auth/issues"
             },
-            "time": "2018-02-22 20:42:58"
+            "time": "2018-02-22T20:42:58+00:00"
         },
         {
             "name": "mlaa/hc-custom",
@@ -856,7 +856,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/develop",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2019-05-19 14:54:48"
+            "time": "2019-05-19T14:54:48+00:00"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -877,7 +877,7 @@
                 "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2018-06-25 13:45:14"
+            "time": "2018-06-25T13:45:14+00:00"
         },
         {
             "name": "mlaa/hc-notifications",
@@ -898,7 +898,7 @@
                 "source": "https://github.com/mlaa/hc-notifications/tree/master",
                 "issues": "https://github.com/mlaa/hc-notifications/issues"
             },
-            "time": "2018-06-14 15:57:56"
+            "time": "2018-06-14T15:57:56+00:00"
         },
         {
             "name": "mlaa/hc-protect-uploads",
@@ -919,7 +919,7 @@
                 "source": "https://github.com/mlaa/hc-protect-uploads/tree/master",
                 "issues": "https://github.com/mlaa/hc-protect-uploads/issues"
             },
-            "time": "2018-04-05 20:47:54"
+            "time": "2018-04-05T20:47:54+00:00"
         },
         {
             "name": "mlaa/hc-provisional-content",
@@ -940,7 +940,7 @@
                 "source": "https://github.com/mlaa/hc-provisional-content/tree/master",
                 "issues": "https://github.com/mlaa/hc-provisional-content/issues"
             },
-            "time": "2017-10-02 19:07:35"
+            "time": "2017-10-02T19:07:35+00:00"
         },
         {
             "name": "mlaa/hc-styles",
@@ -967,7 +967,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2019-02-08 17:25:18"
+            "time": "2019-02-08T17:25:18+00:00"
         },
         {
             "name": "mlaa/hc-suggestions",
@@ -988,28 +988,28 @@
                 "source": "https://github.com/mlaa/hc-suggestions/tree/master",
                 "issues": "https://github.com/mlaa/hc-suggestions/issues"
             },
-            "time": "2018-06-25 14:50:01"
+            "time": "2018-06-25T14:50:01+00:00"
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-develop",
+            "version": "dev-feature-simplesaml-0519",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "9ae8a15"
+                "reference": "5034c8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9ae8a15",
-                "reference": "9ae8a15",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/5034c8b",
+                "reference": "5034c8b",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/feature-simplesaml-0519",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2019-05-19 15:58:22"
+            "time": "2019-05-20T15:11:55+00:00"
         },
         {
             "name": "mlaa/humcore",
@@ -1041,7 +1041,7 @@
                 "source": "https://github.com/mlaa/humcore/tree/develop",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2019-05-19 15:24:28"
+            "time": "2019-05-19T15:24:28+00:00"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1066,7 +1066,7 @@
                 "source": "https://github.com/mlaa/mla-academic-interests/tree/master",
                 "issues": "https://github.com/mlaa/mla-academic-interests/issues"
             },
-            "time": "2017-10-12 17:18:31"
+            "time": "2017-10-12T17:18:31+00:00"
         },
         {
             "name": "mlaa/mla-admin-bar",
@@ -1091,7 +1091,7 @@
                 "source": "https://github.com/mlaa/mla-admin-bar/tree/master",
                 "issues": "https://github.com/mlaa/mla-admin-bar/issues"
             },
-            "time": "2015-10-29 18:17:14"
+            "time": "2015-10-29T18:17:14+00:00"
         },
         {
             "name": "mlaa/mla-allowed-tags",
@@ -1112,7 +1112,7 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2019-05-01 13:05:10"
+            "time": "2019-05-01T13:05:10+00:00"
         },
         {
             "name": "mlaa/mla-style-custom",
@@ -1123,7 +1123,7 @@
                 "reference": "06d62d1"
             },
             "type": "wordpress-plugin",
-            "time": "2019-04-22 19:05:27"
+            "time": "2019-04-22T19:05:27+00:00"
         },
         {
             "name": "mlaa/password-protected",
@@ -1134,7 +1134,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2016-11-08 14:54:15"
+            "time": "2016-11-08T14:54:15+00:00"
         },
         {
             "name": "mlaa/plugin-monitor",
@@ -1155,7 +1155,7 @@
                 "source": "https://github.com/mlaa/plugin-monitor/tree/master",
                 "issues": "https://github.com/mlaa/plugin-monitor/issues"
             },
-            "time": "2018-06-20 16:42:53"
+            "time": "2018-06-20T16:42:53+00:00"
         },
         {
             "name": "mlaa/profession-theme",
@@ -1180,7 +1180,7 @@
                 "source": "https://github.com/mlaa/profession-theme/tree/master",
                 "issues": "https://github.com/mlaa/profession-theme/issues"
             },
-            "time": "2018-08-08 19:04:54"
+            "time": "2018-08-08T19:04:54+00:00"
         },
         {
             "name": "mlaa/shibboleth",
@@ -1204,7 +1204,7 @@
             "support": {
                 "source": "https://github.com/mlaa/shibboleth/tree/master"
             },
-            "time": "2018-06-28 16:54:06"
+            "time": "2018-06-28T16:54:06+00:00"
         },
         {
             "name": "mlaa/sparkpost",
@@ -1215,7 +1215,7 @@
                 "reference": "e0ffe49"
             },
             "type": "wordpress-plugin",
-            "time": "2017-11-09 19:03:27"
+            "time": "2017-11-09T19:03:27+00:00"
         },
         {
             "name": "mlaa/sparkpost-bp-mailer",
@@ -1236,7 +1236,7 @@
                 "source": "https://github.com/mlaa/sparkpost-bp-mailer/tree/master",
                 "issues": "https://github.com/mlaa/sparkpost-bp-mailer/issues"
             },
-            "time": "2016-07-29 17:09:02"
+            "time": "2016-07-29T17:09:02+00:00"
         },
         {
             "name": "mlaa/style-center",
@@ -1264,7 +1264,7 @@
                 "source": "https://github.com/mlaa/style-center/tree/develop",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2019-04-22 19:04:37"
+            "time": "2019-04-22T19:04:37+00:00"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1353,7 +1353,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-03-13 16:08:35"
+            "time": "2016-03-13T16:08:35+00:00"
         },
         {
             "name": "owwwlab/faculty",
@@ -1411,7 +1411,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "r-a-y/bbp-live-preview",
@@ -1422,7 +1422,7 @@
                 "reference": "5737ac3"
             },
             "type": "wordpress-plugin",
-            "time": "2017-10-03 16:10:09"
+            "time": "2017-10-03T16:10:09+00:00"
         },
         {
             "name": "r-a-y/bp-rbe-inbound-forum-attachments",
@@ -1460,7 +1460,7 @@
                 "source": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/tree/master",
                 "issues": "https://github.com/r-a-y/bp-rbe-inbound-forum-attachments/issues"
             },
-            "time": "2017-12-24 19:06:55"
+            "time": "2017-12-24T19:06:55+00:00"
         },
         {
             "name": "r-a-y/bp-rbe-new-topic",
@@ -1471,7 +1471,7 @@
                 "reference": "958a28f"
             },
             "type": "wordpress-plugin",
-            "time": "2018-04-25 16:14:56"
+            "time": "2018-04-25T16:14:56+00:00"
         },
         {
             "name": "r-a-y/bp-reply-by-email",
@@ -1482,7 +1482,7 @@
                 "reference": "b09c020"
             },
             "type": "wordpress-plugin",
-            "time": "2018-05-14 20:48:14"
+            "time": "2018-05-14T20:48:14+00:00"
         },
         {
             "name": "r-a-y/buddypress-followers",
@@ -1587,7 +1587,7 @@
                 "search",
                 "solr"
             ],
-            "time": "2017-02-02 13:32:22"
+            "time": "2017-02-02T13:32:22+00:00"
         },
         {
             "name": "stuttter/wp-multi-network",
@@ -1623,7 +1623,7 @@
                 "source": "https://github.com/stuttter/wp-multi-network/tree/2.2.0",
                 "issues": "https://github.com/stuttter/wp-multi-network/issues"
             },
-            "time": "2018-05-11 22:11:04"
+            "time": "2018-05-11T22:11:04+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1637,7 +1637,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b2e1f19280c09a42dc64c0b72b80fe44dd6e88fb",
                 "reference": "b2e1f19280c09a42dc64c0b72b80fe44dd6e88fb",
-               "shasum": ""
+                "shasum": ""
             },
             "require": {
                 "php": "^5.5.9|>=7.0.8"
@@ -1764,7 +1764,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-04 19:25:17"
+            "time": "2018-01-04T19:25:17+00:00"
         },
         {
             "name": "vaites/php-apache-tika",
@@ -1818,7 +1818,7 @@
                 "pptx",
                 "tika"
             ],
-            "time": "2017-06-07 22:04:57"
+            "time": "2017-06-07T22:04:57+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1868,7 +1868,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2016-09-01 10:05:43"
+            "time": "2016-09-01T10:05:43+00:00"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -4128,7 +4128,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2014-01-12 20:30:40"
+            "time": "2014-01-12T20:30:40+00:00"
         },
         {
             "name": "behat/gherkin",
@@ -4187,7 +4187,7 @@
                 "gherkin",
                 "parser"
             ],
-           "time": "2017-08-30T11:04:43+00:00"
+            "time": "2017-08-30T11:04:43+00:00"
         },
         {
             "name": "brain/hierarchy",
@@ -4531,7 +4531,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14 21:17:01"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "facebook/webdriver",
@@ -4707,7 +4707,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -5182,7 +5182,7 @@
                 "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
                 "issues": "https://github.com/modelm/buddypress-body-classes/issues"
             },
-            "time": "2017-07-14 15:05:32"
+            "time": "2017-07-14T15:05:32+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5277,109 +5277,7 @@
                 "dev",
                 "scripts"
             ],
-            "time": "2017-12-20 08:51:12"
-        },
-        {
-            "name": "phar-io/manifest",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phar-io/manifest.git",
-                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/manifest/zipball/2df402786ab5368a0169091f61a7c1e0eb6852d0",
-                "reference": "2df402786ab5368a0169091f61a7c1e0eb6852d0",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-phar": "*",
-                "phar-io/version": "^1.0.1",
-                "php": "^5.6 || ^7.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
-            "time": "2017-03-05 18:14:27"
-        },
-        {
-            "name": "phar-io/version",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phar-io/version.git",
-                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/version/zipball/a70c0ced4be299a63d32fa96d9281d03e94041df",
-                "reference": "a70c0ced4be299a63d32fa96d9281d03e94041df",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6 || ^7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Arne Blankerts",
-                    "email": "arne@blankerts.de",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Sebastian Heuer",
-                    "email": "sebastian@phpeople.de",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Library for handling version information and constraints",
-            "time": "2017-03-05 17:38:23"
+            "time": "2017-12-20T08:51:12+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -5902,7 +5800,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -6859,7 +6757,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2015-07-28 20:34:47"
+            "time": "2015-07-28T20:34:47+00:00"
         },
         {
             "name": "sebastian/version",
@@ -6902,7 +6800,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2016-10-03 07:35:21"
+            "time": "2016-10-03T07:35:21+00:00"
         },
         {
             "name": "soberwp/controller",
@@ -7005,7 +6903,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-02-20 21:35:23"
+            "time": "2018-02-20T21:35:23+00:00"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -7050,7 +6948,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2016-02-24 05:08:54"
+            "time": "2016-02-24T05:08:54+00:00"
         },
         {
             "name": "symfony/browser-kit",
@@ -7811,7 +7709,7 @@
                 "standards",
                 "wordpress"
             ],
-            "time": "2018-02-16 01:57:48"
+            "time": "2018-02-16T01:57:48+00:00"
         },
         {
             "name": "wpackagist-plugin/better-http-redirects",
