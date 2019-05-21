@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b12c4fbda27abdea103b8be4ae2fd62",
+    "content-hash": "56c9811124fc409cee53977ae5c63284",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -497,24 +497,24 @@
         },
         {
             "name": "mlaa/boss-child",
-            "version": "dev-master",
+            "version": "dev-feature-satosa",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "57e86c9"
+                "reference": "3aace7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/57e86c9",
-                "reference": "57e86c9",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/3aace7f",
+                "reference": "3aace7f",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/feature-satosa",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2019-03-28T19:01:13+00:00"
+            "time": "2019-05-16T15:15:16+00:00"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
