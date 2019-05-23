@@ -156,6 +156,18 @@
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphiql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql-tax-query.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "mlaa/bbPress-Export-and-Import",
@@ -533,6 +545,9 @@
     "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
     "vlucas/phpdotenv": "^2.4",
+    "wp-graphql/wp-graphiql": "dev-master",
+    "wp-graphql/wp-graphql": "dev-master",
+    "wp-graphql/wp-graphql-tax-query": "dev-master",
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/anthologize": "^0.7.8",
     "wpackagist-plugin/autoptimize": "^2.3",
