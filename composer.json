@@ -65,6 +65,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/faculty-child.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/hc-member-profiles.git"
     },
     {
@@ -150,6 +154,18 @@
     {
       "type": "vcs",
       "url": "git@github.com:stuttter/wp-multi-network.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphiql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql-tax-query.git"
     },
     {
       "type": "package",
@@ -388,6 +404,19 @@
     {
       "type": "package",
       "package": {
+        "name": "mlaa/mla-style-custom",
+        "version": "dev-develop",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:mlaa/mla-style-custom.git",
+          "type": "git",
+          "reference": "develop"
+        }
+      } 
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "uglyrobot/multisite-plugin-manager",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -458,11 +487,11 @@
     "johnpbloch/wordpress": "^4.9",
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
-    "mlaa/boss-child": "dev-master#6455340",
+    "mlaa/boss-child": "dev-master#57e86c9",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
-    "mlaa/bp-group-documents": "dev-master",
+    "mlaa/bp-group-documents": "dev-master#6164ee7",
     "mlaa/bp-mpo-activity-filter": "dev-master#b3cd2e6",
     "mlaa/buddypress": "dev-hcommons-2.9.3#03b17d2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
@@ -474,27 +503,28 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
+    "mlaa/faculty-child": "dev-master#e6d27c8",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-develop#8f5488d",
+    "mlaa/hc-custom": "dev-develop#6a53c50",
     "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
     "mlaa/hc-notifications": "dev-master#ac409d0",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#093d3a1",
     "mlaa/hc-suggestions": "dev-master#66358a7",
-    "mlaa/humanities-commons": "dev-feature-simplesaml#2f84379",
-    "mlaa/humcore": "dev-develop#dcacff7",
+    "mlaa/humanities-commons": "dev-develop#9ae8a15",
+    "mlaa/humcore": "dev-develop#6e76bd1",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
-    "mlaa/mla-allowed-tags": "dev-master#b302f21",
-    "mlaa/mla-style-custom": "dev-develop#e107d03",
+    "mlaa/mla-allowed-tags": "dev-master#06bb021",
+    "mlaa/mla-style-custom": "dev-develop#06d62d1",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
     "mlaa/profession-theme": "dev-master#6cf8ac5",
     "mlaa/shibboleth": "dev-master#2849e37",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-develop#c1e8889",
+    "mlaa/style-center": "dev-develop#30a85ac",
     "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
     "owwwlab/faculty": "^3.11",
@@ -515,6 +545,9 @@
     "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
     "vlucas/phpdotenv": "^2.4",
+    "wp-graphql/wp-graphiql": "dev-master",
+    "wp-graphql/wp-graphql": "dev-master",
+    "wp-graphql/wp-graphql-tax-query": "dev-master",
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/anthologize": "^0.7.8",
     "wpackagist-plugin/autoptimize": "^2.3",
@@ -624,6 +657,7 @@
     "wpackagist-theme/vantage": "^1.5",
     "wpackagist-theme/wp-bootstrap-starter": "^3.0",
     "wpbakery/visual-composer": "^5.2",
+    "wpdatatables": "^2.2",
     "wpmudev/google-analytics-async": "3.1.7.1",
     "wpninjas/ninja-forms-conditional-logic": "^3.0",
     "wpninjas/ninja-forms-layout-styles": "^3.0",
