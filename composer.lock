@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08eebd441be50187cc291a4d528806a3",
+    "content-hash": "bc75f60ec66625a196cbd499cd053324",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -985,12 +985,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "5034c8b"
+                "reference": "668f4f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/5034c8b",
-                "reference": "5034c8b",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/668f4f9",
+                "reference": "668f4f9",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -998,7 +998,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/feature-simplesaml-0519",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2019-05-20T15:11:55+00:00"
+            "time": "2019-05-29T17:11:16+00:00"
         },
         {
             "name": "mlaa/humcore",
