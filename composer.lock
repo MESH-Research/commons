@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cecd84635766ea9ce2ac962686b6f70",
+    "content-hash": "26d38d712134c4737ee6347e5b40cb79",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1033,24 +1033,24 @@
         },
         {
             "name": "mlaa/humanities-commons",
-            "version": "dev-develop",
+            "version": "dev-feature-satosa",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "9ae8a15"
+                "reference": "a0d8341"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/9ae8a15",
-                "reference": "9ae8a15",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/a0d8341",
+                "reference": "a0d8341",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/develop",
+                "source": "https://github.com/mlaa/humanities-commons/tree/feature-satosa",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2019-05-19 15:58:22"
+            "time": "2019-05-29 13:46:48"
         },
         {
             "name": "mlaa/humcore",
