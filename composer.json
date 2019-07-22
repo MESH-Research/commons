@@ -109,6 +109,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mailpoet.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/mla-academic-interests.git"
     },
     {
@@ -514,6 +518,7 @@
     "mlaa/hc-suggestions": "dev-master#66358a7",
     "mlaa/humanities-commons": "dev-feature-satosa#a0d8341",
     "mlaa/humcore": "dev-develop#6e76bd1",
+    "mlaa/mailpoet": "dev-multisite-fix#de7081e",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#06bb021",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2318e628158a87b1436f01c733fb0135",
+    "content-hash": "36e3c7f83bd073e8549ffe5778688986",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1083,6 +1083,27 @@
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
             "time": "2019-05-19 15:24:28"
+        },
+        {
+            "name": "mlaa/mailpoet",
+            "version": "dev-multisite-fix",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mailpoet.git",
+                "reference": "de7081e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mailpoet/zipball/de7081e",
+                "reference": "de7081e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mailpoet/tree/multisite-fix",
+                "issues": "https://github.com/mlaa/mailpoet/issues"
+            },
+            "time": "2019-07-22 17:43:52"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -8165,6 +8186,7 @@
         "mlaa/hc-suggestions": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
+        "mlaa/mailpoet": 20,
         "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
