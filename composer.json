@@ -594,6 +594,7 @@
     "wpackagist-plugin/jquery-hover-footnotes": "^1.4",
     "wpackagist-plugin/knight-lab-timelinejs": "^3.6",
     "wpackagist-plugin/mashsharer": "^3.5",
+     "wpackagist-plugin/metronet-tag-manager":"1.5.4",
     "wpackagist-plugin/more-privacy-options": "4.6",
     "wpackagist-plugin/multisite-custom-css": "^1.0",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
@@ -716,3 +717,4 @@
     "sort-packages": true
   }
 }
+
