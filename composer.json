@@ -109,6 +109,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mailpoet.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/mla-academic-interests.git"
     },
     {
@@ -487,7 +491,7 @@
     "johnpbloch/wordpress": "^4.9",
     "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
-    "mlaa/boss-child": "dev-master#57e86c9",
+    "mlaa/boss-child": "dev-master#eab6923",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
@@ -505,15 +509,16 @@
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
     "mlaa/faculty-child": "dev-master#e6d27c8",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-develop#6a53c50",
-    "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
+    "mlaa/hc-custom": "dev-master#5beac1d",
+    "mlaa/hc-member-profiles": "dev-master#e94b569",
     "mlaa/hc-notifications": "dev-master#ac409d0",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
-    "mlaa/hc-styles": "dev-master#093d3a1",
+    "mlaa/hc-styles": "dev-master#6164a13",
     "mlaa/hc-suggestions": "dev-master#66358a7",
-    "mlaa/humanities-commons": "dev-develop#9ae8a15",
+    "mlaa/humanities-commons": "dev-feature-satosa#a0d8341",
     "mlaa/humcore": "dev-develop#6e76bd1",
+    "mlaa/mailpoet": "dev-multisite-fix#de7081e",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#06bb021",
