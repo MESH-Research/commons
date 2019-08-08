@@ -45,7 +45,7 @@ if ( ! defined( 'COOKIE_DOMAIN' ) ) {
 function hcommons_wpsa_filter_option( $value, string $option_name ) {
 	$defaults = array(
 		'connection_type'        => 'simplesamlphp',
-		'simplesamlphp_autoload' => '/srv/www/simplesamlphp/lib/_autoload.php',
+		'simplesamlphp_autoload' => '/var/www/html/simplesamlphp/lib/_autoload.php',
 		'auth_source'            => 'default-sp',
 		'auto_provision'         => true,
 		'permit_wp_login'        => false,

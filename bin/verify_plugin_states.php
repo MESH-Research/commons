@@ -53,7 +53,7 @@ PROBLEM: hc-auth is inactive on $hostname and active on mla.$hostname
 EOD;
 // the extra newline above is necessary to ensure the final line matches
 
-chdir( '/srv/www/commons/current/' );
+chdir( '/var/www/html' );
 
 foreach ( $networks as $network ) {
 	$url = $network . $hostname;

@@ -19,7 +19,7 @@ $all_networks_users = [];
 
 $hostname = trim( shell_exec( 'hostname' ) );
 
-chdir( '/srv/www/commons/current/' );
+chdir( '/var/www/html/' );
 
 foreach ( $networks as $network ) {
 	$url = $network . $hostname;

@@ -13,7 +13,7 @@ set -e
 # bash bin/index_elasticpress.bash
 #
 
-wp="sudo -u www-data /usr/local/bin/wp --path=/srv/www/commons/current/web/wp --url=$(hostname)"
+wp="sudo -u www-data /usr/local/bin/wp --path=/var/www/html/web/wp --url=$(hostname)"
 all_networks_wp=/home/ubuntu/all_networks_wp.bash
 
 if [[ "$1" = "setup" ]]
