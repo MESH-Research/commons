@@ -20,24 +20,24 @@
   },
   "homepage": "https://github.com/mlaa/commons#readme",
   "devDependencies": {
-    "browser-sync": "^2.15.0",
-    "dotenv": "^2.0.0",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.0.12",
-    "gulp-concat": "^2.6.0",
-    "gulp-connect-php": "0.0.8",
+    "browser-sync": "^2.26.7",
+    "dotenv": "^8.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "1.0.3",
     "gulp-env": "^0.4.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-shell": "^0.5.2",
-    "gulp-uglify": "^2.0.0",
-    "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.3.9",
-    "portscanner": "^1.0.0"
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-shell": "^0.7.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "portscanner": "^2.2.0"
   },
   "dependencies": {
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^4.0.2"
   }
 }

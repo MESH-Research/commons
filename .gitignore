@@ -7,12 +7,19 @@ web/app/upgrade
 web/app/uploads
 web/app/debug.log
 web/app/cache
+web/logs
 
 # WordPress
 web/wp
 
 # Dotenv
 .env
+
+# MacOs files
+.idea
+.DS_Store
+*.lock
+
 
 # Vendor (e.g. Composer)
 vendor/*
