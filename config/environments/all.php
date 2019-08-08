@@ -8,6 +8,10 @@
  are specific to an environment, in the appropriate environment file).
  **/
 
+if(!$_SERVER['HTTP_HOST']) {
+	$_SERVER['HTTP_HOST'] = 'localhost';
+}
+
 /**
  * Apache Proxy Setting
  */
