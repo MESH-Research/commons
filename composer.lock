@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "830fd74e8b31fc6520ce2c86d8c164ec",
+    "content-hash": "5c26107bc006f3f12bafe05ecfbe562f",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1131,12 +1131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-allowed-tags.git",
-                "reference": "b302f21"
+                "reference": "06bb021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/b302f21",
-                "reference": "b302f21",
+                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/06bb021",
+                "reference": "06bb021",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1144,7 +1144,7 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2018-05-23 16:03:27"
+            "time": "2019-05-01 13:05:10"
         },
         {
             "name": "mlaa/password-protected",
