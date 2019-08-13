@@ -12,11 +12,12 @@ function hcommons_wp_footer() {
 	$is_society_blog = function () {
 		$society_blog_ids = [
 			constant( 'HC_ROOT_BLOG_ID' ),
-			constant( 'UP_ROOT_BLOG_ID' ),
 			constant( 'AJS_ROOT_BLOG_ID' ),
 			constant( 'ASEEES_ROOT_BLOG_ID' ),
 			constant( 'CAA_ROOT_BLOG_ID' ),
 			constant( 'MLA_ROOT_BLOG_ID' ),
+			constant( 'MSU_ROOT_BLOG_ID' ),
+			constant( 'UP_ROOT_BLOG_ID' ),
 		];
 
 		return in_array( (string) get_current_blog_id(), $society_blog_ids, true );
