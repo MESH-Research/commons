@@ -45,7 +45,7 @@ if ( ! defined( 'COOKIE_DOMAIN' ) ) {
 function hcommons_wpsa_filter_option( $value, string $option_name ) {
 	$defaults = array(
 		'connection_type'        => 'simplesamlphp',
-		'simplesamlphp_autoload' => '/var/www/html/simplesamlphp/lib/_autoload.php',
+		'simplesamlphp_autoload' => '/var/www/html/wordpress/web/app/mu-plugins/wp-saml-auth/simplesamlphp/lib/_autoload.php',
 		'auth_source'            => 'default-sp',
 		'auto_provision'         => true,
 		'permit_wp_login'        => false,
@@ -89,7 +89,12 @@ function hcommons_set_env_saml_attributes() {
 		return;
 	}
 
-	$attributes = WP_SAML_Auth::get_instance()->get_provider()->getAttributes();
+	$attributes = WP_SAML_Auth::get_instance();
+	var_dump($attributes);
+	$attributes = $attributes->get_provider();
+	var_dump($attributes);
+	$attributes = $attributes->getAttributes();
+	var_dump($attributes);
 	$IDP = $_SERVER['HTTP_SHIB_IDENTITY_PROVIDER'] = WP_SAML_Auth::get_instance()->get_provider()->getAuthData('saml:sp:IdP');
 
 	if ( empty( $attributes ) ) {
