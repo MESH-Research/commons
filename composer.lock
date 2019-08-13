@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "23d195c9620faeb4b7c7101268e04cfa",
+    "content-hash": "3c9822a628410875c51f78dad7e9bf96",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1007,12 +1007,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "84400cb"
+                "reference": "f645247"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/84400cb",
-                "reference": "84400cb",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/f645247",
+                "reference": "f645247",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1020,7 +1020,7 @@
                 "source": "https://github.com/mlaa/humanities-commons/tree/master",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-11-29 02:37:17"
+            "time": "2019-08-12 19:14:34"
         },
         {
             "name": "mlaa/humcore",
