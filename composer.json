@@ -151,6 +151,18 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphiql.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wp-graphql/wp-graphql-tax-query.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:stuttter/wp-multi-network.git"
     },
     {
@@ -519,6 +531,9 @@
     "themesindep/shortcodes-indep": "^3.0",
     "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
+    "wp-graphql/wp-graphiql": "dev-master",
+    "wp-graphql/wp-graphql": "dev-master",
+    "wp-graphql/wp-graphql-tax-query": "dev-master",
     "vlucas/phpdotenv": "^2.4",
     "wpackagist-plugin/akismet": "^4.0",
     "wpackagist-plugin/anthologize": "^0.7.8",
@@ -530,6 +545,7 @@
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
     "wpackagist-plugin/buddypress-docs": "1.9.4",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
+    "wpackagist-plugin/buddypress-restrict-group-creation": "1.1.1",
     "wpackagist-plugin/cac-featured-content": "1.0.7",
     "wpackagist-plugin/commentpress-core": "^3.9",
     "wpackagist-plugin/commons-in-a-box": "^1.0",
@@ -560,6 +576,7 @@
     "wpackagist-plugin/jquery-hover-footnotes": "^1.4",
     "wpackagist-plugin/knight-lab-timelinejs": "^3.6",
     "wpackagist-plugin/mashsharer": "^3.5",
+    "wpackagist-plugin/metronet-tag-manager": "1.5.4",
     "wpackagist-plugin/more-privacy-options": "4.6",
     "wpackagist-plugin/multisite-custom-css": "^1.0",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
