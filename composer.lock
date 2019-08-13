@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "295903f52b65a1fdabd4727112202028",
+    "content-hash": "43c4730822f094ac1dfcdd095acaa94e",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -490,12 +490,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "ced8ac4"
+                "reference": "b08574a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ced8ac4",
-                "reference": "ced8ac4",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b08574a",
+                "reference": "b08574a",
                 "shasum": ""
             },
             "type": "wordpress-theme",
@@ -503,7 +503,7 @@
                 "source": "https://github.com/mlaa/boss-child/tree/master",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-12-17 19:43:43"
+            "time": "2019-08-13 13:12:51"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -6425,7 +6425,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": null,
+                "reference": "tags/1.4.1",
                 "shasum": null
             },
             "require": {
@@ -6625,7 +6625,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-export-for-bbpress.2.0.1.zip",
-                "reference": null,
+                "reference": "tags/2.0.1",
                 "shasum": null
             },
             "require": {
