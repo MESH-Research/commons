@@ -115,6 +115,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/faculty-child.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/profession-theme.git"
     },
     {
@@ -453,6 +457,7 @@
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
+    "mlaa/faculty-child": "dev-master#e6d27c8",
     "mlaa/hc-auth": "dev-master#167c3843",
     "mlaa/hc-custom": "dev-master#b60202a",
     "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
