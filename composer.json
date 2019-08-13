@@ -115,6 +115,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:mlaa/mla-style-custom.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/plugin-monitor.git"
     },
     {
@@ -476,6 +480,7 @@
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
     "mlaa/mla-allowed-tags": "dev-master#06bb021",
+    "mlaa/mla-style-custom": "dev-hc-archive#11acc6f",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
     "mlaa/profession-theme": "dev-master",

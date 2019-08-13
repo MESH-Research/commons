@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c26107bc006f3f12bafe05ecfbe562f",
+    "content-hash": "445bf33be604e9dd5323d71e34730c72",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -1145,6 +1145,27 @@
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
             "time": "2019-05-01 13:05:10"
+        },
+        {
+            "name": "mlaa/mla-style-custom",
+            "version": "dev-hc-archive",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-style-custom.git",
+                "reference": "11acc6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-style-custom/zipball/11acc6f",
+                "reference": "11acc6f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-style-custom/tree/hc-archive",
+                "issues": "https://github.com/mlaa/mla-style-custom/issues"
+            },
+            "time": "2019-08-13 17:04:52"
         },
         {
             "name": "mlaa/password-protected",
@@ -6717,6 +6738,7 @@
         "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
+        "mlaa/mla-style-custom": 20,
         "mlaa/password-protected": 20,
         "mlaa/plugin-monitor": 20,
         "mlaa/profession-theme": 20,
