@@ -1,0 +1,748 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 15Zine 1.0\n"
+"POT-Creation-Date: 2015-07-23 16:22-0000\n"
+"PO-Revision-Date: 2015-07-23 16:22-0000\n"
+"Last-Translator: \n"
+"Language-Team: Cubell Themes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;gettext;gettext_noop;_n:1,2\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../library/admin\n"
+"X-Poedit-SearchPathExcluded-1: ../option-tree\n"
+"X-Poedit-SearchPathExcluded-2: ../plugins/login-with-ajax\n"
+"X-Poedit-SearchPathExcluded-3: ../buddypress\n"
+"X-Poedit-SearchPathExcluded-4: ../bbpress\n"
+"X-Poedit-SearchPathExcluded-5: ../woocommerce\n"
+
+#: ../404.php:10
+msgid "Page not found... Oops!"
+msgstr ""
+
+#: ../404.php:11
+msgid "Page not found. Please try using the search box below."
+msgstr ""
+
+#: ../bbpress/form-search.php:14
+msgid "Search for:"
+msgstr ""
+
+#: ../bbpress/form-search.php:16 ../searchform.php:3
+msgid "Search.."
+msgstr ""
+
+#: ../buddypress.php:10
+msgid "Member"
+msgstr ""
+
+#: ../buddypress.php:14
+msgid "Group"
+msgstr ""
+
+#: ../buddypress.php:18 ../buddypress.php:34 ../library/core.php:2373
+#: ../library/core.php:2375
+msgid "Groups"
+msgstr ""
+
+#: ../buddypress.php:22
+msgid "Settings"
+msgstr ""
+
+#: ../buddypress.php:26
+msgid "Forums"
+msgstr ""
+
+#: ../buddypress.php:30 ../buddypress.php:42
+msgid "Activity"
+msgstr ""
+
+#: ../buddypress.php:34 ../buddypress.php:38
+msgid "Create a Group"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:37
+msgid "In reply to: "
+msgstr ""
+
+#: ../buddypress/activity/entry.php:37
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:37
+msgid "View"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:60
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:68
+msgid "Favorite"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:72
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:104
+msgid "Post"
+msgstr ""
+
+#: ../buddypress/activity/entry.php:104
+msgid "or press esc to cancel."
+msgstr ""
+
+#: ../buddypress/activity/post-form.php:23
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: ../buddypress/activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: ../buddypress/activity/post-form.php:35
+msgid "Post Update"
+msgstr ""
+
+#: ../buddypress/activity/post-form.php:42
+msgid "Post in"
+msgstr ""
+
+#: ../buddypress/activity/post-form.php:45
+msgid "My Profile"
+msgstr ""
+
+#: ../buddypress/groups/create.php:29
+msgid "Group Name (required)"
+msgstr ""
+
+#: ../buddypress/groups/create.php:34
+msgid "Group Description (required)"
+msgstr ""
+
+#: ../buddypress/groups/create.php:51
+msgid "Privacy Options"
+msgstr ""
+
+#: ../buddypress/groups/create.php:55
+msgid "This is a public group"
+msgstr ""
+
+#: ../buddypress/groups/create.php:57
+msgid "Any site member can join this group."
+msgstr ""
+
+#: ../buddypress/groups/create.php:58 ../buddypress/groups/create.php:67
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: ../buddypress/groups/create.php:59
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: ../buddypress/groups/create.php:64
+msgid "This is a private group"
+msgstr ""
+
+#: ../buddypress/groups/create.php:66
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: ../buddypress/groups/create.php:68 ../buddypress/groups/create.php:77
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: ../buddypress/groups/create.php:73
+msgid "This is a hidden group"
+msgstr ""
+
+#: ../buddypress/groups/create.php:75
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: ../buddypress/groups/create.php:76
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: ../buddypress/groups/create.php:82
+msgid "Group Invitations"
+msgstr ""
+
+#: ../buddypress/groups/create.php:84
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: ../buddypress/groups/create.php:89
+msgid "All group members"
+msgstr ""
+
+#: ../buddypress/groups/create.php:94
+msgid "Group admins and mods only"
+msgstr ""
+
+#: ../buddypress/groups/create.php:99
+msgid "Group admins only"
+msgstr ""
+
+#: ../buddypress/groups/create.php:105
+msgid "Group Forums"
+msgstr ""
+
+#: ../buddypress/groups/create.php:109
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: ../buddypress/groups/create.php:112
+msgid "Enable discussion forum"
+msgstr ""
+
+#: ../buddypress/groups/create.php:116
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: ../buddypress/groups/create.php:142
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown "
+"on the main group page, and in search results."
+msgstr ""
+
+#: ../buddypress/groups/create.php:146
+msgid "Upload Image"
+msgstr ""
+
+#: ../buddypress/groups/create.php:150
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: ../buddypress/groups/create.php:157
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: ../buddypress/groups/create.php:159
+msgid "Avatar to crop"
+msgstr ""
+
+#: ../buddypress/groups/create.php:162
+msgid "Avatar preview"
+msgstr ""
+
+#: ../buddypress/groups/create.php:165
+msgid "Crop Image"
+msgstr ""
+
+#: ../buddypress/groups/create.php:204
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: ../buddypress/groups/create.php:222
+msgid "Remove Invite"
+msgstr ""
+
+#: ../buddypress/groups/create.php:239
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: ../buddypress/groups/create.php:261
+msgid "Back to Previous Step"
+msgstr ""
+
+#: ../buddypress/groups/create.php:268
+msgid "Next Step"
+msgstr ""
+
+#: ../buddypress/groups/create.php:275
+msgid "Create Group and Continue"
+msgstr ""
+
+#: ../buddypress/groups/create.php:282
+msgid "Finish"
+msgstr ""
+
+#: ../buddypress/groups/groups-loop.php:46
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: ../buddypress/groups/groups-loop.php:96
+msgid "There were no groups found."
+msgstr ""
+
+#: ../buddypress/members/index.php:15
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: ../buddypress/members/index.php:18
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: ../buddypress/members/index.php:31
+msgid "Order By:"
+msgstr ""
+
+#: ../buddypress/members/index.php:33
+msgid "Last Active"
+msgstr ""
+
+#: ../buddypress/members/index.php:34
+msgid "Newest Registered"
+msgstr ""
+
+#: ../buddypress/members/index.php:37
+msgid "Alphabetical"
+msgstr ""
+
+#: ../buddypress/members/members-loop.php:112
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:10
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:26
+#: ../buddypress/members/single/profile/edit.php:33
+#: ../buddypress/members/single/profile/edit.php:40
+#: ../buddypress/members/single/profile/edit.php:49
+#: ../buddypress/members/single/profile/edit.php:67
+#: ../buddypress/members/single/profile/edit.php:83
+#: ../buddypress/members/single/profile/edit.php:93
+msgid "(required)"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:58
+#: ../buddypress/members/single/profile/edit.php:73
+msgid "Clear"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:120
+#: ../buddypress/members/single/profile/edit.php:134
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:120
+msgid "Change"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:125
+msgid "Who can see this field?"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:130
+msgid "Close"
+msgstr ""
+
+#: ../buddypress/members/single/profile/edit.php:148
+msgid "Save Changes"
+msgstr ""
+
+#: ../comments.php:15
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:27
+msgid "No Responses"
+msgstr ""
+
+#: ../comments.php:27
+msgid "One Response"
+msgstr ""
+
+#: ../comments.php:27
+msgid "% Response"
+msgid_plural "% Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:53
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:54
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:58
+msgid "Your e-mail address will not be published."
+msgstr ""
+
+#: ../comments.php:59
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:65
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:71
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:87 ../library/core.php:4018 ../library/core.php:4072
+msgid "e-mail"
+msgstr ""
+
+#: ../comments.php:94 ../library/core.php:4019 ../library/core.php:4073
+msgid "Website"
+msgstr ""
+
+#: ../functions.php:360
+msgid ""
+"15Zine no longer requires Cubell Themes Functionality plugin, please delete "
+"it and instead install the new \"15Zine Functionality\" plugin, which can be "
+"done in Appearance -> Install Plugins."
+msgstr ""
+
+#: ../library/core.php:130
+msgid "Log in / Join"
+msgstr ""
+
+#: ../library/core.php:137
+msgid "Search"
+msgstr ""
+
+#: ../library/core.php:382
+msgid "Trending"
+msgstr ""
+
+#: ../library/core.php:389
+msgid "Now"
+msgstr ""
+
+#: ../library/core.php:389
+msgid "Week"
+msgstr ""
+
+#: ../library/core.php:389
+msgid "Month"
+msgstr ""
+
+#: ../library/core.php:467 ../library/core.php:532
+msgid "Not enough data yet, please check again later."
+msgstr ""
+
+#: ../library/core.php:472 ../library/core.php:538
+msgid ""
+"You need to install Jetpack plugin and enable the \"Stats\" module to be "
+"able to use this."
+msgstr ""
+
+#: ../library/core.php:566
+#, php-format
+msgid "Found %d result for:"
+msgid_plural "Found %d results for:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../library/core.php:589
+msgid "See all results"
+msgstr ""
+
+#: ../library/core.php:592
+msgid "No results found for:"
+msgstr ""
+
+#: ../library/core.php:1262 ../library/core.php:1417 ../library/core.php:2350
+#: ../library/core.php:2354 ../library/core.php:2355 ../library/core.php:2423
+#: ../library/core.php:2427 ../library/core.php:2429 ../library/core.php:2435
+#: ../library/core.php:2441 ../library/core.php:2447
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../library/core.php:1426
+msgid "0 Comments"
+msgstr ""
+
+#: ../library/core.php:1471 ../library/core.php:1473
+msgid "views"
+msgstr ""
+
+#: ../library/core.php:1535
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../library/core.php:1539
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../library/core.php:1584
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../library/core.php:1593
+msgid "URL"
+msgstr ""
+
+#: ../library/core.php:1600
+msgid "Navigation Label"
+msgstr ""
+
+#: ../library/core.php:1606
+msgid "Title Attribute"
+msgstr ""
+
+#: ../library/core.php:1613
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../library/core.php:1618
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../library/core.php:1624
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../library/core.php:1640
+msgid "Description"
+msgstr ""
+
+#: ../library/core.php:1642
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it. "
+msgstr ""
+
+#: ../library/core.php:1648
+msgid "Move"
+msgstr ""
+
+#: ../library/core.php:1649
+msgid "Up one"
+msgstr ""
+
+#: ../library/core.php:1650
+msgid "Down one"
+msgstr ""
+
+#: ../library/core.php:1653
+msgid "To the top"
+msgstr ""
+
+#: ../library/core.php:1660
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../library/core.php:1673
+msgid "Remove"
+msgstr ""
+
+#: ../library/core.php:1674
+msgid "Cancel"
+msgstr ""
+
+#: ../library/core.php:1865
+msgid "See all"
+msgstr ""
+
+#: ../library/core.php:2173
+msgid "No more articles"
+msgstr ""
+
+#: ../library/core.php:2174
+msgid "Load More"
+msgstr ""
+
+#: ../library/core.php:2341
+msgid "Home"
+msgstr ""
+
+#: ../library/core.php:2391 ../library/core.php:2395
+msgid "Members"
+msgstr ""
+
+#: ../library/core.php:2403
+msgid "Messages"
+msgstr ""
+
+#: ../library/core.php:2408
+msgid "Register"
+msgstr ""
+
+#: ../library/core.php:2534
+msgid "Share On"
+msgstr ""
+
+#: ../library/core.php:2660
+msgid "Next Article"
+msgstr ""
+
+#: ../library/core.php:2665
+msgid "No Newer Articles"
+msgstr ""
+
+#: ../library/core.php:2675
+msgid "Previous Article"
+msgstr ""
+
+#: ../library/core.php:2680
+msgid "No Older Articles"
+msgstr ""
+
+#: ../library/core.php:2749
+msgid "Related Posts"
+msgstr ""
+
+#: ../library/core.php:2801
+msgid "(Edit)"
+msgstr ""
+
+#: ../library/core.php:2804
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../library/core.php:3814
+msgid "Overall Score"
+msgstr ""
+
+#: ../library/core.php:3907 ../library/core.php:3917
+msgid "You have already rated"
+msgstr ""
+
+#: ../library/core.php:3911 ../library/core.php:4795
+msgid "Vote"
+msgstr ""
+
+#: ../library/core.php:3913 ../library/core.php:4797
+msgid "Votes"
+msgstr ""
+
+#: ../library/core.php:3916
+msgid "Leave rating"
+msgstr ""
+
+#: ../library/core.php:3918
+msgid "Reader Rating"
+msgstr ""
+
+#: ../library/widgets/cb-google-follow-widget.php:87
+#: ../library/widgets/cb-recent-posts-slider-widget.php:117
+#: ../library/widgets/cb-recent-posts-widget.php:116
+#: ../library/widgets/cb-reviews-widget.php:182
+#: ../library/widgets/cb-single-image-widget.php:82
+#: ../library/widgets/cb-widget-social-media.php:98
+msgid "Title:"
+msgstr ""
+
+#: ../library/widgets/cb-popular-posts-widget.php:116
+msgid "Comments"
+msgstr ""
+
+#: ../library/widgets/cb-popular-posts-widget.php:149
+msgid "Views"
+msgstr ""
+
+#: ../library/widgets/cb-recent-posts-slider-widget.php:120
+#: ../library/widgets/cb-recent-posts-widget.php:119
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../library/widgets/cb-reviews-widget.php:197
+msgid "Number of reviews to show:"
+msgstr ""
+
+#: ../page.php:53
+msgid "Tags:"
+msgstr ""
+
+#: ../search.php:10
+msgid "Search Results for"
+msgstr ""
+
+#: ../search.php:27
+msgid "Sorry, nothing found."
+msgstr ""
+
+#: ../search.php:28
+msgid "Please try searching again, but with different keywords."
+msgstr ""
+
+#: ../woocommerce/content-product.php:68
+msgid "View Details"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:27
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:27
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/single-product/meta.php:31
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/meta.php:33
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/rating.php:28
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../woocommerce/single-product/rating.php:29
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:31
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: ../woocommerce/single-product/rating.php:32
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
