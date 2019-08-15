@@ -4,8 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "171873695e58a754c8dcc84442166869",
+    "content-hash": "6699ca4ce2e2f9991c07c712945fe940",
     "packages": [
+        {
+            "name": "TMS-Plugins/wpDataTables",
+            "version": "2.3",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/TMS-Plugins-wpDataTables-2.3.zip",
+                "reference": null,
+                "shasum": "ba58bd32db9c3c2c5d03848f31c6444a08e4a12a"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "bashkarev/email",
             "version": "1.0",
@@ -333,6 +344,47 @@
                 "shasum": "8c289cd17682f333effc829e18915e9a34dd8176"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "ivome/graphql-relay-php",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivome/graphql-relay-php.git",
+                "reference": "bc5f8aae9fd72ca16decce3892ec4311e9742a93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivome/graphql-relay-php/zipball/bc5f8aae9fd72ca16decce3892ec4311e9742a93",
+                "reference": "bc5f8aae9fd72ca16decce3892ec4311e9742a93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4,<8.0-DEV",
+                "webonyx/graphql-php": ">=0.7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "A PHP port of GraphQL Relay reference implementation",
+            "homepage": "https://github.com/ivome/graphql-relay-php",
+            "keywords": [
+                "Relay",
+                "api",
+                "graphql"
+            ],
+            "time": "2016-10-29T23:29:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -1902,6 +1954,167 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "webonyx/graphql-php",
+            "version": "v0.12.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95",
+                "reference": "4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "time": "2018-09-02T14:59:54+00:00"
+        },
+        {
+            "name": "wp-graphql/wp-graphiql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphiql.git",
+                "reference": "ca78e5932c6f3dc7f170704123fd223f04b928f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphiql/zipball/ca78e5932c6f3dc7f170704123fd223f04b928f3",
+                "reference": "ca78e5932c6f3dc7f170704123fd223f04b928f3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Bahl",
+                    "email": "jasonbahl@mac.com"
+                }
+            ],
+            "description": "GraphiQL IDE in the WP-Admin. Works with the WPGraphQL plugin. https://github.com/wp-graphql/wp-graphql",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphiql/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphiql/issues"
+            },
+            "time": "2019-08-12 22:10:42"
+        },
+        {
+            "name": "wp-graphql/wp-graphql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphql.git",
+                "reference": "e86102b062fe7d1451b3724db2f975570542eb19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/e86102b062fe7d1451b3724db2f975570542eb19",
+                "reference": "e86102b062fe7d1451b3724db2f975570542eb19",
+                "shasum": ""
+            },
+            "require": {
+                "ivome/graphql-relay-php": "^0.3.1",
+                "webonyx/graphql-php": "0.12.6"
+            },
+            "require-dev": {
+                "lucatume/wp-browser": "^2.2."
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphQL\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Bahl",
+                    "email": "jasonbahl@mac.com"
+                },
+                {
+                    "name": "Edwin Cromley"
+                },
+                {
+                    "name": "Ryan Kanner"
+                },
+                {
+                    "name": "Hughie Devore"
+                },
+                {
+                    "name": "Chris Zarate"
+                }
+            ],
+            "description": "GraphQL API for WordPress",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphql/issues"
+            },
+            "time": "2019-05-25 21:46:33"
+        },
+        {
+            "name": "wp-graphql/wp-graphql-tax-query",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphql-tax-query.git",
+                "reference": "ae89b3cabfb000a3cded7abec3a2ef6299370988"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql-tax-query/zipball/ae89b3cabfb000a3cded7abec3a2ef6299370988",
+                "reference": "ae89b3cabfb000a3cded7abec3a2ef6299370988",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphQL\\TaxQuery\\": "src"
+                }
+            },
+            "description": "Adds Tax_Query support to the WP GraphQL Plugin for postObject query args (WP_Query)",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphql-tax-query/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphql-tax-query/issues"
+            },
+            "time": "2019-02-09 19:12:06"
+        },
+        {
             "name": "wpackagist-plugin/akismet",
             "version": "4.0.7",
             "source": {
@@ -2080,6 +2293,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/buddypress-docs/"
+        },
+        {
+            "name": "wpackagist-plugin/buddypress-restrict-group-creation",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-restrict-group-creation/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-restrict-group-creation.1.1.1.zip",
+                "reference": "tags/1.1.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-restrict-group-creation/"
         },
         {
             "name": "wpackagist-plugin/buddypress-sitewide-activity-widget",
@@ -2700,6 +2933,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mashsharer/"
+        },
+        {
+            "name": "wpackagist-plugin/metronet-tag-manager",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/metronet-tag-manager/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/metronet-tag-manager.1.5.4.zip",
+                "reference": "tags/1.5.4",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/metronet-tag-manager/"
         },
         {
             "name": "wpackagist-plugin/more-privacy-options",
@@ -6761,6 +7014,9 @@
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "uglyrobot/multisite-plugin-manager": 20,
+        "wp-graphql/wp-graphiql": 20,
+        "wp-graphql/wp-graphql": 20,
+        "wp-graphql/wp-graphql-tax-query": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,
         "modelm/buddypress-body-classes": 20
