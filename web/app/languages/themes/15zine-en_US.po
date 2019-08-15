@@ -393,8 +393,8 @@ msgid "Post Comment"
 msgstr ""
 
 #: ../comments.php:58
-msgid "Your e-mail address will not be published."
-msgstr ""
+msgid "Your email address will not be published."
+msgstr "Your e-mail address will not be published."
 
 #: ../comments.php:59
 msgid "Comment"
@@ -417,8 +417,8 @@ msgid "Name"
 msgstr ""
 
 #: ../comments.php:87 ../library/core.php:4018 ../library/core.php:4072
-msgid "e-mail"
-msgstr ""
+msgid "email"
+msgstr "e-mail"
 
 #: ../comments.php:94 ../library/core.php:4019 ../library/core.php:4073
 msgid "Website"
