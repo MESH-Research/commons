@@ -36,3 +36,15 @@ function hcommons_prevent_gaa_submit_hijack() {
 	}
 }
 add_action( 'admin_init', 'hcommons_prevent_gaa_submit_hijack', 5 ); // before the original action has run, so we can cancel it
+
+function modify_sitewide_plugins($value) {
+    global $current_blog;
+
+    if( '1000642' === $current_blog->blog_id ) {
+        unset($value['google-analytics-async/google-analytics-async.php']);
+    }
+
+    return $value;
+}
+
+add_filter('site_option_active_sitewide_plugins', 'modify_sitewide_plugins');
