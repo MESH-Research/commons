@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6495c5e0e2f7613f7cd0fd9cdab32ede",
+    "content-hash": "4305d19aca73146673f5b1b88be40b36",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -926,12 +926,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-notifications.git",
-                "reference": "ac409d0"
+                "reference": "92e9771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/ac409d0",
-                "reference": "ac409d0",
+                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/92e9771",
+                "reference": "92e9771",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -939,7 +939,7 @@
                 "source": "https://github.com/mlaa/hc-notifications/tree/master",
                 "issues": "https://github.com/mlaa/hc-notifications/issues"
             },
-            "time": "2018-06-14 15:57:56"
+            "time": "2019-10-30 13:29:33"
         },
         {
             "name": "mlaa/hc-protect-uploads",
@@ -7940,7 +7940,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": null,
+                "reference": "tags/1.4.1",
                 "shasum": null
             },
             "require": {
@@ -8140,7 +8140,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-export-for-bbpress.2.0.1.zip",
-                "reference": null,
+                "reference": "tags/2.0.1",
                 "shasum": null
             },
             "require": {
