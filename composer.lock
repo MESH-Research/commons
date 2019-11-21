@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "36e3c7f83bd073e8549ffe5778688986",
+    "content-hash": "6495c5e0e2f7613f7cd0fd9cdab32ede",
     "packages": [
         {
             "name": "bashkarev/email",
@@ -542,20 +542,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "eab6923"
+                "reference": "b4b262d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/eab6923",
-                "reference": "eab6923",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b4b262d",
+                "reference": "b4b262d",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/develop",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2019-06-17 18:50:34"
+            "time": "2019-10-30 19:06:40"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -698,7 +698,7 @@
                 "source": "https://github.com/mlaa/bwp-google-xml-sitemaps/tree/master",
                 "issues": "https://github.com/mlaa/bwp-google-xml-sitemaps/issues"
             },
-            "time": "2017-04-24 19:31:53"
+            "time": "2017-04-24T19:31:53+00:00"
         },
         {
             "name": "mlaa/cbox-auth",
@@ -1826,7 +1826,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-04 19:25:17"
+            "time": "2019-02-13 22:04:30"
         },
         {
             "name": "vaites/php-apache-tika",
@@ -2619,12 +2619,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "trunk"
+                "reference": "tags/5.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1528652958",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.4.zip",
+                "reference": "tags/5.9.4",
                 "shasum": null
             },
             "require": {
@@ -2914,6 +2914,26 @@
             "homepage": "https://wordpress.org/plugins/mashsharer/"
         },
         {
+            "name": "wpackagist-plugin/metronet-tag-manager",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/metronet-tag-manager/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/metronet-tag-manager.1.5.4.zip",
+                "reference": "tags/1.5.4",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/metronet-tag-manager/"
+        },
+        {
             "name": "wpackagist-plugin/more-privacy-options",
             "version": "4.6",
             "source": {
@@ -3119,12 +3139,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/printfriendly/",
-                "reference": "trunk"
+                "reference": "tags/3.14.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/printfriendly.zip?timestamp=1526036515",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/printfriendly.3.14.2.zip",
+                "reference": "tags/3.14.2",
                 "shasum": null
             },
             "require": {
@@ -3279,12 +3299,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/simple-page-tester/",
-                "reference": "trunk"
+                "reference": "tags/1.4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/simple-page-tester.zip?timestamp=1514931410",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/simple-page-tester.1.4.4.zip",
+                "reference": "tags/1.4.4",
                 "shasum": null
             },
             "require": {
@@ -3579,12 +3599,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/7.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528890128",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.7.10.13.zip",
+                "reference": "tags/7.10.13",
                 "shasum": null
             },
             "require": {
@@ -5360,7 +5380,7 @@
                 "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
                 "issues": "https://github.com/modelm/buddypress-body-classes/issues"
             },
-            "time": "2017-07-14 15:05:32"
+            "time": "2017-07-14T15:05:32+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -7854,12 +7874,12 @@
             "version": "0.14.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git",
+                "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
                 "reference": "cf6b310caad735816caef7573295f8a534374706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/cf6b310caad735816caef7573295f8a534374706",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/cf6b310caad735816caef7573295f8a534374706",
                 "reference": "cf6b310caad735816caef7573295f8a534374706",
                 "shasum": ""
             },
@@ -7920,7 +7940,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/bwp-google-xml-sitemaps.1.4.1.zip",
-                "reference": "tags/1.4.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -8120,7 +8140,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/import-export-for-bbpress.2.0.1.zip",
-                "reference": "tags/2.0.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
