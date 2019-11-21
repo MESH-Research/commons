@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "085b8739247803055dbcd91bdf9b7102",
+    "content-hash": "f9c2035f06b734478719e85bf1b079eb",
     "packages": [
         {
             "name": "TMS-Plugins/wpDataTables",
@@ -1059,20 +1059,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "f645247"
+                "reference": "de9d3ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/f645247",
-                "reference": "f645247",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/de9d3ed",
+                "reference": "de9d3ed",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/feature-turn-off-google",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2019-08-12 19:14:34"
+            "time": "2019-09-25 22:15:39"
         },
         {
             "name": "mlaa/humcore",
