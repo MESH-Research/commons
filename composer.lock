@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9c2035f06b734478719e85bf1b079eb",
+    "content-hash": "aa7fa929b10bfa48ef97caddbf91b661",
     "packages": [
         {
             "name": "TMS-Plugins/wpDataTables",
@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "de4aa1a"
+                "reference": "92fd230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/de4aa1a",
-                "reference": "de4aa1a",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/92fd230",
+                "reference": "92fd230",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1030,7 +1030,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2019-08-12 19:10:26"
+            "time": "2019-11-19 18:29:21"
         },
         {
             "name": "mlaa/hc-suggestions",
