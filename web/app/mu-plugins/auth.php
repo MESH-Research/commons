@@ -225,7 +225,7 @@ function wp_verify_nonce( $nonce, $action = -1 ) {
  *
  * @return void
  */
-function hc_add_login_redirect_script() {
+function hcommons_add_login_redirect_script() {
 	wp_parse_str( $_SERVER['QUERY_STRING'], $parsed_querystring );
 
 	$redirect_url = shibboleth_get_option( 'shibboleth_login_url' );
@@ -243,4 +243,4 @@ function hc_add_login_redirect_script() {
 		echo "<script>window.location = '$redirect_url'</script>";
 	}
 }
-add_action( 'login_enqueue_scripts', 'hc_add_login_redirect_script' );
+add_action( 'login_enqueue_scripts', 'hcommons_add_login_redirect_script' );
