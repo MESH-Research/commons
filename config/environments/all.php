@@ -111,6 +111,7 @@ define('AJS_SITE_URL', getenv('AJS_SITE_URL'));
 define('ASEEES_SITE_URL', getenv('ASEEES_SITE_URL'));
 define('CAA_SITE_URL', getenv('CAA_SITE_URL'));
 define('MLA_SITE_URL', getenv('MLA_SITE_URL'));
+define('MSU_SITE_URL', getenv('MSU_SITE_URL'));
 define('UP_SITE_URL', getenv('UP_SITE_URL'));
 define('REGISTRY_SERVER_URL', getenv('REGISTRY_SERVER_URL'));
 define('SATOSA_SERVER_URL', getenv('SATOSA_SERVER_URL'));

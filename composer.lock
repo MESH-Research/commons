@@ -4,8 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e4761ee19c83e6942d3e726842018b8",
+    "content-hash": "c7618aec87d7fce19849526688152703",
     "packages": [
+        {
+            "name": "TMS-Plugins/wpDataTables",
+            "version": "2.3",
+            "dist": {
+                "type": "zip",
+                "url": "/tmp/wordpress-packages/TMS-Plugins-wpDataTables-2.3.zip",
+                "reference": null,
+                "shasum": "ba58bd32db9c3c2c5d03848f31c6444a08e4a12a"
+            },
+            "type": "wordpress-plugin"
+        },
         {
             "name": "bashkarev/email",
             "version": "1.0",
@@ -64,7 +75,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2018-07-19 02:12:27"
+            "time": "2018-12-13 17:20:18"
         },
         {
             "name": "boonebgorges/bp-mpo-activity-filter",
@@ -335,6 +346,47 @@
             "type": "wordpress-plugin"
         },
         {
+            "name": "ivome/graphql-relay-php",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ivome/graphql-relay-php.git",
+                "reference": "bc5f8aae9fd72ca16decce3892ec4311e9742a93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ivome/graphql-relay-php/zipball/bc5f8aae9fd72ca16decce3892ec4311e9742a93",
+                "reference": "bc5f8aae9fd72ca16decce3892ec4311e9742a93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4,<8.0-DEV",
+                "webonyx/graphql-php": ">=0.7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "satooshi/php-coveralls": "~1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "A PHP port of GraphQL Relay reference implementation",
+            "homepage": "https://github.com/ivome/graphql-relay-php",
+            "keywords": [
+                "Relay",
+                "api",
+                "graphql"
+            ],
+            "time": "2016-10-29T23:29:29+00:00"
+        },
+        {
             "name": "johnpbloch/wordpress",
             "version": "4.9.7",
             "source": {
@@ -490,20 +542,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/boss-child.git",
-                "reference": "ced8ac4"
+                "reference": "b4b262d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/ced8ac4",
-                "reference": "ced8ac4",
+                "url": "https://api.github.com/repos/mlaa/boss-child/zipball/b4b262d",
+                "reference": "b4b262d",
                 "shasum": ""
             },
             "type": "wordpress-theme",
             "support": {
-                "source": "https://github.com/mlaa/boss-child/tree/master",
+                "source": "https://github.com/mlaa/boss-child/tree/develop",
                 "issues": "https://github.com/mlaa/boss-child/issues"
             },
-            "time": "2018-12-17 19:43:43"
+            "time": "2019-10-30 19:06:40"
         },
         {
             "name": "mlaa/bp-attachment-xprofile-field-type",
@@ -558,12 +610,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/bp-group-documents.git",
-                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68"
+                "reference": "6164ee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6072b5a7ceabf664e035247bc836ea90b8112d68",
-                "reference": "6072b5a7ceabf664e035247bc836ea90b8112d68",
+                "url": "https://api.github.com/repos/mlaa/bp-group-documents/zipball/6164ee7",
+                "reference": "6164ee7",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -571,7 +623,7 @@
                 "source": "https://github.com/mlaa/bp-group-documents/tree/master",
                 "issues": "https://github.com/mlaa/bp-group-documents/issues"
             },
-            "time": "2017-07-05 17:42:39"
+            "time": "2019-03-28 19:00:29"
         },
         {
             "name": "mlaa/bp-mpo-activity-filter",
@@ -807,6 +859,27 @@
             "time": "2018-06-25 13:28:22"
         },
         {
+            "name": "mlaa/faculty-child",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/faculty-child.git",
+                "reference": "e6d27c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/faculty-child/zipball/e6d27c8",
+                "reference": "e6d27c8",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/mlaa/faculty-child/tree/master",
+                "issues": "https://github.com/mlaa/faculty-child/issues"
+            },
+            "time": "2019-04-30 13:56:49"
+        },
+        {
             "name": "mlaa/hc-auth",
             "version": "dev-master",
             "source": {
@@ -833,12 +906,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-custom.git",
-                "reference": "b60202a"
+                "reference": "a169a20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/b60202a",
-                "reference": "b60202a",
+                "url": "https://api.github.com/repos/mlaa/hc-custom/zipball/a169a20",
+                "reference": "a169a20",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -846,7 +919,7 @@
                 "source": "https://github.com/mlaa/hc-custom/tree/master",
                 "issues": "https://github.com/mlaa/hc-custom/issues"
             },
-            "time": "2018-12-18 14:51:01"
+            "time": "2019-11-21 01:16:46"
         },
         {
             "name": "mlaa/hc-member-profiles",
@@ -854,12 +927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-member-profiles.git",
-                "reference": "6f2b0a8"
+                "reference": "e94b569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/6f2b0a8",
-                "reference": "6f2b0a8",
+                "url": "https://api.github.com/repos/mlaa/hc-member-profiles/zipball/e94b569",
+                "reference": "e94b569",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -867,7 +940,7 @@
                 "source": "https://github.com/mlaa/hc-member-profiles/tree/master",
                 "issues": "https://github.com/mlaa/hc-member-profiles/issues"
             },
-            "time": "2018-06-25 13:45:14"
+            "time": "2019-06-04 12:18:12"
         },
         {
             "name": "mlaa/hc-notifications",
@@ -875,12 +948,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-notifications.git",
-                "reference": "ac409d0"
+                "reference": "92e9771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/ac409d0",
-                "reference": "ac409d0",
+                "url": "https://api.github.com/repos/mlaa/hc-notifications/zipball/92e9771",
+                "reference": "92e9771",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -888,7 +961,7 @@
                 "source": "https://github.com/mlaa/hc-notifications/tree/master",
                 "issues": "https://github.com/mlaa/hc-notifications/issues"
             },
-            "time": "2018-06-14 15:57:56"
+            "time": "2019-10-30 13:29:33"
         },
         {
             "name": "mlaa/hc-protect-uploads",
@@ -938,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/hc-styles.git",
-                "reference": "e76d036"
+                "reference": "92fd230"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/e76d036",
-                "reference": "e76d036",
+                "url": "https://api.github.com/repos/mlaa/hc-styles/zipball/92fd230",
+                "reference": "92fd230",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -957,7 +1030,7 @@
                 "source": "https://github.com/mlaa/hc-styles/tree/master",
                 "issues": "https://github.com/mlaa/hc-styles/issues"
             },
-            "time": "2018-08-02 13:19:56"
+            "time": "2019-11-19 18:29:21"
         },
         {
             "name": "mlaa/hc-suggestions",
@@ -986,20 +1059,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humanities-commons.git",
-                "reference": "84400cb"
+                "reference": "de9d3ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/84400cb",
-                "reference": "84400cb",
+                "url": "https://api.github.com/repos/mlaa/humanities-commons/zipball/de9d3ed",
+                "reference": "de9d3ed",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "support": {
-                "source": "https://github.com/mlaa/humanities-commons/tree/master",
+                "source": "https://github.com/mlaa/humanities-commons/tree/feature-turn-off-google",
                 "issues": "https://github.com/mlaa/humanities-commons/issues"
             },
-            "time": "2018-11-29 02:37:17"
+            "time": "2019-09-25 22:15:39"
         },
         {
             "name": "mlaa/humcore",
@@ -1007,12 +1080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/humcore.git",
-                "reference": "f99a2b1"
+                "reference": "d032ea9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/humcore/zipball/f99a2b1",
-                "reference": "f99a2b1",
+                "url": "https://api.github.com/repos/mlaa/humcore/zipball/d032ea9",
+                "reference": "d032ea9",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1104,28 @@
                 "source": "https://github.com/mlaa/humcore/tree/master",
                 "issues": "https://github.com/mlaa/humcore/issues"
             },
-            "time": "2018-12-03 17:14:51"
+            "time": "2019-08-13 12:41:04"
+        },
+        {
+            "name": "mlaa/mailpoet",
+            "version": "dev-multisite-fix",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mailpoet.git",
+                "reference": "de7081e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mailpoet/zipball/de7081e",
+                "reference": "de7081e",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mailpoet/tree/multisite-fix",
+                "issues": "https://github.com/mlaa/mailpoet/issues"
+            },
+            "time": "2019-07-22 17:43:52"
         },
         {
             "name": "mlaa/mla-academic-interests",
@@ -1089,12 +1183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/mla-allowed-tags.git",
-                "reference": "b302f21"
+                "reference": "06bb021"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/b302f21",
-                "reference": "b302f21",
+                "url": "https://api.github.com/repos/mlaa/mla-allowed-tags/zipball/06bb021",
+                "reference": "06bb021",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
@@ -1102,7 +1196,28 @@
                 "source": "https://github.com/mlaa/mla-allowed-tags/tree/master",
                 "issues": "https://github.com/mlaa/mla-allowed-tags/issues"
             },
-            "time": "2018-05-23 16:03:27"
+            "time": "2019-05-01 13:05:10"
+        },
+        {
+            "name": "mlaa/mla-style-custom",
+            "version": "dev-hc-archive",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlaa/mla-style-custom.git",
+                "reference": "11acc6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlaa/mla-style-custom/zipball/11acc6f",
+                "reference": "11acc6f",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/mlaa/mla-style-custom/tree/hc-archive",
+                "issues": "https://github.com/mlaa/mla-style-custom/issues"
+            },
+            "time": "2019-08-13 17:04:52"
         },
         {
             "name": "mlaa/password-protected",
@@ -1219,16 +1334,16 @@
         },
         {
             "name": "mlaa/style-center",
-            "version": "dev-master",
+            "version": "dev-hc-archive",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mlaa/style-center.git",
-                "reference": "72b9134"
+                "reference": "68dbd97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlaa/style-center/zipball/72b9134",
-                "reference": "72b9134",
+                "url": "https://api.github.com/repos/mlaa/style-center/zipball/68dbd97",
+                "reference": "68dbd97",
                 "shasum": ""
             },
             "require": {
@@ -1240,10 +1355,10 @@
                 "All rights reserved"
             ],
             "support": {
-                "source": "https://github.com/mlaa/style-center/tree/master",
+                "source": "https://github.com/mlaa/style-center/tree/hc-archive",
                 "issues": "https://github.com/mlaa/style-center/issues"
             },
-            "time": "2018-12-11 20:08:42"
+            "time": "2019-04-23 12:07:40"
         },
         {
             "name": "mmlc/lesmiserables-wordpress-theme",
@@ -1391,6 +1506,17 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "r-a-y/bbp-live-preview",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:r-a-y/bbp-live-preview.git",
+                "reference": "c735802"
+            },
+            "type": "wordpress-plugin",
+            "time": "2018-12-06 15:37:35"
         },
         {
             "name": "r-a-y/bp-rbe-inbound-forum-attachments",
@@ -1721,7 +1847,7 @@
                 "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2018-01-04 19:25:17"
+            "time": "2019-02-13 22:04:30"
         },
         {
             "name": "vaites/php-apache-tika",
@@ -1826,6 +1952,167 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "webonyx/graphql-php",
+            "version": "v0.12.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95",
+                "reference": "4c545e5ec4fc37f6eb36c19f5a0e7feaf5979c95",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "time": "2018-09-02T14:59:54+00:00"
+        },
+        {
+            "name": "wp-graphql/wp-graphiql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphiql.git",
+                "reference": "ca78e5932c6f3dc7f170704123fd223f04b928f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphiql/zipball/ca78e5932c6f3dc7f170704123fd223f04b928f3",
+                "reference": "ca78e5932c6f3dc7f170704123fd223f04b928f3",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Bahl",
+                    "email": "jasonbahl@mac.com"
+                }
+            ],
+            "description": "GraphiQL IDE in the WP-Admin. Works with the WPGraphQL plugin. https://github.com/wp-graphql/wp-graphql",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphiql/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphiql/issues"
+            },
+            "time": "2019-08-12 22:10:42"
+        },
+        {
+            "name": "wp-graphql/wp-graphql",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphql.git",
+                "reference": "e86102b062fe7d1451b3724db2f975570542eb19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/e86102b062fe7d1451b3724db2f975570542eb19",
+                "reference": "e86102b062fe7d1451b3724db2f975570542eb19",
+                "shasum": ""
+            },
+            "require": {
+                "ivome/graphql-relay-php": "^0.3.1",
+                "webonyx/graphql-php": "0.12.6"
+            },
+            "require-dev": {
+                "lucatume/wp-browser": "^2.2."
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphQL\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Bahl",
+                    "email": "jasonbahl@mac.com"
+                },
+                {
+                    "name": "Edwin Cromley"
+                },
+                {
+                    "name": "Ryan Kanner"
+                },
+                {
+                    "name": "Hughie Devore"
+                },
+                {
+                    "name": "Chris Zarate"
+                }
+            ],
+            "description": "GraphQL API for WordPress",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphql/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphql/issues"
+            },
+            "time": "2019-05-25 21:46:33"
+        },
+        {
+            "name": "wp-graphql/wp-graphql-tax-query",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphql-tax-query.git",
+                "reference": "ae89b3cabfb000a3cded7abec3a2ef6299370988"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql-tax-query/zipball/ae89b3cabfb000a3cded7abec3a2ef6299370988",
+                "reference": "ae89b3cabfb000a3cded7abec3a2ef6299370988",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphQL\\TaxQuery\\": "src"
+                }
+            },
+            "description": "Adds Tax_Query support to the WP GraphQL Plugin for postObject query args (WP_Query)",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphql-tax-query/tree/master",
+                "issues": "https://github.com/wp-graphql/wp-graphql-tax-query/issues"
+            },
+            "time": "2019-02-09 19:12:06"
         },
         {
             "name": "wpackagist-plugin/akismet",
@@ -2008,6 +2295,26 @@
             "homepage": "https://wordpress.org/plugins/buddypress-docs/"
         },
         {
+            "name": "wpackagist-plugin/buddypress-restrict-group-creation",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/buddypress-restrict-group-creation/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-restrict-group-creation.1.1.1.zip",
+                "reference": "tags/1.1.1",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/buddypress-restrict-group-creation/"
+        },
+        {
             "name": "wpackagist-plugin/buddypress-sitewide-activity-widget",
             "version": "1.3.2",
             "source": {
@@ -2017,7 +2324,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/buddypress-sitewide-activity-widget.1.3.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/buddypress-sitewide-activity-widget.1.3.2.zip",
                 "reference": "tags/1.3.2",
                 "shasum": null
             },
@@ -2077,7 +2384,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/commons-in-a-box.1.0.17.zip",
+                "url": "https://downloads.wordpress.org/plugin/commons-in-a-box.1.0.14.zip",
                 "reference": "tags/1.0.14",
                 "shasum": null
             },
@@ -2333,12 +2640,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/events-manager/",
-                "reference": "trunk"
+                "reference": "tags/5.9.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/events-manager.zip?timestamp=1528652958",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/events-manager.5.9.4.zip",
+                "reference": "tags/5.9.4",
                 "shasum": null
             },
             "require": {
@@ -2397,7 +2704,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2017.1020.zip",
+                "url": "https://downloads.wordpress.org/plugin/feedwordpress.2016.1213.zip",
                 "reference": "tags/2016.1213",
                 "shasum": null
             },
@@ -2457,7 +2764,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gd-bbpress-attachments.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/gd-bbpress-attachments.2.5.zip",
                 "reference": "tags/2.5",
                 "shasum": null
             },
@@ -2628,6 +2935,26 @@
             "homepage": "https://wordpress.org/plugins/mashsharer/"
         },
         {
+            "name": "wpackagist-plugin/metronet-tag-manager",
+            "version": "1.5.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/metronet-tag-manager/",
+                "reference": "tags/1.5.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/metronet-tag-manager.1.5.4.zip",
+                "reference": "tags/1.5.4",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/metronet-tag-manager/"
+        },
+        {
             "name": "wpackagist-plugin/more-privacy-options",
             "version": "4.6",
             "source": {
@@ -2757,7 +3084,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/options-framework.1.8.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/options-framework.1.8.5.zip",
                 "reference": "tags/1.8.5",
                 "shasum": null
             },
@@ -2833,12 +3160,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/printfriendly/",
-                "reference": "trunk"
+                "reference": "tags/3.14.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/printfriendly.zip?timestamp=1526036515",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/printfriendly.3.14.2.zip",
+                "reference": "tags/3.14.2",
                 "shasum": null
             },
             "require": {
@@ -3273,12 +3600,12 @@
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-google-maps/",
-                "reference": "trunk"
+                "reference": "tags/7.10.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.zip?timestamp=1528890128",
-                "reference": "trunk",
+                "url": "https://downloads.wordpress.org/plugin/wp-google-maps.7.10.13.zip",
+                "reference": "tags/7.10.13",
                 "shasum": null
             },
             "require": {
@@ -3477,7 +3804,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hitchcock.1.13.zip",
+                "url": "https://downloads.wordpress.org/theme/hitchcock.1.06.zip",
                 "reference": "1.06",
                 "shasum": null
             },
@@ -3557,7 +3884,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/portfolio-press.2.7.3.zip",
+                "url": "https://downloads.wordpress.org/theme/portfolio-press.2.7.2.zip",
                 "reference": "2.7.2",
                 "shasum": null
             },
@@ -3617,7 +3944,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/radcliffe.1.21.zip",
+                "url": "https://downloads.wordpress.org/theme/radcliffe.1.17.zip",
                 "reference": "1.17",
                 "shasum": null
             },
@@ -3657,7 +3984,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/sparkling.2.4.3.zip",
+                "url": "https://downloads.wordpress.org/theme/sparkling.2.3.2.zip",
                 "reference": "2.3.2",
                 "shasum": null
             },
@@ -3677,7 +4004,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/suits.1.4.zip",
+                "url": "https://downloads.wordpress.org/theme/suits.1.3.zip",
                 "reference": "1.3",
                 "shasum": null
             },
@@ -3697,7 +4024,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.8.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyeleven.2.5.zip",
                 "reference": "2.5",
                 "shasum": null
             },
@@ -3757,7 +4084,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.6.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.1.zip",
                 "reference": "1.1",
                 "shasum": null
             },
@@ -3777,7 +4104,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.5.zip",
+                "url": "https://downloads.wordpress.org/theme/twentysixteen.1.3.zip",
                 "reference": "1.3",
                 "shasum": null
             },
@@ -3797,7 +4124,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyten.2.5.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyten.2.2.zip",
                 "reference": "2.2",
                 "shasum": null
             },
@@ -3817,7 +4144,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentythirteen.2.4.zip",
+                "url": "https://downloads.wordpress.org/theme/twentythirteen.2.1.zip",
                 "reference": "2.1",
                 "shasum": null
             },
@@ -3837,7 +4164,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentytwelve.2.5.zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwelve.2.2.zip",
                 "reference": "2.2",
                 "shasum": null
             },
@@ -3857,7 +4184,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/vantage.1.7.6.zip",
+                "url": "https://downloads.wordpress.org/theme/vantage.1.5.8.zip",
                 "reference": "1.5.8",
                 "shasum": null
             },
@@ -4433,7 +4760,7 @@
                 "source": "https://github.com/modelm/buddypress-body-classes/tree/master",
                 "issues": "https://github.com/modelm/buddypress-body-classes/issues"
             },
-            "time": "2017-07-14 15:05:32"
+            "time": "2017-07-14T15:05:32+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5119,6 +5446,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2016-12-08T20:27:08+00:00"
         },
         {
@@ -6337,12 +6665,12 @@
             "version": "0.14.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git",
+                "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
                 "reference": "cf6b310caad735816caef7573295f8a534374706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress-Coding-Standards/WordPress-Coding-Standards/zipball/cf6b310caad735816caef7573295f8a534374706",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/cf6b310caad735816caef7573295f8a534374706",
                 "reference": "cf6b310caad735816caef7573295f8a534374706",
                 "shasum": ""
             },
@@ -6659,6 +6987,7 @@
         "mlaa/commentpress-mla-digitalpedagogy": 20,
         "mlaa/commentpress-mla-groups": 20,
         "mlaa/elasticpress-buddypress": 20,
+        "mlaa/faculty-child": 20,
         "mlaa/hc-auth": 20,
         "mlaa/hc-custom": 20,
         "mlaa/hc-member-profiles": 20,
@@ -6669,9 +6998,11 @@
         "mlaa/hc-suggestions": 20,
         "mlaa/humanities-commons": 20,
         "mlaa/humcore": 20,
+        "mlaa/mailpoet": 20,
         "mlaa/mla-academic-interests": 20,
         "mlaa/mla-admin-bar": 20,
         "mlaa/mla-allowed-tags": 20,
+        "mlaa/mla-style-custom": 20,
         "mlaa/password-protected": 20,
         "mlaa/plugin-monitor": 20,
         "mlaa/profession-theme": 20,
@@ -6679,9 +7010,13 @@
         "mlaa/sparkpost": 20,
         "mlaa/sparkpost-bp-mailer": 20,
         "mlaa/style-center": 20,
+        "r-a-y/bbp-live-preview": 20,
         "r-a-y/bp-rbe-inbound-forum-attachments": 20,
         "r-a-y/bp-rbe-new-topic": 20,
         "uglyrobot/multisite-plugin-manager": 20,
+        "wp-graphql/wp-graphiql": 20,
+        "wp-graphql/wp-graphql": 20,
+        "wp-graphql/wp-graphql-tax-query": 20,
         "wpackagist-plugin/feedwordpress": 0,
         "clorith/wordpress-debug-bar-template-trace": 20,
         "modelm/buddypress-body-classes": 20
