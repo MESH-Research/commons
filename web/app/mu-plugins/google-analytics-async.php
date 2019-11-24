@@ -47,4 +47,3 @@ function modify_sitewide_plugins($value) {
     return $value;
 }
 add_filter('site_option_active_sitewide_plugins', 'modify_sitewide_plugins');
-
