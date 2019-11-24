@@ -226,6 +226,16 @@ function hcommons_set_shibboleth_based_user_meta( $user ) {
 	}
 	$result = update_user_meta( $user_id, 'shib_title', maybe_serialize( $shib_title_updated ) );
 
+	$login_method = Humanities_Commons::hcommons_get_identity_provider( false );
+	if ( $login_method ) {
+		$user_login_methods = (array) maybe_unserialize( get_usermeta( $user_id, 'saml_login_methods', true ) );
+		if ( ! in_array( $_SERVER['HTTP_IDPDISPLAYNAME'], $user_login_methods ) ) {
+			$user_login_methods[] = $_SERVER['HTTP_IDPDISPLAYNAME'];
+			$result = update_user_meta( $user_id, 'saml_login_methods', maybe_serialize( $user_login_methods ) );
+		}
+	} else {
+		hcommons_write_error_log( 'info', '****HTTP_IDPDISPLAYNAME NOT SET****-' );
+	}
 	$shib_uid = $_SERVER['HTTP_UID'];
 	if ( false === strpos( $shib_uid, ';' ) ) {
 		$shib_uid_updated = $shib_uid;
