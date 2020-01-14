@@ -30,6 +30,9 @@ function hcommons_wp_footer() {
 		$main_site_domain = Humanities_Commons::$main_site->domain;
 		$society_id       = Humanities_Commons::$society_id;
 		$root_url         = 'https://' . $main_site_domain;
+		
+		if ( 'msu' === $society_id ) 
+		    return;
 
 		$society_url = sprintf(
 			'https://%s%s',
