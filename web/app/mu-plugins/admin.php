@@ -15,3 +15,11 @@ function hcommons_wp_is_large_network( $is_large_network ) {
 	return $is_large_network;
 }
 add_filter( 'wp_is_large_network', 'hcommons_wp_is_large_network' );
+
+if ( 0 !== strcasecmp( $current_blog->domain, $current_site->domain ) ) {
+	
+	    // disable forcing of network admin domain checking
+            add_filter('redirect_network_admin_request', function(){
+                return false;
+            });
+}
