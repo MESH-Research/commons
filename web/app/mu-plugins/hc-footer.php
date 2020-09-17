@@ -13,10 +13,12 @@ function hcommons_wp_footer() {
 		$society_blog_ids = [
 			constant( 'HC_ROOT_BLOG_ID' ),
 			constant( 'AJS_ROOT_BLOG_ID' ),
+			constant( 'ARLISNA_ROOT_BLOG_ID' ),
 			constant( 'ASEEES_ROOT_BLOG_ID' ),
 			constant( 'CAA_ROOT_BLOG_ID' ),
 			constant( 'MLA_ROOT_BLOG_ID' ),
 			constant( 'MSU_ROOT_BLOG_ID' ),
+			constant( 'SAH_ROOT_BLOG_ID' ),
 			constant( 'UP_ROOT_BLOG_ID' ),
 		];
 
