@@ -18,6 +18,7 @@ function hcommons_wp_footer() {
 			constant( 'CAA_ROOT_BLOG_ID' ),
 			constant( 'MLA_ROOT_BLOG_ID' ),
 			constant( 'MSU_ROOT_BLOG_ID' ),
+			constant( 'SAH_ROOT_BLOG_ID' ),
 			constant( 'UP_ROOT_BLOG_ID' ),
 		];
 
