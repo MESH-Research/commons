@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-[ ] Add to an appropriate Epic.
+- [ ] Add to an appropriate Epic.
 
 Tester (if different from issue creator): 
 Site: 
