@@ -9,9 +9,8 @@ assignees: bjr70, mikethicke
 
 - [ ] Add to an appropriate Epic
 
-Commons:
-Support team member:
 Date first reported: 
+Date requested for completion:
 Site: 
 Area (CORE, profiles, sites, groups, account ): 
 
