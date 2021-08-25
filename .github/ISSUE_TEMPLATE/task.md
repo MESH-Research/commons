@@ -2,7 +2,7 @@
 name: Task
 about: New development or work request
 title: ''
-labels: Task
+labels: ''
 assignees: bjr70, mikethicke
 
 ---

@@ -2,7 +2,7 @@
 name: Generic Task
 about: New development or work request
 title: ''
-labels: Task
+labels: Generic Task
 assignees: bjr70, mikethicke
 
 ---
