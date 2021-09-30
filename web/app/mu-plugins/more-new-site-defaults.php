@@ -14,7 +14,9 @@ namespace MESHResearch\HumanitiesCommons\MoreNewSiteDefaults;
 
 add_action( 'wpmu_options', __NAMESPACE__ . '\add_options_to_network_settings', 10, 0 );
 add_action( 'update_wpmu_options', __NAMESPACE__ . '\update_network_settings_options', 10, 0 );
-add_action( 'wp_insert_site', __NAMESPACE__ . '\set_new_blog_defaults', 10, 2 );
+
+// Re: hook & priority, see: https://developer.wordpress.org/reference/hooks/wp_insert_site/#comment-4878
+add_action( 'wp_initialize_site', __NAMESPACE__ . '\set_new_blog_defaults', 900, 2 );
 
 /**
  * Add options to network settings.
@@ -106,13 +108,14 @@ function update_network_settings_options() {
 /**
  * Sets default site options upon site creation.
  *
- * Called by 'wp_insert_site' action hook.
+ * Called by 'wp_initialize_site' action hook.
  * @see wp-includes/ms-site.php
+ * @link https://developer.wordpress.org/reference/hooks/wp_initialize_site/
  *
  * @param \WP_SITE $new_site
  */
 function set_new_blog_defaults( $new_site ) {
-	switch_to_blog( $new_site->ID );
+	switch_to_blog( $new_site->blog_id );
 
 	$options = [
 		'default_close_comments_for_old_posts' => 'close_comments_for_old_posts',
