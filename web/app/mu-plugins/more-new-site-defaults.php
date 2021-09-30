@@ -23,7 +23,7 @@ add_action( 'wp_initialize_site', __NAMESPACE__ . '\set_new_blog_defaults', 900,
  *
  * Adds the following options:
  *  - default_close_comments_for_old_posts bool Whether sites should close comments on old posts by defualt.
- *  - default_close_comments_days_old      bool Days after which comments are closed on posts.
+ *  - default_close_comments_days_old      int  Days after which comments are closed on posts.
  *
  * Called by 'wpmu_options' action hook.
  * @see wp-admin/network/settings.php
