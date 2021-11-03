@@ -16,6 +16,8 @@ $_SERVER['HTTPS']='on';
 define('FORCE_SSL_ADMIN', true);
 
 
+define( 'JETPACK_STAGING_MODE', true );
+
 /**
  * Multisite
  */
@@ -239,3 +241,11 @@ define('CORE_EZID_PATH', getenv('CORE_EZID_PATH'));
 define('CORE_EZID_LOGIN', getenv('CORE_EZID_LOGIN'));
 define('CORE_EZID_PASSWORD', getenv('CORE_EZID_PASSWORD'));
 define('CORE_EZID_PREFIX', getenv('CORE_EZID_PREFIX'));
+define('CORE_DATACITE_PROTOCOL', getenv('CORE_DATACITE_PROTOCOL'));
+define('CORE_DATACITE_HOST', getenv('CORE_DATACITE_HOST'));
+define('CORE_DATACITE_PORT', getenv('CORE_DATACITE_PORT'));
+define('CORE_DATACITE_PATH', getenv('CORE_DATACITE_PATH'));
+define('CORE_DATACITE_LOGIN', getenv('CORE_DATACITE_LOGIN'));
+define('CORE_DATACITE_PASSWORD', getenv('CORE_DATACITE_PASSWORD'));
+define('CORE_DATACITE_PREFIX', getenv('CORE_DATACITE_PREFIX'));
+

@@ -2,7 +2,8 @@
 /* Development */
 
 /* Debug log */
-define('WP_DEBUG', true);
+if( ! defined('$_SERVER["HTTP_HOST"]') ) define('WP_DEBUG', false);
+if( ! defined( 'WP_DEBUG') ) define('WP_DEBUG', true);
 define('WP_DEBUG_DISPLAY', false);
 define('SAVEQUERIES', true);
 define('SCRIPT_DEBUG', true);
