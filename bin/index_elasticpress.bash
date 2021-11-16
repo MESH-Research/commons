@@ -19,8 +19,6 @@ all_networks_wp=/home/ubuntu/all_networks_wp.bash
 if [[ "$1" = "setup" ]]
 then
   $all_networks_wp elasticpress index --setup --yes --show-errors
-else
-  $all_networks_wp elasticpress index
 fi
 $wp elasticpress-buddypress index_from_all_networks --post-type=humcore_deposit
 $all_networks_wp elasticpress-buddypress index
