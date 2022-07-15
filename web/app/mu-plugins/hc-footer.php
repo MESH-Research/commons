@@ -71,9 +71,9 @@ function hcommons_wp_footer() {
 		printf(
 			'<a href="%2$s">Terms of Service</a>%1$s<a href="%3$s">Privacy Policy</a>%1$s<a href="%4$s">Guidelines for Participation</a>',
 			'<span style="margin:0 1em"></span>',
-			esc_url( $root_url . '/terms/' ),
-			esc_url( $root_url . '/privacy/' ),
-			esc_url( $root_url . '/guidelines/' )
+			esc_url( 'https://sustaining.hcommons.org/policies/terms/' ),
+			esc_url( 'https://sustaining.hcommons.org/policies/privacy/' ),
+			esc_url( 'https://sustaining.hcommons.org/policies/guidelines/' )
 		);
 
 		// Close #hcommons-network-footer.
