@@ -76,6 +76,11 @@ define('PLUGINDIR', 'app/plugins');
 define('NOBLOGREDIRECT', getenv('WP_HOME'));
 
 /**
+ * BuddyPress Reply By Email
+ */
+define( 'BP_RBE_DEBUG_LOG_PATH', '/srv/www/commons/logs/bp-rbe.log');
+
+/**
  * Akismet
  */
 define('WPCOM_API_KEY', getenv('WPCOM_API_KEY'));
@@ -169,6 +174,11 @@ define('TWITTER_IDP_URL', getenv('TWITTER_IDP_URL'));
 define('MLA_IDP_URL', getenv('MLA_IDP_URL'));
 define('HC_IDP_URL', getenv('HC_IDP_URL'));
 define('REGISTRY_SP_URL', getenv('REGISTRY_SP_URL'));
+define('HASTAC_SITE_URL', getenv('HASTAC_SITE_URL'));
+define('HASTAC_ENROLLMENT_URL', getenv('HASTAC_ENROLLMENT_URL'));
+define('HASTAC_ACCOUNT_LINK_URL', getenv('HASTAC_ACCOUNT_LINK_URL'));
+define('HASTAC_ORCID_USER_ACCOUNT_LINK_URL', getenv('HASTAC_ORCID_USER_ACCOUNT_LINK_URL'));
+define('HASTAC_ROOT_BLOG_ID', getenv('HASTAC_ROOT_BLOG_ID'));
 
 /**
  * COMANAGE API
